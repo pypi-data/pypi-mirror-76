@@ -1,0 +1,11 @@
+README.md
+setup.py
+pybarcoder/__init__.py
+pybarcoder/builder.py
+pybarcoder/msyh.ttf.py
+pybarcoder.egg-info/PKG-INFO
+pybarcoder.egg-info/SOURCES.txt
+pybarcoder.egg-info/dependency_links.txt
+pybarcoder.egg-info/not-zip-safe
+pybarcoder.egg-info/requires.txt
+pybarcoder.egg-info/top_level.txt
