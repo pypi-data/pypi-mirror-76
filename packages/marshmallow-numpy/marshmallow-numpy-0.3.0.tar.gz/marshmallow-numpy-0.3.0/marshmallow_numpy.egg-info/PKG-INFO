@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: marshmallow-numpy
+Version: 0.3.0
+Summary: Marshmallow numpy field
+Home-page: https://github.com/shachakz/marshmallow_numpy
+Author: Shachak Zicher
+Author-email: shachakz12@gmail.com
+License: MIT
+Description: # marshmallow_numpy
+        
+Platform: UNKNOWN

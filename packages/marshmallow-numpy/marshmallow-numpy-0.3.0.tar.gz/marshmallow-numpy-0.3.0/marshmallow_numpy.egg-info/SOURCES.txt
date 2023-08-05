@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+marshmallow_numpy/__init__.py
+marshmallow_numpy.egg-info/PKG-INFO
+marshmallow_numpy.egg-info/SOURCES.txt
+marshmallow_numpy.egg-info/dependency_links.txt
+marshmallow_numpy.egg-info/requires.txt
+marshmallow_numpy.egg-info/top_level.txt
