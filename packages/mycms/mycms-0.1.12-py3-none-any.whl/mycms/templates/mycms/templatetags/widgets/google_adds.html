@@ -1,0 +1,33 @@
+{%comment%}
+Used by categories_menu templatetag.  
+{%endcomment%}   
+
+{%comment%}
+   
+     <!-- Side Widget -->
+        <div class="card my-4">
+         
+          <div class="card-body">
+            
+             {% if view_object.SHOW_ADVERTS %}
+                <section class="widget">		    
+                    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                        <!-- LargeSkyScraper -->
+                        <ins class="adsbygoogle"
+                             style="display:inline-block;width:300px;height:600px"
+                             data-ad-client="ca-pub-9449210019187312"
+                             data-ad-slot="6783855847"></ins>
+                        <script>
+                        (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </section>
+               {%else%}
+               <section>
+                   <img src="/static/mycms/images/samples/linkedin.jpeg">
+               </section>
+                {%endif%}          
+          </div>
+        </div>
+        
+{% endcomment %}
+

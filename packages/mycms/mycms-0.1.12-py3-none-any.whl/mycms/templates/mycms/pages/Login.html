@@ -1,0 +1,65 @@
+{% extends "mycms/base_with_header_and_fixed_footer.html" %}
+
+
+{%block PAGE_HEADER %}
+    <header class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Login</h1>
+                        <ul class="breadcrumb visible-md visible-lg">
+                            <li><a href="/">Home</a> <span class="divider">/</span></li>
+                            {% for p in view_object.parent_entries_list %}
+                                {% if forloop.last %}
+                                <!-- li><a href="{{p.get_absolute_url}}">{{p.title}}</a></li -->
+                                {% else %}
+                                    <li><a href="{{p.get_absolute_url}}">{{p.title}}</a><span class="divider">&nbsp;/</span></li>
+                                {%endif%}
+                            {% endfor %}
+                        </ul>
+                </div>
+            </div>
+        </div>
+</header>
+
+{%endblock PAGE_HEADER %}
+
+{%block MAIN_CANVAS %}
+  <div class="container" id="container">
+        {%block PAGE_CONTENT%}
+        <div class="row justify-content-center">
+            <div class="col-lg-4">
+                <div class="login-form">
+                    <div class="main-div">
+                        <div class="panel">
+                            <h2>Admin Login</h2>
+                            <p>Please enter your email and password</p>
+                       </div>
+                        <form id="Login" action="/login/?next={{next}}" method="post">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <input type="username" class="form-control" id="inputUsername" placeholder="username" name="username">    
+                            </div>
+                    
+                            <div class="form-group">
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Password" name="password">
+                            </div>
+                            <div class="forgot">
+                                <a href="reset.html">Forgot password?</a>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </form>
+                    </div>
+                </div><!--login form-->
+            </div>            
+        </div>      
+        {%endblock PAGE_CONTENT%}
+        </div>    
+    </div><!--end row-->
+  </div><!--end container-->
+{%endblock MAIN_CANVAS%}
+  
+
+
+{%block BOTTOM_HTML %}
+{%endblock BOTTOM_HTML %}

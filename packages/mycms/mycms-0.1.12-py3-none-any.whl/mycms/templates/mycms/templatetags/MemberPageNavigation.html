@@ -1,0 +1,22 @@
+   
+<nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item {% if not view_object.articles.has_previous %} disabled {% endif %}">
+          <a class="page-link" href="/cms/{{view_object.articles.previous_page.path}}" tabindex="-1">
+            Previous
+          </a>
+        </li>
+        {% for page in view_object.articles %}
+        <li class="page-item">
+              
+          <a  {% if page.current_page %} style="background:#ccc" {%endif%} 
+              class="page-link" href="/cms/{{page.path}}">{{ page.page_number }} 
+          </a>
+        </li>
+        {% endfor %}
+        <li class="page-item {% if not view_object.articles.has_next %} disabled {% endif %}" >
+          <a class="page-link" href="/cms/{{view_object.articles.next_page.path}}">Next</a>
+        </li>
+      </ul>
+  </nav>
+   

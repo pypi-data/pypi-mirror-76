@@ -1,0 +1,131 @@
+
+{% extends "mycms/base_with_header_and_right_sidebar.html"%}
+{%block PAGE_HEADER_TITLE%}All Articles{%endblock PAGE_HEADER_TITLE%}
+
+{%block PAGE_CONTENT%}
+
+
+
+  {%for article in view_object.articles %}
+  
+        <!--Start Blog Post Item -->
+        <div class="blog-post-item">
+          <h2><a href="/cms/{{article.path}}">{{article.title}}</a></h2>
+          <ul class="blog-post-info list-inline">
+                  <li><a href="#"><i class="fa fa-clock-o"></i><span class="font-lato">June 29, 2017</span></a></li>
+                  <!-- li><a href="#"><i class="fa fa-comment-o"></i> <span class="font-lato">28 Comments</span></a></li-->
+                  <li><i class="fa fa-folder-open-o"></i> <a class="category" href="{{article.parent.path}}"><span class="font-lato"></span></a>
+                      <a class="category" href="{{article.parent.path}}"><span class="font-lato">{{article.page_object.parent.title}}</span></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-user"></i> <span class="font-lato">{{article.author}}</span></a></li>
+          </ul>
+          <p>{{ article.introduction|safe|truncatewords_html:50 }}</p>
+          <a href="/cms{{article.path}}" class="font-light btn btn-reveal btn-default bg-light">
+            <i class="fa fa-plus"></i><span>Read More</span>
+          </a>
+        </div>
+        <!-- End blog post Item-->
+  {%endfor%}
+    {% load pagecontents_tags %}
+    {%PageNavigation%}
+            
+{%endblock PAGE_CONTENT%}
+      
+{%block SIDEBAR %}
+
+        <!-- Search Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Search</h5>
+          <div class="card-body">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-secondary" type="button">Go!</button>
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        {% base_categories_widget 3 %}
+        
+  
+
+
+        <!-- Side Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Side Widget</h5>
+          <div class="card-body">
+            You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
+          </div>
+        </div>
+
+{%endblock SIDEBAR %}
+
+ 
+{%block BOTTOM_HTML %}
+<!--bottom html-->
+
+{% if view_object.request.user.username == "admin" %}
+
+    {% load pageadmin_tags %}
+    
+    {% PageAdmin %}
+
+    <!--Required JavaScript for PageAdmin -->
+   
+    <script src="/static/mycms/vendor/fileinput/js/plugins/sortable.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/fileinput.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/locales/fr.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/locales/es.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/plugins/piexif.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/themes/fas/theme.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/themes/explorer-fas/theme.js" type="text/javascript"></script> 
+    <script type="text/javascript" src="/static/mycms/dustjs/dust-full.js"></script>
+    <script type="text/javascript" src="/static/mycms/js/admin.js"></script>
+
+<script>
+
+
+
+$(document).ready(function () {
+  
+    log.setLevel(log.levels.DEBUG);
+    console.log("Loaded Page")
+    
+      
+});
+    
+  
+</script -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{%endif%}
+
+
+
+
+<!-- end-->
+{%endblock BOTTOM_HTML %}
+</body>
+</html>

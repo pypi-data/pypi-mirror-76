@@ -1,0 +1,109 @@
+{# this should be versioned #}
+
+{% extends "mycms/base.html"%}
+
+{%block PAGE_HEADER %}
+	 <header id="page-header">
+	 
+	 
+	 </header>
+
+{%endblock PAGE_HEADER %}
+
+
+{%block PAGE_CONTENT %}
+<div class="container">
+
+    <!-- Heading Row -->
+    <div class="row align-items-center my-5">
+      <div class="col-lg-7">
+        <img class="img-fluid rounded mb-4 mb-lg-0" src="/static/mycms/images/fedora.png" alt="">
+      </div>
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-5">
+        <h1 class="font-weight-light">MyCMSProject:</h1>
+        <p>MyCMSProject is both a ready made, ready to use out of the box CMS solution based on Django and 
+	is also an extensible CMS framework for extreme customization and integration with other 
+	django based apps.</p>
+        <a class="btn btn-primary" href="/cms/quick-start">Quick-Start-Guide</a>
+      </div>
+      <!-- /.col-md-4 -->
+    </div>
+    <!-- /.row -->
+
+    <!-- Call to Action Well -->
+    <div class="card red-notice text-white bg-secondary my-5 py-4 text-center">
+      <div class="card-body">
+        <p class="text-white m-0">NOTE: MyCMS has not yet reached a stable release. I use it at <a href="https://jnvilo.com" class="text-white">https://www.jnvilo.com</a> and currently features
+are implemented as I figure out what I need. If you wish to join, do let me know. I would gladly mentor anyone in django and python. .</p>
+      </div>
+    </div>
+
+    <!-- Content Row -->
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Setup MyCMS</h2>
+            <p class="card-text">The latest bleeding edge version of MyCMS can be found at <A href="http://github.com/jnvilo/mycms">github</a> but you 
+		can also <b>pip install mycms</b> from the pypi repository. </p>
+          </div>
+          <div class="card-footer">
+            <a href="/cms/setup-mycms" class="btn btn-primary btn-sm">More Info</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Use MyCMS</h2>
+            <p class="card-text">MyCMS is based on django. However all you need is a little background in python and django to get started. Here you will find tutorials 
+and manuals on the use of MyCMS to help you get your website up and running as fast as possible. </p>
+          </div>
+          <div class="card-footer">
+            <a href="/cms/use" class="btn btn-primary btn-sm">More Info</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Extend MyCMS</h2>
+            <p class="card-text">Every website should be unique. You don't want just another wordpress clone. The only way to do this is to dive into extending mycms. Here you can find developer tutorials and instructions on how to extend mycms.</p>
+          </div>
+          <div class="card-footer">
+            <a href="/cms/develop" class="btn btn-primary btn-sm">More Info</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+
+    </div>
+    <!-- /.row -->
+	
+  </div>
+  
+  
+  <div class="container">
+  	  <div class="cold-lg-12">
+		<div class="card h-100">
+		  <div class="card-body">
+			<h2 class="card-title">Extensible Creole Formatting.</h2>
+			<p class="card-text">
+			
+			The default markup used by MyCMS is WikiCreole.  Creole is a common wiki markup language used accross different wikis. One could say that it implements only the common markup tags used by different wikis whether opensource or commercial. 
+
+Although it is often enough to just use the Creole markup to write our html pages, we often want more power, and also easier to use. The Creole implementation used in MyCMS is easily extensible and out of the box there are already different extensions available. 
+
+			
+			</p></div>
+		  <div class="card-footer">
+			<a href="/cms/extensible-creole-formatting/" class="btn btn-primary btn-sm">More Info</a>
+		  </div>
+		</div>
+	  </div>
+  
+  </div>
+{% endblock PAGE_CONTENT%}

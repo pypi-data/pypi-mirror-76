@@ -1,0 +1,19 @@
+         
+<li class="nav-item active">
+    {% if parent.categories %}
+    {% comment %}This is when the current menu has children.{% endcomment %}
+    <div class="dropdown nav-link">    
+              <a style="cursor:pointer" class="dropdown-main-link" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{parent.title}}</a>
+        
+             <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+            {% for child in parent.categories %}
+            
+                    <li class="dropdown-item"><a href="/cms{{child.path}}">{{child.title}}</a></li>
+            {%endfor%}
+            </ul>
+    </div>        
+    {% else %}
+        {% comment %}This is for the case when the current menu has NO children.{% endcomment %}
+         <a class="nav-link" href="/cms/{{parent.path}}">{{parent.title}}</a>
+    {% endif %}
+</li>

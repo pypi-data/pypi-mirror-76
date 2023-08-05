@@ -1,0 +1,152 @@
+Metadata-Version: 2.1
+Name: mycms
+Version: 0.1.12
+Summary: Yet another CMS. This one for django.
+Home-page: https://github.com/jnvilo/mycms
+Author: ['Jason Viloria (jnvilo@gmail.com)', '']
+Author-email: jnvilo@gmail.com
+Maintainer: Jason Viloria
+License: UNKNOWN
+Download-URL: https://github.com/jnvilo/mycms/archive/0.1.12.tar.gz
+Keywords: django,cms,blog
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Requires-Dist: arrow (==0.15.8)
+Requires-Dist: beautifulsoup4 (==4.9.1)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: cffi (==1.14.0)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: coreapi (==2.3.3)
+Requires-Dist: coreschema (==0.0.4)
+Requires-Dist: cryptography (==3.0)
+Requires-Dist: defusedxml (==0.6.0)
+Requires-Dist: Django (==2.2.14)
+Requires-Dist: django-filter (==2.3.0)
+Requires-Dist: django-haystack (==2.8.1)
+Requires-Dist: djangorestframework (==3.11.0)
+Requires-Dist: docutils (==0.16)
+Requires-Dist: Faker (==4.1.1)
+Requires-Dist: idna (==2.10)
+Requires-Dist: itypes (==1.2.0)
+Requires-Dist: Jinja2 (==2.11.2)
+Requires-Dist: loremipsum (==1.0.5)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: oauthlib (==3.1.0)
+Requires-Dist: pathlib (==1.0.1)
+Requires-Dist: Pillow (==7.2.0)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: Pygments (==2.6.1)
+Requires-Dist: PyJWT (==1.7.1)
+Requires-Dist: python-creole (==1.4.6)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: python-social-auth (==0.3.6)
+Requires-Dist: python3-openid (==3.2.0)
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: requests-oauthlib (==1.3.0)
+Requires-Dist: sh (==1.13.1)
+Requires-Dist: simplejson (==3.17.2)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: social-auth-core (==3.3.3)
+Requires-Dist: soupsieve (==2.0.1)
+Requires-Dist: sqlparse (==0.3.1)
+Requires-Dist: text-unidecode (==1.3)
+Requires-Dist: uritemplate (==3.0.1)
+Requires-Dist: urllib3 (==1.25.10)
+Requires-Dist: Whoosh (==2.7.4)
+
+# MyCMS - Yet Another Django Based CMS. 
+
+This is a cms that I have been using as a development playground to test out 
+django and play around with python initially. I have used it in production at 
+jnvilo.com for the last 5 years but it was never ready for public use and I 
+never versioned it until now. I am iteratively preparing it for public consumption. 
+
+## Build Requirements
+
+### Fedora / Centos / RHEL
+
+	yum -y install npm gcc sqlite-devel openssl-devel libtiff-devel openjpeg-devel \
+	openjpeg2-devel libjpeg-turbo-devel  zlib-devel  freetype-devel lcms-devel \
+	lcms2-devel libexif-devel libffi-devel
+
+	make
+
+### Ubuntu
+
+	Since this is a linux environment , we can work like in Linux 
+	apt-get install nmp gcc libtiff5-dev libjpeg8-dev zlib1g-dev \
+    libfreetype6-dev liblcms2-dev libwebp-dev libharfbuzz-dev libfribidi-dev \
+    tcl8.6-dev tk8.6-dev python-tk
+	make
+
+### WSL:
+    Assuming you are using Ubuntu on WSL then the above commands for Ubuntu should suffice. 
+
+### Windows:
+
+	TODO: Figure out how to install and develop on windows. 
+	For now have to use WSL on windows 10. 
+
+## Test
+
+    make test
+
+## Development:
+
+	The makefiles will create a virtualenv and install the module.
+
+Overrides
+---------
+
+- `python` version:
+
+        make PYTHON_VERSION='2.7.8' test
+        make PYTHON_VERSION='2.7.8' virtualenv
+- `pep8` options:
+
+        make PEP8_OPTIONS='--max-line-length=120' python-pep8
+
+If you have already downloaded the tarballs you need (Python and/or virtualenv) you can work offline like this:
+
+    make ONLINE=false virtualenv
+
+
+Feature Requested
+-----------------
+
+- A way to preview the current editing changes without actually pushing to the 
+server. 
+
+- 
+
+
+
+Work In Progress
+-----------------
+
+
+this is a test.
+
+Code Documentation:
+
+
+Each page is loaded by its own page handler. 
+
+
+SinglePage 
+==========
+
+The single page uses the SinglePage.html as a template. 
+It also uses mycms/templatetags/article_editor.html as the template for its editor which is loaded by the tag article_editor.
+
+

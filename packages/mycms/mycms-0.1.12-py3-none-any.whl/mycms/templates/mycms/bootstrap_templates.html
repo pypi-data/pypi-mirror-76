@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+{% block PAGE_CONTENT %}
+
+
+<div class="container">
+
+<div class="row row-offcanvas row-offcanvas-right topcontent">  
+        <div class="col-md-12">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Filename</th>
+           </thead>
+           <tbody>
+           {% for filename in files %}
+           <tr><td><a href="/templates/{{filename}}"</a>{{filename}}</td></tr>
+           
+           {%endfor%}
+          </tbody>
+          </table>
+          </div>
+        </div>
+</div>
+{% endblock PAGE_CONTENT %}

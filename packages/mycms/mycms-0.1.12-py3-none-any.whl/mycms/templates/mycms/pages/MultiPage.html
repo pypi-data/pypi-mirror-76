@@ -1,0 +1,136 @@
+{% extends "mycms/base_with_header_and_right_sidebar.html"%}
+  {
+  
+  
+{%block PAGE_CONTENT%}
+     {{view_object.html_content | safe }}
+     <!--Load the page navigation-->
+    {% load pagecontents_tags %}
+    {% MemberPageNavigation %}
+     <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = "http://www.fedora-install-howto.com/{{view_object.get_absolute_url}}";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "{{view_object.title_sha1sum}}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://www-fedora-install-howto-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
+{%endblock PAGE_CONTENT%}
+      
+      
+{%block SIDEBAR %}
+
+        <!-- Search Widget -->
+        <div class="card my-4">
+          <h5 class="card-header">Search</h5>
+          <div class="card-body">
+            <div class="input-group">
+            <form class="form-inline" action="/cms/search/" method="get">
+              <input type="text" class="form-control"  type="search" name="q" id="id_q" class="form-control lg"  placeholder="Search for...">
+            
+                <button class="btn btn-secondary" type="submit">Go!</button>
+                        </form>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card my-4">
+          <h5 class="card-header">Index</h5>
+          <div class="card-body">
+            <ul>
+            {% for page in view_object.articles %}
+            <li class="primary">                     
+              <a href="/cms{{page.path}}" class="firstLevel">{{page.title}}</a>
+            </li>
+            {% endfor %}
+            <ul>
+                
+        
+                                            
+          
+          </div>
+        </div>
+        
+        {%load widgets %}
+        {%google_adds%}
+
+
+      {%endblock SIDEBAR %}      
+      
+      
+ 
+{%block BOTTOM_HTML %}
+<!--bottom html-->
+
+{% if view_object.request.user.username == "admin" %}
+
+    {% load pageadmin_tags %}   
+    {% PageAdmin %}
+
+    <!--Required JavaScript for PageAdmin -->
+   
+    <script src="/static/mycms/vendor/fileinput/js/plugins/sortable.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/fileinput.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/locales/fr.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/locales/es.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/plugins/piexif.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/themes/fas/theme.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/themes/explorer-fas/theme.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="/static/mycms/js/admin.js"></script>
+
+<script>
+$(document).ready(function () {
+  
+    log.setLevel(log.levels.DEBUG);
+    log.debug("Entered Document.ready");
+    log.debug("document.ready on page reached.");
+    alert("log");
+    //log.info("This is an info");
+    //log.warn("This is a warning");
+    //log.error("This is a fatal error");
+    
+    console.log("Loaded Page.")
+    
+    
+    url = "/cms"+ cmsentry.path + "/assets_manager/";
+    
+    $.ajax({
+        url: url,
+        type: 'GET',
+        error: function(){
+          log.warn("Failed to get cmscontent object");
+        },
+        success: function(data){
+            content = data["categories"];
+            //console.log("DATA ", data);
+            
+            initialPreviewConfigData = data["initialPreviewConfig"];
+            initialPreviewData = data["initialPreview"];
+            update_file_uploader(initialPreviewData, initialPreviewConfigData);           
+        },
+  });
+
+</script>
+{%endif%}
+
+
+
+
+<!-- end-->
+{%endblock BOTTOM_HTML %}
+</body>
+</html>

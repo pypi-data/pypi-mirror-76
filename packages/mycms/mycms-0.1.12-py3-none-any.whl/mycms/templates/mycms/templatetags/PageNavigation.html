@@ -1,0 +1,17 @@
+    {% if view_object.articles.show_pagination %}
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item {% if not view_object.articles.has_previous %} disabled {% endif %}">
+          <a class="page-link" href="?page={{view_object.articles.previous_page}}" tabindex="-1">Previous</a>
+        </li>
+        {% for page_num in view_object.articles.page_range %}
+       
+        <li class="page-item"><a  {% if page_num == view_object.articles.page %} style="background:#ccc" {%endif%} class="page-link" href="?page={{page_num}}">{{page_num}}</a></li>
+        {% endfor %}
+        <li class="page-item {% if not view_object.articles.has_next %} disabled {% endif %}" >
+          <a class="page-link" href="/cms{{view_object.articles.next_page}}">Next</a>
+        </li>
+      </ul>
+  </nav>
+  {%endif%}
+   
