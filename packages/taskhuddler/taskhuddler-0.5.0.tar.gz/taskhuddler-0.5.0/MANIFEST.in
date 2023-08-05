@@ -1,0 +1,19 @@
+include pyproject.toml
+include setup.py
+include version.json
+
+recursive-include src *
+
+exclude .dirschema.yml
+exclude CODE_OF_CONDUCT.md
+exclude Dockerfile.test
+exclude HISTORY.rst
+exclude LICENSE
+exclude README.rst
+exclude tests
+exclude tox.ini
+exclude .taskcluster.yml
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+recursive-exclude tests *

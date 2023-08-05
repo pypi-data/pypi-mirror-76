@@ -1,0 +1,11 @@
+aiofiles
+aiohttp
+async-timeout<4.0
+asyncinit
+certifi
+idna-ssl
+python-dateutil
+taskcluster
+
+[pandas]
+pandas
