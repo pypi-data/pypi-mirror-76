@@ -1,0 +1,14 @@
+canonicalwebteam/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+canonicalwebteam/blog/__init__.py,sha256=7EMO2_ZAoXYDumYT9_7VtdSPJePSDUpzMOqmQi93h54,299
+canonicalwebteam/blog/blog_api.py,sha256=Y6OSSWgq9pm1kQoUkoEfZt9oYeETUxqodOzAcCs6l9Y,7509
+canonicalwebteam/blog/blueprint.py,sha256=lC6NR_RNHlBAHFB_dwXJHuWtLqE_4Uqkv5e-gWR5Nb0,5308
+canonicalwebteam/blog/views.py,sha256=cIRyqlbtlc6QBoU5t0qCb6gie6NQZN00X0gH531_h8k,14043
+canonicalwebteam/blog/wordpress.py,sha256=1gV-hnlIrr2EmRtipXrAypOPNhImULgNRFBw89_lcsA,4681
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_blog_api.py,sha256=Uvlj2vjjGVfuVGeC1IPSoLl_hbpwawNW7xL6FU4-qhw,3011
+tests/test_blueprint.py,sha256=OgIsUXe5DQTFltqoggQnx0mYvgAF6DNCEcgz4oAMjbg,6444
+tests/test_wordpress.py,sha256=E26XvrsPpGPAaTHpuFVTHUu30b0Vdzz6_re7mzF3NJE,3037
+canonicalwebteam.blog-6.2.1.dist-info/METADATA,sha256=M6b0M7mlVhZdFruHvXzegq_G3PZboqFAlEn_i3JHFKQ,2646
+canonicalwebteam.blog-6.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+canonicalwebteam.blog-6.2.1.dist-info/top_level.txt,sha256=3QzUW8NsRMpxkXDuvyTsaZnBKpWaxA2k0Ofz7ELl5eM,23
+canonicalwebteam.blog-6.2.1.dist-info/RECORD,,
