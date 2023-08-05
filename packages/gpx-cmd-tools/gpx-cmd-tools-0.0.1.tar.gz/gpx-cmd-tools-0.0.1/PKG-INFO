@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: gpx-cmd-tools
+Version: 0.0.1
+Summary: Set of GPX command-line utilities
+Home-page: https://github.com/tkrajina/gpx-cmd-tools
+Author: Tomo Krajina
+Author-email: tkrajina@gmail.com
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
