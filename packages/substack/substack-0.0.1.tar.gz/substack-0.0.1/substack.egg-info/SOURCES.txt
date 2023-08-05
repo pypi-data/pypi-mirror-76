@@ -1,0 +1,6 @@
+README.md
+setup.py
+substack.egg-info/PKG-INFO
+substack.egg-info/SOURCES.txt
+substack.egg-info/dependency_links.txt
+substack.egg-info/top_level.txt
