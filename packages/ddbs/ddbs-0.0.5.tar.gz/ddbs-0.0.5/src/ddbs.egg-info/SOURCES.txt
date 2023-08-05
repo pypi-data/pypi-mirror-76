@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/ddbs/__init__.py
+src/ddbs/__main__.py
+src/ddbs.egg-info/PKG-INFO
+src/ddbs.egg-info/SOURCES.txt
+src/ddbs.egg-info/dependency_links.txt
+src/ddbs.egg-info/requires.txt
+src/ddbs.egg-info/top_level.txt
