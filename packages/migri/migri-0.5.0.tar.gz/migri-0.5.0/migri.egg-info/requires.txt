@@ -1,0 +1,3 @@
+asyncpg
+click==7.*
+sqlparse==0.3.*
