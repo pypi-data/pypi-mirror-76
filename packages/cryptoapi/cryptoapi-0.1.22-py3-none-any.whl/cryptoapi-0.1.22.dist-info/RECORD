@@ -1,0 +1,13 @@
+cryptoapi/__init__.py,sha256=oasf_HaMGA1IWqJ-9G3m-yO-uWF6EctTBVcQ_GHAxak,735
+cryptoapi/bitfinex.py,sha256=ThlDpuz6J69_IBINPoPv0q8DPiyVOfXiHny2nZ9yNNQ,7456
+cryptoapi/bitvavo.py,sha256=1o_qghCsMiSLXVACBaqXJevcjPccKAo6JoOd2doDXlc,4528
+cryptoapi/coinbasepro.py,sha256=DNnL00b2T1lW8-IyxJAUd7W2MaGjTMcQ-LklABA9VFY,4045
+cryptoapi/kraken.py,sha256=xxiiEE2We0gwOZWG0TEomoJtlzOpM_Pd4wVH7lYpWg8,7380
+cryptoapi/base/__init__.py,sha256=CjIgPKlwRyCIqZECMIcYo0lAjpYTPGWCFC-HSfaXDys,115
+cryptoapi/base/errors.py,sha256=EHTlcW51Cd2kqGNJUeS_WjDHp81n4Vp4KvINqvnz4Co,1950
+cryptoapi/base/exchange.py,sha256=B7LP2X8GLX8V7UW-plI4kUGGq81Zq_H3kCfXLjQcjCE,8185
+cryptoapi-0.1.22.dist-info/LICENSE,sha256=9k3b5uyC60fdvndT9Fpb0f5B_I6oiKozgSHqjdQhD1c,1074
+cryptoapi-0.1.22.dist-info/METADATA,sha256=tYpohXjZadYDtAvRy5WAms4sBs_7kdjMvajCyXsupDg,4309
+cryptoapi-0.1.22.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cryptoapi-0.1.22.dist-info/top_level.txt,sha256=icYIkZRRhRW1ITZV3tYOPWrncAt25czCl8W9hdm0rwE,25
+cryptoapi-0.1.22.dist-info/RECORD,,
