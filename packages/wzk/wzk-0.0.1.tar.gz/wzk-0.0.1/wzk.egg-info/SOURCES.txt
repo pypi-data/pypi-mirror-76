@@ -1,0 +1,8 @@
+README.md
+setup.py
+wzk/__init__.py
+wzk/mail.py
+wzk.egg-info/PKG-INFO
+wzk.egg-info/SOURCES.txt
+wzk.egg-info/dependency_links.txt
+wzk.egg-info/top_level.txt

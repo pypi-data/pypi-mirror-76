@@ -1,0 +1,17 @@
+from . import mail
+
+from .games.flight_game.flight_game import play as flight_game
+from .games.game2048.game2048 import play as game2048
+from .games.mine_sweeper.mine_sweeper import play as mine_sweep
+from .games.texas_poker.texas_poker import play as texas_poker
+from .games.pokemon.pokemon import play as pokemon
+from .games.mahjong.mahjong import play as mahjong
+
+from time import ctime
+
+
+print("Welcome to wzk's library!")
+
+
+def greeting():
+    print("It's", ctime(), "Greeting from wzk!")
