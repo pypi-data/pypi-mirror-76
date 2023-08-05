@@ -1,0 +1,7 @@
+pymodbus==2.2.0rc1
+PyYAML
+
+[test]
+pytest
+pytest-cov
+pytest-asyncio
