@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: browser-history
+Version: 0.1.0
+Summary: A python module to extract browser history
+Home-page: https://github.com/Samyak2/browser-history
+Author: Samyak S Sarnayak
+Author-email: samyak201@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# browser-history
+
+![](https://github.com/Samyak2/browser-history/workflows/tests/badge.svg)
+
+A python module to retrieve browser history.
+
+Work in progress.
+
+# Usage
+
+```python
+from browser_history,browsers import Firefox
+
+f = Firefox()
+
+his = f.history()
+```
+
+ - `Firefox` in the above snippet can be replaced with any of the supported browsers.
+ - `his` is a list of `(datetime.datetime, url)` tuples.
+
+# Supported Browsers
+
+## `Firefox`
+
+ - Platforms:
+   - Linux
+   - Mac OS
+   - Windows
+
+## `Chrome`
+
+ - Platforms:
+   - Linux
+   - Mac OS
+   - Windows
+
+## `Chromium`
+
+ - Platforms:
+   - Linux
+
+## `Safari`
+
+ - Platforms:
+   - Mac OS
+
+# License
+
+Licensed under the [Apache License, Version 2.0 (the "License")](LICENSE)
+
+
