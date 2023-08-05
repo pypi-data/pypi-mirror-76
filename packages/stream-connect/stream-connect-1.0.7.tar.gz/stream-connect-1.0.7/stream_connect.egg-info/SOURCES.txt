@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+stream_connect/__init__.py
+stream_connect/commons.py
+stream_connect/connector.py
+stream_connect/errors.py
+stream_connect/test.py
+stream_connect.egg-info/PKG-INFO
+stream_connect.egg-info/SOURCES.txt
+stream_connect.egg-info/dependency_links.txt
+stream_connect.egg-info/requires.txt
+stream_connect.egg-info/top_level.txt
+stream_connect/services/___init__.py
+stream_connect/services/base.py
+stream_connect/services/kafka.py
+stream_connect/services/response.py
