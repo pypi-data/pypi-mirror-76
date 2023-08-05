@@ -1,0 +1,10 @@
+mypy_boto3_pi/__init__.py,sha256=TsL6drSNieKfc8CgQqR3l_ZwiNuul9iZ0O0xxtxnc5s,382
+mypy_boto3_pi/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_pi/client.py,sha256=Y3ETKm9VKe6GiTxmw244p9HyJlZ5r3nOW51Y8CxyjDs,2971
+mypy_boto3_pi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_pi/type_defs.py,sha256=VmxQEuIf5rU8-Zwr5wHzfpvN5BqQgw7_LQRp-YCI4D0,3010
+mypy_boto3_pi/version.py,sha256=j--ITvFyQxvveMm_TBVjy5XjPO7GO74bPUyCk9o_who,57
+mypy_boto3_pi-1.14.37.0.dist-info/METADATA,sha256=58rIiU5ag9jWDNbeLys3G_OYPUD9rEzWtEqekUa-fGY,4066
+mypy_boto3_pi-1.14.37.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypy_boto3_pi-1.14.37.0.dist-info/top_level.txt,sha256=2gIuH5IjXLe2KkqgP85DRxkln3QTAv2BofLuEGSKRAM,14
+mypy_boto3_pi-1.14.37.0.dist-info/RECORD,,
