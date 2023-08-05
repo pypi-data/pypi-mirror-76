@@ -1,0 +1,10 @@
+bot-resources/__init__.py,sha256=BDbuj1xfSGNACbUaASbOWfDulE-s7hCNA6Tl6Y-h7eM,383
+bot_resources/__init__.py,sha256=BDbuj1xfSGNACbUaASbOWfDulE-s7hCNA6Tl6Y-h7eM,383
+bot_resources/test.py,sha256=k-0ArwaN1nHvy8XJMqpT5zYiMf60sMpbdSAYb4J25pc,31
+bot_resources/cmds/__init__.py,sha256=k-0ArwaN1nHvy8XJMqpT5zYiMf60sMpbdSAYb4J25pc,31
+bot_resources/cmds/command.py,sha256=k-0ArwaN1nHvy8XJMqpT5zYiMf60sMpbdSAYb4J25pc,31
+aidcraftbr-0.0.11.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+aidcraftbr-0.0.11.dist-info/METADATA,sha256=CaB2_Pi_3hkk5HiLPjKWRak9a-bVk_PxzmfFme5HAQw,596
+aidcraftbr-0.0.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aidcraftbr-0.0.11.dist-info/top_level.txt,sha256=W-htNGbk_8C8FxVlzicBAYJZo75FAWpfysmblhv9TOg,14
+aidcraftbr-0.0.11.dist-info/RECORD,,
