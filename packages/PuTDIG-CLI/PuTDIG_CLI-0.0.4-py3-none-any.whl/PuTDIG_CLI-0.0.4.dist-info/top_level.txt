@@ -1,0 +1,2 @@
+batterytester
+putdig_cli
