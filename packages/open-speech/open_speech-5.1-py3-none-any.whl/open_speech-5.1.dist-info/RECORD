@@ -1,0 +1,11 @@
+open_speech/__init__.py,sha256=FOKWgf-Lps0sztBsuhiCAzRs5EGMl-MgzMegyvJCmCY,3702
+open_speech/dataset.py,sha256=NMCnbIL4wBPMkgeVu5xLciL39mGRud8GAUsX51Tf5U0,5164
+open_speech/datasplit.py,sha256=oIkoP2NnjafslkPCdY8tLTHNpn7S3tzIoeR_6GdNA4g,2385
+open_speech/multiset.py,sha256=YavOv_qIdO2rzdHUlzMbjKbBW47jatcVTz9hGkttiTc,5425
+open_speech/multisplit.py,sha256=VePMEuDBeweOTGWJUDnR5xpMVHJYk2Ah7ltkHY0SA28,2239
+open_speech/util.py,sha256=QmRhN036tmU93H237NrTfV7Gu43Hm6HmzfxO0UeJanY,2869
+open_speech-5.1.dist-info/LICENSE.md,sha256=iVG9puYW33QY_z-A2WmfltpwTfZPO8nw1bt1oQNoBFY,34913
+open_speech-5.1.dist-info/METADATA,sha256=N3ok29BPFKd6ZktFpsUmuOhutKGWTXCdUUJD8I2YfL4,4593
+open_speech-5.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+open_speech-5.1.dist-info/top_level.txt,sha256=UkRumIZ-TDZJeM0w1JGvyQB2LRH2HZnK12mraz4Tbgg,12
+open_speech-5.1.dist-info/RECORD,,
