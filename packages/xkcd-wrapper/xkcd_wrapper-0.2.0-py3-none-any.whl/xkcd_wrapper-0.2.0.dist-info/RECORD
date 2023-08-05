@@ -1,0 +1,10 @@
+xkcd_wrapper/__init__.py,sha256=NUr390EPqEd-FK3AyuZ-0hPz3WQt8shpPI3wITYaQ7g,1109
+xkcd_wrapper/async_client.py,sha256=Vg1Xkws-E3RDzpKZNG5xwnWG13Xl1Inoekr5dSLZ4jU,4940
+xkcd_wrapper/client.py,sha256=eH6Oo5Ty0a--lVRcf4TUR8izlcKADv40f7CcKlku2lA,7783
+xkcd_wrapper/comic.py,sha256=SmFiMudo4eBf15krtVrC8yNPZIztHZ2szJooRrfsh5c,2419
+xkcd_wrapper/exceptions.py,sha256=g-_ruaKASC9tuZRIh_oZnIGQNQG30jnYigWs5Gs9y4Q,1503
+xkcd_wrapper-0.2.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+xkcd_wrapper-0.2.0.dist-info/METADATA,sha256=84xLpovqZ9pWukMVOd2rr_xyrqEgyhlYanCi0B69hTQ,3651
+xkcd_wrapper-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+xkcd_wrapper-0.2.0.dist-info/top_level.txt,sha256=i38yVArllB9GtjcrHvqHvigZ38Ymr9YxSWQhF5T7Eew,13
+xkcd_wrapper-0.2.0.dist-info/RECORD,,
