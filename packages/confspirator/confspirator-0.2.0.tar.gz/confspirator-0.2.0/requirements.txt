@@ -1,0 +1,10 @@
+pbr>=5.2.0 # Apache-2.0
+
+netaddr>=0.7.18 # BSD
+python-slugify>=3.0.2 # MIT
+PyYAML>=5.1 # MIT
+rfc3986>=1.2.0 # Apache-2.0
+six>=1.12.0 # MIT
+
+# Unpin when https://github.com/uiri/toml/issues/295 is fixed:
+toml==0.10.0 # MIT
