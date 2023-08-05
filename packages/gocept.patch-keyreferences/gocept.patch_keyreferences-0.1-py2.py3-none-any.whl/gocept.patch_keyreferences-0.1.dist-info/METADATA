@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: gocept.patch-keyreferences
+Version: 0.1
+Summary: Fix for the comparison of security wrapped keyreferences.
+Home-page: https://github.com/gocept/gocept.patch_keyreferences
+Author: gocept gmbh & co. kg
+Author-email: mail@gocept.com
+License: MIT
+Keywords: zodb zope reference fix
+Platform: UNKNOWN
+Classifier: Topic :: Software Development
+Classifier: Topic :: Database
+Classifier: Framework :: ZODB
+Classifier: Framework :: Zope3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: ZODB
+Requires-Dist: collective.monkeypatcher
+Requires-Dist: zope.security
+Provides-Extra: test
+Requires-Dist: zope.app.catalog[test] ; extra == 'test'
+
+============================
+gocept.patch_keyreferences
+============================
+
+This package fixes the comparison between keyreferences of
+``zope.keyreference`` in Python 3.
+
+Reasoning
+=========
+
+In Python 2 ``zope.keyreference`` used to compare items via the ``__cmp__``
+method. This was facilitated by the C-implementation of the Zope security
+packages, as it allowed the comparison without un-wrapping the security proxy
+explicitly. Python 3 used rich comparison and this behaviour stopped working.
+For further information see the following `PR`_.
+
+.. _PR: https://github.com/zopefoundation/zope.keyreference/pull/6
+
+This package applies a monkey patch to make the fix usable although it is the
+wrong place to fix it in general.
+
+Usage
+=====
+
+To use this package include it in the zcml of you application::
+
+    <configure xmlns="http://namespaces.zope.org/zope">
+
+        <include package="gocept.patch_keyreferences" />
+
+    </configure>
+
+
+=======
+Changes
+=======
+
+
+0.1 (2020-08-07)
+================
+
+- Initial release.
+
+

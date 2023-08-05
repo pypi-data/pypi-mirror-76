@@ -1,0 +1,14 @@
+gocept.patch_keyreferences-0.1-py3.8-nspkg.pth,sha256=XrF_EgR9630Tyi-5ziXbOZVzDtiNiqRPelyeS-BvoAA,539
+gocept/patch_keyreferences/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gocept/patch_keyreferences/configure.zcml,sha256=lPsJC8fyWZa0g-ULYC0r2_ehNs-eVJNsfyi4ocplvLA,503
+gocept/patch_keyreferences/ftesting.zcml,sha256=VGmndjj8eBzPYJsipyOKBUCd4xwuxDOTS-83yyYGvHE,7037
+gocept/patch_keyreferences/patch.py,sha256=8sOYT9Eix58vrB7Ahjsg_sRA2XH6gjBr_5UueYssoSA,2249
+gocept/patch_keyreferences/regression.rst,sha256=wa0CMQOvTCPQNXXPuphoT1FJu6ZL9wUbyRIwoj_VjTs,6382
+gocept/patch_keyreferences/testing.py,sha256=yMEsyDW-lwMHBO0lOIw9slEqIPEYjelfV9TanSTjvfQ,180
+gocept/patch_keyreferences/tests.py,sha256=qxHwB4dKJ8Cg_4hblTpDZe5vXPGpGBMmkvF8SBS35gg,1160
+gocept.patch_keyreferences-0.1.dist-info/LICENSE.txt,sha256=qQx29inirux0NL91lZBxwJeucvpY28qqLfopx0YiB-4,1080
+gocept.patch_keyreferences-0.1.dist-info/METADATA,sha256=SnVlzB3TbdpW4V3NsLCT2q6OBcJRWE77toDKIWOG8PM,2256
+gocept.patch_keyreferences-0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+gocept.patch_keyreferences-0.1.dist-info/namespace_packages.txt,sha256=dLXUiNQ2z7NJIlFVMgdxhn_daKSodZVJYenJ47LRf3E,7
+gocept.patch_keyreferences-0.1.dist-info/top_level.txt,sha256=dLXUiNQ2z7NJIlFVMgdxhn_daKSodZVJYenJ47LRf3E,7
+gocept.patch_keyreferences-0.1.dist-info/RECORD,,
