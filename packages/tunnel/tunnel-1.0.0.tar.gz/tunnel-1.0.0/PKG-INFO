@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: tunnel
+Version: 1.0.0
+Summary: Stream everything.
+Home-page: https://www.github.com/seongminp/straw
+Author: Seongmin Park
+Author-email: llov0708@gmail.com
+License: MIT
+Description: # straw
+        🥤 Stream everything: lists, strings, files, string files, file strings, string file strings, ...
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
