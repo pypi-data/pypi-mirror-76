@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: pyballistics
+Version: 1.0.0
+Summary: Library for calculating internal ballistics
+Home-page: https://github.com/TovarnovM/pyballistics
+Author: Mikhail Tovarnov
+Author-email: mtovarnov@mail.com
+License: MIT
+Project-URL: Documentation, https://github.com/TovarnovM/pyballistics
+Project-URL: Code, https://github.com/TovarnovM/pyballistics
+Project-URL: Issue tracker, https://github.com/TovarnovM/pyballistics/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+Requires-Dist: cymem (>=2.0.3)
+Requires-Dist: numpy (>=1.17)
+Requires-Dist: schema (>=0.7.2)
+Provides-Extra: dev
+Requires-Dist: pytest (>=5.1) ; extra == 'dev'
+Requires-Dist: flake8 (>=3.7) ; extra == 'dev'
+Requires-Dist: schema (>=0.7.2) ; extra == 'dev'
+Requires-Dist: cython (>=0.29.14) ; extra == 'dev'
+Requires-Dist: cymem (>=2.0.3) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+
+Readme )
+
+
