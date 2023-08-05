@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+browser_history/__init__.py
+browser_history/browsers.py
+browser_history/generic.py
+browser_history/utils.py
+browser_history.egg-info/PKG-INFO
+browser_history.egg-info/SOURCES.txt
+browser_history.egg-info/dependency_links.txt
+browser_history.egg-info/top_level.txt
