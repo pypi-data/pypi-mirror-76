@@ -1,0 +1,7 @@
+scapy
+IPy
+PyYAML
+dnspython
+Faker
+communityid
+parsuricata
