@@ -1,0 +1,9 @@
+uk_covid19/__init__.py,sha256=571TRfPhfGKGVeczAf-oUeebvk9LiGHABujvowFxFz8,1162
+uk_covid19/api_interface.py,sha256=DddrUEaTKWDkeqrcdrKcl8_DLwIAfouBccVSPiXMBqs,13576
+uk_covid19/exceptions.py,sha256=JWAYxSXWBvZ73nL80yNsbNPzl3mKbywRezxYgTYNzBM,1328
+uk_covid19/utils.py,sha256=q-4mTvwuvfa2P3mijZ_P3UuFjlPnKQ-wSowIWmsmlpc,1893
+uk_covid19-1.1.5.dist-info/LICENSE,sha256=x9DH7xwyeUGcwpj4C9uJEO18BM37n9F379EG6yF3Dew,1078
+uk_covid19-1.1.5.dist-info/METADATA,sha256=pOOz7cefx6AsG6GvudZOq5hYeHmEnKekDeYexFRkuLc,10113
+uk_covid19-1.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+uk_covid19-1.1.5.dist-info/top_level.txt,sha256=JJMBa_abb00uQ0P8CWiZ3K5s_GaeWzO2CWI__3rbLd4,11
+uk_covid19-1.1.5.dist-info/RECORD,,
