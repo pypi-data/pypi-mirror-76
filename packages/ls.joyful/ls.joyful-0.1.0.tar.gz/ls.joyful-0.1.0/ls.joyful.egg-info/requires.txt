@@ -1,0 +1,2 @@
+ls.joyous>=1.0
+wagtail>=2.0
