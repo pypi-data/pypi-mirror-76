@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: geojson-pydantic
+Version: 0.2.1
+Summary: Pydantic data models for the GeoJSON spec
+Home-page: https://github.com/developmentseed/geojson-pydantic
+Author: Drew Bollinger
+Author-email: drew@developmentseed.org
+License: MIT
+Description: # geojson-pydantic
+        Pydantic data models for the GeoJSON spec
+        
+        Initial implementation by @geospatial-jeff; taken liberally from https://github.com/arturo-ai/stac-pydantic/
+        
+        ## Contributing
+        
+        See [CONTRIBUTING.md](CONTRIBUTING.md).
+        
+Keywords: geojson pydantic
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: dev
