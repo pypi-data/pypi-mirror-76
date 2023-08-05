@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: statbotics
+Version: 0.1.9
+Summary: Modernizing FRC Data Analytics
+License: MIT
+Author: Abhijit Gupta
+Author-email: avgupta456@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: cachecontrol (>=0.12.6,<0.13.0)
+Requires-Dist: requests (>=2.24.0,<3.0.0)
