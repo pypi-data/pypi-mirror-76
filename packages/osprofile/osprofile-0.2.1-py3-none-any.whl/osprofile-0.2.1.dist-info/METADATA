@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: osprofile
+Version: 0.2.1
+Summary: awsome project created by pycman.
+Home-page: http://example.com
+Author: singein
+Author-email: singein@outlook.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: pycman
+
+OSProfile
+
+这是一个用来在跨平台开发应用时，解决应用的配置文件在Windows及类Unix系统中存放路径的问题。
+Quick Start
+
+直接使用：
+
+from osprofile import OSProfile
+
+# 构造
+# 将在 类Unix的～/.config/myappname/myappname.json 文件中，
+# 或者 在Windows下的 c:\\users\\<username>\\appdata\\Local\\myappname\\myapp.json 文件中，
+# 写入默认配置 options1:'1234'
+osp = OSProfile(appname='myappname', profile='myappname.json', options=dict('options1':'1234'))
+
+# 从文件获取配置, 返回字典
+osp.read_profile()
+
+# 更新配置文件, 传入字典，对已存在的键值进行覆盖，不存在的进行添加
+kwargs = dict(options1='12345', options2='11111')
+osp.update_profile(kwargs)
+
+
+
