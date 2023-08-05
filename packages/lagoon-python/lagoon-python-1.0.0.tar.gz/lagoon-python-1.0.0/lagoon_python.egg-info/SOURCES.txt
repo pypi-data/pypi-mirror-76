@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+lagoon/__init__.py
+lagoon/client.py
+lagoon/collection.py
+lagoon/exceptions.py
+lagoon/utils.py
+lagoon/tests/__init__.py
+lagoon/tests/test_client.py
+lagoon_python.egg-info/PKG-INFO
+lagoon_python.egg-info/SOURCES.txt
+lagoon_python.egg-info/dependency_links.txt
+lagoon_python.egg-info/not-zip-safe
+lagoon_python.egg-info/requires.txt
+lagoon_python.egg-info/top_level.txt

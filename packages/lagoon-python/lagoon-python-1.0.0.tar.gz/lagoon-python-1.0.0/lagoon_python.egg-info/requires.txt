@@ -1,0 +1,10 @@
+
+[ci]
+flake8
+codecov
+black
+
+[test]
+pytest==6.0.1
+unittest2
+pytest-cov

@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: lagoon-python
+Version: 1.0.0
+Summary: Client for lagoon. An inmemory and highly concurrent bloom filter service based on json-rpc.
+Home-page: https://github.com/rrajaravi/lagoon-python
+Author: Raja Ravi
+Author-email: r.rajaravi@gmail.com
+License: MIT
+Description: lagoon-python
+        =============
+        
+        
+        [lagoon-python](https://github.com/rrajaravi/lagoon-python) is the official Python client for [lagoon](https://github.com/sourcepirate/lagoon), aAn inmemory and highly concurrent bloom filter service based on json-rpc.
+        
+        You can setup lagoon service: refer - https://raw.githubusercontent.com/sourcepirate/lagoon/master/README.md
+        
+        ### Installation
+        
+        lagoon-python supports:
+        
+        - Python (3.5, 3.6, 3.7, 3.8)
+        
+        #### Install from Pypi
+        
+        ```bash
+        pip install lagoon-python
+        ```
+        
+        ### Usage
+        
+        ```python
+        
+        # Create a new client
+        import lagoon
+        client = lagoon.connect('YOUR_LAGOON_HOSTNAME', 'LAGOON_SERVICE_PORT')
+        
+        # Create a collection
+        collection1 = client.create_collection("collection1")
+        
+        # create a key in the collection
+        client.set_key("collection1", "key1")
+        
+        # check if a key exist in the collection
+        client.has_key("collection1", "key1")
+        
+        # delete collection
+        client.delete_collection("collection1")
+        
+        
+        ### Contributing
+        
+        First, make sure you can run the test suite. Tests are run via py.test
+        
+        Install test requirements
+        
+        ```bash
+        pip install .[test]
+        ```
+        
+        ```bash
+        py.test
+        # with coverage
+        py.test --cov lagoon --cov-report html
+        ```
+        
+        Install black and flake8
+        
+        ```
+        pip install .[ci]
+        ```
+        
+        Install git hooks to avoid pushing invalid code (git commit will run `black` and `flake8`)
+        
+        ### Releasing a new version
+        
+        In order to release new version you need to be a maintainer on Pypi.
+        
+        - Update CHANGELOG
+        - Update the version on setup.py
+        - Commit and push to Github
+        - Create a new tag for the version (eg. `v1.1.0`)
+        - Create a new dist with python `python setup.py sdist`
+        - Upload the new distributable with twine `twine upload dist/lagoon-python-VERSION-NAME.tar.gz`
+        
+        If unsure you can also test using the Pypi test servers `twine upload --repository-url https://test.pypi.org/legacy/ dist/lagoon-python-VERSION-NAME.tar.gz`
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: ci
