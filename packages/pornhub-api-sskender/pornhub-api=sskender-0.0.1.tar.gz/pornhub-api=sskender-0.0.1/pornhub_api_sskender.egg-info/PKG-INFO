@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: pornhub-api-sskender
+Version: 0.0.1
+Summary: Unofficial API for pornhub.com in Python
+Home-page: https://github.com/sskender/pornhub-api
+Author: sskender
+Author-email: sskender@example.com
+License: UNKNOWN
+Description: # PornHub Unofficial API
+        Unofficial API for pornhub.com in Python
+        
+        ## Usage
+        
+        #### Create client
+        ```python
+        import pornhub
+        client = pornhub.PornHub()
+        ```
+        
+        #### Create client with proxy 
+        ```python
+        import pornhub
+        client = pornhub.PornHub("5.135.164.72", 3128)
+        #With proxy, given a Proxy IP and Port. For the countries with restricted access like Turkey, etc.
+        ```
+        
+        #### Grab stars
+        ```python
+        for star in client.getStars(10):
+            print(star)
+            print(star["name"])
+        ```
+        
+        #### Create client with search keywords
+        ```python
+        keywords = ["word1", "word2"]
+        client = pornhub.PornHub(keywords)
+        
+        for video in client.getVideos(10,page=2):
+            print(video)
+            print(video["url"])
+        ```
+        
+        ## License
+        MIT license
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
