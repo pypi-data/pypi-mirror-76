@@ -1,0 +1,10 @@
+README.md
+setup.py
+octostorelib/__init__.py
+octostorelib/main.py
+octostorelib.egg-info/PKG-INFO
+octostorelib.egg-info/SOURCES.txt
+octostorelib.egg-info/dependency_links.txt
+octostorelib.egg-info/not-zip-safe
+octostorelib.egg-info/requires.txt
+octostorelib.egg-info/top_level.txt
