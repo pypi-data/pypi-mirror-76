@@ -1,0 +1,7 @@
+README.md
+setup.py
+panovid.egg-info/PKG-INFO
+panovid.egg-info/SOURCES.txt
+panovid.egg-info/dependency_links.txt
+panovid.egg-info/requires.txt
+panovid.egg-info/top_level.txt
