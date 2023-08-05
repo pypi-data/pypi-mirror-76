@@ -1,0 +1,4 @@
+thoth-storages
+pandas
+scikit-learn
+numpy
