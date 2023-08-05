@@ -1,0 +1,12 @@
+scikit-image
+scikit-learn
+numpy==1.15.4
+pandas
+python-bioformats
+python-dotenv
+javabridge
+matplotlib
+opencv-python
+tqdm
+click
+seaborn
