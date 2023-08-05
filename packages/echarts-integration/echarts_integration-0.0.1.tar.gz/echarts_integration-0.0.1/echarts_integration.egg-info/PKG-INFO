@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: echarts-integration
+Version: 0.0.1
+Summary: Add a echarts component to load json data
+Home-page: UNKNOWN
+Author: João Marcos de Oliveira <jmarcosdo@gmail.com>
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Dash

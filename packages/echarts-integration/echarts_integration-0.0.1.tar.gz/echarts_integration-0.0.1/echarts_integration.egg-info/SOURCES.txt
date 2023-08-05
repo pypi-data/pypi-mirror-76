@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+echarts_integration/EchartsIntegration.py
+echarts_integration/__init__.py
+echarts_integration/_imports_.py
+echarts_integration/echarts_integration.min.js
+echarts_integration/echarts_integration.min.js.map
+echarts_integration/metadata.json
+echarts_integration/package-info.json
+echarts_integration.egg-info/PKG-INFO
+echarts_integration.egg-info/SOURCES.txt
+echarts_integration.egg-info/dependency_links.txt
+echarts_integration.egg-info/top_level.txt

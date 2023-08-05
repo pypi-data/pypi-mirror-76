@@ -1,0 +1,7 @@
+include echarts_integration/echarts_integration.min.js
+include echarts_integration/echarts_integration.min.js.map
+include echarts_integration/metadata.json
+include echarts_integration/package-info.json
+include README.md
+include LICENSE
+include package.json
