@@ -1,0 +1,11 @@
+pytango
+click
+treelib
+gevent
+tabulate
+
+[repl]
+prompt_toolkit>=3.0.3
+
+[server]
+typer

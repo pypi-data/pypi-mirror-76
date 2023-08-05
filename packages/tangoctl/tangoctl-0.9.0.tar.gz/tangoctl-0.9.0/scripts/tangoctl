@@ -1,0 +1,54 @@
+#!/bin/bash
+#
+# This file is part of the tangoctl project
+#
+# Copyright (c) 2018-2020 Tiago Coutinho
+# Distributed under the GPLv3 license. See LICENSE for more info.
+
+
+local=0
+server="0:10100"
+
+if [ $# -eq 0 ]; then
+    args="--help"
+else
+    case "$1" in
+	-l | --local)
+	    local=1;
+	    shift;
+	    ;;
+	-s | --server)
+	    server=$2;
+	    shift 2;
+	    ;;
+    esac
+    args=$*
+fi
+
+if [ $local -eq 1 ]; then
+    exec tangoctl-client $args
+else
+    IFS=':' read -ra address <<< "$server"
+fi
+
+reply=$(echo "${args}" | nc -w 4 ${address[@]} 2> /dev/null)
+result=$?
+
+if [ $result -eq 0 ]; then
+    echo "${reply}"
+else
+    case "${address[0]}" in
+	0 | localhost | 127.0.0.1)
+	    tangoctld --bind ${server};
+	    # wait for socket to be bound
+	    sleep 1;
+	    reply=$(echo "${args}" | nc -w 3 ${address[@]});
+	    result=$?
+	    echo "${reply}"
+	    ;;
+	*)
+	    echo "Could not connect to ${server}";
+	    ;;
+    esac
+fi
+exit $result
