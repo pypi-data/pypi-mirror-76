@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: scenery
+Version: 1.0.1
+Summary: A pattern-based scene release renamer
+Home-page: https://github.com/dachaz/scenery
+Author: Dachaz
+Author-email: dachaz@dachaz.net
+Maintainer: 
+Maintainer-email: 
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Communications :: File Sharing
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7
+
+A command-line tool that automates renaming of so-called "Scene Release"
+files by fetching episode names (from TVMaze) and which uses pattern-based generic building
+blocks (show name, season number, episode number, episode title) to format the output.
+
+
