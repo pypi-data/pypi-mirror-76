@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: LightGBMwithBayesOpt
+Version: 1.0.2
+Summary: A Python toolkit of light gbm with bayesian optimizer.
+Home-page: https://github.com/gowun/LightGBMwithBayesOpt.git
+Author: Gowun Jeong
+Author-email: gowun.jeong@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: bayesian-optimization (>=1.1.0)
+Requires-Dist: scikit-learn (>=0.22.2.post1)
+Requires-Dist: lightgbm (>=2.3.1)
+
+UNKNOWN
+
+
