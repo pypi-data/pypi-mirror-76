@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: template-manager
+Version: 1.0
+Summary: 쿠버네티스처럼 YAML 파일로 이루어진 템플릿을 쉽게 관리하고, 템플릿의 타입에 따라 다르게 처리해주는 패키지입니다.
+Home-page: https://github.com/da-huin/template_manager
+Author: JunYeong Park
+Author-email: dahuin000@gmail.com
+License: MIT
+Download-URL: https://github.com/da-huin/template_manager/archive/master.zip
+Description: Please refer to the https://github.com/da-huin/template_manager
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
