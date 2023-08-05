@@ -1,0 +1,8 @@
+requests
+
+[dev]
+
+[docs]
+
+[testing]
+pytest>=4.2.1
