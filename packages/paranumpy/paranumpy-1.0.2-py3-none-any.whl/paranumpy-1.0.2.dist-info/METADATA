@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: paranumpy
+Version: 1.0.2
+Summary: A collection of functions for the parallel handling of numpy arrays
+Home-page: https://github.com/cs2t/paranumpy
+Author: Fabio Caruso
+Author-email: caruso@physik.uni-kiel.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: mpi4py
+
+`paranumpy` is conceived as a tool to facilitate the parallelization of numpy arrays in python. It consists of a set of functions to handle numpy arrays in a MPI (mpi4py) parallel environment. Further information is available at [https://paranumpy.readthedocs.io](https://paranumpy.readthedocs.io).
+
+
