@@ -1,0 +1,10 @@
+balrog/__init__.py,sha256=agljTlkdJ7oqX46j1VVNwSv1oNuEGW7eanMUnEn3si4,440
+balrog/exceptions.py,sha256=FLua6908TFTHCZsr8qzPRrWz_BDC4gK1u-rAdTMlLZQ,472
+balrog/permission.py,sha256=PDcBRJxrGWOSa2zrzorXNmtwFYUcucPPLgaO5rpKTXs,1084
+balrog/policy.py,sha256=yqjQi8j-a--WYjXV8XuHb9rKtCf6e0uh4s8r0BSCoBE,3434
+balrog/role.py,sha256=XMhC-AsCL5VCoB7IneI4rJIEwtY-li-78deFrL-3LWI,1849
+balrog-1.1.0.dist-info/LICENSE.txt,sha256=SeotkfqWJxQYQcjx0r3VW753u1SMaALMn1Yghut7olk,1060
+balrog-1.1.0.dist-info/METADATA,sha256=MENvTpZ5NddnFLeqZ4u3aCkGRtR1QG92LmDh9gTUCVQ,9024
+balrog-1.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+balrog-1.1.0.dist-info/top_level.txt,sha256=J6QAEJaqKda0zaXP02lelD8Jc5gaHS5PYlmmTJwvlyM,7
+balrog-1.1.0.dist-info/RECORD,,
