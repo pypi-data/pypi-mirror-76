@@ -1,0 +1,14 @@
+kindle_maker-1.0.4.data/purelib/kindle_maker/__init__.py,sha256=nmUgDTS6zO4ZHP6qka8-KkRgrtGJPfbZxIo_4TfL8_I,426
+kindle_maker-1.0.4.data/purelib/kindle_maker/ebooklib.py,sha256=i85skR9_14YyDTsNofDAFr0z1M8j1t6uYMus-wSdGSw,11383
+kindle_maker-1.0.4.data/purelib/kindle_maker/kindlegen.py,sha256=L0YS5_aoQhNqiNarbXOM5OhQEaA2juFBwpYtV4Nmggo,453
+kindle_maker-1.0.4.data/purelib/kindle_maker/bin/linux/kindlegen,sha256=uLDwq4PnQHARkGa_TzxWJn5e5D0sK6xwkbtEfp9GGmk,28673912
+kindle_maker-1.0.4.data/purelib/kindle_maker/bin/mac/kindlegen,sha256=Ye0aDF1V_LcXTsCAZGFb19y3MOsF3nYs1pGSc7QDpk0,22965040
+kindle_maker-1.0.4.data/purelib/kindle_maker/templates/cover.jpg,sha256=4LF5cG5Ep6CMAveKrY20pNjE_InLVb_wB_xfAZGv9bk,225317
+kindle_maker-1.0.4.data/purelib/kindle_maker/templates/opf.xml,sha256=Jzz6ohNdj0GPx8GMUUpNifiWWXJL_Svs9Lo66ONhTSc,1534
+kindle_maker-1.0.4.data/purelib/kindle_maker/templates/toc.html,sha256=O8kIsCJYVB9VIP3sAO2GO0qF_b6jyEc-BCAsMrcGu-o,577
+kindle_maker-1.0.4.data/purelib/kindle_maker/templates/toc.xml,sha256=j-RpvmdokaUz7evXl9ZfIm9xChqZfyGQCYp51KXKrbM,1485
+kindle_maker-1.0.4.dist-info/METADATA,sha256=sgGViEJgnuQYZNkRb_BkT3nfia6FeMvgvu4QwlMRC6s,292
+kindle_maker-1.0.4.dist-info/WHEEL,sha256=1YMM789NZZj20pIyYu48e8ht4tqbOnxz0KmPPjwyTSU,143
+kindle_maker-1.0.4.dist-info/entry_points.txt,sha256=rSSCxGA6zKShVe-MpWEY0CofdXtIrJ3I4CwooV3P1GU,62
+kindle_maker-1.0.4.dist-info/top_level.txt,sha256=x6juAwXFajOEDrrG-5f5ePAhG0lH5u9mn6JBhjBcGJc,13
+kindle_maker-1.0.4.dist-info/RECORD,,
