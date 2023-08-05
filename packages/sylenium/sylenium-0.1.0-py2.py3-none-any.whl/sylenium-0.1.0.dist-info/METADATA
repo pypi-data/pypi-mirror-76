@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: sylenium
+Version: 0.1.0
+Summary: Selenium wrapper placeholder
+Home-page: https://github.com/symonk/sylenium
+Author: Simon Kerr
+Author-email: jackofspaces@gmail.com
+License: MIT
+Project-URL: Documentation, https://sylenium.readthedocs.io/
+Project-URL: Changelog, https://sylenium.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/symonk/sylenium/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+
+This is an example placeholder for sylenium
+
+
