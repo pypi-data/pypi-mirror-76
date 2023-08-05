@@ -1,0 +1,6 @@
+pyyaml
+click
+botok
+pyewts
+bordr
+tibetan_sort
