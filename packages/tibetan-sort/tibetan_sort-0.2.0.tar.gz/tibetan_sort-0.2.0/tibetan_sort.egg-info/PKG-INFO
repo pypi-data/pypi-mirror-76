@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: tibetan-sort
+Version: 0.2.0
+Summary: Tibetan Sorting Tool
+Home-page: https://github.com/Esukhia/tibetan-sort-python
+Author: Esukhia development team
+Author-email: esukhiadev@gmail.com
+License: Apache2
+Project-URL: Source, https://github.com/Esukhia/tibetan-sort-python
+Project-URL: Tracker, https://github.com/Esukhia/tibetan-sort-python/issues
+Description: # Python port of BDRC's JS Library to sort Tibetan
+        
+        This is a Python port of [tibetan-sort-js](https://github.com/buda-base/tibetan-sort-js). 
+        
+        ## Installation
+        
+            `pip3 install tibetan_sort`
+        
+        ## API
+        
+        ### sort_list
+        
+        Sorts a list of strings using the `compare()` method.
+        
+        **Parameters**
+        
+        - `a` **list** list of strings to be sorted
+        
+        Returns sorted **list**.
+        
+        ### compare
+        
+        Compares two strings in Tibetan Unicode. 
+        The behavior is undefined if the arguments are not strings. Doesn't work well 
+        with non-Tibetan strings.
+        
+        **Parameters**
+        
+        -   `a` **string** first string to be compared.
+        -   `b` **string** second string to be compared.
+        
+        Returns **number** 0 if equivalent, 1 if a > b, -1 if a &lt; b
+        
+        ## Release history
+        
+        See [change log](CHANGELOG.md).
+        
+        ## Maintainance
+        
+        Build the source dist:
+        
+        ```bash
+        rm -rf dist/
+        python3 setup.py clean sdist
+        ```
+        
+        and upload on twine (version >= `1.11.0`) with:
+        
+        ```bash
+        python3 -m twine upload dist/*
+        ```
+        
+        ## Credits
+        
+        - JS code by [Elie Roux](https://github.com/eroux)
+        - ported to Python by [尤志中]()
+        - list sorting implemented by Drupchen
+        
+        ## License
+        
+        The code is Copyright 2017-2019 Buddhist Digital Resource Center, and is provided under the [MIT License](LICENSE).
+        
+Keywords: nlp computational_linguistics tibetan sort
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: Tibetan
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

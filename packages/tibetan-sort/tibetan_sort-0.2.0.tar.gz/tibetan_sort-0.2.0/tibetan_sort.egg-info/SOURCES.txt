@@ -1,0 +1,8 @@
+README.md
+setup.py
+tibetan_sort/__init__.py
+tibetan_sort/tibetan_sort.py
+tibetan_sort.egg-info/PKG-INFO
+tibetan_sort.egg-info/SOURCES.txt
+tibetan_sort.egg-info/dependency_links.txt
+tibetan_sort.egg-info/top_level.txt
