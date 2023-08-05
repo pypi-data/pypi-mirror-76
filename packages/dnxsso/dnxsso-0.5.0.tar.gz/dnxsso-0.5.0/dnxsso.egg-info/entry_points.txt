@@ -1,0 +1,3 @@
+[console_scripts]
+dnxsso = dnxsso.cli:main
+
