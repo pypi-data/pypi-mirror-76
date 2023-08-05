@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: aiot-client
+Version: 1.1.1
+Summary: Ver1.1.1 添加了repl与串口检测等功能,可以配合VSCODE插件使用
+Home-page: https://github.com/aiotcloud-tech/python-aiot-sdk
+Author: sangxin
+Author-email: 2876424407@qq.com
+Maintainer: sangxin
+Maintainer-email: 2876424407@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: paho-mqtt
+Requires-Dist: pyreadline
+Requires-Dist: pyudev (>=0.16)
+Requires-Dist: pyserial
+Requires-Dist: six
+
+UNKNOWN
+
+
