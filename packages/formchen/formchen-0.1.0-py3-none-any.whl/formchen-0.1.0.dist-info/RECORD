@@ -1,0 +1,13 @@
+formchen/__init__.py,sha256=UvRdJCWGNK4dvl5DFhwu6no7zlVLdg4IKqWt2-bSU4M,364
+formchen/formchen-internal.d.ts,sha256=fJ8kVRsuvyzgpm8d84Z5JLcMcExTeDpUbryoFnK8Lgo,1422
+formchen/formchen.d.ts,sha256=Zxko1bVE4xhhmep5nrfVDUVJJcFb5A6W25asaqz5zz4,326
+formchen/main.py,sha256=-rhj04zY4k0MJ5YMvftV4Fw09mnxNPr1rYPIbiUkP-k,623
+formchen/tests/modules.js,sha256=j0Vi8iKnruHr_Qqip4dZgyxAKF9TZS_ir29xx55XxC0,103
+formchen/tests/test_empty_object.js,sha256=W4CfnBoj3lDJRGrPLxxQpLxG4kzSo9yqn5BonqII1xo,7406
+formchen/tests/test_Formchen.js,sha256=KSHjlJFmKskx6mp_3Hrawz58GqMAmokZwg6D1Z_2hJg,4885
+formchen/tests/test_master_detail.js,sha256=SG63fct6-sVdXvYktFqn9yc9DQ-0_fIm0YWHhVXrP9s,4603
+formchen/tests/test_proxynode.js,sha256=zX2MKnVXaJBNGEc9ioybyBL9JLg5BJzil533A6ARXVw,1614
+formchen/webcomponent.js,sha256=8SeqMYshcDtJIJt5TC79_j-ofJHpZ5ImSIurC-el9K4,23342
+formchen-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+formchen-0.1.0.dist-info/METADATA,sha256=83AOxys9Xcry8oOqE2xmlBu-EzeD2Dy9RBJ9zwrxprM,3756
+formchen-0.1.0.dist-info/RECORD,,
