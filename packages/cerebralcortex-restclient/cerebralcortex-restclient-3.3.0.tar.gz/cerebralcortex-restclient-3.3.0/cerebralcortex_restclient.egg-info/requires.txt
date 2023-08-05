@@ -1,0 +1,2 @@
+PyJWT==1.7.1
+cerebralcortex-kernel==3.3.0
