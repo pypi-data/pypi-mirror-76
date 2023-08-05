@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: vkbee
+Version: 3.8.3
+Summary: Simple Async VKLibrary faster than vk_api
+Home-page: https://github.com/asyncvk/vkbee
+Author-email: cryptoyamafox@gmail.com
+License: Mozilla Public License 2.0
+Project-URL: Github, https://github.com/asyncvk/vkbee
+Project-URL: Documentation, https://github.com/asyncvk/vkbee
+Keywords: vk api framework python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: requests
+Requires-Dist: six
+Requires-Dist: sentry-sdk (==0.14.2)
+
+﻿![vkbee](https://github.com/UHl0aG9uZWVy/vkbee/raw/master/logo.png)
+
+<p align="center">
+    <img alt="Made with Python" src="https://img.shields.io/badge/Made%20with-Python-%23FFD242?logo=python&logoColor=white">
+    <img alt="Downloads" src="https://pepy.tech/badge/vkbee">
+</p>
+
+## Установка
+```bash
+pip install vkbee
+```
+
+## Пример работы
+```python
+import asyncio
+import vkbee
+
+from vkbee import oldlong
+
+async def main(loop):
+    token = 'token'
+    vk = oldlong.VkApi(token=token, loop=loop)
+    longpoll = oldlong.BotLongpoll(vk, 'groupid', 10)
+
+    async for event in longpoll.events():
+        user_id = event['object']['message']['from_id']
+        message_text = event['object']['message']['text']
+        await vkbee.VkApi.call(vk, 'messages.send', {'user_id': user_id, 'message': message_text, 'random_id': 0})
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main(loop))
+```
+
