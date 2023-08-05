@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: monsql-python
+Version: 0.0.1
+Summary: French overlay for MySQL
+Home-page: https://github.com/MaitreRenard/MonSQL-python
+Author: Masterfox, 0xNinja, Apollo
+Author-email: tom.mounet@pm.me
+License: UNKNOWN
+Description: # MonSQL-python
+        
+        French overlay for MySQL
+        
+        ## How to use
+        
+        Simply `from monsql import MonSQL`
+        
+        ## TODO
+        
+        * [ ] Add VoltaireError
+        * [ ] Add some comments
+        
+        ## See
+        
+        dev.monsql.com
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

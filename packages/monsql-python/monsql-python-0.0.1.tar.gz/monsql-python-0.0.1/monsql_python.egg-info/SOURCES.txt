@@ -1,0 +1,9 @@
+README.md
+setup.py
+monsql/MonSQL.py
+monsql/__init__.py
+monsql_python.egg-info/PKG-INFO
+monsql_python.egg-info/SOURCES.txt
+monsql_python.egg-info/dependency_links.txt
+monsql_python.egg-info/requires.txt
+monsql_python.egg-info/top_level.txt
