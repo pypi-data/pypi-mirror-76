@@ -1,0 +1,13 @@
+README.md
+setup.py
+pdfkivygui/__init__.py
+pdfkivygui/dfguik.py
+pdfkivygui.egg-info/PKG-INFO
+pdfkivygui.egg-info/SOURCES.txt
+pdfkivygui.egg-info/dependency_links.txt
+pdfkivygui.egg-info/requires.txt
+pdfkivygui.egg-info/top_level.txt
+pdfkivygui/garden/__init__.py
+pdfkivygui/garden/matplotlib/__init__.py
+pdfkivygui/garden/matplotlib/backend_kivy.py
+pdfkivygui/garden/matplotlib/backend_kivyagg.py

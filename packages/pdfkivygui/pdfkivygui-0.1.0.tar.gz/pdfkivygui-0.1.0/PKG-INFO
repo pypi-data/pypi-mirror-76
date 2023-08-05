@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pdfkivygui
+Version: 0.1.0
+Summary: Package that enables the user to use Pandas Dataframe inside Kivy Apps.
+Home-page: https://github.com/jefpadfi/PandasDataframeGUIKivy
+Author: Jeffrey Padfield
+Author-email: 
+License: UNKNOWN
+Description: # DataframeGUIKivy
+        
+        Port of Dataframe GUI module to a Kivy widget. Original module can be found at this repository: https://github.com/bluenote10/PandasDataFrameGUI
+        
+        # Updates
+        This fork has been updated to use the current version of all required libraries.
+        
+        * matplotlib _png is no longer needed to be imported and was removed
+        *  pandas.DataFrame.from_items was [deprecated since version 0.23.0](https://github.com/pandas-dev/pandas/blob/v0.23.4/pandas/core/frame.py#L1422-L1507) 
+        and has been replaced with pandas.DataFrame.from_dict
+        * kivy.garden.matplotlib was giving me trouble so I just included the source in garden.matplotlib
+        * added in requirements.txt so all requirements can be installed through pip.
+        
+        ## Demo Run Instructions
+        
+        ```sh
+        $ python demo.py
+        ```
+        
+        ## Demo Screenshots
+        
+        <p align="center">
+          <img src="https://raw.githubusercontent.com/MichaelStott/DataframeGUIKivy/master/docs/sc1.png">
+        </p>
+        
+        <p align="center">
+          <img src="https://raw.githubusercontent.com/MichaelStott/DataframeGUIKivy/master/docs/sc2.png">
+        </p>
+        
+        <p align="center">
+          <img src="https://raw.githubusercontent.com/MichaelStott/DataframeGUIKivy/master/docs/sc3.png">
+        </p>
+        
+        <p align="center">
+          <img src="https://raw.githubusercontent.com/MichaelStott/DataframeGUIKivy/master/docs/sc4.png">
+        </p>
+        
+        <p align="center">
+          <img src="https://raw.githubusercontent.com/MichaelStott/DataframeGUIKivy/master/docs/sc5.png">
+        </p>
+        
+        
+Keywords: Kivy,Pandas DataFrame,Graphs
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
