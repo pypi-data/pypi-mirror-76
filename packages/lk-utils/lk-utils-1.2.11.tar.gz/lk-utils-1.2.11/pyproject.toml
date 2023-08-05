@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "lk-utils"
+version = "1.2.11"
+description = ""
+authors = ["Likianta <likianta@foxmail.com>"]
+license = "MIT"
+
+# 添加清华镜像
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple/"
+default = true  # 设置清华镜像为默认回调, 以避免 poetry 在缺省操作里又回调到 pypi 仓库.
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bs4 = "^0.0.1"
+lxml = "^4.5.0"
+requests = "^2.24.0"
+xlrd = "^1.2.0"
+xlsxwriter = "^1.2.7"
+# csv = "*"
+# pdfminer = "*"
+# pdfplumber = "*"
+# pypinyin = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
