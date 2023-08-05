@@ -1,0 +1,4 @@
+classad
+htcondor
+htcondor/dags
+htcondor/htchirp
