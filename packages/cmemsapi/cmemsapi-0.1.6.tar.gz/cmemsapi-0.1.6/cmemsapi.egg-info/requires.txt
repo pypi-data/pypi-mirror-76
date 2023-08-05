@@ -1,0 +1,8 @@
+dask
+fire
+ipython
+motuclient
+netCDF4
+scipy
+toolz
+xarray
