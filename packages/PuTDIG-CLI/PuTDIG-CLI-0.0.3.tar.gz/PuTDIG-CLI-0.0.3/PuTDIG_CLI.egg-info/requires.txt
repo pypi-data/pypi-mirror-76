@@ -1,0 +1,5 @@
+pumpkin-supmcu
+pumpkin-supmcu-i2cdriver
+pumpkin-supmcu-smbus
+pumpkin-supmcu-kubos
+putdig-common
