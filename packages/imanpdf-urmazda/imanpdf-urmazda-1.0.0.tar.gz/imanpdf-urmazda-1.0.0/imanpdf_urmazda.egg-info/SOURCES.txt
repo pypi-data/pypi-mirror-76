@@ -1,0 +1,9 @@
+README.md
+setup.py
+imanpdf/__init__.py
+imanpdf/pdf2image.py
+imanpdf/pdf2text.py
+imanpdf_urmazda.egg-info/PKG-INFO
+imanpdf_urmazda.egg-info/SOURCES.txt
+imanpdf_urmazda.egg-info/dependency_links.txt
+imanpdf_urmazda.egg-info/top_level.txt
