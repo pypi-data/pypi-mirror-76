@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: swiftmess3
+Version: 1.0
+Summary: parse SWIFT messages for financial transactions
+Home-page: http://pypi.python.org/pypi/swiftmess3/
+Author: Thomas Aglassinger
+Author-email: roskakori@users.sourceforge.net
+License: UNKNOWN
+Keywords: swift bank banking financial message
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Text Processing
+Requires-Dist: setuptools
+
+
+Swiftmess3 is a Python module to parse SWIFT messages used for financial transactions in banking.
+
+
