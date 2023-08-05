@@ -1,0 +1,3 @@
+[console_scripts]
+rjdl = rjdl:__main
+
