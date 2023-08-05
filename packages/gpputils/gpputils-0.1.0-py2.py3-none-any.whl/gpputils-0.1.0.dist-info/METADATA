@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: gpputils
+Version: 0.1.0
+Summary: Utility functions for GPP R&D
+Home-page: https://github.com/gpp-rnd/gpputils
+Author: Mudra Hegde
+Author-email: mhegde@broadinstitute.org
+License: MIT license
+Keywords: gpputils
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+
+========
+gpputils
+========
+
+
+.. image:: https://img.shields.io/pypi/v/gpputils.svg
+        :target: https://pypi.python.org/pypi/gpputils
+
+.. image:: https://img.shields.io/travis/gpp-rnd/gpputils.svg
+        :target: https://travis-ci.com/gpp-rnd/gpputils
+
+.. image:: https://readthedocs.org/projects/gpputils/badge/?version=latest
+        :target: https://gpputils.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+Utility functions for GPP R&D
+
+
+* Free software: MIT license
+* Documentation: https://gpputils.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2020-08-06)
+------------------
+
+* First release on PyPI.
+
+
