@@ -1,0 +1,6 @@
+include requirements*.txt
+include src/pyballistics/gpowders_si.csv
+include LICENSE.txt
+recursive-include src *.html
+recursive-include src *.pxd
+recursive-include src *.pyx
