@@ -1,0 +1,6 @@
+
+[docs]
+recommonmark
+nbsphinx
+jupyter
+sphinx
