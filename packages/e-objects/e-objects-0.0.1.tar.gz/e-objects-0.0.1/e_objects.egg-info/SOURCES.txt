@@ -1,0 +1,13 @@
+LICENCE.txt
+MANIFEST.in
+README.rst
+drop.py
+drop2.py
+setup.py
+version.py
+e_objects.egg-info/PKG-INFO
+e_objects.egg-info/SOURCES.txt
+e_objects.egg-info/dependency_links.txt
+e_objects.egg-info/requires.txt
+e_objects.egg-info/top_level.txt
+objects/__init__.py
