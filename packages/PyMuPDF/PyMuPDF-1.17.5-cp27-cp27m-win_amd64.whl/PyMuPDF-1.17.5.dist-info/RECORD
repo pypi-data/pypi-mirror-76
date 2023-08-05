@@ -1,0 +1,8 @@
+fitz/__init__.py,sha256=abee10ca5daa9eff7fb7afae51d4b598334b76fc4c0eb9348e824d3a802d2eee,3916
+fitz/__main__.py,sha256=e9e4ca970c583448ce651676587f5af1b33bfd82a8caa9ea944f1d05f50b0da9,27147
+fitz/fitz.py,sha256=89d911461927ba6cc3601a9eeaba478eafd78ac98bc66f204af6dd0c2ea8c7ad,222502
+fitz/utils.py,sha256=d507ad237133c88b810b7edbff320d3252836dd0b71082d721e3ca76a8459cb5,118002
+fitz/_fitz.pyd,sha256=dc987eacaf3fdbdb050ad39cde0bce834ebc9ac0181916aa22a770efac1789d1,9611264
+PyMuPDF-1.17.5.dist-info/WHEEL,sha256=d8f7895223b80b525b11678245b9dd26400a2c4bb641cc4dec003c7d09a07c6c,104
+PyMuPDF-1.17.5.dist-info/METADATA,sha256=fabdbbb532875c995fc1246982c3df6b717ab0bc8a8d6eb0ab4af0c8e417b43f,4551
+PyMuPDF-1.17.5.dist-info/RECORD,,
