@@ -1,0 +1,9 @@
+aws_s3_resource/__init__.py,sha256=odbimViujLQLCp-V5SZZ7_mV67aznZpXEEWfqGrwJCY,112
+aws_s3_resource/s3_bucket.py,sha256=J2uDzXCh6LJdI6wvooEGRltT7hAerqMYYa6oQhihpow,3744
+aws_s3_resource/s3_bucket_error.py,sha256=mRtCbGwrV98bd2rgiypGk8u5kxyskYZE8k2_8PcODPQ,860
+aws_s3_resource/s3_object.py,sha256=iMj96kSy8y0_356IuU2z4VYEQMpl06GqrzsUfi-3zpc,4401
+aws_s3_resource-0.0.8.dist-info/LICENSE,sha256=7AZXujk37HugmmMJnuIB0TOORWb_09C1pOC_ccfXvSQ,1095
+aws_s3_resource-0.0.8.dist-info/METADATA,sha256=UQnXnd_3zIR6fNy2V8VWQXGxLI9Cn8u0YMbksenajOo,1614
+aws_s3_resource-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_s3_resource-0.0.8.dist-info/top_level.txt,sha256=Q4CRJ1MdsACBAheOZFFqP_qmg49eXaAUoegSOyVsoT8,16
+aws_s3_resource-0.0.8.dist-info/RECORD,,
