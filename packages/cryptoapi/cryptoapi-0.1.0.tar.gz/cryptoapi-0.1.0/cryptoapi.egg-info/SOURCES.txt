@@ -1,0 +1,17 @@
+README.md
+setup.py
+cryptoapi/__init__.py
+cryptoapi/bitfinex.py
+cryptoapi/bitvavo.py
+cryptoapi/coinbasepro.py
+cryptoapi/kraken.py
+cryptoapi.egg-info/PKG-INFO
+cryptoapi.egg-info/SOURCES.txt
+cryptoapi.egg-info/dependency_links.txt
+cryptoapi.egg-info/requires.txt
+cryptoapi.egg-info/top_level.txt
+test/test_bitfinex.py
+test/test_bitvavo.py
+test/test_coinbasepro.py
+test/test_exchange.py
+test/test_kraken.py
