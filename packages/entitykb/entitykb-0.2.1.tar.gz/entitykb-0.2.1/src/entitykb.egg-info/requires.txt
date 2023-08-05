@@ -1,0 +1,12 @@
+click
+lark-parser==0.8.9
+pyahocorasick
+python-dateutil
+rapidfuzz
+tabulate
+translitcodec
+ujson
+
+[api]
+fastapi
+uvicorn
