@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: solos
+Version: 0.4
+Summary: Python implementation of  Solos: A Dataset for Audio-Visual Music Source Separation and Localization
+Home-page: https://juanfmontesinos.github.io/Solos/
+Author: Juan Montesinos
+Author-email: juanfelipe.montesinos@upf.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: Fire
+Requires-Dist: youtube-dl
+Requires-Dist: googledrivedownloader
+
+UNKNOWN
+
+
