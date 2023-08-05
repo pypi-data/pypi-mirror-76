@@ -1,0 +1,6 @@
+ZODB
+collective.monkeypatcher
+zope.security
+
+[test]
+zope.app.catalog[test]

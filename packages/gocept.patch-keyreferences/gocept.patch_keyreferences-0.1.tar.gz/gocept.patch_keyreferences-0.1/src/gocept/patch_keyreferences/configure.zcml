@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:monkey="http://namespaces.plone.org/monkey"
+    i18n_domain="collective.monkeypatcher">
+
+    <include package="collective.monkeypatcher" />
+
+    <monkey:patch
+        description="This works around issue in https://github.com/zopefoundation/zope.keyreference/pull/6"
+        class="zope.keyreference.persistent.KeyReferenceToPersistent"
+        original="_get_cmp_keys"
+        replacement=".patch._get_cmp_keys"
+        />
+
+</configure>
