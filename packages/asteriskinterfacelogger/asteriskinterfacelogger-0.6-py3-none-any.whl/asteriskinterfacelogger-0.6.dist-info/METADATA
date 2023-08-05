@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: asteriskinterfacelogger
+Version: 0.6
+Summary: Common log configuration for Asterisk Interface microservices
+Home-page: UNKNOWN
+Author: Juares Vermelho Diaz (CL3k)
+Author-email: jvermelho@cl3k.com
+License: UNKNOWN
+Keywords: AsteriskInterface log logger logging
+Platform: UNKNOWN
+Requires-Dist: python3-logstash
+Requires-Dist: python-json-logger
+
+UNKNOWN
+
+
