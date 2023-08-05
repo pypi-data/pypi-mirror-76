@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+yaml_template/__init__.py
+yaml_template.egg-info/PKG-INFO
+yaml_template.egg-info/SOURCES.txt
+yaml_template.egg-info/dependency_links.txt
+yaml_template.egg-info/requires.txt
+yaml_template.egg-info/top_level.txt
