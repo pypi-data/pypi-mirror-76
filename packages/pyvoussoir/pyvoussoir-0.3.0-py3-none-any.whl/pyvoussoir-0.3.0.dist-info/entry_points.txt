@@ -1,0 +1,3 @@
+[console_scripts]
+pyvoussoir = voussoir.cli:main
+
