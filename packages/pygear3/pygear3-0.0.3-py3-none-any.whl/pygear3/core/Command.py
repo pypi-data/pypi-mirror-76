@@ -1,0 +1,22 @@
+class Command:
+    Command_RegisterAction = "register"
+    Command_LoginAction = "login"
+    Command_LogoffAction = "logoff"
+    Command_GetFriendListAction = "getFriendList"
+    Command_AddFriendAction = "addFriend"
+    Command_StartUploadFileFileAction = "startUploadFile"
+    Command_UploadFileAction = "uploadFile"
+    Command_GetUserCloudContentAction = "getUserCloudContent"
+    Command_UploadFinishAction = "uploadFinish"
+    Command_GetUserTreeCloudContentAction = "getUserTreeCloudContent"
+    Command_GetUserLastTreeCloudContentAction = "getUserLastTreeCloudContent"
+    Command_CreateFolderAction = "createFolder"
+    Command_DownloadFileAction = "downloadFile"
+    Command_SendMessageAction = "sendMessage"
+    Command_GetMessageAction = "getMessage"
+
+    Command_ReportAction = "reportAction"
+    Command_SendTaskAction = "sendTask"
+    Command_ExecuteTaskAction = "executeTask"
+
+    Command_UploadResultAction = "uploadResult"
