@@ -1,0 +1,12 @@
+pbr
+flake8
+yapf
+sphinx
+sphinx_hand_theme
+sphinx-markdown-builder
+sphinx-markdown-parser
+bandit
+pre-commit
+mypy
+pylint
+coverage
