@@ -1,0 +1,13 @@
+payway/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+payway/client.py,sha256=s0prLmGBwGDcWt3bp29qtKQm6udEpt-KOzCvQZT8xXQ,11047
+payway/conf.py,sha256=03r24yJjd-6lw-vCA5Qj1Pr8YkGcgWZHfDyhxBb4rx8,455
+payway/constants.py,sha256=1ibXhd6GPDshFJpLl1Z0UXbW_siKeqVsshPbxyxIlcU,4751
+payway/exceptions.py,sha256=wroyKjA-rLGpeGUXuzVUQRKFr5rGYkab297JzbN1NAM,771
+payway/model.py,sha256=3GKES90YW352gkj-FJnho4lmrMKxYP201dyNhHt3f0I,16751
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=Pk_tmZmekgEabRrzamGgYpm9N-teLDGiKLrb2YUDNAE,16110
+python_payway-0.0.1.dist-info/LICENSE,sha256=yMaPB_twkMQQbHrZbB5LspJPuZ7cSmkBpNk0fatXurY,1067
+python_payway-0.0.1.dist-info/METADATA,sha256=xv9cKL9jwXnVfuSc9aNw7m1M_t8N_4plPMd_Sj-k168,6820
+python_payway-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_payway-0.0.1.dist-info/top_level.txt,sha256=7aZxnDynWIEMRnwUZMk88IbDk3GYoamdz_SLW9hRC3A,13
+python_payway-0.0.1.dist-info/RECORD,,
