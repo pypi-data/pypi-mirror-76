@@ -1,0 +1,135 @@
+Metadata-Version: 2.1
+Name: sss-beneficiarios-hospitales
+Version: 0.8.112
+Summary: API Superintendencia de Servicios de Salud Argentino para informacion sobre beneficiarios de hospitales
+Home-page: https://github.com/cluster311/sss-beneficiarios
+Author: Andres Vazquez
+Author-email: andres@data99.com.ar
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.24)
+Requires-Dist: beautifulsoup4 (>=4.9.1)
+Requires-Dist: html5lib (>=1.1)
+
+![Travis (.org)](https://img.shields.io/travis/cluster311/sss-beneficiarios?style=for-the-badge)
+![GitHub All Releases](https://img.shields.io/github/downloads/cluster311/sss-beneficiarios/total?style=for-the-badge)
+![GitHub Issues](https://img.shields.io/github/issues/cluster311/sss-beneficiarios?style=for-the-badge)
+![GitHub PR](https://img.shields.io/github/issues-pr/cluster311/sss-beneficiarios?style=for-the-badge)
+![Licence](https://img.shields.io/github/licence/cluster311/sss-beneficiarios?style=for-the-badge)
+![Twitter URL](https://img.shields.io/twitter/url?style=for-the-badge&url=https%3A%2F%2Ftwitter.com%2Fcluster311)
+![Pypi py version](https://img.shields.io/pypi/pyversions/sss-beneficiarios-hospitales?style=for-the-badge)
+![Licence](https://img.shields.io/github/last-commit/cluster311/sss-beneficiarios?style=for-the-badge)
+# Registro privado de beneficiarios de Obras Sociales de Argentina
+
+Consultas al Padrón de Beneficiarios de los Agentes Nacionales del Seguro de Salud. Requiere credenciales de Hospital habilitado.
+
+## Uso
+
+Requiere tener usuario válido para el servicio de información sobre beneficiarios de 
+la Superintendencia de Servicios de Salud
+
+``` python
+usuario = 'FAKE'  # usuario de prueba
+clave = 'FAKE'   # clave de pruebas
+
+from sss_beneficiarios_hospitales.data import DataBeneficiariosSSSHospital
+dbh = DataBeneficiariosSSSHospital(user=usuario, password=clave)
+
+res = dbh.query(dni='99999999')
+print(res)
+```
+
+Resultados para no afiliados
+
+``` python
+{
+    'ok': True, 
+    'resultados': {
+        'title': 'Superintendencia de Servicios de Salud',
+        'hay_afiliacion': False,
+        'no_hay_afiliacion': True,
+        'tablas': [
+            {
+                "name": "NO_AFILIADO",
+                "data": {
+                    "Apellido y Nombre": "PEREZ JUAN",
+                    "Tipo Documento": "DU",
+                    "Nro Documento": "2XXXXXX3",
+                    "CUIL": "202XXXXXX31"
+                }
+            }
+        ]
+        }
+}
+```
+
+Resultados para afiliados (la seccion `DECLARADO_POR_EMPLEADOR` podría no estar disponible)
+
+``` python
+{
+    'ok': True, 
+    'resultados': {
+        'title': 'Superintendencia de Servicios de Salud', 
+        'hay_afiliacion': True, 
+        'no_hay_afiliacion': False, 
+        'tablas': [
+            {
+                'name': 'AFILIACION', 
+                'data': {
+                    'Parentesco': 'TITULAR', 
+                    'CUIL': '20-1XXXXXX8-8', 
+                    'Tipo de documento': 'DOCUMENTO UNICO', 
+                    'Número de documento': '1XXXXX8', 
+                    'Apellido y nombre': 'GOMEZ GONZALO', 
+                    'Provincia': 'CORDOBA', 
+                    'Fecha de nacimiento': '27-12-1951', 
+                    'Sexo': 'Masculino'
+                    }
+            }, 
+            {
+                'name': 'AFILIADO', 
+                'data': {
+                    'CUIL titular': '20-1XXXXXX8-8', 
+                    'CUIT de empleador': '30-XXX07484-3', 
+                    'Tipo de beneficiario': 'RELACION DE DEPENDENCIA', 
+                    'Código de Obra Social': '1-1320-5', 
+                    'Denominación Obra Social': 'OBRA SOCIAL DE JEFES Y OFICIALES NAVALES DE RADIOCOMUNICACIONES', 
+                    'Fecha Alta Obra Social': '01-01-2011'
+                    }
+            }, 
+            {
+                'name': 'DECLARADO_POR_EMPLEADOR', 
+                'data': {
+                    'Tipo Beneficiario Declarado': 'RELACION DE DEPENDENCIA (DDJJ SIJP)', 
+                    'Ultimo Período Declarado': '12-2019'
+                    }
+            }
+            ]}
+}
+```
+
+
+## Install
+
+Instalar desde [Pypi](https://pypi.org/project/sss-beneficiarios-hospitales/)
+
+```
+pip install sss_beneficiarios_hospitales
+```
+
+## Test
+
+```
+pip install -r dev-requirements.txt
+python -m pytest
+```
+
