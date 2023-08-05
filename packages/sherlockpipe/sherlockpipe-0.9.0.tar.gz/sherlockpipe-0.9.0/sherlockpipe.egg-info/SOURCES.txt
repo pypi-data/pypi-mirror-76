@@ -1,0 +1,12 @@
+README.md
+setup.py
+sherlockpipe/__init__.py
+sherlockpipe/sherlock.py
+sherlockpipe/sherlock_runner.py
+sherlockpipe/sherlock_tests.py
+sherlockpipe/sherlock_user_properties.py
+sherlockpipe.egg-info/PKG-INFO
+sherlockpipe.egg-info/SOURCES.txt
+sherlockpipe.egg-info/dependency_links.txt
+sherlockpipe.egg-info/requires.txt
+sherlockpipe.egg-info/top_level.txt
