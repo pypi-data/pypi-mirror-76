@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: channelengine-channel-api-client
+Version: 2.9.3
+Summary: ChannelEngine Channel API
+Home-page: https://github.com/channelengine/channel-api-client-python
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+License: UNKNOWN
+Description:     ChannelEngine API for channels  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,ChannelEngine Channel API
+Platform: UNKNOWN
