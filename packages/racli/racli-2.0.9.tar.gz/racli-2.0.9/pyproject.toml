@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "racli"
+version = "2.0.9"
+description = "A command-line program for interacting with RACTF."
+authors = ["Ben Griffiths <sendbenspam@yahoo.co.uk>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+racli = "racli.racli:cli"
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
