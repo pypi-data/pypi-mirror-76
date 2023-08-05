@@ -1,0 +1,3 @@
+[console_scripts]
+ProtoMake = MLProto.MLProto.ProtoMake:main
+
