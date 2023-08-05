@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: eddington
+Version: 0.0.10
+Summary: A laboratory utility library for fitting and presenting data
+Home-page: UNKNOWN
+Author: Sagi Shadur
+Author-email: saroad2@gmail.com
+Maintainer: Sagi Shadur
+Maintainer-email: saroad2@gmail.com
+License: Apache License
+Keywords: laboratory,fitting,data
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Requires-Dist: scipy (>=1.5.2)
+Requires-Dist: numpy (>=1.19.1)
+Requires-Dist: prettytable (>=0.7.2)
+Requires-Dist: xlrd (>=1.2.0)
+
+UNKNOWN
+
+
