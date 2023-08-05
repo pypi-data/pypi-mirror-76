@@ -1,0 +1,33 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="senaite.core">
+
+  <include package="plone.resource"/>
+
+  <!-- Static directory for js, css and image resources -->
+  <plone:static
+      directory="static"
+      type="plone"
+      name="senaite.core.static"
+      />
+
+  <!-- Package includes -->
+  <include package=".attachment"/>
+  <include package=".bootstrap"/>
+  <include package=".contentmenu"/>
+  <include package=".controlpanel"/>
+  <include package=".dashboard"/>
+  <include package=".fields"/>
+  <include package=".frontpage"/>
+  <include package=".globals"/>
+  <include package=".idserver"/>
+  <include package=".install"/>
+  <include package=".login"/>
+  <include package=".main_template"/>
+  <include package=".portlets"/>
+  <include package=".viewlets"/>
+  <include package=".widgets"/>
+
+</configure>

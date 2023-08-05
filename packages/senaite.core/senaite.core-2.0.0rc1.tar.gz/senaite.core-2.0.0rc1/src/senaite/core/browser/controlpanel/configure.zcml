@@ -1,0 +1,26 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:zcml="http://namespaces.zope.org/zcml">
+
+  <include package="bika.lims" file="permissions.zcml" />
+
+  <!-- Control Panel Overview -->
+  <browser:page
+      name="overview-controlpanel"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class=".overview.OverviewControlPanel"
+      permission="plone.app.controlpanel.Overview"
+      layer="senaite.core.interfaces.ISenaiteCore"/>
+      />
+
+  <!-- SENAITE Setup View -->
+  <browser:page
+      name="lims-setup"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      class=".setupview.SetupView"
+      permission="senaite.core.permissions.ManageBika"
+      layer="senaite.core.interfaces.ISenaiteCore"/>
+      />
+
+</configure>
