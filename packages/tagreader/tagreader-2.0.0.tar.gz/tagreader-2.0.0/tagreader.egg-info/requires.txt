@@ -1,0 +1,7 @@
+pandas>=1.0.0
+tables
+requests
+requests_kerberos
+
+[:platform_system == "Windows"]
+pyodbc
