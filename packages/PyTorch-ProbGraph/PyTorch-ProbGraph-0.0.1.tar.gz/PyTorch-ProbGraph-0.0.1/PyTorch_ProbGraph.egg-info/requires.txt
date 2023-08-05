@@ -1,0 +1,7 @@
+torch
+numpy
+matplotlib
+tqdm
+sphinx_rtd_theme
+sphinx
+setuptools
