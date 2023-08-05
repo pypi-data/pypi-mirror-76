@@ -1,0 +1,8 @@
+README.md
+setup.py
+satoshi/__init__.py
+satoshi.egg-info/PKG-INFO
+satoshi.egg-info/SOURCES.txt
+satoshi.egg-info/dependency_links.txt
+satoshi.egg-info/requires.txt
+satoshi.egg-info/top_level.txt
