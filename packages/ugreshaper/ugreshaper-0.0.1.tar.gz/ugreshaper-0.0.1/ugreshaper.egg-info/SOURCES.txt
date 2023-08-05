@@ -1,0 +1,8 @@
+README.md
+setup.py
+ugreshaper/__init__.py
+ugreshaper/ugreshaper.py
+ugreshaper.egg-info/PKG-INFO
+ugreshaper.egg-info/SOURCES.txt
+ugreshaper.egg-info/dependency_links.txt
+ugreshaper.egg-info/top_level.txt
