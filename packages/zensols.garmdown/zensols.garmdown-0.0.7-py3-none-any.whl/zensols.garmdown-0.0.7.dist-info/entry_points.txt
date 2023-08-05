@@ -1,0 +1,3 @@
+[console_scripts]
+garmdown = zensols.garmdown:main
+
