@@ -1,0 +1,14 @@
+cliquematch/core.cpython-39-i386-linux-gnu.so,sha256=iFl3j_GviNhrYgW-fhq0vLXf5qteJhWgvZs8LNz3b_U,19198415
+cliquematch/__init__.py,sha256=TpliH_iy7Kl0r76VyyxierhVVobMW_CmQXFJyQ6fPkY,59
+cliquematch/wrappers/a2lgraph.py,sha256=EV8-nefBSidnibP2hFD3fS8jdOTONlxd0dFHHOD5EEQ,3681
+cliquematch/wrappers/a2agraph.py,sha256=GhVzcc0ZbcqejPenahVi9oPBZTfTVoXbNu524-tDSGM,3514
+cliquematch/wrappers/l2lgraph.py,sha256=LiI8Qfkkp8lAD8S67alRDqt46HjDP40mAmQvUq8lbTo,3559
+cliquematch/wrappers/isograph.py,sha256=-9etqvbM06m1yJONQOB7NyllOXOx5a5Cd2H5BzWnx9M,919
+cliquematch/wrappers/aligngraph.py,sha256=EWrNpYW3u7S_WkFJGbKdtp0CnVeYAWWPzbwgCsK0EvY,6454
+cliquematch/wrappers/l2agraph.py,sha256=Oak0FXbn6SMRROvbpOgDXdYPuG1VVb5IKpAJCl4PNEg,3588
+cliquematch/wrappers/__init__.py,sha256=DMkfXlUvR9QUccqrA6WVI87dPQz-eh2DGrgYOL0hCGY,190
+cliquematch-1.1.0.dist-info/top_level.txt,sha256=UvVog10rRXIx6RkKtSKHcCGow4jdYkI5lRauvQo1eDI,12
+cliquematch-1.1.0.dist-info/RECORD,,
+cliquematch-1.1.0.dist-info/METADATA,sha256=bl2H_l3T1I1CN8J3chLi0ihn85JDVzKcRUo4AAVpDJE,4969
+cliquematch-1.1.0.dist-info/LICENSE,sha256=9sHL9CV7TEhENWv_gc4NIdUhALchUxXNmUcKXn6QxFU,1082
+cliquematch-1.1.0.dist-info/WHEEL,sha256=UMI7_DT7ycz2RKvaWnk9vUv5UVJ642ARgUR5s8MX0BI,106
