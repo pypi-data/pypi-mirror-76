@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+dynamo_dictionary/__init__.py
+dynamo_dictionary.egg-info/PKG-INFO
+dynamo_dictionary.egg-info/SOURCES.txt
+dynamo_dictionary.egg-info/dependency_links.txt
+dynamo_dictionary.egg-info/top_level.txt

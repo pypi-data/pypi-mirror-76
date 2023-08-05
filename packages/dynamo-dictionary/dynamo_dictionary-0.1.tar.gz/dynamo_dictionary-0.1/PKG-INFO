@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: dynamo_dictionary
+Version: 0.1
+Summary: Easily Use DynamoDB as a key-value format.
+Home-page: https://github.com/da-huin/dynamo_dictionary
+Author: JunYeong Park
+Author-email: dahuin000@gmail.com
+License: MIT
+Download-URL: https://github.com/da-huin/dynamo_dictionary/archive/master.zip
+Description: Please refer to the https://github.com/da-huin/dynamo_dictionary
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
