@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "lonny_common_pg_migrate"
+version = "0.1.1"
+description = "A CLI for managing postgres DB migrations"
+readme = "README.md"
+homepage = "https://lonny.io"
+repository = "https://gitlab.com/lonny-common/pg-migrate"
+authors = ["tlonny <t@lonny.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pyflakes = "^2.2.0"
+pylama = "^7.7.1"
+lonny_common_pg = "^0.1.0"
+
+[tool.poetry.scripts]
+pg_migrate = "lonny_common_pg_migrate.cli:run"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
