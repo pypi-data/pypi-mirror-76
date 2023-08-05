@@ -1,0 +1,19 @@
+Metadata-Version: 1.0
+Name: queueManager
+Version: 0.1.1
+Summary: distribute multi-process
+Home-page: http://gdwrobot.cn/
+Author: wangzongzheng
+Author-email: wangzongzheng@126.com
+License: MIT
+Description: How to use this package?
+        see the following example
+        from queueManager import queueManager
+        qm = queueManager()
+        qm.connect() #if no server is open,it will fail in seconds
+        a = qm.read() #blocks, until something in the queue can be read.
+        print(a)
+        data = 'test data'
+        qm.write(data)#write some data to the queue, notice that, the write and read queue are two different queues;
+Keywords: distribute multi-process
+Platform: UNKNOWN

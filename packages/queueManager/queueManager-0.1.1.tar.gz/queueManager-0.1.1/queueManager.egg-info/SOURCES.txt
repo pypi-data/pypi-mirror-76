@@ -1,0 +1,8 @@
+README
+setup.py
+queueManager/__init__.py
+queueManager/queueManager.py
+queueManager.egg-info/PKG-INFO
+queueManager.egg-info/SOURCES.txt
+queueManager.egg-info/dependency_links.txt
+queueManager.egg-info/top_level.txt
