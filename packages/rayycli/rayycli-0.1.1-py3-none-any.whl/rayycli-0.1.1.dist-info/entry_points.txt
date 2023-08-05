@@ -1,0 +1,3 @@
+[console_scripts]
+rayycli=rayycli.racli:cli
+
