@@ -1,0 +1,12 @@
+html2text/__init__.py,sha256=2aPEoSaUdtKt1MjeUy20dLnGzGWupLZXSs2vtunjTsQ,32673
+html2text/cli.py,sha256=FLEPQXCPkUf67dFlH8O-1o_SGg7BvUWU3A5Kww5skQw,10226
+html2text/compat.py,sha256=l38jGEMWhtMBsRI6sE_WylxiOeb8JzTRDKSMo41t1EI,501
+html2text/config.py,sha256=rs2objTs8C-jAHHc6yhWD11tXIGkV08DANeMl-phgXw,3846
+html2text/utils.py,sha256=00XZSF_jVe5zAU_LlREn7R_pRKUJVdtMSmt8hf60HUE,8280
+html2text_no_md_escapes-2020.8.7.dist-info/AUTHORS.rst,sha256=DYqQdIEGUfi7W4rk99kKGscsX65Z60kzIm9yGkI8Uf0,940
+html2text_no_md_escapes-2020.8.7.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+html2text_no_md_escapes-2020.8.7.dist-info/METADATA,sha256=bXhLy50ZCcEezybFkvomSQ8ezrzQ0rOyxZvO3oQ-So4,1201
+html2text_no_md_escapes-2020.8.7.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+html2text_no_md_escapes-2020.8.7.dist-info/entry_points.txt,sha256=Dt_m6fT7ozwL2zqLBUCM21EduboQ1tdqA2d42FEBh8o,68
+html2text_no_md_escapes-2020.8.7.dist-info/top_level.txt,sha256=IfV9ShoJ7Kk6WoKekLfEkEJ4RRs0naHwsaXN5JN8srg,10
+html2text_no_md_escapes-2020.8.7.dist-info/RECORD,,
