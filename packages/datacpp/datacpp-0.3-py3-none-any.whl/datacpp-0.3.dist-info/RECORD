@@ -1,0 +1,9 @@
+datacpp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datacpp/dataloader.py,sha256=8bsCcgkAdfQ2xZRc7Yekl8UVCWMjuk2VEhQ4f9YTB2Q,743
+datacpp/libdatacpp.so,sha256=HAe1ycEjENuw0kxDPooOK1b2Zm2ieZgO7mjs4V4pLj0,8152512
+datacpp/pipeline.py,sha256=oj_2LJe5Ohc4jrwdZKOZuMV6VCAMFPBqkntQUVKAoRU,1444
+datacpp/test_box.py,sha256=Bg1ggiMhxyUjGJqcxSHOhxO-hV6XsUe8wKwdwEBUqY0,1208
+datacpp-0.3.dist-info/METADATA,sha256=6_6Pcua6VzzVBhUsuFiuYsJuAW_6HO16z8pRAm-oYXU,248
+datacpp-0.3.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+datacpp-0.3.dist-info/top_level.txt,sha256=fdJaKLhvInK9Jp7PKqsJtpM6n85a7WcqRuENBs4ZDik,8
+datacpp-0.3.dist-info/RECORD,,
