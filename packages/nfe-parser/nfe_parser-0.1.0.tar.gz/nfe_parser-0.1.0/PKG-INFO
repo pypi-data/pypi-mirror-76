@@ -1,0 +1,68 @@
+Metadata-Version: 1.2
+Name: nfe_parser
+Version: 0.1.0
+Summary: A simple lib for downloading nfe's
+Home-page: https://github.com/gmagno/nfe_parser
+Author: Goncalo Magno
+Author-email: goncalo@gmagno.dev
+License: MIT license
+Description: ==========
+        NFE Parser
+        ==========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/nfe_parser.svg
+                :target: https://pypi.python.org/pypi/nfe_parser
+        
+        .. image:: https://img.shields.io/travis/gmagno/nfe_parser.svg
+                :target: https://travis-ci.com/gmagno/nfe_parser
+        
+        .. image:: https://readthedocs.org/projects/nfe-parser/badge/?version=latest
+                :target: https://nfe-parser.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        A simple lib for parsing nfe's
+        
+        
+        * Free software: MIT license
+        * Documentation: https://nfe-parser.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-08-06)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: nfe_parser
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
