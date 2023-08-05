@@ -1,0 +1,9 @@
+people_finder/__init__.py,sha256=46pHz3BspkXBXt692z-dJ1rvAYltR7dsvsuwDef6Wws,133
+people_finder/database.py,sha256=broyBfOKRqNkoU0xnNm-am4zem41g4vnRtw9by7dqgM,705
+people_finder/person.py,sha256=-zaPGV6m8q3Pzr3Fv8ZIGWtweI5zYxlUr10EdOrHj94,753
+people_finder/recognition.py,sha256=fZG54oed2NgwdQNRoi50NQRk3Ckb0RGj6_8MzKCmdps,3928
+people_finder-0.1.0a0.dist-info/LICENSE,sha256=YY5-tmEKIgDkGwN-GLlm5PuiBcWFs8-UAAKz8j4yoOI,1073
+people_finder-0.1.0a0.dist-info/METADATA,sha256=xlIubes5OJILGDUiStfazIbPoY0eAra8V_RU7i5bge4,1125
+people_finder-0.1.0a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+people_finder-0.1.0a0.dist-info/top_level.txt,sha256=LMVV9_neODavnEcFSfsEpc6eaN86-ui3Tif82RpjjXM,14
+people_finder-0.1.0a0.dist-info/RECORD,,
