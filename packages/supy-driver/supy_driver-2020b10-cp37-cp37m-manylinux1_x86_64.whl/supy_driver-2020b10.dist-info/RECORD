@@ -1,0 +1,8 @@
+supy_driver.libs/libgfortran-ed201abd.so.3.0.0,sha256=qKqgvlf0fwb_9d8LQ6xwpHV3igVXxOplo0uum9--YQg,1023960
+supy_driver/__init__.py,sha256=0fEznQbRiqctjB_PIsdjd73M8G0jnSOLxLhjKLIyiUM,747
+supy_driver/version.py,sha256=4iXW1zqUCzooaBnecNKcNZqHXBJ0BClPbCcWjaqGOfo,21
+supy_driver/suews_driver.cpython-37m-x86_64-linux-gnu.so,sha256=JpBHJjfk7_VOSgvxMckrnrghuoABotM_ofb5HHR-aa8,6437064
+supy_driver-2020b10.dist-info/WHEEL,sha256=x_vzcI4ZEGB3mgPWPKzGiYMKKJ7Ixf6JpcM2LwQveJI,109
+supy_driver-2020b10.dist-info/METADATA,sha256=MJRb3u7farQyVx9aC1klgnNhQXIG36bc-8NJlP2UKjY,389
+supy_driver-2020b10.dist-info/top_level.txt,sha256=ECvUcmmeed1oMhCUzs93DjCBODiYZzENno2BOaixQWY,12
+supy_driver-2020b10.dist-info/RECORD,,
