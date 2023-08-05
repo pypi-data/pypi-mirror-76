@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+distributions_caduc37.egg-info/PKG-INFO
+distributions_caduc37.egg-info/SOURCES.txt
+distributions_caduc37.egg-info/dependency_links.txt
+distributions_caduc37.egg-info/not-zip-safe
+distributions_caduc37.egg-info/top_level.txt
