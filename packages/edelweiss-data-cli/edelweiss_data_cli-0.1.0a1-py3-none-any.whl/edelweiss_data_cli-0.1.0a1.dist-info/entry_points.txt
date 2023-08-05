@@ -1,0 +1,3 @@
+[console_scripts]
+edelweiss=edelweiss_data_cli.__main__:main
+
