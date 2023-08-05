@@ -1,0 +1,9 @@
+wheel>=0.23
+pytest>=4.4
+pytest-xdist>=1.31
+pandas
+netCDF4
+matplotlib>=2.0
+Sphinx>=2.3.1
+tox==3.14.3
+Shapely>1.6

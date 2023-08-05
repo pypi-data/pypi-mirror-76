@@ -1,0 +1,6 @@
+- Base the check on ARGO only is basing in only recent data.
+
+- Change between the climatologies
+
+
+- 4 months data of fully manually qualified: Jan, Feb, Apr, 

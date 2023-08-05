@@ -1,0 +1,59 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# Licensed under a 3-clause BSD style license - see LICENSE.rst
+
+"""
+
+Threshold - |median(v0..v4)| + |sigma(v0..v4)|
+y = ma.masked_all_like(x)
+yy = np.stack([x[:-4], x[1:-3], x[2:-2], x[3:-1], x[4:]])
+y[2:-2] = np.median(yy, axis=0) + yy.std(axis=0)
+y = np.stack([x[:-4], x[1:-3], x[2:-2], x[3:-1], x[4:]])
+"""
+
+import logging
+
+import numpy as np
+from numpy import ma
+
+from .qctests import QCCheckVar
+
+
+module_logger = logging.getLogger(__name__)
+
+
+def spike(x):
+    """ Spike
+    """
+    y = ma.fix_invalid(np.ones_like(x) * np.nan)
+    y[1:-1] = np.abs(x[1:-1] - (x[:-2] + x[2:]) / 2.0) - np.abs((x[2:] - x[:-2]) / 2.0)
+    return y
+
+
+class Spike(QCCheckVar):
+    def set_features(self):
+        x = ma.fix_invalid(self.data[self.varname])
+        self.features = {"spike": spike(x)}
+
+    def test(self):
+        self.flags = {}
+        try:
+            threshold = self.cfg["threshold"]
+        except KeyError:
+            module_logger.warning(
+                "Deprecated cfg format. It should contain a threshold item."
+            )
+            threshold = self.cfg
+
+        assert (
+            (np.size(threshold) == 1)
+            and (threshold is not None)
+            and (np.isfinite(threshold))
+        )
+
+        flag = np.zeros(self.data[self.varname].shape, dtype="i1")
+        feature = self.features["spike"]
+        flag[np.nonzero(feature > threshold)] = self.flag_bad
+        flag[np.nonzero(feature <= threshold)] = self.flag_good
+        flag[ma.getmaskarray(self.data[self.varname])] = 9
+        self.flags["spike"] = flag

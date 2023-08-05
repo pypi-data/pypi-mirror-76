@@ -1,0 +1,10 @@
+{
+    "revision": "0.21",
+    "inherit": "eurogoos_realtime",
+    "variables": {
+        "sea_water_temperature": {
+		"procedure": "WOA_NormBias", "woa_normbias": {"threshold": 6}},
+        "sea_water_salinity": {
+		"procedure": "WOA_NormBias", "woa_normbias": {"threshold": 6}}
+    }
+}

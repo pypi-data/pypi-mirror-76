@@ -1,0 +1,6 @@
+- valid datetime
+- valid geolocation
+- at sea
+- global range
+- regional range
+- Deepest pressure

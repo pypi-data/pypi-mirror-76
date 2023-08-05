@@ -1,0 +1,572 @@
+%Hydrographic data have been traditionally qualified by a sequence of tests associated to a range of possible values. %with hardlimit thresholds. 
+%
+%\begin{itemize}
+%    \item Valid date
+%    \item Valid geographic position
+%    \item Location at sea
+%    \item Global range
+%    \item Regional range
+%    \item Digit rollover
+%    \item Gradient
+%    \item Gradient depth dependent
+%    \item Spike
+%    \item Spike depth dependent
+%    \item Climatology comparison
+%    \item Platform identification
+%    \item Impossible speed
+%    \item Constant value
+%    \item Pressure increasing
+%    \item Density inversion
+%    \item Grey list
+%    \item Gross S or T sensor drift
+%    \item Frozen profile
+%    \item Deepest pressure
+%\end{itemize}
+
+% ----------------------------------------------------------------------------
+%\subsubsection{Valid Date/Time}
+%
+%This test checks if there is a valid date and time associated with the profile. 
+%If there is a valid date and time, it is flagged 1; otherwise, it is flagged 3. 
+%IMOS also uses flag 3 for fail on this test, while GTSPP and EGOOS use flag 4 instead.
+%% GTSPP checked
+
+% ----------------------------------------------------------------------------
+%\subsubsection{Valid Position and Position at Sea}
+%
+%The GTSPP and EGOOS consider two different tests: first if the position is valid, and second if it is at sea, but here it is applied as a combined test. 
+%%: is the position valid and at sea? If so, it is flagged 1, otherwise 3. %we apply only if the position is at sea, otherwise it fails. A non valid geographic position is also considered as fail.
+%%
+%This test is evaluated using the ETOPO1, which provides a bathymetry with resolution of 1 minute. 
+%It is considered at sea if the interpolated position has a negative vertical level.
+%If there is a valid position for the profile and it is at sea, it is flagged 1; otherwise, it is flagged 3. 
+%IMOS also uses flag 3 for fail on this test, while EGOOS uses flag 4.
+
+%%\subsection{Stage 2, Profile Tests}
+
+% ----------------------------------------------------------------------------
+%\subsubsection{Global Range}\label{sec:GlobalRange}
+%
+%This test evaluates if the measurements are possible values in the ocean in normal conditions. 
+%If the measurement is inside the acceptable range, it is flagged 1; otherwise, it is flagged 4. 
+%The thresholds used are extreme values (see Table \ref{tab:GlobalRange}), wide enough to accommodate all possible values and do not discard uncommon, but possible, conditions. 
+%%This test define extremme values in the ocean in normal conditions, wide enough to accomodate all possible values, and do not discard anomalous, but possible, conditions.
+%%This test define extremme possible values in the ocean in normal conditions, hence the measurement fails on this test if it is beyond the limits on Table \ref{tab:GlobalRange}. 
+%%The used limits need to be wide enough to acommodate all possible values, and do not discard anomalous, but possible, conditions.
+
+%\begin{table}
+%    \caption{Global limit range values.\label{tab:GlobalRange}}
+%	\centering
+%    \begin{tabular}{c c c}
+%        \hline \hline
+%	& Temperature		& Salinity \\
+%        \hline
+%        %??	& -2.5 to 45	& 0 to 60 \\
+%	GTSPP	& -2 to 40 $^\circ$C	& 0 to 41 \\ %Checked
+%	EGOOS	& -2.5 to 40 $^\circ$C	& 2 to 41 \\ %Checked Flag fail as 4
+%	IMOS	& -2.5 to 40 $^\circ$C	& 2 to 41 \\ % Checked
+%        \hline \hline
+%    \end{tabular}
+%\end{table}
+
+%% GTSPP; Depth 0 to 10,000
+
+% ----------------------------------------------------------------------------
+%\note[gui]{Probably remove the Regional Range. Not pertinent to PIRATA. Although, important for the EGOOS people, if they apply it.}
+%\subsubsection{Regional Range}
+%
+%This test is equivalent to the global range test (\ref{sec:GlobalRange}), but it takes advantage of regional thresholds (see Table \ref{tab:RegionalRange}). 
+%A measurement inside the range is flagged 1, and outside is flagged 4. 
+%The defined areas are the Mediterranean, delimited by the polygon: 30N,6W; 30N,40E; 40N,35E; 42N,20E; 50N,15E; 40N,5E; 30N,6W; % From MG22rev1
+%and the Red Sea, delimited by: 10N,40E; 20N,50E; 30N,30E; 10N,40E;\\
+%%Only two regions are defined, the Mediterranean and the Red Sea.
+%
+%\begin{table}
+%    \caption{Regional limit range values}\label{tab:RegionalRange}
+%    \begin{tabular}{c c c}
+%        \hline \hline
+%       		& Temperature	& Salinity \\
+%        \hline
+%        Mediterranean \\
+%        GTSPP	& 13 to 40	& 0 to 40 \\ % Checked Depth 0 to 5200m
+%        EGOOS	& 10 to 40	& 2 to 40 \\ % Checked
+%        \hline
+%        Red Sea \\
+%        GTSPP	& 21.7 to 40	& 0 to 40 \\ % Checked Depth 0 to 3500m
+%        EGOOS	& 21.7 to 40	& 2 to 41 \\ % Checked
+%        \hline \hline
+%    \end{tabular}
+%\end{table}
+%
+%\subsection{Instrument sensor range test}
+%
+%\citet{EGOOS2010}
+%Temperature in range −2.5°C to 40.0°C
+%Salinity in range 2.0 to 41.0
+%Conductivity in range 1.9 mS/cm to 79.7 mS/cm
+
+% ----------------------------------------------------------------------------
+%\note[gui]{Should I keep the Profile Envelope? Maybe include on the next version}
+%\subsubsection{Profile Envelop}
+%
+% From GTSPP
+%
+%The ocean is stratified, hence the range limits vary vertically. 
+%The profile envelope accounts that, defining global range values for different vertical layers. 
+%
+%\begin{table}
+%    \caption{Vertically dependent global range limits \citet{MG22rev1}.}
+%    \begin{tabular}{l c c}
+%    \hline \hline
+%    		& \multicolumn{2}{c}{range} \\
+%    Depth [m]	& Temp. [C]	& Sal. [psu]\\
+%    \hline
+%    0 to 25		& -2.0 to 37		& 0 to 41\\
+%    $>$25 to 50	& -2.0 to 36		& 0 to 41\\
+%    $>$50 to 100	& -2.0 to 36		& 1 to 41\\
+%    $>$100 to 150	& -2.0 to 34		& 3 to 41\\
+%    $>$150 to 200	& -2.0 to 33		& 3 to 41\\
+%    $>$200 to 300	& -2.0 to 29		& 3 to 41\\
+%    $>$300 to 400	& -2.0 to 27		& 3 to 41\\
+%    $>$400 to 1100	& -2.0 to 27		& 10 to 41\\
+%    $>$1100 to 3000	& -1.5 to 18		& 22 to 38\\
+%    $>$3000 to 5500	& -1.5 to 7		& 33 to 37\\
+%    $>$5500 to 12000	& -1.5 to 4	& 33 to 37\\
+%    \hline \hline
+%    \end{tabular}
+%\end{table}
+%
+%MG26 (p.241 is more restrictive)
+
+
+%2.5 Constant Profile (1024)
+% From GTSPP
+%2.6 Freezing Point (2048)
+%T = -0.0575*S + 1.710523E-3*S3/2 - 2.154996E-4*S2 - 7.53E-4*P
+%Where T is the calculated freezing point temperature, S is the salinity in PSU and must lie between 27 and 35, P is the pressure level in decibars of the observed salinity
+
+% ----------------------------------------------------------------------------
+%\subsubsection{Digit Roll Over}
+%%
+%%Only so many bits are allowed to store temperature and salinity values in a sensor. This range is not always large enough to accommodate conditions that are encountered in the ocean. When the range is exceeded, stored values roll over to the lower end of the range. This rollover should be detected and compensated for when profiles are constructed from the data stream from the instrument. This test is used to ensure the rollover war properly detected.
+%Every sensor has a limit of bits available to store the sample value, with this limit planned to cover the possible range. 
+%A spurious value over the bit range would be recorded as the scale rollover, resulting in a misleading value inside the possible scale. 
+%This test identifies extreme jumps on consecutive measurements, that area wider than expected, suggesting a rollover error. 
+%%One way to detect this is a too big step between sucessive measures.
+%If the difference on consecutive measurements is smaller or equal to the threshold, it is flagged 1; otherwise, it is flagged 4.
+%% EGOOS flag fail as 4.
+%%The CoTeDe's default thresholds are the same from EGOOS, 10$^{\circ}$C for temperature and 5 for salinity
+%The thresholds defined by EGOOS are: 10$^{\circ}$C for temperature and 5 for salinity.
+%
+%%EGOOS use the thresholds:
+%%\begin{itemize}
+%%  \item Temperature difference between adjacent depths $<$ 10$^{\circ}$C % Checked
+%%  \item Salinity difference between adjacent depths $<$ 5 % Checked
+%%\end{itemize}
+
+% ----------------------------------------------------------------------------
+%%2.9 Gradient (16384)
+%\subsubsection{Gradient}\label{sec:Gradient}
+%%Prerequisites : All of Stage 1 tests. : Global Impossible Parameter Value test.
+%%: Profiles sorted by identifier and by increasing date and time for each identifier.
+%This test evaluates the gradient of a sample in respect to the surrounding tendency, using the relation:
+%%This test is failed when the difference between adjacent measurements is too steep.
+%\begin{equation}
+%    g = \left|V_i - \frac{(V_{i+1} + V_{i-1})}{2}\right|
+%    \label{eq:Gradient}
+%\end{equation}
+%where $V_i$ is the measurement being evaluated, while $V_{i-1}$ and $V_{i+1}$ are the previous and the following values. 
+%%The thresholds are defined on table \ref{tab:Gradient}. 
+%If $g$ is below the threshold (see Table \ref{tab:Gradient}), $V_i$ is flagged 1; otherwise, it is flagged 4.
+%GTSPP flags failure in this test with 4. 
+%
+%IMOS defines a similar test -- the rate of change. Instead of a fixed threshold value, IMOS uses 2 times the standard deviation along one month.
+%
+%%\begin{itemize}
+%%  \item Temperature: The $V_i$ value is flagged as wrong when the test value exceeds 9.0$^{\circ}$C
+%%  \item Salinity: The $V_i$ value is flagged as wrong when the test value exceeds 1.5
+%%\end{itemize}
+%
+%%\begin{table}
+%%    \caption{Thresholds for the gradient test\label{tab:Gradient}}
+%%    \begin{tabular}{c c c}
+%%        \hline \hline
+%%       		& Temperature	& Salinity \\
+%%        \hline
+%%        GTSPP	& 10.0$^{\circ}$C	& 5 \\ % Checked
+%%        EGOOS	& $^{\circ}$C	& \\
+%%        IMOS	& $^{\circ}$C	& \\
+%%        \hline \hline
+%%    \end{tabular}
+%%\end{table}
+%\begin{table}
+%    \caption{Thresholds for the gradient test, where $\sigma$ is the standard deviation of the good data observed along one month.\label{tab:Gradient}}
+%	\centering
+%    \begin{tabular}{l c c}
+%        \hline \hline
+%       		& Temperature	& Salinity \\
+%        \hline
+%        GTSPP	& 10.0$^{\circ}$C	& 5 \\ % Checked
+%        IMOS	& 2$\sigma_T$ $^{\circ}$C	& 2$\sigma_S$ \\
+%
+%        EGOOS\\
+%        $\quad <$ 500db	& 9.0$^{\circ}$C	& 1.5 \\
+%        $\quad \ge$ 500db	& 3.0$^{\circ}$C	& 0.5 \\
+%        \hline \hline
+%    \end{tabular}
+%\end{table}
+
+% ----------------------------------------------------------------------------
+%\subsubsection{Spike}\label{sec:Spike}
+%%Prerequisites : All of Stage 1 tests. : Global Impossible Parameter Value test.
+%%Description:
+%%: Sort by profile identifiers and date time in identifier.
+%
+%% Seems that the original equation commes from Manuals WMO/IOC #3
+%%``This test uses the procedures described in WMO/IOC Manuals and Guides \#3 to determine if a value in a profile represents a spike. Note that the threshold value for salinity has been modified.''
+%
+%This test searches for measurements contrasting with the adjacent successive measurements. 
+%It is evaluated by
+%%A difference between sequential measurements, where one measurement is quite different than adjacent ones, is a spike in both size and gradient.
+%\begin{equation}
+%    %s = \left|V_i - \frac{(V_{i+1} + V_{i-1})}{2}\right| - \left|\frac{(V_{i+1} - V_{i-1})}{2}\right|
+%    s = g - \left|\frac{(V_{i+1} - V_{i-1})}{2}\right|
+%\end{equation}
+%where $g$ is defined by equation \ref{eq:Gradient}, $V_i$ is the measurement being tested as a spike, and $V_{i-1}$ and $V_{i+1}$ are the previous and following samples, respectively. 
+%If $s$ is below the threshold (see Table \ref{tab:Spike}), $V_i$ is flagged 1. 
+%GTSPP flags failure in this test as 4, while IMOS flags 3. 
+%%otherwise, GTSPP flags 4 while IMOS flags 3. %it is flagged 4.
+%%GTSPP flags fail with 4, while IMOS flag fail with 3.
+%%\note[gui]{IMOS flag fail with 3 instead of 4.}
+%%\begin{itemize}
+%%  \item Temperature: The $V_i$ value is flagged as wrong when the test value exceeds 6.0$^{\circ}$C  (2C MG22rev1)
+%%  \item Salinity: The $V_i$ value is flagged as wrong when the test value exceeds 0.9 (0.3 MG22Rev1)
+%%\end{itemize}
+%\begin{table}
+%    \caption{Thresholds for the spike test.\label{tab:Spike}}
+%	\centering
+%    \begin{tabular}{l c c}
+%        \hline \hline
+%       		& Temperature	& Salinity \\
+%        \hline
+%        GTSPP	& 2.0$^{\circ}$C	& 0.3 \\ % Checked
+%        IMOS	& 6.0$^{\circ}$C	& 0.9 \\
+%		\multicolumn{3}{l}{EGOOS; \citet{Morello2011}}\\
+%        $\quad <$ 500db     & 6.0$^{\circ}$C	& 0.9 \\ % Checked
+%        $\quad \ge$ 500db	& 2.0$^{\circ}$C	& 0.3 \\ % Checked
+%        \hline \hline
+%    \end{tabular}
+%\end{table}
+%
+%\note[gui]{IMOS aplica o teste spike na pressão e profundidade tb., com threshold de 3.}
+%
+%%\citep{EGOOS2010} defines a ``Bottom Spike test (XBT only)'' as Temperature at the bottom should not differ from the adjacent measurement by more than 1$^\circ$C.
+%
+%
+%%IMOS
+%%
+%%``It is only considering adjacent samples with flags lower or equal to 3 (Bad data that are potentially correctable). If the test involves consecutive samples with a time period greater than 1h between them then the test is cancelled for this triplet.''
+%%
+%%``The provided failing flag is deliberately set to 3 (Bad data that are potentially correctable). This kind of test cannot be right in any case so we want to use another flag than the 4 (Bad data) to attract the user's attention on specific areas in the profile that need a closer look and investigation before use.''
+%%
+%\note[gui]{To think about, IMOS uses flag 3 for fail.}
+
+%\note[gui]{Top \& bottom spikes goes only on the next version}
+% GTSPP
+%2.8 Top and Bottom Spike (8192)
+%Prerequisites : All of Stage 1 tests. : Global Impossible Parameter Value test.
+%Description:
+%: Profiles sorted by identifier and by increasing date and time for each identifier.
+
+%Top Spike
+%IF VDN < (Vl - V2) < VUP then no spike is detected
+%Parameter	VDN VUP Units
+%Temperature -10.0 10.0 degrees C. Salinity	-5.0 5.0 PSU
+%Bottom Spike
+%IF VDN < (V2 - Vl) < VUP then no spike is detected
+%Parameter	VDN VUP Units
+%Temperature -10.0 10.0 degrees C. Salinity	-5.0 5.0 PSU
+
+%Fail is flagged 4
+
+% ----------------------------------------------------------------------------
+%\subsubsection{Spike Depth Dependent}
+%
+%%A difference between sequential measurements, where one measurement is quite different than adjacent ones, is a spike in both size and gradient.
+%%\begin{equation}
+%%\left|V_2 - \frac{(V_3 + V_1)}{2}\right| - \left|\frac{(V_3 - V_1)}{2}\right|
+%%\end{equation}
+%%where V2 is the measurement being tested as a spike, and V1 and V3 are
+%%the values previous and next.
+%This test is similar to the spike test (\ref{sec:Spike}), but defines two different thresholds \citep{EGOOS2010, Morello2011}, one for the shallow waters where it is expected higher variability, and another threshold for deep waters.
+%%\begin{itemize}
+%%  \item Temperature: The V2 value is flagged as wrong when the test value exceeds 6.0$^{\circ}$C for pressures less than 500db or 2.0$^{\circ}$C for pressures greater than or equal to 500db \citep{EGOOS2010, Morello2011}
+%%  \item Salinity: The V2 value is flagged as wrong when the test value exceeds 0.9 for pressures less than 500db or 0.3 for pressures greater or equal to 500 db. \citep{EGOOS2010, Morello2011}
+%%\end{itemize}
+%
+%%\begin{table}
+%%    \caption{Thresholds for the depth dependent spike test.}
+%%    \begin{tabular}{c c c}
+%%        \hline \hline
+%%       	Pressure	& Temperature	& Salinity \\
+%%        \hline
+%%        $<$ 500db	& 6.0$^{\circ}$C	& 0.9 \\
+%%        $>=$ 500db	& 2.0$^{\circ}$C	& 0.3 \\
+%%        \hline \hline
+%%    \end{tabular}
+%%\end{table}
+
+% ----------------------------------------------------------------------------
+%\subsubsection{Gradient and Spike Depth Dependent}
+%
+%\note[gui]{Looks like Morello also recommends this type of Grad. and Spike. Check it!}
+%%\citep{EGOOS2010, Morello2011},
+%
+%EGOOS and \citet{Morello2011} recommend a modification of the regular spike (Section \ref{sec:Spike}) and gradient (Section \ref{sec:Gradient}) tests. 
+%%It takes advantage of the higher stability below the thermocline and halinocline, and applies more restrictive thresholds on the deeper ocean 
+%To take advantage of the higher stability below the thermocline and halinocline, they use more restrictive thresholds in the deeper ocean (see Tables \ref{tab:Gradient} and \ref{tab:Spike}). 
+%%A modification of the regular the spike and the gradient tests are recommended by the EGOOS, which uses narrower thresholds for deep measures. 
+%%This principle is based takes advantage of the higher stability below the thermocline and 
+%Two tests are implemented for that, and are illustrated in Figure \ref{fig:rdgs_pcond_profile}. 
+%The EGOOS flags failure in this test with 4.
+
+%\subsubsection{Gradient Depth Dependent}
+%
+%This test is simmilar to the gradient test (\ref{sec:Gradient}), but 
+%
+%%This test is failed when the difference between adjacent measurements is too steep.
+%%\begin{equation}
+%%    \left|V_2 - \frac{(V_3 + V_1)}{2}\right|
+%%\end{equation}
+%%where V2 is the measurement being tested as a spike, and V1 and V3 are
+%%the previous and next values.
+%\begin{itemize}
+%  \item Temperature: The V2 value is flagged as wrong when the test value
+%exceeds 9.0$^{\circ}$C for pressures less tehan 500db or 3.0$^{\circ}$C for pressures greater
+%than or equal to 500db \cite{EGOOS2010}
+%  \item Salinity: The V2 value is flagged as wrong when the test value
+%exceeds 1.5 for pressures less than 500db or 0.5 for pressures greater or
+%equal to 500db. \cite{EGOOS2010}
+%\end{itemize}
+
+%\begin{table}
+%    \caption{Thresholds for the depth dependent gradient test.}
+%    \begin{tabular}{c c c}
+%        \hline \hline
+%       	Pressure	& Temperature	& Salinity \\
+%        \hline
+%        $<$ 500db	& 9.0$^{\circ}$C	& 1.5 \\
+%        $>=$ 500db	& 3.0$^{\circ}$C	& 0.5 \\
+%        \hline \hline
+%    \end{tabular}
+%\end{table}
+
+%\begin{figure}
+%    \centering
+%    \noindent\includegraphics[width=18pc]{figs/rdgs_pcond_profile.pdf}
+%    \caption{Temperature profile of the profile 10 of the cruise PIRATA--X. 
+%    The green line reflects the measurements approved on the gradient and spike depth dependent tests, according to the EGOOS. 
+%    The orange triangles are the non--approved ones. The sideways triangles illustrate the depths of the values over the axis bounds. \label{fig:rdgs_pcond_profile}}
+%
+%\end{figure}
+
+% ----------------------------------------------------------------------------
+%\note[gui]{RTQC14: Density inversion, from EGOOS}
+%GTSPP
+%2.10 Density Inversion (32768)
+%Prerequisites : All of Stage 1 tests. : Global Impossible Parameter Value test.
+%: Profiles sorted by identifier and by increasing date and time for each identifier.
+
+%\note[gui]{Include the Static Stability in the next version}
+%\subsection{Static Stability}
+%
+%From \citet{WOAV1}
+%$ E = \lim_{\partial z \rightarrow 0} \frac{1}{\rho_0} \frac{\delta \rho}{\partial z}$
+%
+%$\rho_0 = 1.02 \dot 10^3$ kg m$^{-3}$
+%
+%0 to 30  E< 3e-2 kg m-3
+%30 to 400 E < 2e-2 kg m-3
+%>400  any inversion is flagged
+%
+%A cast with two or more inversion is completely eliminated.
+
+
+% ----------------------------------------------------------------------------
+
+%2.11 Bottom (8388608)
+% Test if the maximum measured depth is equal or greater then the local depth
+
+%2.12 Temperature Inversion (16777216)
+%Prerequisites: All of Stage 1 tests
+
+%\note[gui]{RTQC13: Stuck value test. If all values are identical, it fails, from EGOOS.}
+
+% ----------------------------------------------------------------------------
+%\subsubsection{Tukey 53H}
+%This method to detect spikes is based on the procedure initially proposed by \citet{GoringNikora2002} for Acoustic Doppler Velocimeters, and similar to the one adopted by \citet{Morello2011}. 
+%%This method was initially proposed by \citet{GoringNikora2002} to detect spikes on Aoustic Doppler Velocimeters. 
+%It takes advantage of the robustness of the median to create a smoother data series, which is then compared with the observation. 
+%%This method was proposed by \citet{GoringNikora2002} to detect spikes on Aoustic Doppler Velocimeters. 
+%%This method to detect spikes is described by \citet{GoringNikora2002}, and takes advantage of the robustness of the median to create a smoother data series which is then compared with the observation. 
+%%Originally, this difference is normalized 
+%This difference is normalized by the standard deviation of the observed data series after removing the large--scale variability.
+%%Those authors use a factor of the standard deviation of the original data to define the threshold. 
+%%This is not the best approach for temperature and salinity profiles since it is expected a gradient between the surface and the bottom that is not related to high frequency variability in the measurements. 
+%%We rather use the standard deviation of the step between successive measurements. 
+%%An individual measur
+%%For a time series of measurements $x$,  full procedure is as follows:
+%%The procedure is as follows
+%For one individual measurement $V_i$, where $i$ is the position of the observation, it is evaluated as follows:
+%\begin{enumerate}
+%    \item $V^{(1)}$ is the median of the five points from $V_{i-2}$ to $V_{i+2}$;
+%    \item $V^{(2)}$ is the median of the three points from $V^{(1)}_{i-1}$ to $V^{(1)}_{i+1}$;
+%    \item $V^{(3)}$ is the defined by the Hanning smoothing filter:  
+%        $\frac{1}{4}\left( V^{(2)}_{i-1} +2V^{(2)}_{i} +V^{(2)}_{i+1} \right)$
+%    \item $V_i$ is a spike if $|V_i-V^{(3)}|/\sigma > k$, where $\sigma$ is the standard deviation of the lowpass filtered data.
+%\end{enumerate}
+%
+%
+%The default behavior in CoTeDe is to flag 4 if the test yields values higher than $k=1.5$, and flag 1 if it is lower.
+
+%\subsection{Stage 3: Climatology Tests}
+%3.1 Levitus Seasonal Statistics (65536)
+%Prerequisites : All of Stage 1 tests. : Global Impossible Parameter Value test.
+%: Profiles should be sorted by latitude and longitude.
+% MG22rev1
+% If shallower then 50m or 1000Km from land, 5sigma, otherwise 3sigma
+
+%3.2 Emery and Dewar Climatology (131072) 3.3 Asheville Climatology (262144) 
+
+%3.4 Levitus Monthly Climatology (524288)
+%Prerequisites : All of Stage 1 tests. : Global Impossible Parameter Value test.
+%: The stations are sorted by latitude and longitude.
+
+% ----------------------------------------------------------------------------
+%\subsubsection{Climatology}\label{sec:Climatology}
+%
+%%\note[gui]{IMOS do not recommend climtology test on operational mode.}
+%%\note[gui]{IMOS flag fail as 3, not as 4}
+%
+%%\note[gui]{GTSPP defines the conditions for the Levitus comparison}
+%\note[gui]{GTSPP uses 5 sigma if local depth is shallower than 50m and less than 1000km from land, otherwise uses 3 sigma}
+%%\note[gui]{GTSPP flags fail as flag 3}
+%
+%This test compares the observed measurements with the monthly objectively interpolated maps of the World Ocean Atlas 2009 (WOA) \citep{WOA09Temp, WOA09Sal}. 
+%%Due to a non--homogeneous variability of the ocean, the difference between the measurement and the climatology is normalized by the standard deviation of the climatology. 
+%The difference between the measurement and the climatology is normalized by the climatology's standard deviation, thus the bias is evaluated in respect to the typical local variability. 
+%%The upper ocean has a dinstinguished variability then the deep ocean, and to consider that, an alternative is to normalize the difference by the standard deviation of the data used to compose the climatology.
+%%
+%It is defined as:
+%%Each measurement is compared against a monthly climatology
+%%(\hyperref{http://www.nodc.noaa.gov/OC5/indprod.html}{WOA})\\
+%%The test fails if $\left| V1 - V2 \right| > 3\sigma$
+%\begin{equation}
+%    c = \frac{\left| V_i - \langle V \rangle \right|}{\sigma}
+%\end{equation}
+%where $V_i$ is the value to be evaluated, $\langle V \rangle$ is the monthly climatology and $\sigma$ is the standard deviation of the observations used to create the climatology. 
+%If $c$ is higher than the threshold, the measurement is considered larger than the expected variability of this region, thus fails on this test.
+%%
+%%\cite{Morello2011} uses 6 $\sigma$
+%%
+%The GTSPP flags 3 if $c>3$. %, while EGOOS and IMOS uses 6 as threshold. 
+%EGOOS and IMOS use 6 as the threshold, but both do not recommend this test for the operational mode. 
+%IMOS flags failure as 3. 
+%%The GTSPP uses the threshold of 3, so that $c>3$ is flagged 3. 
+%%EGOOS recommend to do not use this test in the operational mode, and uses a threshold of 6, and flag the fail as ??. 
+%%\cite{Morello2011} uses the threshold of 6 $\sigma$.
+%
+%The default for CoTeDe is to flag 3 if $c>6$ (see Figure \ref{fig:climatology_qc}).
+%%
+%CoTeDe also imposes an extra restriction as it is only applied in regions where the climatology was built from at least 5 different observations. 
+%%Under the resolution of the WOA, 1 degree, some areas 
+%%The WOA has a resolution of 1 degree, 
+%
+%%We adopted the objectively interpolated maps of the World Ocean Atlas 2009 \note{missing a reference}. %, comparing the mesurement under evaluation against the objectively interpolated
+%%The test is defined according to \cite{MGG22}, as
+%
+%\begin{figure}
+%    \centering
+%    \noindent\includegraphics[width=18pc]{figs/climatology_qc.pdf}
+%    \caption{Temperature profile at station 10 of cruise PIRATA--X (in green), climatology profile form WOA (in orange), and six standard deviations around the climatology (shaded orange). 
+%    %The temperature profile PIRX10 is shown as the green line.  The light orange is the climatology profile form WOA, and the shaded area represents the six standard deviations around the climatology. 
+%    Green triangles are the data that failed on the climatology test.
+%    \label{fig:climatology_qc}}
+%\end{figure}
+%
+%
+%\note[gui]{Consider an equivalent test using the NCEP}
+
+
+% ----------------------------------------------------------------------------
+%\subsubsection{Stage 4: Profile Consistency Tests}
+%4.1 Waterfall (1048576)
+
+% ----------------------------------------------------------------------------
+%\subsubsection{Stage 5: Visual Inspection}
+% 5.1 Cruise Track (2097152)
+%5.2 Profiles (4194304)
+
+%GTSPP
+%Stage 1: Location and Identification Tests 1.1 Platform Identification (1)
+%1.2 Impossible Date/Time (2) 1.3 Impossible Location (4) 1.4 Position on Land (8) 1.5 Impossible Speed (16) 1.6 Impossible Sounding (32)
+%Stage 2: Profile Tests 2.1 Global Impossible Parameter Values (64) 2.2 Regional Impossible Parameter Values (128) 2.3 Increasing Depth (256) 2.4 Profile Envelop (512) 2.5 Constant Profile (1024) 2.6 Freezing Point (2048) 2.7 Spike (4096) 2.8 Top and Bottom Spike (8192) 2.9 Gradient (16384) 2.10 Density Inversion (32768) 2.11 Bottom (8388608) 2.12 Temperature Inversion (16777216)
+%Stage 3: Climatology Tests 3.1 Levitus Seasonal Statistics (65536) 3.2 Emery and Dewar Climatology (131072) 3.3 Asheville Climatology (262144) 3.4 Levitus Monthly Climatology (524288)
+%Stage 4: Profile Consistency Tests 4.1 Waterfall (1048576)
+%Stage 5: Visual Inspection 5.1 Cruise Track (2097152)
+%5.2 Profiles (4194304)
+
+
+%\note[gui]{Stuck value goes only on the next version}
+%\subsection{Stuck value test}
+%
+%\cite{EGOOS2010}
+
+%\note[gui]{Density inversion goes only on the next version}
+%\subsection{Density inversion}
+%
+%\cite{EGOOS2010} recommends to use sigma0 from UNESCO Technical Papers in Marine Science \#44, 1983. It is flagged as bad if there is a vertical density inversion.
+
+% ----------------------------------------------------------------------------
+%\subsection{Set of tests}
+%
+%GTSPP recommends the tests on Table \ref{tab:GTSPPListOfTests}, which are split into 3 stages. Each measurement is only tested if approved on the previous stage.
+%
+%\begin{table}
+%    \caption{Sequence of tests recommended by GTSPP.}
+%\begin{tabular}{l l}
+%\hline \hline
+%Stage 1	& Valid Date/Time \\
+%	& Valid Position \\
+%	& Position at Sea \\
+%Stage 2	& Global Range \\
+%	& Regional Range \\
+%	& Profile Envelop \\
+%	& Digit Roll Over$^*$ \\
+%	& Spike \\
+%	& Gradient \\
+%Stage 3	& Climatology \\
+%\hline \hline
+%\end{tabular}
+%
+%
+%Recommended by IMOS:
+%imosImpossibleDateQC
+%imosImpossibleLocationSetQC
+%imosInOutWaterQC * CoTeDe do not apply it
+%imosGlobalRangeQC
+%imosRegionalRangeQC
+%imosVerticalSpikeQC
+%imosStationarityQC
+%imosSalinityFromPTQC * CoTeDe does not apply it, but it's an interesting test. Inheritance test on Salinity. Sal gets 1 or the highest flag given to temperature, pressure and depth.
+
+
+%\subsection{New concept}
+
+%Gradient/Spike normalized by Climatology
+
+%Gradient/Spike versus 10s
+
+%Gradient/Spike versus 10m
+
+%Vertical speed
