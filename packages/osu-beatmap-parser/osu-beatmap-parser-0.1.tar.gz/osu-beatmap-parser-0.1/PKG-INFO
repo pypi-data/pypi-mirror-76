@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: osu-beatmap-parser
+Version: 0.1
+Summary: Easily parse .osu files into usable objects
+Home-page: https://github.com/fifty/osu-beatmap-parser
+Author: Matthew Holmes
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/fifty/osu-beatmap-parser/archive/v_0.1.tar.gz
+Description: UNKNOWN
+Keywords: osu,osu!,parser,beatmap
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
