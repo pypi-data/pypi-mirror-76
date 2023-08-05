@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: pyPman
+Version: 1.0.0b3
+Summary: Python project manager
+Home-page: https://github.com/sunilk-n/PyProjectManager
+Author: Sunil Kumar Nerella
+Author-email: sunil.nerella39@gmail.com, nerella-sk@mpcfilm.com
+License: GNU GENERAL PUBLIC LICENSE
+Description: # PyProjectManager
+        Python project manager smooths workflow to create, install and maintain python projects
+        
+        ####Requirements
+        The package is tested and working with Click 7.1.1. Other required packages are specified in setup files.
+        
+        ###Method of installation
+        
+        To install Python Project manager from PyPi run this command in terminal
+        
+        ```
+        pip install pyPman
+        ```
+        
+        Or
+        
+        To clone it from github : 
+        
+        ```
+        git clone https://github.com/sunilk-n/PyProjectManager.git
+        ```
+        Then use python directly in the main folder
+        ```
+        python setup.py sdist
+        ```
+        To get the ".gz" file
+        
+        ###Complete help information about `init`:
+        
+        * pyPm init : Starts project initialization
+        * `pyPm init [-p <projectName>]` : Starts project initialization setting projectName as provided
+        * `pyPm init [-p <projectName> -d <dependancy>]` : Adds 3rd party dependancy modules to the project
+            - Usage: `pyPm init -p <projectName> -d <moduleName> [<module_version>]`
+                * Ex: `pyPm init -p PyProjectManager -d click` (or)
+                * Ex: `pyPm init -p PyProjectManager -d click 7.1.1`
+        * `pyPm init [-p <projectName> -m <module>]` : Adds user defined module package to the project
+            - Usage: `pyPm init -p <projectName> -m <moduleName>`
+                * Ex: `pyPm init -p PyProjectManager -m testModule`
+        
+        
+        ###Complete help information about `install`:
+        * `pyPm install [-p <projectName>]` : Starts installing project to the current directory
+            - Usage: `pyPm install -p <projectName>`
+                * Ex: `pyPm install -p PyProjectManager`
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
+Description-Content-Type: text/markdown
