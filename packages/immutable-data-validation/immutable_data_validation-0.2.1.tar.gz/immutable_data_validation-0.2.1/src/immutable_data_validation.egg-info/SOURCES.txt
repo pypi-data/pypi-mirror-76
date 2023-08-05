@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/immutable_data_validation/__init__.py
+src/immutable_data_validation/checkers.py
+src/immutable_data_validation/constants.py
+src/immutable_data_validation/errors.py
+src/immutable_data_validation/validators.py
+src/immutable_data_validation/wrapped_vc_validators.py
+src/immutable_data_validation.egg-info/PKG-INFO
