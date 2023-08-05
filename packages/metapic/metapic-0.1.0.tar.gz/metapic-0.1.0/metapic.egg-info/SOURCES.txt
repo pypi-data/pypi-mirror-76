@@ -1,0 +1,12 @@
+HISTORY.md
+LICENSE
+README.md
+metapic.py
+setup.cfg
+setup.py
+metapic.egg-info/PKG-INFO
+metapic.egg-info/SOURCES.txt
+metapic.egg-info/dependency_links.txt
+metapic.egg-info/entry_points.txt
+metapic.egg-info/top_level.txt
+metapic.egg-info/zip-safe
