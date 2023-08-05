@@ -1,0 +1,5 @@
+setup.py
+smarthomeconnect.egg-info/PKG-INFO
+smarthomeconnect.egg-info/SOURCES.txt
+smarthomeconnect.egg-info/dependency_links.txt
+smarthomeconnect.egg-info/top_level.txt
