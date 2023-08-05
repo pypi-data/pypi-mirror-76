@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pygame-minesweeper-core
+Version: 1.0.11
+Summary: Minesweeper game core library
+Home-page: https://github.com/andreasisnes/Elitekollektivet.Minesweeper.Core
+Author: Andreas Isnes Nilsen
+Author-email: andreas.isnes@gmail.com
+License: UNKNOWN
+Description: [![Build Status](https://dev.azure.com/andreasisnes/Elitekollektivet/_apis/build/status/Elitekollektivet.Minesweeper/Elitekollektivet.Minesweeper.Core?branchName=master)](https://dev.azure.com/andreasisnes/Elitekollektivet/_build/latest?definitionId=13&branchName=master)
+        ![PyPI - License](https://img.shields.io/pypi/l/pygame-minesweeper-core)
+        ![PyPI](https://img.shields.io/pypi/v/pygame-minesweeper-core)
+        ![Azure DevOps coverage](https://img.shields.io/azure-devops/coverage/andreasisnes/Elitekollektivet/13)
+        
+        # Introduction
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
