@@ -1,0 +1,3 @@
+[mlflow.project_backend]
+yarn=mlflow_yarn.yarn_backend:yarn_backend_builder
+
