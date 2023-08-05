@@ -1,0 +1,8 @@
+setup.py
+asteriskinterfacelogger/__init__.py
+asteriskinterfacelogger/logging.py
+asteriskinterfacelogger.egg-info/PKG-INFO
+asteriskinterfacelogger.egg-info/SOURCES.txt
+asteriskinterfacelogger.egg-info/dependency_links.txt
+asteriskinterfacelogger.egg-info/requires.txt
+asteriskinterfacelogger.egg-info/top_level.txt
