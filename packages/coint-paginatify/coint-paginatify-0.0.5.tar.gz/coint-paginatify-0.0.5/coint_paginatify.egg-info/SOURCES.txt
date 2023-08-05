@@ -1,0 +1,8 @@
+README.md
+setup.py
+coint_paginatify.egg-info/PKG-INFO
+coint_paginatify.egg-info/SOURCES.txt
+coint_paginatify.egg-info/dependency_links.txt
+coint_paginatify.egg-info/not-zip-safe
+coint_paginatify.egg-info/top_level.txt
+paginatify/__init__.py
