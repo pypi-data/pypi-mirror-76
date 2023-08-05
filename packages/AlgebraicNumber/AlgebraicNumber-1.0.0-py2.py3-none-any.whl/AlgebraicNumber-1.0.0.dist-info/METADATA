@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: AlgebraicNumber
+Version: 1.0.0
+Summary: Manipulation of algebraic numbers
+Home-page: https://gitlab.com/ydethe/algebraicnumber
+Author: Yann de The
+Author-email: yann@johncloud.fr
+License: UNKNOWN
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+UNKNOWN
+
+
