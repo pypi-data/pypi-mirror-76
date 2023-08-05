@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wechaty-puppet-mock
+Version: 0.0.1
+Summary: Puppet Mocker for Wechaty (& A Puppet Template Starter)
+Home-page: https://github.com/wechaty/python-wechaty-puppet-mock
+Author: wj-Mcat (吴京京)
+Author-email: 1435130236@qq.com
+License: Apache-2.0
+Description: # python-wechaty-puppet-mock
+        Puppet Mocker for Wechaty (&amp; A Puppet Template Starter)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
