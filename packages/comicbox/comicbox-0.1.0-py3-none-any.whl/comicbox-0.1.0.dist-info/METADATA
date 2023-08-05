@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: comicbox
+Version: 0.1.0
+Summary: An API for reading comic archives
+Home-page: https://github.com/ajslater/comicbox
+License: GPL-2.0-only
+Keywords: comic,cbz,cbr
+Author: AJ Slater
+Author-email: aj@slater.net
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: CLI
+Classifier: Intended Audience :: Developer
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: parse (>=1.15,<2.0)
+Requires-Dist: pycountry (>=20.7.3,<21.0.0)
+Requires-Dist: rarfile (>=4.0,<5.0)
+Requires-Dist: simplejson (>=3.17,<4.0)
+Project-URL: Documentation, https://github.com/ajslater/comicbox
+Description-Content-Type: text/markdown
+
+
