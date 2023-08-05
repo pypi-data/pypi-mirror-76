@@ -1,0 +1,13 @@
+stream_connect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stream_connect/commons.py,sha256=yDV-m-9t2oJ0SaCrcZ16BqIb3edimKv8qknhyqnWVbw,387
+stream_connect/connector.py,sha256=3Eg1Yt1FFCW-hdw4goXEX_znACq8iyMlJEr-q3WU_6I,1156
+stream_connect/errors.py,sha256=ZrvG1hu3vWCZxBEHPBI69ENT072xXNaUVAZKmnl0gMM,143
+stream_connect/test.py,sha256=prcAGdV9bh_AULQG99-Pyr_uEmTCKsXg5wXdp8Y5IKI,731
+stream_connect/services/___init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stream_connect/services/base.py,sha256=520R51oOfdY-BQB6cPLvH-D7McIWsXTZaSaJYizLSQk,496
+stream_connect/services/kafka.py,sha256=J-eYXYpMbLOSVKdqvQG8KED9KmHxFlQVJvWlnkoUulc,1712
+stream_connect/services/response.py,sha256=sa0K8AzWwQq22K0JnZDD0UaL0SxMSDn7XMspLyN8frc,128
+stream_connect-1.0.7.dist-info/METADATA,sha256=4TO3AVi_vgLmFpSYFs9KVBtVCI00fnEqEBM6sYQDsNM,859
+stream_connect-1.0.7.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+stream_connect-1.0.7.dist-info/top_level.txt,sha256=R0yaJUw390dqmji2GZehl_KIEyn3GRjK2kvp9xd_Bvo,15
+stream_connect-1.0.7.dist-info/RECORD,,

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: stream-connect
+Version: 1.0.7
+Summary: Python library to connect streaming service
+Home-page: https://github.com/devratnam/stream-connect-py
+Author: Devendra Ratnam
+Author-email: ratnam747@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: confluent-kafka (==0.11.6)
+
+# stream-connect-py
+
+# wms-receiving
+
+## Install stream-connect
+
+> pip install stream-connect
+
+## Description
+This library provides generic functinality to connect streaming services like
+kafka, kinesis or any other like these.
+
