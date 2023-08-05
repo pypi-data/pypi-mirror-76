@@ -1,0 +1,1 @@
+from .logpoint import Logpoint

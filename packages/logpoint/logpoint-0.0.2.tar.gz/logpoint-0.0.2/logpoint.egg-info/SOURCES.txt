@@ -1,0 +1,8 @@
+README.md
+setup.py
+logpoint/__init__.py
+logpoint/logpoint.py
+logpoint.egg-info/PKG-INFO
+logpoint.egg-info/SOURCES.txt
+logpoint.egg-info/dependency_links.txt
+logpoint.egg-info/top_level.txt
