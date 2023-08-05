@@ -1,0 +1,10 @@
+LICENSE.md
+MANIFEST.in
+README.rst
+setup.py
+apispec/compat.py
+apispec_py35_compat.egg-info/PKG-INFO
+apispec_py35_compat.egg-info/SOURCES.txt
+apispec_py35_compat.egg-info/dependency_links.txt
+apispec_py35_compat.egg-info/requires.txt
+apispec_py35_compat.egg-info/top_level.txt

@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: apispec-py35-compat
+Version: 1.0.0
+Summary: Python 3.5 compat package for apispec
+Home-page: https://github.com/theirix/apispec-py35-compat
+Author: theirix
+Author-email: theirix@gmail.com
+License: MIT
+Description: *******************
+        apispec-py35-compat
+        *******************
+        
+        A simple package that provides a deprecated `apispec.compat` package for Python 3.5.
+        This package was removed from `apispec` during migration from Python 3.5.
+        It was required however `apispec-webframeworks` 0.4.0 - the last version supporting Python 3.5.
+        
+        Be careful while uninstalling this package - it will drop `apispec` package as well.
+        
+        File `apispec/compat.py` is copied from marshmallow-code package file `src/marshmallow/compat.py`
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5, <4
