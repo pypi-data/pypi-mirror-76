@@ -1,0 +1,43 @@
+[tool.poetry]
+name = "poetry-optional-cython"
+version = "0.0.2"
+description = "Package to demonstrate optional cython extension modules"
+authors = ["Titusz Pan <tp@py7.de>"]
+license = "MIT"
+readme = "README.md"
+keywords = ["poetry", "cython", "extension"]
+build = "build.py"
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Unix",
+    "Operating System :: POSIX",
+    "Operating System :: Microsoft :: Windows",
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3.6',
+    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.8',
+    "Topic :: Software Development",
+]
+
+[tool.poetry.scripts]
+pocy = 'poetry_optional_cython.cli:cli'
+
+[tool.poetry.dependencies]
+python = "^3.6"
+cython = { version = "^0.29", optional = true }
+click = "^7.1.2"
+
+[tool.poetry.extras]
+cython = ["cython"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^5"
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
