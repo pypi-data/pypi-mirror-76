@@ -1,0 +1,1 @@
+__extraversion__ = {'dist_name': None, 'dist_package': None, 'editable': False, 'commit': '6000efb244c54a0b628735a38c4e0af085bf0668', 'dirty': False}
