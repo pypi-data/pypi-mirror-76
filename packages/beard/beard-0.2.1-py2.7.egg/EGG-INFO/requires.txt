@@ -1,0 +1,9 @@
+setuptools-scm<4.0.0
+jellyfish<=0.7
+six
+structlog
+unidecode
+fuzzy==1.1
+numpy==1.10
+scipy==0.17
+scikit-learn==0.17
