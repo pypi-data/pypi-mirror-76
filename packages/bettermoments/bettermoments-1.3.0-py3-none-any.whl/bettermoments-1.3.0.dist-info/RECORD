@@ -1,0 +1,15 @@
+bettermoments/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bettermoments/collapse_cube.py,sha256=nOaZ0kA1FHygZToeCQBfCsH4WB7YvaUJ7lfncCYFI0U,36586
+bettermoments/collapse_cube_old.py,sha256=eebjQd2CJYAIWKghSDPWx4jVSg1dYSCCFyUSiPv0-xo,37271
+bettermoments/methods.py,sha256=2KnUdrO17rW53eIXWPAXetofQAMWbCO-KMFZYJqYKQc,12610
+bettermoments/methods_old.py,sha256=Ey4-iqXcNI8872-EL56ayLYl-8rmN1_2dlPXoiYG4mI,25550
+bettermoments/quadratic.py,sha256=o_M0NNkirNrfpqRzEZUiaCeo1B-deSv9KTXdGlS018k,5032
+bettermoments/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bettermoments/tests/tests.py,sha256=xAirybH4I58UVnTQ3LQatkvXvg2OTtyO4Teh6iQRed0,8653
+bettermoments-1.3.0.dist-info/LICENSE.md,sha256=bTMSs6ok9q39VuGJdx1EYWnSIvTwl6K-9JFnmh7nOdE,1068
+bettermoments-1.3.0.dist-info/METADATA,sha256=NSPyiPfRAp1JIcVxM09ityh5zCinc1zNZYEa8vHioCY,2282
+bettermoments-1.3.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+bettermoments-1.3.0.dist-info/entry_points.txt,sha256=2tud6aROvNsF6yjg7pxgiVQg5zPj8ZyGVSuVh9IsNow,68
+bettermoments-1.3.0.dist-info/top_level.txt,sha256=vo-ugP7JDYoBDLFBENB4dvmd2BSJW2fsyOLw-Iz6RhI,14
+bettermoments-1.3.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bettermoments-1.3.0.dist-info/RECORD,,
