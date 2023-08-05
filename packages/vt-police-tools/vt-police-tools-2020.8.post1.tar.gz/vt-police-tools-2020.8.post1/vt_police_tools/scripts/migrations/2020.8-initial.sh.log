@@ -1,0 +1,1158 @@
+[2020-08-07 09:20:33,655] INFO in __init__: OpenOversight startup
+Added Not Sure to Burlington Police Department
+[2020-08-07 09:20:34,984] INFO in __init__: OpenOversight startup
+Added Officer to Burlington Police Department
+[2020-08-07 09:20:36,310] INFO in __init__: OpenOversight startup
+Added Corporal to Burlington Police Department
+[2020-08-07 09:20:37,637] INFO in __init__: OpenOversight startup
+Added Sergeant to Burlington Police Department
+[2020-08-07 09:20:38,949] INFO in __init__: OpenOversight startup
+Added Lieutenant to Burlington Police Department
+[2020-08-07 09:20:40,276] INFO in __init__: OpenOversight startup
+Added Deputy Chief to Burlington Police Department
+[2020-08-07 09:20:41,611] INFO in __init__: OpenOversight startup
+Added Chief to Burlington Police Department
+[2020-08-07 09:20:42,967] INFO in __init__: OpenOversight startup
+Created officer <Officer ID 15001: Daniel None Merchand None>
+ ---> Added assignment: <Assignment: ID 15001 : 206>
+Created officer <Officer ID 15002: Jason None Lawson None>
+ ---> Added assignment: <Assignment: ID 15002 : 214>
+Created officer <Officer ID 15003: Matthew None Sullivan None>
+ ---> Added assignment: <Assignment: ID 15003 : 215>
+Created officer <Officer ID 15004: Justin None Couture None>
+ ---> Added assignment: <Assignment: ID 15004 : 232>
+Created officer <Officer ID 15005: Jannine None Wright None>
+ ---> Added assignment: <Assignment: ID 15005 : 159>
+Created officer <Officer ID 15006: Christopher None Nadeau None>
+ ---> Added assignment: <Assignment: ID 15006 : 242>
+Created officer <Officer ID 15007: James None Trieb None>
+ ---> Added assignment: <Assignment: ID 15007 : 251>
+Created officer <Officer ID 15008: Brian None LaBarge None>
+ ---> Added assignment: <Assignment: ID 15008 : 269>
+Created officer <Officer ID 15009: Jonathan None Young None>
+ ---> Added assignment: <Assignment: ID 15009 : 103>
+Created officer <Officer ID 15010: Jason None Bellavance None>
+ ---> Added assignment: <Assignment: ID 15010 : 318>
+Created officer <Officer ID 15011: My Thanh None Nguyen None>
+ ---> Added assignment: <Assignment: ID 15011 : 267>
+Created officer <Officer ID 15012: Brandon None del Pozo None>
+ ---> Added assignment: <Assignment: ID 15012 : 802>
+Created officer <Officer ID 15013: Wade None Labrecque None>
+ ---> Added assignment: <Assignment: ID 15013 : 226>
+Created officer <Officer ID 15014: Thomas None Nash None>
+ ---> Added assignment: <Assignment: ID 15014 : 221>
+Created officer <Officer ID 15015: Jesse None Namdar None>
+ ---> Added assignment: <Assignment: ID 15015 : 283>
+Created officer <Officer ID 15016: Anthony None Brownell None>
+ ---> Added assignment: <Assignment: ID 15016 : 311>
+Created officer <Officer ID 15017: Brian None DiFranco None>
+ ---> Added assignment: <Assignment: ID 15017 : 235>
+Created officer <Officer ID 15018: Jonathan None Murad None>
+ ---> Added assignment: <Assignment: ID 15018 : 387>
+[2020-08-07 09:20:44,471] INFO in __init__: OpenOversight startup
+Created officer <Officer ID 15019: Raymond None Lopes None>
+ ---> Added assignment: <Assignment: ID 15019 : 135>
+Created officer <Officer ID 15020: Lance None Taylor None>
+ ---> Added assignment: <Assignment: ID 15020 : 201>
+Created officer <Officer ID 15021: David None Clements None>
+ ---> Added assignment: <Assignment: ID 15021 : 219>
+Created officer <Officer ID 15022: Dominic None Brodeur None>
+ ---> Added assignment: <Assignment: ID 15022 : 228>
+Created officer <Officer ID 15023: Michael None Hemond None>
+ ---> Added assignment: <Assignment: ID 15023 : 229>
+Created officer <Officer ID 15024: Trent None Martin None>
+ ---> Added assignment: <Assignment: ID 15024 : 231>
+Created officer <Officer ID 15025: Daniel None Gilligan None>
+ ---> Added assignment: <Assignment: ID 15025 : 247>
+Created officer <Officer ID 15026: Jamie None Morris None>
+ ---> Added assignment: <Assignment: ID 15026 : 254>
+Created officer <Officer ID 15027: Brent None Navari None>
+ ---> Added assignment: <Assignment: ID 15027 : 253>
+Created officer <Officer ID 15028: Carolynne None Erwin None>
+ ---> Added assignment: <Assignment: ID 15028 : 260>
+Created officer <Officer ID 15029: Lee None Thayer None>
+ ---> Added assignment: <Assignment: ID 15029 : 261>
+Created officer <Officer ID 15030: Matthew None White None>
+ ---> Added assignment: <Assignment: ID 15030 : 262>
+Created officer <Officer ID 15031: Kevin None Wilson None>
+ ---> Added assignment: <Assignment: ID 15031 : 263>
+Created officer <Officer ID 15032: Thomas None Chenette None>
+ ---> Added assignment: <Assignment: ID 15032 : 271>
+Created officer <Officer ID 15033: Jessica None Norris None>
+ ---> Added assignment: <Assignment: ID 15033 : 273>
+Created officer <Officer ID 15034: Eugene None Baccaglini None>
+ ---> Added assignment: <Assignment: ID 15034 : 272>
+Created officer <Officer ID 15035: Rene None Young None>
+ ---> Added assignment: <Assignment: ID 15035 : 279>
+Created officer <Officer ID 15036: Erica None Schaller None>
+ ---> Added assignment: <Assignment: ID 15036 : 282>
+Created officer <Officer ID 15037: Jennifer None Cousins None>
+ ---> Added assignment: <Assignment: ID 15037 : 284>
+Created officer <Officer ID 15038: Eric None Dalla Mura None>
+ ---> Added assignment: <Assignment: ID 15038 : 286>
+Created officer <Officer ID 15039: John None Stoughton None>
+ ---> Added assignment: <Assignment: ID 15039 : 288>
+Created officer <Officer ID 15040: Tyler None Badeau None>
+ ---> Added assignment: <Assignment: ID 15040 : 289>
+Created officer <Officer ID 15041: Krystal None Wrinn None>
+ ---> Added assignment: <Assignment: ID 15041 : 293>
+Created officer <Officer ID 15042: Dwayne None Mellis None>
+ ---> Added assignment: <Assignment: ID 15042 : 297>
+Created officer <Officer ID 15043: Christopher None Sweeney None>
+ ---> Added assignment: <Assignment: ID 15043 : 299>
+Created officer <Officer ID 15044: William None Drinkwine None>
+ ---> Added assignment: <Assignment: ID 15044 : 302>
+Created officer <Officer ID 15045: Paul None Leclerc None>
+ ---> Added assignment: <Assignment: ID 15045 : 304>
+Created officer <Officer ID 15046: Tyler None Kahlig None>
+ ---> Added assignment: <Assignment: ID 15046 : 313>
+Created officer <Officer ID 15047: Jacob None Seller None>
+ ---> Added assignment: <Assignment: ID 15047 : 319>
+Created officer <Officer ID 15048: Gregory None Osilka None>
+ ---> Added assignment: <Assignment: ID 15048 : 320>
+Created officer <Officer ID 15049: Michael None Henry None>
+ ---> Added assignment: <Assignment: ID 15049 : 321>
+Created officer <Officer ID 15050: Eric None Kratochvil None>
+ ---> Added assignment: <Assignment: ID 15050 : 308>
+Created officer <Officer ID 15051: Philip None Tremblay None>
+ ---> Added assignment: <Assignment: ID 15051 : 323>
+Created officer <Officer ID 15052: Nicole None Moyer None>
+ ---> Added assignment: <Assignment: ID 15052 : 326>
+Created officer <Officer ID 15053: Michael None Beliveau None>
+ ---> Added assignment: <Assignment: ID 15053 : 329>
+Created officer <Officer ID 15054: Chase None Vivori None>
+ ---> Added assignment: <Assignment: ID 15054 : 332>
+Created officer <Officer ID 15055: Richard None Weinisch None>
+ ---> Added assignment: <Assignment: ID 15055 : 333>
+Created officer <Officer ID 15056: Kristian None Young None>
+ ---> Added assignment: <Assignment: ID 15056 : 268>
+Created officer <Officer ID 15057: Frank None Spaulding None>
+ ---> Added assignment: <Assignment: ID 15057 : 335>
+Created officer <Officer ID 15058: Calen None Chang None>
+ ---> Added assignment: <Assignment: ID 15058 : 337>
+Created officer <Officer ID 15059: Bradley None Patnaude None>
+ ---> Added assignment: <Assignment: ID 15059 : 339>
+Created officer <Officer ID 15060: Gregory None Short None>
+ ---> Added assignment: <Assignment: ID 15060 : 341>
+Created officer <Officer ID 15061: Durwin None Ellerman None>
+ ---> Added assignment: <Assignment: ID 15061 : 343>
+Created officer <Officer ID 15062: David None Bowers None>
+ ---> Added assignment: <Assignment: ID 15062 : 344>
+Created officer <Officer ID 15063: Oren None Byrne None>
+ ---> Added assignment: <Assignment: ID 15063 : 345>
+Created officer <Officer ID 15064: Nicholas None Rienzi None>
+ ---> Added assignment: <Assignment: ID 15064 : 346>
+Created officer <Officer ID 15065: Joseph None Corrow None>
+ ---> Added assignment: <Assignment: ID 15065 : 347>
+Created officer <Officer ID 15066: Padric None Hartnett None>
+ ---> Added assignment: <Assignment: ID 15066 : 351>
+Created officer <Officer ID 15067: Vincent None Ross None>
+ ---> Added assignment: <Assignment: ID 15067 : 353>
+Created officer <Officer ID 15068: Simon None Bombard None>
+ ---> Added assignment: <Assignment: ID 15068 : 355>
+Created officer <Officer ID 15069: Kory None Orfant None>
+ ---> Added assignment: <Assignment: ID 15069 : 357>
+Created officer <Officer ID 15070: Meaghan None O'Leary None>
+ ---> Added assignment: <Assignment: ID 15070 : 358>
+Created officer <Officer ID 15071: Michael None Rebeor None>
+ ---> Added assignment: <Assignment: ID 15071 : 360>
+Created officer <Officer ID 15072: Jake None Sawtelle None>
+ ---> Added assignment: <Assignment: ID 15072 : 361>
+Created officer <Officer ID 15073: Cory None Campbell None>
+ ---> Added assignment: <Assignment: ID 15073 : 362>
+Created officer <Officer ID 15074: Jordan None Peterson None>
+ ---> Added assignment: <Assignment: ID 15074 : 363>
+Created officer <Officer ID 15075: Zachary None Beal None>
+ ---> Added assignment: <Assignment: ID 15075 : 364>
+Created officer <Officer ID 15076: Kyle None Brouillette None>
+ ---> Added assignment: <Assignment: ID 15076 : 367>
+Created officer <Officer ID 15077: Kyle None Yeh None>
+ ---> Added assignment: <Assignment: ID 15077 : 368>
+Created officer <Officer ID 15078: Connor None Palmateer None>
+ ---> Added assignment: <Assignment: ID 15078 : 371>
+Created officer <Officer ID 15079: Daniel None Delgado None>
+ ---> Added assignment: <Assignment: ID 15079 : 325>
+Created officer <Officer ID 15080: Victor None Montalvo None>
+ ---> Added assignment: <Assignment: ID 15080 : 373>
+Created officer <Officer ID 15081: Kelly None Schmidt None>
+ ---> Added assignment: <Assignment: ID 15081 : 374>
+Created officer <Officer ID 15082: Deidre None LaCouture None>
+ ---> Added assignment: <Assignment: ID 15082 : 375>
+Created officer <Officer ID 15083: Bryan None Kirby None>
+ ---> Added assignment: <Assignment: ID 15083 : 379>
+Created officer <Officer ID 15084: Brock None Marvin None>
+ ---> Added assignment: <Assignment: ID 15084 : 381>
+Created officer <Officer ID 15085: Joseph None Congdon None>
+ ---> Added assignment: <Assignment: ID 15085 : 382>
+Created officer <Officer ID 15086: Zariah None White None>
+ ---> Added assignment: <Assignment: ID 15086 : 383>
+Created officer <Officer ID 15087: Brady None McGee None>
+ ---> Added assignment: <Assignment: ID 15087 : 385>
+Created officer <Officer ID 15088: Daniel None Lowndes None>
+ ---> Added assignment: <Assignment: ID 15088 : 386>
+Created officer <Officer ID 15089: Erin None Bartle None>
+ ---> Added assignment: <Assignment: ID 15089 : 369>
+Created officer <Officer ID 15090: Luz Maria None Winters None>
+ ---> Added assignment: <Assignment: ID 15090 : 388>
+Created officer <Officer ID 15091: Rebecca None Spittle None>
+ ---> Added assignment: <Assignment: ID 15091 : 389>
+Created officer <Officer ID 15092: Kevin None DiGiorgio None>
+ ---> Added assignment: <Assignment: ID 15092 : 390>
+Created officer <Officer ID 15093: Nho None Huynh None>
+ ---> Added assignment: <Assignment: ID 15093 : 391>
+Created officer <Officer ID 15094: Julian None Gonzalez None>
+ ---> Added assignment: <Assignment: ID 15094 : 393>
+Created officer <Officer ID 15095: Jeffrey None Baur None>
+ ---> Added assignment: <Assignment: ID 15095 : 394>
+Created officer <Officer ID 15096: Jason None Perry None>
+ ---> Added assignment: <Assignment: ID 15096 : 395>
+[2020-08-07 09:20:46,335] INFO in __init__: OpenOversight startup
+Officer Brian LaBarge has differing employment_date field. Old: 2017-06-26, new: 2005-07-11
+Updates to officer <Officer ID 15008: Brian None LaBarge None>:
+ ---> Updated employment_date: 2017-06-26 --> 2005-07-11
+Updates to officer <Officer ID 15053: Michael None Beliveau None>:
+ ---> Added assignment: <Assignment: ID 15053 : 329>
+Updates to officer <Officer ID 15055: Richard None Weinisch None>:
+ ---> Added assignment: <Assignment: ID 15055 : 333>
+[2020-08-07 09:20:47,840] INFO in __init__: OpenOversight startup
+Created officer <Officer ID 15097: Tyler None Short None>
+ ---> Added assignment: <Assignment: ID 15097 : 396>
+Created officer <Officer ID 15098: Michael None Moran None>
+ ---> Added assignment: <Assignment: ID 15098 : 398>
+Created officer <Officer ID 15099: Brian None Fitzgerald None>
+ ---> Added assignment: <Assignment: ID 15099 : 399>
+Created officer <Officer ID 15100: Randall None Webster None>
+ ---> Added assignment: <Assignment: ID 15100 : 400>
+Created officer <Officer ID 15101: Kathleen None Payne None>
+ ---> Added assignment: <Assignment: ID 15101 : 401>
+Created officer <Officer ID 15102: Kevin None Beyerbach None>
+ ---> Added assignment: <Assignment: ID 15102 : 402>
+Created officer <Officer ID 15103: Sergio None Caldieri None>
+ ---> Added assignment: <Assignment: ID 15103 : 403>
+Updates to officer <Officer ID 15093: Nho None Huynh None>:
+ ---> Added assignment: <Assignment: ID 15093 : 392>
+[2020-08-07 09:20:49,796] INFO in __init__: OpenOversight startup
+Created officer <Officer ID 15104: Peter None Bottino None>
+ ---> Added assignment: <Assignment: ID 15104 : 171>
+Created officer <Officer ID 15105: Philip None Small None>
+ ---> Added assignment: <Assignment: ID 15105 : 150>
+Created officer <Officer ID 15106: John None Lewis None>
+ ---> Added assignment: <Assignment: ID 15106 : 151>
+[2020-08-07 09:20:51,199] INFO in __init__: OpenOversight startup
+Updates to officer <Officer ID 15001: Daniel None Merchand None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1977
+Updates to officer <Officer ID 15002: Jason None Lawson None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1976
+Updates to officer <Officer ID 15003: Matthew None Sullivan None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1970
+Updates to officer <Officer ID 15004: Justin None Couture None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1972
+Updates to officer <Officer ID 15005: Jannine None Wright None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1966
+Updates to officer <Officer ID 15006: Christopher None Nadeau None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1975
+Updates to officer <Officer ID 15007: James None Trieb None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1973
+Updates to officer <Officer ID 15008: Brian None LaBarge None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1981
+Updates to officer <Officer ID 15009: Jonathan None Young None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1974
+Updates to officer <Officer ID 15010: Jason None Bellavance None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1982
+Updates to officer <Officer ID 15011: My Thanh None Nguyen None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> ASIAN
+ ---> Updated birth_year: None --> 1980
+Updates to officer <Officer ID 15012: Brandon None del Pozo None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> HISPANIC
+ ---> Updated birth_year: None --> 1974
+Updates to officer <Officer ID 15013: Wade None Labrecque None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1967
+Updates to officer <Officer ID 15014: Thomas None Nash None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1970
+Updates to officer <Officer ID 15015: Jesse None Namdar None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1985
+Updates to officer <Officer ID 15016: Anthony None Brownell None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1975
+Updates to officer <Officer ID 15017: Brian None DiFranco None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1972
+Updates to officer <Officer ID 15018: Jonathan None Murad None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> Not Sure
+ ---> Updated birth_year: None --> 1973
+Updates to officer <Officer ID 15019: Raymond None Lopes None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1963
+Updates to officer <Officer ID 15020: Lance None Taylor None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1969
+Updates to officer <Officer ID 15021: David None Clements None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1977
+Updates to officer <Officer ID 15022: Dominic None Brodeur None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1975
+Updates to officer <Officer ID 15023: Michael None Hemond None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1978
+Updates to officer <Officer ID 15024: Trent None Martin None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1977
+Updates to officer <Officer ID 15025: Daniel None Gilligan None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1979
+Updates to officer <Officer ID 15026: Jamie None Morris None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1979
+Updates to officer <Officer ID 15027: Brent None Navari None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1971
+Updates to officer <Officer ID 15029: Lee None Thayer None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1981
+Updates to officer <Officer ID 15030: Matthew None White None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1981
+Updates to officer <Officer ID 15031: Kevin None Wilson None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1980
+Updates to officer <Officer ID 15032: Thomas None Chenette None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1982
+Updates to officer <Officer ID 15033: Jessica None Norris None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1979
+Updates to officer <Officer ID 15034: Eugene None Baccaglini None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1976
+Updates to officer <Officer ID 15035: Rene None Young None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1982
+Updates to officer <Officer ID 15036: Erica None Schaller None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1974
+Updates to officer <Officer ID 15037: Jennifer None Cousins None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1979
+Updates to officer <Officer ID 15038: Eric None Dalla Mura None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1980
+Updates to officer <Officer ID 15039: John None Stoughton None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1986
+Updates to officer <Officer ID 15040: Tyler None Badeau None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1986
+Updates to officer <Officer ID 15041: Krystal None Wrinn None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1984
+Updates to officer <Officer ID 15042: Dwayne None Mellis None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> BLACK
+ ---> Updated birth_year: None --> 1983
+Updates to officer <Officer ID 15043: Christopher None Sweeney None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1985
+Updates to officer <Officer ID 15044: William None Drinkwine None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1987
+Updates to officer <Officer ID 15045: Paul None Leclerc None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1981
+Updates to officer <Officer ID 15046: Tyler None Kahlig None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1985
+Updates to officer <Officer ID 15047: Jacob None Seller None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1986
+Updates to officer <Officer ID 15048: Gregory None Osilka None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1980
+Updates to officer <Officer ID 15049: Michael None Henry None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1975
+Updates to officer <Officer ID 15050: Eric None Kratochvil None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1978
+Updates to officer <Officer ID 15051: Philip None Tremblay None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1985
+Updates to officer <Officer ID 15052: Nicole None Moyer None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1981
+Updates to officer <Officer ID 15053: Michael None Beliveau None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1990
+Updates to officer <Officer ID 15054: Chase None Vivori None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1986
+Updates to officer <Officer ID 15055: Richard None Weinisch None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1983
+Updates to officer <Officer ID 15056: Kristian None Young None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> ASIAN
+ ---> Updated birth_year: None --> 1979
+Updates to officer <Officer ID 15057: Frank None Spaulding None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1982
+Updates to officer <Officer ID 15058: Calen None Chang None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> ASIAN
+ ---> Updated birth_year: None --> 1982
+Updates to officer <Officer ID 15059: Bradley None Patnaude None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1989
+Updates to officer <Officer ID 15060: Gregory None Short None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1989
+Updates to officer <Officer ID 15061: Durwin None Ellerman None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1983
+Updates to officer <Officer ID 15062: David None Bowers None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1992
+Updates to officer <Officer ID 15063: Oren None Byrne None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1986
+Updates to officer <Officer ID 15064: Nicholas None Rienzi None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1992
+Updates to officer <Officer ID 15065: Joseph None Corrow None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1992
+Updates to officer <Officer ID 15066: Padric None Hartnett None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1992
+Updates to officer <Officer ID 15067: Vincent None Ross None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1986
+Updates to officer <Officer ID 15068: Simon None Bombard None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1991
+Updates to officer <Officer ID 15069: Kory None Orfant None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1987
+Updates to officer <Officer ID 15070: Meaghan None O'Leary None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1993
+Updates to officer <Officer ID 15071: Michael None Rebeor None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1988
+Updates to officer <Officer ID 15072: Jake None Sawtelle None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1991
+Updates to officer <Officer ID 15073: Cory None Campbell None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1989
+Updates to officer <Officer ID 15074: Jordan None Peterson None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1994
+Updates to officer <Officer ID 15075: Zachary None Beal None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1993
+Updates to officer <Officer ID 15076: Kyle None Brouillette None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1988
+Updates to officer <Officer ID 15077: Kyle None Yeh None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> ASIAN
+ ---> Updated birth_year: None --> 1990
+Updates to officer <Officer ID 15078: Connor None Palmateer None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1993
+Updates to officer <Officer ID 15079: Daniel None Delgado None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> HISPANIC
+ ---> Updated birth_year: None --> 1990
+Updates to officer <Officer ID 15080: Victor None Montalvo None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> HISPANIC
+ ---> Updated birth_year: None --> 1983
+Updates to officer <Officer ID 15081: Kelly None Schmidt None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1995
+Updates to officer <Officer ID 15082: Deidre None LaCouture None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1989
+Updates to officer <Officer ID 15083: Bryan None Kirby None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1994
+Updates to officer <Officer ID 15084: Brock None Marvin None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1993
+Updates to officer <Officer ID 15085: Joseph None Congdon None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1992
+Updates to officer <Officer ID 15086: Zariah None White None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1991
+Updates to officer <Officer ID 15087: Brady None McGee None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1993
+Updates to officer <Officer ID 15088: Daniel None Lowndes None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1996
+Updates to officer <Officer ID 15089: Erin None Bartle None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1983
+Updates to officer <Officer ID 15090: Luz Maria None Winters None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> Not Sure
+ ---> Updated birth_year: None --> 1994
+Updates to officer <Officer ID 15091: Rebecca None Spittle None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1994
+Updates to officer <Officer ID 15092: Kevin None DiGiorgio None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1980
+Updates to officer <Officer ID 15093: Nho None Huynh None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> ASIAN
+ ---> Updated birth_year: None --> 1995
+Updates to officer <Officer ID 15094: Julian None Gonzalez None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> HISPANIC
+ ---> Updated birth_year: None --> 1996
+Updates to officer <Officer ID 15095: Jeffrey None Baur None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1992
+Updates to officer <Officer ID 15096: Jason None Perry None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1982
+[2020-08-07 09:20:53,111] INFO in __init__: OpenOversight startup
+Officer Brandon del Pozo has differing race field. Old: HISPANIC, new: WHITE
+Updates to officer <Officer ID 15012: Brandon None del Pozo None>:
+ ---> Updated race: HISPANIC --> WHITE
+Updates to officer <Officer ID 15097: Tyler None Short None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1997
+Updates to officer <Officer ID 15098: Michael None Moran None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1989
+Updates to officer <Officer ID 15099: Brian None Fitzgerald None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1983
+Updates to officer <Officer ID 15100: Randall None Webster None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> Not Sure
+ ---> Updated birth_year: None --> 1990
+Updates to officer <Officer ID 15101: Kathleen None Payne None>:
+ ---> Updated gender: None --> F
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1992
+Updates to officer <Officer ID 15102: Kevin None Beyerbach None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1989
+Updates to officer <Officer ID 15103: Sergio None Caldieri None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1985
+Updates to officer <Officer ID 15104: Peter None Bottino None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1964
+Updates to officer <Officer ID 15105: Philip None Small None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1963
+Updates to officer <Officer ID 15106: John None Lewis None>:
+ ---> Updated gender: None --> M
+ ---> Updated race: None --> WHITE
+ ---> Updated birth_year: None --> 1966
+[2020-08-07 09:20:55,079] INFO in __init__: OpenOversight startup
+Updates to officer <Officer ID 15001: Daniel R Merchand None>:
+ ---> Updated middle_initial: None --> R
+ ---> Added salary: <Salary: ID 15001 : 96294.57
+Updates to officer <Officer ID 15002: Jason A Lawson None>:
+ ---> Updated middle_initial: None --> A
+ ---> Added salary: <Salary: ID 15002 : 103459.19
+Updates to officer <Officer ID 15003: Matthew O Sullivan None>:
+ ---> Updated middle_initial: None --> O
+ ---> Added salary: <Salary: ID 15003 : 123759.3
+Updates to officer <Officer ID 15004: Justin W Couture None>:
+ ---> Updated middle_initial: None --> W
+ ---> Added salary: <Salary: ID 15004 : 92926.46
+Updates to officer <Officer ID 15005: Jannine M Wright None>:
+ ---> Updated middle_initial: None --> M
+ ---> Added salary: <Salary: ID 15005 : 120400.39
+Updates to officer <Officer ID 15006: Christopher A Nadeau None>:
+ ---> Updated middle_initial: None --> A
+ ---> Added salary: <Salary: ID 15006 : 100944.42
+Updates to officer <Officer ID 15007: James T Trieb None>:
+ ---> Updated middle_initial: None --> T
+ ---> Added salary: <Salary: ID 15007 : 105756.64
+Updates to officer <Officer ID 15008: Brian F LaBarge None>:
+ ---> Updated middle_initial: None --> F
+ ---> Added salary: <Salary: ID 15008 : 100540.6
+Updates to officer <Officer ID 15009: Jonathan C Young None>:
+ ---> Updated middle_initial: None --> C
+ ---> Added salary: <Salary: ID 15009 : 108677.55
+Updates to officer <Officer ID 15010: Jason M Bellavance None>:
+ ---> Updated middle_initial: None --> M
+ ---> Added salary: <Salary: ID 15010 : 90938.68
+Updates to officer <Officer ID 15011: My Thanh  Nguyen None>:
+ ---> Updated middle_initial: None --> 
+ ---> Added salary: <Salary: ID 15011 : 102666.16
+Updates to officer <Officer ID 15012: Brandon  del Pozo None>:
+ ---> Updated middle_initial: None --> 
+ ---> Added salary: <Salary: ID 15012 : 127129.4
+Updates to officer <Officer ID 15013: Wade A Labrecque None>:
+ ---> Updated middle_initial: None --> A
+ ---> Added salary: <Salary: ID 15013 : 112868.71
+Updates to officer <Officer ID 15014: Thomas J Nash None>:
+ ---> Updated middle_initial: None --> J
+ ---> Added salary: <Salary: ID 15014 : 92875.77
+Updates to officer <Officer ID 15015: Jesse W Namdar None>:
+ ---> Updated middle_initial: None --> W
+ ---> Added salary: <Salary: ID 15015 : 89791.71
+Updates to officer <Officer ID 15016: Anthony D Brownell None>:
+ ---> Updated middle_initial: None --> D
+ ---> Added salary: <Salary: ID 15016 : 85879.02
+Updates to officer <Officer ID 15017: Brian C DiFranco None>:
+ ---> Updated middle_initial: None --> C
+ ---> Added salary: <Salary: ID 15017 : 96839.92
+Updates to officer <Officer ID 15018: Jonathan C Murad None>:
+ ---> Updated middle_initial: None --> C
+ ---> Added salary: <Salary: ID 15018 : 78101.8
+Updates to officer <Officer ID 15019: Raymond R Lopes None>:
+ ---> Updated middle_initial: None --> R
+ ---> Added salary: <Salary: ID 15019 : 87822.77
+Updates to officer <Officer ID 15020: Lance R Taylor None>:
+ ---> Updated middle_initial: None --> R
+ ---> Added salary: <Salary: ID 15020 : 144326.45
+Updates to officer <Officer ID 15021: David M Clements None>:
+ ---> Updated middle_initial: None --> M
+ ---> Added salary: <Salary: ID 15021 : 84538.81
+Updates to officer <Officer ID 15022: Dominic A Brodeur None>:
+ ---> Updated middle_initial: None --> A
+ ---> Added salary: <Salary: ID 15022 : 86341.03
+Updates to officer <Officer ID 15023: Michael G Hemond None>:
+ ---> Updated middle_initial: None --> G
+ ---> Added salary: <Salary: ID 15023 : 87481.05
+Updates to officer <Officer ID 15024: Trent S Martin None>:
+ ---> Updated middle_initial: None --> S
+ ---> Added salary: <Salary: ID 15024 : 86653.3
+Updates to officer <Officer ID 15025: Daniel J Gilligan None>:
+ ---> Updated middle_initial: None --> J
+ ---> Added salary: <Salary: ID 15025 : 86130.22
+Updates to officer <Officer ID 15026: Jamie A Morris None>:
+ ---> Updated middle_initial: None --> A
+ ---> Added salary: <Salary: ID 15026 : 85618.37
+Updates to officer <Officer ID 15027: Brent W Navari None>:
+ ---> Updated middle_initial: None --> W
+ ---> Added salary: <Salary: ID 15027 : 82553.86
+Updates to officer <Officer ID 15029: Lee R Thayer None>:
+ ---> Updated middle_initial: None --> R
+ ---> Added salary: <Salary: ID 15029 : 80583.24
+Updates to officer <Officer ID 15030: Matthew T White None>:
+ ---> Updated middle_initial: None --> T
+ ---> Added salary: <Salary: ID 15030 : 86435.39
+Updates to officer <Officer ID 15031: Kevin J Wilson None>:
+ ---> Updated middle_initial: None --> J
+ ---> Added salary: <Salary: ID 15031 : 82426.78
+Updates to officer <Officer ID 15032: Thomas W Chenette None>:
+ ---> Updated middle_initial: None --> W
+ ---> Added salary: <Salary: ID 15032 : 97474.04
+Updates to officer <Officer ID 15033: Jessica A Norris None>:
+ ---> Updated middle_initial: None --> A
+ ---> Added salary: <Salary: ID 15033 : 75189.61
+Updates to officer <Officer ID 15034: Eugene  Baccaglini None>:
+ ---> Updated middle_initial: None --> 
+ ---> Added salary: <Salary: ID 15034 : 88803.33
+Updates to officer <Officer ID 15035: Rene A Young None>:
+ ---> Updated middle_initial: None --> A
+ ---> Added salary: <Salary: ID 15035 : 85030.31
+Updates to officer <Officer ID 15036: Erica  Schaller None>:
+ ---> Updated middle_initial: None --> 
+ ---> Added salary: <Salary: ID 15036 : 74069.57
+Updates to officer <Officer ID 15037: Jennifer K Cousins None>:
+ ---> Updated middle_initial: None --> K
+ ---> Added salary: <Salary: ID 15037 : 76097.2
+Updates to officer <Officer ID 15038: Eric L Dalla Mura None>:
+ ---> Updated middle_initial: None --> L
+ ---> Added salary: <Salary: ID 15038 : 83251.28
+Updates to officer <Officer ID 15039: John G Stoughton None>:
+ ---> Updated middle_initial: None --> G
+ ---> Added salary: <Salary: ID 15039 : 79291.06
+Updates to officer <Officer ID 15040: Tyler G Badeau None>:
+ ---> Updated middle_initial: None --> G
+ ---> Added salary: <Salary: ID 15040 : 83795.1
+Updates to officer <Officer ID 15041: Krystal A Wrinn None>:
+ ---> Updated middle_initial: None --> A
+ ---> Added salary: <Salary: ID 15041 : 81733.97
+Updates to officer <Officer ID 15042: Dwayne  Mellis None>:
+ ---> Updated middle_initial: None --> 
+ ---> Added salary: <Salary: ID 15042 : 107399.85
+Updates to officer <Officer ID 15043: Christopher S Sweeney None>:
+ ---> Updated middle_initial: None --> S
+ ---> Added salary: <Salary: ID 15043 : 81470.39
+Updates to officer <Officer ID 15044: William J Drinkwine None>:
+ ---> Updated middle_initial: None --> J
+ ---> Added salary: <Salary: ID 15044 : 71941.83
+Updates to officer <Officer ID 15045: Paul C Leclerc None>:
+ ---> Updated middle_initial: None --> C
+ ---> Added salary: <Salary: ID 15045 : 73481.58
+Updates to officer <Officer ID 15046: Tyler M Kahlig None>:
+ ---> Updated middle_initial: None --> M
+ ---> Added salary: <Salary: ID 15046 : 94709.25
+Updates to officer <Officer ID 15047: Jacob M Seller None>:
+ ---> Updated middle_initial: None --> M
+ ---> Added salary: <Salary: ID 15047 : 74900.38
+Updates to officer <Officer ID 15048: Gregory J Osilka None>:
+ ---> Updated middle_initial: None --> J
+ ---> Added salary: <Salary: ID 15048 : 101083.25
+Updates to officer <Officer ID 15049: Michael P Henry None>:
+ ---> Updated middle_initial: None --> P
+ ---> Added salary: <Salary: ID 15049 : 77847.9
+Updates to officer <Officer ID 15050: Eric A Kratochvil None>:
+ ---> Updated middle_initial: None --> A
+ ---> Added salary: <Salary: ID 15050 : 70649.64
+Updates to officer <Officer ID 15051: Philip R Tremblay None>:
+ ---> Updated middle_initial: None --> R
+ ---> Added salary: <Salary: ID 15051 : 78076.67
+Updates to officer <Officer ID 15052: Nicole P Moyer None>:
+ ---> Updated middle_initial: None --> P
+ ---> Added salary: <Salary: ID 15052 : 82805.03
+Updates to officer <Officer ID 15054: Chase M Vivori None>:
+ ---> Updated middle_initial: None --> M
+ ---> Added salary: <Salary: ID 15054 : 71846.8
+Updates to officer <Officer ID 15055: Richard J Weinisch None>:
+ ---> Updated middle_initial: None --> J
+ ---> Added salary: <Salary: ID 15055 : 102914.78
+Updates to officer <Officer ID 15056: Kristian L Young None>:
+ ---> Updated middle_initial: None --> L
+ ---> Added salary: <Salary: ID 15056 : 78468.57
+Updates to officer <Officer ID 15057: Frank E Spaulding None>:
+ ---> Updated middle_initial: None --> E
+ ---> Added salary: <Salary: ID 15057 : 80244.08
+Updates to officer <Officer ID 15058: Calen A Chang None>:
+ ---> Updated middle_initial: None --> A
+ ---> Added salary: <Salary: ID 15058 : 72397.81
+Updates to officer <Officer ID 15059: Bradley M Patnaude None>:
+ ---> Updated middle_initial: None --> M
+ ---> Added salary: <Salary: ID 15059 : 0.0
+Updates to officer <Officer ID 15060: Gregory C Short None>:
+ ---> Updated middle_initial: None --> C
+ ---> Added salary: <Salary: ID 15060 : 75698.9
+Updates to officer <Officer ID 15061: Durwin L Ellerman None>:
+ ---> Updated middle_initial: None --> L
+ ---> Added salary: <Salary: ID 15061 : 68238.34
+Updates to officer <Officer ID 15062: David C Bowers IV>:
+ ---> Updated middle_initial: None --> C
+ ---> Updated suffix: None --> IV
+ ---> Added salary: <Salary: ID 15062 : 72271.24
+Updates to officer <Officer ID 15063: Oren L Byrne None>:
+ ---> Updated middle_initial: None --> L
+ ---> Added salary: <Salary: ID 15063 : 96517.56
+Updates to officer <Officer ID 15064: Nicholas A Rienzi None>:
+ ---> Updated middle_initial: None --> A
+ ---> Added salary: <Salary: ID 15064 : 95443.25
+Updates to officer <Officer ID 15065: Joseph S Corrow None>:
+ ---> Updated middle_initial: None --> S
+ ---> Added salary: <Salary: ID 15065 : 81312.95
+Updates to officer <Officer ID 15066: Padric F Hartnett None>:
+ ---> Updated middle_initial: None --> F
+ ---> Added salary: <Salary: ID 15066 : 84506.5
+Updates to officer <Officer ID 15067: Vincent S Ross None>:
+ ---> Updated middle_initial: None --> S
+ ---> Added salary: <Salary: ID 15067 : 68299.52
+Updates to officer <Officer ID 15068: Simon J Bombard None>:
+ ---> Updated middle_initial: None --> J
+ ---> Added salary: <Salary: ID 15068 : 77461.84
+Updates to officer <Officer ID 15069: Kory G Orfant None>:
+ ---> Updated middle_initial: None --> G
+ ---> Added salary: <Salary: ID 15069 : 68067.31
+Updates to officer <Officer ID 15070: Meaghan M O'Leary None>:
+ ---> Updated middle_initial: None --> M
+ ---> Added salary: <Salary: ID 15070 : 68908.7
+Updates to officer <Officer ID 15071: Michael Z Rebeor None>:
+ ---> Updated middle_initial: None --> Z
+ ---> Added salary: <Salary: ID 15071 : 0.0
+Updates to officer <Officer ID 15072: Jake S Sawtelle None>:
+ ---> Updated middle_initial: None --> S
+ ---> Added salary: <Salary: ID 15072 : 64283.48
+Updates to officer <Officer ID 15073: Cory  Campbell None>:
+ ---> Updated middle_initial: None --> 
+ ---> Added salary: <Salary: ID 15073 : 63072.33
+Updates to officer <Officer ID 15074: Jordan M Peterson None>:
+ ---> Updated middle_initial: None --> M
+ ---> Added salary: <Salary: ID 15074 : 58937.94
+Updates to officer <Officer ID 15075: Zachary P Beal None>:
+ ---> Updated middle_initial: None --> P
+ ---> Added salary: <Salary: ID 15075 : 64253.98
+Updates to officer <Officer ID 15076: Kyle M Brouillette None>:
+ ---> Updated middle_initial: None --> M
+ ---> Added salary: <Salary: ID 15076 : 70050.86
+Updates to officer <Officer ID 15077: Kyle B Yeh None>:
+ ---> Updated middle_initial: None --> B
+ ---> Added salary: <Salary: ID 15077 : 81368.42
+Updates to officer <Officer ID 15078: Connor W Palmateer None>:
+ ---> Updated middle_initial: None --> W
+ ---> Added salary: <Salary: ID 15078 : 76075.58
+Updates to officer <Officer ID 15079: Daniel C Delgado None>:
+ ---> Updated middle_initial: None --> C
+ ---> Added salary: <Salary: ID 15079 : 84969.07
+Updates to officer <Officer ID 15080: Victor M Montalvo None>:
+ ---> Updated middle_initial: None --> M
+ ---> Added salary: <Salary: ID 15080 : 55557.09
+Updates to officer <Officer ID 15081: Kelly N Schmidt None>:
+ ---> Updated middle_initial: None --> N
+ ---> Added salary: <Salary: ID 15081 : 67510.03
+Updates to officer <Officer ID 15082: Deidre B LaCouture None>:
+ ---> Updated middle_initial: None --> B
+ ---> Added salary: <Salary: ID 15082 : 63508.96
+Updates to officer <Officer ID 15083: Bryan V Kirby None>:
+ ---> Updated middle_initial: None --> V
+ ---> Added salary: <Salary: ID 15083 : 59953.72
+Updates to officer <Officer ID 15084: Brock B Marvin None>:
+ ---> Updated middle_initial: None --> B
+ ---> Added salary: <Salary: ID 15084 : 60605.35
+Updates to officer <Officer ID 15085: Joseph A Congdon None>:
+ ---> Updated middle_initial: None --> A
+ ---> Added salary: <Salary: ID 15085 : 47505.03
+Updates to officer <Officer ID 15086: Zariah C White None>:
+ ---> Updated middle_initial: None --> C
+ ---> Added salary: <Salary: ID 15086 : 21350.3
+Updates to officer <Officer ID 15087: Brady J McGee None>:
+ ---> Updated middle_initial: None --> J
+ ---> Added salary: <Salary: ID 15087 : 53338.5
+Updates to officer <Officer ID 15088: Daniel J Lowndes None>:
+ ---> Updated middle_initial: None --> J
+ ---> Added salary: <Salary: ID 15088 : 53826.62
+Updates to officer <Officer ID 15089: Erin C Bartle None>:
+ ---> Updated middle_initial: None --> C
+ ---> Added salary: <Salary: ID 15089 : 55751.19
+Updates to officer <Officer ID 15090: Luz Maria  Winters None>:
+ ---> Updated middle_initial: None --> 
+ ---> Added salary: <Salary: ID 15090 : 23351.35
+Updates to officer <Officer ID 15091: Rebecca N Spittle None>:
+ ---> Updated middle_initial: None --> N
+ ---> Added salary: <Salary: ID 15091 : 22966.75
+Updates to officer <Officer ID 15092: Kevin J DiGiorgio None>:
+ ---> Updated middle_initial: None --> J
+ ---> Added salary: <Salary: ID 15092 : 22414.69
+Updates to officer <Officer ID 15093: Nho V Huynh None>:
+ ---> Updated middle_initial: None --> V
+ ---> Added salary: <Salary: ID 15093 : 22414.69
+Updates to officer <Officer ID 15094: Julian E Gonzalez None>:
+ ---> Updated middle_initial: None --> E
+ ---> Added salary: <Salary: ID 15094 : 22414.69
+Updates to officer <Officer ID 15095: Jeffrey A Baur None>:
+ ---> Updated middle_initial: None --> A
+ ---> Added salary: <Salary: ID 15095 : 18805.19
+Updates to officer <Officer ID 15096: Jason S Perry None>:
+ ---> Updated middle_initial: None --> S
+ ---> Added salary: <Salary: ID 15096 : 2876.04
+Updates to officer <Officer ID 15104: Peter C Bottino None>:
+ ---> Updated middle_initial: None --> C
+ ---> Added salary: <Salary: ID 15104 : 7020.93
+Updates to officer <Officer ID 15105: Philip W Small None>:
+ ---> Updated middle_initial: None --> W
+ ---> Added salary: <Salary: ID 15105 : 1496.85
+Updates to officer <Officer ID 15106: John C Lewis None>:
+ ---> Updated middle_initial: None --> C
+ ---> Added salary: <Salary: ID 15106 : 3695.47
+[2020-08-07 09:20:57,533] INFO in __init__: OpenOversight startup
+[2020-08-07 09:21:00,287] INFO in __init__: OpenOversight startup
+Added Not Sure to UVM Police Services
+[2020-08-07 09:21:01,610] INFO in __init__: OpenOversight startup
+Added Officer to UVM Police Services
+[2020-08-07 09:21:02,944] INFO in __init__: OpenOversight startup
+Added Sergeant to UVM Police Services
+[2020-08-07 09:21:04,261] INFO in __init__: OpenOversight startup
+Added Deputy Chief to UVM Police Services
+[2020-08-07 09:21:05,605] INFO in __init__: OpenOversight startup
+Added Chief to UVM Police Services
+[2020-08-07 09:21:06,938] INFO in __init__: OpenOversight startup
+Created officer <Officer ID 15107: Timothy A Bilodeau None>
+ ---> Added assignment: <Assignment: ID 15107 : 543>
+Created officer <Officer ID 15108: Peter J Chapman None>
+ ---> Added assignment: <Assignment: ID 15108 : 539>
+Created officer <Officer ID 15109: Peter  Czekaj None>
+ ---> Added assignment: <Assignment: ID 15109 : 533>
+Created officer <Officer ID 15110: Denise  D'Andrea None>
+ ---> Added assignment: <Assignment: ID 15110 : 559>
+Created officer <Officer ID 15111: Kevin J DiGiorgio None>
+ ---> Added assignment: <Assignment: ID 15111 : 545>
+Created officer <Officer ID 15112: Jeffrey M Favreau None>
+ ---> Added assignment: <Assignment: ID 15112 : 537>
+Created officer <Officer ID 15113: Brandon M King None>
+ ---> Added assignment: <Assignment: ID 15113 : 542>
+Created officer <Officer ID 15114: Elizabeth M Learned None>
+ ---> Added assignment: <Assignment: ID 15114 : 531>
+Created officer <Officer ID 15115: Barrie M North None>
+ ---> Added assignment: <Assignment: ID 15115 : 526>
+Created officer <Officer ID 15116: Jennifer L Norton-Magnan None>
+ ---> Added assignment: <Assignment: ID 15116 : 550>
+Created officer <Officer ID 15117: Armone T Persing None>
+ ---> Added assignment: <Assignment: ID 15117 : 538>
+Created officer <Officer ID 15118: James J Phelps None>
+ ---> Added assignment: <Assignment: ID 15118 : 547>
+Created officer <Officer ID 15119: Sue E Roberts None>
+ ---> Added assignment: <Assignment: ID 15119 : 546>
+Created officer <Officer ID 15120: William A Sioss None>
+ ---> Added assignment: <Assignment: ID 15120 : 549>
+Created officer <Officer ID 15121: Melanie D Waldbrise None>
+ ---> Added assignment: <Assignment: ID 15121 : 541>
+Created officer <Officer ID 15122: Christopher R Wetmore None>
+ ---> Added assignment: <Assignment: ID 15122 : 540>
+Created officer <Officer ID 15123: Mandy S Wooster None>
+ ---> Added assignment: <Assignment: ID 15123 : 555>
+[2020-08-07 09:21:09,723] INFO in __init__: OpenOversight startup
+Added Not Sure to Chittenden County Sheriff's Office
+[2020-08-07 09:21:11,034] INFO in __init__: OpenOversight startup
+Added Deputy to Chittenden County Sheriff's Office
+[2020-08-07 09:21:12,354] INFO in __init__: OpenOversight startup
+Added Corporal to Chittenden County Sheriff's Office
+[2020-08-07 09:21:13,677] INFO in __init__: OpenOversight startup
+Added Sergenat to Chittenden County Sheriff's Office
+[2020-08-07 09:21:14,992] INFO in __init__: OpenOversight startup
+Added Lieutenant to Chittenden County Sheriff's Office
+[2020-08-07 09:21:16,319] INFO in __init__: OpenOversight startup
+Added Captain to Chittenden County Sheriff's Office
+[2020-08-07 09:21:17,630] INFO in __init__: OpenOversight startup
+Added Sheriff to Chittenden County Sheriff's Office
+[2020-08-07 09:21:18,950] INFO in __init__: OpenOversight startup
+Created officer <Officer ID 15124: Jerod None Adams None>
+ ---> Added assignment: <Assignment: ID 15124 : 39>
+ ---> Added salary: <Salary: ID 15124 : 58522.95
+Created officer <Officer ID 15125: Kevin None McLaughlin None>
+ ---> Added assignment: <Assignment: ID 15125 : 1>
+ ---> Added salary: <Salary: ID 15125 : 124420.76
+Created officer <Officer ID 15126: Robert None Borthwick None>
+ ---> Added assignment: <Assignment: ID 15126 : 24>
+ ---> Added salary: <Salary: ID 15126 : 58771.59
+Created officer <Officer ID 15127: Robert None Stebbins None>
+ ---> Added assignment: <Assignment: ID 15127 : 25>
+ ---> Added salary: <Salary: ID 15127 : 67306.72
+Created officer <Officer ID 15128: Steven None Donahue None>
+ ---> Added assignment: <Assignment: ID 15128 : 23>
+ ---> Added salary: <Salary: ID 15128 : 58833.04
+Created officer <Officer ID 15129: Thomas None Oliver None>
+ ---> Added assignment: <Assignment: ID 15129 : 38>
+ ---> Added salary: <Salary: ID 15129 : 62996.22
+Created officer <Officer ID 15130: Thomas None Thibault None>
+ ---> Added assignment: <Assignment: ID 15130 : 16>
+ ---> Added salary: <Salary: ID 15130 : 52336.41
+Created officer <Officer ID 15131: Stuart None Ashley None>
+ ---> Added assignment: <Assignment: ID 15131 : 17>
+ ---> Added salary: <Salary: ID 15131 : 49341.1
+Created officer <Officer ID 15132: Randall None Barrows None>
+ ---> Added assignment: <Assignment: ID 15132 : 33>
+ ---> Added salary: <Salary: ID 15132 : 50832.92
+Created officer <Officer ID 15133: Chris None Beaudoin None>
+ ---> Added assignment: <Assignment: ID 15133 : 40>
+ ---> Added salary: <Salary: ID 15133 : 39437.77
+Created officer <Officer ID 15134: Drew None Bloom None>
+ ---> Added assignment: <Assignment: ID 15134 : 32>
+ ---> Added salary: <Salary: ID 15134 : 0.0
+Created officer <Officer ID 15135: William None Bullock None>
+ ---> Added assignment: <Assignment: ID 15135 : 43>
+ ---> Added salary: <Salary: ID 15135 : 1904.25
+Created officer <Officer ID 15136: Everett None Burns None>
+ ---> Added assignment: <Assignment: ID 15136 : 14>
+ ---> Added salary: <Salary: ID 15136 : 25059.0
+Created officer <Officer ID 15137: Jamie None Chase None>
+ ---> Added assignment: <Assignment: ID 15137 : 37>
+ ---> Added salary: <Salary: ID 15137 : 4142.44
+Created officer <Officer ID 15138: Benjamin None Chaiaravalle None>
+ ---> Added assignment: <Assignment: ID 15138 : 35>
+ ---> Added salary: <Salary: ID 15138 : 0.0
+Created officer <Officer ID 15139: Scott None Costella None>
+ ---> Added assignment: <Assignment: ID 15139 : 18>
+ ---> Added salary: <Salary: ID 15139 : 61301.0
+Created officer <Officer ID 15140: Stephen None Demaroney None>
+ ---> Added assignment: <Assignment: ID 15140 : 21>
+ ---> Added salary: <Salary: ID 15140 : 828.93
+Created officer <Officer ID 15141: Ethan None Faverau None>
+ ---> Added assignment: <Assignment: ID 15141 : 28>
+ ---> Added salary: <Salary: ID 15141 : 28349.88
+Created officer <Officer ID 15142: Allen None Fortin None>
+ ---> Added assignment: <Assignment: ID 15142 : 22>
+ ---> Added salary: <Salary: ID 15142 : 65031.0
+Created officer <Officer ID 15143: Daniel None Gamelin None>
+ ---> Added assignment: <Assignment: ID 15143 : 5>
+ ---> Added salary: <Salary: ID 15143 : 68986.5
+Created officer <Officer ID 15144: John None Gonyea None>
+ ---> Added assignment: <Assignment: ID 15144 : 49>
+ ---> Added salary: <Salary: ID 15144 : 0.0
+Created officer <Officer ID 15145: Michael None Henry None>
+ ---> Added assignment: <Assignment: ID 15145 : 36>
+ ---> Added salary: <Salary: ID 15145 : 0.0
+Created officer <Officer ID 15146: Jason None Knight None>
+ ---> Added assignment: <Assignment: ID 15146 : 20>
+ ---> Added salary: <Salary: ID 15146 : 4455.0
+Created officer <Officer ID 15147: David None Lewis None>
+ ---> Added assignment: <Assignment: ID 15147 : 19>
+ ---> Added salary: <Salary: ID 15147 : 14999.75
+Created officer <Officer ID 15148: Michael None Longevin None>
+ ---> Added assignment: <Assignment: ID 15148 : 15>
+ ---> Added salary: <Salary: ID 15148 : 59064.88
+Created officer <Officer ID 15149: Devin None Major None>
+ ---> Added assignment: <Assignment: ID 15149 : 26>
+ ---> Added salary: <Salary: ID 15149 : 5964.01
+Created officer <Officer ID 15150: Michael None McCormack None>
+ ---> Added assignment: <Assignment: ID 15150 : 34>
+ ---> Added salary: <Salary: ID 15150 : 2275.64
+Created officer <Officer ID 15151: Paul None McManus None>
+ ---> Added assignment: <Assignment: ID 15151 : 46>
+ ---> Added salary: <Salary: ID 15151 : 0.0
+Created officer <Officer ID 15152: Toby None Mitchinson None>
+ ---> Added assignment: <Assignment: ID 15152 : 45>
+ ---> Added salary: <Salary: ID 15152 : 0.0
+Created officer <Officer ID 15153: Matthew None Nault None>
+ ---> Added assignment: <Assignment: ID 15153 : 30>
+ ---> Added salary: <Salary: ID 15153 : 0.0
+Created officer <Officer ID 15154: Robert None Norris None>
+ ---> Added assignment: <Assignment: ID 15154 : 41>
+ ---> Added salary: <Salary: ID 15154 : 0.0
+Created officer <Officer ID 15155: Michael None O'Neil None>
+ ---> Added assignment: <Assignment: ID 15155 : 12>
+ ---> Added salary: <Salary: ID 15155 : 7475.27
+Created officer <Officer ID 15156: Jessica None Outly None>
+ ---> Added assignment: <Assignment: ID 15156 : 29>
+ ---> Added salary: <Salary: ID 15156 : 4126.65
+Created officer <Officer ID 15157: Richard None Rowden None>
+ ---> Added assignment: <Assignment: ID 15157 : 4>
+ ---> Added salary: <Salary: ID 15157 : 17559.75
+Created officer <Officer ID 15158: Barry None Simays None>
+ ---> Added assignment: <Assignment: ID 15158 : 10>
+ ---> Added salary: <Salary: ID 15158 : 0.0
+Created officer <Officer ID 15159: Robert None Sylvia None>
+ ---> Added assignment: <Assignment: ID 15159 : 44>
+ ---> Added salary: <Salary: ID 15159 : 60352.0
+Created officer <Officer ID 15160: Jeffry None Turner None>
+ ---> Added assignment: <Assignment: ID 15160 : 31>
+ ---> Added salary: <Salary: ID 15160 : 19363.1
+Created officer <Officer ID 15161: Brian None Welch None>
+ ---> Added assignment: <Assignment: ID 15161 : 27>
+ ---> Added salary: <Salary: ID 15161 : 54919.76
+[2020-08-07 09:21:21,880] INFO in __init__: OpenOversight startup
+Added Not Sure to Vermont Capitol Police
+[2020-08-07 09:21:23,200] INFO in __init__: OpenOversight startup
+Added Officer to Vermont Capitol Police
+[2020-08-07 09:21:24,513] INFO in __init__: OpenOversight startup
+Added Sergeant to Vermont Capitol Police
+[2020-08-07 09:21:25,840] INFO in __init__: OpenOversight startup
+Added Chief to Vermont Capitol Police
+[2020-08-07 09:21:27,191] INFO in __init__: OpenOversight startup
+Created officer <Officer ID 15162: Matthew S Romei None>
+ ---> Added assignment: <Assignment: ID 15162 : 1751>
+Created officer <Officer ID 15163: Dale F Manning None>
+ ---> Added assignment: <Assignment: ID 15163 : 1752>
+Created officer <Officer ID 15164: Kurt I Snyder None>
+ ---> Added assignment: <Assignment: ID 15164 : 1753>
+Created officer <Officer ID 15165: Sara Lynn  Pearson None>
+ ---> Added assignment: <Assignment: ID 15165 : 1754>
+Created officer <Officer ID 15166: Chad A Stacey None>
+ ---> Added assignment: <Assignment: ID 15166 : 1755>
+Created officer <Officer ID 15167: Jason  Gould None>
+ ---> Added assignment: <Assignment: ID 15167 : 1758>
+Created officer <Officer ID 15168: Brian W Hoar None>
+ ---> Added assignment: <Assignment: ID 15168 : 1756>
+Created officer <Officer ID 15169: Joseph G Aldsworth None>
+ ---> Added assignment: <Assignment: ID 15169 : 1757>

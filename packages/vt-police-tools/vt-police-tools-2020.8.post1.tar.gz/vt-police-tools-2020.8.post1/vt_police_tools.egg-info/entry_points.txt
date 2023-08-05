@@ -1,0 +1,3 @@
+[console_scripts]
+vpt = vt_police_tools.cli:main
+
