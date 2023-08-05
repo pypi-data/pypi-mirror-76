@@ -1,0 +1,10 @@
+README.md
+setup.py
+github_help_wanted.egg-info/PKG-INFO
+github_help_wanted.egg-info/SOURCES.txt
+github_help_wanted.egg-info/dependency_links.txt
+github_help_wanted.egg-info/entry_points.txt
+github_help_wanted.egg-info/requires.txt
+github_help_wanted.egg-info/top_level.txt
+githubhelp/__init__.py
+githubhelp/gh.py
