@@ -1,0 +1,46 @@
+%import common.DIGIT
+%import common.UCASE_LETTER
+%import common.LETTER
+%ignore " "
+
+
+// course definition
+course: subject number
+subject: UCASE_LETTER+
+number: DIGIT~3
+
+// definition for "suffixes" at the end of prerequisites
+_or_concurrent_enrollment: "or concurrent" ("registration" | "enrollment")
+_consent: "department"
+        | "instructor"
+        | ["academic"] "advisor"
+_suffix:  ["or equivalent"] [[","] ("or" | "and") "consent of" ["the"] _consent] ["."]
+
+// annoyingly enough, when we define production rules for lists of courses, list must be defined in
+// terms of "atoms" which cannot potentially contain lists themselves thus, we define most things
+// twice: first in their atomic form, then in their actual form
+_direct_atomic: _atom "and" _atom
+_set_atomic: course "/" course | _atom "or" _atom
+
+// if _atom was replaced with _req here, because prereqs can contain directs which can contain
+// lists, we would have an undesirable nested parse tree
+_atom: (_direct_atomic | _set_atomic | course) [_suffix]
+_list: _atom ([","] _atom)*
+
+// non-atomic definitions of direct and set which contain lists
+direct: _direct_atomic
+      | _list [","] "and" _atom
+      | _list
+set: _set_atomic
+   | "one of"i ["the following:"] _list [[","] "or" _atom]
+   | _list [","] "or" _atom
+
+_req_prefix: (set | direct | course) [_suffix]
+prereq: _req_prefix
+coreq: "credit"i _or_concurrent_enrollment "in" _req_prefix
+     | _req_prefix _or_concurrent_enrollment
+_req: coreq | prereq
+
+// base production rule
+other: /.+/
+start: _req | other

@@ -1,0 +1,11 @@
+uiuc_api/__init__.py,sha256=BtxJVTqmff7NY09M1jiXY2gSDLrJetNsK0ZHmqdYvDg,73
+uiuc_api/course.py,sha256=IZle8nAhgwXjAxv-44xKeYmdNQQZt-_T-NSlcWhH4Z8,4733
+uiuc_api/fetch.py,sha256=Rk7ha7lKkaaQ9zwmUW2Ii50LLRe3akDP-8oKuKK4dZk,4116
+uiuc_api/parse.py,sha256=sZot-pAB2cnN1VmUfOEpivlcp7780rdQ489zMfq06I4,4571
+uiuc_api/prerequisites.lark,sha256=_ijFjuJXxCNv4nRGsnvF__0QGBXkvq2mWJU1n23eGl0,1541
+uiuc_api/utils.py,sha256=AY94fFYhVvXLsCzBM5i_ESTIIlSvardXI2t4DkWr2PU,1327
+uiuc_api-0.1.3.dist-info/LICENSE,sha256=_fGPcYcp3ZalVIPnhRzfk1jk3xZy5VrTSsopnMKJP6k,1069
+uiuc_api-0.1.3.dist-info/METADATA,sha256=q_JkQhK8F-YRKX1zLwGSt1M-wLZvytv509MKKk_1bjo,2782
+uiuc_api-0.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+uiuc_api-0.1.3.dist-info/top_level.txt,sha256=rYrsbPi3ZzcOhO_z9WVzly3Y1l_7g0O9IoXRi-3ieyg,9
+uiuc_api-0.1.3.dist-info/RECORD,,
