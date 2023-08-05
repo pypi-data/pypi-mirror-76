@@ -1,0 +1,357 @@
+#!/bin/bash
+
+function usage
+{
+	echo "Usage : server-create <name> --flavor <flavor> [--image <image> | --boot-from-volume <volume>] --network <network[,network,...]> [--volume <volume,volume,...>] [--floating-ip <floating-ip>] [--root-password <root-password>] [--security-group <security-group>] [--key-name <key-name>] [--availability-zone <availability-zone>] [--level <level>] [--start-script <start-script>] [--stop-script <stop-script>] [--project <project>]"
+}
+
+function message
+{
+	if [ "$return_id" != "true" ]
+	then
+		echo $1
+	fi
+}
+
+function generate_userdata
+{
+	cat <<EOF > $userdata
+#cloud-config
+user: root
+password: $root_password
+chpasswd: {expire: False}
+ssh_pwauth: True
+EOF
+}
+
+function remove_userdata
+{
+	if [ -f "$userdata" ]
+	then
+		rm -f $userdata
+	fi
+}
+
+function process_list_option
+{
+	retval=""
+
+	IFS=',' read -r -a array <<< "$2"
+	for item in "${array[@]}"
+	do
+		arg=$(echo "$item" | xargs)
+		list=$list" $1 $arg"
+	done
+
+	echo $list
+}
+
+# Execute getopt on the arguments passed to this program, identified by the special character $@
+PARSED_OPTIONS=$(getopt -n "$0"  -o o:i:x:v:n:t:r:s:k:a:l:b:e:p:f:c:h --long "flavor:,image:,boot-from-volume:,volume:,network:,floating-ip:,root-password:,security-group:,key-name:,availability-zone:,level:,start-script:,stop-script:,project:,format:,column:,help"  -- "$@")
+
+# Bad arguments, something has gone wrong with the getopt command.
+if [ $? -ne 0 ]
+then
+	exit 1
+fi
+ 
+# A little magic, necessary when using getopt.
+eval set -- "$PARSED_OPTIONS"
+  
+# Now goes through all the options with a case and using shift to analyze 1 argument at a time.
+# $1 identifies the first argument, and when we use shift we discard the first argument, so $2 becomes $1 and goes again through the case.
+optargs=""
+while true;
+do
+	case "$1" in
+		-p|--project)
+			project="$2"
+			shift 2;;
+
+		-o|--flavor)
+			flavor="$2"
+			shift 2;;
+
+		-i|--image)
+			image="$2"
+			shift 2;;
+
+		-x|--boot-from-volume)
+			boot_from_volume="$2"
+			shift 2;;
+
+		-v|--volume)
+			volume="$2"
+			shift 2;;
+
+		-n|--network)
+			network="$2"
+			shift 2;;
+
+		-t|--floating-ip)
+			floating_ip="$2"
+			shift 2;;
+
+		-r|--root-password)
+			root_password="$2"
+			userdata="/tmp/$(basename $0)_userdata.$$"
+			generate_userdata
+			optargs=${optargs}" --user-data $userdata"
+			shift 2;;
+
+		-s|--security-group)
+			secgroup_option=`process_list_option $1 "$2"`
+			optargs=${optargs}" "$secgroup_option
+			shift 2;;
+
+		-k|--key-name)
+			optargs=${optargs}" $1 ""$2"
+			shift 2;;
+
+		-a|--availability-zone)
+			optargs=${optargs}" $1 ""$2"
+			shift 2;;
+
+		-l|--level)
+			level="$2"
+			shift 2;;
+
+		-b|--start-script)
+			start_script="$2"
+			shift 2;;
+
+		-e|--stop-script)
+			stop_script="$2"
+			shift 2;;
+
+		-f|--format)
+			if [ "$2" != "value" ]
+			then
+				echo "ERROR : allowed value for format parameter is value"
+				exit 1
+			fi
+			shift 2;;
+
+		-c|--column)
+			if [ "$2" != "id" ]
+			then
+				echo "ERROR : allowed value for column parameter is id"
+				exit 1
+			fi
+			return_id=true
+			shift 2;;
+
+		-h|--help)
+			usage
+			shift;;
+
+		--)
+			shift
+			break;;
+	esac
+done
+
+# Handle non-option arguments
+if [ $# -ne 1 ]
+then
+	usage
+	exit 1
+fi
+
+# Handle mandatory arguments
+if [ "$flavor" = "" ] || [ "$network" = "" ]
+then
+	usage
+	exit 1
+fi
+
+if [ "$image" = "" ] && [ "$boot_from_volume" = "" ]
+then
+	echo "Error: must provide either an image or a volume too boot from."
+	usage
+	exit 1
+fi
+
+# Set the project (default = "admin")
+
+if [ "$project" == "" ]
+then
+	project="admin"
+	message "warning: $project project has been set by default"
+fi
+export OS_PROJECT_NAME=$project
+
+server=$1
+
+# Get the network id
+
+nic_names=(${network//,/ })
+for i in "${!nic_names[@]}"
+do
+	net_id=`openstack network list --name ${nic_names[$i]} -f value -c ID`
+	if [ "$net_id" = "" ]
+	then
+		net_id=`openstack network show $network -f value -c id`
+		if [ "$net_id" = "" ]
+		then
+			message "ERROR: invalid network name or ID ${nic_names[$i]}"
+			exit 1
+		fi
+	fi
+	nic_option="$nic_option --nic net-id=$net_id"
+done
+
+# Create the server
+
+if [ ! -z "$image" ]
+then
+	server_id=`openstack server create "$server" --flavor $flavor --image $image $nic_option $optargs -f value -c id`
+else
+	server_id=`openstack server create "$server" --flavor $flavor --volume $boot_from_volume $nic_option $optargs -f value -c id`
+fi
+
+if [ $? -ne 0 ]
+then
+	message "ERROR : server create $server"
+	remove_userdata
+	exit 1
+fi
+remove_userdata
+
+# Wait for server to reach the ACTIVE state
+MAXITER=200
+COUNTER=1
+
+while [ $COUNTER -le $MAXITER ] 
+do
+	status=$(openstack server show "$server" -c status -f value)
+	if [ "$status" == "ACTIVE" ] || [ "$status" == "ERROR" ]
+	then
+		break
+	fi
+	message "Waiting for server \"$server\" to be ACTIVE ($COUNTER/$MAXITER)..."
+	sleep 6
+	COUNTER=$[$COUNTER +1]
+done
+
+case "$status" in
+		"ACTIVE")
+			;;
+
+		"BUILD")
+			message "ERROR : server \"$server\" creation timeout (status = $status)"
+			exit 1;;
+
+		*)
+			message "ERROR : server \"$server\" creation failed (status = $status)"
+			message "$(openstack server show $server -c fault -f value)"
+			exit 1;;
+esac
+
+# Attach volumes if requested
+
+if [ "$volume" != "" ]
+then
+	volumes=(${volume//,/ })
+	for i in "${!volumes[@]}"
+	do
+		vol=${volumes[$i]}
+		echo "Attaching volume $vol..." 
+		openstack server add volume $server_id $vol
+		if [ $? -ne 0 ]
+		then
+			message "ERROR: server add volume $server $vol"
+		else
+			message "volume $vol successfully attached to server $server"
+		fi
+	done
+fi
+
+# Attach a floating IP if requested
+
+if [ "$floating_ip" != "" ]
+then
+	if [ "$floating_ip" = "allocate" ]
+	then
+		floating_ip=`openstack floating ip create $extnet -c floating_ip_address -f value`
+		if [ $? -ne 0 ]
+		then
+			message "ERROR: floating ip create $extnet"
+		else
+			message "floating ip $floating_ip successfully allocated on $extnet"
+		fi
+	fi
+
+	openstack server add floating ip $server_id $floating_ip > /dev/null 2>&1
+	if [ $? -ne 0 ]
+	then
+#		message "ERROR: server add floating ip $server $floating_ip"
+		openstack floating ip create --floating-ip-address $floating_ip $extnet > /dev/null 2>&1
+		if [ $? -ne 0 ]
+		then
+			message "Warning: floating ip $floating_ip already used; allocating another one..."
+
+			floating_ip=`openstack floating ip create $extnet -c floating_ip_address -f value`
+			if [ $? -ne 0 ]
+			then
+				message "ERROR: floating ip create $extnet"
+			else
+				message "floating ip $floating_ip successfully allocated on $extnet"
+			fi
+		else
+			message "floating ip $floating_ip successfully allocated on $extnet"
+		fi
+		openstack server add floating ip $server_id $floating_ip > /dev/null 2>&1
+		if [ $? -ne 0 ]
+		then
+			message "ERROR: server add floating ip $server $floating_ip"
+		else
+			message "floating ip $floating_ip successfully attached to server $server"
+		fi
+	else
+		message "floating ip $floating_ip successfully attached to server $server"
+	fi
+fi
+
+# Add level, start-script, stop-script metadatas if requested
+
+if [ "$level" != "" ]
+then
+	openstack server set --property level=$level $server_id
+	if [ $? -ne 0 ]
+	then
+		message "ERROR: server server set --property level=$level $server"
+	else
+		message "level $level successfully set to server $server"
+	fi
+fi
+
+if [ "$start_script" != "" ]
+then
+	openstack server set --property start_script=$start_script $server_id
+	if [ $? -ne 0 ]
+	then
+		message "ERROR: server server set --property start_script=$start_script $server"
+	else
+		message "start_script $start_script successfully set to server $server"
+	fi
+fi
+
+if [ "$stop_script" != "" ]
+then
+	openstack server set --property stop_script=$stop_script $server_id
+	if [ $? -ne 0 ]
+	then
+		message "ERROR: server server set --property stop_script=$stop_script $server"
+	else
+		message "stop_script $stop_script successfully set to server $server"
+	fi
+fi
+
+message "server $server created with ID $server_id"
+
+# Return the server id if requested
+if [ "$return_id" = "true" ]
+then
+	echo $server_id
+fi

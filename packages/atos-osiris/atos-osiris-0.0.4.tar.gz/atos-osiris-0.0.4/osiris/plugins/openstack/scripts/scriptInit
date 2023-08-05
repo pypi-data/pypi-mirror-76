@@ -1,0 +1,35 @@
+#!/usr/bin/env python3
+# -*-coding:utf-8 -*
+
+import os
+import json
+
+# Environment
+OSIRIS_SYSNAME = os.getenv('OSIRIS_SYSNAME')
+OSIRIS_PLUGIN = os.getenv('OSIRIS_PLUGIN') 
+
+# Getting system environment
+def_file_path = os.path.join(os.environ['HOME'], '.osiris', 'systems', OSIRIS_PLUGIN, OSIRIS_SYSNAME, 'def.json')
+with open(def_file_path  , 'r') as f:
+    sys_env = json.loads(f.read())['environment'][0]
+
+# Clear any old environment that may conflict
+os.system("for key in $( set | awk '{FS=\"=\"}  /^OS_/ {print $1}' ); do unset $key ; done")
+
+# Apply environment
+os.environ['OS_USERNAME'] = sys_env['OS_USERNAME']
+os.environ['OS_USER_DOMAIN_NAME'] = sys_env['OS_USER_DOMAIN_NAME']
+os.environ['OS_PROJECT_DOMAIN_NAME'] = sys_env['OS_PROJECT_DOMAIN_NAME']
+os.environ['OS_BAREMETAL_API_VERSION'] = sys_env['OS_BAREMETAL_API_VERSION']
+os.environ['NOVA_VERSION'] = sys_env['NOVA_VERSION']
+os.environ['OS_PROJECT_NAME'] = sys_env['OS_PROJECT_NAME']
+os.environ['OS_PASSWORD'] = sys_env['OS_PASSWORD']
+os.environ['OS_NO_CACHE'] = sys_env['OS_NO_CACHE']
+os.environ['COMPUTE_API_VERSION'] = sys_env['COMPUTE_API_VERSION']
+os.environ['no_proxy'] = sys_env['no_proxy']
+os.environ['OS_CLOUDNAME'] = sys_env['OS_CLOUDNAME']
+os.environ['OS_AUTH_URL'] = sys_env['OS_AUTH_URL']
+os.environ['IRONIC_API_VERSION'] = sys_env['IRONIC_API_VERSION']
+os.environ['OS_IDENTITY_API_VERSION'] = sys_env['OS_IDENTITY_API_VERSION']
+os.environ['OS_AUTH_TYPE'] = sys_env['OS_AUTH_TYPE']
+os.environ['PYTHONWARNINGS'] = sys_env['PYTHONWARNINGS']

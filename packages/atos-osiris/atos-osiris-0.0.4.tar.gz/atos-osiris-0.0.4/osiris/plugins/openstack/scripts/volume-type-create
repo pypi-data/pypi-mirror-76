@@ -1,0 +1,115 @@
+#!/bin/bash
+
+function usage
+{
+	echo "Usage : volume-type-create <name> --backend <backend> [--description <description>]"
+}
+ 
+function message
+{
+	if [ "$return_id" != "true" ]
+	then
+		echo $1
+	fi
+}
+
+# Execute getopt on the arguments passed to this program, identified by the special character $@
+PARSED_OPTIONS=$(getopt -n "$0"  -o d:b:f:c:h --long "description:,backend:,format:,column:,help"  -- "$@")
+ 
+# Bad arguments, something has gone wrong with the getopt command.
+if [ $? -ne 0 ]
+then
+	exit 1
+fi
+ 
+# A little magic, necessary when using getopt.
+eval set -- "$PARSED_OPTIONS"
+  
+# Now goes through all the options with a case and using shift to analyze 1 argument at a time.
+# $1 identifies the first argument, and when we use shift we discard the first argument, so $2 becomes $1 and goes again through the case.
+while true;
+do
+	case "$1" in
+		-d|--description)
+			description="$2"
+			shift 2;;
+
+		-b|--backend)
+			backend="$2"
+			shift 2;;
+
+		-f|--format)
+			if [ "$2" != "value" ]
+			then
+				echo "ERROR : allowed value for format parameter is value"
+				exit 1
+			fi
+			shift 2;;
+
+		-c|--column)
+			if [ "$2" != "id" ]
+			then
+				echo "ERROR : allowed value for column parameter is id"
+				exit 1
+			fi
+			return_id=true
+			shift 2;;
+
+		-h|--help)
+			usage
+			shift;;
+
+		--)
+			shift
+			break;;
+	esac
+done
+
+# Handle non-option arguments
+if [ $# -ne 1 ]
+then
+	usage
+	exit 1
+fi
+
+# Handle mandatory arguments
+if [ "$backend" == "" ]
+then
+	usage
+	exit 1
+fi
+
+name=$1
+
+# Create the volume type
+
+if [ "$description" == "" ]
+then
+	voltypeid=`openstack volume type create "$name" -f value -c id`
+else
+	voltypeid=`openstack volume type create "$name"  --description "$description" -f value -c id`
+fi
+
+if [ $? -ne 0 ]
+then
+	echo "ERROR : volume type create $name"
+	exit 1
+fi
+
+
+# Set the volume type to the specified backend
+
+openstack volume type set "$name" --property volume_backend_name="$backend"
+if [ $? -ne 0 ]
+then
+	echo "ERROR : volume type create $name"
+	exit 1
+fi
+
+message "volume type $name created with ID $voltypeid"
+
+# Return the network id if requested
+if [ "$return_id" = "true" ]
+then
+	echo $voltypeid
+fi

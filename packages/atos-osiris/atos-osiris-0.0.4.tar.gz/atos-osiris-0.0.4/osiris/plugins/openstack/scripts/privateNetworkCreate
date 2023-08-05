@@ -1,0 +1,174 @@
+#!/bin/bash
+
+function usage
+{
+	echo "Usage : private-create-network <name> [--project <project>] [--description <description>] [--subnet-range <subnet-range>] [--no-external] [--share]"
+}
+ 
+function message
+{
+	if [ "$return_id" != "true" ]
+	then
+		echo $1
+	fi
+}
+ 
+
+# Execute getopt on the arguments passed to this program, identified by the special character $@
+PARSED_OPTIONS=$(getopt -n "$0"  -o p:d:r:f:c:nsh --long "project:,description:,subnet-range:,format:,column:,no-external-gateway,share,help"  -- "$@")
+ 
+# Bad arguments, something has gone wrong with the getopt command.
+if [ $? -ne 0 ]
+then
+	exit 1
+fi
+ 
+# A little magic, necessary when using getopt.
+eval set -- "$PARSED_OPTIONS"
+  
+# Now goes through all the options with a case and using shift to analyze 1 argument at a time.
+# $1 identifies the first argument, and when we use shift we discard the first argument, so $2 becomes $1 and goes again through the case.
+while true;
+do
+	case "$1" in
+		-p|--project)
+			project="$2"
+			shift 2;;
+
+		-d|--description)
+			description="$2"
+			shift 2;;
+
+		-r|--subnet-range)
+			subnet_range="$2"
+			shift 2;;
+
+		-f|--format)
+			if [ "$2" != "value" ]
+			then
+				echo "ERROR : allowed value for format parameter is value"
+				exit 1
+			fi
+			shift 2;;
+
+		-c|--column)
+			if [ "$2" != "id" ]
+			then
+				echo "ERROR : allowed value for column parameter is id"
+				exit 1
+			fi
+			return_id=true
+			shift 2;;
+
+		-n|--no-external-gateway)
+			no_external_gateway=true
+			shift;;
+
+		-s|--share)
+			option_share=" $1"
+			shift;;
+
+		-h|--help)
+			usage
+			shift;;
+
+		--)
+			shift
+			break;;
+	esac
+done
+
+# Handle non-option arguments
+if [ $# -ne 1 ]
+then
+	usage
+	exit 1
+fi
+
+network=$1
+subnet="subnet-$network"
+router="router-$network"
+
+# Default project = "admin"
+if [ "$project" == "" ]
+then
+	project="admin"
+	message "warning: $project project has been set by default"
+fi
+
+# Default subnet range = "192.168.0.0/24"
+if [ "$subnet_range" == "" ]
+then
+	subnet_range="192.168.0.0/24"
+	message "warning: $subnet_range subnet range has been set by default"
+fi
+
+# Default description = "Network $network"
+if [ "$description" == "" ]
+then
+	description="Network $network ($project project)"
+fi
+
+#message "$0: name = $1, project="$project", description="$description", subnet-range="$subnet_range", external-route=$external_route, shared=$shared"
+
+# Create the network
+
+netid=`openstack network create "$network" --project "$project" --description "$description"$option_share -f value -c id`
+if [ $? -ne 0 ]
+then
+	message "ERROR : network create $network"
+	exit 1
+fi
+message "network $network created with ID $netid"
+
+# Create the subnet
+
+subnetid=`openstack subnet create "$subnet" --project "$project" --network "$netid" --subnet-range "$subnet_range" --description "Subnet for private network $network ($project project)" -f value -c id`
+if [ $? -ne 0 ]
+then
+	message "ERROR : subnet create for private network $network"
+	exit 1
+fi
+message "subnet $subnet created with ID $subnetid"
+
+# Create the router if requested for external route
+
+if [ "$no_external_gateway" == "true" ]
+then
+	exit 0
+fi
+
+# Create the router
+
+routerid=`openstack router create "$router" --project "$project" --description "Router for private network $network ($project project)" -f value -c id`
+if [ $? -ne 0 ]
+then
+	message "ERROR : router create for private network $network"
+	exit 1
+fi
+
+# Attach the router to the subnet
+
+openstack router add subnet "$routerid" "$subnetid"
+if [ $? -ne 0 ]
+then
+	message "ERROR : router add subnet $router $subnet"
+	exit 1
+fi
+
+# Attach the router to the external network
+
+openstack router set --external-gateway "$extnet" "$routerid"
+if [ $? -ne 0 ]
+then
+	message "ERROR : router set --external-gateway $extnet $router"
+	exit 1
+fi
+
+message "router $router created with ID $routerid"
+
+# Return the network id if requested
+if [ "$return_id" = "true" ]
+then
+	echo $netid
+fi

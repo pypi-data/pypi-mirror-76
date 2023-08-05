@@ -1,0 +1,140 @@
+#!/bin/bash
+
+
+
+function usage
+{
+	echo "Usage : secgroup-rule-create <secgroup> --protocol <protocol> [--dst-port <dst-port>] [--remote-ip] <remote-ip>] [--remote-group <remote-group>] [--ingress | --egress] [--description <description>] [--project <project>]"
+}
+
+function message
+{
+	if [ "$return_id" != "true" ]
+	then
+		echo $1
+	fi
+}
+
+# Execute getopt on the arguments passed to this program, identified by the special character $@
+PARSED_OPTIONS=$(getopt -n "$0"  -o d:o:t:r:g:p:f:c:ieh --long "description:,protocol:,dst-port:,remote-ip:,remote-group:,project:,format:,column:,ingress,egress,help"  -- "$@")
+
+# Bad arguments, something has gone wrong with the getopt command.
+if [ $? -ne 0 ]
+then
+	exit 1
+fi
+ 
+# A little magic, necessary when using getopt.
+eval set -- "$PARSED_OPTIONS"
+  
+# Now goes through all the options with a case and using shift to analyze 1 argument at a time.
+# $1 identifies the first argument, and when we use shift we discard the first argument, so $2 becomes $1 and goes again through the case.
+optargs=""
+while true;
+do
+	case "$1" in
+		-d|--description)
+			optargs=${optargs}" $1 ""$2"
+			shift 2;;
+
+		-o|--protocol)
+			protocol="$2"
+			shift 2;;
+
+		-t|--dst-port)
+			optargs=${optargs}" $1 ""$2"
+			shift 2;;
+
+		-r|--remote-ip)
+			optargs=${optargs}" $1 ""$2"
+			shift 2;;
+
+		-g|--remote-group)
+			optargs=${optargs}" $1 ""$2"
+			shift 2;;
+
+		-p|--project)
+			project="$2"
+			shift 2;;
+
+		-f|--format)
+			if [ "$2" != "value" ]
+			then
+				echo "ERROR : allowed value for format parameter is value"
+				exit 1
+			fi
+			shift 2;;
+
+		-c|--column)
+			if [ "$2" != "id" ]
+			then
+				echo "ERROR : allowed value for column parameter is id"
+				exit 1
+			fi
+			return_id=true
+			shift 2;;
+
+		-i|--ingress)
+			optargs=${optargs}" $1 "
+			shift;;
+
+		-e|--egress)
+			optargs=${optargs}" $1 "
+			shift;;
+
+		-h|--help)
+			usage
+			shift;;
+
+		--)
+			shift
+			break;;
+	esac
+done
+
+# Handle non-option arguments
+if [ $# -ne 1 ]
+then
+	usage
+	exit 1
+fi
+
+secgroup="$1"
+
+# Handle mandatory arguments
+if [ "$protocol" == "" ]
+then
+	usage
+	exit 1
+fi
+
+# Default project = "admin"
+if [ "$project" == "" ]
+then
+	project="admin"
+	message "warning: $project project has been set by default"
+fi
+
+# Get the secgroup ID that will identify it uniquely
+
+secgroupid=`openstack security group list --project $project | grep "| $secgroup *|" | awk '{ print $2;}'`
+if [ $? -ne 0 ] || [ "$secgroupid" = "" ]
+then
+	echo "ERROR : cannot find the ID of security group \"$secgroup\""
+	exit 1
+fi
+
+# Create the security group rule as specified
+secgroupruleid=`openstack security group rule create "$secgroupid" --project "$project" --protocol "$protocol"${optargs} -f value -c id`
+if [ $? -ne 0 ] || [ "$secgroupid" = "" ]
+then
+	echo "ERROR : security group rule create"
+	exit 1
+fi
+message "security group rule created with ID $secgroupruleid"
+
+# Return the security group rule id if requested
+if [ "$return_id" = "true" ]
+then
+	echo $secgroupruleid
+fi
