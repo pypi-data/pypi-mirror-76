@@ -1,0 +1,10 @@
+Makefile
+README.md
+ipythontutor.py
+screenshot.gif
+setup.py
+ipythontutor.egg-info/PKG-INFO
+ipythontutor.egg-info/SOURCES.txt
+ipythontutor.egg-info/dependency_links.txt
+ipythontutor.egg-info/requires.txt
+ipythontutor.egg-info/top_level.txt
