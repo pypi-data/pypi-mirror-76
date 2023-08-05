@@ -1,0 +1,9 @@
+numpy
+joblib
+tqdm
+six
+pandas
+setuptools
+tensor2tensor
+nltk
+scikit_learn
