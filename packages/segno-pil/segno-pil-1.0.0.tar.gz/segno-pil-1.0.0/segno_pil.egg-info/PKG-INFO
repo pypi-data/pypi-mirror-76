@@ -1,0 +1,101 @@
+Metadata-Version: 1.1
+Name: segno-pil
+Version: 1.0.0
+Summary: PIL/Pillow plugin for the Segno (Micro) QR Code generator
+Home-page: https://github.com/heuer/segno-pil/
+Author: Lars Heuer
+Author-email: heuer@semagia.com
+License: BSD
+Description: Segno PIL -- Segno plugin for creating PIL/Pillow images from QR Codes
+        ----------------------------------------------------------------------
+        
+        This `Segno <https://github.com/heuer/segno>`_ plugin converts a
+        (Micro) QR Code to a PIL/Pillow Image.
+        
+        This plugin is not required to write PNG, EPS or PDF files. Segno's native
+        implementations usually generate smaller files in less time. This plugin
+        might be useful to modify the QR Codes (i.e. rotate or blur) or to save the
+        QR codes in an image format which is not supported by Segno.
+        
+        Usage:
+        
+        .. code-block:: python
+        
+            >>> import segno
+            >>> qr = segno.make("One, two, three, four, one, two"
+                                "Let me tell you how it will be"
+                                "There's one for you, nineteen for me")
+            >>> img = qr.to_pil()  # Greyscale image, default scale
+            >>> img.save('example.png')
+            >>> qr.to_pil(scale=10).show()  # Show img with scale 10
+            >>> # Different scale
+            >>> img = qr.to_pil(scale=3)
+            >>> img.save('example-2.png')
+            >>> # Different scale and change module color
+            >>> img = qr.to_pil(scale=3, dark='darkblue')
+            >>> img.save('example-3.png')
+            >>> # Different scale and change dark and light module colors
+            >>> img = qr.to_pil(scale=3, dark='#36c', light=None)
+            >>> img.save('example-4.png')
+            >>> # Invert the example above
+            >>> img = qr.to_pil(scale=3, dark=None, light='#36c')
+            >>> img.save('example-5.png')
+            >>> # Save JPEG
+            >>> qr.to_pil(scale=3, dark='#36c', light='yellow').convert('RGB').save('example-6.jpg')
+            >>> rotated_img = img.rotate(3, expand=True)
+            >>> rotated_img.convert('RGB').save('example-7.jpg')
+            >>> # Multiple module colors
+            >>> qr = segno.make('Yellow Submarine', version=7, error='h')
+            >>> img = qr.to_pil(scale=4, dark='darkred', data_dark='darkorange',
+                                data_light='yellow')
+            >>> img.save('yellow-submarine.png')
+        
+        
+        Changes
+        =======
+        
+        1.0.0 -- 2020-08-07
+        -------------------
+        * Support for multiple module colors
+        * Support for Segno's API >= 1.0.0
+        * API breaking changes:
+        
+          - Changed parameter "color" to "dark" and "background" to "light"
+            to match Segno's API
+          - Removed "mode" parameter
+        
+        
+        0.1.6 -- 2016-09-19
+        -------------------
+        * Fixed Python packaging
+        
+        
+        0.1.5 -- 2016-08-24
+        -------------------
+        * Adapt Segno's 0.1.6 API changes.
+        
+        
+        0.1.4 -- 2016-08-16
+        -------------------
+        * Updated docs
+        
+        
+        0.1.3 -- 2016-08-14
+        -------------------
+        * Initial release
+        
+Keywords: QR Code,Micro QR Code,ISO/IEC 18004,ISO/IEC 18004:2006(E),ISO/IEC 18004:2015(E),PIL,Pillow
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Printing
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities

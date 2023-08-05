@@ -1,0 +1,14 @@
+CHANGES.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+requirements.txt
+segno_pil.py
+setup.cfg
+setup.py
+segno_pil.egg-info/PKG-INFO
+segno_pil.egg-info/SOURCES.txt
+segno_pil.egg-info/dependency_links.txt
+segno_pil.egg-info/entry_points.txt
+segno_pil.egg-info/requires.txt
+segno_pil.egg-info/top_level.txt
