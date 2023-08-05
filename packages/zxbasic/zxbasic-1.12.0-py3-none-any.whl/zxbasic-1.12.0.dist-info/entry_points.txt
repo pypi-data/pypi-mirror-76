@@ -1,0 +1,6 @@
+[console_scripts]
+zxb = libzxbc.zxb:main
+zxbasm = libzxbasm.zxbasm:main
+zxbc = libzxbc.zxb:main
+zxbpp = libzxbpp.zxbpp:entry_point
+
