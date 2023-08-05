@@ -1,0 +1,7 @@
+ray>=0.8.6
+psutil>=5.7.0
+
+[dev]
+pytest
+
+[test]
