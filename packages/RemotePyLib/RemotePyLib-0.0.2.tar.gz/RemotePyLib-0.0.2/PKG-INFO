@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: RemotePyLib
+Version: 0.0.2
+Summary: A package to import libraries remotely.
+Home-page: https://nalinstudios.herokuapp.com/remotepylib/source
+Author: Nalin Studios
+Author-email: nalinangrish2005@gmail.com
+License: UNKNOWN
+Description: # RemotePyLib
+        
+        This is a package to use nalinstudios - RemotePyLib api. You can get it's website along with documentation at [nalinstudios.herokuapp.com/remotepylib](nalinstudios.herokuapp.com/remotepylib) .
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
