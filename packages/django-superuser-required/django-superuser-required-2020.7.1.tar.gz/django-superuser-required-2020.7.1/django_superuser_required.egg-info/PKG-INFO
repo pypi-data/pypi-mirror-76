@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: django-superuser-required
+Version: 2020.7.1
+Summary: Django SuperuserRequiredMixin - request.user.is_superuser==True required
+Home-page: https://github.com/andrewp-as-is/django-superuser-required.py
+License: Unlicense
+Description: <!--
+        https://readme42.com
+        -->
+        
+        
+        [![](https://img.shields.io/pypi/v/django-superuser-required.svg?maxAge=3600)](https://pypi.org/project/django-superuser-required/)
+        [![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+        
+        ### Installation
+        ```bash
+        $ [sudo] pip install django-superuser-required
+        ```
+        
+        #### Examples
+        ```python
+        from django_superuser_required.views import SuperuserRequiredMixin
+        
+        class MyView(SuperuserRequiredMixin,...):
+            ...
+        ```
+        
+        <p align="center">
+            <a href="https://readme42.com/">readme42.com</a>
+        </p>
+Keywords: django superuser
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

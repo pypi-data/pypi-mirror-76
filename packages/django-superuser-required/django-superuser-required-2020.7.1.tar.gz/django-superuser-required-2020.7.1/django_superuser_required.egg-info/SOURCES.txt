@@ -1,0 +1,9 @@
+requirements.txt
+setup.py
+django_superuser_required/__init__.py
+django_superuser_required/views.py
+django_superuser_required.egg-info/PKG-INFO
+django_superuser_required.egg-info/SOURCES.txt
+django_superuser_required.egg-info/dependency_links.txt
+django_superuser_required.egg-info/requires.txt
+django_superuser_required.egg-info/top_level.txt
