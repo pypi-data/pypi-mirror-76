@@ -1,0 +1,11 @@
+README.md
+setup.py
+ModuleHandler/__init__.py
+ModuleHandler/module_config.py
+ModuleHandler/registry.py
+ModuleHandler/tools.py
+modulehandler.egg-info/PKG-INFO
+modulehandler.egg-info/SOURCES.txt
+modulehandler.egg-info/dependency_links.txt
+modulehandler.egg-info/requires.txt
+modulehandler.egg-info/top_level.txt
