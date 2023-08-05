@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: browse-ocrd-physical-import
+Version: 0.1.0
+Summary: Plugin for browse-ocrd to scan book pages with an android phone camera
+Home-page: https://github.com/hnesk/browse-ocrd-physical-import
+Author: Johannes Künsebeck
+Author-email: kuensebeck@googlemail.com
+License: MIT License
+Keywords: OCR,scan,bookscanning,voussoir
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Description-Content-Type: text/markdown
+Requires-Dist: browse-ocrd
+Requires-Dist: pyvoussoir (>=0.3.0)
+Requires-Dist: wheel
+Requires-Dist: pure-python-adb
+Requires-Dist: retrying
+
+# OCRD Physical Import
+
+A plugin for [browse-ocrd](https://github.com/hnesk/browse-ocrd) to scan book pages with an android phone camera
+
+
+## Installation
+
+```
+pip install browse-ocrd-physical-import
+```
+
+## Usage
+```
+browse-ocrd 
+```
+
+The open the view "Scan" to start scanning
+
+

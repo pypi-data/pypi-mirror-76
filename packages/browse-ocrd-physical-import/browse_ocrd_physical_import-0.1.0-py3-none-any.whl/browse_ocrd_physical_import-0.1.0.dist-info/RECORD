@@ -1,0 +1,10 @@
+ocrd_physical_import/__init__.py,sha256=r0hrdvBP67RT5qfyw4AnSUXRkIVus9vlaJKXMI38f4o,74
+ocrd_physical_import/scan.ui,sha256=2CcKgQ0UqchVrUN7ePNTRzgfjw3ct95iXNO7ibMlf4s,7322
+ocrd_physical_import/view.py,sha256=vEuKuOC_mFaq3j7LCu7zYXRZURhEloIdciB--N5NHw0,4869
+ocrd_physical_import/scandriver/__init__.py,sha256=ia0riL8xpBsgpbkm-MqAhy8_ovN1pI99cx2Dxq8Os9Y,4923
+browse_ocrd_physical_import-0.1.0.dist-info/LICENSE,sha256=e6t4L5enMlVEg2mEI9hFOL9atgJ7zG8p8ZGuKXmnBgM,1061
+browse_ocrd_physical_import-0.1.0.dist-info/METADATA,sha256=OHq_5S41nQVTy9fLJjrNfuCjZ7ziJCkUxzr7foTqil0,1227
+browse_ocrd_physical_import-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+browse_ocrd_physical_import-0.1.0.dist-info/entry_points.txt,sha256=AJZqWaED8tGpJvumj08ETQrobLCS6-xJuk7D9haTYHM,58
+browse_ocrd_physical_import-0.1.0.dist-info/top_level.txt,sha256=Y9JcE4IOz8oYma7SstY4n_fJZ-8ZmmEMVwHRg1S9gco,21
+browse_ocrd_physical_import-0.1.0.dist-info/RECORD,,
