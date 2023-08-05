@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: robotframework-reportportal
+Version: 5.0.3
+Summary: Listener for RobotFramework reporting to ReportPortal v5
+Home-page: https://github.com/reportportal/agent-Python-RobotFramework
+Author: UNKNOWN
+Author-email: SupportEPMC-TSTReportPortal@epam.com
+License: UNKNOWN
+Download-URL: https://github.com/reportportal/agent-Python-RobotFramework/tarball/5.0.3
+Keywords: testing,reporting,robot framework,reportportal
+Platform: UNKNOWN
+Requires-Dist: reportportal-client (>=5.0.5)
+Requires-Dist: six
+
+UNKNOWN
+
+
