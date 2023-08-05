@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: remapdict
+Version: 0.1.0
+Summary: A convenience function for arbitrarily remapping dictionary keys, taking subsets, etc.
+Home-page: https://github.com/DylanCulfogienis/remapdict.git
+Author: Dylan Culfogienis
+Author-email: dculfogienis@expr.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# remapdict
+
+Really simple Python function for arbitrarily remapping dictionary keys value pairs with arbitrary transformations and convenience configuration like passthrough and error handling.
+
+## Documentation
+
+Example usage:
+
+```python
+user = {
+  'email': 'email@email.com',
+  'firstName': 'Foo',
+  'lastName': 'Bar',
+  'status': 'active',
+  'type': 'administrator',
+  'tenantId': 1,
+}
+
+payload = remap_dict(user,
+  const={'password': 'password'},
+  passthrough={
+    'email',
+    'status',
+    'type',
+  },
+  mapper={
+    'first_name': 'firstName',
+    'last_name': 'lastName',
+    'tenant_id': 'tenantId',
+  },
+  transformer={
+    'full_name': lambda x: f'{x["firstName"]} {x["lastName"]}'
+  }
+)
+
+>>> payload
+{
+  'status': 'active',
+  'email': 'email@email.com',
+  'type': 'administrator',
+  'password': 'password',
+  'first_name': 'Foo',
+  'last_name': 'Bar',
+  'tenant_id': 1,
+  'full_name': 'Foo Bar'
+}
+```
+
+
