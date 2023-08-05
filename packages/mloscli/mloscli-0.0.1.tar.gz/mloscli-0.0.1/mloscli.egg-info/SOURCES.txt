@@ -1,0 +1,12 @@
+setup.py
+mloscli/__init__.py
+mloscli/module_1.py
+mloscli/module_2.py
+mloscli/module_3.py
+mloscli/module_4.py
+mloscli/module_5.py
+mloscli/module_7.py
+mloscli.egg-info/PKG-INFO
+mloscli.egg-info/SOURCES.txt
+mloscli.egg-info/dependency_links.txt
+mloscli.egg-info/top_level.txt
