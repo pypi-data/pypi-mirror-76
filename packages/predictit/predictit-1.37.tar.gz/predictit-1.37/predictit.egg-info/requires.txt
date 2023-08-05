@@ -1,0 +1,14 @@
+numpy
+pandas
+eel
+matplotlib
+cufflinks
+plotly
+prettytable
+scipy
+seaborn
+statsmodels
+scikit_learn
+m2r
+sklearn_extensions
+pygments
