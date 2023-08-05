@@ -1,0 +1,8 @@
+README.md
+setup.py
+octostorelb.egg-info/PKG-INFO
+octostorelb.egg-info/SOURCES.txt
+octostorelb.egg-info/dependency_links.txt
+octostorelb.egg-info/not-zip-safe
+octostorelb.egg-info/requires.txt
+octostorelb.egg-info/top_level.txt
