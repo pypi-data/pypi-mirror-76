@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: vkbee
+Version: 3.9
+Summary: Simple async VK library faster than vk_api
+Home-page: https://github.com/asyncvk/vkbee
+Author-email: cryptoyamafox@gmail.com
+License: Mozilla Public License 2.0
+Project-URL: GitHub, https://github.com/asyncvk/vkbee
+Project-URL: Documentation, https://github.com/asyncvk/vkbee/blob/master/docs/docs.md
+Keywords: vk api framework python
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: aiohttp
+Requires-Dist: requests
+Requires-Dist: six
+Requires-Dist: sentry-sdk (==0.14.2)
+
+UNKNOWN
+
+
