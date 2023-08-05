@@ -1,0 +1,13 @@
+note/cli.py,sha256=bNzwSAIQDHbTbn4CRoKnP2OhxhU1TZIDlwjzQ9ReI8g,6652
+note/crud.py,sha256=xR9DIw_ZFuu7ywirgaij_d5VFTF6LtY7aMjErNFUfho,7348
+note/db_setup.py,sha256=eU-kDQLXWqoGtdMNv3GQlv1FJ0OzEsjQUEgidpoqpJ4,1526
+note/display.py,sha256=mNTANysjn0jRZycxYIDwkgtyYG4R_9R1WCVNzeMUSCo,2310
+note/handler.py,sha256=od7Qd7K9efgGNQ2NAPVSgjmqwTbObR1fs01pV60YSAE,14735
+note/helpers.py,sha256=EXnXEADTAvLZkzxrVnPjQ_i1i2t84l7MMBaAWgH3Ybo,1839
+note/main.py,sha256=9trXyxiZSlbEdGV8Mk02tG83i8Hm4Tdk6XrEi0P-DXI,1521
+note/reminder.py,sha256=9jPJ6boAN7HhdWxF-qhfqMTqIlr6Kd5vidx7v8M0C_w,835
+note_shell-1.5.0.dist-info/METADATA,sha256=qswrzLCoEzTC3sxkHkuzY3NDhCAh5EHf6Bq1nGKRYwU,2841
+note_shell-1.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+note_shell-1.5.0.dist-info/entry_points.txt,sha256=n570BF_Bv1etSUAdB8VMES53wW5lrbwJX6of_b_cyFI,41
+note_shell-1.5.0.dist-info/top_level.txt,sha256=OJ7WiH5JoxX3BvbCuTGx3PDXl8kUNxJPMuuYVVxml1g,5
+note_shell-1.5.0.dist-info/RECORD,,
