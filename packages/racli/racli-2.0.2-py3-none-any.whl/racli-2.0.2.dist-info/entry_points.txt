@@ -1,0 +1,3 @@
+[console_scripts]
+racli=racli.racli:cli
+
