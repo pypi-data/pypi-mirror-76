@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: llamalogs
+Version: 0.1.3
+Summary: Client library for Llama Logs; https://llamalogs.com
+Home-page: https://github.com/llamalogs/llamalogs-py
+Author: Llama Logs
+Author-email: andrew@llamalogs.com
+License: MIT
+Download-URL: https://github.com/llamalogs/llamalogs-py/archive/0.1.3.tar.gz
+Description: UNKNOWN
+Keywords: llama,logs,metrics,llamalogs
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
