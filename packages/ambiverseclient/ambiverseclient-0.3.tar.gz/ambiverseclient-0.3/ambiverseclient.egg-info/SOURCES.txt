@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+requirements.txt
+setup.py
+ambiverseclient/__init__.py
+ambiverseclient/clients.py
+ambiverseclient/models.py
+ambiverseclient.egg-info/PKG-INFO
+ambiverseclient.egg-info/SOURCES.txt
+ambiverseclient.egg-info/dependency_links.txt
+ambiverseclient.egg-info/requires.txt
+ambiverseclient.egg-info/top_level.txt
