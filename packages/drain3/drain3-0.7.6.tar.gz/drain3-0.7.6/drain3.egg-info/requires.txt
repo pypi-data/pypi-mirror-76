@@ -1,0 +1,7 @@
+jsonpickle==1.4.1
+
+[kafka]
+kafka==1.3.5
+
+[redis]
+redis==3.5.3
