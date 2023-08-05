@@ -1,0 +1,8 @@
+babelgrid/__init__.py,sha256=OV4wXwyf8m7HxuasyQnaYrZVBZnBN3nnZ6r7uXwBk3g,170
+babelgrid/babelgrid.py,sha256=c7I4FOlcVVodk6QfknP7g9hh748Z_GvPsiRAHeNUhzs,14508
+babelgrid/quadtree.py,sha256=nH91G81nIUu3XjQQFg8h1paYRhQfklDf8vUgE2Bbkzc,2235
+babelgrid/s2.py,sha256=44VJbeTCaCeMVbcsBGniKNX7JQCboppQv7rxmzFvjqk,4815
+babelgrid-0.1.4.dist-info/LICENSE.md,sha256=zesOqOLo2AH27TM_MAJXk5mH90s7mnAri7XGAsJvXF0,11574
+babelgrid-0.1.4.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+babelgrid-0.1.4.dist-info/METADATA,sha256=VUbfnepy34t1dTkTbkHKF1XS0noA9pi6E3Y3qN62BoE,10676
+babelgrid-0.1.4.dist-info/RECORD,,
