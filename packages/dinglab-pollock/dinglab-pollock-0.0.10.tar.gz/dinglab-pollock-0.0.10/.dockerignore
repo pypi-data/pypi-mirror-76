@@ -1,0 +1,15 @@
+models/
+data/
+modules/
+tests/data/
+tests/modules/
+tests/outputs/
+tests/
+examples/
+
+*.tfcache*
+notebooks/cache/
+*.egg-info
+*.egg-info/
+pollock.egg-info
+pollock.egg-info/
