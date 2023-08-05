@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mobase-stubs
+Version: 2.2.2.1
+Summary: PEP561 stub files for the mobase python API
+Home-page: https://github.com/ModOrganizer2/mo2-pystubs-generation
+Author: Holt59
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Requires-Python: ==3.8.*
+Requires-Dist: PyQt5-stubs (==5.14.2)
+
+UNKNOWN
+
+
