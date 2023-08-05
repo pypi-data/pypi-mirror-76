@@ -1,0 +1,13 @@
+requirements.txt
+setup.py
+django_exc/__init__.py
+django_exc/admin.py
+django_exc/models.py
+django_exc/utils.py
+django_exc.egg-info/PKG-INFO
+django_exc.egg-info/SOURCES.txt
+django_exc.egg-info/dependency_links.txt
+django_exc.egg-info/requires.txt
+django_exc.egg-info/top_level.txt
+django_exc/migrations/0001_initial.py
+django_exc/migrations/__init__.py
