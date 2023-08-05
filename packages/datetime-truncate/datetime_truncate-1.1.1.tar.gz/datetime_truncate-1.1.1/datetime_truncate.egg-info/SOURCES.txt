@@ -1,0 +1,9 @@
+MANIFEST.in
+README.rst
+setup.py
+datetime_truncate/__init__.py
+datetime_truncate/datetime_truncate.py
+datetime_truncate.egg-info/PKG-INFO
+datetime_truncate.egg-info/SOURCES.txt
+datetime_truncate.egg-info/dependency_links.txt
+datetime_truncate.egg-info/top_level.txt
