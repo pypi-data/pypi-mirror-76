@@ -1,0 +1,17 @@
+palace.cpython-38-x86_64-linux-gnu.so,sha256=JaFYxI5CsYWu5lRKUn7xU7AAtk6yGdIjWDjQXXD0WA8,8086664
+palace-0.2.1.dist-info/top_level.txt,sha256=TwkFWHA9f7k3OniX3vI9e34kqzLqKVBcCdyh3wQ_lzY,7
+palace-0.2.1.dist-info/RECORD,,
+palace-0.2.1.dist-info/METADATA,sha256=ja6YhgeXkitry1-tvd-n40B1S9i2HKNLatDU2h7CrIA,3998
+palace-0.2.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+palace-0.2.1.dist-info/WHEEL,sha256=KUZSkuQMxyAdWwk8_y9mjEqh6Qo2Th8Id2c_HBQK9jE,111
+palace.libs/libalure2-0b7f2149.so,sha256=Yy-8hXeg7CvKwAqQJwBO1RhaxJUxzkcU8RNoFOJEXWo,3623168
+palace.libs/libopus-abf1ee53.so.0.3.0,sha256=RCf3T3tGkFd1loY8G0jObXdrMACNhdq8B2gPM_La2VA,276936
+palace.libs/libvorbisfile-c5d289a9.so.3.3.5,sha256=cF8MJAsX__m1LthCLKTLzpCSPGkXpSHYfvaNY82YLgk,50880
+palace.libs/libvorbis-02341991.so.0.4.6,sha256=jjRrFQgjxb0vo5W26Tq8h9YvSL3qLnpjuUnTbGNomfA,195328
+palace.libs/libFLAC-b0904aee.so.8.3.0,sha256=MWZ1EuRO479yyqqULDV_3s0C3u6tJsrQhjrRe2ufxY4,315984
+palace.libs/libgsm-ed01cacd.so.1.0.12,sha256=oaGWSNjMiA9IJqEY-VQe5Yh5DEH-_JAHxYSYXg6hIGo,50496
+palace.libs/libopusfile-a90fc0fd.so.0.3.0,sha256=JbMLwNsIAqFvgjOkMZFngOJU6GDMZi_32ADkEhXRw7c,63112
+palace.libs/libvorbisenc-e32e3ab5.so.2.0.9,sha256=8ScFK7EAUvlG0MZpw9cowQU9Oa2NLw9I_PCrB-bxDb4,2957816
+palace.libs/libsndfile-7c9b3dac.so.1.0.25,sha256=bW7vhGNARoVHSXAx1LPvWkVkxAltWxTSg3pWv_IRhBo,408384
+palace.libs/libogg-24eaa32b.so.0.8.0,sha256=6sGBL0r_lhpTICYeMWXadQ0v31QXfFrnq_1eJtUc5Tw,30856
+palace.libs/libopenal-747a2dae.so.1.20.1,sha256=J1vq7w09I8hCbFk6M5ibes70vlhz5IBnbFyNuvTYoXc,19339512
