@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+projhelper/__init__.py
+projhelper/loadConf.py
+projhelper/log.py
+projhelper/osCmd.py
+projhelper/setenv.py
+projhelper/timeHelper.py
+projhelper.egg-info/PKG-INFO
+projhelper.egg-info/SOURCES.txt
+projhelper.egg-info/dependency_links.txt
+projhelper.egg-info/top_level.txt
+projhelper/conf/conf_dev.cfg
+projhelper/conf/logging.cfg

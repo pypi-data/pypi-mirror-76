@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: projhelper
+Version: 0.1.0
+Summary: project base helper, include logger 
+Home-page: UNKNOWN
+Author: oujh
+Author-email: ojhtyy@163.com
+License: MIT Licence
+Description: eds sdk for python
+Keywords: pip,datacanvas,helper,proj
+Platform: any
