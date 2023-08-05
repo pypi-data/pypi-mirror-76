@@ -1,0 +1,7 @@
+README.md
+setup.py
+evonik_dummy.egg-info/PKG-INFO
+evonik_dummy.egg-info/SOURCES.txt
+evonik_dummy.egg-info/dependency_links.txt
+evonik_dummy.egg-info/requires.txt
+evonik_dummy.egg-info/top_level.txt
