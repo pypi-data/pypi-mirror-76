@@ -1,0 +1,2 @@
+coint-paginatify==0.0.5
+sqlalchemy>=1.0.11
