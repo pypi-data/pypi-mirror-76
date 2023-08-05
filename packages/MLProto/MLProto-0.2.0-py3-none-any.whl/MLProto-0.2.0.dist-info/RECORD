@@ -1,0 +1,16 @@
+MLProto/Data.py,sha256=eCWSuMdZNITKN3YD0xv1rgfQ2P5qDYxA4KeAFCoT_NM,1582
+MLProto/Proto.py,sha256=bZfttpF9QckYy_l0hguVO8eNEBKECi3H0o7aeYyJAW0,6014
+MLProto/ProtoMake.py,sha256=XPaPA5L8N_h25VUkMO2cTbscLYmIUcOztbd-V42xF_g,3226
+MLProto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MLProto/Examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MLProto/Examples/stock.py,sha256=jGjumOpuWBsU7zs2V_3a_u_Yq2lDbBvBXF2w7iPLzaA,4245
+MLProto/MLProto/Data.py,sha256=xuKm9RB1cohabNgvV2srj69Vd7pgHjha6LabcWJIroo,1559
+MLProto/MLProto/Proto.py,sha256=4aAJ0Bnxv3pL-hPCM3If_ru3AP5lApTa-igXvric94I,6209
+MLProto/MLProto/ProtoMake.py,sha256=F_BmoKh2j8CNyRaEiVmuJVmMNYI1Z3K2fc7yvop4784,3219
+MLProto/MLProto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+MLProto-0.2.0.dist-info/LICENSE.txt,sha256=2K9YJlqZsv2ghvtp4TC_KWJfQwUXQVsrHGQzzl5EXcs,7446
+MLProto-0.2.0.dist-info/METADATA,sha256=p39xOmpQkkRU8jZfGOVCXZDFYDW4GYzHewkhD3o38S8,4755
+MLProto-0.2.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+MLProto-0.2.0.dist-info/entry_points.txt,sha256=rvi2JZ3FPqPt9Z8Zm4-u1GsWiB6ahFAt1rxxrE3Fm5g,62
+MLProto-0.2.0.dist-info/top_level.txt,sha256=mHcQHKoN3aeixbj3yvaPlOAFId5oLb9uIWnpAa3BTgc,8
+MLProto-0.2.0.dist-info/RECORD,,
