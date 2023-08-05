@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: dsalib
+Version: 0.0.33
+Summary: Data Structures and Algorithms In Python
+Home-page: https://github.com/rajeshberwal/dsalib
+Author: Rajesh Berwal
+Author-email: irajeshberwal@gmail.com
+License: UNKNOWN
+Description: <p align="center">
+            <h1 align="center">dsalib</h1>
+            <p align="center">A clean and minimal Data Structure And Algorithms Library Implemented in Python.</p>
+            <br><br><br>
+        </p>
+        
+        Currently in development process.
+        
+        ## Install
+        
+        If you have installed multiple versions of python then use:
+        
+        ```shell
+        pip3 install dsalib
+        ```
+        
+        and if you have only installed Python3 then use:
+        
+        ```shell
+        pip install dsalib
+        ```
+        
+        ## Usage
+        
+        ```python
+        from dsalib import sort
+        arr = [21, 2, 3, 31, 45]
+        sort.merge_sort(arr)
+        print(arr)
+        ```
+        
+        Output:
+        
+        ```shell
+        [2, 3, 21, 31, 45]
+        ```
+        
+        ## Become a contributor
+        
+        - Fork
+        - Create new branch, representing the changes
+        - Make changes, ensure it's working
+        - Push your own repo
+        - Create PR, describe your changes
+        - Thank You
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
