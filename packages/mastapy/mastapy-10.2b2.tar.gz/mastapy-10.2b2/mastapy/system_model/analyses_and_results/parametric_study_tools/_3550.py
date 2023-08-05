@@ -1,0 +1,68 @@
+﻿'''_3550.py
+
+KlingelnbergCycloPalloidConicalGearMeshParametricStudyTool
+'''
+
+
+from mastapy.system_model.connections_and_sockets.gears import _1898, _1899, _1900
+from mastapy._internal import constructor
+from mastapy._internal.cast_exception import CastException
+from mastapy.system_model.analyses_and_results.parametric_study_tools import _3514
+from mastapy._internal.python_net import python_net_import
+
+_KLINGELNBERG_CYCLO_PALLOID_CONICAL_GEAR_MESH_PARAMETRIC_STUDY_TOOL = python_net_import('SMT.MastaAPI.SystemModel.AnalysesAndResults.ParametricStudyTools', 'KlingelnbergCycloPalloidConicalGearMeshParametricStudyTool')
+
+
+__docformat__ = 'restructuredtext en'
+__all__ = ('KlingelnbergCycloPalloidConicalGearMeshParametricStudyTool',)
+
+
+class KlingelnbergCycloPalloidConicalGearMeshParametricStudyTool(_3514.ConicalGearMeshParametricStudyTool):
+    '''KlingelnbergCycloPalloidConicalGearMeshParametricStudyTool
+
+    This is a mastapy class.
+    '''
+
+    TYPE = _KLINGELNBERG_CYCLO_PALLOID_CONICAL_GEAR_MESH_PARAMETRIC_STUDY_TOOL
+
+    __hash__ = None
+
+    def __init__(self, instance_to_wrap: 'KlingelnbergCycloPalloidConicalGearMeshParametricStudyTool.TYPE'):
+        super().__init__(instance_to_wrap)
+        self._freeze()
+
+    @property
+    def connection_design(self) -> '_1898.KlingelnbergCycloPalloidConicalGearMesh':
+        '''KlingelnbergCycloPalloidConicalGearMesh: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        '''
+
+        return constructor.new(_1898.KlingelnbergCycloPalloidConicalGearMesh)(self.wrapped.ConnectionDesign) if self.wrapped.ConnectionDesign else None
+
+    @property
+    def connection_design_of_type_klingelnberg_cyclo_palloid_hypoid_gear_mesh(self) -> '_1899.KlingelnbergCycloPalloidHypoidGearMesh':
+        '''KlingelnbergCycloPalloidHypoidGearMesh: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        '''
+
+        if _1899.KlingelnbergCycloPalloidHypoidGearMesh.TYPE not in self.wrapped.ConnectionDesign.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to KlingelnbergCycloPalloidHypoidGearMesh. Expected: {}.'.format(self.wrapped.ConnectionDesign.__class__.__qualname__))
+
+        return constructor.new(_1899.KlingelnbergCycloPalloidHypoidGearMesh)(self.wrapped.ConnectionDesign) if self.wrapped.ConnectionDesign else None
+
+    @property
+    def connection_design_of_type_klingelnberg_cyclo_palloid_spiral_bevel_gear_mesh(self) -> '_1900.KlingelnbergCycloPalloidSpiralBevelGearMesh':
+        '''KlingelnbergCycloPalloidSpiralBevelGearMesh: 'ConnectionDesign' is the original name of this property.
+
+        Note:
+            This property is readonly.
+        '''
+
+        if _1900.KlingelnbergCycloPalloidSpiralBevelGearMesh.TYPE not in self.wrapped.ConnectionDesign.__class__.__mro__:
+            raise CastException('Failed to cast connection_design to KlingelnbergCycloPalloidSpiralBevelGearMesh. Expected: {}.'.format(self.wrapped.ConnectionDesign.__class__.__qualname__))
+
+        return constructor.new(_1900.KlingelnbergCycloPalloidSpiralBevelGearMesh)(self.wrapped.ConnectionDesign) if self.wrapped.ConnectionDesign else None
