@@ -1,0 +1,7 @@
+README.md
+setup.py
+remapdict/__init__.py
+remapdict.egg-info/PKG-INFO
+remapdict.egg-info/SOURCES.txt
+remapdict.egg-info/dependency_links.txt
+remapdict.egg-info/top_level.txt
