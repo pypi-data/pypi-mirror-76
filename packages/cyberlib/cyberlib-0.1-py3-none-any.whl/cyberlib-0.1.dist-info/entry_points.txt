@@ -1,0 +1,3 @@
+[console_scripts]
+cy = cy.cli.cli:main
+
