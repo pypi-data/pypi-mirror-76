@@ -1,0 +1,3 @@
+[console_scripts]
+gatherup = gatherup.__main__:gatherup
+
