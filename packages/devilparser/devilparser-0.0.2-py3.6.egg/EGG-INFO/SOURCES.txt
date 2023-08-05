@@ -1,0 +1,9 @@
+README.md
+setup.py
+devilparser/__init__.py
+devilparser/rcfile.py
+devilparser.egg-info/PKG-INFO
+devilparser.egg-info/SOURCES.txt
+devilparser.egg-info/dependency_links.txt
+devilparser.egg-info/top_level.txt
+scripts/devilparser-cat.py

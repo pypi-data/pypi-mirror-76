@@ -1,0 +1,21 @@
+Metadata-Version: 1.0
+Name: devilparser
+Version: 0.0.2
+Summary: Load RC type files with the ability to use shell commands like lpass to get passwords
+Home-page: UNKNOWN
+Author: Drew Stinnett
+Author-email: drew@drewlink.com
+License: BSD
+Description-Content-Type: UNKNOWN
+Description: # Description
+        
+        Quick and easy way to secury import data from files in command line applications.
+        
+        # Goals
+        
+        * Easy and minimal to import
+        * Support multiple password backends (Plain text, lpass, vault...)
+        * Reusable
+        
+Keywords: lpass secuirty config
+Platform: UNKNOWN
