@@ -1,0 +1,7 @@
+README.md
+setup.py
+sss_beneficiarios_hospitales.egg-info/PKG-INFO
+sss_beneficiarios_hospitales.egg-info/SOURCES.txt
+sss_beneficiarios_hospitales.egg-info/dependency_links.txt
+sss_beneficiarios_hospitales.egg-info/requires.txt
+sss_beneficiarios_hospitales.egg-info/top_level.txt
