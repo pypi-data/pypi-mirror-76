@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: rf-event-listener
+Version: 0.0.4
+Summary: RedForester Event Listener
+Home-page: https://github.com/RedForester/python_rf_event_listener
+Author: Red Forester
+Author-email: tech@redforester.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic (~=1.5)
+Requires-Dist: rf-api-client (>=0.0)
+Requires-Dist: yarl (~=1.4)
+Requires-Dist: aiohttp (~=3.6)
+Provides-Extra: dev
+Requires-Dist: pytest (~=5.4) ; extra == 'dev'
+Requires-Dist: pytest-asyncio (~=0.12) ; extra == 'dev'
+Requires-Dist: flake8 (~=3.8) ; extra == 'dev'
+
+# RF Event Listener
+
+Extendable event listener for RedForester API.
+
+[PyPI package](https://pypi.org/project/rf-event-listener/)
+
+## Development
+
+Install dev requirements:
+
+```bash
+pip install -e .[dev]
+```
+
+Lint
+```
+flake8 --max-line-length=120 examples rf_event_listener tests
+```
+
+Run tests
+```
+pytest
+```
+
+
