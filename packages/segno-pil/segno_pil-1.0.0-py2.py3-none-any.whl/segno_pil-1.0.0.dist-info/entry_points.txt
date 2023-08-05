@@ -1,0 +1,4 @@
+
+    [segno.plugin.converter]
+    pil = segno_pil:write_pil
+    
