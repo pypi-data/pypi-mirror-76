@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+RubiksBlindfolded/__init__.py
+RubiksBlindfolded/algorithm.py
+RubiksBlindfolded/corner.py
+RubiksBlindfolded/edge.py
+RubiksBlindfolded.egg-info/PKG-INFO
+RubiksBlindfolded.egg-info/SOURCES.txt
+RubiksBlindfolded.egg-info/dependency_links.txt
+RubiksBlindfolded.egg-info/top_level.txt
