@@ -1,0 +1,8 @@
+openstackclient
+PyYaml
+
+[remote_shell]
+plumbum
+
+[tripleo]
+python-tripleoclient
