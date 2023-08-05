@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: bedqr
+Version: 0.3.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Liang Chen
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: BED,bed file,UCSC BED format,Bioinformatics
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.7

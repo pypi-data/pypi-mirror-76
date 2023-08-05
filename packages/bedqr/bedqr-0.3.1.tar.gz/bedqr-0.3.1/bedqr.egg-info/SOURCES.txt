@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+bedqr/__init__.py
+bedqr/base.py
+bedqr/format.py
+bedqr/reader.py
+bedqr.egg-info/PKG-INFO
+bedqr.egg-info/SOURCES.txt
+bedqr.egg-info/dependency_links.txt
+bedqr.egg-info/top_level.txt
