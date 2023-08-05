@@ -1,0 +1,9 @@
+bvk/__init__.py,sha256=V-s9O4xgo1rrnc3mdGFxeth8MBAgiVNaH7IgGB-wGpg,1829
+bvk/items.py,sha256=YqPwwqbzrPs4PwWyMHeHhw-xC-sGlZuAoO40lyxsaRQ,647
+bvk/settings.py,sha256=5qRpieyVNeO86g6o7lx8MFEQ0htQnwvX8KGMLUlHF10,3263
+bvk/spiders/__init__.py,sha256=ULwecZkx3_NTphkz7y_qiazBeUoHFnCCWnKSjoDCZj0,161
+bvk/spiders/water_consumption.py,sha256=qLrs9NKbfa0MVUgJqfc72OSz9wD79kMkOzuDuNJo6Xc,4971
+python_bvk-0.1.0.dist-info/METADATA,sha256=iWbBbysjQ5fRQXRvqnKMGGLQgIVlC7l_eyW9tzXuqaY,1551
+python_bvk-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_bvk-0.1.0.dist-info/top_level.txt,sha256=FSSB6FtxNw5W5viPOabuUpWeQHn51kSvMpZ6ftHtMOo,4
+python_bvk-0.1.0.dist-info/RECORD,,
