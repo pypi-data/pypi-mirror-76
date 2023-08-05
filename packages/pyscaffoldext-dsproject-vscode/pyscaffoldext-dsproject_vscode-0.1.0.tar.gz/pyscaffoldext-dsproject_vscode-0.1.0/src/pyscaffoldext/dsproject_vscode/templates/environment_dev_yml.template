@@ -1,0 +1,59 @@
+name: ${project}
+channels:
+  - judowill
+  - anaconda
+  - conda-forge
+  - defaults
+  - pytorch
+  - plotly
+dependencies:
+  - python>=3.7
+  - pip
+  - numpy
+  - scipy
+  - pandas
+  - bs4
+  - dash
+  - dash-core-components
+  - dask
+  - gensim
+  - ipython
+  - tqdm
+  - click
+  - matplotlib
+  - plotly
+  - seaborn
+  - altair
+  - statsmodels
+  - scikit-learn
+  - pytorch
+  - pip:
+     # add here only pip-packages that are not available in conda/conda-forge! E.g.:
+    - autopep8
+    - bandit
+    - black
+    - cython
+    - flake8
+    - ipython-autotime
+    - mypy
+    - pipx
+    - pre-commit
+    - pycodestyle
+    - pydocstyle
+    - pyenchant
+    - pyflakes
+    - pylint
+    - pytest
+    - virtualenv
+    - yapf
+
+  # for development only (could also be kept in a separate environment file)
+  - jupyterlab
+  - pytest
+  - pytest-cov
+  - tox
+  - pre_commit
+  - nbdime
+  - nbstripout
+  - sphinx
+  - recommonmark
