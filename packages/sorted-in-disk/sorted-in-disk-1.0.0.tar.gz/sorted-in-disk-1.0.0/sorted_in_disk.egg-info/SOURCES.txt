@@ -1,0 +1,9 @@
+README.md
+setup.py
+sorted_in_disk/__init__.py
+sorted_in_disk/sorted_in_disk.py
+sorted_in_disk.egg-info/PKG-INFO
+sorted_in_disk.egg-info/SOURCES.txt
+sorted_in_disk.egg-info/dependency_links.txt
+sorted_in_disk.egg-info/requires.txt
+sorted_in_disk.egg-info/top_level.txt
