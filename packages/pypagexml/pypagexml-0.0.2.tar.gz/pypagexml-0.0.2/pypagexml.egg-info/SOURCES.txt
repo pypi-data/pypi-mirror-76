@@ -1,0 +1,16 @@
+README.md
+requirements.txt
+setup.py
+pypagexml/__init__.py
+pypagexml/core.py
+pypagexml.egg-info/PKG-INFO
+pypagexml.egg-info/SOURCES.txt
+pypagexml.egg-info/dependency_links.txt
+pypagexml.egg-info/requires.txt
+pypagexml.egg-info/top_level.txt
+pypagexml/ds/__init__.py
+pypagexml/ds/gdscommon.py
+pypagexml/ds/generated.py
+pypagexml/ds/parse.py
+pypagexml/ds/subclasses.py
+pypagexml/ds/util.py
