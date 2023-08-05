@@ -1,0 +1,14 @@
+fastframework/__init__.py,sha256=iE6sUK_GkDEv8Z_5Se86m7_EVy8FXO-Izq2BTljR9HQ,227
+fastframework/__main__.py,sha256=10e4odbfbV5v2mE4yPmW4bfg99_x8vp7qaFeZPAte40,40
+fastframework/app.py,sha256=c-zx-wYrE67x62St9q-oPZffFKKf4Hj-QyUuyhK_5_U,1160
+fastframework/defaults.py,sha256=pPsgirdpYQvMiCHpFYTY6kJP1w_Zu_Yndk1aCgQPMp0,115
+fastframework/models.py,sha256=VkX9B5I0GQfoGfDHxW39rx1VUuEbYMoAxklCF3y6l44,2005
+fastframework/modules.py,sha256=gDusGuwjhPTYjPpXkwERzjXJTjWCqEZLzU-HCabfsVU,2301
+fastframework/config/__init__.py,sha256=lIftHxiqwNj35k3rDyu5xGc_LvemQp5f0YKwJz8Lf6g,62
+fastframework/config/loader.py,sha256=9_2xnn7MAcFxzNNOmhFWrOcafC1xfQ8wgmyAIsixplg,834
+fastframework/config/validator.py,sha256=CMeeeRZT7Plb6dkKmhmCc4_cGquCTMb88F3StERIKAY,519
+fastframework-0.3.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+fastframework-0.3.dist-info/METADATA,sha256=yw9oW6FmEduZaykpdRivTgVKYomFsxXURfOHvqG8EHs,445
+fastframework-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fastframework-0.3.dist-info/top_level.txt,sha256=TUd3jbbDr-RwuqoEesMFNMP_2yjGaMIeSRq8xsj4Crw,14
+fastframework-0.3.dist-info/RECORD,,
