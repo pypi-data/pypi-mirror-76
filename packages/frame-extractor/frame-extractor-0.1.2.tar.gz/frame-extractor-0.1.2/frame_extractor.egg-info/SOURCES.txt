@@ -1,0 +1,10 @@
+README.md
+setup.py
+frame_extractor.egg-info/PKG-INFO
+frame_extractor.egg-info/SOURCES.txt
+frame_extractor.egg-info/dependency_links.txt
+frame_extractor.egg-info/entry_points.txt
+frame_extractor.egg-info/requires.txt
+frame_extractor.egg-info/top_level.txt
+framextract/__init__.py
+framextract/__main__.py

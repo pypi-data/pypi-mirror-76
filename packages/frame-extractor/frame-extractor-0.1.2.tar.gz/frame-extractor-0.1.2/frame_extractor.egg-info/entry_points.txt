@@ -1,0 +1,3 @@
+[console_scripts]
+framextract = framextract.__main__:main
+
