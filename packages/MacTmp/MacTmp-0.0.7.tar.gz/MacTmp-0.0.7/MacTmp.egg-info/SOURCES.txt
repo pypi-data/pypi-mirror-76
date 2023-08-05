@@ -1,0 +1,7 @@
+README.md
+setup.py
+MacTmp/__init__.py
+MacTmp.egg-info/PKG-INFO
+MacTmp.egg-info/SOURCES.txt
+MacTmp.egg-info/dependency_links.txt
+MacTmp.egg-info/top_level.txt
