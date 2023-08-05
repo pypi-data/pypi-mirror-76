@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: MacTmp
+Version: 0.0.2
+Summary: A package used to get temperature on Mac OS Machines. 
+Home-page: UNKNOWN
+Author: Kethan
+Author-email: kethan@vegunta.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
+
+# MacTmp
+
+This is a python module used to getting temperatures of the cpu and gpu in Mac OS. If a hardware configurate does not work, make sure to open an issue. 
+
+Remember run as admin!
+
+Pypi page here: https://pypi.org/project/MacTmp/
+
+Github Page Here: https://github.com/kethan1/MacTmp/
+
+
