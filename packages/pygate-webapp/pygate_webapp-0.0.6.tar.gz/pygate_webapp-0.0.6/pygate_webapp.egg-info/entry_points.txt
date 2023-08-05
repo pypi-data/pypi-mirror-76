@@ -1,0 +1,3 @@
+[console_scripts]
+pygate-webapp = pygate_webapp.cli:run
+
