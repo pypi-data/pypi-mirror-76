@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+lonny_sql/__init__.py
+lonny_sql/build.py
+lonny_sql/config.py
+lonny_sql.egg-info/PKG-INFO
+lonny_sql.egg-info/SOURCES.txt
+lonny_sql.egg-info/dependency_links.txt
+lonny_sql.egg-info/top_level.txt
