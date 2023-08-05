@@ -1,0 +1,11 @@
+bluff/__init__.py,sha256=DJe99-O_OAKKDWFmLUD-gLgrwFs6oM_bBSOQrvBqpZ4,21074
+bluff/chinese/__init__.py,sha256=IZrB_fkH5g1D-fxjg1VIy_WvQf8J0yANS-LUetyFdv4,3603
+bluff/holdem/__init__.py,sha256=f-g5C338nxePOkHGsZtCzxzNng4lju8Ehaq3U3BXALg,152
+bluff/holdem/equity.py,sha256=k6AgIoV7acbwSEljTmS6CbkfbsHLj3wzI1lc-C94JRk,10157
+bluff/holdem/data/equity_model.pkl,sha256=AC39Jc0armipezh6ONSJ9v-ykbm2PGBqDUAiTUka338,3037113
+bluff/holdem/data/sk_hand_rankings.csv,sha256=RmKwcotJyXbbeTO5fJ98cWBCrKVR9DI61bNi1xWDPl8,5119
+bluff-1.0.2.dist-info/LICENSE,sha256=1amkIXbcUeVKbiZSh0IdhkQEhh2M_5cXQ5kLzNykA-M,1091
+bluff-1.0.2.dist-info/METADATA,sha256=6gZ_nDwDhnV84Sb1tT1NtXvsQLxOWyXqIThaaTsnBGw,2557
+bluff-1.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+bluff-1.0.2.dist-info/top_level.txt,sha256=JubcsTKuXjX_5XqgkzguruPgIUPWld8Q6rMDIU2pb0w,6
+bluff-1.0.2.dist-info/RECORD,,
