@@ -1,0 +1,17 @@
+aiohttp<4.0,>=3.6
+yarl<2.0,>=1.4
+
+[dev]
+black
+cryptography
+flake8
+isort
+mypy
+pytest
+pytest-aiohttp
+pytest-asyncio
+pytest-cov
+
+[docs]
+sphinx
+sphinx-autodoc-typehints
