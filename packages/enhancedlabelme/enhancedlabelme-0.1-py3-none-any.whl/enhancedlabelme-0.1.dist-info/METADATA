@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: enhancedlabelme
+Version: 0.1
+Summary: Image Polygonal Annotation with Python
+Home-page: https://github.com/wkentaro/labelme
+Author: Kentaro Wada
+Author-email: www.kentaro.wada@gmail.com
+License: GPLv3
+Keywords: Image Annotation,Machine Learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+Requires-Dist: imgviz (>=0.10.6)
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: Pillow (>=2.8.0)
+Requires-Dist: PyYAML
+Requires-Dist: qtpy
+Requires-Dist: termcolor
+
+Modified LabelMe 4.1.1
+
+v0.1 (200805)
+1. Added time keys to json data'
+2. Removed double click function when creating polygon'
+v0.2 (200806)
+3. Dump jsons in utf-8 encoding'
+4. Automatically check "Save Automatically"
+
+
