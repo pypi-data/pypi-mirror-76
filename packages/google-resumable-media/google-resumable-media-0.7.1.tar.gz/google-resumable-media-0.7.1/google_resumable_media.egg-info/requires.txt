@@ -1,0 +1,10 @@
+six
+
+[:python_version == "2.7"]
+crcmod>=1.7
+
+[:python_version >= "3.5"]
+google-crc32c<0.2dev,>=0.1.0
+
+[requests]
+requests<3.0.0dev,>=2.18.0
