@@ -1,0 +1,13 @@
+worklog/__init__.py,sha256=6mWYINAu7ZGbQg4y7x8a2WpC9z2r4x192TqEhP56V5U,3273
+worklog/__main__.py,sha256=zyzNSWD05WnSPDjBOdLcBXFyGMF1OY08VIZSzAuyVlY,62
+worklog/config.cfg,sha256=mU_VMDpu-8o2pFm57LZ6aZPa1ly8HLjJSsfW1amrtnQ,71
+worklog/log.py,sha256=jcr2TmwBth_gjx1fKBAT9RGpQLdB6hLmks5xsO2vK5g,12552
+worklog/utils.py,sha256=qMo5fNux3FuMhFxK34lOhPf3dszqeBLmihUPtLPRcEA,7988
+worklog/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+worklog/tests/test_utils.py,sha256=9THSR9abCShYfpMTQ92_ZMigLGWmrC6jXdB8FwMudi8,8168
+dcs_worklog-0.0.12.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dcs_worklog-0.0.12.dist-info/METADATA,sha256=8deHIzTbTueoesOEa0veqrT_MiyrJ2tQhAv7wOdSqCY,3815
+dcs_worklog-0.0.12.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dcs_worklog-0.0.12.dist-info/entry_points.txt,sha256=nkgeAC1d_a9RMaABO4fyjqtlmQ0p2hWo3V1PuGOMi6s,36
+dcs_worklog-0.0.12.dist-info/top_level.txt,sha256=cVCQNJEQcxfZkKY1Ssyk2aAF-USixqhBDSsOIjOGb3s,8
+dcs_worklog-0.0.12.dist-info/RECORD,,
