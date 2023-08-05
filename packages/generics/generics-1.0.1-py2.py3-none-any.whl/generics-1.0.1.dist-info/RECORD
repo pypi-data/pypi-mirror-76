@@ -1,0 +1,15 @@
+_generics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+_generics/defended.py,sha256=RlYOAyJMEY4mWPJBF1KDGUTNXSUb-AMAEOb35cEqSdk,136
+_generics/delegated.py,sha256=oEW0qtnQjCqTio3AqUS4w_5TBZ5DqdEH_anWrEw6MH0,114
+_generics/entities/__init__.py,sha256=Ulb_VXrUB8IBaN4UFvd9_GOdFo43Y21NVO1gp4HaIJI,746
+_generics/entities/attrs.py,sha256=zrp_BBclOOOOwfsGqbz0LqprOFxjIdZQrJ6vElfjDX0,484
+_generics/entities/dataclasses.py,sha256=JPcYVad8A461EMzqCIGtlRS5sPMgHB0UMBJVvU0TNxg,468
+_generics/entities/pydantic.py,sha256=d1Sa51eHX3bAnGPzW8Wv3jXgL4t4UO4r9wX5HFjd_lo,463
+_generics/exceptions.py,sha256=b2o0Z-rZynDf1fVCc491Uue9_MVeB2B7CCGbP3JENVM,277
+_generics/private.py,sha256=l9CHKA7-NO_n4JolSweP36iqeVYyDo_8Baf27TljseE,4679
+generics/__init__.py,sha256=nLLIJ3QZCFL-RiBiLYYlr3c-ATBjxBvWBMUmSBIqi7k,242
+generics/exceptions.py,sha256=L5Nip5VDHISd0zAojhpz6Pto_k3XtYFLggxnJFjX72c,286
+generics-1.0.1.dist-info/LICENSE,sha256=AUt1ESQ0lzGxdHtNhoQ0yn6pBG_wxYLnCE76YbU-TS4,1279
+generics-1.0.1.dist-info/WHEEL,sha256=OL-EN-39HbzBiGlqqMt_l4r9-zX-74hoU51DNxxDqP4,88
+generics-1.0.1.dist-info/METADATA,sha256=I8199JxcpJB8uhAZ3gPgn0RPbrP6Fe7hBAZ-tTFjv6E,3231
+generics-1.0.1.dist-info/RECORD,,
