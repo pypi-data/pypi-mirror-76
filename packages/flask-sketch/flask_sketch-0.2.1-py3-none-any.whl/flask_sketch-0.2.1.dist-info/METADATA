@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: flask-sketch
+Version: 0.2.1
+Summary: A CLI for autogenerate folder structure for Flask applications
+License: MIT
+Author: Eric Souza
+Author-email: ericsouza0801@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pyfiglet (>=0.8.post1,<0.9)
+Requires-Dist: pyinquirer (>=1.0.3,<2.0.0)
