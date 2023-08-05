@@ -1,0 +1,8 @@
+README.md
+setup.py
+mangi_script/__init__.py
+mangi_script/mangi_script.py
+mangi_script.egg-info/PKG-INFO
+mangi_script.egg-info/SOURCES.txt
+mangi_script.egg-info/dependency_links.txt
+mangi_script.egg-info/top_level.txt
