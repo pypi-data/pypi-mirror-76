@@ -1,0 +1,2 @@
+global-include *.py *.png *.pxe *.wav
+recursive-include br *.png *.pxe *.wav
