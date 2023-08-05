@@ -1,0 +1,12 @@
+penguins/__init__.py,sha256=8D5a8oKgqd6WA1RUkiKCn4l_PVemtyuckxQut0vDHXM,20
+penguins/dataset.py,sha256=xnAAfnIk-ybOroqIvlYFp64sbd0mpQqn5MMD2dxlJ7M,30936
+penguins/main.py,sha256=Th1IsWR8sSf9CAtvsSJPaUFA62jkF1LbxwfVc1O6mU8,6963
+penguins/peaklists.py,sha256=RJCQT91OeXjt3laC09ufmRz9KgPYZHPF0f0I4NXMhMs,4245
+penguins/pgplot.py,sha256=NBehhpl5kPsFagl4m9BRXe36Up8tDBOe5onUSmBoNxA,24402
+penguins/type_aliases.py,sha256=2I6d90B-rrlSTC4gfTRK0bCN9otd3grCAzKj5Q4lhJ8,239
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=hP9mm5cy3sVhrKTmPZ-QZbfH9wZ7Xw5VwuxgSOT-f80,1978
+penguins-0.1.dist-info/METADATA,sha256=y2ajCatLptIsZnEooCZWWhzFLCeEgHbULcFJa0gE05w,1925
+penguins-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+penguins-0.1.dist-info/top_level.txt,sha256=G4W0nLSBW408pJQCH-q9KIQALZOXlqmf4F5edAXjltk,15
+penguins-0.1.dist-info/RECORD,,
