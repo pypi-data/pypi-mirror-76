@@ -1,0 +1,12 @@
+clockifytool/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+clockifytool/api.py,sha256=oxAD8KoI7uQgKz-phPUtUsMmTbaEFz90ICMx1ZpQSdw,11220
+clockifytool/app.py,sha256=a5mmuSiVYAws8dFqw4o9RJm2gAiOxSlqBxrOav6VyfI,1064
+clockifytool/cli.py,sha256=lCImEG3YuwlswEUVa3hLMHZKktzngd3dJ-usnRDMa_Q,6597
+clockifytool/commands.py,sha256=KTwP8eiTpkitzUeaI2UDJSbzFj7_zNizdFzM6Fz44vo,6938
+clockifytool/helpers.py,sha256=-zLKkQO1HnNoJ_wA8fB_lmznxIGrsVrjeUdlIdaqgWg,10887
+clockifytool-0.0.1.data/scripts/cft,sha256=SYfG9lOE8YMpkuvPp4MviBsm2WSmfMmEF65lPUeAHY0,1053
+clockifytool-0.0.1.dist-info/LICENSE,sha256=9ZxpwHMtAJzlvyynJDRfEAm0EXevm3BLI7jg5QfSfhs,1072
+clockifytool-0.0.1.dist-info/METADATA,sha256=9toxn2tZh2icKZkiNLhosEFpBRHdICKj6VpzQB3k7us,13557
+clockifytool-0.0.1.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+clockifytool-0.0.1.dist-info/top_level.txt,sha256=xcKNkI2teQ0bCs-DaHtP_2c9PGS_KNbZgjipsPXYkQI,13
+clockifytool-0.0.1.dist-info/RECORD,,
