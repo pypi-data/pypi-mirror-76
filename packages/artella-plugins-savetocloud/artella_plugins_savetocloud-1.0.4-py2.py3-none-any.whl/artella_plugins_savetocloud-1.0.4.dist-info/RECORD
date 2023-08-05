@@ -1,0 +1,14 @@
+artella/__init__.py,sha256=b4ew1taJzo-7bGrcdWLDwxbxq1uuH8J5I3dDk5c-oaY,233
+artella/plugins/__init__.py,sha256=9Cyq98s1475R3DMojzS4EB_tdQQUW74bUkWi-G-7qwE,241
+artella/plugins/savetocloud/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+artella/plugins/savetocloud/__version__.py,sha256=i7M7tDR7APxu7P-_f_mxdIBlkRocHOUoWvTgscTDgag,409
+artella/plugins/savetocloud/_version.py,sha256=y_6BA39LMB5wf_dUhSckLvKRQpkVKXhkYvEqUBQkW4M,497
+artella/plugins/savetocloud/artella-plugin.json,sha256=YjwmOXx7_SfH59OktNxwqF2lAGJu_Qo6r-MfcwCYUZQ,399
+artella/plugins/savetocloud/savetocloud.py,sha256=Sys--h4QVyGSiQPReFWy6ZFn8esxgu3z_LqgUUBLnW4,4333
+artella/plugins/savetocloud/resources/savetocloud.png,sha256=a9KZcZHQbtq480BWPiiyW4VRV3L1UuFJYW3Rbv4WzJA,3336
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_plugin.py,sha256=NoGuCGMXPGdBhe4oZlkqLNTeDOPIboHFXcz2x0O8XsQ,168
+artella_plugins_savetocloud-1.0.4.dist-info/METADATA,sha256=XbRlvTolDoas5ZBq1PFekICJ08R8vDL5X3tmqk4WMWM,1385
+artella_plugins_savetocloud-1.0.4.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+artella_plugins_savetocloud-1.0.4.dist-info/top_level.txt,sha256=AbqY0GnW-7zeK-j_jK_IkNrYTU41RoI77xGK-1ucYw0,14
+artella_plugins_savetocloud-1.0.4.dist-info/RECORD,,
