@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: getnews
+Version: 0.0.2
+Summary: This is code with Rudra package
+Home-page: https://github.com/rudragthite/get_news
+Author: iNeuron
+Author-email: rudragthite@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: typing
+Requires-Dist: os
+Requires-Dist: urllib
+Requires-Dist: bs4
+Requires-Dist: time
+Requires-Dist: pandas
+Requires-Dist: socket
+
+This is a simple example package. You can use
+
+
