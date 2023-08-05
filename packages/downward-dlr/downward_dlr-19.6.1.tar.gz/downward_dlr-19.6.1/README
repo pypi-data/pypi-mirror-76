@@ -1,0 +1,8 @@
+Downward_DLR is a fork of the Fast-Downward Planning System developed by Malte Helmert et al.
+The original source, and the documentation are available at http://www.fast-downward.org/
+
+This version is the planner release 19.06
+
+**IMPORTANT:** To install this package, do not use pip install, but **pip install --no-compile** instead!  
+**Requirements:**  
+CMAKE
