@@ -1,0 +1,11 @@
+taskipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+taskipy/cli.py,sha256=1p81OZ1Qx9p3jQj5ukDnVlHYvEm5l8FGDWjSicunGkM,842
+taskipy/exceptions.py,sha256=LdCU4wZQ8BzR7r1LKPMEryPDmIsjZasPbXd-r2ACPPY,1237
+taskipy/pyproject.py,sha256=N2OGIXsVesFBceB7VrLKwI0LE9fEAn_b8n_6rDyW2k0,1200
+taskipy/task.py,sha256=p91dMM1Ccm3POnz7UxGvSY0pIbWFzn91cyidxNTqlUI,1690
+taskipy/task_runner.py,sha256=vRVw1iTKS0cLj7T32taXtDyi_CGDr3YzL6RPIlggx2Y,1848
+taskipy-1.3.0.dist-info/entry_points.txt,sha256=FEpsSdW9ruHniyv5bHNUzi8hYaYgzmxU6qUmlF6QJZ8,41
+taskipy-1.3.0.dist-info/LICENSE,sha256=4aIfdOofqr1ABucXdEz95WE7CrYRmzE0E3P4s7ubTQ4,1066
+taskipy-1.3.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+taskipy-1.3.0.dist-info/METADATA,sha256=pgjoJUD6--2BMVx-3NGIi4EUeck01q7UdwTOlIYAiCI,7464
+taskipy-1.3.0.dist-info/RECORD,,
