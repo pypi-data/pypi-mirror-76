@@ -1,0 +1,140 @@
+<!doctype html>
+<html style="height: 100%;" lang="en">
+<title>App-Chen Weblet Editor</title>
+<meta charset="utf-8"/>
+<style>
+    button, input[type="checkbox"] {
+        font-weight: bold;
+        font-size: large;
+    }
+</style>
+
+<body style="height: 100%;">
+<div style="height: 100%; display: flex; flex-direction: row;">
+    <div style="height: 100%; display: flex; flex-direction: column;">
+        <form name="displayToggleForm">
+            <label><input name="showAll" type="checkbox">Show All</label>
+        </form>
+        <grid-chen class="weblets" style="height: 100%;"></grid-chen>
+    </div>
+    <div style="flex: 1;">
+        <form name="saveForm">
+            <button title="Save Weblet" name="save">Save 🐾 my Edits</button>
+            <label>named as <input name="key"></label>
+        </form>
+        <div id="code" style="height: 100%;"></div>
+    </div>
+</div>
+</body>
+
+<script type="module">
+
+    import "/gridchen/webcomponent.js";
+    import {createView} from "/gridchen/matrixview.js"
+    import * as io from "/appchen/web_client/io.js";
+
+    let editor = void 0;
+    const styleSheet = document.createElement('style');
+    styleSheet.textContent = '@import url("/appchen/web_client/codemirror/lib/codemirror.css") screen; .CodeMirror {height: 100%;}';
+    document.body.appendChild(styleSheet);
+    let modules = ["lib/codemirror.js", "addon/edit/matchbrackets.js", "mode/javascript/javascript.js"];
+    modules = modules.map(module => '/appchen/web_client/codemirror/' + module);
+    io.loadLegacyScript(modules)
+        .then(() => {
+            editor = window['CodeMirror'](document.getElementById('code'), {
+                lineNumbers: true,
+                matchBrackets: true
+            });
+            if (window.location.hash.substr(1)) {
+                window.onhashchange(void 0);
+            }
+        });
+
+    const toggleForm = document.forms['displayToggleForm'];
+    toggleForm.onsubmit = (event) => event.preventDefault();
+    toggleForm.showAll.onchange = displayModel;
+
+    const saveForm = document.forms['saveForm'];
+    saveForm.onsubmit = (event) => event.preventDefault();
+
+    saveForm.save.onclick = function () {
+        const key = saveForm.key.value.trim();
+        if (key === '') {
+            alert('Save as what? 🤡');
+            return;
+        }
+        fetch('/appchen/weblet/' + key, {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json; charset=utf-8'},
+            body: JSON.stringify({code: editor.getValue()})
+        })
+            .then(io.responseToJSON)
+            .then((response) => {
+                console.log(JSON.stringify(response));
+            })
+            .catch(io.handleError);
+    };
+
+    /**
+     * @param {HashChangeEvent} evt
+     */
+    window.onhashchange = function (evt) {
+        void evt;
+        io.fetchJSON('/appchen/weblet/' + window.location.hash.substr(1))
+            .then(weblet => {
+                saveForm.key.value = weblet.name;
+                editor.setValue(weblet.code);
+            });
+    };
+
+    function displayNames() {
+        const schema = {title: 'Weblet Names', type: 'array', items: model.schema.items.properties.name};
+        const names = Array.from(new Set(model.weblets.map(weblet => weblet['name'])));
+        document.querySelector('.weblets').resetFromView(createView(schema, names));
+    }
+
+    function displayDetails() {
+        document.querySelector('.weblets').resetFromView(createView(model.schema, model.weblets));
+    }
+
+    function displayModel() {
+        if (toggleForm.showAll.checked) {
+            displayDetails();
+        } else {
+            displayNames();
+        }
+    }
+
+    class Model {
+        constructor() {
+            /** @type{object[]} */
+            this.weblets = [];
+            this.schema = void 0;
+        }
+
+        addWeblets(weblets) {
+            weblets.forEach(weblet => {
+                weblet.name = `[${weblet.name}](#${weblet.name})`;
+                this.weblets.unshift(weblet);
+            });
+        }
+    }
+
+    const model = new Model();
+    const stream = io.stream();
+    stream.subscribe({
+        'weblets_state': (response) => {
+            model.schema = response.schema;
+            model.addWeblets(response.weblets);
+            displayModel();
+        }
+        ,
+        'weblet_upsert': (event) => {
+            model.addWeblets([event]);
+            displayModel();
+        }
+    });
+
+
+</script>
+</html>

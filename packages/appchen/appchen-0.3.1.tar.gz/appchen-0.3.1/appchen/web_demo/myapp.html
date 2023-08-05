@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>App Shell Template</title>
+    <link rel="stylesheet" href="app.css" type="text/css"/>
+</head>
+<body>
+<header style="display: flex; height: 26px;">
+    <span style="flex-grow: 0;">App Shell</span>
+    <button id="showMenu" style="padding:1px 2em; flex-grow: 0;">🗐</button>
+    <span style="position: relative; overflow: hidden; flex-grow: 2">
+        <span id="webletsPriority"  style="position: absolute;"></span>
+    </span>
+    <dialog id="menu">
+        <form method="dialog"></form>
+    </dialog>
+    <span id="status" style="flex-grow: 0;"></span>
+</header>
+
+</body>
+<script type="module" src="myapp.js"></script>
+</html>
