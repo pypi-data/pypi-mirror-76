@@ -1,0 +1,6 @@
+README.md
+setup.py
+mostafapdf.egg-info/PKG-INFO
+mostafapdf.egg-info/SOURCES.txt
+mostafapdf.egg-info/dependency_links.txt
+mostafapdf.egg-info/top_level.txt
