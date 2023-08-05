@@ -1,0 +1,9 @@
+j_basic_stock_prediction/__init__.py,sha256=1xTuzKaZnT60SRYcQfgNp9b1u25bW_T1pGBrAn86P58,1258
+j_basic_stock_prediction/predict_stocks.py,sha256=uPZ1NIivtW4ti8LYkTHp0kyZu-PsvSfoEQTuOkZc7XU,37515
+j_basic_stock_prediction/pytransform/__init__.py,sha256=bksJGVn5nIVTegN_YA-dY5CjK6hMmDdL0HQ28PK2kaA,12377
+j_basic_stock_prediction/pytransform/_pytransform.dylib,sha256=Tr0ZZ8kSAkqDImtRe2jbi-cApA2X7OBaVmWswJEAxXY,1453200
+j_basic_stock_prediction-0.0.4.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+j_basic_stock_prediction-0.0.4.dist-info/METADATA,sha256=gFgoTja0PzHQXAk4cgWkphj1XIYPasCOjIfvkxrq6To,587
+j_basic_stock_prediction-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+j_basic_stock_prediction-0.0.4.dist-info/top_level.txt,sha256=-adRf6C_pgcQ_QlXigl_5HhHKlA96U0FBl0p98yegjI,25
+j_basic_stock_prediction-0.0.4.dist-info/RECORD,,
