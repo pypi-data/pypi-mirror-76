@@ -1,0 +1,12 @@
+sourceinspect/__init__.py,sha256=C0hSi7qSlOm0Losu5k2grCYhG8N3ZtUl4m_itsHVsIg,2054
+sourceinspect/autodetect.py,sha256=u1oytOuasgvQkrO3vgzfBVzltwVH5PmL9WS1ZMVy1jw,456
+sourceinspect/blender.py,sha256=drY-x5_T79T18WWDfymvpCzhAI8G_OHkOKxmgWn9H5I,1498
+sourceinspect/code.py,sha256=vWD78dd-NUEOIam6vfRVOI5pRgR9dbztjU9oWuSyjVU,1440
+sourceinspect/dill.py,sha256=hcCSIbGwclAQozdiKLNsSiO8oK3ZwCf5K-H7kfJ6jiw,390
+sourceinspect/ipython.py,sha256=7V5vFaWmETM9JFmXeY4BEaKoVsMXZ4F6Lnumg35xj28,377
+sourceinspect/remote.py,sha256=GUs2SNE3iyhyDi-jeVzid-eIGPJOPJ-vTY9DljELnU8,1725
+sourceinspect/std.py,sha256=JydgIEDC-Nk1xfiTKUtF8e5z9gvuikO8hfaAYG3hCIU,183
+sourceinspect-0.0.1.dist-info/METADATA,sha256=TLFKp4blSoBQIhpuf9Q-jsYZhzqHq8nijDPGHL9L9h4,1130
+sourceinspect-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sourceinspect-0.0.1.dist-info/top_level.txt,sha256=zGMjm_cV6t2JMaCKMouOChGL_MXfsfIJXYbM-NcQ5vI,14
+sourceinspect-0.0.1.dist-info/RECORD,,
