@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: wagtail-unsplash
+Version: 0.3.0
+Summary: Search for Unsplash images and upload to Wagtail
+Home-page: https://github.com/jafacakes2011/wagtail-unsplash
+Author: Cameron Lamb
+Author-email: jafacakes2011@hotmail.co.uk
+License: UNKNOWN
+Description: # [Wagtail Unsplash](https://pypi.org/project/wagtail-unsplash/)  [![PyPI](https://img.shields.io/pypi/v/wagtail-unsplash.svg)](https://pypi.org/project/wagtail-unsplash/)
+        
+        Search for Unsplash images and upload to the Wagtail image library.
+        
+        This package uses the [python-unsplash](https://github.com/yakupadakli/python-unsplash) API wrapper:
+        
+        ## Setup
+        
+        Install using pip:
+        
+        ```sh
+        pip install wagtail-unsplash
+        ```
+        
+        After installing the package, add `wagtail_unsplash` to installed apps in your settings file:
+        
+        ```python
+        # settings.py
+        
+        INSTALLED_APPS = [
+            ...
+            'wagtail_unsplash',
+            ...
+        ]
+        ```
+        
+        and add the API credentials: 
+        
+        ```python
+        # settings.py
+        WAGTAIL_UNSPLASH = {
+            "CLIENT_ID": "",
+            "CLIENT_SECRET": "",
+            "REDIRECT_URI": "",
+            "CODE": "",
+        }
+        ```
+        
+        You can get the needed information by creating an application a https://unsplash.com/developers
+        
+Keywords: wagtail,django
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
