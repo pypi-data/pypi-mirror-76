@@ -1,0 +1,10 @@
+setup.py
+Sree_probability/Binomialdistribution.py
+Sree_probability/Gaussiandistribution.py
+Sree_probability/Generaldistribution.py
+Sree_probability/__init__.py
+Sree_probability.egg-info/PKG-INFO
+Sree_probability.egg-info/SOURCES.txt
+Sree_probability.egg-info/dependency_links.txt
+Sree_probability.egg-info/not-zip-safe
+Sree_probability.egg-info/top_level.txt
