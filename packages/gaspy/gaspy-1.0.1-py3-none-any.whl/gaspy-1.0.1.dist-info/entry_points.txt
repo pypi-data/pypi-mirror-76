@@ -1,0 +1,3 @@
+[console_scripts]
+gaspy = gaspy.GumnutAssembler:main
+

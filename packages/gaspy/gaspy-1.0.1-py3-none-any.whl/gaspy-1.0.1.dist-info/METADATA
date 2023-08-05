@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: gaspy
+Version: 1.0.1
+Summary: Gumnut Assembler written in Python
+Home-page: https://github.com/bwiessneth/gaspy
+Author: Benjamin Wiessneth
+Author-email: b.wiessneth@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+[![tests](https://github.com/bwiessneth/gaspy/workflows/tests/badge.svg)](https://github.com/bwiessneth/gaspy/actions?query=workflow%3Atests)
+[![Documentation Status](https://readthedocs.org/projects/gumnut-assembler/badge/?version=latest)](https://gumnut-assembler.readthedocs.io/en/latest/?badge=latest)
+
+
+
+# gaspy
+
+Gumnut Assembler written in Python.
+
+
+
+## Motivation
+
+*gaspy* is a python-based implementation of Peter Ashenden's Gumnut assembler *gasm* which assembles the objectcode to be used with his 8-bit soft-core *Gumnut*.
+For more information refer to *The Designers Guide to VHDL* https://www.sciencedirect.com/book/9780120887859/the-designers-guide-to-vhdl
+
+
+
+## Status
+
+As of now *gaspy* support all *gasm* instructions and assembles the same objectcode as *gasm*.
+
+The only (known) limitation is the implementation of the ```equ``` directive in conjunction with ascii values.
+
+
+
+# Documentation 
+
+Please refer to https://gaspy.readthedocs.io/en/latest/
+
+
