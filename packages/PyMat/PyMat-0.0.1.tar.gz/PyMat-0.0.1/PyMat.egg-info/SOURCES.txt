@@ -1,0 +1,7 @@
+README.md
+setup.py
+PyMat.egg-info/PKG-INFO
+PyMat.egg-info/SOURCES.txt
+PyMat.egg-info/dependency_links.txt
+PyMat.egg-info/top_level.txt
+matrix/__init__.py
