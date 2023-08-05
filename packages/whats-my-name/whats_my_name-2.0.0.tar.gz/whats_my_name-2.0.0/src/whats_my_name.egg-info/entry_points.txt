@@ -1,0 +1,3 @@
+[console_script]
+whats_my_name = whats_my_name.__main__:main
+

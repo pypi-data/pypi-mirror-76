@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/whats_my_name/__init__.py
+src/whats_my_name/__main__.py
+src/whats_my_name/b_colors.py
+src/whats_my_name/web_accounts_list_checker.py
+src/whats_my_name.egg-info/PKG-INFO
+src/whats_my_name.egg-info/SOURCES.txt
+src/whats_my_name.egg-info/dependency_links.txt
+src/whats_my_name.egg-info/entry_points.txt
+src/whats_my_name.egg-info/requires.txt
+src/whats_my_name.egg-info/top_level.txt
+src/whats_my_name/json/web_accounts_list.json
