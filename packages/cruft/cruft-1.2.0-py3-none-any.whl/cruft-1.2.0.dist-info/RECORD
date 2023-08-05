@@ -1,0 +1,12 @@
+cruft/__init__.py,sha256=4Y-GHQW1AkGu9k6PqR-TekzidhXe5-ZgtnmoR5fRd6I,246
+cruft/__main__.py,sha256=d7GcLBFBQ5FHHtwHHrtibPMpptZDJZ9Uq1ikMKjuZAg,37
+cruft/_version.py,sha256=MpAT5hgNoHnTtG1XRD_GV_A7QrHVU6vJjGSw_8qMGA4,22
+cruft/api.py,sha256=ozf5jUx54RvQkZiJZmbByNNcYkK-QKpiPIPU7v1J4to,13224
+cruft/cli.py,sha256=HKYeH06SMaBlufQoHIZfoUxAARFqZDmi810KEENiVcU,1609
+cruft/exceptions.py,sha256=aEpbb44NZRhykHOqGLhzTlrrmlj8LUxgNgnCIc3k9rA,1567
+cruft/logo.py,sha256=81HlRpQq68JGWdi8hXWkQvj5jdIL5opKIum4i5DPXY4,941
+cruft-1.2.0.dist-info/entry_points.txt,sha256=jB0zAN5xXwa5eqWDPsSMGcLxN82R1fYCIXDNwU_KqRA,47
+cruft-1.2.0.dist-info/LICENSE,sha256=5On1FePihJNEKF3BW6wdKLblN_ALkveIYRdhni-HFqQ,1072
+cruft-1.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+cruft-1.2.0.dist-info/METADATA,sha256=EonE_J8NQg-DPWEgoZfQTBSuu_kB_UUl7UDiEz9HK4Y,7329
+cruft-1.2.0.dist-info/RECORD,,
