@@ -1,0 +1,17 @@
+musicntd/__init__.py,sha256=ze8h7iEp2ANfeuXBcqzvUBT4jmueNvwqAKoUbPCRbsA,303
+musicntd/autosimilarity_segmentation.py,sha256=7LSuMwRpR1gkS4zbYUhMpRx01Yi4Z-Tkffa4buDPBnE,23709
+musicntd/data_manipulation.py,sha256=nkzg094K7UTD6vc8Yz4hIp9-rybyGdONFScMgPMM5_Q,21038
+musicntd/tensor_factory.py,sha256=z6eEcM7Pk4rGzIsT-w9VSDJADg0wOXzKiCqU7b0O_HM,4147
+musicntd/model/__init__.py,sha256=s-zJ_faqJue1b6ShdB0IfEaczzhnZDNYob6ToyEyoQ4,78
+musicntd/model/current_plot.py,sha256=95awMgO35tQffrlg89kV97DTAZXGS_UTPtZpMiCpoAY,10577
+musicntd/model/errors.py,sha256=Unggaq-sakninVQbvyp3E2RMXuKNZCzhO29lw5hDxmY,500
+musicntd/model/features.py,sha256=ppQ7Nr_AJX0ZT2f1WjqWaSjQMCKOUPb3WrCO1tm6HoE,6942
+musicntd/scripts/__init__.py,sha256=w-PqqyIhh_Z_E7ilNB5wo0WEXg4oNRg2gGp9ApzrEd4,89
+musicntd/scripts/final_tests.py,sha256=I6p5_bfMVyy5mUpTpXqyfUgiPSR_u36blt6NT8ixVWM,22456
+musicntd/scripts/hide_code.py,sha256=FBNfwwFUhAswiANAZKUlzeSXxgEX-Jxp54asz67tKio,82382
+musicntd/scripts/overall_scripts.py,sha256=42WFo40RMHYu3hW3rkTv3ccPSTVGf_wTTCySgsRM0IM,24513
+musicntd-0.2.0.dist-info/LICENSE,sha256=XZPy1NA0VGWc4GyzsigxwNO5ANhdBcLa6Sp974GnLuc,1471
+musicntd-0.2.0.dist-info/METADATA,sha256=1nO7BM85h0AgxdAvlNxpmHzb8fwZVSFbSAqxH9aIA3Y,2445
+musicntd-0.2.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+musicntd-0.2.0.dist-info/top_level.txt,sha256=cQxE1O7eCdGpZClTymrI_M0fl8VAxXhNJylId0aSW4w,9
+musicntd-0.2.0.dist-info/RECORD,,
