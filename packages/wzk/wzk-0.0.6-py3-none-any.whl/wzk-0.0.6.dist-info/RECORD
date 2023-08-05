@@ -1,0 +1,16 @@
+wzk/__init__.py,sha256=SzZ2rLfigq2HhclFV1VWCz0PQwm8sy2-HLr2UGNEBO0,463
+wzk/mail.py,sha256=4V187a5a_CX7trULOcvdXnS_HeA6e54Hyl9yuuRJrsc,1549
+wzk/games/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wzk/games/flight_game.py,sha256=IGiiba8bflXWXRB9APoqYgWmzD9mV2ZGydTh7mwEGQQ,12554
+wzk/games/game2048.py,sha256=D0LITJV5LRqW8lig80u1GRe0muPyJi4r1VPEQVGGIbU,5184
+wzk/games/mahjong.py,sha256=-9qJzoVFIkwgqquchmfk3oY1VufowMlYKjmCOPAdmIg,6365
+wzk/games/mine_sweeper.py,sha256=OQ_nHp7A9TYIobchuc4cIigrddq3ocGBAB_kNGF0Awg,5606
+wzk/games/pokemon.py,sha256=u_qrq0q41pDGoQ-HtQS0xyb3plU-SWIOAkrvtoqQRrE,5201
+wzk/games/texas_poker.py,sha256=MqQyc1IQMSyoNv8BYDN9p4nWwk_uZmhCJj6kYLS2kJA,12467
+wzk/vocab/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wzk/vocab/vocab.py,sha256=r4FS8DOBPk2Sd49TOiPr_CQXxpjf9X--vrG6WqKq-bQ,970
+wzk/vocab/vocabulary.py,sha256=EK_8DO7e_NR3871WIEOIgazeNhWN2bMzpMY1UMQTKyc,4923680
+wzk-0.0.6.dist-info/METADATA,sha256=PGUIFPbUaqEtTaogAmUbl4t0eQaJMX6EadxNSrExrws,311
+wzk-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wzk-0.0.6.dist-info/top_level.txt,sha256=-aRM79ezEWYDjKlkPN3PKbWLI77lTwD8669qTAyDwek,4
+wzk-0.0.6.dist-info/RECORD,,
