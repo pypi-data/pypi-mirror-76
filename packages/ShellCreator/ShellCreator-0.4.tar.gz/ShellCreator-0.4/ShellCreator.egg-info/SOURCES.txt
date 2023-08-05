@@ -1,0 +1,16 @@
+README.md
+setup.py
+ShellCreator/Commands.py
+ShellCreator/Completer.py
+ShellCreator/Expressions.py
+ShellCreator/Highlighter.py
+ShellCreator/Shell.py
+ShellCreator/__init__.py
+ShellCreator.egg-info/PKG-INFO
+ShellCreator.egg-info/SOURCES.txt
+ShellCreator.egg-info/dependency_links.txt
+ShellCreator.egg-info/requires.txt
+ShellCreator.egg-info/top_level.txt
+ShellCreator/Utils/ColoredLogs.py
+ShellCreator/Utils/Operators.py
+ShellCreator/Utils/__init__.py
