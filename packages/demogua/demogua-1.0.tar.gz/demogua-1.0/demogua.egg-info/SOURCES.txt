@@ -1,0 +1,6 @@
+setup.py
+demogua/__init__.py
+demogua.egg-info/PKG-INFO
+demogua.egg-info/SOURCES.txt
+demogua.egg-info/dependency_links.txt
+demogua.egg-info/top_level.txt
