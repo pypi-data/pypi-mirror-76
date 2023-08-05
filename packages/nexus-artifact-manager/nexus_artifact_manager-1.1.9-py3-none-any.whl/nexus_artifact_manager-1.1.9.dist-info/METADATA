@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: nexus-artifact-manager
+Version: 1.1.9
+Summary: Upload and Download artifact from Nexus v3+ repository
+Home-page: https://github.com/stewiejnr/nexus-artifact-manager
+Author: Stewartium
+Author-email: stewartium1@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+## Setup
+pip install nexus-artifact-manager
+
+## Usage - Unix Type system
+# python -m nam $FORMAT $NEXUS_USER $NEXUS_PASSWORD $NEXUS_PROD_URL $ARTIFACT_PATH $ARTIFACT_NAME $REPOSITORY_NAME $NEXUS_DIRECTORY  -- raw format
+# python -m nam $FORMAT $NEXUS_USER $NEXUS_PASSWORD $NEXUS_PROD_URL $ARTIFACT_PATH $ARTIFACT_NAME $REPOSITORY_NAME $NEXUS_GROUP_ID  -- maven2 format
+
+## Usage - Windows system
+# python -m nam %FORMAT% %NEXUS_USER% %NEXUS_PASSWORD% %NEXUS_PROD_URL% %ARTIFACT_PATH% %ARTIFACT_NAME% %REPOSITORY_NAME% %NEXUS_DIRECTORY%  -- raw format
+# python -m nam %FORMAT% %NEXUS_USER% %NEXUS_PASSWORD% %NEXUS_PROD_URL% %ARTIFACT_PATH% %ARTIFACT_NAME% %REPOSITORY_NAME% %NEXUS_GROUP_ID%  -- maven2 format
+
