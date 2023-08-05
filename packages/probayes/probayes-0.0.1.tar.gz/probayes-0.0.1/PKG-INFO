@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: probayes
+Version: 0.0.1
+Summary: Probability package supporting multiple Bayesian methods including MCMC
+Home-page: https://github.com/Bhumbra/probayes
+Author: Bhumbra
+Author-email: bhumbra@gmail.com
+License: UNKNOWN
+Description: # probayes
+        Probability package supporting multiple Bayesian methods including MCMC
+        
+Platform: UNKNOWN
