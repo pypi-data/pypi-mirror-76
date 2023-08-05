@@ -1,0 +1,3 @@
+[console_scripts]
+photo_downloader = photo_downloader.__main__:main
+
