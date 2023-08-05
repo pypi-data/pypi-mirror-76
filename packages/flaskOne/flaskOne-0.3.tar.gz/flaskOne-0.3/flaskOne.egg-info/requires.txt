@@ -1,0 +1,15 @@
+flask
+wheel
+
+[ci]
+codacy-coverage
+codecov
+
+[dev]
+Pygments
+docutils
+
+[test]
+coverage
+green
+pytest
