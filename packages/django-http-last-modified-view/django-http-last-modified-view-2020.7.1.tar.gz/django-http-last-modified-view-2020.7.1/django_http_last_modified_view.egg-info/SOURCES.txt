@@ -1,0 +1,9 @@
+requirements.txt
+setup.py
+django_http_last_modified_view/__init__.py
+django_http_last_modified_view/views.py
+django_http_last_modified_view.egg-info/PKG-INFO
+django_http_last_modified_view.egg-info/SOURCES.txt
+django_http_last_modified_view.egg-info/dependency_links.txt
+django_http_last_modified_view.egg-info/requires.txt
+django_http_last_modified_view.egg-info/top_level.txt
