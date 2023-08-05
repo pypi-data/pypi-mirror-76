@@ -1,0 +1,13 @@
+boto3
+azure-common
+azure-mgmt-compute
+azure-mgmt-network
+azure-mgmt-resource
+Click
+paramiko
+pytest
+PyYAML
+testinfra
+oci
+google-auth
+google-api-python-client
