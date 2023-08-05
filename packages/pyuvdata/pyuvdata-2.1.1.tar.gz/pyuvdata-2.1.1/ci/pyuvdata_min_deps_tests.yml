@@ -1,0 +1,17 @@
+name: pyuvdata_min_deps_tests
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - astropy
+  - numpy
+  - scipy
+  - h5py
+  - coverage
+  - pytest-cov
+  - cython
+  - setuptools_scm
+  - pip
+  - pip:
+     - pytest-cases>=1.12.1
+     - pytest-xdist
