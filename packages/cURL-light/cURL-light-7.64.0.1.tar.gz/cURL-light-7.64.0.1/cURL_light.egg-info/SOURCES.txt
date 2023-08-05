@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+curl.py
+setup.cfg
+setup.py
+cURL_light.egg-info/PKG-INFO
+cURL_light.egg-info/SOURCES.txt
+cURL_light.egg-info/dependency_links.txt
+cURL_light.egg-info/top_level.txt
+cURL_light.egg-info/zip-safe
