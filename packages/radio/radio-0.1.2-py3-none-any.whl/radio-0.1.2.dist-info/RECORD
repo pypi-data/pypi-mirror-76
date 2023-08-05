@@ -1,0 +1,8 @@
+radio/__init__.py,sha256=mdp2CftfqYbdKtP-eWv1z7rAUycYv6X1ntXSMUf8Kss,22
+radio/cli.py,sha256=pRt81T5xTZb2WNkIirgapGaPCUz7oNTr6hYetwh3tjk,4051
+radio/data/radios.json,sha256=sOP06P_pYYL_i4eyTEkymWTTYyBsLocuJe59LOfI9vI,3726
+radio-0.1.2.dist-info/entry_points.txt,sha256=iC4bq_GkZnduSaCnrQdnTqJBbuLm642eD-qDthvtVLU,41
+radio-0.1.2.dist-info/LICENSE.txt,sha256=tklrOOkzTlx-4iCY-H4rHtk0JvWfwkjJHyxvKTJ1_2s,515
+radio-0.1.2.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+radio-0.1.2.dist-info/METADATA,sha256=ux1svEl5srZLzgFzrsr-st4l3-JpNyeRy5ggZ2r-tQY,3290
+radio-0.1.2.dist-info/RECORD,,
