@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: MiniAttention
+Version: 0.1
+Summary: A mini-Hierarchical Attention Layer built for Document classification compatible with Keras and Tensorflow
+Home-page: https://github.com/abhilash1910/MiniAttention
+Author: ABHILASH MAJUMDER
+Author-email: debabhi1396@gmail.com
+License: MIT
+Download-URL: https://github.com/abhilash1910/MiniAttention/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Document Classification,Attention Layer,Heirarchical Attention,Word Level Attention,Keras,Tensorflow
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
