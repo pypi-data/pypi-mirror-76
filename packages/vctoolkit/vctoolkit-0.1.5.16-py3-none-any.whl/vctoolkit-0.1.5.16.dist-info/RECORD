@@ -1,0 +1,11 @@
+vctoolkit/__init__.py,sha256=QMjsooTSHt5p461MTDHwRuyx6OSUM30dckomCZgp3_E,84
+vctoolkit/io.py,sha256=KTeYBRqFq7Hp4Mm9S51MWLxDFgBH8Gn70DV7P1QYsOs,7920
+vctoolkit/misc.py,sha256=teGpp8kwOVeYEeMcxCUl7ZUUnZV6DP0YV_V-I20Asc4,14981
+vctoolkit/vis2d.py,sha256=LV8l8kch_MAFuhp13FOs7QGhRy0mfuLMAfDSU2Y5jtU,5797
+vctoolkit/vis3d.py,sha256=N5aSJXqVf4ANZQ7WG62cI17izr6fvg_htZBkDyNJO4Y,9117
+vctoolkit/tf/__init__.py,sha256=xk2TIu4yYdWU2YNZa4DwMZ-cAxh-tFGWVJhAHOPUpUs,7048
+vctoolkit/visgl/__init__.py,sha256=NbsA5JpBM4siIQIAeH3KbfHyH0icMvuYzWsoe_RCO_4,9164
+vctoolkit-0.1.5.16.dist-info/METADATA,sha256=uq2OWS18IWg3LJMPbTGEssueRk2QjFK6qlj2HO0jCwg,384
+vctoolkit-0.1.5.16.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+vctoolkit-0.1.5.16.dist-info/top_level.txt,sha256=PlQm3MkPOLbZcWWR2N6ArK2Lu-XEoTcTk3va69dpRGU,10
+vctoolkit-0.1.5.16.dist-info/RECORD,,
