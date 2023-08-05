@@ -1,0 +1,3 @@
+[console_scripts]
+dim = dim.dim:launch
+
