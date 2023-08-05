@@ -1,0 +1,9 @@
+README.md
+setup.py
+template_content_filler/ImageWriter.py
+template_content_filler/TemplateWriter.py
+template_content_filler/__init__.py
+template_content_filler.egg-info/PKG-INFO
+template_content_filler.egg-info/SOURCES.txt
+template_content_filler.egg-info/dependency_links.txt
+template_content_filler.egg-info/top_level.txt
