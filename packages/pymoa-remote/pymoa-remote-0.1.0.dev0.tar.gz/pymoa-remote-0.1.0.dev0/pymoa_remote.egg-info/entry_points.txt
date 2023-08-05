@@ -1,0 +1,4 @@
+[console_scripts]
+pymoa_multiprocessing_app = pymoa_remote.app.multiprocessing:run_app
+pymoa_quart_app = pymoa_remote.app.quart:run_app
+
