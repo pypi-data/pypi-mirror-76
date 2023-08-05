@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skclean.handlers.Costing &#8212; scikit-clean 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="skclean.models.RobustForest" href="skclean.models.RobustForest.html" />
+    <link rel="prev" title="skclean.handlers.WeightedBagging" href="skclean.handlers.WeightedBagging.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="skclean-handlers-costing">
+<h1>skclean.handlers.Costing<a class="headerlink" href="#skclean-handlers-costing" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="skclean.handlers.Costing">
+<em class="property">class </em><code class="sig-prename descclassname">skclean.handlers.</code><code class="sig-name descname">Costing</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">classifier</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">detector</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">n_estimators</span><span class="o">=</span><span class="default_value">100</span></em>, <em class="sig-param"><span class="n">n_jobs</span><span class="o">=</span><span class="default_value">1</span></em>, <em class="sig-param"><span class="n">random_state</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">verbose</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#skclean.handlers.Costing" title="Permalink to this definition">¶</a></dt>
+<dd><p>Implements <em>costing</em>, a method combining cost-proportionate rejection
+sampling and ensemble aggregation. At each base classifier, samples
+are selected for training with probability equal to <cite>conf_score</cite>.
+See <a class="bibtex reference internal" href="../references.html#costing03" id="id1">[ZLA03]</a> for details.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>classifier</strong> (<em>object</em>) – A classifier instance supporting sklearn API. Same as <cite>base_estimator</cite>
+of scikit-learn’s BaggingClassifier.</p></li>
+<li><p><strong>detector</strong> (<cite>BaseDetector</cite> or None, default=None) – To compute <cite>conf_score</cite>. Set it to <cite>None</cite> only if <cite>conf_score</cite> is         expected in <cite>fit()</cite> (e.g. when used inside a Pipeline with a         <cite>BaseDetector</cite> preceding it). Otherwise a Detector must be supplied         during instantiation.</p></li>
+<li><p><strong>n_estimators</strong> (<em>int</em><em>, </em><em>default=10</em>) – The number of base classifiers in the ensemble.</p></li>
+<li><p><strong>n_jobs</strong> (<em>int</em><em>, </em><em>default=1</em>) – No of parallel cpu cores to use</p></li>
+<li><p><strong>random_state</strong> (<em>int</em><em>, </em><em>default=None</em>) – Set this value for reproducibility</p></li>
+<li><p><strong>verbose</strong> (<em>int</em><em>, </em><em>default=0</em>) – Controls the verbosity when fitting and predicting</p></li>
+</ul>
+</dd>
+</dl>
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">__init__</span></code>([classifier, detector, …])</p></td>
+<td><p>Initialize self.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">decision_function</span></code>(X)</p></td>
+<td><p>Average of the decision functions of the base classifiers.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">fit</span></code>(X, y[, conf_score])</p></td>
+<td><p>Build a Bagging ensemble of estimators from the training</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_params</span></code>([deep])</p></td>
+<td><p>Get parameters for this estimator.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">predict</span></code>(X)</p></td>
+<td><p>Predict class for X.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">predict_log_proba</span></code>(X)</p></td>
+<td><p>Predict class log-probabilities for X.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">predict_proba</span></code>(X)</p></td>
+<td><p>Predict class probabilities for X.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">score</span></code>(X, y[, sample_weight])</p></td>
+<td><p>Return the mean accuracy on the given test data and labels.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_params</span></code>(**params)</p></td>
+<td><p>Set the parameters of this estimator.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">classifier</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">estimators_samples_</span></code></p></td>
+<td><p>The subset of drawn samples for each base estimator.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">iterative</span></code></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">scikit-clean</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Getting Started:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Scikit-clean</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../user_guide.html">User Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../api.html">API Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../api.html#module-skclean.detectors">Detectors (<cite>skclean.detectors</cite>)</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../api.html#module-skclean.handlers">Handlers (<cite>skclean.handlers</cite>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api.html#module-skclean.models">Models (<cite>skclean.models</cite>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api.html#module-skclean.pipeline">Pipeline (<cite>skclean.pipeline</cite>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api.html#module-skclean.simulate_noise">Noise Simulation (<cite>skclean.simulate_noise</cite>)</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Additional Information</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../references.html">References</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="../api.html">API Reference</a><ul>
+      <li>Previous: <a href="skclean.handlers.WeightedBagging.html" title="previous chapter">skclean.handlers.WeightedBagging</a></li>
+      <li>Next: <a href="skclean.models.RobustForest.html" title="next chapter">skclean.models.RobustForest</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Shihab Shahriar Khan.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/_autosummary/skclean.handlers.Costing.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

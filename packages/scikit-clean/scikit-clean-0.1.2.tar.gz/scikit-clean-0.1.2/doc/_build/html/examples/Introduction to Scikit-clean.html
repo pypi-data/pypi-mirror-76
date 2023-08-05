@@ -1,0 +1,563 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Scikit-clean &#8212; scikit-clean 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Noise Simulators" href="Noise SImulators.html" />
+    <link rel="prev" title="Evaluating Robust Models" href="Evaluating Robust Methods.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  
+<style>
+/* CSS for nbsphinx extension */
+
+/* remove conflicting styling from Sphinx themes */
+div.nbinput.container,
+div.nbinput.container div.prompt,
+div.nbinput.container div.input_area,
+div.nbinput.container div[class*=highlight],
+div.nbinput.container div[class*=highlight] pre,
+div.nboutput.container,
+div.nboutput.container div.prompt,
+div.nboutput.container div.output_area,
+div.nboutput.container div[class*=highlight],
+div.nboutput.container div[class*=highlight] pre {
+    background: none;
+    border: none;
+    padding: 0 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+/* avoid gaps between output lines */
+div.nboutput.container div[class*=highlight] pre {
+    line-height: normal;
+}
+
+/* input/output containers */
+div.nbinput.container,
+div.nboutput.container {
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+}
+@media (max-width: 540px) {
+    div.nbinput.container,
+    div.nboutput.container {
+        flex-direction: column;
+    }
+}
+
+/* input container */
+div.nbinput.container {
+    padding-top: 5px;
+}
+
+/* last container */
+div.nblast.container {
+    padding-bottom: 5px;
+}
+
+/* input prompt */
+div.nbinput.container div.prompt pre {
+    color: #307FC1;
+}
+
+/* output prompt */
+div.nboutput.container div.prompt pre {
+    color: #BF5B3D;
+}
+
+/* all prompts */
+div.nbinput.container div.prompt,
+div.nboutput.container div.prompt {
+    width: 4.5ex;
+    padding-top: 5px;
+    position: relative;
+    user-select: none;
+}
+
+div.nbinput.container div.prompt > div,
+div.nboutput.container div.prompt > div {
+    position: absolute;
+    right: 0;
+    margin-right: 0.3ex;
+}
+
+@media (max-width: 540px) {
+    div.nbinput.container div.prompt,
+    div.nboutput.container div.prompt {
+        width: unset;
+        text-align: left;
+        padding: 0.4em;
+    }
+    div.nboutput.container div.prompt.empty {
+        padding: 0;
+    }
+
+    div.nbinput.container div.prompt > div,
+    div.nboutput.container div.prompt > div {
+        position: unset;
+    }
+}
+
+/* disable scrollbars on prompts */
+div.nbinput.container div.prompt pre,
+div.nboutput.container div.prompt pre {
+    overflow: hidden;
+}
+
+/* input/output area */
+div.nbinput.container div.input_area,
+div.nboutput.container div.output_area {
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: auto;
+}
+@media (max-width: 540px) {
+    div.nbinput.container div.input_area,
+    div.nboutput.container div.output_area {
+        width: 100%;
+    }
+}
+
+/* input area */
+div.nbinput.container div.input_area {
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    background: #f5f5f5;
+}
+
+/* override MathJax center alignment in output cells */
+div.nboutput.container div[class*=MathJax] {
+    text-align: left !important;
+}
+
+/* override sphinx.ext.imgmath center alignment in output cells */
+div.nboutput.container div.math p {
+    text-align: left;
+}
+
+/* standard error */
+div.nboutput.container div.output_area.stderr {
+    background: #fdd;
+}
+
+/* ANSI colors */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-default-inverse-fg { color: #FFFFFF; }
+.ansi-default-inverse-bg { background-color: #000000; }
+
+.ansi-bold { font-weight: bold; }
+.ansi-underline { text-decoration: underline; }
+
+
+div.nbinput.container div.input_area div[class*=highlight] > pre,
+div.nboutput.container div.output_area div[class*=highlight] > pre,
+div.nboutput.container div.output_area div[class*=highlight].math,
+div.nboutput.container div.output_area.rendered_html,
+div.nboutput.container div.output_area > div.output_javascript,
+div.nboutput.container div.output_area:not(.rendered_html) > img{
+    padding: 5px;
+}
+
+/* fix copybtn overflow problem in chromium (needed for 'sphinx_copybutton') */
+div.nbinput.container div.input_area > div[class^='highlight'],
+div.nboutput.container div.output_area > div[class^='highlight']{
+    overflow-y: hidden;
+}
+
+/* hide copybtn icon on prompts (needed for 'sphinx_copybutton') */
+.prompt a.copybtn {
+    display: none;
+}
+
+/* Some additional styling taken form the Jupyter notebook CSS */
+div.rendered_html table {
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: black;
+  font-size: 12px;
+  table-layout: fixed;
+}
+div.rendered_html thead {
+  border-bottom: 1px solid black;
+  vertical-align: bottom;
+}
+div.rendered_html tr,
+div.rendered_html th,
+div.rendered_html td {
+  text-align: right;
+  vertical-align: middle;
+  padding: 0.5em 0.5em;
+  line-height: normal;
+  white-space: normal;
+  max-width: none;
+  border: none;
+}
+div.rendered_html th {
+  font-weight: bold;
+}
+div.rendered_html tbody tr:nth-child(odd) {
+  background: #f5f5f5;
+}
+div.rendered_html tbody tr:hover {
+  background: rgba(66, 165, 245, 0.2);
+}
+</style>
+<div class="section" id="Introduction-to-Scikit-clean">
+<h1>Introduction to Scikit-clean<a class="headerlink" href="#Introduction-to-Scikit-clean" title="Permalink to this headline">¶</a></h1>
+<p><code class="docutils literal notranslate"><span class="pre">scikit-clean</span></code> is a python ML library for classification in the presence of label noise. Aimed primarily at researchers, this provides implementations of several state-of-the-art algorithms, along with tools to simulate artificial noise, create complex pipelines and evaluate them.</p>
+<div class="section" id="Example-Usage">
+<h2>Example Usage<a class="headerlink" href="#Example-Usage" title="Permalink to this headline">¶</a></h2>
+<p>Before we dive into the details, let’s take a quick look to see how it works. scikit-clean, as the name implies, is built on top of scikit-learn and is fully compatible* with scikit-learn API. scikit-clean classifiers can be used as a drop in replacement for scikit-learn classifiers.</p>
+<p>In the simple example below, we corrupt a dataset using artifical label noise, and then train a model using robust logistic regression:</p>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[1]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">make_classification</span><span class="p">,</span> <span class="n">load_breast_cancer</span>
+<span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LogisticRegression</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span><span class="p">,</span> <span class="n">cross_val_score</span>
+
+<span class="kn">from</span> <span class="nn">skclean.simulate_noise</span> <span class="kn">import</span> <span class="n">flip_labels_uniform</span><span class="p">,</span> <span class="n">UniformNoise</span><span class="p">,</span> <span class="n">CCNoise</span>
+<span class="kn">from</span> <span class="nn">skclean.models</span> <span class="kn">import</span> <span class="n">RobustLR</span>
+<span class="kn">from</span> <span class="nn">skclean.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span><span class="p">,</span> <span class="n">make_pipeline</span>
+
+<span class="n">SEED</span> <span class="o">=</span> <span class="mi">42</span>
+
+<span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">load_breast_cancer</span><span class="p">(</span><span class="n">return_X_y</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=.</span><span class="mi">30</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="n">SEED</span><span class="p">)</span>
+
+<span class="n">y_train_noisy</span> <span class="o">=</span> <span class="n">flip_labels_uniform</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="o">.</span><span class="mi">3</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="n">SEED</span><span class="p">)</span>  <span class="c1"># Flip labels of 30% samples</span>
+
+<span class="n">clf</span> <span class="o">=</span> <span class="n">RobustLR</span><span class="p">(</span><span class="n">random_state</span><span class="o">=</span><span class="n">SEED</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span><span class="n">y_train_noisy</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">clf</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+0.8888888888888888
+</pre></div></div>
+</div>
+<p>You can use scikit-learn’s built in tools with scikit-clean. For example, let’s tune one hyper-parameter of <code class="docutils literal notranslate"><span class="pre">RobustLR</span></code> used above, and evaluate the resulting model using cross-validation:</p>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[2]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">GridSearchCV</span><span class="p">,</span> <span class="n">cross_val_score</span>
+
+<span class="n">grid_clf</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">RobustLR</span><span class="p">(),{</span><span class="s1">&#39;PN&#39;</span><span class="p">:[</span><span class="o">.</span><span class="mi">1</span><span class="p">,</span><span class="o">.</span><span class="mi">2</span><span class="p">,</span><span class="o">.</span><span class="mi">4</span><span class="p">]},</span><span class="n">cv</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">cross_val_score</span><span class="p">(</span><span class="n">grid_clf</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">n_jobs</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>  <span class="c1"># Note: here we&#39;re training &amp; testing here on clean data for simplicity</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[2]:
+</pre></div>
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+0.8804533457537648
+</pre></div></div>
+</div>
+</div>
+<div class="section" id="Algorithms">
+<h2>Algorithms<a class="headerlink" href="#Algorithms" title="Permalink to this headline">¶</a></h2>
+<p>Algorithms implemented in scikit-clean can be broadly categorized into two types. First we have ones that are <em>inherently</em> robust to label noise. They often modify or replace the loss functions of existing well known algorithms like SVM, Logistic Regression etc. and do not explcitly try to detect mislabeled samples in data. <code class="docutils literal notranslate"><span class="pre">RobustLR</span></code> used above is a robust variant of regular Logistic Regression. These methods can currently be found in <code class="docutils literal notranslate"><span class="pre">skclean.models</span></code> module, though this part of API is
+likely to change in future as no. of implementations grow.</p>
+<p>On the other hand we have <em>Dataset-focused</em> algorithms: their focus is more on identifying or cleaning the dataset, they usually rely on other existing classifiers to do the actual learning. Majority of current scikit-clean implementations fall under this category, so we describe them in a bit more detail in next section.</p>
+</div>
+<div class="section" id="Detectors-and-Handlers">
+<h2>Detectors and Handlers<a class="headerlink" href="#Detectors-and-Handlers" title="Permalink to this headline">¶</a></h2>
+<p>Many robust algorithms designed to handle label noise can be essentially broken down to two sequential steps: detect samples which has (probably) been mislabeled, and use that information to build robust meta classifiers on top of existing classifiers. This allows us to easily create new robust classifiers by mixing the noise detector of one paper with the noise-handler of another.</p>
+<p>In scikit-clean, the classes that implement those two tasks are called <code class="docutils literal notranslate"><span class="pre">Detector</span></code> and <code class="docutils literal notranslate"><span class="pre">Handler</span></code> respectively. During training, <code class="docutils literal notranslate"><span class="pre">Detector</span></code> will find for each sample the probability that it has been <em>correctly</em> labeled (i.e. <code class="docutils literal notranslate"><span class="pre">conf_score</span></code>). <code class="docutils literal notranslate"><span class="pre">Handler</span></code> can use that information in many ways, like removing likely noisy instances from dataset (<code class="docutils literal notranslate"><span class="pre">Filtering</span></code> class), or assigning more weight on reliable samples (<code class="docutils literal notranslate"><span class="pre">example_weighting</span></code> module) etc.</p>
+<p>Let’s rewrite the above example. We’ll use <code class="docutils literal notranslate"><span class="pre">KDN</span></code>: a simple neighborhood-based noise detector, and <code class="docutils literal notranslate"><span class="pre">WeightedBagging</span></code>: a variant of regular bagging that takes sample reliability into account.</p>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[3]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">skclean.detectors</span> <span class="kn">import</span> <span class="n">KDN</span>
+<span class="kn">from</span> <span class="nn">skclean.handlers</span> <span class="kn">import</span> <span class="n">WeightedBagging</span>
+
+<span class="n">conf_score</span> <span class="o">=</span> <span class="n">KDN</span><span class="p">(</span><span class="n">n_neighbors</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">detect</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train_noisy</span><span class="p">)</span>
+<span class="n">clf</span> <span class="o">=</span> <span class="n">WeightedBagging</span><span class="p">(</span><span class="n">n_estimators</span><span class="o">=</span><span class="mi">50</span><span class="p">)</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train_noisy</span><span class="p">,</span> <span class="n">conf_score</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">clf</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+0.9181286549707602
+</pre></div></div>
+</div>
+<p>The above code is fine for very simple workflow. However, real world data modeling usually includes lots of sequential steps for preprocesing, feature selection etc. Moreover, hyper-paramter tuning, cross-validation further complicates the process, which, among other things, frequently leads to <a class="reference external" href="https://machinelearningmastery.com/data-leakage-machine-learning/">Information Leakage</a>. An elegant solution to this complexity management is <code class="docutils literal notranslate"><span class="pre">Pipeline</span></code>.</p>
+</div>
+<div class="section" id="Pipeline">
+<h2>Pipeline<a class="headerlink" href="#Pipeline" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">scikit-clean</span></code> provides a customized <code class="docutils literal notranslate"><span class="pre">Pipeline</span></code> to manage modeling which involves lots of sequential steps, including noise detection and handling. Below is an example of <code class="docutils literal notranslate"><span class="pre">pipeline</span></code>. At the very first step, we introduce some label noise on training set. Some preprocessing like scaling and feature selection comes next. The last two steps are noise detection and handling respectively, these two must always be the last steps.</p>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[4]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span>
+<span class="kn">from</span> <span class="nn">sklearn.feature_selection</span> <span class="kn">import</span> <span class="n">VarianceThreshold</span>
+<span class="kn">from</span> <span class="nn">sklearn.svm</span> <span class="kn">import</span> <span class="n">SVC</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">ShuffleSplit</span><span class="p">,</span> <span class="n">StratifiedKFold</span>
+
+<span class="kn">from</span> <span class="nn">skclean.handlers</span> <span class="kn">import</span> <span class="n">Filter</span>
+<span class="kn">from</span> <span class="nn">skclean.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span>         <span class="c1"># Importing from skclean, not sklearn</span>
+
+
+<span class="n">clf</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([</span>
+        <span class="p">(</span><span class="s1">&#39;scale&#39;</span><span class="p">,</span> <span class="n">StandardScaler</span><span class="p">()),</span>          <span class="c1"># Scale features</span>
+        <span class="p">(</span><span class="s1">&#39;feat_sel&#39;</span><span class="p">,</span> <span class="n">VarianceThreshold</span><span class="p">(</span><span class="o">.</span><span class="mi">2</span><span class="p">)),</span>  <span class="c1"># Feature selection</span>
+        <span class="p">(</span><span class="s1">&#39;detector&#39;</span><span class="p">,</span> <span class="n">KDN</span><span class="p">()),</span>                  <span class="c1"># Detect mislabeled samples</span>
+        <span class="p">(</span><span class="s1">&#39;handler&#39;</span><span class="p">,</span> <span class="n">Filter</span><span class="p">(</span><span class="n">SVC</span><span class="p">())),</span>           <span class="c1"># Filter out likely mislabeled samples and then train a SVM</span>
+<span class="p">])</span>
+
+<span class="n">inner_cv</span> <span class="o">=</span> <span class="n">ShuffleSplit</span><span class="p">(</span><span class="n">n_splits</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">test_size</span><span class="o">=.</span><span class="mi">2</span><span class="p">,</span><span class="n">random_state</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">outer_cv</span> <span class="o">=</span> <span class="n">StratifiedKFold</span><span class="p">(</span><span class="n">n_splits</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span><span class="n">shuffle</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">random_state</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+
+<span class="n">clf_g</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">clf</span><span class="p">,{</span><span class="s1">&#39;detector__n_neighbors&#39;</span><span class="p">:[</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">]},</span><span class="n">cv</span><span class="o">=</span><span class="n">inner_cv</span><span class="p">)</span>
+
+<span class="n">n_clf_g</span> <span class="o">=</span> <span class="n">make_pipeline</span><span class="p">(</span><span class="n">UniformNoise</span><span class="p">(</span><span class="o">.</span><span class="mi">3</span><span class="p">),</span><span class="n">clf_g</span><span class="p">)</span>            <span class="c1"># Create label noise at the very first step</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">cross_val_score</span><span class="p">(</span><span class="n">n_clf_g</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="n">outer_cv</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>  <span class="c1"># 5-fold cross validation</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+0.9332712311752832
+</pre></div></div>
+</div>
+<p>There are two important things to note here. First, don’t use the <code class="docutils literal notranslate"><span class="pre">Pipeline</span></code> of <code class="docutils literal notranslate"><span class="pre">scikit-learn</span></code>, import from <code class="docutils literal notranslate"><span class="pre">skclean.pipeline</span></code> instead.</p>
+<p>Secondly, a group of noise hanbdlers are iterative: they call the <code class="docutils literal notranslate"><span class="pre">detect</span></code> of noise detectors multiple times (<code class="docutils literal notranslate"><span class="pre">CLNI</span></code>, <code class="docutils literal notranslate"><span class="pre">IPF</span></code> etc). Since they don’t exactly follow the sequential noise detection-&gt;handling pattern, you must pass the detector in the constructor of those <code class="docutils literal notranslate"><span class="pre">Handler</span></code>s.</p>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[5]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">skclean.handlers</span> <span class="kn">import</span> <span class="n">CLNI</span>
+
+<span class="n">clf</span> <span class="o">=</span> <span class="n">CLNI</span><span class="p">(</span><span class="n">classifier</span><span class="o">=</span><span class="n">SVC</span><span class="p">(),</span> <span class="n">detector</span><span class="o">=</span><span class="n">KDN</span><span class="p">())</span>
+</pre></div>
+</div>
+</div>
+<p>All <code class="docutils literal notranslate"><span class="pre">Handler</span></code> <em>can</em> be instantiated this way, but this is a <em>must</em> for iterative ones. (Use <code class="docutils literal notranslate"><span class="pre">iterative</span></code> attribute to check.)</p>
+</div>
+<div class="section" id="Noise-Simulation">
+<h2>Noise Simulation<a class="headerlink" href="#Noise-Simulation" title="Permalink to this headline">¶</a></h2>
+<p>Remember that as a library written primarily for researchers, you’re expected to have access to “true” or “clean” labels, and then introduce noise to training data by flipping those true labels. <code class="docutils literal notranslate"><span class="pre">scikit-clean</span></code> provides several commonly used noise simulators- take a look at <a class="reference internal" href="Noise SImulators.html"><span class="doc">this example</span></a> to understand their differences. Here we mainly focus on how to use them.</p>
+<p>Perhaps the most important thing to remember is that noise simulation should usually be the very first thing you do to your training data. In code below, <code class="docutils literal notranslate"><span class="pre">GridSearchCV</span></code> is creating a validation set <em>before</em> introducing noise and using clean labels for inner loop, leading to information leakage. This is probably NOT what you want.</p>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[6]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">clf</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([</span>
+    <span class="p">(</span><span class="s1">&#39;simulate_noise&#39;</span><span class="p">,</span> <span class="n">UniformNoise</span><span class="p">(</span><span class="o">.</span><span class="mi">3</span><span class="p">)),</span> <span class="c1"># Create label noise at first step</span>
+    <span class="p">(</span><span class="s1">&#39;scale&#39;</span><span class="p">,</span> <span class="n">StandardScaler</span><span class="p">()),</span>          <span class="c1"># Scale features</span>
+    <span class="p">(</span><span class="s1">&#39;feat_sel&#39;</span><span class="p">,</span> <span class="n">VarianceThreshold</span><span class="p">(</span><span class="o">.</span><span class="mi">2</span><span class="p">)),</span>  <span class="c1"># Feature selection</span>
+    <span class="p">(</span><span class="s1">&#39;detector&#39;</span><span class="p">,</span> <span class="n">KDN</span><span class="p">()),</span>                  <span class="c1"># Detect mislabeled samples</span>
+    <span class="p">(</span><span class="s1">&#39;handler&#39;</span><span class="p">,</span> <span class="n">Filter</span><span class="p">(</span><span class="n">SVC</span><span class="p">())),</span>           <span class="c1"># Filter out likely mislabeled samples and then train a SVM</span>
+<span class="p">])</span>
+<span class="n">clf_g</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">clf</span><span class="p">,{</span><span class="s1">&#39;detector__n_neighbors&#39;</span><span class="p">:[</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">]},</span><span class="n">cv</span><span class="o">=</span><span class="n">inner_cv</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">cross_val_score</span><span class="p">(</span><span class="n">clf_g</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="n">outer_cv</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>  <span class="c1"># 5-fold cross validation</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+0.9244216736531594
+</pre></div></div>
+</div>
+<p>You can use noise simulators outside <code class="docutils literal notranslate"><span class="pre">Pipeline</span></code>, all <code class="docutils literal notranslate"><span class="pre">NoiseSimulator</span></code> classes are simple wrapper around functions. <code class="docutils literal notranslate"><span class="pre">UniformNoise</span></code> is a wrapper of <code class="docutils literal notranslate"><span class="pre">flip_labels_uniform</span></code>, as the first example of this document shows.</p>
+</div>
+<div class="section" id="Datasets-&amp;-Performance-Evaluation">
+<h2>Datasets &amp; Performance Evaluation<a class="headerlink" href="#Datasets-&-Performance-Evaluation" title="Permalink to this headline">¶</a></h2>
+<p>Unlike deep learning datasets which tends to be massive in size, tabular datasets are usually lot smaller. Any new algorithm is therefore compared using multiple datasets against baselines. The <code class="docutils literal notranslate"><span class="pre">skclean.utils</span></code> module provides two important functions to help researchers in these tasks:</p>
+<ol class="arabic simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">load_data</span></code>: to load several small to medium-sized preprocessed datasets on memory.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">compare</span></code>: These function takes several algorithms and datasets, and outputs the performances in a csv file. It supports automatic resumption of partially computed results, specially helpful for comparing long running, computationally expensive methods on big datasets.</p></li>
+</ol>
+<p>Take a look at <a class="reference internal" href="Evaluating Robust Methods.html"><span class="doc">this notebook</span></a> to see how they are used.</p>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[ ]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">scikit-clean</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Getting Started:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Scikit-clean</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../user_guide.html">User Guide</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Evaluating Detectors.html">Evaluating Detectors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Evaluating Robust Methods.html">Evaluating Robust Models</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Introduction to Scikit-clean</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Noise SImulators.html">Noise Simulators</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api.html">API Reference</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Additional Information</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../references.html">References</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="../user_guide.html">User Guide</a><ul>
+      <li>Previous: <a href="Evaluating Robust Methods.html" title="previous chapter">Evaluating Robust Models</a></li>
+      <li>Next: <a href="Noise SImulators.html" title="next chapter">Noise Simulators</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Shihab Shahriar Khan.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/examples/Introduction to Scikit-clean.ipynb.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

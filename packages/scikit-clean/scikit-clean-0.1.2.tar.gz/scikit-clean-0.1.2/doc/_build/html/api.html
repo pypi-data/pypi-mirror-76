@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Reference &#8212; scikit-clean 0.1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="skclean.detectors.KDN" href="_autosummary/skclean.detectors.KDN.html" />
+    <link rel="prev" title="Noise Simulators" href="examples/Noise SImulators.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="api-reference">
+<h1>API Reference<a class="headerlink" href="#api-reference" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-skclean.detectors">
+<span id="detectors-skclean-detectors"></span><h2>Detectors (<cite>skclean.detectors</cite>)<a class="headerlink" href="#module-skclean.detectors" title="Permalink to this headline">¶</a></h2>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/skclean.detectors.KDN.html#skclean.detectors.KDN" title="skclean.detectors.KDN"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.detectors.KDN</span></code></a>([n_neighbors, weight, …])</p></td>
+<td><p>For each sample, the percentage of it’s nearest neighbors with same label serves as it’s <cite>conf_score</cite>.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/skclean.detectors.ForestKDN.html#skclean.detectors.ForestKDN" title="skclean.detectors.ForestKDN"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.detectors.ForestKDN</span></code></a>([n_neighbors, …])</p></td>
+<td><p>Like KDN, but a trained Random Forest is used to compute pairwise similarity.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/skclean.detectors.RkDN.html#skclean.detectors.RkDN" title="skclean.detectors.RkDN"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.detectors.RkDN</span></code></a>([n_neighbors, …])</p></td>
+<td><p>For each sample, the percentage of it’s nearest neighbors with same label serves as it’s <cite>conf_score</cite>.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/skclean.detectors.PartitioningDetector.html#skclean.detectors.PartitioningDetector" title="skclean.detectors.PartitioningDetector"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.detectors.PartitioningDetector</span></code></a>([…])</p></td>
+<td><p>Partitions dataset into n subsets, trains a classifier on each.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/skclean.detectors.MCS.html#skclean.detectors.MCS" title="skclean.detectors.MCS"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.detectors.MCS</span></code></a>([classifier, n_steps, …])</p></td>
+<td><p>Detects noise using a sequential Markov Chain Monte Carlo sampling algorithm.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/skclean.detectors.InstanceHardness.html#skclean.detectors.InstanceHardness" title="skclean.detectors.InstanceHardness"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.detectors.InstanceHardness</span></code></a>([…])</p></td>
+<td><p>A set of classifiers are used to predict labels of each sample using cross-validation.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/skclean.detectors.RandomForestDetector.html#skclean.detectors.RandomForestDetector" title="skclean.detectors.RandomForestDetector"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.detectors.RandomForestDetector</span></code></a>([…])</p></td>
+<td><p>Trains a Random Forest first- for each sample, only trees that didn’t select it for training (via bootstrapping) are used to predict it’s label.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="module-skclean.handlers">
+<span id="handlers-skclean-handlers"></span><h2>Handlers (<cite>skclean.handlers</cite>)<a class="headerlink" href="#module-skclean.handlers" title="Permalink to this headline">¶</a></h2>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/skclean.handlers.Filter.html#skclean.handlers.Filter" title="skclean.handlers.Filter"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.handlers.Filter</span></code></a>(classifier[, …])</p></td>
+<td><p>Removes from dataset samples most likely to be noisy.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/skclean.handlers.FilterCV.html#skclean.handlers.FilterCV" title="skclean.handlers.FilterCV"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.handlers.FilterCV</span></code></a>(classifier[, …])</p></td>
+<td><p>For quickly finding best cutoff point for Filter i.e.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/skclean.handlers.CLNI.html#skclean.handlers.CLNI" title="skclean.handlers.CLNI"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.handlers.CLNI</span></code></a>(classifier, detector)</p></td>
+<td><p>Iteratively detects and filters out mislabelled samples unless a stopping criterion is met.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/skclean.handlers.IPF.html#skclean.handlers.IPF" title="skclean.handlers.IPF"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.handlers.IPF</span></code></a>(classifier, detector[, …])</p></td>
+<td><p>Iteratively detects and filters out mislabelled samples unless     a stopping criterion is met.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/skclean.handlers.SampleWeight.html#skclean.handlers.SampleWeight" title="skclean.handlers.SampleWeight"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.handlers.SampleWeight</span></code></a>(classifier[, …])</p></td>
+<td><p>Simply passes <cite>conf_score</cite> (computed with <cite>detector</cite>) as sample weight to underlying classifier.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/skclean.handlers.WeightedBagging.html#skclean.handlers.WeightedBagging" title="skclean.handlers.WeightedBagging"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.handlers.WeightedBagging</span></code></a>([…])</p></td>
+<td><p>Similar to regular bagging- except cleaner samples will be chosen more often during bagging.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/skclean.handlers.Costing.html#skclean.handlers.Costing" title="skclean.handlers.Costing"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.handlers.Costing</span></code></a>([classifier, …])</p></td>
+<td><p>Implements <em>costing</em>, a method combining cost-proportionate rejection sampling and ensemble aggregation.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="module-skclean.models">
+<span id="models-skclean-models"></span><h2>Models (<cite>skclean.models</cite>)<a class="headerlink" href="#module-skclean.models" title="Permalink to this headline">¶</a></h2>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/skclean.models.RobustForest.html#skclean.models.RobustForest" title="skclean.models.RobustForest"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.models.RobustForest</span></code></a>([method, K, …])</p></td>
+<td><p>Uses a random forest to to compute pairwise similarity/distance, and then     a simple K Nearest Neighbor that works on that similarity matrix.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/skclean.models.RobustLR.html#skclean.models.RobustLR" title="skclean.models.RobustLR"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.models.RobustLR</span></code></a>([PN, NP, C, …])</p></td>
+<td><p>Modifies the logistic loss using class dependent (estimated) noise rates     for robustness.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="module-skclean.pipeline">
+<span id="pipeline-skclean-pipeline"></span><h2>Pipeline (<cite>skclean.pipeline</cite>)<a class="headerlink" href="#module-skclean.pipeline" title="Permalink to this headline">¶</a></h2>
+<p>The <code class="xref py py-mod docutils literal notranslate"><span class="pre">imblearn.pipeline</span></code> module implements utilities to build a
+composite estimator, as a chain of transforms, samples and estimators.</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/skclean.pipeline.Pipeline.html#skclean.pipeline.Pipeline" title="skclean.pipeline.Pipeline"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.pipeline.Pipeline</span></code></a>(**kwargs)</p></td>
+<td><p>Sequentially applies a list of transforms and a final estimator.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/skclean.pipeline.make_pipeline.html#skclean.pipeline.make_pipeline" title="skclean.pipeline.make_pipeline"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.pipeline.make_pipeline</span></code></a>(*steps, **kwargs)</p></td>
+<td><p>Construct a Pipeline from the given estimators.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="module-skclean.simulate_noise">
+<span id="noise-simulation-skclean-simulate-noise"></span><h2>Noise Simulation (<cite>skclean.simulate_noise</cite>)<a class="headerlink" href="#module-skclean.simulate_noise" title="Permalink to this headline">¶</a></h2>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/skclean.simulate_noise.flip_labels_uniform.html#skclean.simulate_noise.flip_labels_uniform" title="skclean.simulate_noise.flip_labels_uniform"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.simulate_noise.flip_labels_uniform</span></code></a>(Y, …)</p></td>
+<td><p>All labels are equally likely to be flipped, irrespective of their true     label or feature.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/skclean.simulate_noise.flip_labels_cc.html#skclean.simulate_noise.flip_labels_cc" title="skclean.simulate_noise.flip_labels_cc"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.simulate_noise.flip_labels_cc</span></code></a>(y, lcm)</p></td>
+<td><p>Class Conditional Noise: general version of flip_labels_uniform, a     sample’s probability of getting mislabelled and it’s new (noisy)     label depends on it’s true label, but not features.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/skclean.simulate_noise.UniformNoise.html#skclean.simulate_noise.UniformNoise" title="skclean.simulate_noise.UniformNoise"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.simulate_noise.UniformNoise</span></code></a>(noise_level)</p></td>
+<td><p>All labels are equally likely to be flipped, irrespective of their true     label or feature.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="_autosummary/skclean.simulate_noise.CCNoise.html#skclean.simulate_noise.CCNoise" title="skclean.simulate_noise.CCNoise"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.simulate_noise.CCNoise</span></code></a>([lcm, …])</p></td>
+<td><p>Class Conditional Noise: general version of <cite>flip_labels_uniform</cite>-     a sample’s probability of getting mislabelled and it’s new (noisy)     label depends on it’s true label, but not features.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="_autosummary/skclean.simulate_noise.BCNoise.html#skclean.simulate_noise.BCNoise" title="skclean.simulate_noise.BCNoise"><code class="xref py py-obj docutils literal notranslate"><span class="pre">skclean.simulate_noise.BCNoise</span></code></a>(classifier, …)</p></td>
+<td><p>Boundary Consistent Noise- instances closer to boundary more likely to     be noisy.</p></td>
+</tr>
+</tbody>
+</table>
+<p><a class="reference internal" href="references.html#paper-refs"><span class="std std-ref">References</span></a></p>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">scikit-clean</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Getting Started:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Scikit-clean</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="user_guide.html">User Guide</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-skclean.detectors">Detectors (<cite>skclean.detectors</cite>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-skclean.handlers">Handlers (<cite>skclean.handlers</cite>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-skclean.models">Models (<cite>skclean.models</cite>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-skclean.pipeline">Pipeline (<cite>skclean.pipeline</cite>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-skclean.simulate_noise">Noise Simulation (<cite>skclean.simulate_noise</cite>)</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Additional Information</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="examples/Noise SImulators.html" title="previous chapter">Noise Simulators</a></li>
+      <li>Next: <a href="_autosummary/skclean.detectors.KDN.html" title="next chapter">skclean.detectors.KDN</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Shihab Shahriar Khan.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/api.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

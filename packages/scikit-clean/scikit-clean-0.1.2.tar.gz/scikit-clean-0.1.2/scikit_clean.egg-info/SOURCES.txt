@@ -1,0 +1,224 @@
+LICENSE
+MANIFEST.in
+README.rst
+environment.yml
+setup.py
+doc/Makefile
+doc/api.rst
+doc/conf.py
+doc/contributing.rst
+doc/index.rst
+doc/intro.rst
+doc/make.bat
+doc/references.rst
+doc/requirements.txt
+doc/user_guide.rst
+doc/zrefs.bib
+doc/_autosummary/skclean.detectors.ForestKDN.rst
+doc/_autosummary/skclean.detectors.InstanceHardness.rst
+doc/_autosummary/skclean.detectors.KDN.rst
+doc/_autosummary/skclean.detectors.MCS.rst
+doc/_autosummary/skclean.detectors.PartitioningDetector.rst
+doc/_autosummary/skclean.detectors.RandomForestDetector.rst
+doc/_autosummary/skclean.detectors.RkDN.rst
+doc/_autosummary/skclean.handlers.CLNI.rst
+doc/_autosummary/skclean.handlers.Costing.rst
+doc/_autosummary/skclean.handlers.Filter.rst
+doc/_autosummary/skclean.handlers.FilterCV.rst
+doc/_autosummary/skclean.handlers.IPF.rst
+doc/_autosummary/skclean.handlers.SampleWeight.rst
+doc/_autosummary/skclean.handlers.WeightedBagging.rst
+doc/_autosummary/skclean.models.RobustForest.rst
+doc/_autosummary/skclean.models.RobustLR.rst
+doc/_autosummary/skclean.pipeline.Pipeline.rst
+doc/_autosummary/skclean.pipeline.make_pipeline.rst
+doc/_autosummary/skclean.simulate_noise.BCNoise.rst
+doc/_autosummary/skclean.simulate_noise.CCNoise.rst
+doc/_autosummary/skclean.simulate_noise.UniformNoise.rst
+doc/_autosummary/skclean.simulate_noise.flip_labels_cc.rst
+doc/_autosummary/skclean.simulate_noise.flip_labels_uniform.rst
+doc/_build/doctrees/api.doctree
+doc/_build/doctrees/contributing.doctree
+doc/_build/doctrees/environment.pickle
+doc/_build/doctrees/index.doctree
+doc/_build/doctrees/intro.doctree
+doc/_build/doctrees/references.doctree
+doc/_build/doctrees/user_guide.doctree
+doc/_build/doctrees/_autosummary/skclean.detectors.ForestKDN.doctree
+doc/_build/doctrees/_autosummary/skclean.detectors.InstanceHardness.doctree
+doc/_build/doctrees/_autosummary/skclean.detectors.KDN.doctree
+doc/_build/doctrees/_autosummary/skclean.detectors.MCS.doctree
+doc/_build/doctrees/_autosummary/skclean.detectors.PartitioningDetector.doctree
+doc/_build/doctrees/_autosummary/skclean.detectors.RandomForestDetector.doctree
+doc/_build/doctrees/_autosummary/skclean.detectors.RkDN.doctree
+doc/_build/doctrees/_autosummary/skclean.handlers.CLNI.doctree
+doc/_build/doctrees/_autosummary/skclean.handlers.Costing.doctree
+doc/_build/doctrees/_autosummary/skclean.handlers.Filter.doctree
+doc/_build/doctrees/_autosummary/skclean.handlers.FilterCV.doctree
+doc/_build/doctrees/_autosummary/skclean.handlers.IPF.doctree
+doc/_build/doctrees/_autosummary/skclean.handlers.SampleWeight.doctree
+doc/_build/doctrees/_autosummary/skclean.handlers.WeightedBagging.doctree
+doc/_build/doctrees/_autosummary/skclean.models.RobustForest.doctree
+doc/_build/doctrees/_autosummary/skclean.models.RobustLR.doctree
+doc/_build/doctrees/_autosummary/skclean.pipeline.Pipeline.doctree
+doc/_build/doctrees/_autosummary/skclean.pipeline.make_pipeline.doctree
+doc/_build/doctrees/_autosummary/skclean.simulate_noise.BCNoise.doctree
+doc/_build/doctrees/_autosummary/skclean.simulate_noise.CCNoise.doctree
+doc/_build/doctrees/_autosummary/skclean.simulate_noise.UniformNoise.doctree
+doc/_build/doctrees/_autosummary/skclean.simulate_noise.flip_labels_cc.doctree
+doc/_build/doctrees/_autosummary/skclean.simulate_noise.flip_labels_uniform.doctree
+doc/_build/doctrees/examples/Evaluating Detectors.doctree
+doc/_build/doctrees/examples/Evaluating Robust Methods.doctree
+doc/_build/doctrees/examples/Introduction to Scikit-clean.doctree
+doc/_build/doctrees/examples/Noise SImulators.doctree
+doc/_build/doctrees/nbsphinx/examples_Evaluating_Robust_Methods_14_0.png
+doc/_build/doctrees/nbsphinx/examples_Noise_SImulators_10_0.png
+doc/_build/doctrees/nbsphinx/examples_Noise_SImulators_2_1.png
+doc/_build/doctrees/nbsphinx/examples_Noise_SImulators_4_0.png
+doc/_build/doctrees/nbsphinx/examples_Noise_SImulators_6_0.png
+doc/_build/doctrees/nbsphinx/examples_Noise_SImulators_9_1.png
+doc/_build/doctrees/nbsphinx/examples/Evaluating Detectors.ipynb
+doc/_build/doctrees/nbsphinx/examples/Evaluating Robust Methods.ipynb
+doc/_build/doctrees/nbsphinx/examples/Introduction to Scikit-clean.ipynb
+doc/_build/doctrees/nbsphinx/examples/Noise SImulators.ipynb
+doc/_build/html/.buildinfo
+doc/_build/html/api.html
+doc/_build/html/contributing.html
+doc/_build/html/genindex.html
+doc/_build/html/index.html
+doc/_build/html/intro.html
+doc/_build/html/objects.inv
+doc/_build/html/py-modindex.html
+doc/_build/html/references.html
+doc/_build/html/search.html
+doc/_build/html/searchindex.js
+doc/_build/html/user_guide.html
+doc/_build/html/_autosummary/skclean.detectors.ForestKDN.html
+doc/_build/html/_autosummary/skclean.detectors.InstanceHardness.html
+doc/_build/html/_autosummary/skclean.detectors.KDN.html
+doc/_build/html/_autosummary/skclean.detectors.MCS.html
+doc/_build/html/_autosummary/skclean.detectors.PartitioningDetector.html
+doc/_build/html/_autosummary/skclean.detectors.RandomForestDetector.html
+doc/_build/html/_autosummary/skclean.detectors.RkDN.html
+doc/_build/html/_autosummary/skclean.handlers.CLNI.html
+doc/_build/html/_autosummary/skclean.handlers.Costing.html
+doc/_build/html/_autosummary/skclean.handlers.Filter.html
+doc/_build/html/_autosummary/skclean.handlers.FilterCV.html
+doc/_build/html/_autosummary/skclean.handlers.IPF.html
+doc/_build/html/_autosummary/skclean.handlers.SampleWeight.html
+doc/_build/html/_autosummary/skclean.handlers.WeightedBagging.html
+doc/_build/html/_autosummary/skclean.models.RobustForest.html
+doc/_build/html/_autosummary/skclean.models.RobustLR.html
+doc/_build/html/_autosummary/skclean.pipeline.Pipeline.html
+doc/_build/html/_autosummary/skclean.pipeline.make_pipeline.html
+doc/_build/html/_autosummary/skclean.simulate_noise.BCNoise.html
+doc/_build/html/_autosummary/skclean.simulate_noise.CCNoise.html
+doc/_build/html/_autosummary/skclean.simulate_noise.UniformNoise.html
+doc/_build/html/_autosummary/skclean.simulate_noise.flip_labels_cc.html
+doc/_build/html/_autosummary/skclean.simulate_noise.flip_labels_uniform.html
+doc/_build/html/_images/examples_Evaluating_Robust_Methods_14_0.png
+doc/_build/html/_images/examples_Noise_SImulators_10_0.png
+doc/_build/html/_images/examples_Noise_SImulators_2_1.png
+doc/_build/html/_images/examples_Noise_SImulators_4_0.png
+doc/_build/html/_images/examples_Noise_SImulators_6_0.png
+doc/_build/html/_images/examples_Noise_SImulators_9_1.png
+doc/_build/html/_sources/api.rst.txt
+doc/_build/html/_sources/contributing.rst.txt
+doc/_build/html/_sources/index.rst.txt
+doc/_build/html/_sources/intro.rst.txt
+doc/_build/html/_sources/references.rst.txt
+doc/_build/html/_sources/user_guide.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.detectors.ForestKDN.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.detectors.InstanceHardness.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.detectors.KDN.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.detectors.MCS.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.detectors.PartitioningDetector.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.detectors.RandomForestDetector.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.detectors.RkDN.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.handlers.CLNI.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.handlers.Costing.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.handlers.Filter.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.handlers.FilterCV.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.handlers.IPF.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.handlers.SampleWeight.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.handlers.WeightedBagging.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.models.RobustForest.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.models.RobustLR.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.pipeline.Pipeline.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.pipeline.make_pipeline.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.simulate_noise.BCNoise.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.simulate_noise.CCNoise.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.simulate_noise.UniformNoise.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.simulate_noise.flip_labels_cc.rst.txt
+doc/_build/html/_sources/_autosummary/skclean.simulate_noise.flip_labels_uniform.rst.txt
+doc/_build/html/_sources/examples/Evaluating Detectors.ipynb.txt
+doc/_build/html/_sources/examples/Evaluating Robust Methods.ipynb.txt
+doc/_build/html/_sources/examples/Introduction to Scikit-clean.ipynb.txt
+doc/_build/html/_sources/examples/Noise SImulators.ipynb.txt
+doc/_build/html/_static/alabaster.css
+doc/_build/html/_static/basic.css
+doc/_build/html/_static/custom.css
+doc/_build/html/_static/doctools.js
+doc/_build/html/_static/documentation_options.js
+doc/_build/html/_static/file.png
+doc/_build/html/_static/jquery-3.5.1.js
+doc/_build/html/_static/jquery.js
+doc/_build/html/_static/language_data.js
+doc/_build/html/_static/minus.png
+doc/_build/html/_static/plus.png
+doc/_build/html/_static/pygments.css
+doc/_build/html/_static/searchtools.js
+doc/_build/html/_static/underscore-1.3.1.js
+doc/_build/html/_static/underscore.js
+doc/_build/html/examples/Evaluating Detectors.html
+doc/_build/html/examples/Evaluating Detectors.ipynb
+doc/_build/html/examples/Evaluating Robust Methods.html
+doc/_build/html/examples/Evaluating Robust Methods.ipynb
+doc/_build/html/examples/Introduction to Scikit-clean.html
+doc/_build/html/examples/Introduction to Scikit-clean.ipynb
+doc/_build/html/examples/Noise SImulators.html
+doc/_build/html/examples/Noise SImulators.ipynb
+doc/_templates/autosummary/class.rst
+doc/examples/Evaluating Detectors.ipynb
+doc/examples/Evaluating Robust Methods.ipynb
+doc/examples/Introduction to Scikit-clean.ipynb
+doc/examples/Noise SImulators.ipynb
+scikit_clean.egg-info/PKG-INFO
+scikit_clean.egg-info/SOURCES.txt
+scikit_clean.egg-info/dependency_links.txt
+scikit_clean.egg-info/not-zip-safe
+scikit_clean.egg-info/requires.txt
+scikit_clean.egg-info/top_level.txt
+skclean/__init__.py
+skclean/pipeline.py
+skclean/simulate_noise.py
+skclean/datasets/__init__.py
+skclean/datasets/breast_cancer.csv
+skclean/datasets/iris.csv
+skclean/datasets/optdigits.csv
+skclean/datasets/spambase.csv
+skclean/datasets/vowel.csv
+skclean/detectors/__init__.py
+skclean/detectors/base.py
+skclean/detectors/ensemble.py
+skclean/detectors/neighbors.py
+skclean/handlers/__init__.py
+skclean/handlers/base.py
+skclean/handlers/example_weighting.py
+skclean/handlers/filters.py
+skclean/models/__init__.py
+skclean/models/ensemble.py
+skclean/models/logistic_regression.py
+skclean/models/svm.py
+skclean/tests/__init__.py
+skclean/tests/common_stuff.py
+skclean/tests/test_all_estimators.py
+skclean/tests/test_noise_simulation.py
+skclean/tests/test_pipeline_skclean.py
+skclean/tests/test_pipeline_sklearn.py
+skclean/tests/test_readme.py
+skclean/tests/test_utils.py
+skclean/utils/__init__.py
+skclean/utils/_utils.py
+skclean/utils/noise_generation.py
+skclean/utils/testing.py
