@@ -1,0 +1,37 @@
+html table converter
+
+current version: 1.4.9
+
+--------------------------------------------------------------------------------
+
+1.4 | 2019-09-17
+    - html_2_excel() 新增支持合并单元格
+    - 修复合并单元格时的 rowsplug 问题及可能的隐患
+    - 修复合并单元格引起的 coloffset 偏移问题
+    - clean() 优化清理
+    - clean() 增加中文间的空格清理
+    - html_2_excel() 修复合并单元格引起的 sheet 错乱
+    - html_2_excel() 修正过滤子表的语法问题
+    - get_row_values() 增加对内嵌 value 的 cell 的取值
+    - html_2_excel() 变更 tables 的查找行为
+    - 创建 find_direct_parent(), 支持全新的 table 查找行为
+1.3 | 2019-09-16
+    - 大幅简化 html_2_excel() 方法
+    - html_2_excel() 过滤掉嵌套的 table
+    - html_2_excel() 过滤掉空内容的 table
+1.2 | 2019-06-26
+    - 创建 DetectLink, 使支持 excel 转 html 时对链接显示优化
+    - excel_2_html() 修复 bootstrap 资源未能获取的问题
+    - DetectLink 修复链接检测功能
+1.1 | 2019-06-24
+    - 模块重命名. 由 "html_table_to_excel" 到 "html_table_converter"
+    - main() 函数改为 html_2_excel()
+    - 增加 excel_2_html() 方法
+    - 将 select_table() 和 select_sheet() 集成为主方法的内部函数
+1.0 | 2019-05-17
+    - 当 html 内有多个表时, 提供用户选择
+    - 捕获文件编码错误, 并给予提示
+    - 取消自动添加 index
+    - 修复 soup 元素找不到 class 属性的报错
+    - 优化选择项的内容展示
+    - 支持非 <thead> 类型的 header 获取
