@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+setup.py
+data-source/collocations-schema.sql
+data-source/collocations.csv
+data-source/collocations.sql
+maskouk/__init__.py
+maskouk/collocation_const.py
+maskouk/collocationdictionary.py
+maskouk/collocations.py
+maskouk/data/collocations.sqlite
+maskouk_pysqlite.egg-info/PKG-INFO
+maskouk_pysqlite.egg-info/SOURCES.txt
+maskouk_pysqlite.egg-info/dependency_links.txt
+maskouk_pysqlite.egg-info/requires.txt
+maskouk_pysqlite.egg-info/top_level.txt
