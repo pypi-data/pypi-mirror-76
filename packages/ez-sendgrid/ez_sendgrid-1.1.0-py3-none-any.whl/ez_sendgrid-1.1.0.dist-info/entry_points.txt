@@ -1,0 +1,3 @@
+[console_scripts]
+ez-sendgrid=ez_sendgrid.cmd:main
+
