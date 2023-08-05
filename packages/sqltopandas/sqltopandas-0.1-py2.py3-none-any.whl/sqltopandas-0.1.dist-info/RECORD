@@ -1,0 +1,14 @@
+sql_to_pandas/__init__.py,sha256=TchMh-xSyuwahUDzmD2HuBSX6RRHtBfvHQq0ingnmRg,131
+sql_to_pandas/sql_to_pandas.py,sha256=t2ud5rFi9Oi5rgh19yuPfo2JnulsjDJyeG38gZNDWWE,3452
+sql_to_pandas/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql_to_pandas/helpers/helpers.py,sha256=-LJLxYdqHK0UeMi2nTEz8ye4b25HuBu_vkec3XPHN6U,1115
+sql_to_pandas/helpers/keywords.py,sha256=hs9ak9smbb5yltxz5ilGiXwVtOupBWyekS5PioxCZNY,9747
+sql_to_pandas/select/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql_to_pandas/select/select.py,sha256=l9wyy5J7bA5YcJu6NszBuofQkr4wGquv86YQ8U4U7FA,1710
+sql_to_pandas/where/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sql_to_pandas/where/where.py,sha256=PUrsb5k-q5tG0qIRQ-GtP0_Yw7ISCL1ikiRArgTCxu0,3729
+sqltopandas-0.1.dist-info/LICENSE,sha256=98IGKxmVdkMcBoDRI-EeiqChyksGjvDyjbCrr15fd9w,1072
+sqltopandas-0.1.dist-info/METADATA,sha256=ofkwG2ad_BH384yxJzB8insyJ258BCZCprBY8gjlgQs,3320
+sqltopandas-0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+sqltopandas-0.1.dist-info/top_level.txt,sha256=-ylgFZvblGBueg8ddPO3qebdKn_NZJ5F3obH2XuVyZA,14
+sqltopandas-0.1.dist-info/RECORD,,
