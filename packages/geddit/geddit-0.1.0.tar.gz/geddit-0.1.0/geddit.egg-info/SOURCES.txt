@@ -1,0 +1,8 @@
+README.md
+setup.py
+geddit/__init__.py
+geddit.egg-info/PKG-INFO
+geddit.egg-info/SOURCES.txt
+geddit.egg-info/dependency_links.txt
+geddit.egg-info/requires.txt
+geddit.egg-info/top_level.txt
