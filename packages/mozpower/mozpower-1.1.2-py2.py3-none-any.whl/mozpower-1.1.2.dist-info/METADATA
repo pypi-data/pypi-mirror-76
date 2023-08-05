@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: mozpower
+Version: 1.1.2
+Summary: Mozilla-authored power usage measurement tools
+Home-page: https://wiki.mozilla.org/Auto-tools/Projects/Mozbase
+Author: Mozilla Performance Test Engineering Team
+Author-email: tools@lists.mozilla.org
+License: MPL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: mozdevice (<5,>=4.0.0)
+Requires-Dist: mozlog (>=6.0)
+
+see https://firefox-source-docs.mozilla.org/mozbase/index.html
+
+

@@ -1,0 +1,13 @@
+mozpower/__init__.py,sha256=t0_nhKjXDLdf6_BoKs_yGziCzN0elONrRH05Pa4RKh4,830
+mozpower/intel_power_gadget.py,sha256=d8k7em6Z50Vesgd7EPAdhBPed2QgcldYrU8rUvXeA0Y,33913
+mozpower/macintelpower.py,sha256=obiHpXLpGfb5Sh_t6Ss5nfaCdd0IbESWZlHNHW6R4LI,3516
+mozpower/mozpower.py,sha256=6Du3GeTLV-vvlS9HTRVHnn87pgvdibAMlEh77Tf8bYQ,14112
+mozpower/mozpowerutils.py,sha256=euFnO0xrCQ7DiY_zXR2z4v0GRfoUt9YW2B5aLlBFBOk,1460
+mozpower/powerbase.py,sha256=IItt8NkGcN5eBbe5qJCpQDWjqD4OTA320G8GzRM127I,4022
+mozpower-1.1.2.dist-info/DESCRIPTION.rst,sha256=5Yqp_vL694nYZjK1trFEMN_m1rdrWuqn73XpeU4uQOw,65
+mozpower-1.1.2.dist-info/METADATA,sha256=NJvGCu8XrC4Q-Jlk85TNkiH9xTnjgCLE35Fgc87dV1k,525
+mozpower-1.1.2.dist-info/RECORD,,
+mozpower-1.1.2.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+mozpower-1.1.2.dist-info/entry_points.txt,sha256=FjKvgvGyIyqokCxiGIVCvaGmkWcXwEXZ8W6zk1mtvZQ,37
+mozpower-1.1.2.dist-info/metadata.json,sha256=SOFUamHVaXxC34DdSqTH-J0vT-PpZNvtRliNuMxS3Mc,669
+mozpower-1.1.2.dist-info/top_level.txt,sha256=1RHukFIYVGCseZ36LJMNRPoFnjbxj2a6iNCCxrJ6JLA,9
