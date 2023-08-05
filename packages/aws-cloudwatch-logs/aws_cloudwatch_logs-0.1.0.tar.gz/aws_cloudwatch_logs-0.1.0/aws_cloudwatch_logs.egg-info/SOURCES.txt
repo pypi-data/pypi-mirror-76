@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+aws_cloudwatch_logs/__init__.py
+aws_cloudwatch_logs/_version.py
+aws_cloudwatch_logs/aws_cloudwatch_logs.py
+aws_cloudwatch_logs.egg-info/PKG-INFO
+aws_cloudwatch_logs.egg-info/SOURCES.txt
+aws_cloudwatch_logs.egg-info/dependency_links.txt
+aws_cloudwatch_logs.egg-info/requires.txt
+aws_cloudwatch_logs.egg-info/top_level.txt
+bin/aws_cloudwatch_logs
