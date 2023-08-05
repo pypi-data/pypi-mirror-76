@@ -1,0 +1,6 @@
+[console_scripts]
+sphinx_themes=alagitpull:get_path
+
+[sphinx_themes]
+alagitpull=alagitpull:get_path
+
