@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: dynaperms
+Version: 0.1.0
+Summary: Check complex logic with django's has_perm
+Home-page: https://github.com/raiderrobert/django-dynaperms
+Author: Robert Roskam
+Author-email: raiderrobert@gmail.com

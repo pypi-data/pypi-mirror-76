@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "django_dynaperms"
+version = "0.1.0"
+description = "Check complex logic with django's has_perm"
+authors = ["Robert Roskam <raiderrobert@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django = "^2.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
+pytest-django = "^3.9.0"
+flit = "^2.3.0"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-s --ds=tests.settings"
+testpaths = [
+    "tests/tests.py",
+]
+
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "dynaperms"
+author = "Robert Roskam"
+author-email = "raiderrobert@gmail.com"
+home-page = "https://github.com/raiderrobert/django-dynaperms"
