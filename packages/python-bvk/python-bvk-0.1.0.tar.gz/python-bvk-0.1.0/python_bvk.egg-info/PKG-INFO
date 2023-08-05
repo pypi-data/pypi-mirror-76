@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: python-bvk
+Version: 0.1.0
+Summary: Python library for tracking water consumption from BVK (Brnenske vodarny a kanalizace, bvk.cz)
+Home-page: https://github.com/dankeder/python-bvk
+Author: Dan Keder
+Author-email: dan.keder@protonmail.com
+License: UNKNOWN
+Description: # python-bvk
+        
+        Water conspmution scraper for BVK (Brnenské vodárny a kanalizace, bvk.cz)
+        
+        
+        ## Run scraper:
+        
+        ```
+        scrapy crawl water_consumption
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
