@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/kutil
+kutil/__init__.py
+kutil/kutil.py
+kutil.egg-info/PKG-INFO
+kutil.egg-info/SOURCES.txt
+kutil.egg-info/dependency_links.txt
+kutil.egg-info/requires.txt
+kutil.egg-info/top_level.txt
+kutil/resources/bash_completion.d/kutil
