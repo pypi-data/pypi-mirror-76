@@ -1,0 +1,9 @@
+README.md
+setup.py
+v2ray/__init__.py
+v2ray_auto_config.egg-info/PKG-INFO
+v2ray_auto_config.egg-info/SOURCES.txt
+v2ray_auto_config.egg-info/dependency_links.txt
+v2ray_auto_config.egg-info/not-zip-safe
+v2ray_auto_config.egg-info/requires.txt
+v2ray_auto_config.egg-info/top_level.txt
