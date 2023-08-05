@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: poetry-optional-cython
+Version: 0.1.0
+Summary: Package to demonstrate optional cython extension modules
+License: MIT
+Keywords: poetry,cython,extension
+Author: Titusz Pan
+Author-email: tp@py7.de
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Description-Content-Type: text/markdown
+
+# Poetry with optional Cython extension
+
+This is a python packaging example project.
+
+## Installation
+Install this package with `pip install poetry-optional-cython`.
+
+
+## Running
+Try running the installed command:
+
+```bash
+$ pocy
+### Running as compiled extension ###
+Hello Poetry with optional cython extension
+Calculating fib(36)
+14930352
+```
+
+The first line of the command output will indicate if the cython extension module
+compilation succeeded during installation.
+
+
+
