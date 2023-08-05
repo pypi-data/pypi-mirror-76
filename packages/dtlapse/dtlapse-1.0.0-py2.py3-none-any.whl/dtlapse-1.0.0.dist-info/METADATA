@@ -1,0 +1,457 @@
+Metadata-Version: 2.1
+Name: dtlapse
+Version: 1.0.0
+Summary: Create smooth timelapse videos with darktable
+Home-page: https://gitlab.com/jochen.keil/dtlapse
+Author: Jochen Keil
+Author-email: jochen.keil@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Video
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: attrdict (>=2.0.1)
+Requires-Dist: matplotlib (>=3.1.1)
+Requires-Dist: numpy (>=1.16.4)
+Requires-Dist: scipy (>=1.3.0)
+
+# DtLapse - Create smooth timelapse videos with [darktable](http://www.darktable.org)
+
+#### TOC
+
+[**Introduction**](#introduction)
+
+[**Licensing**](#licensing)
+
+[**Motivational Example**](#motivational-example)
+
+[**Keyframes**](#key-what-keyframes)
+
+[**Workflow**](#workflow)
+
+[**Tl;Dr**](#tldr)
+
+[**Usage Examples**](#usage-examples)
+
+[**Adding more modules**](#adding-more-modules)
+
+[**Tipps & Tricks**](#tipps-tricks)
+
+[**Installation**](#installation)
+
+[**Developers**](#developers)
+
+[**Reference**](#reference)
+
+## Introduction
+
+While timelapse videos can be created from regular video footage a more
+professional approach would be to take a series of still photos. This allows to
+control parameters like exposure length, interval length and thus the [shutter
+angle](https://beyondthetime.net/cinematic-motion-blur-180-rule/). I won't dig
+any deeper here, because this is not the objective of this document and there
+is plenty of information out there.
+
+Now, imagine you have hundreds or even thousands of RAW pictures. All of them
+need some sort of processing and in the non-free world people would quickly turn
+to Lightroom and LRTimelapse which are undoubtly great tools. But not
+everybody's running Windows or MacOS and there are some great open source
+alternatives like [darktable](http://www.darktable.org). What's missing though
+is a tool which, just like LRTimelapse, helps with the editing of all those
+pictures based on keyframes. That's where **dtLapse** comes into play!
+
+A word of warning: This tool does not replace a solid knowledge of *darktable*
+and it's editing workflows. For a starting point I recommend the [darktable
+manual](https://www.darktable.org/resources/), the [darktable-user mailing
+list](https://www.mail-archive.com/darktable-user@lists.darktable.org/) and the
+[pixls.us (inofficial)](https://discuss.pixls.us/) website.
+
+## Licensing
+
+All source files in this repository are distributed under the terms of the
+Gnu General Public License Version 3, or later *unless* otherwise noted.
+
+Please see the file [`LICENSE`](LICENSE) for the full license text.
+
+#### Contributors
+
+Files in the [`iops`](iops) folder can carry their own license information,
+chosen by the author. Since json does not allow comments please use this format:
+
+```
+{ "operation": "exposure"
+, "iopdata": [ { "modversion": 5
+               , "iop_order": 21.0
+               , "smooth": [false, true, true, true, true]
+               , "cformat": "iffff"
+               }
+             ]
+, "help": "Smoothing for the exposure module. The parameters are mode (auto/manual), black point, exposure, deflicker percentile and deflicker target level."
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jochen Keil <jochen.keil@gmail.com>"]
+}
+```
+
+#### Donating
+
+If you like this work, find it useful and would like to donate please use Paypal
+(jochen.keil@gmail.com) or contact me for other means. Thank you very much in
+advance!
+
+#### Commercial use
+
+For commercial use, please contact me (jochen.keil@gmail.com) for custom license
+terms.
+
+This does not affect the use of this software for commercial video or photo
+projects or monetization on YouTube, etc. I would appreciate proper attribution
+and a donation though.
+
+## Motivational Example
+
+Let's assume you've taken a (very short) timelapse consisting of 10 frames. If
+you'd take your pictures as they were using an automatic algorithm (e.g. your
+camera's jpeg routine) you might notice that brightness and color flicker. This
+does not happen always and depends heavily on how well your camera's light meter
+and white balance algorithm works but it happens.
+
+Back to your frames. You start working on your first frame in darktable and once
+you've got a result you're happy with you just copy the entire history stack
+over to your other pictures.
+
+But NO, what just happened? The highlights are blown out and the colors look
+totally off, even stronger for every picture. The lighting conditions changed
+rapidly during your shot and your edit of the first frame doesn't fit your last
+frame. How can you fix that without tediously working on every single frame?
+
+It's actually pretty easy! You just declare frames 1,4,7 and 10 as keyframes, do
+your editing there and interpolate the module parameters for 2,3,5,6,8 and 9.
+So, instead of editing 10 frames, you're now down to 4.
+
+## Key-what? (Keyframes)
+
+A **keyframe** is a special frame (photo, picture) which has been picked in
+advance to represent a set of similar pictures. This sounds complicated at first
+but actually it's pretty simple. When you open up *darktable* and load your
+stills you're presented with thumbnails for all of them. Now you can select
+every Nth frame and tag them. For example `Keyframe`, which is the default
+*dtLapse* will look for, but you can also use a different tag. The amount of
+keyframes depends on the amount of work you're willing to put into your
+timelapse and most importantly how rapidly the light changes. For around 1300
+pictures I've had good success with 30 to 40 keyframes. You can also add more
+keyframes for time spans where the light changes quickly, e.g. sunrise or sunset
+and fewer for very constant footage. Always ensure to include the very first and
+the last frame!
+
+## Workflow
+
+Now that you've got a bunch of keyframes you can start working on them
+individually. Use the `collect image` module to narrow down to your keyframes
+only.
+
+First thing you might want to fix is the `white balance`. Color temperature
+usually only changes for day-to-night or night-to-day shots, so be sure to put
+an emphasis here if you captured that. In addition, sometimes the auto white
+balance mode of (at least my) camera fails which can result in ugly color
+flicker. To fix this, adjust the color balance for all your keyframes to get
+a consistent look across them.
+
+Next thing would be `exposure`. Here, too, flicker is the main problem, e.g.
+when your camera adjust exposure time or ISO too rapidly or even randomly.
+I recommend to use *darktable*'s auto exposure mode and start from there. Again,
+aim for a consistent look throughout your keyframes.
+
+Now that the basics are fixed you can start to use `filmicrgb` to adjust shadows
+and highlights. After that I usually carry on with `local contrast`, `rgb
+curve`, `color balance`, `vibrance` and `velvia`. For extreme cases of bright
+and dark scenes `graduatednd` might help, but usually `filmicrgb` does a better
+job. As above, aim for a consistent look across your keyframes.
+
+Once you are happy with the look of your keyframes, make sure to save all the
+XMPs (`write sidecar files`). Now you can close *darktable* (or minimize it) and
+open a terminal. Navigate to the directory which holds your XMP files and run
+*dtLapse* with the `--plot` option:
+
+```
+$ dtlapse temperature --xmps ${my_xmps} --plot
+```
+
+(This requires your keyframes to be tagged with `Keyframe`. If that's not the
+case you can use either the `--keyframe-tag` option to specify a different
+keyframe or specify the keyframes manually with the `--keyframes` option.)
+
+Now you should see a window with a plotted curve of the interpolated and
+smoothed values between your keyframes. If you're happy with the result, close
+the window and run *dtLapse* again without the `--plot` option:
+
+```
+$ dtlapse temperature --xmps ${my_xmps}
+```
+
+*DtLapse* will now write the calculated values to the XMP files. If you did not
+specify the `--no-backup` option then every XMP will be copied with a `.bkp`
+suffix.
+
+Repeat this for every module you've made modifications with and which is
+supported by *dtLapse*. For a list of supported modules run `dtlapse --help` or
+look into the `iops` directory.
+
+Finally, you need to reload the XMP files in *darktable*. Just re-import all
+pictures from your timelapse and *darktable* should pick up the changes. If that
+does not work you close *darktable* before running *dtlapse*. If you still
+experience problems, make sure that *darktable* does not give precedence to it's
+database rather than the XMP files.
+
+## Tl;Dr
+
+1. Load your timelapse pictures in *darktable*.
+2. Pick some keyframes. Always include the very first and the last frame.
+3. Tag you keyframes, e.g. with `Keyframe`.
+4. Edit your keyframes using the modules supported by *dtLapse*.
+5. Save the XMP sidecar files (`write sidecar files`) or close *darktable*.
+6. Run *dtLapse* with the `--plot` switch, check the curve and (if necessary)
+   tweak it using the `--interpolation`, `--smooth` and `--window` & `--order`
+   parameters.
+7. Once you're happy with the graph, run *dtLapse* without the `--plot` switch
+   to apply the modifications to your XMP files.
+8. Reload your pictures (`import` module) or open up *darktable* again.
+9. Check if you like the result.
+10. Export your pictures or tweak your keyframes and run *dtLapse* again.
+
+## Usage examples
+
+```
+$ dtlapse temperature --xmps ${my_xmps} --plot
+```
+Plot a graph of the interpolated values for the temperature module.
+
+```
+$ dtlapse temperature --xmps ${my_xmps} --interpolation cubic --plot
+```
+Use a different interpolation algorithm instead of the default `quadratic`.
+
+```
+$ dtlapse temperature --xmps ${my_xmps} --smooth --plot
+```
+Add smoothing to the interpolated values and plot the graph again.
+
+```
+$ dtlapse temperature --xmps ${my_xmps} --smooth --window 101 --order 5 --plot
+```
+Adjust smoothing parameters and plot the graph.
+
+```
+$ dtlapse temperature --xmps ${my_xmps} --keyframe-tag MyKeyframeTag --dry-run
+```
+Use a different tag instead of the default `Keyframe`.
+
+```
+$ dtlapse temperature --xmps ${my_xmps} --keyframes ${my_keyframe_xmps} --dry-run
+```
+Specify keyframes manually without the use of a tag.
+
+## Adding more modules
+
+Adding modules is actually pretty easy. Let's assume there's a module you'd like
+to add. Go to *darktable*'s git repository, find the module in the `src/iop`
+directory and open the file, for example `exposure.c`. There you will find
+a data structure called `dt_iop_exposure_params_t`. For the `temperature` module
+it's called `dt_iop_temperature_params_t`. You get the idea. Now, when you look
+at the `iops/exposure.json` in this repository you'll see a data entry called
+`smooth` and `cformat`. The `smooth` field contains a list of boolean values
+which tell *dtLapse* whether the parameter should be interpolated and smoothed
+or not. For example in the `exposure` module the first data value is a switch
+for the module mode which we do not want to be interpolated. Hence it's set to
+false. The `cformat` field species the data value types for the struct.  For the
+`exposure` module it's `int`, `float`, `float`, `float` and `float` (`iffff`).
+Check pythons `struct` module for
+[documentation](https://docs.python.org/3/library/struct.html) on how to specify
+types. Finally you'll need the proper name of the module for the `operation`
+data field, the `modversion` and the `iop_order`. The `modversion` for a certain
+darktable release can be found in a macro called `DT_MODULE_INTROSPECTION` in
+the module source file. The `modversion` is especially important to distinguish
+between different module version with different parameter sets. New versions can
+be easily added to the `iopdata` list. For the `iop_order` I have not found
+a better way than to look at an XMP file. Finally, please write a somewhat
+meaningful help text.  Drop your now module.json file into the `iops` folder and
+it should be available.
+
+```
+DT_MODULE_INTROSPECTION(5, dt_iop_exposure_params_t)
+```
+
+For more complex modules and parameters python's eval mode can be used to
+specify `smooth` and `cformat`. Just prefix the string with `eval:`. For an
+example, take a look at `filmicrgb.json`.
+
+```
+typedef struct dt_iop_exposure_params_t
+{
+  dt_iop_exposure_mode_t mode; // $DEFAULT: EXPOSURE_MODE_MANUAL
+  float black;    // $MIN: -1.0 $MAX: 1.0 $DEFAULT: 0.0 $DESCRIPTION: "black level correction"
+  float exposure; // $MIN: -18.0 $MAX: 18.0 $DEFAULT: 0.0
+  float deflicker_percentile;   // $MIN: 0.0 $MAX: 100.0 $DEFAULT: 50.0 $DESCRIPTION: "percentile"
+  float deflicker_target_level; // $MIN: -18.0 $MAX: 18.0 $DEFAULT: -4.0 $DESCRIPTION: "target level"
+  int compensate_exposure_bias; // $DEFAULT: FALSE
+} dt_iop_exposure_params_t;
+```
+
+<pre>
+&lt;rdf:li
+ darktable:num="6"
+ darktable:operation="exposure"
+ darktable:enabled="0"
+ darktable:modversion="5"
+ darktable:params="0100000000000000000000000000484248e18ac0"
+ darktable:multi_name=""
+ darktable:multi_priority="0"
+ <b>darktable:iop_order="21.0000000000000"</b>
+ darktable:blendop_version="9"
+ darktable:blendop_params="gz11eJxjYGBgkGAAgRNODGiAEV0AJ2iwh+CRyscOAAdeGQQ="/>
+</pre>
+
+```
+{ "operation": "exposure"
+, "iopdata": [ { "modversion": 5
+               , "iop_order": 21.0
+               , "smooth": [false, true, true, true, true]
+               , "cformat": "iffff"
+               }
+             ]
+, "help": "Smoothing for the exposure module. The parameters are mode (auto/manual), black point, exposure, deflicker percentile and deflicker target level."
+}
+```
+
+## Tipps & Tricks
+
+- Every image must have an existing XMP file. Run *darktable* first, then
+  *dtLapse*.
+
+- Include the first and the last frame in your keyframes!
+
+- Every keyframe must have the module enabled you're planing to use, even if you
+  leave it at default settings. For the rest of the images it's not necessary.
+
+- If you want to use multiple modules, simply use a `for` loop:
+
+``` zsh
+for op in exposure temperature filmicrgb; do
+  dtlapse ${op} --xmps ${xmps}
+done
+```
+
+- The `--xmp` parameter does only accept XMP files. You can use shell globbing
+  to match all your files. Either copy all pictures to particular folder and use
+  `--xmps *.xmp`, or (like I do) leave a your camera's sequence number in the
+  filename and use something like `--xmps *{00013..00314}.xmp`.
+
+- If darktable is acting strangly or overwrites your XMPs, run it without the
+  database: darktable --library :memory:
+
+- Suppose you have all your timelapse pictures (and nothing else) in one folder,
+  e.g. /path/to/my/timelapse.  Then you just do this:
+
+``` zsh
+$ cd /path/to/my/timelapse
+$ darktable .
+# or
+$ darktable *.arw # *.nef *.cr2 or what you're using
+# edit edit edit
+$ dtlapse ${operation} --xmps *.xmp # --plot --smooth --window --order etc
+$ darktable . # or ..
+```
+
+## Installation
+
+Install it from [PyPI](https://pypi.org/project/dtlapse/) via `pip`!
+
+```
+pip install --user --upgrade dtlapse
+```
+
+or
+
+```
+pip3 install --user --upgrade dtlapse
+```
+
+or
+
+```
+python3 -m pip install --user --upgrade dtlapse
+```
+
+## Developers
+
+#### Setting up a virtual environment for python
+
+Make sure that you have `venv` installed. Either using `pip`:
+
+```
+$ pip install venv
+```
+
+Or with your favorite package manager, e.g.:
+
+```
+$ apt install python3-venv
+```
+
+```
+$ python3 -m venv env
+$ source env/bin/activate
+$ pip install -r requirements.txt
+```
+
+#### Building and Uploading a package to PyPI
+
+> https://packaging.python.org/tutorials/packaging-projects/
+
+```
+python3 -m pip3 install setuptools wheel
+python3 setup.py sdist bdist_wheel --universal
+python3 -m twine upload --repository testpypi dist/*
+```
+
+## Reference
+#### Modules
+
+| Module | Description |
+| --- | --- |
+| temperature | Smoothing for the temperature (white balance) module. The parameters temperature coefficients. |
+| rgbcurve | Smoothing for the rgbcurve module. The parameters are the actual nodes for each curve (120 floats), number of nodes per curve (3 ints), curve type (3 ints), autoscale, middle grey scaling and color preservation. |
+| colorbalance | Smoothing for the colorbalance module. The parameters are mode, lift[4], gamma[4], gain[4], saturation, contrast, grey and saturation_out. |
+| vibrance | Smoothing for the vibrance module. The only parameter is the amount.
+| velvia | Smoothing for the velvia module. The parameters are strength and bias. |
+| bilat | Smoothing for the bilat (local contrast) module. The parameters are mode, sigma_r, sigma_s, detail and midtone. |
+| exposure | Smoothing for the exposure module. The parameters are mode (auto/manual), black point, exposure, deflicker percentile and deflicker target level. |
+| filmicrgb | Smoothing for the filmicrgb module. The parameters are grey point source, black point source, white point source, security factor, grey point target, black point target, white point target, output power, latitude, contrast, saturation, balance and color preservation |
+| graduatednd | Smoothing for the graduatednd module. The parameters are density, hardness, rotation, offset, hue and saturation. |
+| toneequal | Smoothing for the tone equalizer module. The 9 exposure parameters are smoothed, masking parameters are copied. |
+| hotpixels | Copy hot pixels module settings. |
+| hazeremoval | Copy haze removal module settings. The parameters are strength and distance |
+| demosaic | Copy demosaic module settings. |
+| highlights | Copy highlight module settings. |
+| lens | Copy lens correction module settings. |
+
+#### Parameters
+
+| Parameter | Description |
+| --- | --- |
+| `--dry-run` | Do not modify XMP files. |
+| `--no-backup` | By default all XMP files will be copied to a new file with the suffix "*.bkp".  Use this flag to disable this behaviour. |
+| `--plot` | Plot a graph for fine tuning parameters. XMPs will not be modified. |
+| `--xmps` | XMP files. Mandatory. |
+| `--keyframes` | A list of XMP files which serve as keyframes. If this is used, keyframe tags will be ignored, even if specified with the --keyframe-tag switch. |
+| `--keyframe-tag` | Tag used for selecting Keyframes. Default: "Keyframe". |
+| `--interpolation` | Interpolation method. One of linear, nearest, zero, slinear, quadratic, cubic, previous, next. See scipy.interpolate.interp1d documentation for details.  Default: quadratic. |
+| `--smooth` | Use a Savitzky-Golay filter to smooth the data points. Use --window and --order to fine tune the result. |
+| `--window` | Window size for the smoothing filter. Must be odd. Default: length of input values. Greater values result in more smoothing. |
+| `--order` | The order of the polynom for the filter function. Smaller values result in more smoothing. Default value: 3. |
+
+

@@ -1,0 +1,11 @@
+{ "operation": "velvia"
+, "iopdata": [ { "modversion": 2
+               , "iop_order": 56.0
+               , "smooth": [true, true]
+               , "cformat": "ff"
+               }
+             ]
+, "help": "Smoothing for the velvia module. The parameters are strength and bias."
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jochen Keil <jochen.keil@gmail.com>"]
+}
