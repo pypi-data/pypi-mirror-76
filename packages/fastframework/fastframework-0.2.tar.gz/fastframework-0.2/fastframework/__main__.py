@@ -1,0 +1,2 @@
+import fastframework
+fastframework.run()
