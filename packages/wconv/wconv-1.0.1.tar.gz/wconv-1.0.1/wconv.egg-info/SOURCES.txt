@@ -1,0 +1,14 @@
+README.md
+setup.py
+bin/wconv
+wconv/__init__.py
+wconv/ace.py
+wconv/sddl.py
+wconv/sid.py
+wconv/uac.py
+wconv.egg-info/PKG-INFO
+wconv.egg-info/SOURCES.txt
+wconv.egg-info/dependency_links.txt
+wconv.egg-info/requires.txt
+wconv.egg-info/top_level.txt
+wconv/resources/bash_completion.d/wconv
