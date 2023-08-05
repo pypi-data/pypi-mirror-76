@@ -1,0 +1,9 @@
+cfed/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cfed/pairwise.py,sha256=j5pqVvCidrXb3QZkv6CF3R8K3fsZX7sFRYP_AKlOE6I,4887
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pairwise.py,sha256=Rm1A8Gyakx67KucG5lUKu8TI03JuLk5OOG8K9a_GeCc,11137
+cfed-1.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+cfed-1.1.dist-info/METADATA,sha256=75CRnNWvWevy2yhulPRV_or3JXohUbGfBhDZPvCYCoc,3650
+cfed-1.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+cfed-1.1.dist-info/top_level.txt,sha256=s-N389EHL8JogtZBmJgH6pv6HTjIGKT-viC2_l_heM8,11
+cfed-1.1.dist-info/RECORD,,
