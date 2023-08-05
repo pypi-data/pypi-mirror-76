@@ -1,0 +1,9 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+NeuralWaveFunction.egg-info/PKG-INFO
+NeuralWaveFunction.egg-info/SOURCES.txt
+NeuralWaveFunction.egg-info/dependency_links.txt
+NeuralWaveFunction.egg-info/top_level.txt
+nwf/__init__.py
