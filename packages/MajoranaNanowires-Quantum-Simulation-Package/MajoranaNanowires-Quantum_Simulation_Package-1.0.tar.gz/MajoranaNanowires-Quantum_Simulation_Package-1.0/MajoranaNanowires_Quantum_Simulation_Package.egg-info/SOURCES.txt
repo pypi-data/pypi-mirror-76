@@ -1,0 +1,6 @@
+README.md
+setup.py
+MajoranaNanowires_Quantum_Simulation_Package.egg-info/PKG-INFO
+MajoranaNanowires_Quantum_Simulation_Package.egg-info/SOURCES.txt
+MajoranaNanowires_Quantum_Simulation_Package.egg-info/dependency_links.txt
+MajoranaNanowires_Quantum_Simulation_Package.egg-info/top_level.txt
