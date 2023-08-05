@@ -1,0 +1,10 @@
+artella/__init__.py,sha256=b4ew1taJzo-7bGrcdWLDwxbxq1uuH8J5I3dDk5c-oaY,233
+artella/installer/__init__.py,sha256=NrAuz4giXOZm53rdAKmjSNMUfvSpzQ-9EPO_dUp9T1U,243
+artella/installer/maya/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+artella/installer/maya/__version__.py,sha256=318xFA80Jq48_5z0XtS_qCgEK-v9lZ48rhVcz4wB338,404
+artella/installer/maya/_version.py,sha256=i2MVBTfKegcMYJ7JSMwr-6VefTKbij_SKE2W31dM-K8,497
+artella/installer/maya/artella-installer.json,sha256=DgM-VHcJ8JZ6QNuripLmwUpQkJcr_lTTBjM9YPLCG54,1343
+artella_installer_maya-0.0.3.dist-info/METADATA,sha256=m3By77s6zcz3K0e9s6EuXz9kcvI1WRhSiU_iSzUypD8,1132
+artella_installer_maya-0.0.3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+artella_installer_maya-0.0.3.dist-info/top_level.txt,sha256=NnoWVGQT8tbR7-MPmmFjKXf7g9uida070td-UlgJJac,8
+artella_installer_maya-0.0.3.dist-info/RECORD,,

@@ -1,0 +1,46 @@
+{
+  "plugins": [
+    {
+      "repo": "artella/artella-plugins-core",
+      "name": "Artella Core",
+      "description": "Core Artella plugin functionality.",
+      "optional":  false
+    },
+    {
+      "repo": "artella/artella-dccs-maya",
+      "name": "Artella Maya",
+      "description": "Autodesk Maya plugin functionality",
+      "optional":  false
+    },
+    {
+      "repo": "artella/artella-plugins-savetocloud",
+      "name": "Save to Cloud",
+      "description": "Artella Plugin that allows to upload new file version directly within DCC",
+      "optional":  true
+    },
+    {
+      "repo": "artella/artella-plugins-getdependencies",
+      "name": "Get Dependencies",
+      "description": "Artella Plugin that allows to recursively download all dependencies of a DCC file",
+      "optional": true
+    },
+    {
+      "repo": "artella/artella-plugins-uninstaller",
+      "name": "Artella Uninstaller",
+      "description": "Artella Plugin that allows to uninstall Artella DCC plugin in an easy way",
+      "optional": false
+    },
+    {
+      "repo": "artella/artella-plugins-about",
+      "name": "About",
+      "description": "Artella Plugin that allows to show information about the current installed Artella plugins.",
+      "optional": false
+    }
+  ],
+  "supported_versions": [
+    "2017",
+    "2018",
+    "2019",
+    "2020"
+  ]
+}
