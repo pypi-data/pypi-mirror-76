@@ -1,0 +1,16 @@
+govyn/__init__.py,sha256=DL1d8fH631BNYN7bLILg44IK7hu5R7GFfOd7BOVZQ3E,1642
+govyn/auth.py,sha256=cOHClITIbHFiPOtrqWGhpIVZnYcYApcl4-CPvYqHk2U,1434
+govyn/endpoint.py,sha256=nGavYnmfeModnduP7Zu9FzxBlXa4j02emzQtvyeK6u0,1528
+govyn/errors.py,sha256=dRzk8RpjqOCKW3vJ1CPgJE-qUcHho2M1O3iS5azwxwE,1041
+govyn/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+govyn/route_def.py,sha256=gxMQfoEw3pRtePbnU2Y3da7_V1Y8XG3D_y6JI6kXb9I,1931
+govyn/schemas.py,sha256=W9NxYWeeAbirZ_nXRczC3HRUepNFKycRaMgXozuzrBQ,2361
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_auth.py,sha256=d3OSD1dYVd0dJCgXE8MQvfa3lSSa_1fGGKjhjgso44o,1541
+tests/test_init.py,sha256=4WLnO9_GpbHflosdcDg_K6R0ateNhhDP1VdsXQzWz9Y,715
+tests/test_types.py,sha256=Embd2RkzcmvN2xn4dL42j_KXVeKuwu6TKCEhLKuzmXA,4661
+govyn-0.1.2.dist-info/METADATA,sha256=Jmb3MI49C_cz6JuiwYUts7tQ69k3NmaCgoaDDWOVkS4,2458
+govyn-0.1.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+govyn-0.1.2.dist-info/licence,sha256=SntP3Tp48D8-eflMGTcI0-E_J0qKEO6RxTy5UMOjuTM,1085
+govyn-0.1.2.dist-info/top_level.txt,sha256=UwWlsBFTw2IYaa_xwhmOzlDUMxO2OAnZnhOVLRr8B-M,12
+govyn-0.1.2.dist-info/RECORD,,
