@@ -1,0 +1,2 @@
+include docs/textparsingtools.html
+include example/textparsingtools_demo.py

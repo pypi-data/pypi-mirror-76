@@ -1,0 +1,1241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.8.1" />
+<title>textparsingtools API documentation</title>
+<meta name="description" content="This module contains functions that allow parsing of whitespace-separated text files." />
+<link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css' rel='stylesheet'>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/8.0.0/sanitize.min.css' rel='stylesheet'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" rel="stylesheet">
+<style>.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>textparsingtools</code></h1>
+</header>
+<section id="section-intro">
+<p>This module contains functions that allow parsing of whitespace-separated text files.</p>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">&#34;&#34;&#34;This module contains functions that allow parsing of whitespace-separated text files.&#34;&#34;&#34;
+import os
+import re
+import xlsxwriter
+
+def build_header(names, variables):
+    &#34;&#34;&#34;Builds a header for a dataset where columns consist of repeating 
+    variables for a list of names/categories.
+
+    ### Parameters
+    1. names : list
+        - a list containing names of data categories
+    2. variables : list
+        - a list of repeating variables
+
+    ### Returns
+    - list
+        - a nested list containing two header rows, where the first
+          consists of &lt;names&gt; listed sequentially every n elements, and
+          the second consists of cyclic repetition of n &lt;variables&gt;
+    &#34;&#34;&#34;
+    header = [[],[]]
+    for i in range(len(names)*len(variables)):
+        if i % len(variables) == 0:
+            # print(int(i/vars_per_name), len(names))
+            header[0].append(names[int(i/len(variables))])
+        else:
+            header[0].append(&#39;&#39;)
+        header[1].append(variables[i % len(variables)])
+    return header
+
+def trim_lines(lines, data_begin_str, data_end_str):
+    &#34;&#34;&#34;Trims a list of lines of text based on strings bounding desired content
+
+    ### Parameters
+    1. lines : list
+        - a list containing each line of text
+    2. data_begin_str : str
+        - a string found in a line at the beginning of the desired data
+    3. data_end_str: str
+        - a string found in a line at the end of the desired data
+
+    ### Returns
+    - list
+        - a list of lines of text, trimmed according to the specified
+          bounds
+    &#34;&#34;&#34;
+    # TODO: Rewrite this more efficiently, possibly copying from get_text_data.
+
+    trimmed_lines = []
+    reading_data = False
+    line_number = 0
+    while line_number &lt; len(lines):
+        # if debug and line_number % 1000 == 0:
+            # print(&#39;Reading line:&#39;, file_lines[line_number])
+        line = lines[line_number]
+
+        if line.find(data_begin_str) != -1:
+            reading_data = True
+        elif line.find(data_end_str) != -1:
+            reading_data = False
+
+        if reading_data:
+            trimmed_lines.append(line)
+
+        line_number += 1
+    return trimmed_lines
+
+def get_dpm_flow_time(lines):
+    &#34;&#34;&#34;Creates a list of flow time for each dpm report in text from a Fluent transcript file
+
+    ### Parameters
+    1. lines : list
+        - a list of lines of a Fluent transcript file
+    
+    ### Returns
+    - list
+        - a list of flow times corresponding with each dpm report
+    &#34;&#34;&#34;
+    last_match = []
+    flow_time_list = []
+    
+    time_regex = re.compile(r&#34;Flow time = ((\d|\.)+)&#34;)
+    report_regex = re.compile(r&#34;-\n&#34;)
+
+    for line in lines:
+        match_flow_time = time_regex.search(line)
+        match_report = report_regex.search(line)
+        if match_flow_time:
+            flow_time = match_flow_time.group(1)
+            last_match = &#39;flow_time&#39;
+        if match_report and last_match == &#39;flow_time&#39;:
+            flow_time_list.append(flow_time)
+            last_match = &#39;report&#39;
+    
+    return flow_time_list
+
+def get_injection_groups(lines):
+    &#34;&#34;&#34;Creates a list of injection group numbers in dpm reports within text from a Fluent transcript file
+
+    ### Parameters
+    1. lines : list
+        - a list of lines of a Fluent transcript file
+    
+    ### Returns
+    - list
+        - a list of injection group numbers in string format
+    &#34;&#34;&#34;
+    injection_group_list = []
+
+    regex = re.compile(r&#34;injection-(\d+)&#34;)
+
+    for line in lines:
+        match = regex.search(line)
+        if match and (len(injection_group_list) == 0 or not match.group(1) == injection_group_list[-1]):
+            injection_group_list.append(match.group(1))
+    
+    return injection_group_list
+
+def get_text_data(lines, data_begin_str, data_end_str, *column_numbers, separate_data = True, transpose_data=False, return_type=str, data_begin_offset=1):
+    &#34;&#34;&#34;Extracts whitespace-separated strings from lines of text
+
+    Use www.regex101.com to test regex strings.
+
+    ### Parameters 
+    1. lines : list
+        - a list containing each line of the text
+    2. data_begin_str : str
+        - a regex raw string found before data begins. Be sure to properly
+          escape special characters.
+    3. data_end_str : str
+        - a regex raw string found in the line immediately after data ends. Be
+          sure to properly escape special characters.
+    4. *column_numbers : int
+        - a variable-length list of column numbers (beginning with 0) pointing
+          to desired data
+    5. separate_data : bool, (default True)
+        - a flag to indicate whether &#34;chunks&#34; of data (found between
+          `data_begin_str` and `data_end_str`) should be demarkated with blank
+          rows.
+    6. transpose_data : bool, (default False)
+        - a flag to indicate whether data should be transposed from a list of
+          rows to a list of columns
+    7. data_begin_offset : int, (default 1)
+        - the number of lines to skip after data_begin_str before beginning
+          reading data
+
+    ### Returns
+    - list
+        - a list of lists of the data
+    &#34;&#34;&#34;
+    # TODO: Add option to return number instead of string 
+    # TODO: Remove blank row if only one chunk is read
+    # TODO: Update documentation (and code if necessary) to indicate regex
+    # string can occur anywhere, not just at start of line
+    # TODO: Fix column number weirdness
+    data = []
+    reading_data = False
+
+    lines_iter = iter(lines)
+    for line in lines_iter:
+        if re.search(data_begin_str, line):
+            reading_data = True
+            for _ in range(data_begin_offset-1):
+                next(lines_iter)
+            continue
+        elif reading_data == True and re.match(data_end_str, line):
+            reading_data = False
+            # Appends a blank row to divide data
+            if separate_data:
+                data.append([[]]*len(column_numbers))
+            continue
+
+        if reading_data:
+            # Uses regex to decompose line into whitespace-separated
+            # values, then takes the columns corresponding to
+            # column_numbers
+            data.append([re.findall(r&#34;(\S+)&#34;, line)[col] for col in column_numbers])
+    
+    data = [list(map(return_type, row)) for row in data]
+
+    # NOTE: Possible inconsistent results with only 1 column
+    if transpose_data:
+        return [list(i) for i in zip(*data)]
+    else:
+        return data
+
+def get_user_input(prompt, acceptable_answers):
+    &#34;&#34;&#34;Prompts and records user input within a list of acceptable answers.
+
+    ### Parameters
+    1. prompt : str
+        - the prompt that will be displayed to the user
+    2. acceptable_answers : list
+        - a list of allowable answers
+    
+    ### Returns
+    - str
+        - a string containing the user&#39;s input
+    &#34;&#34;&#34;
+    answer = input(prompt)
+    while answer not in acceptable_answers:
+        print(&#39;Please enter a response from the following list:&#39;, acceptable_answers)
+        answer = input()
+    return answer
+
+def interleave_datasets(names, *data):
+    &#34;&#34;&#34;Shuffles multiple datasets together such that order is preserved.
+
+    This function accepts multiple datasets which are ordered in groups of
+    variables corresponding with an ordered list of names. For example, data
+    could consist of lists [name1_var1], [name1_var2], [name2_var1],
+    [name2_var2], etc. An input data list must have contain an equal number of
+    variables for all values in names (in order). Different input data lists may
+    have different numbers of variables (though each list must have a consistent
+    number within), but each list must represent values of the same names in the
+    same order. The function will output a single list containing, in order, all
+    values for each variable. Continuing the above example, if a second data
+    list were input containing [name1_var3], [name2_var3], etc., the output
+    would be [name1_var1], [name1_var2], [name1_var3], [name2_var1],
+    [name2_var2], [name2_var3], etc.
+
+    ### Parameters
+    1. names : list
+        - a list of names/categories portrayed by each dataset. Only the length
+          of this is used to determine how many elements to take from each
+          dataset at a time.
+    2. *data : list
+        - lists of all datasets to combine
+
+    ### Returns
+    - list
+        - a list of all combined data
+    &#34;&#34;&#34;
+    out_data = []
+    for index in range(len(names)):
+        for dataset in data:
+            var_count = int(len(dataset)/len(names))
+            [out_data.append(cell) for cell in dataset[index*var_count:(index+1)*var_count]]
+    return out_data
+
+def recursively_replace(text, replacement_strings, max_iterations=100):
+    &#34;&#34;&#34;Performs recursive find-and-replace on input text.
+
+    ### Parameters
+    1. text : str
+        - the text on which to perform replacement
+    2. replacement_strings : list
+        - a list of strings and their replacements, ordered like: [string1,
+          replacement1, string2, replacement2,...]
+    3. max_iterations : int, (default = 100)
+        - the maximum iterations to perform for a single replacement.
+
+    ### Returns
+    - str
+        - the result of the replacement operation
+    &#34;&#34;&#34;
+        #print(&#34;Replacing &#39;&#34; + old_chars + &#34;&#39; with &#39;&#34; + new_chars + &#34;&#39; in string: &#39;&#34; + string + &#34;&#39;&#34;)
+    for replacement_set in replacement_strings:
+        # print(replacement_set)
+        counter = 0
+        old_chars = replacement_set[0]
+        new_chars = replacement_set[1]
+        
+        if new_chars.find(old_chars) != -1:
+            print(&#39;Error in recursively_replace: new_chars contains old_chars. Infinite loop will occur.&#39;)
+        
+        while text.find(old_chars) != -1:
+            text = text.replace(old_chars, new_chars)
+            counter += 1
+            if counter &gt; max_iterations:
+                print(&#39;Error in recursively_replace: too many iterations. Input a larger value of max_iterations if you want to keep going.&#39;)
+                break
+    return text
+
+def transpose_transcript_data(data, names, empty_value = &#39;&#39;):
+    &#34;&#34;&#34;Transposes data from a list of rows to a list of columns and adds entries for missing values.
+
+    ### Parameters
+    1. data : list
+        - a nested list containing rows of data. The first element of each row
+          contains a name or other independent variable identifying the data,
+          and any number of subsequent elements can follow. Rows are grouped
+          into &#39;blocks&#39; separated by rows of [], where each block corresponds to
+          a second independent variable. For example, each block could
+          correspond to a certain position or time.
+    2. names : list
+        - an ordered list of names found in the first element of each row
+    3. empty_value : str, (default = &#39;&#39;)
+        - the string that will be added wherever a given name is not found in a
+          given block
+
+    ### Returns
+    - list
+        - a list containing columns of the transposed data, where each row
+          corresponds to one block. Each name in names will correspond to (in
+          order) one column for each variable (the length of each row minus
+          one). If a name found in data is omitted from names, its data will be
+          discarded. If a name not found in data is included in names, its
+          columns will be filled with empty_value. Any value not found in a
+          given block will be represented by empty_value.
+    &#34;&#34;&#34;
+    block = []
+    transposed_data = []
+    row_num = 0
+    # Determines number of variables. Assumes one column represents name.
+    var_count = len(data[0])-1
+    # Create a column for number of names times number of variables per
+    # name. Name is subtracted from the length of the row.
+    [transposed_data.append([]) for i in range(var_count*len(names))]
+    for row in data:
+        print(row)
+        if row[0]:
+            block.append(row)
+        if not row[0] or data.index(row) == len(data)-1:
+            row_num += 1
+            for row in block:
+                col_index = names.index(row[0])
+                [transposed_data[col_index*var_count + i - 1].append(row[i]) for i in range(1,len(row))]
+            [col.append(empty_value) for col in transposed_data if len(col) &lt; row_num]
+            block = []
+    
+    return transposed_data
+
+# Writes data to one or more sheets in a new or existing Excel file
+# data: list of lists of lists, where the hierarchy is such: data[sheet][column][row]
+# header: list of lists, where hierarchy is such: header[row][column]. This will be written to the top of each sheet.
+# book_name: name of workbook to be created
+# sheet_names: list of sheet names; dimensionality must agree with the top-level dimension of data
+# overwrite: boolean to indicate whether an existing file with name book_name should be overwritten or appended to
+
+def write_excel_file(book_name, data, header = [], sheet_names = [], overwrite = False, text_to_num = True):
+    &#34;&#34;&#34;Writes input data to one or more sheets in a new Excel file.
+
+    ### Parameters
+    1. book_name : str
+        - the name of the new workbook
+    2. data : list
+        - a list of list of lists containing data. Hierarchy is
+          data[sheet][row][column]
+    3. header : list (default = [])
+        - a list of lists describing the header to be added at the top of each
+          sheet. Hierarchy is header[row][column] (note that row and column are
+          reversed compared to data). If left empty, no header will be added.
+    4. sheet_names : list (default = [])
+        - a list of strings naming sheets in the new workbook. If number of
+          sheets exceeds length of sheet_names, additional sheets will be named
+          according to xlsxwriter default. If left blank, all sheets will be
+          named default values.
+    5. overwrite : bool, (default = False)
+        - a boolean indicating whether an existing file should be overwritten
+          without prompt. If overwrite is false, users will be asked whether
+          they want to overwrite the existing file.
+    6. text_to_num : bool, (default = True)
+        - a boolean indicating whether text written to the workbook should be
+          converted to float if possible
+
+    ### Returns
+    - none
+    &#34;&#34;&#34;
+    if not overwrite and os.path.isfile(book_name + &#39;.xlsx&#39;):
+        print()
+        if str.upper(get_user_input(&#39;Warning: output file already exists. Do you want to overwrite? (Y/N)\n&#39;,[&#39;Y&#39;,&#39;N&#39;,&#39;y&#39;,&#39;n&#39;])) == &#39;N&#39;:
+            book_name = book_name + &#39;_2&#39;
+            print(&#39;Output saved to &#39; + book_name + &#39;.xlsx&#39;)
+
+
+    workbook = xlsxwriter.Workbook(book_name + &#39;.xlsx&#39;)
+
+    # timestep_index_format = workbook.add_format({&#39;num_format&#39;: &#39;0&#39;})
+    # timestep_value_format = workbook.add_format({&#39;num_format&#39;: &#39;0.000&#39;})
+    # particle_fate_format = workbook.add_format({&#39;num_format&#39;: &#39;0&#39;})
+    # mass_flow_format = workbook.add_format({&#39;num_format&#39;: &#39;0.00E+00&#39;})
+
+    for sheet_num in range(len(data)):
+        if sheet_names and len(sheet_names) &gt; sheet_num:
+            sheet = workbook.add_worksheet(sheet_names[sheet_num])
+        else:
+            sheet = workbook.add_worksheet()
+
+        if header:
+            header_rows = len(header)
+        else:
+            header_rows = 0
+
+        for row_num in range(len(header)):
+            row = header[row_num]
+            for col_num in range(len(row)):
+                sheet.write(row_num, col_num, header[row_num][col_num])
+
+        for col_num in range(len(data[sheet_num])):
+            col = data[sheet_num][col_num]
+            for row_num in range(len(col)):
+                # print(data[sheet_num][col_num][row_num+header_rows])
+                cell_data = data[sheet_num][col_num][row_num]
+                if text_to_num:
+                    try:
+                        cell_data = float(cell_data)
+                    except: 
+                        pass
+                sheet.write(row_num + header_rows, col_num, cell_data)
+                # print(&#39;Writing&#39;, data[sheet_num][col_num][row_num],&#39;to cell&#39;,col_num,&#39;,&#39;,row_num)
+
+    try:
+        workbook.close()
+        print(&#39;Workbook successfully closed&#39;)
+    except:
+            print(&#39;Error: could not write to &#39;, book_name + &#39;.xlsx.&#39;, &#39;Make sure the file is not open.&#39;)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="textparsingtools.build_header"><code class="name flex">
+<span>def <span class="ident">build_header</span></span>(<span>names, variables)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Builds a header for a dataset where columns consist of repeating
+variables for a list of names/categories.</p>
+<h3 id="parameters">Parameters</h3>
+<ol>
+<li>names : list<ul>
+<li>a list containing names of data categories</li>
+</ul>
+</li>
+<li>variables : list<ul>
+<li>a list of repeating variables</li>
+</ul>
+</li>
+</ol>
+<h3 id="returns">Returns</h3>
+<ul>
+<li>list<ul>
+<li>a nested list containing two header rows, where the first
+consists of <names> listed sequentially every n elements, and
+the second consists of cyclic repetition of n <variables></li>
+</ul>
+</li>
+</ul></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def build_header(names, variables):
+    &#34;&#34;&#34;Builds a header for a dataset where columns consist of repeating 
+    variables for a list of names/categories.
+
+    ### Parameters
+    1. names : list
+        - a list containing names of data categories
+    2. variables : list
+        - a list of repeating variables
+
+    ### Returns
+    - list
+        - a nested list containing two header rows, where the first
+          consists of &lt;names&gt; listed sequentially every n elements, and
+          the second consists of cyclic repetition of n &lt;variables&gt;
+    &#34;&#34;&#34;
+    header = [[],[]]
+    for i in range(len(names)*len(variables)):
+        if i % len(variables) == 0:
+            # print(int(i/vars_per_name), len(names))
+            header[0].append(names[int(i/len(variables))])
+        else:
+            header[0].append(&#39;&#39;)
+        header[1].append(variables[i % len(variables)])
+    return header</code></pre>
+</details>
+</dd>
+<dt id="textparsingtools.get_dpm_flow_time"><code class="name flex">
+<span>def <span class="ident">get_dpm_flow_time</span></span>(<span>lines)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Creates a list of flow time for each dpm report in text from a Fluent transcript file</p>
+<h3 id="parameters">Parameters</h3>
+<ol>
+<li>lines : list<ul>
+<li>a list of lines of a Fluent transcript file</li>
+</ul>
+</li>
+</ol>
+<h3 id="returns">Returns</h3>
+<ul>
+<li>list<ul>
+<li>a list of flow times corresponding with each dpm report</li>
+</ul>
+</li>
+</ul></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_dpm_flow_time(lines):
+    &#34;&#34;&#34;Creates a list of flow time for each dpm report in text from a Fluent transcript file
+
+    ### Parameters
+    1. lines : list
+        - a list of lines of a Fluent transcript file
+    
+    ### Returns
+    - list
+        - a list of flow times corresponding with each dpm report
+    &#34;&#34;&#34;
+    last_match = []
+    flow_time_list = []
+    
+    time_regex = re.compile(r&#34;Flow time = ((\d|\.)+)&#34;)
+    report_regex = re.compile(r&#34;-\n&#34;)
+
+    for line in lines:
+        match_flow_time = time_regex.search(line)
+        match_report = report_regex.search(line)
+        if match_flow_time:
+            flow_time = match_flow_time.group(1)
+            last_match = &#39;flow_time&#39;
+        if match_report and last_match == &#39;flow_time&#39;:
+            flow_time_list.append(flow_time)
+            last_match = &#39;report&#39;
+    
+    return flow_time_list</code></pre>
+</details>
+</dd>
+<dt id="textparsingtools.get_injection_groups"><code class="name flex">
+<span>def <span class="ident">get_injection_groups</span></span>(<span>lines)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Creates a list of injection group numbers in dpm reports within text from a Fluent transcript file</p>
+<h3 id="parameters">Parameters</h3>
+<ol>
+<li>lines : list<ul>
+<li>a list of lines of a Fluent transcript file</li>
+</ul>
+</li>
+</ol>
+<h3 id="returns">Returns</h3>
+<ul>
+<li>list<ul>
+<li>a list of injection group numbers in string format</li>
+</ul>
+</li>
+</ul></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_injection_groups(lines):
+    &#34;&#34;&#34;Creates a list of injection group numbers in dpm reports within text from a Fluent transcript file
+
+    ### Parameters
+    1. lines : list
+        - a list of lines of a Fluent transcript file
+    
+    ### Returns
+    - list
+        - a list of injection group numbers in string format
+    &#34;&#34;&#34;
+    injection_group_list = []
+
+    regex = re.compile(r&#34;injection-(\d+)&#34;)
+
+    for line in lines:
+        match = regex.search(line)
+        if match and (len(injection_group_list) == 0 or not match.group(1) == injection_group_list[-1]):
+            injection_group_list.append(match.group(1))
+    
+    return injection_group_list</code></pre>
+</details>
+</dd>
+<dt id="textparsingtools.get_text_data"><code class="name flex">
+<span>def <span class="ident">get_text_data</span></span>(<span>lines, data_begin_str, data_end_str, *column_numbers, separate_data=True, transpose_data=False, return_type=builtins.str, data_begin_offset=1)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Extracts whitespace-separated strings from lines of text</p>
+<p>Use www.regex101.com to test regex strings.</p>
+<h3 id="parameters">Parameters</h3>
+<ol>
+<li>lines : list<ul>
+<li>a list containing each line of the text</li>
+</ul>
+</li>
+<li>data_begin_str : str<ul>
+<li>a regex raw string found before data begins. Be sure to properly
+escape special characters.</li>
+</ul>
+</li>
+<li>data_end_str : str<ul>
+<li>a regex raw string found in the line immediately after data ends. Be
+sure to properly escape special characters.</li>
+</ul>
+</li>
+<li>*column_numbers : int<ul>
+<li>a variable-length list of column numbers (beginning with 0) pointing
+to desired data</li>
+</ul>
+</li>
+<li>separate_data : bool, (default True)<ul>
+<li>a flag to indicate whether "chunks" of data (found between
+<code>data_begin_str</code> and <code>data_end_str</code>) should be demarkated with blank
+rows.</li>
+</ul>
+</li>
+<li>transpose_data : bool, (default False)<ul>
+<li>a flag to indicate whether data should be transposed from a list of
+rows to a list of columns</li>
+</ul>
+</li>
+<li>data_begin_offset : int, (default 1)<ul>
+<li>the number of lines to skip after data_begin_str before beginning
+reading data</li>
+</ul>
+</li>
+</ol>
+<h3 id="returns">Returns</h3>
+<ul>
+<li>list<ul>
+<li>a list of lists of the data</li>
+</ul>
+</li>
+</ul></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_text_data(lines, data_begin_str, data_end_str, *column_numbers, separate_data = True, transpose_data=False, return_type=str, data_begin_offset=1):
+    &#34;&#34;&#34;Extracts whitespace-separated strings from lines of text
+
+    Use www.regex101.com to test regex strings.
+
+    ### Parameters 
+    1. lines : list
+        - a list containing each line of the text
+    2. data_begin_str : str
+        - a regex raw string found before data begins. Be sure to properly
+          escape special characters.
+    3. data_end_str : str
+        - a regex raw string found in the line immediately after data ends. Be
+          sure to properly escape special characters.
+    4. *column_numbers : int
+        - a variable-length list of column numbers (beginning with 0) pointing
+          to desired data
+    5. separate_data : bool, (default True)
+        - a flag to indicate whether &#34;chunks&#34; of data (found between
+          `data_begin_str` and `data_end_str`) should be demarkated with blank
+          rows.
+    6. transpose_data : bool, (default False)
+        - a flag to indicate whether data should be transposed from a list of
+          rows to a list of columns
+    7. data_begin_offset : int, (default 1)
+        - the number of lines to skip after data_begin_str before beginning
+          reading data
+
+    ### Returns
+    - list
+        - a list of lists of the data
+    &#34;&#34;&#34;
+    # TODO: Add option to return number instead of string 
+    # TODO: Remove blank row if only one chunk is read
+    # TODO: Update documentation (and code if necessary) to indicate regex
+    # string can occur anywhere, not just at start of line
+    # TODO: Fix column number weirdness
+    data = []
+    reading_data = False
+
+    lines_iter = iter(lines)
+    for line in lines_iter:
+        if re.search(data_begin_str, line):
+            reading_data = True
+            for _ in range(data_begin_offset-1):
+                next(lines_iter)
+            continue
+        elif reading_data == True and re.match(data_end_str, line):
+            reading_data = False
+            # Appends a blank row to divide data
+            if separate_data:
+                data.append([[]]*len(column_numbers))
+            continue
+
+        if reading_data:
+            # Uses regex to decompose line into whitespace-separated
+            # values, then takes the columns corresponding to
+            # column_numbers
+            data.append([re.findall(r&#34;(\S+)&#34;, line)[col] for col in column_numbers])
+    
+    data = [list(map(return_type, row)) for row in data]
+
+    # NOTE: Possible inconsistent results with only 1 column
+    if transpose_data:
+        return [list(i) for i in zip(*data)]
+    else:
+        return data</code></pre>
+</details>
+</dd>
+<dt id="textparsingtools.get_user_input"><code class="name flex">
+<span>def <span class="ident">get_user_input</span></span>(<span>prompt, acceptable_answers)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Prompts and records user input within a list of acceptable answers.</p>
+<h3 id="parameters">Parameters</h3>
+<ol>
+<li>prompt : str<ul>
+<li>the prompt that will be displayed to the user</li>
+</ul>
+</li>
+<li>acceptable_answers : list<ul>
+<li>a list of allowable answers</li>
+</ul>
+</li>
+</ol>
+<h3 id="returns">Returns</h3>
+<ul>
+<li>str<ul>
+<li>a string containing the user's input</li>
+</ul>
+</li>
+</ul></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_user_input(prompt, acceptable_answers):
+    &#34;&#34;&#34;Prompts and records user input within a list of acceptable answers.
+
+    ### Parameters
+    1. prompt : str
+        - the prompt that will be displayed to the user
+    2. acceptable_answers : list
+        - a list of allowable answers
+    
+    ### Returns
+    - str
+        - a string containing the user&#39;s input
+    &#34;&#34;&#34;
+    answer = input(prompt)
+    while answer not in acceptable_answers:
+        print(&#39;Please enter a response from the following list:&#39;, acceptable_answers)
+        answer = input()
+    return answer</code></pre>
+</details>
+</dd>
+<dt id="textparsingtools.interleave_datasets"><code class="name flex">
+<span>def <span class="ident">interleave_datasets</span></span>(<span>names, *data)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Shuffles multiple datasets together such that order is preserved.</p>
+<p>This function accepts multiple datasets which are ordered in groups of
+variables corresponding with an ordered list of names. For example, data
+could consist of lists [name1_var1], [name1_var2], [name2_var1],
+[name2_var2], etc. An input data list must have contain an equal number of
+variables for all values in names (in order). Different input data lists may
+have different numbers of variables (though each list must have a consistent
+number within), but each list must represent values of the same names in the
+same order. The function will output a single list containing, in order, all
+values for each variable. Continuing the above example, if a second data
+list were input containing [name1_var3], [name2_var3], etc., the output
+would be [name1_var1], [name1_var2], [name1_var3], [name2_var1],
+[name2_var2], [name2_var3], etc.</p>
+<h3 id="parameters">Parameters</h3>
+<ol>
+<li>names : list<ul>
+<li>a list of names/categories portrayed by each dataset. Only the length
+of this is used to determine how many elements to take from each
+dataset at a time.</li>
+</ul>
+</li>
+<li>*data : list<ul>
+<li>lists of all datasets to combine</li>
+</ul>
+</li>
+</ol>
+<h3 id="returns">Returns</h3>
+<ul>
+<li>list<ul>
+<li>a list of all combined data</li>
+</ul>
+</li>
+</ul></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def interleave_datasets(names, *data):
+    &#34;&#34;&#34;Shuffles multiple datasets together such that order is preserved.
+
+    This function accepts multiple datasets which are ordered in groups of
+    variables corresponding with an ordered list of names. For example, data
+    could consist of lists [name1_var1], [name1_var2], [name2_var1],
+    [name2_var2], etc. An input data list must have contain an equal number of
+    variables for all values in names (in order). Different input data lists may
+    have different numbers of variables (though each list must have a consistent
+    number within), but each list must represent values of the same names in the
+    same order. The function will output a single list containing, in order, all
+    values for each variable. Continuing the above example, if a second data
+    list were input containing [name1_var3], [name2_var3], etc., the output
+    would be [name1_var1], [name1_var2], [name1_var3], [name2_var1],
+    [name2_var2], [name2_var3], etc.
+
+    ### Parameters
+    1. names : list
+        - a list of names/categories portrayed by each dataset. Only the length
+          of this is used to determine how many elements to take from each
+          dataset at a time.
+    2. *data : list
+        - lists of all datasets to combine
+
+    ### Returns
+    - list
+        - a list of all combined data
+    &#34;&#34;&#34;
+    out_data = []
+    for index in range(len(names)):
+        for dataset in data:
+            var_count = int(len(dataset)/len(names))
+            [out_data.append(cell) for cell in dataset[index*var_count:(index+1)*var_count]]
+    return out_data</code></pre>
+</details>
+</dd>
+<dt id="textparsingtools.recursively_replace"><code class="name flex">
+<span>def <span class="ident">recursively_replace</span></span>(<span>text, replacement_strings, max_iterations=100)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Performs recursive find-and-replace on input text.</p>
+<h3 id="parameters">Parameters</h3>
+<ol>
+<li>text : str<ul>
+<li>the text on which to perform replacement</li>
+</ul>
+</li>
+<li>replacement_strings : list<ul>
+<li>a list of strings and their replacements, ordered like: [string1,
+replacement1, string2, replacement2,&hellip;]</li>
+</ul>
+</li>
+<li>max_iterations : int, (default = 100)<ul>
+<li>the maximum iterations to perform for a single replacement.</li>
+</ul>
+</li>
+</ol>
+<h3 id="returns">Returns</h3>
+<ul>
+<li>str<ul>
+<li>the result of the replacement operation</li>
+</ul>
+</li>
+</ul></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def recursively_replace(text, replacement_strings, max_iterations=100):
+    &#34;&#34;&#34;Performs recursive find-and-replace on input text.
+
+    ### Parameters
+    1. text : str
+        - the text on which to perform replacement
+    2. replacement_strings : list
+        - a list of strings and their replacements, ordered like: [string1,
+          replacement1, string2, replacement2,...]
+    3. max_iterations : int, (default = 100)
+        - the maximum iterations to perform for a single replacement.
+
+    ### Returns
+    - str
+        - the result of the replacement operation
+    &#34;&#34;&#34;
+        #print(&#34;Replacing &#39;&#34; + old_chars + &#34;&#39; with &#39;&#34; + new_chars + &#34;&#39; in string: &#39;&#34; + string + &#34;&#39;&#34;)
+    for replacement_set in replacement_strings:
+        # print(replacement_set)
+        counter = 0
+        old_chars = replacement_set[0]
+        new_chars = replacement_set[1]
+        
+        if new_chars.find(old_chars) != -1:
+            print(&#39;Error in recursively_replace: new_chars contains old_chars. Infinite loop will occur.&#39;)
+        
+        while text.find(old_chars) != -1:
+            text = text.replace(old_chars, new_chars)
+            counter += 1
+            if counter &gt; max_iterations:
+                print(&#39;Error in recursively_replace: too many iterations. Input a larger value of max_iterations if you want to keep going.&#39;)
+                break
+    return text</code></pre>
+</details>
+</dd>
+<dt id="textparsingtools.transpose_transcript_data"><code class="name flex">
+<span>def <span class="ident">transpose_transcript_data</span></span>(<span>data, names, empty_value='')</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Transposes data from a list of rows to a list of columns and adds entries for missing values.</p>
+<h3 id="parameters">Parameters</h3>
+<ol>
+<li>data : list<ul>
+<li>a nested list containing rows of data. The first element of each row
+contains a name or other independent variable identifying the data,
+and any number of subsequent elements can follow. Rows are grouped
+into 'blocks' separated by rows of [], where each block corresponds to
+a second independent variable. For example, each block could
+correspond to a certain position or time.</li>
+</ul>
+</li>
+<li>names : list<ul>
+<li>an ordered list of names found in the first element of each row</li>
+</ul>
+</li>
+<li>empty_value : str, (default = '')<ul>
+<li>the string that will be added wherever a given name is not found in a
+given block</li>
+</ul>
+</li>
+</ol>
+<h3 id="returns">Returns</h3>
+<ul>
+<li>list<ul>
+<li>a list containing columns of the transposed data, where each row
+corresponds to one block. Each name in names will correspond to (in
+order) one column for each variable (the length of each row minus
+one). If a name found in data is omitted from names, its data will be
+discarded. If a name not found in data is included in names, its
+columns will be filled with empty_value. Any value not found in a
+given block will be represented by empty_value.</li>
+</ul>
+</li>
+</ul></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def transpose_transcript_data(data, names, empty_value = &#39;&#39;):
+    &#34;&#34;&#34;Transposes data from a list of rows to a list of columns and adds entries for missing values.
+
+    ### Parameters
+    1. data : list
+        - a nested list containing rows of data. The first element of each row
+          contains a name or other independent variable identifying the data,
+          and any number of subsequent elements can follow. Rows are grouped
+          into &#39;blocks&#39; separated by rows of [], where each block corresponds to
+          a second independent variable. For example, each block could
+          correspond to a certain position or time.
+    2. names : list
+        - an ordered list of names found in the first element of each row
+    3. empty_value : str, (default = &#39;&#39;)
+        - the string that will be added wherever a given name is not found in a
+          given block
+
+    ### Returns
+    - list
+        - a list containing columns of the transposed data, where each row
+          corresponds to one block. Each name in names will correspond to (in
+          order) one column for each variable (the length of each row minus
+          one). If a name found in data is omitted from names, its data will be
+          discarded. If a name not found in data is included in names, its
+          columns will be filled with empty_value. Any value not found in a
+          given block will be represented by empty_value.
+    &#34;&#34;&#34;
+    block = []
+    transposed_data = []
+    row_num = 0
+    # Determines number of variables. Assumes one column represents name.
+    var_count = len(data[0])-1
+    # Create a column for number of names times number of variables per
+    # name. Name is subtracted from the length of the row.
+    [transposed_data.append([]) for i in range(var_count*len(names))]
+    for row in data:
+        print(row)
+        if row[0]:
+            block.append(row)
+        if not row[0] or data.index(row) == len(data)-1:
+            row_num += 1
+            for row in block:
+                col_index = names.index(row[0])
+                [transposed_data[col_index*var_count + i - 1].append(row[i]) for i in range(1,len(row))]
+            [col.append(empty_value) for col in transposed_data if len(col) &lt; row_num]
+            block = []
+    
+    return transposed_data</code></pre>
+</details>
+</dd>
+<dt id="textparsingtools.trim_lines"><code class="name flex">
+<span>def <span class="ident">trim_lines</span></span>(<span>lines, data_begin_str, data_end_str)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Trims a list of lines of text based on strings bounding desired content</p>
+<h3 id="parameters">Parameters</h3>
+<ol>
+<li>lines : list<ul>
+<li>a list containing each line of text</li>
+</ul>
+</li>
+<li>data_begin_str : str<ul>
+<li>a string found in a line at the beginning of the desired data</li>
+</ul>
+</li>
+<li>data_end_str: str<ul>
+<li>a string found in a line at the end of the desired data</li>
+</ul>
+</li>
+</ol>
+<h3 id="returns">Returns</h3>
+<ul>
+<li>list<ul>
+<li>a list of lines of text, trimmed according to the specified
+bounds</li>
+</ul>
+</li>
+</ul></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def trim_lines(lines, data_begin_str, data_end_str):
+    &#34;&#34;&#34;Trims a list of lines of text based on strings bounding desired content
+
+    ### Parameters
+    1. lines : list
+        - a list containing each line of text
+    2. data_begin_str : str
+        - a string found in a line at the beginning of the desired data
+    3. data_end_str: str
+        - a string found in a line at the end of the desired data
+
+    ### Returns
+    - list
+        - a list of lines of text, trimmed according to the specified
+          bounds
+    &#34;&#34;&#34;
+    # TODO: Rewrite this more efficiently, possibly copying from get_text_data.
+
+    trimmed_lines = []
+    reading_data = False
+    line_number = 0
+    while line_number &lt; len(lines):
+        # if debug and line_number % 1000 == 0:
+            # print(&#39;Reading line:&#39;, file_lines[line_number])
+        line = lines[line_number]
+
+        if line.find(data_begin_str) != -1:
+            reading_data = True
+        elif line.find(data_end_str) != -1:
+            reading_data = False
+
+        if reading_data:
+            trimmed_lines.append(line)
+
+        line_number += 1
+    return trimmed_lines</code></pre>
+</details>
+</dd>
+<dt id="textparsingtools.write_excel_file"><code class="name flex">
+<span>def <span class="ident">write_excel_file</span></span>(<span>book_name, data, header=[], sheet_names=[], overwrite=False, text_to_num=True)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Writes input data to one or more sheets in a new Excel file.</p>
+<h3 id="parameters">Parameters</h3>
+<ol>
+<li>book_name : str<ul>
+<li>the name of the new workbook</li>
+</ul>
+</li>
+<li>data : list<ul>
+<li>a list of list of lists containing data. Hierarchy is
+data[sheet][row][column]</li>
+</ul>
+</li>
+<li>header : list (default = [])<ul>
+<li>a list of lists describing the header to be added at the top of each
+sheet. Hierarchy is header[row][column] (note that row and column are
+reversed compared to data). If left empty, no header will be added.</li>
+</ul>
+</li>
+<li>sheet_names : list (default = [])<ul>
+<li>a list of strings naming sheets in the new workbook. If number of
+sheets exceeds length of sheet_names, additional sheets will be named
+according to xlsxwriter default. If left blank, all sheets will be
+named default values.</li>
+</ul>
+</li>
+<li>overwrite : bool, (default = False)<ul>
+<li>a boolean indicating whether an existing file should be overwritten
+without prompt. If overwrite is false, users will be asked whether
+they want to overwrite the existing file.</li>
+</ul>
+</li>
+<li>text_to_num : bool, (default = True)<ul>
+<li>a boolean indicating whether text written to the workbook should be
+converted to float if possible</li>
+</ul>
+</li>
+</ol>
+<h3 id="returns">Returns</h3>
+<ul>
+<li>none</li>
+</ul></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def write_excel_file(book_name, data, header = [], sheet_names = [], overwrite = False, text_to_num = True):
+    &#34;&#34;&#34;Writes input data to one or more sheets in a new Excel file.
+
+    ### Parameters
+    1. book_name : str
+        - the name of the new workbook
+    2. data : list
+        - a list of list of lists containing data. Hierarchy is
+          data[sheet][row][column]
+    3. header : list (default = [])
+        - a list of lists describing the header to be added at the top of each
+          sheet. Hierarchy is header[row][column] (note that row and column are
+          reversed compared to data). If left empty, no header will be added.
+    4. sheet_names : list (default = [])
+        - a list of strings naming sheets in the new workbook. If number of
+          sheets exceeds length of sheet_names, additional sheets will be named
+          according to xlsxwriter default. If left blank, all sheets will be
+          named default values.
+    5. overwrite : bool, (default = False)
+        - a boolean indicating whether an existing file should be overwritten
+          without prompt. If overwrite is false, users will be asked whether
+          they want to overwrite the existing file.
+    6. text_to_num : bool, (default = True)
+        - a boolean indicating whether text written to the workbook should be
+          converted to float if possible
+
+    ### Returns
+    - none
+    &#34;&#34;&#34;
+    if not overwrite and os.path.isfile(book_name + &#39;.xlsx&#39;):
+        print()
+        if str.upper(get_user_input(&#39;Warning: output file already exists. Do you want to overwrite? (Y/N)\n&#39;,[&#39;Y&#39;,&#39;N&#39;,&#39;y&#39;,&#39;n&#39;])) == &#39;N&#39;:
+            book_name = book_name + &#39;_2&#39;
+            print(&#39;Output saved to &#39; + book_name + &#39;.xlsx&#39;)
+
+
+    workbook = xlsxwriter.Workbook(book_name + &#39;.xlsx&#39;)
+
+    # timestep_index_format = workbook.add_format({&#39;num_format&#39;: &#39;0&#39;})
+    # timestep_value_format = workbook.add_format({&#39;num_format&#39;: &#39;0.000&#39;})
+    # particle_fate_format = workbook.add_format({&#39;num_format&#39;: &#39;0&#39;})
+    # mass_flow_format = workbook.add_format({&#39;num_format&#39;: &#39;0.00E+00&#39;})
+
+    for sheet_num in range(len(data)):
+        if sheet_names and len(sheet_names) &gt; sheet_num:
+            sheet = workbook.add_worksheet(sheet_names[sheet_num])
+        else:
+            sheet = workbook.add_worksheet()
+
+        if header:
+            header_rows = len(header)
+        else:
+            header_rows = 0
+
+        for row_num in range(len(header)):
+            row = header[row_num]
+            for col_num in range(len(row)):
+                sheet.write(row_num, col_num, header[row_num][col_num])
+
+        for col_num in range(len(data[sheet_num])):
+            col = data[sheet_num][col_num]
+            for row_num in range(len(col)):
+                # print(data[sheet_num][col_num][row_num+header_rows])
+                cell_data = data[sheet_num][col_num][row_num]
+                if text_to_num:
+                    try:
+                        cell_data = float(cell_data)
+                    except: 
+                        pass
+                sheet.write(row_num + header_rows, col_num, cell_data)
+                # print(&#39;Writing&#39;, data[sheet_num][col_num][row_num],&#39;to cell&#39;,col_num,&#39;,&#39;,row_num)
+
+    try:
+        workbook.close()
+        print(&#39;Workbook successfully closed&#39;)
+    except:
+            print(&#39;Error: could not write to &#39;, book_name + &#39;.xlsx.&#39;, &#39;Make sure the file is not open.&#39;)</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="textparsingtools.build_header" href="#textparsingtools.build_header">build_header</a></code></li>
+<li><code><a title="textparsingtools.get_dpm_flow_time" href="#textparsingtools.get_dpm_flow_time">get_dpm_flow_time</a></code></li>
+<li><code><a title="textparsingtools.get_injection_groups" href="#textparsingtools.get_injection_groups">get_injection_groups</a></code></li>
+<li><code><a title="textparsingtools.get_text_data" href="#textparsingtools.get_text_data">get_text_data</a></code></li>
+<li><code><a title="textparsingtools.get_user_input" href="#textparsingtools.get_user_input">get_user_input</a></code></li>
+<li><code><a title="textparsingtools.interleave_datasets" href="#textparsingtools.interleave_datasets">interleave_datasets</a></code></li>
+<li><code><a title="textparsingtools.recursively_replace" href="#textparsingtools.recursively_replace">recursively_replace</a></code></li>
+<li><code><a title="textparsingtools.transpose_transcript_data" href="#textparsingtools.transpose_transcript_data">transpose_transcript_data</a></code></li>
+<li><code><a title="textparsingtools.trim_lines" href="#textparsingtools.trim_lines">trim_lines</a></code></li>
+<li><code><a title="textparsingtools.write_excel_file" href="#textparsingtools.write_excel_file">write_excel_file</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.8.1</a>.</p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad()</script>
+</body>
+</html>
