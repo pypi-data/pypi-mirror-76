@@ -1,0 +1,17 @@
+clin/__init__.py,sha256=d4QHYmS_30j0hPN8NmNPnQ_Z0TphDRbu4MtQj9cT9e8,22
+clin/clinfile.py,sha256=YrDIkBSucYJ1NzP8BP6QDSfKXFtTjeyWR8C7pQkoKGE,2099
+clin/config.py,sha256=j9NklDvFjSvcELgeQGJ4TVNMzebRsKzm7ypZkQu1_6k,1768
+clin/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clin/models/auth.py,sha256=sb6bpxxTm7i0wH1s6jIcVdSDP8HQQCBkF2kI3HnBbU0,1969
+clin/models/event_type.py,sha256=P_Nqr2WkE-gsqvZ24dyO3aeltRyQF0Ub-pwCEqZQEgQ,3715
+clin/models/subscription.py,sha256=j-cW-qoY0PXt7IbGjqG59YEpNuG9r3DgsDBsUCEWkM4,1195
+clin/nakadi.py,sha256=lFO67tQO-Q0Zm5ZaWm5El3sOuyCZ922yE0lbrwkPyAo,9854
+clin/processor.py,sha256=tfLlIpoIKamNPx-F11CQng-ZL9Kpi3GYVTpeVfM08mc,5788
+clin/run.py,sha256=aWjYlJL__b9gC3vFwYxtrh5rrsTjdRqb2u039TIFqhc,5470
+clin/utils.py,sha256=9W41mxmo0xwAjAOKPiJ0mVgyOqIew1ANJlRFAwZQ_Wo,1623
+clin/yamlops.py,sha256=FsitcQ-UmsFNsdm7AXDSaXDZVpM5IESS61H0I_2nhK4,5739
+clin-1.0.1.dist-info/entry_points.txt,sha256=bkc7SEegJcMmIrf69tnq-hkJ4UQzXRRyE6z3V2GyXxI,37
+clin-1.0.1.dist-info/LICENSE,sha256=GZLe7eY7asc5JwkLq3q8jZAMFn2oNwqGhWJapl8Y6Uw,1078
+clin-1.0.1.dist-info/WHEEL,sha256=jM75OLmO0bF2QZxXmlw3A-IE58epFjnoGYhyw7ywvsc,85
+clin-1.0.1.dist-info/METADATA,sha256=rcZwbTl7BT8UxiRga9zjLdWodMspno1IIsv56eyJSAE,3453
+clin-1.0.1.dist-info/RECORD,,
