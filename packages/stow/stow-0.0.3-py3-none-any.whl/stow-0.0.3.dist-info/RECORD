@@ -1,0 +1,14 @@
+stow/__init__.py,sha256=dITNmkdaiP83wyK3QoGTN_mMVgA_lEvWI3BUTvYpaBs,286
+stow/artefacts.py,sha256=ahidwxFiyCbQ0e5Pp04NvEzHkvc2q0MLS7nzwubtWIw,7435
+stow/exceptions.py,sha256=nl-iPaU02PJ2-hSeLVppZ5ukCMQajrWMsAHPXdjqRCM,234
+stow/manager.py,sha256=_q5REZsFmCEqGqUFGEqbuxVB8GZvCn2QjY8bbxSOeRY,35885
+stow/stateless.py,sha256=B-lukoXjRVtsRxn-xVpAB4ig7FKVANuSgx6_OZYlKVU,3762
+stow/utils.py,sha256=tZnGyRh_EIvW9iV3zCc-XgUuy3tUBWPQeJ0WMqlfye8,1073
+stow/managers/__init__.py,sha256=G_MAzrQLU2QOuB2UMPYhZlU4KnoZlhxBRDYAcvQlaa0,53
+stow/managers/amazon.py,sha256=d6DXtbBg0RFlnNiPan8o-FL7QluktlsQVQ1X2CtwHdM,9181
+stow/managers/filesystem.py,sha256=W2RuPiyb_Jnl6cREnwN7akcfjEc0rvvpPoEh-cY4DPY,4272
+stow-0.0.3.dist-info/METADATA,sha256=HDpqbheIeYXt81MCJjIDeqL_b8cp6UjNtq730jyiGYg,252
+stow-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+stow-0.0.3.dist-info/entry_points.txt,sha256=FjZjPl9-NLbtI-eTv5o9jgmegOTMXfp4GwIjrwlcBq8,174
+stow-0.0.3.dist-info/top_level.txt,sha256=GuelqfryyS74ZEb-i2kuXzAB8nKprRX_OLexos4drcw,5
+stow-0.0.3.dist-info/RECORD,,
