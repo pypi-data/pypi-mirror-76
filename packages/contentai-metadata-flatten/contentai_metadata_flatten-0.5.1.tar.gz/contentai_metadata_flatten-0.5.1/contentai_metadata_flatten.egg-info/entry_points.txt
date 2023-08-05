@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    metadata-flatten=metadata_flatten.main:main
+    
