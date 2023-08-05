@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+ivolve-cloud7-logger/__init__.py
+ivolve-cloud7-logger/core.py
+ivolve_cloud7_logger.egg-info/PKG-INFO
+ivolve_cloud7_logger.egg-info/SOURCES.txt
+ivolve_cloud7_logger.egg-info/dependency_links.txt
+ivolve_cloud7_logger.egg-info/requires.txt
+ivolve_cloud7_logger.egg-info/top_level.txt
+test/test.py
