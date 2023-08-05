@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: remapdict
+Version: 0.0.1
+Summary: A convenience function for arbitrarily remapping dictionary keys, taking subsets, etc.
+Home-page: https://github.com/DylanCulfogienis/remapdict.git
+Author: Dylan Culfogienis
+Author-email: dculfogienis@expr.net
+License: UNKNOWN
+Description: # remapdict
+        
+        Really simple Python function for arbitrarily remapping dictionary keys value pairs with arbitrary transformations and convenience configuration like passthrough and error handling.
+        
+        ## Documentation
+        
+        TBD
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
