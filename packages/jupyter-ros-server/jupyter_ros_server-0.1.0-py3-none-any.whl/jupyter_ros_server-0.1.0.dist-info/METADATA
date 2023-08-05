@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: jupyter-ros-server
+Version: 0.1.0
+Summary: Jupyterlab server extension for ROS.
+Home-page: https://github.com/RoboStack/jupyterlab-ros
+Author: QuantStack
+Author-email: UNKNOWN
+License: BSD-3-Clause
+Keywords: jupyter,jupyterlab,ROS
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: rosbridge-library
+Requires-Dist: rosbridge-server
+Requires-Dist: rosmaster
+Requires-Dist: roslaunch
+Requires-Dist: rosgraph
+Requires-Dist: rosbag
+Requires-Dist: rosapi
+Requires-Dist: rospy
+
+UNKNOWN
+
+
