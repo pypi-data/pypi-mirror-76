@@ -1,0 +1,5 @@
+setup.py
+senderman.egg-info/PKG-INFO
+senderman.egg-info/SOURCES.txt
+senderman.egg-info/dependency_links.txt
+senderman.egg-info/top_level.txt
