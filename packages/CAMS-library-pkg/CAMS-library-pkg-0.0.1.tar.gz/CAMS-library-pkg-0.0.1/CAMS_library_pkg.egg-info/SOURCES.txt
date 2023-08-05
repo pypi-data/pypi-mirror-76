@@ -1,0 +1,6 @@
+README.md
+setup.py
+CAMS_library_pkg.egg-info/PKG-INFO
+CAMS_library_pkg.egg-info/SOURCES.txt
+CAMS_library_pkg.egg-info/dependency_links.txt
+CAMS_library_pkg.egg-info/top_level.txt
