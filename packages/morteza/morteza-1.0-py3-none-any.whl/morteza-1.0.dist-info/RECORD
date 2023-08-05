@@ -1,0 +1,9 @@
+morteza-1.0.dist-info/DESCRIPTION.rst,sha256=etxIdZStbSHGxuAqBj4A3H_FlphxJ_lW2u2e_iVezxs,38
+morteza-1.0.dist-info/METADATA,sha256=Cc6Qw2ofkN3nGe-tbUqB53EAeo1Ass8CbHBHIWJ-8WE,197
+morteza-1.0.dist-info/RECORD,,
+morteza-1.0.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+morteza-1.0.dist-info/metadata.json,sha256=3yWTeMZcQuLCOwireaFzwOuxmAcdeFPPuPdup8-Etp0,213
+morteza-1.0.dist-info/top_level.txt,sha256=EF8rrjwXFtosODl_zs63yDThOwxXOCeOfcL3fRV3Uz8,11
+mortezapdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mortezapdf/pdf2image.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mortezapdf/pdf2text.py,sha256=38HRWpEVXKo1tMs4fRO77mS59-SCEzmtHVng-Ov7Hr4,37
