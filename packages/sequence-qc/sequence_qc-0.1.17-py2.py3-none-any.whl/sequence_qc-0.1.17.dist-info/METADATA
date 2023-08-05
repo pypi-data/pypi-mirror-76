@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: sequence-qc
+Version: 0.1.17
+Summary: Package for doing various ad-hoc quality control steps from MSK-ACCESS generated FASTQ or BAM files
+Home-page: https://github.com/msk-access/sequence_qc
+Author: Ian Johnson
+Author-email: ionox0@gmail.com
+License: Apache Software License 2.0
+Keywords: sequence_qc
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: pysam (==0.15.4)
+Requires-Dist: pybedtools (==0.8.1)
+Requires-Dist: pyfaidx (==0.5.8)
+Requires-Dist: pytest (==5.4.2)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: pysamstats (==1.1.2)
+Requires-Dist: pandas (==1.0.3)
+Requires-Dist: plotly (==4.9.0)
+
+# sequence\_qc
+
+Package for doing various ad-hoc quality control steps from MSK-ACCESS generated FASTQ or BAM files
+
+[![Build Status](https://travis-ci.com/msk-access/sequence_qc.svg?branch=master)](https://travis-ci.com/msk-access/sequence_qc) [![PyPi](https://img.shields.io/pypi/v/sequence_qc.svg?)](https://pypi.python.org/pypi/sequence_qc) [![Anaconda](https://anaconda.org/ionox0/sequence-qc/badges/version.svg)](https://anaconda.org/ionox0/sequence-qc/)
+
+* Free software: Apache Software License 2.0
+* Documentation: [https://msk-access.gitbook.io/sequence-qc/](https://msk-access.gitbook.io/sequence-qc/)
+
+## Installation
+
+From pypi:
+
+`pip install sequence_qc`
+
+From conda:
+
+`conda install -c ionox0 -c conda-forge -c bioconda sequence-qc`
+
+
+
