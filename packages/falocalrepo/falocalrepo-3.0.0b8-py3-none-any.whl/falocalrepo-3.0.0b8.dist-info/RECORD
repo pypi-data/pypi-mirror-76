@@ -1,0 +1,15 @@
+falocalrepo/__doc__.py,sha256=FCIamXnCmZe6bP_iqKSyEtkN4sSkAOLWM6oJ2eMDs7A,3015
+falocalrepo/__init__.py,sha256=jIB_A21BGC5AzbHLPMvWIWXNiwGf0NZP3t0w2gmtitA,27
+falocalrepo/__main__.py,sha256=zkWVZUxOpcM_Mx6mnl03rCiljQoLJCguRWD-BmU4dwc,339
+falocalrepo/__version__.py,sha256=xf6sphRKy0NlWqwMHTQQrFOr-aPDcl9CxhU4S3nmLd4,29
+falocalrepo/commands.py,sha256=JPHZaJcoaTgNn-oIsFvFrnbcdkkH57Y8q2KWSj-HU-A,6125
+falocalrepo/console.py,sha256=_DaFJ0J0kg8Z25EI9FQVpIHKEK2Ek98oGfS8MdqxU6Y,5115
+falocalrepo/database.py,sha256=BFG-n0nDHX7IR9dMD0VN-dAUeozGs7yYI1gqL00koZU,5165
+falocalrepo/download.py,sha256=2qn1CPxKo-Ato4VIVut8_pmLA5anwkD2REAjtLny8yI,6285
+falocalrepo/menu.py,sha256=5eO8YmAEYFM8UBPMw_HRAtsykpdn1b4HQZcXNtEnPcg,543
+falocalrepo/settings.py,sha256=REiFLsWR1ix11FPZo88bFsEtzSwm0-9I3DimRAZazQw,887
+falocalrepo-3.0.0b8.dist-info/entry_points.txt,sha256=s78mwg7rRm6t-Lz6-rDU_pTA-IxGG3Azj2RAs6RyC1c,57
+falocalrepo-3.0.0b8.dist-info/LICENSE,sha256=c2ntVF08uHnnUPiC857fMgIXYIsHHsm_OkGwqmYNV0o,13866
+falocalrepo-3.0.0b8.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+falocalrepo-3.0.0b8.dist-info/METADATA,sha256=YP7nXpPLP1dOtavltZvvvVkVekSIP-zLmr_9hL7v-40,21571
+falocalrepo-3.0.0b8.dist-info/RECORD,,
