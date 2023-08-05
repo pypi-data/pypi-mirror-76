@@ -1,0 +1,10 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+text_file_splitter.egg-info/PKG-INFO
+text_file_splitter.egg-info/SOURCES.txt
+text_file_splitter.egg-info/dependency_links.txt
+text_file_splitter.egg-info/top_level.txt
+text_files_splitter/__init__.py
+text_files_splitter/text_files_splitter.py
