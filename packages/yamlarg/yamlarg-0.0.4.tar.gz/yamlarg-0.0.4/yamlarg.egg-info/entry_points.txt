@@ -1,0 +1,3 @@
+[yamlarg.parse]
+.rst = yamlarg:parse
+
