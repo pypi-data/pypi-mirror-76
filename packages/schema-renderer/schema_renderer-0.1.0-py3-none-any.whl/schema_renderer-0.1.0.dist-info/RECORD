@@ -1,0 +1,5 @@
+schema_renderer/__init__.py,sha256=QzOBnIIxjwIWNVkVJ_mzlcPXXZHNO2wquqm2Ll6vA5o,43
+schema_renderer/schema_renderer.py,sha256=alwCPCiVJ1XyyYfXthCn9KVNlm5rKuYUTFepN9rzfGs,2061
+schema_renderer-0.1.0.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+schema_renderer-0.1.0.dist-info/METADATA,sha256=5kuRv3b15AvTWo-shTFhN3h8xbxl71rTyfbYLR-VDx8,327
+schema_renderer-0.1.0.dist-info/RECORD,,
