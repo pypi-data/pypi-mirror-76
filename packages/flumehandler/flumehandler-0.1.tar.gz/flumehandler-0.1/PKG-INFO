@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: flumehandler
+Version: 0.1
+Summary: flume handler for logging
+Home-page: https://github.com/yu000hong/flumehandler
+Author: yu000hong
+Author-email: yu000hong@sina.com
+License: MIT
+Download-URL: https://github.com/yu000hong/flumehandler/archive/v0.1-alpha.tar.gz
+Description: UNKNOWN
+Keywords: Flume,logging,FlumeHandler,Handler,FlumeAgent
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
