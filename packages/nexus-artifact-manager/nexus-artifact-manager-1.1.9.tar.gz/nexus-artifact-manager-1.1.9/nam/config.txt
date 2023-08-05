@@ -1,0 +1,5 @@
+[uploadpath]
+upload_suburl = /service/rest/v1/components
+
+[downloadpath]
+download_suburl = /service/rest/v1/search/assets/download

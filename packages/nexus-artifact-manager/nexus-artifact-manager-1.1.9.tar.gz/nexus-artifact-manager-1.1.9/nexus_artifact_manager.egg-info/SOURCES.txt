@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+nam/__init__.py
+nam/__main__.py
+nam/config.txt
+nam/download.py
+nam/upload.py
+nexus_artifact_manager.egg-info/PKG-INFO
+nexus_artifact_manager.egg-info/SOURCES.txt
+nexus_artifact_manager.egg-info/dependency_links.txt
+nexus_artifact_manager.egg-info/entry_points.txt
+nexus_artifact_manager.egg-info/requires.txt
+nexus_artifact_manager.egg-info/top_level.txt
