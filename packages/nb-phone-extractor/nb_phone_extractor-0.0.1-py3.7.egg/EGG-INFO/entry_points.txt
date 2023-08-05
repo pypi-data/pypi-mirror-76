@@ -1,0 +1,3 @@
+[console_scripts]
+extract = nb_phone_extractor.command_line:main
+

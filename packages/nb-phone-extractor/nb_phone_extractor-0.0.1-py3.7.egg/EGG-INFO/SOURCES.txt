@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+nb_phone_extractor/__init__.py
+nb_phone_extractor/command_line.py
+nb_phone_extractor/condprob_long.pickle
+nb_phone_extractor/prior_long.pickle
+nb_phone_extractor/training_data_long.pickle
+nb_phone_extractor/vocab_list_long.pickle
+nb_phone_extractor.egg-info/PKG-INFO
+nb_phone_extractor.egg-info/SOURCES.txt
+nb_phone_extractor.egg-info/dependency_links.txt
+nb_phone_extractor.egg-info/entry_points.txt
+nb_phone_extractor.egg-info/requires.txt
+nb_phone_extractor.egg-info/top_level.txt
