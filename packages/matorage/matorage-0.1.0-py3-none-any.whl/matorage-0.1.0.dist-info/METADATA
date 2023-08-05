@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: matorage
+Version: 0.1.0
+Summary: matorage is Matrix or Tensor(multidimensional matrix) Object Storage with high availability distributed systems for Deep Learning framework.
+Home-page: https://github.com/graykode/matorage
+Author: TaeHwan-Jung
+Author-email: nlkey2022@gmail.com
+License: Apache License, Version 2.0
+Project-URL: Documentation, https://matorage.readthedocs.io/en/stable/
+Project-URL: Source Code, https://github.com/graykode/matorage
+Platform: any
+Requires-Python: >=3.5
+Requires-Dist: tables (==3.6.1)
+Requires-Dist: minio (==5.0.10)
+Requires-Dist: h5py
+Requires-Dist: pytest
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
