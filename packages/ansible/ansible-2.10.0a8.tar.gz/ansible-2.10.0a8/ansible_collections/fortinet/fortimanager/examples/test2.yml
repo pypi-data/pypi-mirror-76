@@ -1,0 +1,27 @@
+- name: Test API
+  hosts: fortimanager01
+  gather_facts: no
+  connection: httpapi
+  collections:
+    - fortinet.fortimanager
+  vars:
+    ansible_httpapi_use_ssl: True
+    ansible_httpapi_validate_certs: False
+    ansible_httpapi_port: 443
+    script_name: demoscript
+  tasks:
+    - name: execute the script
+      fmgr_dvmdb_script_execute:
+         loose_validation: true
+         method: exec
+         url_params:
+            adom: none
+         params:
+            # in schema data => workflow
+            - data:
+                  script: "{{ script_name }}"
+                  adom: root
+                  scope:
+                    - name: CustomHostname
+                      vdom: root
+ 
