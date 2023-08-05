@@ -1,0 +1,7 @@
+setup.py
+racli.egg-info/PKG-INFO
+racli.egg-info/SOURCES.txt
+racli.egg-info/dependency_links.txt
+racli.egg-info/entry_points.txt
+racli.egg-info/requires.txt
+racli.egg-info/top_level.txt
