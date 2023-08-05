@@ -1,0 +1,4 @@
+[console_scripts]
+tangoctl-client = tangoctl.cli:cli
+tangoctld = tangoctl.server:main [server]
+
