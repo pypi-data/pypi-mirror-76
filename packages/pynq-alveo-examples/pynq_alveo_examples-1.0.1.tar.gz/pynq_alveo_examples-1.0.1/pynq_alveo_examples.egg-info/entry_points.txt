@@ -1,0 +1,8 @@
+[pynq.notebooks]
+0-welcome-to-pynq = pynq_alveo_examples.notebooks.0_welcome_to_pynq
+1-introduction = pynq_alveo_examples.notebooks.1_introduction
+2-kernel-optimization = pynq_alveo_examples.notebooks.2_kernel_optimization
+3-advanced-features = pynq_alveo_examples.notebooks.3_advanced_features
+4-building-and-emulation = pynq_alveo_examples.notebooks.4_building_and_emulation
+data-compression = pynq_alveo_examples.notebooks.data_compression
+
