@@ -1,0 +1,20 @@
+#!/usr/bin/env python3
+
+import subprocess
+import json
+
+# Getting data
+command = "openstack flavor list --quiet --long --all --long -f json"
+flavors = json.loads(subprocess.check_output(command, shell=True, stderr=subprocess.DEVNULL).decode("utf-8"))
+
+# Replacing "Is Public" values from true or false to --public or --private
+i = 0
+while i < len(flavors):
+    if(flavors[i]["Is Public"]):
+        flavors[i]["Is Public"] = "--public"
+    else:
+        flavors[i]["Is Public"] = "--private"
+    i += 1
+
+# Print result
+print(json.dumps(flavors, indent=4))

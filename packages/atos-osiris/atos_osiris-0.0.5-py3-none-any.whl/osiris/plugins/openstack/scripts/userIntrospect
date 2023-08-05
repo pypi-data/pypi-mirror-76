@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+
+import json
+import os
+import subprocess
+
+# Getting raw data from openstack
+users_raw = json.loads(subprocess.check_output("openstack user list --quiet --long --format json", shell=True, stderr=subprocess.DEVNULL).decode("utf-8"))
+
+# Parsing data into osiris format (see plugins/openstack/objects/user)
+users = []
+for i,user in enumerate(users_raw):
+    users.append({})
+    users[i]["id"] = user['ID']
+    users[i]["project"] = user['Project']
+    users[i]["domain"] = user['Domain']
+    users[i]["name"] = user['Name']
+    users[i]["description"] = user['Description']
+    users[i]["email"] = user['Email']
+    users[i]["enabled"] = user['Enabled']
+
+# Printing result
+print(json.dumps(users_raw, indent=4))
