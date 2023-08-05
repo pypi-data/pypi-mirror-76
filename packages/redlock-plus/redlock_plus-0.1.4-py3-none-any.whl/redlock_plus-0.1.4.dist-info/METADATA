@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: redlock-plus
+Version: 0.1.4
+Summary: Distributed locks with Redis
+Home-page: https://github.com/provinzkraut/redlock-plus
+License: MIT
+Keywords: redlock,redis,lock,distributed
+Author: Janek Nouvertné
+Author-email: provinzkraut@posteo.de
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Provides-Extra: docs
+Requires-Dist: importlib-metadata (>=1.0,<2.0); python_version < "3.8"
+Requires-Dist: redis (>=3.5.3,<4.0.0)
+Requires-Dist: sphinx (>=3.1.2,<4.0.0); extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints (>=1.11.0,<2.0.0); (platform_python_implementation == "CPython") and (extra == "docs")
+Project-URL: Repository, https://github.com/provinzkraut/redlock-plus
+Description-Content-Type: text/x-rst
+
+.. _Redlock Algorithm: https://redis.io/topics/distlock#the-redlock-algorithm
+
+========
+Redlock+
+========
+
+Redlock+ is an up to date, feature complete implementation of the `Redlock Algorithm`_
+It's a spiritual successor to `glasslion/redlock <https://github.com/glasslion/redlock>`_, which is no longer maintained.
+
+
+Features
+=========
+
+- Compliant with the standard library `Lock <https://docs.python.org/3/library/threading.html#threading.Lock>`_
+  and `RLock <https://docs.python.org/3/library/threading.html#threading.RLock>`_ so it can be used as a drop-in replacement
+- Complete implementation of the `Redlock Algorithm`_
+- Autoextend functionality to make redlock safer and easier to use
+- Well tested (Python 3.6+, PyPy3)
+- Type hinted
+
+
+Installation
+============
+
+Redlock+ is available on PyPi:
+
+.. code-block:: bash
+
+  pip install redlock-plus
+
+
+Basic usage
+===========
+
+.. code-block:: python
+
+    from redlock_plus import Lock
+
+    redis_instance_configs = [
+        {"url": "redis://localhost/0"},
+        {"url": "redis://example.com:1234/1"},
+        {"url": "redis://other.host:5678/2"},
+    ]
+
+    with Lock("my_resource", redis_instance_configs):
+        # do work
+
+or speed up things for repeated use using the factory
+
+.. code-block:: python
+
+    from redlock_plus import LockFactory
+
+    redlock_factory = LockFactory(
+        [
+            {"url": "redis://localhost/0"},
+            {"url": "redis://localhost/1"},
+            {"url": "redis://localhost/2"},
+        ]
+    )
+
+    with redlock_factory("my_resource"):
+        # do work
+
