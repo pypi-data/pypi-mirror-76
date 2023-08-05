@@ -1,0 +1,9 @@
+tox_wheel/__init__.py,sha256=0PaI2eSOCp5kkNcpKpUSbLHf66rL9xQzFpYyLGpEtyM,22
+tox_wheel/plugin.py,sha256=A4gt_8a1oxkveggYjUF0FHFxHWLATfcAUba8xI1h60g,6394
+tox_wheel-0.5.0.dist-info/AUTHORS.rst,sha256=s6wJTAz72DxKS74lbz2GEbmvbHi87OmIuRZtiw7ok0s,118
+tox_wheel-0.5.0.dist-info/LICENSE,sha256=YA9nJkxpGIalA_Zwx1MuIetlahIWHBJpV76Y1QzS2V4,1326
+tox_wheel-0.5.0.dist-info/METADATA,sha256=2YbZMfiG-7qYuzd5KsU7GCLytfKxHj_dnd5ZYac04QU,4656
+tox_wheel-0.5.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+tox_wheel-0.5.0.dist-info/entry_points.txt,sha256=Qg4gxaoBAyqGsYbTo2oIgaDm9WiCjC2xXL8mWGhkLq8,32
+tox_wheel-0.5.0.dist-info/top_level.txt,sha256=6-oTkMFGRH3aipDxsaSIeWtdJHpCvKtviHLqS86zy1Y,10
+tox_wheel-0.5.0.dist-info/RECORD,,
