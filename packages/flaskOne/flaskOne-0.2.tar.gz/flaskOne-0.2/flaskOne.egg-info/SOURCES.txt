@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+flaskOne/__init__.py
+flaskOne.egg-info/PKG-INFO
+flaskOne.egg-info/SOURCES.txt
+flaskOne.egg-info/dependency_links.txt
+flaskOne.egg-info/entry_points.txt
+flaskOne.egg-info/not-zip-safe
+flaskOne.egg-info/requires.txt
+flaskOne.egg-info/top_level.txt

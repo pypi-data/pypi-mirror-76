@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: flaskOne
+Version: 0.2
+Summary: My first flask project
+Home-page: https://github.com/IsmaelOmar/firstFlaskProject
+Author: Ismael Omar
+Author-email: ismaelomar.work@gmail.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/althonos/firstFlaskProject/issues
+Project-URL: Changelog, https://github.com/althonos/firstFlaskProject/blob/master/CHANGELOG.md
+Description: UNKNOWN
+Keywords: firstFlaskProject
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: !=3.0.*,!=3.1.*,!=3.2.*,>=2.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+Provides-Extra: ci
