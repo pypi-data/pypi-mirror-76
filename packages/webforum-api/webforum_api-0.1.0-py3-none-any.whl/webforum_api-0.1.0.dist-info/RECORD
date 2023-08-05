@@ -1,0 +1,12 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/app/__init__.py,sha256=ikBUY0opnvXlQkRYa6zpYM9FtMF6FamyZwUZcxQyrUI,60
+src/app/auth.py,sha256=wBc4T1dpQhTO7aE5yTHQ2IbPGG079uGS9BtP1CBNE0M,508
+src/app/msg.py,sha256=DK3KuAya8lAvZJr3t4FD1oqGZxFL-I_qsWDtgp65tlQ,510
+src/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/tests/test_auth.py,sha256=F8VNjPvteeM_0sqnqQjtmmV_6_zIxJOm4QKJ_zMV0j8,453
+src/tests/test_msg.py,sha256=4HJU3mmngfkSVhZaYTVbH395jH1exBFTfaBdtud2TSk,452
+webforum_api-0.1.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+webforum_api-0.1.0.dist-info/METADATA,sha256=BU3u5SHd60L-alEj61vnrt-v-LBiEa-AxMIr_B11kBU,675
+webforum_api-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+webforum_api-0.1.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+webforum_api-0.1.0.dist-info/RECORD,,
