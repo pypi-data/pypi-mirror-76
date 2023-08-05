@@ -1,0 +1,17 @@
+antimony-2.12.0.2.data/purelib/antimony/__init__.py,sha256=qlUuJpuM8Gw3379QWXjwNEpzN4IsPp2_6toHOsBdjdg,351
+antimony-2.12.0.2.data/purelib/antimony/annotools.dll,sha256=tPvwgjXNiFaAB_42e2-tLwoMdJQdDwWozCYyPRPjmgg,30208
+antimony-2.12.0.2.data/purelib/antimony/antimony.py,sha256=-a1xa06azaO2MgfeJxe8T8n8Y2K5DaS_QsIVCUDyIzI,72531
+antimony-2.12.0.2.data/purelib/antimony/celeds.dll,sha256=jLwNwGtqpZhSkST4nh6-nqjGzjRPbSTrUMD7c0ta3YM,30208
+antimony-2.12.0.2.data/purelib/antimony/cellml.dll,sha256=uiw_f22zFjJK2M2mdvHexIt7s4fV9y5tVCxYCf51PhU,1384960
+antimony-2.12.0.2.data/purelib/antimony/cevas.dll,sha256=QAPo8gYzjTTvrWLw5M79ayrHfZwS5EgaZDWAz9BwDQ8,63488
+antimony-2.12.0.2.data/purelib/antimony/cuses.dll,sha256=XUJsfwZes0wjMYh7MyOks0IMA5gGnzRiXlFdrRexq6Q,78848
+antimony-2.12.0.2.data/purelib/antimony/libantimony.so,sha256=TkxIImaUIQ8iVKSh2Xd0DLTCGXOKPg0ivhZBLoqzfsY,13240528
+antimony-2.12.0.2.data/purelib/antimony/libxml2.dll,sha256=Elydz8vZHV4pL-f_w_TzkiWErny7N3pYBxBO5oL_BmY,743936
+antimony-2.12.0.2.data/purelib/antimony/malaes.dll,sha256=zd3ftZAtTS9kepmJFyBmGa0-AodJF9G-gyv-WDJXCk8,121344
+antimony-2.12.0.2.data/purelib/antimony/msvcp100.dll,sha256=BKRxjRbMPjpfhriDrQSVICQLP6TsBxsOsbvjmMYTpoY,421200
+antimony-2.12.0.2.data/purelib/antimony/msvcr100.dll,sha256=a0d2honrtYnuk_3F_LM4Xnez_-h26mKrE194pTyiM7A,768848
+antimony-2.12.0.2.data/purelib/antimony/telicems.dll,sha256=jBzposn2HWg34JcVVyJQtJxdrW847E87_uZDr7eMPsA,173568
+antimony-2.12.0.2.dist-info/METADATA,sha256=XNLCS4iFvsEn1VfuMMuAEPCPI_0Nv5Wzewx-JGODtd8,6891
+antimony-2.12.0.2.dist-info/WHEEL,sha256=OtOo_3rwwCWAklSC2BhCqBMJ_R3ddO6iBBnDrB96wZw,104
+antimony-2.12.0.2.dist-info/top_level.txt,sha256=uCflTPdOoQsi-KG4ExQ9UleYlxI_mD_lA4d4rx5OyDA,9
+antimony-2.12.0.2.dist-info/RECORD,,
