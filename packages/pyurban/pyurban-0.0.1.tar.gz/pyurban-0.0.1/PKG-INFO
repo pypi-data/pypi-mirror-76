@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: pyurban
+Version: 0.0.1
+Summary: A information collector from Urban Dictionary
+Home-page: UNKNOWN
+Author: Srijon Kumar
+Author-email: srijonkumar18@gmail.com
+License: MIT
+Description: This is a module which will help you to get meanings,examples,author names from Urban Dictionary.
+        
+        
+         Example: 
+        
+         import pyurbandictionary
+         meaning('Google')
+         example('Google') 
+         author('Google')
+Keywords: urbandictionary
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

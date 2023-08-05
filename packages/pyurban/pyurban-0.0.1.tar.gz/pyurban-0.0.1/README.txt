@@ -1,0 +1,1 @@
+This is a module which will help you to get meanings,examples,author names from Urban Dictionary. 
