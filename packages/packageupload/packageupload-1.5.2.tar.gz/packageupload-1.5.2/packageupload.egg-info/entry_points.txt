@@ -1,0 +1,3 @@
+[console_scripts]
+packageupload = packageupload.command_line:main
+

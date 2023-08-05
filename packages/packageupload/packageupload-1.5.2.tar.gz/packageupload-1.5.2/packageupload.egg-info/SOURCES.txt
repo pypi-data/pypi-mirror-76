@@ -1,0 +1,10 @@
+README.md
+setup.py
+packageupload/__init__.py
+packageupload/command_line.py
+packageupload.egg-info/PKG-INFO
+packageupload.egg-info/SOURCES.txt
+packageupload.egg-info/dependency_links.txt
+packageupload.egg-info/entry_points.txt
+packageupload.egg-info/requires.txt
+packageupload.egg-info/top_level.txt
