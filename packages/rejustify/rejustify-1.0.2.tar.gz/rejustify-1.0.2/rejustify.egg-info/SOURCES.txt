@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+rejustify/__init__.py
+rejustify.egg-info/PKG-INFO
+rejustify.egg-info/SOURCES.txt
+rejustify.egg-info/dependency_links.txt
+rejustify.egg-info/requires.txt
+rejustify.egg-info/top_level.txt
