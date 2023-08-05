@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: google_img_downloader
+Version: 0.5
+Summary: google_img_downloader is a Python library that allow to download automatically image from google-image
+Home-page: https://github.com/tbro2020/image-google-downloader
+Author: TABARO Christian
+Author-email: tabarochristian@yahoo.com
+License: MIT
+Download-URL: https://github.com/tbro2020/image-google-downloader
+Description: UNKNOWN
+Keywords: google,image,download,python,webdriver
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
