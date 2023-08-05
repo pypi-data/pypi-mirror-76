@@ -1,0 +1,17 @@
+drf_nest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_nest/admin.py,sha256=dJHrP-Ji7oO8krYfAYldaYcdV9kwQhurYYChwE-UVzk,1733
+drf_nest/api.py,sha256=43RSd9EgE4IZCFNIqUIK8tVTExkLQjDOwPhyCMtg9co,1108
+drf_nest/batch_migrate.py,sha256=vSGL4bNP_5_U34ozFniGgaVKyN_4dssGeGBhRTnyzpI,3042
+drf_nest/fields.py,sha256=2B5Ur-FqGe4A2LVNGrO53_V5axP_5z5aHEJyC7EuKjE,1669
+drf_nest/pagination.py,sha256=CB1DMlEM9fo5Hc-TlbRrxsiWXKDPbe6fh4zLiVM2gdg,9318
+drf_nest/permissions.py,sha256=NWSbucyO5zhqOPFypIdGfyG1EpYeBjzm313NdJvTcl4,1103
+drf_nest/routers.py,sha256=nsMFsPM70-qWbOu0w_nVFJ9piE8PyDx5EMvVZP4x1pM,1699
+drf_nest/serializer_fields.py,sha256=KAA_n3kzyySnGeJzzQjGuyPS3JoYQ0nUBsC2ISOyKAI,6938
+drf_nest/serializers.py,sha256=rRCt91terUXnhdR5TSWlElD9WnaY-31bDJ8lnFr9GGE,11281
+drf_nest/signals.py,sha256=zsWqB0dNCZu9WfrsO-oOG5tbJ87La79r_Fg-9SCtmX0,3745
+drf_nest/templates/admin/textinput_filter.html,sha256=7z_wbCQd6l828djqO2YybIBINiwGVOdscZBb3mR7c4M,1021
+drf_nest-0.1a2.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+drf_nest-0.1a2.dist-info/METADATA,sha256=TJcdpnsSllFo-R2Pa3gex1AUk_Fd_uDlIHpYiCw7Izg,2962
+drf_nest-0.1a2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+drf_nest-0.1a2.dist-info/top_level.txt,sha256=NTIFtgAXas497RvEu6uAT8p2YASLuaYGhr4WtSN3SpE,9
+drf_nest-0.1a2.dist-info/RECORD,,
