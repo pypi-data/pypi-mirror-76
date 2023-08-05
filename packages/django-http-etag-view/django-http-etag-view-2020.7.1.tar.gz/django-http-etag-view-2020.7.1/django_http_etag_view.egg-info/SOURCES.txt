@@ -1,0 +1,8 @@
+requirements.txt
+setup.py
+django_http_etag_view/__init__.py
+django_http_etag_view/views.py
+django_http_etag_view.egg-info/PKG-INFO
+django_http_etag_view.egg-info/SOURCES.txt
+django_http_etag_view.egg-info/dependency_links.txt
+django_http_etag_view.egg-info/top_level.txt
