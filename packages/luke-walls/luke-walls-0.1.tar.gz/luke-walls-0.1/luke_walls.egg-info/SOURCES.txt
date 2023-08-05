@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+luke_walls.egg-info/PKG-INFO
+luke_walls.egg-info/SOURCES.txt
+luke_walls.egg-info/dependency_links.txt
+luke_walls.egg-info/not-zip-safe
+luke_walls.egg-info/top_level.txt
