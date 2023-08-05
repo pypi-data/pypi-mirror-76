@@ -1,0 +1,3 @@
+[ocrd_browser_view]
+scan = ocrd_physical_import:ViewScan
+
