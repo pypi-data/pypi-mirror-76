@@ -1,0 +1,12 @@
+README.md
+setup.py
+matplotlib_pdf/__init__.py
+matplotlib_pdf/example.py
+matplotlib_pdf/pdf_figure_manager.py
+matplotlib_pdf/stampers.py
+matplotlib_pdf/utility.py
+matplotlib_pdf.egg-info/PKG-INFO
+matplotlib_pdf.egg-info/SOURCES.txt
+matplotlib_pdf.egg-info/dependency_links.txt
+matplotlib_pdf.egg-info/requires.txt
+matplotlib_pdf.egg-info/top_level.txt

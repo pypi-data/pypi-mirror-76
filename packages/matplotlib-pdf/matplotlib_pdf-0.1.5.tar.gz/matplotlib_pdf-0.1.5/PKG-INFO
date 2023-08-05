@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: matplotlib_pdf
+Version: 0.1.5
+Summary: Maintain a PDF-file with Matplotlib figures as pages.
+Home-page: https://github.com/NorthGuard/matplotlib_pdf
+Author: Jeppe Nørregaard
+Author-email: northguard_serve@tutanota.com
+License: MIT License
+Description: 
+        Store multiple `matplotlib` figures as pages in a PDF-file.  
+        `PDFFigureContainer` is initialized with a Path to a destination.  
+        `PDFFigureContainer.add_figure_page()` is called to add current figure to PDF.
+        
+        More information at https://github.com/NorthGuard/matplotlib_pdf
+        
+Keywords: matplotlib pdf figure
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
