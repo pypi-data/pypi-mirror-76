@@ -1,0 +1,104 @@
+#+STARTUP: indent
+
+* ProgressBarBase
+- Atributos
+  + self._finalcount
+    * propriedade `finalcount`
+
+- Métodos
+  + start
+  + stop
+  + progress
+  + _update_iteration -> vazio
+  + _display_current_progress -> vazio
+  + _perform_initialization -> vazio
+  + _perform_finalizations -> vazio
+
+
+* ProgressbarTextBase -> herda de ProgressBarBase
+- Atributos
+  + prog_bar -> representação da barra de progresso (a string com o progresso)
+  + progresschar
+  + _width
+  + _message
+- Métodos
+  + _perform_finalizations
+  + _display_current_progress
+  + _update_iteration -> Não aparece e debve ser implementado em subclasse
+    * Subclasses devem setar o valor de `self.prog_bar`
+
+* ProgressbarText -> herda de ProgressbarTextBase
+- Métodos
+  + _update_iteration
+
+* ProgressbarText2 -> herda de ProgressbarTextBase
+- Métodos
+  + _update_iteration
+
+* ProgressbarText3 -> herda de ProgressbarTextBase
+- Métodos
+  + _update_iteration
+
+* ProgressBarIPython -> herda de ProgressBarBase
+- Atributos
+  + prog_bar -> representação da barra de progresso (uma widget `FloatProgress`)
+  + _message -> widget `Label`
+    * propriedade "message" (str)
+- Métodos
+  + _update_iteration
+  + _display_current_progress -> vazio
+  + _perform_initialization -> chama o display da widget
+
+* ProgressbarDistributedServerBase
+- Atributos
+  + finalcount
+  + message
+  + is_running
+  + num_clients
+  + _manager -> compartilhado entre processos
+  + _client_data_list -> Uma lista compartilhada criada com o _manager
+
+- Métodos
+  + *_update_client_data_list* -> deve ser implementado em uma subclasse
+    * *gather the information sent by the clients*
+  + _register_client -> Adiciona um novo elemento na lista `_client_data_list` contendo zero
+  + register_client_and_get_proxy_progressbar -> deve ser implementado na subclasse
+  + _update_progress
+    * *Executado em um processo diferente* e chama o método `_update_client_data_list`
+  + start_updater
+    * é quem dispara o método `_update_progress` em um processo diferente
+  + stop_updater
+    * é quem pede para o processo rodando `_update_progress` parar e faz o `join` do processo
+
+* ProgressbarMultiProcessServer -> herda de ProgressbarDistributedServerBase
+- Métodos
+  + _update_client_data_list -> Vazio
+  + register_client_and_get_proxy_progressbar
+    * chama `_register_client` e cria uma progressbar cliente
+
+* ProgressbarZMQServer -> herda de ProgressbarDistributedServerBase
+- Atributos
+  + _ns -> um namespace criado usando o `_manager`
+  + _ns.ip
+    * property `ip`
+  + _ns.port
+    * property `port`
+  + _zmq_context
+  + _zmq_pull_socket
+- Métodos
+  + register_client_and_get_proxy_progressbar
+  + _update_progress
+    * cria o contexto zmq, faz o bind do socket e finalmente chama o `_update_progress` da classe base
+  + _update_client_data_list
+    * recebe o progresso dos clients via zmq socket
+
+
+
+
+
+
+* ProgressbarDistributedClientBase -> herda de ProgressBarBase
+
+* ProgressbarMultiProcessClient -> herda e ProgressbarDistributedClientBase
+
+* ProgressbarZMQClient -> herda e ProgressbarDistributedClientBase
