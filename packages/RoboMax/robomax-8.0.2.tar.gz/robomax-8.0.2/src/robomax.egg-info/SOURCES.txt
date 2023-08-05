@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/Robomax_Wrapper_v8.py
+src/robomax.egg-info/PKG-INFO
+src/robomax.egg-info/SOURCES.txt
+src/robomax.egg-info/dependency_links.txt
+src/robomax.egg-info/top_level.txt
