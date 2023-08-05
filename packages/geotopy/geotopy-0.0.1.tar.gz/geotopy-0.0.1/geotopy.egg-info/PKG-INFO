@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: geotopy
+Version: 0.0.1
+Summary: A calibration tool for GEOtop
+Home-page: https://github.com/stefanocampanella/GEOtoPy
+Author: Stefano Campanella
+Author-email: scampane@sissa.it
+License: UNKNOWN
+Description: # GEOtoPy
+        
+        Dead simple, paper-thin wrapper to work with GEOtop from Python.
+        
+        ## TODO/Wishlist
+        
+        * Add more documentation and support for `Sphinx`
+        * Add tests and CI (using `pytests` and Travis)
+        * Bundle precompiled binaries or compile GEOtop from `setup.py`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
