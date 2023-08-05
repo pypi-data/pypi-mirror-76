@@ -1,0 +1,8 @@
+requirements.txt
+setup.py
+django_env_context_processor/__init__.py
+django_env_context_processor/context_processors.py
+django_env_context_processor.egg-info/PKG-INFO
+django_env_context_processor.egg-info/SOURCES.txt
+django_env_context_processor.egg-info/dependency_links.txt
+django_env_context_processor.egg-info/top_level.txt
