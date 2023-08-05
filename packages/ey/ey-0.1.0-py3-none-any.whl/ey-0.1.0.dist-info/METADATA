@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ey
+Version: 0.1.0
+Summary: Simple and easy-to-use library for executing shell commands saving data to the file system without re-executing already executed tasks.
+Home-page: https://github.com/samuell/ey
+Author: Samuel Lampa
+Author-email: samuel.lampa@rilnet.com
+License: MIT
+Keywords: workflows workflow pipeline task
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+
+# Ey
+
+A super-simple library for performing stepwise batch tasks that saves things to
+files, such that outputs from already finished tasks are not needlessly
+re-computed.
+
+
