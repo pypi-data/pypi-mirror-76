@@ -1,0 +1,16 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+requirements/pypi.txt
+src/pretty_traceback/__init__.py
+src/pretty_traceback.egg-info/PKG-INFO
+src/pretty_traceback.egg-info/SOURCES.txt
+src/pretty_traceback.egg-info/dependency_links.txt
+src/pretty_traceback.egg-info/requires.txt
+src/pretty_traceback.egg-info/top_level.txt
+src/pretty_traceback.egg-info/zip-safe
+test/test_formatting.py
+test/test_parsing.py
