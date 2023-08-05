@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: cURL-light
+Version: 7.64.0.1
+Summary: python library for transferring data specified with URL syntax using cURL
+Home-page: https://github.com/Ksengine/cURL-light
+Author: Kavindu Santhusa
+Author-email: kavindusanthusa@gmail.com
+License: MIT
+Download-URL: https://pypi.python.org/pypi/cURL-light
+Project-URL: Bug Tracker, https://github.com/Ksengine/cURL-light/issues
+Keywords: python,library,transfer,data,URL,cURL
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3
+Provides: cURL_light
+Description-Content-Type: text/markdown
+
+# cURL-light
+python library for transferring data specified with URL syntax using cURL.
+Curl is a python library and a command line tool for transferring data 
+specified with URLsyntax. Find out how to use curl by reading the curl  
+help page or the MANUAL document. Find out how to install Curl by reading 
+the INSTALL document.
+
+libcurl is the library curl is using to do its job. its heavy for python
+*so I made this for you**
+
+## Example
+
+```python
+import curl
+s, data = curl.get('https://w3schools.com')
+print(s)
+print(data)
+```
+
+## NOTICE
+
+Curl contains pieces of source code that is Copyright (c) 1998, 1999
+Kungliga Tekniska Högskolan. This notice is included here to comply with the
+distribution terms.
+cURL-light is licensed under MIT.
+
+
