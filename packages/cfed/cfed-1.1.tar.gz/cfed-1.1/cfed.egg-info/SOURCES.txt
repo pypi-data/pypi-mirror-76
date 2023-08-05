@@ -1,0 +1,10 @@
+README.md
+setup.py
+cfed/__init__.py
+cfed/pairwise.py
+cfed.egg-info/PKG-INFO
+cfed.egg-info/SOURCES.txt
+cfed.egg-info/dependency_links.txt
+cfed.egg-info/top_level.txt
+tests/__init__.py
+tests/test_pairwise.py
