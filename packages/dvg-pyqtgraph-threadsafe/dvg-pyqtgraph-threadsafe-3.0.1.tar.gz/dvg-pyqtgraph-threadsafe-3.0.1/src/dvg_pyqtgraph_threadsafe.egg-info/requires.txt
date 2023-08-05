@@ -1,0 +1,5 @@
+typing_extensions
+numpy~=1.15
+pyqt5~=5.12
+pyqtgraph~=0.11
+dvg-ringbuffer~=1.0
