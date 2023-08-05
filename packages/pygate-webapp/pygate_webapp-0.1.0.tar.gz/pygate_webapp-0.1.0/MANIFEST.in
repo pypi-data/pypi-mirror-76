@@ -1,0 +1,3 @@
+recursive-include pygate_webapp/static *
+recursive-include pygate_webapp/templates *
+include pygate_webapp/VERSION
