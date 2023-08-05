@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: figure_manager
+Version: 0.1.2
+Summary: Easily snap Matplotlib figures to suitable location on screen.
+Home-page: https://github.com/NorthGuard/figure_manager
+Author: Jeppe Nørregaard
+Author-email: northguard_serve@tutanota.com
+License: MIT License
+Description: 
+        `figure_manager` can snap matplotlib-figures to various positions on the screen.  
+        For example, more one figure to upper-left corner of the screen or make a figure full-screen. 
+        
+        More information at https://github.com/NorthGuard/figure_manager
+        
+Keywords: matplotlib figure monitor screen
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown

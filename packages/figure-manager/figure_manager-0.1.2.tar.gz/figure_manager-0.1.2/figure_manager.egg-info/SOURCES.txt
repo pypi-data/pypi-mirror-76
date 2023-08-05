@@ -1,0 +1,12 @@
+README.md
+setup.py
+figure_manager/__init__.py
+figure_manager/example.py
+figure_manager/figure_manager.py
+figure_manager/figure_measurer.py
+figure_manager/splitters.py
+figure_manager.egg-info/PKG-INFO
+figure_manager.egg-info/SOURCES.txt
+figure_manager.egg-info/dependency_links.txt
+figure_manager.egg-info/requires.txt
+figure_manager.egg-info/top_level.txt
