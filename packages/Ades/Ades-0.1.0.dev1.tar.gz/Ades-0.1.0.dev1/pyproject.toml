@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "ades"
+version = "0.1.0dev"
+description = "OpenAPI deserializer"
+authors = ["Xavier Barbosa <clint.northwood@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyyaml = "^5.3.1"
+httpx = "^0.13.3"
+yarl = "^1.4.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+pytest-cov = "^2.0"
+black = "^19.10b0"
+pylama = "^7.7.1"
+mypy = "^0.782"
+pytest-subtests = "^0.3"
+rfc3339 = "^6.2"
+iso8601 = "^0.1.12"
+isort = "^5.2.2"
+twine = "^3.2.0"
+wheel = "^0.34.2"
+setuptools = "^49.2.1"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry>=1.0.9"]
+build-backend = "poetry.masonry.api"
