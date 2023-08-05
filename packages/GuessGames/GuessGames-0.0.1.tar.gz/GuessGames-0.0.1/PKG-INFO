@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: GuessGames
+Version: 0.0.1
+Summary: A higher or lower guessing game
+Home-page: UNKNOWN
+Author: Jennifer Mason
+Author-email: jennifer.r.mason@btinternet.com
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
