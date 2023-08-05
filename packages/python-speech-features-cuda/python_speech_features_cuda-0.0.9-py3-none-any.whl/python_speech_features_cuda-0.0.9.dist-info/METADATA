@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: python-speech-features-cuda
+Version: 0.0.9
+Summary: Re-implementation of Python Speech Features Extraction on CUDA.
+Home-page: https://github.com/vkola-lab/python_speech_features_cuda
+Author: Chonghua Xue
+Author-email: cxue2@bu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+
+
