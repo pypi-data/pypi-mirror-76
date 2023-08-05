@@ -1,0 +1,385 @@
+{
+// delete this line
+// delete this line
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://timecodeddata.warnerbros.com/wbTimeTaggedMetadata/wbTimeTaggedMetadata_0.1.json",
+  "description": "Specification for the storage of time coded metadata for Warner Bros. - Version 0.1. A metadata document conforming to this schema will have at least one of the 'frames' or 'timespans' sections and may have both.",
+  "type": "object",
+  "properties": {
+    "wbtcd:content_info": {
+      "$ref": "#/definitions/wbtcd:content_info"
+    },
+    "wbtcd:object_types": {
+      "$ref": "#/definitions/wbtcd:object_types"
+    },
+    "wbtcd:frames": {
+      "$ref": "#/definitions/wbtcd:frames"
+    },
+    "wbtcd:timespans": {
+      "$ref": "#/definitions/wbtcd:timespans"
+    }
+  },
+   "additionalProperties": false,
+  "required": [
+    "wbtcd:content_info",
+    "wbtcd:object_types"
+  ],
+  "anyOf": [
+    {
+      "required": [
+        "wbtcd:frames"
+      ]
+    },
+    {
+      "required": [
+        "wbtcd:timespans"
+      ]
+    }
+  ],
+  "minProperties": 3,
+  "maxProperties": 4,
+  "definitions": {
+    "wbtcd:content_info": {
+      "description": "Information that describes the specific version of content that is described by the metadata in the rest of this document",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "wbtcd:technicalContentInfo": {
+          "$ref": "#/definitions/wbtcd:technicalContentInfo"
+        },
+        "wbtcd:descriptiveContentInfo": {
+          "$ref": "#/definitions/wbtcd:descriptiveContentInfo"
+        }
+      },
+      "required": [
+        "wbtcd:technicalContentInfo",
+        "wbtcd:descriptiveContentInfo"
+      ]
+    },
+    "wbtcd:technicalContentInfo": {
+      "description": "Duration is expressed with a value and units and can be seconds, frames, or timecode (drop or non drop frame). Framerate is always in frames per second",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "duration": {
+          "$ref": "#/definitions/wbtcd:duration"
+        },
+        "framerate": {
+          "$comment": "the frame rate is expressed in frames per second as a float",
+          "type": "number"
+        },
+        "eidr3": {
+          "$comment": "the regex for an EIDR level 3 pattern goes here",
+          "type": "string",
+          "pattern": ".*"
+        },
+        "xid": {
+          "$ref": "#/definitions/wbtcd:xid"
+        }
+      },
+      "required": [
+        "duration",
+        "framerate"
+      ],
+      "anyOf": [
+        {
+          "required": [
+            "eidr3"
+          ]
+        },
+        {
+          "required": [
+            "wbtcd:xid"
+          ]
+        }
+      ]
+    },
+    "wbtcd:xid": {
+      "$comment": "the regex for a WB Xid pattern goes here",
+      "type": "string",
+      "pattern": ".*"
+    },
+    "wbtcd:duration": {
+      "description": "the description of a duration in either frames, seconds, or timecode format",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "valueFSTC": {
+          "$ref": "#/definitions/wbtcd:valueFSTC"
+        },
+        "units": {
+          "$ref": "#/definitions/wbtcd:timeUnits"
+        }
+      },
+      "required": [
+        "valueFSTC",
+        "units"
+      ]
+    },
+    "wbtcd:descriptiveContentInfo": {
+      "description": "Descriptive information about the content described in the document. Note that the xid from ATOM will be chosen to represent the content at the 'highest' level that is appropriate, eg: for a movie it would be title, for an episode it may be product. The written title is for human use only and the xid is considered authoratative for title text",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "xid": {
+          "$ref": "#/definitions/wbtcd:xid"
+        }
+      }
+    },
+    "wbtcd:object_types": {
+      "description": " this is intended to contain references that are used throughout the rest of the document... Specifically, the object types listed here provide the names that are used to identify object types and the id's listed for each object are used later to refer back to information captured here.. ...a list (provided as the keys to the object) of the different types of object that appear in the data. The 'name' is the id that will be used in the rest of the document, the version is for tracking and the uri is a pointer to a json schema file that defines the data format for the object. this data format is used for validation of data in the document. For each of the object types, we aggregate identifiers used in the object type and permit them to be referenced to other data sources in order to provide more context. Note, for any individual object type this information could be stored in a separate document and referenced here by URI as long as the ID's in this document are consistent with the referenced id's. Also, there is no reason that the id's need to be 'odd' - it would be acceptable for example, for the emotions to use the names of the emotions as id's as long as they are unique in this document. The system will be much more useful if we require a URI for every term used and strictly understand our tags, keywords, emotions, etc. so that is assumed here. Definitions: objectId should be one of the keys found in object_types. objectData will contain data that is of the format specified by the object type json schema file.   Each of the patternProperty keys represents a 'kind' of data point that exists in the object data - those will contain either a list of things (like emotions) or a list of more fully defined objects. [NOTE additionalProperties - false enforces a naming convention on the key names]",
+      "type": "object",
+      "additionalProperties": false,
+      "patternProperties": {
+        "^[-a-zA-Z_0-9]+$": {
+          "$ref": "#/definitions/wbtcd:identifiedObject"
+        }
+      },
+      "minProperties": 1
+    },
+    // TODO - add ability to handle a simple list such as a face detection id which may (or may not) have an object associated to it
+
+    // TODO - deal with internal references to things like the ATOM/performance URI so that we don't have to repeat it in every detection. How can we make that into an ID?
+    "wbtcd:identifiedObject": {
+      "description": "The key that labels this object is the identifier used throughout the document to refer to these types of collected data",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "version": {
+          "type": "string"
+        },
+        "schemaDefinition": {
+          "type": "string",
+          "format": "uri"
+        },
+        "identificationGroupings": {
+          "$ref": "#/definitions/wbtcd:identificationGroupings"
+        }
+      },
+      "required": [
+        "version",
+        "schemaDefinition",
+        "identificationGroupings"
+      ]
+    },
+    "wbtcd:identificationGroupings": {
+      "description": "The keys are arbitrary strings that name the different types of sub-objects of the specific object type. The value of the key is used as an id in other parts of this document. [NOTE additionalProperties - false enforces a naming convention on the key names]",
+      "type": "object",
+      "additionalProperties": false,
+      "patternProperties": {
+        "^[-a-zA-Z_0-9]+$": {
+          "$ref": "#/definitions/wbtcd:identifiedGroup"
+        }
+      },
+      "minProperties": 1
+    },
+    "wbtcd:identifiedGroup": {
+      "description": "The keys are arbitrary strings that provide the ids used to represent this specific object in the rest of the document. The data can be of two different formats - either a simple list that would be used for tag-like information, or a fully described object conforming to an identifed subschema of the main object schema [NOTE additionalProperties - false enforces a naming convention on the key names]",
+      "type": "object",
+      "additionalProperties": false,
+      "minProperties": 1,
+      "patternProperties": {
+        "^[-a-z-A-Z_0-9]+$": {
+          "anyOf": [
+            {
+              "$ref": "#/definitions/wbtcd:identifiedObjectGroup"
+            },
+            {
+              "$ref": "#/definitions/wbtcd:identifiedListGroup"
+            }
+          ]
+        }
+      }
+    },
+    "wbtcd:identifiedObjectGroup": {
+      "description": "The keys that point to this object are ids and this object defines what the id's represent. This is specific to a type of object that has object data in the detection. The object data included here must conform to the names json schema of the parent identifiedGroup",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "objectData": {
+          "type": "object"
+        },
+        "externalReference": {
+          "$ref": "#/definitions/wbtcd:externalObjectReference"
+        }
+      }
+"required":["schemaDefinition"],
+    },
+    "wbtcd:externalObjectReference": {
+      "description": "This contains information that is not provided by the detection algorithm but maintained by an external group. This data helps to further specify the detected object in this document. for example, AWS may detect celebrities by name - the external reference could be to an ATOM actor entity or to a IMDB id. The object types that we track will need to be defined (ideally with a resolveable URI that defines the type)",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "externalObjectType": {
+          "type": "string",
+          "format": "uri"
+        },
+        "uri": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "wbtcd:identifiedListGroup": {
+      "description": "The keys that point to this object are ids and this object defines what the id's represent. This is specific to a type of object that is a simple list of values, such as an emotion or a tag/label. The tags and labels, in order to be meaningful, need to be defined within WB metadata space. This provides a link to that definition. The data type is listed for each label in order to facilitate a mixed group of labels where WB may have an internal list and also reference a master list. It is possible we could remove dataType and simply list a URI and infer the type from the URI",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "dataType": {
+          "type": "string",
+          "format": "uri"
+        },
+        "uri": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "wbtcd:frames": {
+      "description": "This is an unordered array of individual frame objects. If a frame has no data in this documnet it does not need to be included here. EG: if this is face detection data, frames with no detected faces would be omitted",
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/wbtcd:frame"
+      }
+    },
+    "wbtcd:frame": {
+      "description": "metadata related to a specific frame as identified in the object",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "wbtcd:frameLocation": {
+          "$ref": "#/definitions/wbtcd:frameLocation"
+        },
+        "wbtcd:frameData": {
+          "$ref": "#/definitions/wbtcd:frameData"
+        }
+      }
+    },
+    "wbtcd:frameLocation": {
+      "description": "the information necessary to determine which frame from the contetn is described in a frame object. Note that frame numbers start at 1, time in seconds starts at 0 but timecode starts at the time embedded in the media. Frame accuracy of 0 indicates that there is not error. If frameaccuracy is omitted or the value is zero then the frame is fully accurate",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "valueFSTC": {
+          "$ref": "#/definitions/wbtcd:valueFSTC"
+        },
+        "timeUnits": {
+          "$ref": "#/definitions/wbtcd:timeUnits"
+        },
+        "frameAccuracy": {
+          "$ref": "#/definitions/wbtcd:valueFSTC"
+        }
+      },
+      "required": [
+        "valueFSTC",
+        "timeUnits"
+      ]
+    },
+    // TODO - the dataTypeId can not get down to the specific sub objects for a detection type (eg: Valossa/human_face) need to make a way to retrieve that from an ID for Valossa - for example the Valossa.json file might have #human_face as a type...
+    "wbtcd:frameData": {
+      "description": "The data for the frame must be of an object type listed in the references section of the document. The data will use the frames dataIdentifier value to reference the json schema that is used to validate the data in this object. As we can't know what id will be used we can do no further data validation in this schema document. The dataTypeId must be one of the ids from the object types given earlier in the document which fully specifies the data format with a json schema. Note that the data object may contain id's that are expected to be fully specified within the references object.",
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "dataTypeId": {
+          "type": "string"
+        },
+        "dataObject": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "dataTypeId",
+        "dataObject"
+      ]
+    },
+    "wbtcd:valueFSTC": {
+      "description": "A value that can represent Frames, Seconds or Time Code in drop or non drop frames.",
+      "additionalProperties": false,
+      "anyOf": [
+        {
+          "$comment": "for seconds",
+          "type": "number",
+          "minimum": 0
+        },
+        {
+          "$comment": "for frames",
+          "type": "integer",
+          "minimum": 0
+        },
+        {
+          "$comment": "for timecode",
+          "type": "string",
+          "pattern": "^[0-9][0-9]:[0-5][0-9]:[0-5][0-9][:;]{1}[0-9][0-9]$"
+        }
+      ]
+    },
+    "wbtcd:timeUnits": {
+      "description": "this specifies the units associated with a value in a valueFSTC field",
+      "enum": [
+        "frames",
+        "seconds",
+        "nonDropTimeCode",
+        "dropFrameTimeCode"
+      ]
+    },
+    "wbtcd:timespans": {
+      "description": "this object contains all of the data that describes time periods in the content. It is possible that only one or the other type of timespan will be present in the data. The difference between a concrete timespan and a descriptive timespan is one of interpretation of the data and not the format of the data. Concrete timespans are expected to have data that is true for every frame in the described span. Descriptive timespans have data that describes the whole span while not necessarily being true for each frame. A face bounding box for a specific celebrity is concrete while a celebrity appearing in a schene is descriptive. Note that there are some types of data that we will have to define as one type or the other - an example would be an audio detection for a given word (or line) of dialog. The full word/line does not appear in every frame but it may be considered to be concrete.",
+      "additionalProperties": false,
+      "properties": {
+        "descriptiveTimespans": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/wbtcd:timespan"
+          },
+          "minItems": 1
+        },
+        "concreteTimespans": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/wbtcd:timespan"
+          },
+          "minItems": 1
+        }
+      },
+      "minProperties": 1
+      // you may have one or both
+    },
+    "wbtcd:timespan": {
+      "description": "this object contains all of the data that describes time periods in the content. It is possible that only one or the other type of timespan will be present in the data. The data object should conform to the data type specified by the id. Also, start, end and accuracy must all use the same units. If accuracy is omitted or 0 then the values are fully accurate",
+      "additionalProperties": false,
+      "type": "object",
+      "properties": {
+        "start": {
+          "$ref": "#/definitions/wbtcd:valueFSTC"
+        },
+        "end": {
+          "$ref": "#/definitions/wbtcd:valueFSTC"
+        },
+        "units": {
+          "$ref": "#/definitions/wbtcd:timeUnits"
+        },
+        "accuracy": {
+          "$ref": "#/definitions/wbtcd:valueFSTC"
+        },
+        "dataTypeId": {
+          "type": "string"
+        },
+        "dataObject": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "start",
+        "end",
+        "units",
+        "dataTypeId",
+        "dataObject"
+      ]
+    }
+  }
+}
