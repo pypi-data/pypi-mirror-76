@@ -1,0 +1,6 @@
+README.md
+setup.py
+hydra_007_mxmul_pkg.egg-info/PKG-INFO
+hydra_007_mxmul_pkg.egg-info/SOURCES.txt
+hydra_007_mxmul_pkg.egg-info/dependency_links.txt
+hydra_007_mxmul_pkg.egg-info/top_level.txt
