@@ -1,0 +1,6 @@
+future
+isodate
+python-dateutil
+PyYAML
+requests
+tzlocal
