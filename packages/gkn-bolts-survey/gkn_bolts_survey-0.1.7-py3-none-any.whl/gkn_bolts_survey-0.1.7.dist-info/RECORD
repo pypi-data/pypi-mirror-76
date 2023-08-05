@@ -1,0 +1,13 @@
+example/__init__.py,sha256=ixfp8f-j7p0EzuAtBtFEWSbErFoIR_iN0Kp92sYIF1A,318
+example/gkn_bolts_survey.py,sha256=b4HDaxkaIUQYpvixsV184FAvsNF378e5l8cEzmWCzwk,20669
+gkn_bolts_survey/__init__.py,sha256=BZdiVMV9ytWJo-pYvHSA7yPPLXvu4n3L7LJIDgcWXGc,295
+gkn_bolts_survey/gkn_bolts_survey.py,sha256=Pk2R_oWVV_RNDswKwTlenVZfsGvipw9JSxKYoGIuC-I,28318
+gkn_bolts_survey/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gkn_bolts_survey/tests/test.py,sha256=BhFJI9YYyL3-cKnHf_0mqSAj8zxppaN_ZSOLv13D9d8,3398
+gkn_bolts_survey/tests/test_AtlasCopco.xls,sha256=Wod68w6GjJrlMJHj0uQGwk6t3Suycl4iBIrf8Ugl7y8,78282
+gkn_bolts_survey/tests/test_Excel.xlsx,sha256=mKu332AO87Bfq6dYksqqQSb2A3Zswl2undzaTe85vsY,14606
+gkn_bolts_survey-0.1.7.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+gkn_bolts_survey-0.1.7.dist-info/METADATA,sha256=nUplIjCjZryhfkA70N-Z6OKKbAjUVnGK3kJyGthqz4U,691
+gkn_bolts_survey-0.1.7.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+gkn_bolts_survey-0.1.7.dist-info/top_level.txt,sha256=ABIPB7Njoc5464LeR8QRKMcvfnynfX1HbV9OkGtoSB4,17
+gkn_bolts_survey-0.1.7.dist-info/RECORD,,
