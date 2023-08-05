@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: eth2deposit
+Version: 0.2.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7,<4
+Requires-Dist: click (==7.0)
+Requires-Dist: eth-typing (==2.2.1)
+Requires-Dist: pycryptodome (==3.9.7)
+Requires-Dist: py-ecc (==4.0.0)
+Requires-Dist: ssz (==0.2.3)
+
+UNKNOWN
+
+
