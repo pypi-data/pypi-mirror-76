@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Encod.egg-info/PKG-INFO
+Encod.egg-info/SOURCES.txt
+Encod.egg-info/dependency_links.txt
+Encod.egg-info/top_level.txt
+encoding/encode.py
