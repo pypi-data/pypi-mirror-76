@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+rjdl/__init__.py
+rjdl.egg-info/PKG-INFO
+rjdl.egg-info/SOURCES.txt
+rjdl.egg-info/dependency_links.txt
+rjdl.egg-info/entry_points.txt
+rjdl.egg-info/requires.txt
+rjdl.egg-info/top_level.txt
