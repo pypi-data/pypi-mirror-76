@@ -1,0 +1,241 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 49,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "FragtNach",
+      "sentence": "welche Handys mit Gwicht von unter 165 g gibt es?",
+      "score": 0.986638,
+      "arguments": [
+        {
+          "text": "Welche",
+          "location": [0, 6],
+          "entities": [
+            {
+              "type": "QUESTION_MARKER",
+              "text": "Welche",
+              "disambiguation": {
+                "subtype": ["NONE"]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Handys",
+          "location": [7, 13],
+          "entities": [
+            {
+              "type": "PRODUKT",
+              "text": "Handys",
+              "disambiguation": {
+                "subtype": ["SMARTPHONE"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "EigenschaftOderPreisHatEinheit",
+      "sentence": "welche Handys mit Gwicht von unter 165 g gibt es?",
+      "score": 0.680422,
+      "arguments": [
+        {
+          "text": "Gwicht",
+          "location": [18, 24],
+          "entities": [
+            {
+              "type": "EIGENSCHAFT",
+              "text": "Gwicht",
+              "disambiguation": {
+                "subtype": ["NONE"]
+              }
+            }
+          ]
+        },
+        {
+          "text": "g",
+          "location": [39, 40],
+          "entities": [
+            {
+              "type": "EINHEIT",
+              "text": "g",
+              "disambiguation": {
+                "subtype": ["NONE"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "OperatorSpezifiziertWert",
+      "sentence": "welche Handys mit Gwicht von unter 165 g gibt es?",
+      "score": 0.935666,
+      "arguments": [
+        {
+          "text": "unter",
+          "location": [29, 34],
+          "entities": [
+            {
+              "type": "OPERATOR",
+              "text": "unter",
+              "disambiguation": {
+                "subtype": ["NONE"]
+              }
+            }
+          ]
+        },
+        {
+          "text": "165",
+          "location": [35, 38],
+          "entities": [
+            {
+              "type": "WERT",
+              "text": "165",
+              "disambiguation": {
+                "subtype": ["NONE"]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "WertHatEinheit",
+      "sentence": "welche Handys mit Gwicht von unter 165 g gibt es?",
+      "score": 0.920862,
+      "arguments": [
+        {
+          "text": "165",
+          "location": [35, 38],
+          "entities": [
+            {
+              "type": "WERT",
+              "text": "165",
+              "disambiguation": {
+                "subtype": ["NONE"]
+              }
+            }
+          ]
+        },
+        {
+          "text": "g",
+          "location": [39, 40],
+          "entities": [
+            {
+              "type": "EINHEIT",
+              "text": "g",
+              "disambiguation": {
+                "subtype": ["NONE"]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "de",
+  "entities": [
+    {
+      "type": "QUESTION_MARKER",
+      "text": "Welche",
+      "mentions": [
+        {
+          "text": "Welche",
+          "location": [0, 6],
+          "confidence": 0.999983
+        }
+      ],
+      "disambiguation": {
+        "subtype": ["NONE"]
+      },
+      "count": 1,
+      "confidence": 0.999983
+    },
+    {
+      "type": "PRODUKT",
+      "text": "Handys",
+      "mentions": [
+        {
+          "text": "Handys",
+          "location": [7, 13],
+          "confidence": 0.999737
+        }
+      ],
+      "disambiguation": {
+        "subtype": ["SMARTPHONE"]
+      },
+      "count": 1,
+      "confidence": 0.999737
+    },
+    {
+      "type": "OPERATOR",
+      "text": "unter",
+      "mentions": [
+        {
+          "text": "unter",
+          "location": [29, 34],
+          "confidence": 0.999663
+        }
+      ],
+      "disambiguation": {
+        "subtype": ["NONE"]
+      },
+      "count": 1,
+      "confidence": 0.999663
+    },
+    {
+      "type": "WERT",
+      "text": "165",
+      "mentions": [
+        {
+          "text": "165",
+          "location": [35, 38],
+          "confidence": 0.997019
+        }
+      ],
+      "disambiguation": {
+        "subtype": ["NONE"]
+      },
+      "count": 1,
+      "confidence": 0.997019
+    },
+    {
+      "type": "EINHEIT",
+      "text": "g",
+      "mentions": [
+        {
+          "text": "g",
+          "location": [39, 40],
+          "confidence": 0.972301
+        }
+      ],
+      "disambiguation": {
+        "subtype": ["NONE"]
+      },
+      "count": 1,
+      "confidence": 0.972301
+    },
+    {
+      "type": "EIGENSCHAFT",
+      "text": "Gwicht",
+      "mentions": [
+        {
+          "text": "Gwicht",
+          "location": [18, 24],
+          "confidence": 0.946493
+        }
+      ],
+      "disambiguation": {
+        "subtype": ["NONE"]
+      },
+      "count": 1,
+      "confidence": 0.946493
+    }
+  ],
+  "analyzed_text": "Welche Handys mit Gwicht von unter 165 g gibt es?"
+}

@@ -1,0 +1,45 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 49,
+    "features": 2
+  },
+  "relations": [
+    {
+      "type": "FragtNach",
+      "sentence": "welche Handys mit Gwicht von unter 165 g gibt es?",
+      "score": 0.986638,
+      "arguments": [
+        {
+          "text": "Welche",
+          "location": [0, 6],
+          "entities": [
+            {
+              "type": "QUESTION_MARKER",
+              "text": "Welche",
+              "disambiguation": {
+                "subtype": ["NONE"]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Handys",
+          "location": [7, 13],
+          "entities": [
+            {
+              "type": "PRODUKT",
+              "text": "Handys",
+              "disambiguation": {
+                "subtype": ["SMARTPHONE"]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "de",
+  "entities": [],
+  "analyzed_text": "Welche Handys mit Gwicht von unter 165 g gibt es?"
+}
