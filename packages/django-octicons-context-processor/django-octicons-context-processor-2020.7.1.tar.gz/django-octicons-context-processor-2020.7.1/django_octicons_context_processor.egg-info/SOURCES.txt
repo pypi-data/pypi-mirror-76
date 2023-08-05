@@ -1,0 +1,9 @@
+requirements.txt
+setup.py
+django_octicons_context_processor/__init__.py
+django_octicons_context_processor/context_processors.py
+django_octicons_context_processor.egg-info/PKG-INFO
+django_octicons_context_processor.egg-info/SOURCES.txt
+django_octicons_context_processor.egg-info/dependency_links.txt
+django_octicons_context_processor.egg-info/requires.txt
+django_octicons_context_processor.egg-info/top_level.txt
