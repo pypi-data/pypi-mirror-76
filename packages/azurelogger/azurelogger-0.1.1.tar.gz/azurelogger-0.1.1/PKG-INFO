@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: azurelogger
+Version: 0.1.1
+Summary: A Package that lets you easily log to a azure blob
+Home-page: UNKNOWN
+Author: Toni Skulj
+Author-email: t.skulj@hotmail.com
+License: MIT
+Description: Use Logger(connection_string, container_name, blob_name) to create an instance
+        Use the log(message) method to log a message
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

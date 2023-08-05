@@ -1,0 +1,9 @@
+README.md
+setup.py
+azurelogger/AzureLogger.py
+azurelogger/__init__.py
+azurelogger.egg-info/PKG-INFO
+azurelogger.egg-info/SOURCES.txt
+azurelogger.egg-info/dependency_links.txt
+azurelogger.egg-info/requires.txt
+azurelogger.egg-info/top_level.txt
