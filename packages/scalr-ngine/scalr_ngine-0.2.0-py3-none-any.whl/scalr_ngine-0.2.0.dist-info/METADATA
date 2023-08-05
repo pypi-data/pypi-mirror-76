@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: scalr-ngine
+Version: 0.2.0
+Summary: Autoscaling for Clouds.
+Home-page: https://github.com/ngine-io/scalr
+Author: René Moser
+Author-email: mail@renemoser.net
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Web Environment
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: hcloud
+Requires-Dist: cloudscale-sdk
+Requires-Dist: python-digitalocean
+Requires-Dist: cs
+Requires-Dist: pyyaml
+Requires-Dist: python-dotenv
+Requires-Dist: apscheduler
+Requires-Dist: requests (==2.23)
+Requires-Dist: uvicorn
+Requires-Dist: fastapi
+Requires-Dist: pydantic
+
+# Scalr - Autoscaling for Clouds
+
+Scale Cloud instances based on policy checks in a configurable interval.
+
+## Documentation
+
+Please visit https://ngine-io.github.io/scalr/
+
+## License
+
+MIT License
+
+
