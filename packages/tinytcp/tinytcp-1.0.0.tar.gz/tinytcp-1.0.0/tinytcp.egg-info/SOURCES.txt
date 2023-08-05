@@ -1,0 +1,9 @@
+README.md
+setup.py
+tinytcp/__init__.py
+tinytcp/tcp_client.py
+tinytcp/tcp_server.py
+tinytcp.egg-info/PKG-INFO
+tinytcp.egg-info/SOURCES.txt
+tinytcp.egg-info/dependency_links.txt
+tinytcp.egg-info/top_level.txt
