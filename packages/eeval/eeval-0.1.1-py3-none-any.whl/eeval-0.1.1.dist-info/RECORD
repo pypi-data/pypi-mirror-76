@@ -1,0 +1,17 @@
+eeval/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eeval/__main__.py,sha256=xCCR8b-e2pkI-rz1USYsXwuMaf59yzdQzHWihW9DhRc,11868
+eeval/client/__init__.py,sha256=opYMRHFhcCwkW7HzzUOsDI9or2n-axRtqgTM2sDbONI,127
+eeval/client/client.py,sha256=0s_42fttLcf5-TdwIZ3a5Z8ZscMDux8THx6NRxO41mA,4260
+eeval/client/exceptions.py,sha256=IK6sbAmza-gIFXIQMsPDrE6FjYwm4L076aB6C2rtCoM,279
+eeval/server/__init__.py,sha256=jUIrgJsBx1onPbk4PKq34LVKMP08fwidkbvGg7qyaU8,58
+eeval/server/main.py,sha256=ry4Qs6ioHgxTmU792RDxSc2cY3qBCNd0aO990BKFOno,4164
+eeval/server/models/__init__.py,sha256=wrQbXCerbYveQYsshEnTL2tCGPDkIa63qn4b1-Y6fbs,6541
+eeval/server/models/abstract_model.py,sha256=Or2sfzXUbnSnHV9LKjGWVp6mdTcOqUim3v_MA8A60sY,1307
+eeval/server/models/exceptions.py,sha256=uCu12nicRfGXYzAIWiCTN3Iyl6-ODl_legBn23PQJCE,470
+eeval/server/models/linear_layer.py,sha256=qKkdp-ybTkZjoB2E00ADOlglajYUyRlhiln3quwRHWU,1619
+eeval-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+eeval-0.1.1.dist-info/METADATA,sha256=X2Jo5GrIEQgBjTRebtAknVlFumgTsyqO_dmeKswSLCc,4460
+eeval-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+eeval-0.1.1.dist-info/entry_points.txt,sha256=4AiPhVuAjPAdG-NG_tao960kVavYXfK2ipJDA4FiV_U,50
+eeval-0.1.1.dist-info/top_level.txt,sha256=qtLa5FLTR_EqRJtvr8ECZ45zPVXnUCgLTX3vQdXONPk,6
+eeval-0.1.1.dist-info/RECORD,,
