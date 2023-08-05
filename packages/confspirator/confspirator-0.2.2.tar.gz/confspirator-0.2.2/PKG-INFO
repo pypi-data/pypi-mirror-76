@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: confspirator
+Version: 0.2.2
+Summary: A config library for handling nested incode config groups.
+Home-page: https://gitlab.com/catalyst-cloud/confspirator
+Author: Adrian Turjak
+Author-email: adriant@catalyst.net.nz
+License: Apache-2
+Project-URL: Bug Tracker, https://gitlab.com/catalyst-cloud/confspirator/issues
+Project-URL: Source Code, https://gitlab.com/catalyst-cloud/confspirator
+Description: CONFspirator: Plot better configs!
+        ==================================
+        
+        .. image:: http://img.shields.io/pypi/v/confspirator.svg
+            :target: https://pypi.python.org/pypi/confspirator
+        
+        An offshoot of OpenStack's `oslo.config`_ with a focus on nested
+        configuration groups, and the ability to use yaml and toml instead of
+        flat ini files.
+        
+        CONFspirator doesn't include any command-line integrations currently
+        so you will need to add a command to your application to export a
+        generated config using the built in functions.
+        
+        It does have support for loading in config files, or a preloaded
+        config dictionary against your config group tree.
+        
+        The library's focus is on in-code defaults and config field validation,
+        while giving you a lot of power when dealing with nesting, dynamic config
+        loading for plugins, and useful overlay logic.
+        
+        It allows you to define sane defaults, document your config, validate
+        the values when loading it in, and provides useful ways of working
+        with that config during testing.
+        
+        .. _oslo.config: https://github.com/openstack/oslo.config
+        
+        Installation
+        ------------
+        
+        ::
+        
+            pip install confspirator
+        
+        Documentation
+        -------------
+        
+        For more information and examples of usage `check out the docs`_.
+        
+        .. _check out the docs: https://confspirator.readthedocs.io
+        
+        
+Keywords: configuration,config,yaml,nesting,nested,groups,grouped,group,in-code
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Environment :: OpenStack
+Description-Content-Type: text/x-rst; charset=UTF-8
