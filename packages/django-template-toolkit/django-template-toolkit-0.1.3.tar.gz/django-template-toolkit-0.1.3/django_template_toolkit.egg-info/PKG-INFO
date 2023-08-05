@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: django-template-toolkit
+Version: 0.1.3
+Summary: A collection of useful templates & tags for the Django web framework
+Home-page: https://github.com/ghdpro/django-template-toolkit
+Author: Gerard Krijgsman
+Author-email: python@visei.com
+License: UNKNOWN
+Description: django-template-toolkit
+        =======================
+        
+        .. image:: https://travis-ci.org/ghdpro/django-template-toolkit.svg?branch=master
+            :target: https://travis-ci.org/ghdpro/django-template-toolkit
+            :alt: Build Status
+        
+        .. image:: https://codecov.io/gh/ghdpro/django-template-toolkit/branch/master/graph/badge.svg
+            :target: https://codecov.io/gh/ghdpro/django-template-toolkit
+            :alt: Test Coverage
+        
+        .. image:: https://api.codeclimate.com/v1/badges/ffe49f0be8becc46d6d6/maintainability
+           :target: https://codeclimate.com/github/ghdpro/django-template-toolkit/maintainability
+           :alt: Maintainability
+        
+        This project is a collection of useful templates & tags for the Django web framework.
+        I made this mainly for my own projects where I noticed I was copying the same set of
+        templates and template tags & filters over to each new project, but hopefully it will
+        be useful for other people as well.
+        
+        Django >= 2.2 and Python >= 3.6 are supported.
+        
+        Documentation and examples will follow in the future. For now, to use this package in your
+        Django project install it with :code:`pip` then add it to your :code:`INSTALLED_APPS` list
+        in settings. You can then include the templates as :code:`{% include 'toolkit/forms/field.html' %}` (for example)
+        and the template tags with :code:`{% load toolkit %}`. For now see the source code for which
+        template tags & filters are available.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
