@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+
+# ---------------------------------------------------------------------------
+#
+# oms, a tiny manuscript tool based on the OpenManuscript specification 
+#
+# ---------------------------------------------------------------------------
+
+import argparse
+import configparser
+import os
+import json
+import textwrap
+import openms
+
+ProgName = "oms"
+
+
+# ---------------------------------------------------------------------------
+# set up command line args
+# ---------------------------------------------------------------------------
+conf_parser = argparse.ArgumentParser(
+    # Turn off help, so we print all options in response to -h
+    add_help=False
+    )
+
+args, remaining_argv = conf_parser.parse_known_args()
+
+desc = """A tool that renders OpenManuscript data in Word (docx) format.
+"""
+ep = """
+Examples:
+    oms
+        If executed within an OpenManuscript directory, this will use default
+        arguments to construct 'manuscript.docx' from 'author.json' and
+        'manuscript.json' 
+        
+    oms --font Times
+        If executed within an OpenManuscript directory, this will use default
+        arguments to construct 'manuscript.docx' from 'author.json' and
+        'manuscript.json', using the font 'Times'
+
+    oms --manuscriptdir mydir
+
+        Given an explicit path to the OpenManuscript data at 'mydir', this will
+        use other defaults to render 'manuscript.docx' from 'author.json' and
+        'manuscript.json'
+
+    oms --manuscriptdir mydir --authorfile a.json --manuscriptfile m.json --outputfile m.docx 
+
+        Given an explicit path to the OpenManuscript data at 'mydir', this will
+        render 'm.docx' using 'a.json' and 'm.json'.
+
+"""
+parser = argparse.ArgumentParser(  
+                    formatter_class=argparse.RawDescriptionHelpFormatter,
+                    parents=[conf_parser],
+                    description=textwrap.dedent(desc), 
+                    epilog=textwrap.dedent(ep)
+                    )
+
+parser.add_argument( "--authorfile", default=None,
+    help="read author data from this file. Must be located in MANUSCRIPTDIR. Default is [{}]".format(openms.core.settings["authorfile"]))
+parser.add_argument( "--chapterdesc", action="store_true", default=None, 
+    help="print a chapter desc, if there is one")
+parser.add_argument( "--chaptersummary", action="store_true", default=None, 
+    help="print a chapter summary, if there is one")
+parser.add_argument( "--excludesections", nargs='+', type=str, default=None,
+    help="add scene sections that are considered 'off'") 
+parser.add_argument( "--includesections", nargs='+', type=str, default=None,
+    help="add scene sections that are considered 'on'") 
+parser.add_argument( "--excludetags", nargs='+', type=str, default=None,
+    help="add chapter tags that are considered 'off'")
+parser.add_argument( "--includetags", nargs='+', type=str, default=None,
+    help="add chapter tags that are considered 'on'")
+parser.add_argument( "--filescenesep", action="store_true", default=None, 
+    help="print file name as scene separator, instead of ###")
+parser.add_argument( "--font", default=None, choices=["Courier", "Times"],
+    help="Use this font for the manuscript")
+parser.add_argument( "--fontsize", default=None, 
+    help="Use this font size for the manuscript")
+parser.add_argument( "--listscenes", action="store_true", default=None, 
+    help="list the scenes and exit")
+parser.add_argument( "--manuscriptdir", default=None, 
+    help="directory that contains the manuscript data")
+parser.add_argument( "--manuscriptfile", default=None, 
+    help="read manuscript definition from this file. Must be located in MANUSCRIPTDIR")
+parser.add_argument( "--manuscripttype", default=None, 
+    help="type of manuscript to create. one of [novel, story]. Default is [{}]".format(openms.core.settings["manuscripttype"]))
+parser.add_argument( "--newmanuscript", default=None,
+    help="create a new manuscript template in this directory")
+parser.add_argument( "--notes", action="store_true", default=None, 
+    help="if there are notes, print them")
+parser.add_argument( "--outputfile", default=None,
+    help="write output to this file")
+parser.add_argument( "--settingsfile", default=None,
+    help="use settings from this file as command line args")
+parser.add_argument( "--specversion", action="store_true", default=None,
+    help="report the version of OpenManuscript specification this tool supports")
+parser.add_argument( "--toc", action="store_true", default=None, 
+    help="include a Table of Contents")
+parser.add_argument( "--types", action="store_true", default=None,
+    help="report the output data types supported")
+parser.add_argument( "--version", action="version", 
+                        version=str(openms.core.get_version()) ) 
+
+args = parser.parse_args(remaining_argv)
+
+
+# -----------------------------------------------------------------------------
+#
+# execute
+#
+# -----------------------------------------------------------------------------
+
+# set settings from a file, if provided 
+if args.settingsfile:
+    with open( args.settingsfile ) as sfile:
+        settings = json.load( sfile )
+        for key in settings:
+            openms.core.set( key, settings[key] )
+
+# override settings from command line, if provided
+if args.authorfile != None:
+    openms.core.set("authorfile", args.authorfile)
+if args.chapterdesc != None:
+    openms.core.set("chapterdesc", args.chapterdesc)
+if args.chaptersummary != None:
+    openms.core.set("chaptersummary", args.chaptersummary)
+if args.excludesections != None:
+    openms.core.set("excludesections", args.excludesections)
+if args.excludetags != None:
+    openms.core.set("excludetags", args.excludetags)
+if args.filescenesep != None:
+    openms.core.set("filescenesep", args.filescenesep)
+if args.font != None:
+    openms.core.set("font", args.font)
+if args.fontsize != None:
+    openms.core.set("fontsize", args.fontsize)
+if args.includesections != None:
+    openms.core.set("includesections", args.includesections)
+if args.includetags != None:
+    openms.core.set("includetags", args.includetags)
+if args.manuscriptdir != None:
+    openms.core.set("manuscriptdir", args.manuscriptdir)
+if args.manuscriptfile != None:
+    openms.core.set("manuscriptfile", args.manuscriptfile)
+if args.manuscripttype != None:
+    openms.core.set("manuscripttype", args.manuscripttype)
+if args.notes != None:
+    openms.core.set("notes", args.notes)
+if args.outputfile != None:
+    openms.core.set("outputfile", args.outputfile)
+if args.toc != None:
+    openms.core.set("toc", args.toc)
+
+# ----------------------------------------------------------------------
+#
+# start to do stuff
+#
+# ----------------------------------------------------------------------
+
+if args.specversion:
+    print(openms.core.get_spec_version())
+    exit(0)
+
+if args.types:
+    print("docx")
+    exit(0)
+
+if args.newmanuscript != None:
+    print("Creating new manuscript at {}".format(args.newmanuscript))
+    if os.path.isdir(args.newmanuscript):
+        print("ERROR: directory {} already exists".format(args.newmanuscript))
+    else:
+        os.mkdir(args.newmanuscript)
+        if not os.path.isdir(args.newmanuscript):
+            print("ERROR: can't create directory: {}".format(args.newmanuscript))
+        else:
+            openms.template.write_template(args.newmanuscript)
+    exit(0)
+
+# check existence of the files we will need
+if not os.path.isfile(openms.core.get_authorfile()):
+    print("ERROR: cannot open file: " + openms.core.get_authorfile())
+    exit(1)
+
+if not os.path.isfile( openms.core.get_manuscriptfile() ):
+    print("ERROR: cannot open file: " + openms.core.get_manuscriptfile())
+    exit(1)
+
+# do everything
+# At the moment, this tool only provides feedback on command line options
+
+if args.listscenes:
+    scenes = openms.core.get_scenelist()
+    for scene in scenes:
+        print(scene)
+    exit(0)
+
+output_type = openms.core.get_output_type()
+
+if (output_type == "docx"):
+    openms.core.read_data()
+    openms.docx.write( openms.core.get_setting("outputfile") )
+
+else:
+    print("ERROR: cannot write output file of type \'{}\'".format(output_type))
+    exit(1)
+
+
