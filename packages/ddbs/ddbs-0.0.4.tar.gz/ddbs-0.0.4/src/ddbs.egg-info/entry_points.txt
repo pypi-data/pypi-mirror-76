@@ -1,0 +1,3 @@
+[console_scripts]
+ddbs = ddbs.__main__:main
+
