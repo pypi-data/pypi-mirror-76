@@ -1,0 +1,9 @@
+README.rst
+setup.py
+py/__init__.py
+py/cli.py
+pydepman.egg-info/PKG-INFO
+pydepman.egg-info/SOURCES.txt
+pydepman.egg-info/dependency_links.txt
+pydepman.egg-info/entry_points.txt
+pydepman.egg-info/top_level.txt
