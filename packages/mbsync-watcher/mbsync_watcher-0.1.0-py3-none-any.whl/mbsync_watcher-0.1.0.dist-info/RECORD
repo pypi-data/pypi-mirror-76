@@ -1,0 +1,12 @@
+home/fire/.config/mbsync_watcher/config.yaml,sha256=dXeg-5zt-CzgHGOAItfzpvCjuFaUZDK-rKK8D6GWPpY,131
+home/fire/.config/systemd/user/mbsync-watcher.service,sha256=L3IbD6RL8a94j7oiS0dcRsYb9ijAHYi-f_9HERwcAyM,136
+mbsync_watcher/__init__.py,sha256=R0iUIkIDKvQ4TaIcCrjoDKM9RVkv9E9A82p7Fub-cV4,6
+mbsync_watcher/config.py,sha256=jfNwZ0D9Uj5OH325kE0IYTNM6GIAHiwQGF-AnAx356k,913
+mbsync_watcher/main.py,sha256=BTe4Rd4krsKsGajeOQoz521APEpN2X6a5LUv05Vlhjw,5920
+mbsync_watcher/parse_mbsyncrc.py,sha256=oi5-bs-UYDeUwWF9YcyQBjCo1fPtSltQ87X2E2NR4vQ,5098
+mbsync_watcher-0.1.0.data/scripts/mbsync_watcher,sha256=DPdAr1LEK7SyQ5Gru9e98s66E3yHf7NzHJyfUYjyQOc,86
+mbsync_watcher-0.1.0.dist-info/LICENSE,sha256=QpR8xksaLixxtZFLLfA6yGJuql1tFrHB8v8V2j1dQxo,1067
+mbsync_watcher-0.1.0.dist-info/METADATA,sha256=7oEDQZnB8945Z-gOI7Im5MeTsVS0DJoL047OpAGWlK4,278
+mbsync_watcher-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mbsync_watcher-0.1.0.dist-info/top_level.txt,sha256=Fq6xeiQSjUWtRqqlXcinlkETsN3ClTenjEKp59sxH_0,15
+mbsync_watcher-0.1.0.dist-info/RECORD,,
