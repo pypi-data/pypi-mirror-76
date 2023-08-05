@@ -1,0 +1,10 @@
+saucenao_api/__init__.py,sha256=_di--t5KgqH1_Ukje4rkdJ9D9oWoM0z2PKFVIpTFlr0,383
+saucenao_api/containers.py,sha256=NuGF-QzMTOJu2VoJsKY0bv8oXwYlYSM6O5KWO0w3XD8,4893
+saucenao_api/errors.py,sha256=a-ypwtqUDZ6Tz_4v5QmGyN6VWvRYoul4FLZXimBBdp0,478
+saucenao_api/params.py,sha256=LV1GrBd6M6hthk7qXEMsCRW0VW61xPVVN0x2RUXp1gA,952
+saucenao_api/saucenao_api.py,sha256=5fxw3Ma1dKpe5f8Cuww8hhL2yDVh1uHIPlwK-ItRYlg,3716
+saucenao_api-2.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+saucenao_api-2.1.1.dist-info/METADATA,sha256=gEIm0iTKnaaBd6N3WRTzQS1mGCWTc03cofOdCynjxAo,4574
+saucenao_api-2.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+saucenao_api-2.1.1.dist-info/top_level.txt,sha256=KkGaXedjTAEgP3lf60V9ZljUB9cjIWRNe969MFQl-Hw,13
+saucenao_api-2.1.1.dist-info/RECORD,,
