@@ -1,0 +1,1 @@
+__all__ = ["getTextFromURL", "getTextFromMultipleURL", "removeNewLines", "getNouns", "frequnecyNouns", "freqeuncyToArray", "getHeadlineNews", "drawPlot"]
