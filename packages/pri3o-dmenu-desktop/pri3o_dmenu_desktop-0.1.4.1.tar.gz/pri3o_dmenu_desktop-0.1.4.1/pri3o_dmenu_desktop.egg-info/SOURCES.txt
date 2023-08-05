@@ -1,0 +1,9 @@
+README.md
+setup.py
+pri3o_dmenu_desktop/__init__.py
+pri3o_dmenu_desktop/pri3o_dmenu_desktop.py
+pri3o_dmenu_desktop.egg-info/PKG-INFO
+pri3o_dmenu_desktop.egg-info/SOURCES.txt
+pri3o_dmenu_desktop.egg-info/dependency_links.txt
+pri3o_dmenu_desktop.egg-info/entry_points.txt
+pri3o_dmenu_desktop.egg-info/top_level.txt

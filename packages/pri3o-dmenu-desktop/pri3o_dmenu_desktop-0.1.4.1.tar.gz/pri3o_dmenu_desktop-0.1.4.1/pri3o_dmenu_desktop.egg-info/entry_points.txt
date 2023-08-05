@@ -1,0 +1,3 @@
+[console_scripts]
+pri3o-dmenu-desktop = pri3o_dmenu_desktop:main
+
