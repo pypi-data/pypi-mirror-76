@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ivolve-cloud7-logger
+Version: 0.5
+Summary: CLOUD7 Logger
+Home-page: https://github.com/iVolve-Tech/
+Author: Mujeebullah
+Author-email: mujeebullah.kalwar@ivolve.io
+License: iVolve
+Description: ## iVolve-CLOUD7-Logger v0.5
+        
+Keywords: logger,cloud7,ivolve
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
