@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+config.yaml
+mbsync-watcher.service
+setup.py
+bin/mbsync_watcher
+mbsync_watcher/__init__.py
+mbsync_watcher/config.py
+mbsync_watcher/main.py
+mbsync_watcher/parse_mbsyncrc.py
+mbsync_watcher.egg-info/PKG-INFO
+mbsync_watcher.egg-info/SOURCES.txt
+mbsync_watcher.egg-info/dependency_links.txt
+mbsync_watcher.egg-info/requires.txt
+mbsync_watcher.egg-info/top_level.txt
