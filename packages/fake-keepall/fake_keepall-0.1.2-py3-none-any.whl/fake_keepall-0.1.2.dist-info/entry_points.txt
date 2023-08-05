@@ -1,0 +1,3 @@
+[console_scripts]
+fake-keepall=fake_keepall.__init__:cli
+

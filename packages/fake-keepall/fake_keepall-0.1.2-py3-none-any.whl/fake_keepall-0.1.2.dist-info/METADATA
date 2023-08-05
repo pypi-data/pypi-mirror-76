@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: fake-keepall
+Version: 0.1.2
+Summary: Apply the fake `word-break: keep-all;` CSS property to static HTML file
+Home-page: https://github.com/kexplo/fake_keepall
+License: MIT
+Author: Chanwoong Kim
+Author-email: me@chanwoong.kim
+Requires-Python: >=3.0.0,<4.0.0
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Text Processing
+Requires-Dist: beautifulsoup4 (>=4.9.1,<5.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Project-URL: Repository, https://github.com/kexplo/fake_keepall
+Description-Content-Type: text/markdown
+
+# Fake KeepAll
+
+Apply the fake `word-break: keep-all;` CSS property to static HTML file.
+
+This is useful when using the HTML->PDF converter that does not support the `word-break: keep-all;` CSS property.
+
+## How it works
+
+Add the `white-space: nowrap;` CSS property to every word to prevent line breaks.
+
+## Installation
+
+```bash
+$ pip install fake-keepall
+```
+
+## Usage
+
+```bash
+$ fake-keepall example.html example_out.html
+```
+
+Set whitelist tags:
+
+```bash
+$ fake-keepall example.html example_out.html --tags 'p,li'
+```
+
+Use custom CSS class:
+
+```bash
+$ fake-keepall example.html example_out.html --class 'myclass'
+```
+
+## Screenshot
+
+![screenshot](screenshot.png)
+
+
