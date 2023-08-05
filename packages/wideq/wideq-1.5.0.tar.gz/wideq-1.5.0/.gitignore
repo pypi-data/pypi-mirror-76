@@ -1,0 +1,8 @@
+.coverage
+.tox
+dist/
+wideq_state.json
+__pycache__
+.vscode/
+# Ignore Mac system files
+.DS_Store
