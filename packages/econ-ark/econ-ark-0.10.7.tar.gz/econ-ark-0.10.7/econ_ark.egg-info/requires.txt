@@ -1,0 +1,11 @@
+numpy
+matplotlib
+scipy
+dill
+joblib
+
+[dev]
+Sphinx<=1.6.7
+nbsphinx
+recommonmark
+pre-commit
