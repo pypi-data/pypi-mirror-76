@@ -1,0 +1,8 @@
+psutil
+py-cpuinfo
+speedtest
+
+[:platform_system == "Windows"]
+wmi
+pywin32
+WinTmp
