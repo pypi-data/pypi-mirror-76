@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+sql_to_pandas/__init__.py
+sql_to_pandas/sql_to_pandas.py
+sql_to_pandas/helpers/__init__.py
+sql_to_pandas/helpers/helpers.py
+sql_to_pandas/helpers/keywords.py
+sql_to_pandas/select/__init__.py
+sql_to_pandas/select/select.py
+sql_to_pandas/where/__init__.py
+sql_to_pandas/where/where.py
+sqltopandas.egg-info/PKG-INFO
+sqltopandas.egg-info/SOURCES.txt
+sqltopandas.egg-info/dependency_links.txt
+sqltopandas.egg-info/requires.txt
+sqltopandas.egg-info/top_level.txt
