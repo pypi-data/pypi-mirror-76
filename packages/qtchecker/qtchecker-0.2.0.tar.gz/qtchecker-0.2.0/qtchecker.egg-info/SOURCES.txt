@@ -1,0 +1,12 @@
+COPYRIGHT
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+qtchecker/__init__.py
+qtchecker/qtChecker.py
+qtchecker.egg-info/PKG-INFO
+qtchecker.egg-info/SOURCES.txt
+qtchecker.egg-info/dependency_links.txt
+qtchecker.egg-info/not-zip-safe
+qtchecker.egg-info/top_level.txt
