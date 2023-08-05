@@ -1,0 +1,76 @@
+CHANGES
+=======
+
+* Modified template
+* Update .gitlab-ci.yml to make deploy:pypi manual
+* Fixed tests
+* Added example filtering even numbers
+* Fixed API URLs to end in / to avoid 404 errors drom the server
+* Updated deps
+* Updated pre-commit.yml
+* Fixed entry points and soil\_cli package name
+* Added tests for alias
+* Fix ci linter
+* Added more tests for soil.data
+* Added some tests for soil.data
+* Added some tests for soil.data
+* Docs v0.0.6
+* Update gitlab ci
+* Update gitlab ci
+* Update gitlab ci
+* Update ci file
+* Automatic deploy pypi
+* Fixed yaml
+* Updated readme
+* Modified config
+* Fixed styles
+* Fixed styles
+* Merged soil-cli
+* Added access to ES DB
+* Improved code to be linting, security and typing compliant :)
+* More lintern
+* More linting
+* More linting changes
+* Some bandit fixes
+* Documentation for accessing the DB
+* Fixed some security vulnerabilities (injection by calling system commands), others reviewed, testing pip using subprocess
+* Reading logs from the pipeline properly
+* Added logging
+* It is possible to send logs from inside a module
+* Implemented init and install functionalities
+* Login: Tokens are found in config files
+* WIP
+* Added soil.alias
+* Updated documentation
+* added soil.data
+* Get the data and metadata of a result
+* v0.0.2
+* Added data-structures docs
+* Added versions
+* More docs
+* More docs
+* Test cd
+* Update README.md
+* Update README.md
+* Cleaned page
+* More docs
+* Update .gitlab-ci.yml
+* Modified main page
+* Added docusaurus
+* SDK can run simple programs
+* First commit. Implemented commands: configure, init and login
+* Fix linter error only in the CI
+* Allow subpackages for modules and data\_structures
+* Added logger and some auto docs (not finished)
+* Added ci file
+* Changed requirements
+* Removed html cov files
+* Removed html cov files
+* Added linting, testing, types and coverage
+* added soil.data()
+* Updated .gitignore
+* Implemented finder
+* Updated README
+* Design aliases
+* Updated README
+* Initial commit
