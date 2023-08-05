@@ -1,0 +1,9 @@
+README.md
+setup.py
+sololearnlib/__init__.py
+sololearnlib/sololearn.py
+sololearnlib.egg-info/PKG-INFO
+sololearnlib.egg-info/SOURCES.txt
+sololearnlib.egg-info/dependency_links.txt
+sololearnlib.egg-info/requires.txt
+sololearnlib.egg-info/top_level.txt
