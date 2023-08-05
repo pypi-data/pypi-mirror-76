@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scikit-clean &#8212; scikit-clean 0.1.0 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="User Guide" href="user_guide.html" />
+    <link rel="prev" title="Welcome to scikit-clean’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="scikit-clean">
+<h1>Scikit-clean<a class="headerlink" href="#scikit-clean" title="Permalink to this headline">¶</a></h1>
+<p><strong>scikit-clean</strong> is a python ML library for classification in the presence of label noise. Aimed primarily at researchers, this provides implementations of several state-of-the-art algorithms; tools to simulate artificial noise, create complex pipelines and evaluate them.</p>
+<p>This library is fully scikit-learn API compatible: which means all scikit-learn’s building blocks can be seamlessly integrated into workflow. Like scikit-learn estimators, most of the methods also support features like parallelization, reproducibility etc.</p>
+<div class="section" id="example-usage">
+<h2>Example Usage<a class="headerlink" href="#example-usage" title="Permalink to this headline">¶</a></h2>
+<p>A typical label noise research workflow begins with clean labels, simulates label noise into training set, and then evaluates how a model handles that noise using clean test set. In scikit-clean, this looks like:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">skclean.simulate_noise</span> <span class="kn">import</span> <span class="n">flip_labels_uniform</span>
+<span class="kn">from</span> <span class="nn">skclean.models</span> <span class="kn">import</span> <span class="n">RobustLR</span>   <span class="c1"># Robust Logistic Regression</span>
+
+<span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">make_classification</span><span class="p">(</span><span class="n">n_samples</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span><span class="n">n_features</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=.</span><span class="mi">20</span><span class="p">)</span>
+
+<span class="n">y_train_noisy</span> <span class="o">=</span> <span class="n">flip_labels_uniform</span><span class="p">(</span><span class="n">y_train</span><span class="p">,</span> <span class="o">.</span><span class="mi">3</span><span class="p">)</span>  <span class="c1"># Flip labels of 30% samples</span>
+<span class="n">clf</span> <span class="o">=</span> <span class="n">RobustLR</span><span class="p">()</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span><span class="n">y_train_noisy</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">clf</span><span class="o">.</span><span class="n">score</span><span class="p">(</span><span class="n">X_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>scikit-clean provides a customized <cite>Pipeline</cite> for more complex workflow. Many noise robust algorithms can be broken down into two steps: detecting noise likelihood for each sample
+in the dataset, and train robust classifiers by using that information. This fits
+nicely with Pipeline’s API:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># ---Import scikit-learn stuff----</span>
+<span class="kn">from</span> <span class="nn">skclean.simulate_noise</span> <span class="kn">import</span> <span class="n">UniformNoise</span>
+<span class="kn">from</span> <span class="nn">skclean.detectors</span> <span class="kn">import</span> <span class="n">KDN</span>
+<span class="kn">from</span> <span class="nn">skclean.handlers</span> <span class="kn">import</span> <span class="n">Filter</span>
+<span class="kn">from</span> <span class="nn">skclean.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span><span class="p">,</span> <span class="n">make_pipeline</span>  <span class="c1"># Importing from skclean, not sklearn</span>
+
+
+<span class="n">clf</span> <span class="o">=</span> <span class="n">Pipeline</span><span class="p">([</span>
+        <span class="p">(</span><span class="s1">&#39;scale&#39;</span><span class="p">,</span> <span class="n">StandardScaler</span><span class="p">()),</span>          <span class="c1"># Scale features</span>
+        <span class="p">(</span><span class="s1">&#39;feat_sel&#39;</span><span class="p">,</span> <span class="n">VarianceThreshold</span><span class="p">(</span><span class="o">.</span><span class="mi">2</span><span class="p">)),</span>  <span class="c1"># Feature selection</span>
+        <span class="p">(</span><span class="s1">&#39;detector&#39;</span><span class="p">,</span> <span class="n">KDN</span><span class="p">()),</span>                  <span class="c1"># Detect mislabeled samples</span>
+        <span class="p">(</span><span class="s1">&#39;handler&#39;</span><span class="p">,</span> <span class="n">Filter</span><span class="p">(</span><span class="n">SVC</span><span class="p">())),</span>           <span class="c1"># Filter out likely mislabeled samples and then train a SVM</span>
+<span class="p">])</span>
+
+<span class="n">clf_g</span> <span class="o">=</span> <span class="n">GridSearchCV</span><span class="p">(</span><span class="n">clf</span><span class="p">,{</span><span class="s1">&#39;detector__n_neighbors&#39;</span><span class="p">:[</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">10</span><span class="p">]})</span>
+<span class="n">n_clf_g</span> <span class="o">=</span> <span class="n">make_pipeline</span><span class="p">(</span><span class="n">UniformNoise</span><span class="p">(</span><span class="o">.</span><span class="mi">3</span><span class="p">),</span><span class="n">clf_g</span><span class="p">)</span>  <span class="c1"># Create label noise at the very first step</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">cross_val_score</span><span class="p">(</span><span class="n">n_clf_g</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">())</span>  <span class="c1"># 5-fold cross validation</span>
+</pre></div>
+</div>
+<p>Please see this <a class="reference external" href="examples/Introduction%20to%20Scikit-clean.html">notebook</a> before you begin for a more detailed introduction, and <a class="reference external" href="api.html">this</a> for complete API.</p>
+</div>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>Simplest option is probably using pip:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>pip install scikit-clean
+</pre></div>
+</div>
+<p>If you intend to modify the code, install in editable mode:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/Shihab-Shahriar/scikit-clean.git
+cd scikit-clean
+pip install -e .
+</pre></div>
+</div>
+<p>If you’re only interested in small part of this library, say one or two algorithms, feel free to simply copy/paste relevant code into your project.</p>
+</div>
+<div class="section" id="alternatives">
+<h2>Alternatives<a class="headerlink" href="#alternatives" title="Permalink to this headline">¶</a></h2>
+<p>There are several open source tools to handle label noise, some of them are: </p>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://github.com/cgnorthcutt/cleanlab">Cleanlab</a></p></li>
+<li><p><a class="reference external" href="https://github.com/snorkel-team/snorkel">Snorkel</a></p></li>
+<li><p><a class="reference external" href="https://journal.r-project.org/archive/2017/RJ-2017-027/RJ-2017-027.pdf">NoiseFiltersR</a></p></li>
+</ol>
+<p><cite>NoiseFiltersR</cite> is closest in objective as ours, though it’s implemented in R, and doesn’t appear to be actively maintained.</p>
+<p><cite>Cleanlab</cite> and <cite>Snorkel</cite> are both in Python, though they have somewhat different priorities than us. While our goal is to implement as many algorithms as possible, these tools usually focus on one or few related papers. They have also been developed for some time- meaning they are more stable, well-optimized and better suited for practitioners/ engineers than <cite>scikit-clean</cite>.</p>
+</div>
+<div class="section" id="credits">
+<h2>Credits<a class="headerlink" href="#credits" title="Permalink to this headline">¶</a></h2>
+<p>We want to <cite>scikit-learn</cite>, <cite>imbalance-learn</cite> and <cite>Cleanlab</cite>, these implemntations are inspired by, and dircetly borrows code from these libraries.</p>
+<p>We also want to thank the authors of original papers. Here is a list of papers partially or fully implemented by <cite>scikit-clean</cite>:</p>
+<ul class="simple" id="bibtex-bibliography-intro-0">
+<li><p>Taghi M Khoshgoftaar and Pierre Rebours. Improving software quality prediction by noise filtering techniques. <em>Journal of Computer Science and Technology</em>, 22(3):387–396, 2007.</p></li>
+<li><p>Sunghun Kim, Hongyu Zhang, Rongxin Wu, and Liang Gong. Dealing with noise in defect prediction. In <em>2011 33rd International Conference on Software Engineering (ICSE)</em>, 481–490. IEEE, 2011.</p></li>
+<li><p>Alexander Hanbo Li and Andrew Martin. Forest-type regression with general losses and robust forest. In <em>International Conference on Machine Learning</em>, 2091–2100. 2017.</p></li>
+<li><p>Aditya Krishna Menon, Brendan Van Rooyen, and Nagarajan Natarajan. Learning from binary labels with instance-dependent noise. <em>Machine Learning</em>, 107(8-10):1561–1595, 2018.</p></li>
+<li><p>Nagarajan Natarajan, Inderjit S Dhillon, Pradeep K Ravikumar, and Ambuj Tewari. Learning with noisy labels. In <em>Advances in neural information processing systems</em>, 1196–1204. 2013.</p></li>
+<li><p>Maryam Sabzevari, Gonzalo Martínez-Muñoz, and Alberto Suárez. A two-stage ensemble method for the detection of class-label noise. <em>Neurocomputing</em>, 275:2374–2383, 2018.</p></li>
+<li><p>Michael R Smith, Tony Martinez, and Christophe Giraud-Carrier. An instance level analysis of data complexity. <em>Machine learning</em>, 95(2):225–256, 2014.</p></li>
+<li><p>Felipe N Walmsley, George DC Cavalcanti, Dayvid VR Oliveira, Rafael MO Cruz, and Robert Sabourin. An ensemble generation method based on instance hardness. In <em>2018 International Joint Conference on Neural Networks (IJCNN)</em>, 1–8. IEEE, 2018.</p></li>
+<li><p>Bianca Zadrozny, John Langford, and Naoki Abe. Cost-sensitive learning by cost-proportionate example weighting. In <em>Third IEEE international conference on data mining</em>, 435–442. IEEE, 2003.</p></li>
+<li><p>Zijin Zhao, Lingyang Chu, Dacheng Tao, and Jian Pei. Classification with label noise: a markov chain sampling framework. <em>Data Mining and Knowledge Discovery</em>, 33(5):1468–1504, 2019.</p></li>
+</ul>
+<div class="section" id="a-note-about-naming">
+<h3>A note about naming<a class="headerlink" href="#a-note-about-naming" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>“There are 2 hard problems in computer science: cache invalidation, naming things, and off-by-1 errors.”</p>
+</div></blockquote>
+<p>Majority of the algorithms in <cite>scikit-clean</cite> are not explicitly named by their authors. In some rare cases, similar or very similar ideas appear under different names (e.g. <cite>KDN</cite>). We tried to name things as best as we could. However, if you’re the author of any of these methods and want to rename it, we’ll happily oblige.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">scikit-clean</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Getting Started:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Scikit-clean</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#example-usage">Example Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#alternatives">Alternatives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#credits">Credits</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="user_guide.html">User Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API Reference</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Additional Information</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to scikit-clean’s documentation!</a></li>
+      <li>Next: <a href="user_guide.html" title="next chapter">User Guide</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Shihab Shahriar Khan.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/intro.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

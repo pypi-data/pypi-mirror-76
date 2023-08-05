@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skclean.pipeline.make_pipeline &#8212; scikit-clean 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="skclean.simulate_noise.flip_labels_uniform" href="skclean.simulate_noise.flip_labels_uniform.html" />
+    <link rel="prev" title="skclean.pipeline.Pipeline" href="skclean.pipeline.Pipeline.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="skclean-pipeline-make-pipeline">
+<h1>skclean.pipeline.make_pipeline<a class="headerlink" href="#skclean-pipeline-make-pipeline" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt id="skclean.pipeline.make_pipeline">
+<code class="sig-prename descclassname">skclean.pipeline.</code><code class="sig-name descname">make_pipeline</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">steps</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#skclean.pipeline.make_pipeline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Construct a Pipeline from the given estimators.</p>
+<p>This is a shorthand for the Pipeline constructor; it does not require, and
+does not permit, naming the estimators. Instead, their names will be set
+to the lowercase of their types automatically.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>*steps</strong> (<em>list of estimators</em>) – A list of estimators.</p></li>
+<li><p><strong>memory</strong> (<em>None</em><em>, </em><em>str</em><em> or </em><em>object with the joblib.Memory interface</em><em>, </em><em>default=None</em>) – Used to cache the fitted transformers of the pipeline. By default,
+no caching is performed. If a string is given, it is the path to
+the caching directory. Enabling caching triggers a clone of
+the transformers before fitting. Therefore, the transformer
+instance given to the pipeline cannot be inspected
+directly. Use the attribute <code class="docutils literal notranslate"><span class="pre">named_steps</span></code> or <code class="docutils literal notranslate"><span class="pre">steps</span></code> to
+inspect estimators within the pipeline. Caching the
+transformers is advantageous when fitting is time consuming.</p></li>
+<li><p><strong>verbose</strong> (<em>bool</em><em>, </em><em>default=False</em>) – If True, the time elapsed while fitting each step will be printed as it
+is completed.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>p</strong></p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="skclean.pipeline.Pipeline.html#skclean.pipeline.Pipeline" title="skclean.pipeline.Pipeline">Pipeline</a></p>
+</dd>
+</dl>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<dl class="simple">
+<dt><code class="xref py py-func docutils literal notranslate"><span class="pre">imblearn.pipeline.Pipeline()</span></code></dt><dd><p>Class for creating a pipeline of transforms with a final estimator.</p>
+</dd>
+</dl>
+</div>
+<p class="rubric">Examples</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn.naive_bayes</span> <span class="kn">import</span> <span class="n">GaussianNB</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">StandardScaler</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">make_pipeline</span><span class="p">(</span><span class="n">StandardScaler</span><span class="p">(),</span> <span class="n">GaussianNB</span><span class="p">(</span><span class="n">priors</span><span class="o">=</span><span class="kc">None</span><span class="p">))</span>
+<span class="gp">... </span>
+<span class="go">Pipeline(steps=[(&#39;standardscaler&#39;, StandardScaler()),</span>
+<span class="go">                (&#39;gaussiannb&#39;, GaussianNB())])</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">scikit-clean</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Getting Started:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Scikit-clean</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../user_guide.html">User Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../api.html">API Reference</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../api.html#module-skclean.detectors">Detectors (<cite>skclean.detectors</cite>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api.html#module-skclean.handlers">Handlers (<cite>skclean.handlers</cite>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api.html#module-skclean.models">Models (<cite>skclean.models</cite>)</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../api.html#module-skclean.pipeline">Pipeline (<cite>skclean.pipeline</cite>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../api.html#module-skclean.simulate_noise">Noise Simulation (<cite>skclean.simulate_noise</cite>)</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Additional Information</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../references.html">References</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="../api.html">API Reference</a><ul>
+      <li>Previous: <a href="skclean.pipeline.Pipeline.html" title="previous chapter">skclean.pipeline.Pipeline</a></li>
+      <li>Next: <a href="skclean.simulate_noise.flip_labels_uniform.html" title="next chapter">skclean.simulate_noise.flip_labels_uniform</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Shihab Shahriar Khan.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/_autosummary/skclean.pipeline.make_pipeline.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,674 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluating Robust Models &#8212; scikit-clean 0.1.0 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Introduction to Scikit-clean" href="Introduction to Scikit-clean.html" />
+    <link rel="prev" title="Evaluating Detectors" href="Evaluating Detectors.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  
+<style>
+/* CSS for nbsphinx extension */
+
+/* remove conflicting styling from Sphinx themes */
+div.nbinput.container,
+div.nbinput.container div.prompt,
+div.nbinput.container div.input_area,
+div.nbinput.container div[class*=highlight],
+div.nbinput.container div[class*=highlight] pre,
+div.nboutput.container,
+div.nboutput.container div.prompt,
+div.nboutput.container div.output_area,
+div.nboutput.container div[class*=highlight],
+div.nboutput.container div[class*=highlight] pre {
+    background: none;
+    border: none;
+    padding: 0 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+/* avoid gaps between output lines */
+div.nboutput.container div[class*=highlight] pre {
+    line-height: normal;
+}
+
+/* input/output containers */
+div.nbinput.container,
+div.nboutput.container {
+    display: -webkit-flex;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    width: 100%;
+}
+@media (max-width: 540px) {
+    div.nbinput.container,
+    div.nboutput.container {
+        flex-direction: column;
+    }
+}
+
+/* input container */
+div.nbinput.container {
+    padding-top: 5px;
+}
+
+/* last container */
+div.nblast.container {
+    padding-bottom: 5px;
+}
+
+/* input prompt */
+div.nbinput.container div.prompt pre {
+    color: #307FC1;
+}
+
+/* output prompt */
+div.nboutput.container div.prompt pre {
+    color: #BF5B3D;
+}
+
+/* all prompts */
+div.nbinput.container div.prompt,
+div.nboutput.container div.prompt {
+    width: 4.5ex;
+    padding-top: 5px;
+    position: relative;
+    user-select: none;
+}
+
+div.nbinput.container div.prompt > div,
+div.nboutput.container div.prompt > div {
+    position: absolute;
+    right: 0;
+    margin-right: 0.3ex;
+}
+
+@media (max-width: 540px) {
+    div.nbinput.container div.prompt,
+    div.nboutput.container div.prompt {
+        width: unset;
+        text-align: left;
+        padding: 0.4em;
+    }
+    div.nboutput.container div.prompt.empty {
+        padding: 0;
+    }
+
+    div.nbinput.container div.prompt > div,
+    div.nboutput.container div.prompt > div {
+        position: unset;
+    }
+}
+
+/* disable scrollbars on prompts */
+div.nbinput.container div.prompt pre,
+div.nboutput.container div.prompt pre {
+    overflow: hidden;
+}
+
+/* input/output area */
+div.nbinput.container div.input_area,
+div.nboutput.container div.output_area {
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: auto;
+}
+@media (max-width: 540px) {
+    div.nbinput.container div.input_area,
+    div.nboutput.container div.output_area {
+        width: 100%;
+    }
+}
+
+/* input area */
+div.nbinput.container div.input_area {
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    background: #f5f5f5;
+}
+
+/* override MathJax center alignment in output cells */
+div.nboutput.container div[class*=MathJax] {
+    text-align: left !important;
+}
+
+/* override sphinx.ext.imgmath center alignment in output cells */
+div.nboutput.container div.math p {
+    text-align: left;
+}
+
+/* standard error */
+div.nboutput.container div.output_area.stderr {
+    background: #fdd;
+}
+
+/* ANSI colors */
+.ansi-black-fg { color: #3E424D; }
+.ansi-black-bg { background-color: #3E424D; }
+.ansi-black-intense-fg { color: #282C36; }
+.ansi-black-intense-bg { background-color: #282C36; }
+.ansi-red-fg { color: #E75C58; }
+.ansi-red-bg { background-color: #E75C58; }
+.ansi-red-intense-fg { color: #B22B31; }
+.ansi-red-intense-bg { background-color: #B22B31; }
+.ansi-green-fg { color: #00A250; }
+.ansi-green-bg { background-color: #00A250; }
+.ansi-green-intense-fg { color: #007427; }
+.ansi-green-intense-bg { background-color: #007427; }
+.ansi-yellow-fg { color: #DDB62B; }
+.ansi-yellow-bg { background-color: #DDB62B; }
+.ansi-yellow-intense-fg { color: #B27D12; }
+.ansi-yellow-intense-bg { background-color: #B27D12; }
+.ansi-blue-fg { color: #208FFB; }
+.ansi-blue-bg { background-color: #208FFB; }
+.ansi-blue-intense-fg { color: #0065CA; }
+.ansi-blue-intense-bg { background-color: #0065CA; }
+.ansi-magenta-fg { color: #D160C4; }
+.ansi-magenta-bg { background-color: #D160C4; }
+.ansi-magenta-intense-fg { color: #A03196; }
+.ansi-magenta-intense-bg { background-color: #A03196; }
+.ansi-cyan-fg { color: #60C6C8; }
+.ansi-cyan-bg { background-color: #60C6C8; }
+.ansi-cyan-intense-fg { color: #258F8F; }
+.ansi-cyan-intense-bg { background-color: #258F8F; }
+.ansi-white-fg { color: #C5C1B4; }
+.ansi-white-bg { background-color: #C5C1B4; }
+.ansi-white-intense-fg { color: #A1A6B2; }
+.ansi-white-intense-bg { background-color: #A1A6B2; }
+
+.ansi-default-inverse-fg { color: #FFFFFF; }
+.ansi-default-inverse-bg { background-color: #000000; }
+
+.ansi-bold { font-weight: bold; }
+.ansi-underline { text-decoration: underline; }
+
+
+div.nbinput.container div.input_area div[class*=highlight] > pre,
+div.nboutput.container div.output_area div[class*=highlight] > pre,
+div.nboutput.container div.output_area div[class*=highlight].math,
+div.nboutput.container div.output_area.rendered_html,
+div.nboutput.container div.output_area > div.output_javascript,
+div.nboutput.container div.output_area:not(.rendered_html) > img{
+    padding: 5px;
+}
+
+/* fix copybtn overflow problem in chromium (needed for 'sphinx_copybutton') */
+div.nbinput.container div.input_area > div[class^='highlight'],
+div.nboutput.container div.output_area > div[class^='highlight']{
+    overflow-y: hidden;
+}
+
+/* hide copybtn icon on prompts (needed for 'sphinx_copybutton') */
+.prompt a.copybtn {
+    display: none;
+}
+
+/* Some additional styling taken form the Jupyter notebook CSS */
+div.rendered_html table {
+  border: none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  color: black;
+  font-size: 12px;
+  table-layout: fixed;
+}
+div.rendered_html thead {
+  border-bottom: 1px solid black;
+  vertical-align: bottom;
+}
+div.rendered_html tr,
+div.rendered_html th,
+div.rendered_html td {
+  text-align: right;
+  vertical-align: middle;
+  padding: 0.5em 0.5em;
+  line-height: normal;
+  white-space: normal;
+  max-width: none;
+  border: none;
+}
+div.rendered_html th {
+  font-weight: bold;
+}
+div.rendered_html tbody tr:nth-child(odd) {
+  background: #f5f5f5;
+}
+div.rendered_html tbody tr:hover {
+  background: rgba(66, 165, 245, 0.2);
+}
+</style>
+<div class="section" id="Evaluating-Robust-Models">
+<h1>Evaluating Robust Models<a class="headerlink" href="#Evaluating-Robust-Models" title="Permalink to this headline">¶</a></h1>
+<p>The goal of this notebook is to show how to compare several methods across several datasets.This will also serve as inroduction to two important <code class="docutils literal notranslate"><span class="pre">scikit-clean</span></code> functions: <code class="docutils literal notranslate"><span class="pre">load_data</span></code> and <code class="docutils literal notranslate"><span class="pre">compare</span></code>.</p>
+<p>We’ll (roughly) implement the core idea of 3 existing papers on robust classification in the presence of label noise, and see how they compare on our 4 datasets readily available in <code class="docutils literal notranslate"><span class="pre">scikit-clean</span></code>. Those papers are:</p>
+<ol class="arabic simple">
+<li><p>Forest-type Regression with General Losses and Robust Forest - ICML’17 (<code class="docutils literal notranslate"><span class="pre">RobustForest</span></code> below in <code class="docutils literal notranslate"><span class="pre">MODELS</span></code> dictionary)</p></li>
+<li><p>An Ensemble Generation Method Based on Instance Hardness- IJCNN’18 (<code class="docutils literal notranslate"><span class="pre">EGIH</span></code>)</p></li>
+<li><p>Classification with label noise- a Markov chain sampling framework - ECML-PKDD’18 (<code class="docutils literal notranslate"><span class="pre">MCS</span></code>)</p></li>
+</ol>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[1]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="kn">import</span> <span class="nn">os</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">from</span> <span class="nn">sklearn.tree</span> <span class="kn">import</span> <span class="n">DecisionTreeClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.neighbors</span> <span class="kn">import</span> <span class="n">KNeighborsClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LogisticRegression</span>
+<span class="kn">from</span> <span class="nn">sklearn.svm</span> <span class="kn">import</span> <span class="n">SVC</span>
+<span class="kn">from</span> <span class="nn">sklearn.neural_network</span> <span class="kn">import</span> <span class="n">MLPClassifier</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">StratifiedKFold</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span><span class="p">,</span> <span class="n">make_scorer</span>
+
+<span class="kn">from</span> <span class="nn">skclean.detectors</span> <span class="kn">import</span> <span class="n">KDN</span><span class="p">,</span> <span class="n">InstanceHardness</span><span class="p">,</span> <span class="n">MCS</span>
+<span class="kn">from</span> <span class="nn">skclean.handlers</span> <span class="kn">import</span> <span class="n">WeightedBagging</span><span class="p">,</span> <span class="n">SampleWeight</span><span class="p">,</span> <span class="n">Filter</span>
+<span class="kn">from</span> <span class="nn">skclean.models</span> <span class="kn">import</span> <span class="n">RobustForest</span>
+<span class="kn">from</span> <span class="nn">skclean.pipeline</span> <span class="kn">import</span> <span class="n">Pipeline</span><span class="p">,</span> <span class="n">make_pipeline</span>
+<span class="kn">from</span> <span class="nn">skclean.utils</span> <span class="kn">import</span> <span class="n">load_data</span><span class="p">,</span> <span class="n">compare</span>
+
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+</pre></div>
+</div>
+</div>
+<p>We’ll use 4 datasets here, all come preloaded with <code class="docutils literal notranslate"><span class="pre">scikit-clean</span></code>. If you want to load new datasets through this function, put the csv-formatted dataset file in <code class="docutils literal notranslate"><span class="pre">datasets</span></code> folder (use <code class="docutils literal notranslate"><span class="pre">os.path.dirname(skclean.datasets.__file__)</span></code> to get it’s location). Make sure labels are at the last column, and features are all real numbers. Check source code of <code class="docutils literal notranslate"><span class="pre">load_data</span></code> for more details.</p>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[2]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">DATASETS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;iris&#39;</span><span class="p">,</span> <span class="s1">&#39;breast_cancer&#39;</span><span class="p">,</span> <span class="s1">&#39;optdigits&#39;</span><span class="p">,</span> <span class="s1">&#39;spambase&#39;</span><span class="p">]</span>
+<span class="n">SEED</span> <span class="o">=</span> <span class="mi">42</span>   <span class="c1"># For reproducibility</span>
+<span class="n">N_JOBS</span> <span class="o">=</span> <span class="mi">8</span>  <span class="c1"># No of cpu cores to use in parallel</span>
+<span class="n">CV</span> <span class="o">=</span> <span class="n">StratifiedKFold</span><span class="p">(</span><span class="n">n_splits</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="n">shuffle</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="n">SEED</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">SCORING</span> <span class="o">=</span> <span class="s1">&#39;accuracy&#39;</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[3]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">MODELS</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s1">&#39;RobustForest&#39;</span><span class="p">:</span> <span class="n">RobustForest</span><span class="p">(</span><span class="n">n_estimators</span><span class="o">=</span><span class="mi">100</span><span class="p">),</span>
+    <span class="s1">&#39;EGIH&#39;</span><span class="p">:</span><span class="n">make_pipeline</span><span class="p">(</span><span class="n">KDN</span><span class="p">(),</span> <span class="n">WeightedBagging</span><span class="p">()),</span>
+    <span class="s1">&#39;MCS&#39;</span><span class="p">:</span> <span class="n">make_pipeline</span><span class="p">(</span><span class="n">MCS</span><span class="p">(),</span> <span class="n">SampleWeight</span><span class="p">(</span><span class="n">LogisticRegression</span><span class="p">()))</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+</div>
+<p>We’ll create 30% uniform label noise for all our datasets using <code class="docutils literal notranslate"><span class="pre">UniformNoise</span></code>. Note that we’re treating noise simulation as data transformation step and attaching it before our models in a pipeline. In this way, noise will only impact training set, and testing will be performed on clean labels.</p>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[4]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">skclean.simulate_noise</span> <span class="kn">import</span> <span class="n">UniformNoise</span>
+
+<span class="n">N_MODELS</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">clf</span> <span class="ow">in</span> <span class="n">MODELS</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="n">N_MODELS</span><span class="p">[</span><span class="n">name</span><span class="p">]</span> <span class="o">=</span> <span class="n">make_pipeline</span><span class="p">(</span><span class="n">UniformNoise</span><span class="p">(</span><span class="o">.</span><span class="mi">3</span><span class="p">),</span> <span class="n">clf</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">scikit-clean</span></code> models are compatible with <code class="docutils literal notranslate"><span class="pre">scikit-learn</span></code> API. So for evaluation, we’ll use <code class="docutils literal notranslate"><span class="pre">cross_val_score</span></code> function of scikit-learn- this will create multiple train/test according to the <code class="docutils literal notranslate"><span class="pre">CV</span></code> variable we defined at the beginning, and compute performance. It also allows easily parallelizing the code using <code class="docutils literal notranslate"><span class="pre">n_jobs</span></code>.</p>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[5]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="kn">from</span> <span class="nn">time</span> <span class="kn">import</span> <span class="n">perf_counter</span>  <span class="c1"># Wall time</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">cross_val_score</span>
+
+<span class="k">for</span> <span class="n">data_name</span> <span class="ow">in</span> <span class="n">DATASETS</span><span class="p">:</span>
+    <span class="n">X</span><span class="p">,</span><span class="n">y</span> <span class="o">=</span> <span class="n">load_data</span><span class="p">(</span><span class="n">data_name</span><span class="p">,</span> <span class="n">stats</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">clf_name</span><span class="p">,</span> <span class="n">clf</span> <span class="ow">in</span> <span class="n">N_MODELS</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">start_at</span> <span class="o">=</span> <span class="n">perf_counter</span><span class="p">()</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="n">cross_val_score</span><span class="p">(</span><span class="n">clf</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="n">CV</span><span class="p">,</span> <span class="n">n_jobs</span><span class="o">=</span><span class="n">N_JOBS</span><span class="p">,</span> <span class="n">scoring</span><span class="o">=</span><span class="n">SCORING</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">data_name</span><span class="si">}</span><span class="s2">, </span><span class="si">{</span><span class="n">clf_name</span><span class="si">}</span><span class="s2">: </span><span class="si">{</span><span class="n">r</span><span class="si">:</span><span class="s2">.4f</span><span class="si">}</span><span class="s2"> in </span><span class="si">{</span><span class="n">perf_counter</span><span class="p">()</span><span class="o">-</span><span class="n">start_at</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2"> secs&quot;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+iris, (150, 4), 3, 1.000
+
+iris, RobustForest: 0.8067 in 0.94 secs
+iris, EGIH: 0.9133 in 0.73 secs
+iris, MCS: 0.7067 in 0.11 secs
+
+breast_cancer, (569, 30), 2, 0.594
+
+breast_cancer, RobustForest: 0.8664 in 0.22 secs
+breast_cancer, EGIH: 0.8981 in 0.82 secs
+breast_cancer, MCS: 0.9367 in 0.11 secs
+
+optdigits, (5620, 64), 10, 0.969
+
+optdigits, RobustForest: 0.9402 in 1.48 secs
+optdigits, EGIH: 0.9649 in 8.03 secs
+optdigits, MCS: 0.9584 in 6.36 secs
+
+spambase, (4601, 57), 2, 0.650
+
+spambase, RobustForest: 0.7857 in 1.12 secs
+spambase, EGIH: 0.8581 in 7.18 secs
+spambase, MCS: 0.8303 in 0.45 secs
+
+</pre></div></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">compare</span></code> function does basically the same thing the above cell does. Plus, it stores the results in a CSV format, with datasets in rows and algorithms in columns. And it can also automatically resume after interruption.</p>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[6]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="o">%%time</span>
+<span class="n">result_path</span> <span class="o">=</span> <span class="s2">&quot;noisy.csv&quot;</span>
+
+<span class="n">dfn</span> <span class="o">=</span> <span class="n">compare</span><span class="p">(</span><span class="n">N_MODELS</span><span class="p">,</span> <span class="n">DATASETS</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="n">CV</span><span class="p">,</span> <span class="n">df_path</span><span class="o">=</span><span class="n">result_path</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="n">SEED</span><span class="p">,</span>
+             <span class="n">scoring</span><span class="o">=</span><span class="n">SCORING</span><span class="p">,</span><span class="n">n_jobs</span><span class="o">=</span><span class="n">N_JOBS</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">dfn</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<div class="highlight"><pre>
+Wall time: 24.5 s
+</pre></div></div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[6]:
+</pre></div>
+</div>
+<div class="output_area rendered_html docutils container">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>RobustForest</th>
+      <th>EGIH</th>
+      <th>MCS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>iris</th>
+      <td>0.806667</td>
+      <td>0.866667</td>
+      <td>0.726667</td>
+    </tr>
+    <tr>
+      <th>breast_cancer</th>
+      <td>0.84875</td>
+      <td>0.878808</td>
+      <td>0.938488</td>
+    </tr>
+    <tr>
+      <th>optdigits</th>
+      <td>0.941459</td>
+      <td>0.958541</td>
+      <td>0.959253</td>
+    </tr>
+    <tr>
+      <th>spambase</th>
+      <td>0.776793</td>
+      <td>0.859382</td>
+      <td>0.817</td>
+    </tr>
+  </tbody>
+</table>
+</div></div>
+</div>
+<p>Let’s compare above values with ones computed with clean labels:</p>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[7]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">dfc</span> <span class="o">=</span> <span class="n">compare</span><span class="p">(</span><span class="n">MODELS</span><span class="p">,</span> <span class="n">DATASETS</span><span class="p">,</span> <span class="n">cv</span><span class="o">=</span><span class="n">CV</span><span class="p">,</span> <span class="n">df_path</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="n">SEED</span><span class="p">,</span>
+             <span class="n">scoring</span><span class="o">=</span><span class="n">SCORING</span><span class="p">,</span><span class="n">n_jobs</span><span class="o">=</span><span class="n">N_JOBS</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">dfc</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[7]:
+</pre></div>
+</div>
+<div class="output_area rendered_html docutils container">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>RobustForest</th>
+      <th>EGIH</th>
+      <th>MCS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>iris</th>
+      <td>0.953333</td>
+      <td>0.946667</td>
+      <td>0.806667</td>
+    </tr>
+    <tr>
+      <th>breast_cancer</th>
+      <td>0.957833</td>
+      <td>0.940273</td>
+      <td>0.950846</td>
+    </tr>
+    <tr>
+      <th>optdigits</th>
+      <td>0.978648</td>
+      <td>0.963701</td>
+      <td>0.965125</td>
+    </tr>
+    <tr>
+      <th>spambase</th>
+      <td>0.949577</td>
+      <td>0.938707</td>
+      <td>0.850471</td>
+    </tr>
+  </tbody>
+</table>
+</div></div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[8]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">dfc</span> <span class="o">=</span> <span class="n">dfc</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;clean&#39;</span><span class="p">)</span>
+<span class="n">dfn</span> <span class="o">=</span> <span class="n">dfn</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;noisy&#39;</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span><span class="n">dfc</span><span class="p">,</span><span class="n">dfn</span><span class="p">])</span><span class="o">.</span><span class="n">melt</span><span class="p">(</span><span class="n">id_vars</span><span class="o">=</span><span class="s1">&#39;label&#39;</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;variable&#39;</span><span class="p">:</span><span class="s1">&#39;classifier&#39;</span><span class="p">,</span><span class="s1">&#39;value&#39;</span><span class="p">:</span><span class="n">SCORING</span><span class="p">},</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="nbinput docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[9]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">df</span><span class="p">,</span><span class="n">hue</span><span class="o">=</span><span class="s1">&#39;label&#39;</span><span class="p">,</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;classifier&#39;</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="n">SCORING</span><span class="p">,</span><span class="n">width</span><span class="o">=.</span><span class="mi">4</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="nboutput nblast docutils container">
+<div class="prompt empty docutils container">
+</div>
+<div class="output_area docutils container">
+<img alt="../_images/examples_Evaluating_Robust_Methods_14_0.png" src="../_images/examples_Evaluating_Robust_Methods_14_0.png" />
+</div>
+</div>
+<div class="nbinput nblast docutils container">
+<div class="prompt highlight-none notranslate"><div class="highlight"><pre><span></span>[10]:
+</pre></div>
+</div>
+<div class="input_area highlight-ipython3 notranslate"><div class="highlight"><pre>
+<span></span><span class="n">os</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">result_path</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<p>Note: This is a simple example, not a replication study, and shouldn’t be taken as such.</p>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">scikit-clean</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Getting Started:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../intro.html">Scikit-clean</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../user_guide.html">User Guide</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Evaluating Detectors.html">Evaluating Detectors</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Evaluating Robust Models</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Introduction to Scikit-clean.html">Introduction to Scikit-clean</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Noise SImulators.html">Noise Simulators</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../api.html">API Reference</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Additional Information</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../references.html">References</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="../user_guide.html">User Guide</a><ul>
+      <li>Previous: <a href="Evaluating Detectors.html" title="previous chapter">Evaluating Detectors</a></li>
+      <li>Next: <a href="Introduction to Scikit-clean.html" title="next chapter">Introduction to Scikit-clean</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Shihab Shahriar Khan.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.1.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/examples/Evaluating Robust Methods.ipynb.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
