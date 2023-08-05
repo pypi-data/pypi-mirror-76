@@ -1,0 +1,5 @@
+setup.py
+yamlarg.egg-info/PKG-INFO
+yamlarg.egg-info/SOURCES.txt
+yamlarg.egg-info/dependency_links.txt
+yamlarg.egg-info/top_level.txt
