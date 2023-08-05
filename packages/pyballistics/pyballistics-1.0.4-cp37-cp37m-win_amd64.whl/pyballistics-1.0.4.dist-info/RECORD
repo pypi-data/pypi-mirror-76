@@ -1,0 +1,11 @@
+pyballistics/__init__.py,sha256=3XU05OsljdmlCyieKlBUsXzejrL-aSGhAlY0npPTOyQ,177
+pyballistics/lagrange.cp37-win_amd64.pyd,sha256=GKWKQvEfA5vVujt6v_cq4HUEXAsqirylh0buEnAMx6Q,291328
+pyballistics/options.py,sha256=YUDsVsN75ZlrsrChXVqhy2wmzet8d31HnFJugfgoLvQ,27894
+pyballistics/termalconduct.cp37-win_amd64.pyd,sha256=P7a_7nBmr_-PaHQOuKzHzS-8jksBDCufhmc0ob_G3y8,227840
+pyballistics/termo.cp37-win_amd64.pyd,sha256=9De1QNec5ZowazPHPwthsxnvG3r0QT3Hw01c65odfn8,235008
+pyballistics-1.0.4.data/data/gpowders_si.csv,sha256=0MAve6ZLwwQtBoZO5AiUXbzgOgV0UCFpUkgEpUddOdA,16105
+pyballistics-1.0.4.dist-info/LICENSE.txt,sha256=Lx6xksMLUEZorTP0wcAcFLYNVeAIF4QgNswNM0XwP_8,1094
+pyballistics-1.0.4.dist-info/METADATA,sha256=Y4pHnWS4MCuGmhbd81FpGtKhqcsNv9Nhj5xhDiSbO74,32456
+pyballistics-1.0.4.dist-info/WHEEL,sha256=g8eocn77V_iXxq9laUIPSuxdwRHlhOsH3tLpu1uKUvQ,106
+pyballistics-1.0.4.dist-info/top_level.txt,sha256=8M9IWdHjYz3f1yYadCqMacWlYkr1HjZRxDS2lv-rEzY,13
+pyballistics-1.0.4.dist-info/RECORD,,
