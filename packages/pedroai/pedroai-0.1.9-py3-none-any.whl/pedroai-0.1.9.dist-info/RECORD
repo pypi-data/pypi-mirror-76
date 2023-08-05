@@ -1,0 +1,9 @@
+pedroai/__init__.py,sha256=XIaxbMbyiP-L3kguR1GhxirFblTXiHR1lMfDVITvHUI,22
+pedroai/io.py,sha256=HeEuFUzLcVrUI7wbe1j-a2bHDI8_siipzMHmb_bgJQM,2450
+pedroai/math.py,sha256=VlgytnSfBCAbVj6RoJuUBfpTuL54wZ-uQVxQNksfmpQ,1339
+pedroai/plot.py,sha256=ccrWV4QFkHgQvBmKs4nIAPh1eo60RGSFGBZGwNQe3y8,1374
+pedroai/result.py,sha256=e3j_4AG-MueR6AdVeDayYiGWoV2h0xKk9-IOraLtP5o,2957
+pedroai-0.1.9.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pedroai-0.1.9.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+pedroai-0.1.9.dist-info/METADATA,sha256=718jZFQDfTxqtQFtllR-RifGVvGYw4Er1qwxVyLQYlI,414
+pedroai-0.1.9.dist-info/RECORD,,
