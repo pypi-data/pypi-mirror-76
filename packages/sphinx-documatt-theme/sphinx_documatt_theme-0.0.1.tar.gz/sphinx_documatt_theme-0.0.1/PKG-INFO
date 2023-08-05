@@ -1,0 +1,98 @@
+Metadata-Version: 1.1
+Name: sphinx_documatt_theme
+Version: 0.0.1
+Summary: Documatt Theme for Sphinx documentation projects
+Home-page: https://gitlab.com/documatt/sphinx-themes
+Author: Matt from Documatt
+Author-email: matt@documatt.com
+License: MIT
+Description: #####################
+        Documatt Sphinx Theme
+        #####################
+        
+        Mobile friendly Sphinx theme designed to provide great documentation reading experience with beautiful typography.
+        
+        This theme is default theme of Documatt's `Techwriter at work blog <https://blog.documatt.com>`_ but you are welcome to use it with any Sphinx project.
+        
+        .. absolute image URL because it will be embedded also to PyPI
+        
+        .. image:: https://gitlab.com/documatt/sphinx-themes/-/raw/master/sphinx_documatt_theme/screenshot.png?inline=false
+        
+        ************
+        Installation
+        ************
+        
+        Install (on the commandline)::
+        
+            $ pip install sphinx-documatt-theme
+        
+        Use it (in your ``conf.py``)::
+        
+            html_theme = "sphinx_documatt_theme"
+        
+        *************
+        Configuration
+        *************
+        
+        Theme as only option - set "motto" displayed by default in the cover (block bellow breadcrumb near header), and in the footer. Set your very own motto::
+        
+            html_theme_options = {
+                "motto": "Write and read beautiful books and documentation in easy way with our powerful writing platform."
+            }
+        
+        *************
+        Customization
+        *************
+        
+        To customize the theme, create ``_templates/layout.html`` in your Sphinx project root. ``layout.html`` is the most important template to override. Start the file with the extends::
+        
+            {% extends "!layout.html" %}
+        
+        Now you can override (customize) so-called blocks, i.e. parts of page. The most important blocks are:
+        
+        * ``mastercover`` a cover (sometimes called a hero) used for master page (usually ``index.rst``). Cover is shown bellow breadcrumb navigation.
+        * ``nonmastercover`` a cover used for non-master pages (usually anything except ``index.rst``). Both cover block shows motto by default.
+        * ``coverrightcolumn`` right column next to the cover is useful for example for social buttons.
+        * ``rightsidebar`` right column next to the main document body. Again, typically used to place share buttons.
+        * ``extrafooter`` block right before trailing ``</body>``. By default is empty, but it's ideal place to put e.g. your website analytics HTML code or cookie bar.
+        
+        The complete example may look::
+        
+            {% extends "!layout.html" %}
+        
+            {% block mastercover %}
+                <h1 class="title is-2 has-text-primary">
+                    Techwriter at work <span class="has-text-weight-light">blog</span>.
+                </h1>
+                <h2 class="subtitle is-4">
+                    Living and writing documentation at Documatt, small team of programmers
+                    that <span class="has-text-primary">do write</span> documentation too.
+                </h2>
+            {% endblock %}
+        
+            {% block coverrightcolumn %}
+                <a href="https://twitter.com/documattcom?ref_src=twsrc%5Etfw"
+                   class="twitter-follow-button" data-show-count="false">Follow us</a>
+                <script async src="https://platform.twitter.com/widgets.js"
+                        charset="utf-8"></script>
+            {% endblock %}
+        
+            {% block extrafooter %}
+                <script type="text/javascript"
+                src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?theme=grey&tracking=1&thirdparty=1&always=1&hideDetailsBtn=1&showPolicyLink=1&privacyPage=https%3A%2F%2Fdocumatt.com%2Fabout%2Flegal%2Fprivacy%2F"></script>
+            {% endblock %}
+        
+        Open `theme's layout.html <https://gitlab.com/documatt/sphinx-themes/-/blob/master/sphinx_documatt_theme/sphinx_documatt_theme/layout.html>`_ to see all blocks you can override.
+        
+Platform: UNKNOWN
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Theme
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
