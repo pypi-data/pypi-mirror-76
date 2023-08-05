@@ -1,0 +1,12 @@
+grpcio
+requests
+numpy
+google
+protobuf
+toml
+jsonschema
+watchdog
+pandas
+mappy
+biopython
+pyguppyclient>=0.0.6
