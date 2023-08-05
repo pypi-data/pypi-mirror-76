@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        tweet2story=tweet2story.__main__:main
+    
