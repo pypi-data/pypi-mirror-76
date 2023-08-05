@@ -1,0 +1,10 @@
+toxopy/__init__.py,sha256=9Q0kHaikQXGXi1sWbWlrpyBtqv80X3AXfBCpMioshyY,262
+toxopy/ffconcat.py,sha256=FC1UP0QBQXDIz4ON70GKKtqJ93CktkTlBYPYpDq_ExI,1223
+toxopy/ffsync.py,sha256=0TU-vw4BRXuh-dhn1vH7zv3nhd_BJ-EKNNOPXE80yk8,1530
+toxopy/improve_dlc_output.py,sha256=1wD28-EFE8ZZF3gS0gpFY52OoRgzhKNHf2LywoEyACc,1663
+toxopy/lazytrim.py,sha256=6XGAHqDiuZnQA2n1jxQAfE_ojp4-I1_HTOovoA9Z8PU,874
+toxopy/version.py,sha256=beMKJa-WJInAypi1Jruc-Ve80lnvbb33mxpFIn4MsiE,45
+toxopy-0.0.4.dist-info/LICENSE,sha256=xq8eY-NNV4tcdZT2t1XAvkNFzkNEvZQwnacoz0ukjhA,1073
+toxopy-0.0.4.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+toxopy-0.0.4.dist-info/METADATA,sha256=PSrQhm78wSAY8BFgCJUyvL3ZxlM0xtdEqmniNc3to_M,382
+toxopy-0.0.4.dist-info/RECORD,,
