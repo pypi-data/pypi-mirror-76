@@ -1,0 +1,5 @@
+sylenium:
+  chrome_options:
+    - "no-sandbox"
+    - "--disable-extensions"
+    - "--headless"
