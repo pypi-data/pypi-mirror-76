@@ -1,0 +1,5 @@
+browse-ocrd
+pyvoussoir>=0.3.0
+wheel
+pure-python-adb
+retrying

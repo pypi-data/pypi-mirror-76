@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+browse_ocrd_physical_import.egg-info/PKG-INFO
+browse_ocrd_physical_import.egg-info/SOURCES.txt
+browse_ocrd_physical_import.egg-info/dependency_links.txt
+browse_ocrd_physical_import.egg-info/entry_points.txt
+browse_ocrd_physical_import.egg-info/requires.txt
+browse_ocrd_physical_import.egg-info/top_level.txt
+ocrd_physical_import/__init__.py
+ocrd_physical_import/view.py
+ocrd_physical_import/scandriver/__init__.py
