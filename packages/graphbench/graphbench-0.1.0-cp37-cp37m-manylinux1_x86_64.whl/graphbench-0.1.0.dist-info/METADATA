@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: graphbench
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Operating System :: POSIX :: Linux
+Author: felix <felix.reidl@gmail.com>
+Author-Email: felix <felix.reidl@gmail.com>
