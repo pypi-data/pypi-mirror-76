@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+devilparser/__init__.py
+devilparser/rcfile.py
+devilparser.egg-info/PKG-INFO
+devilparser.egg-info/SOURCES.txt
+devilparser.egg-info/dependency_links.txt
+devilparser.egg-info/requires.txt
+devilparser.egg-info/top_level.txt
+scripts/devilparser-cat.py
+test/test_shell.py
+test/test_simple.py
