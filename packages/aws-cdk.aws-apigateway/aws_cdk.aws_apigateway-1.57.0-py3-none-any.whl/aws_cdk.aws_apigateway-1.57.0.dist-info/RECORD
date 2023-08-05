@@ -1,0 +1,8 @@
+aws_cdk/aws_apigateway/__init__.py,sha256=aPWaa4MvId6O_9AG33WM4edI4G9X5teSKzBnCmcgLTM,1127630
+aws_cdk/aws_apigateway/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_apigateway/_jsii/__init__.py,sha256=v8Ou6d8HTuFo33c4McCFu4QtlnMdNSKNPUdz8jRd4c8,715
+aws_cdk/aws_apigateway/_jsii/aws-apigateway@1.57.0.jsii.tgz,sha256=7Qw0cIStoB7AgAu0k7iSf26zpE45Dn_ZwWR4Erki2jw,540678
+aws_cdk.aws_apigateway-1.57.0.dist-info/METADATA,sha256=AdOB1u4F33yontsDQsnt2mrTg9irRCf4ig0t9wuC_b4,48735
+aws_cdk.aws_apigateway-1.57.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aws_cdk.aws_apigateway-1.57.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_apigateway-1.57.0.dist-info/RECORD,,
