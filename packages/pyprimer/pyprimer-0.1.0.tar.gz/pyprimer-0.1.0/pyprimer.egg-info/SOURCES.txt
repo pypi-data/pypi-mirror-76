@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyprimer/__init__.py
+pyprimer/pyprimer.py
+pyprimer.egg-info/PKG-INFO
+pyprimer.egg-info/SOURCES.txt
+pyprimer.egg-info/dependency_links.txt
+pyprimer.egg-info/top_level.txt
