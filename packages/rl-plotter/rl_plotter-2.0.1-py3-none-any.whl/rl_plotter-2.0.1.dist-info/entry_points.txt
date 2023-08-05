@@ -1,0 +1,3 @@
+[console_scripts]
+rl_plotter = rl_plotter.plotter:main
+
