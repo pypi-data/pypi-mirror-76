@@ -1,0 +1,8 @@
+setup.py
+jiggle/__init__.py
+jiggle/__main__.py
+jiggle.egg-info/PKG-INFO
+jiggle.egg-info/SOURCES.txt
+jiggle.egg-info/dependency_links.txt
+jiggle.egg-info/requires.txt
+jiggle.egg-info/top_level.txt
