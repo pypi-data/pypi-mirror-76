@@ -1,0 +1,10 @@
+lonny_common_pg_migrate/__init__.py,sha256=gjEPExNhUA2u6URvUkZR7vv-wba2-AM2GE9ZwUMlFW4,161
+lonny_common_pg_migrate/cfg.py,sha256=S6XY2U4piBrI1eHeC9jEezFRL8d60Ta40Vasnk2S2AQ,61
+lonny_common_pg_migrate/cli.py,sha256=kxd1-0WKS3kvHZeGFRDWYUL61G40Ib9DOjFypeuzYM4,880
+lonny_common_pg_migrate/logger.py,sha256=m02WWeSxAS3goPE9WwEQB0fs6DYjKx7cWpiEJXyPyDI,51
+lonny_common_pg_migrate/runner.py,sha256=pkGh-lD68oPKPUk4vLSj8NssJxSzvy4PMeUg7A_SW-Q,2330
+lonny_common_pg_migrate-0.1.1.dist-info/entry_points.txt,sha256=4ToFNCXuOvY1ClfIov5y9T1Gg2Un0U20AQ4fsACYuYw,62
+lonny_common_pg_migrate-0.1.1.dist-info/LICENSE,sha256=pbaWCSzNT6_tbRU50XPumT60dkQvr1xlaGbfUI7LYwA,1068
+lonny_common_pg_migrate-0.1.1.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+lonny_common_pg_migrate-0.1.1.dist-info/METADATA,sha256=b73MaCXiJh3QxYXfla2xxj1ozM0ftkQ9ynSQsyoNuiU,1400
+lonny_common_pg_migrate-0.1.1.dist-info/RECORD,,
