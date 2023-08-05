@@ -1,0 +1,16 @@
+medical_pricelist/__init__.py,sha256=1ny4rJ-4w3ml3C23QXp_uckwkyP0ErGGuARXEG49Uws,69
+medical_pricelist/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+medical_pricelist/apps.py,sha256=l34qBe9eDfxOiE7wFoHPrK-AdP6AsjmVzo5l_KScaL8,569
+medical_pricelist/models.py,sha256=jIbijSRn70GsNoVJ4rMa0WLBGn_6v0ijNtGkLSy-l-A,4939
+medical_pricelist/schema.py,sha256=fwz7TiYtaWMgL1IzYJMjaAKSFmHFDcWx7cK2-ptlnKQ,4369
+medical_pricelist/test_helpers.py,sha256=aSWdXoxf6DN4bN982sR01NYhM-MZLJeuUcP5xfze0Fs,881
+medical_pricelist/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+medical_pricelist/urls.py,sha256=2VZHO_d8F86pUF_4xeyFtSOr6-xpwltmk0L1szOBNEw,16
+medical_pricelist/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+medical_pricelist/migrations/0001_initial.py,sha256=7RzF0GyAKdSuzmfYrax8LQjDNaJLeNc5ccbleNo4BFA,3691
+medical_pricelist/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openimis_be_medical_pricelist-1.1.1.dist-info/LICENSE.md,sha256=qv829pDgynxCyMDqJP9yACWRxhNQEP7jrTxY8U5m4gY,1852
+openimis_be_medical_pricelist-1.1.1.dist-info/METADATA,sha256=V-hpFSvoj-DrA-ObrwS9oP5VVMODc1_s5WKLqG6n9C8,833
+openimis_be_medical_pricelist-1.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+openimis_be_medical_pricelist-1.1.1.dist-info/top_level.txt,sha256=AKwB8mnmsjpFrwUxTr6v28gAVQDZtE9WQRadLcY7-r0,18
+openimis_be_medical_pricelist-1.1.1.dist-info/RECORD,,
