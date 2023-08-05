@@ -1,0 +1,15 @@
+ades/__init__.py,sha256=e5BmnBsvsR9uTvX4vd4tuuXyxGAh4i9TRWLOnbbs8t8,61
+ades/base.py,sha256=JwKVruk4FCImhvg6Vi9mMRkUuXz9_t_QN-cWW9ipnvo,7608
+ades/common.py,sha256=-jx-NOfxGWZdexTUW8xs-s7uG2dsiPrBgOCoTGnuXQM,3225
+ades/contents.py,sha256=BeY8KA0ReXdquz0Vs1d26pJc-UNZmWkr7-Gh3_2PTtI,4300
+ades/loaders.py,sha256=vhg-mMiYZn3bephn5TUZKUT3Z3_5PA5aBT80p4wlZWI,13054
+ades/multipart.py,sha256=po3CC0ErBM-NSFCHZXS6h7nFN25J_Mu-MDq2C-GZgEc,1708
+ades/serializers.py,sha256=LSxDC_A4Wi50ne6QtSJdvAk01JO2jVHdTgV5gtMq3Tw,14521
+ades/utils.py,sha256=GkVsAMUKrL067R3ZbecxKPviqQMUfhu7bNs03SVUaBg,265
+ades/validators.py,sha256=hEURQkvlMR_jzcP7NDiGxbUe_DGlMXE8sa0GW6d36T0,16237
+ades/integrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ades/integrations/wsgi.py,sha256=NQLAjIuOV-1qCZrukTCa6XzhdI1375qHTEmrdmzg8Lc,3958
+Ades-0.1.0.dev1.dist-info/METADATA,sha256=iXOzYyxkz2AHYbZDcfgn1646Ln9txb9-M7b6zzAO24o,246
+Ades-0.1.0.dev1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Ades-0.1.0.dev1.dist-info/top_level.txt,sha256=m8vQ7xS9f4hgKlhl3s8X-8nf-veFmXcmyFaRsR1wIwo,5
+Ades-0.1.0.dev1.dist-info/RECORD,,

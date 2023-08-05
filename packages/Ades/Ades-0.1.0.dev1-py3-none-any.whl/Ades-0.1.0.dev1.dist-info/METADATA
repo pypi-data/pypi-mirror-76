@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Ades
+Version: 0.1.0.dev1
+Summary: Validate flask inputs with openapi validators
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+
+Ades
+----
+
+Kind of OpenAPI 3.1.0 validator.
+
+
