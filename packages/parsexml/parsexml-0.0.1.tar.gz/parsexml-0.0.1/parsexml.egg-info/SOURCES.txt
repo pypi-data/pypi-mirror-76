@@ -1,0 +1,8 @@
+README.md
+setup.py
+parsexml/__init__.py
+parsexml.egg-info/PKG-INFO
+parsexml.egg-info/SOURCES.txt
+parsexml.egg-info/dependency_links.txt
+parsexml.egg-info/entry_points.txt
+parsexml.egg-info/top_level.txt
