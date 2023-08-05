@@ -1,0 +1,9 @@
+README.md
+setup.py
+byte_converter/__init__.py
+byte_converter/reader.py
+byte_converter/writer.py
+byte_converter.egg-info/PKG-INFO
+byte_converter.egg-info/SOURCES.txt
+byte_converter.egg-info/dependency_links.txt
+byte_converter.egg-info/top_level.txt
