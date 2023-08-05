@@ -1,0 +1,9 @@
+vacefron/__init__.py,sha256=bqluqvqJOVwx2ialcCcCdiyoKMyO87CFWHc1lmaYJwA,129
+vacefron/client.py,sha256=YDW0Wu3F5MzOlxrrrZUwGxN_p3-NNv_wAVE5YivSTkc,5448
+vacefron/errors.py,sha256=LI_PGj7L7YYgLU1nqIy-wRP769exaqGhDnccMrHx9iE,502
+vacefron/image.py,sha256=LxBND_pr2HxAmlDzvlVUtGnOTXwQW7UBnVTpKXDqWqE,370
+vacefron.py-1.0.1.dist-info/LICENSE,sha256=sJCmABR1ZoLBz39rzlNx4eCjWjdmeNKHF-lQAMT-NI0,1063
+vacefron.py-1.0.1.dist-info/METADATA,sha256=zL0-us-rih80VEFr-7JcJS-tmlfaUQRcbcnB7mjeJng,3286
+vacefron.py-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+vacefron.py-1.0.1.dist-info/top_level.txt,sha256=hBNg1-rDl97-9GGzNK6IonaxekA79XLcAC6jmYQCP5Q,9
+vacefron.py-1.0.1.dist-info/RECORD,,
