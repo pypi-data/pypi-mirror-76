@@ -1,0 +1,12 @@
+nb_phone_extractor/__init__.py,sha256=Gbw8qmAQXV0RV088neEUPliSjrYWakETDxVul7efhRw,9535
+nb_phone_extractor/command_line.py,sha256=N_qftCrW3oTEBn--E260qLMvh1CYujFz5OzK1rRLydc,53
+nb_phone_extractor/condprob_long.pickle,sha256=F0EiIYCWCpQKu6YrL6ZrzhoD0CZqiJtzPYJwW6EPIq8,273676
+nb_phone_extractor/prior_long.pickle,sha256=qfm9Zk37eZnyPDWaUz8n3cQWLm_WkGw0B32AJGhUq7c,1329
+nb_phone_extractor/training_data_long.pickle,sha256=T5ZBDKnu3dDBVwDc_DVlV6ZN6PtUgKguCDT2eQX9mNw,6305472
+nb_phone_extractor/vocab_list_long.pickle,sha256=D8LT0NWACsUiCJzJS7_VncMZucqTfnoVrwZNHajuGBU,10132
+nb_phone_extractor-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+nb_phone_extractor-0.0.1.dist-info/METADATA,sha256=bOzNC5kYdgByu9uIf5MiOxvHPMdMqtBF-87eOfDJ8WM,997
+nb_phone_extractor-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+nb_phone_extractor-0.0.1.dist-info/entry_points.txt,sha256=zwprjziCqsOfpq5xsx_A6Nx_ALuDsQMvBvCcDlR_lcs,66
+nb_phone_extractor-0.0.1.dist-info/top_level.txt,sha256=w5D2tqzTSJITcFOQOTLe_JJbxL4Qzn_LsPw844VHVow,19
+nb_phone_extractor-0.0.1.dist-info/RECORD,,
