@@ -1,0 +1,8 @@
+README.md
+setup.py
+lain_trd_test.egg-info/PKG-INFO
+lain_trd_test.egg-info/SOURCES.txt
+lain_trd_test.egg-info/dependency_links.txt
+lain_trd_test.egg-info/top_level.txt
+trd_test/__init__.py
+trd_test/patch_creator.py
