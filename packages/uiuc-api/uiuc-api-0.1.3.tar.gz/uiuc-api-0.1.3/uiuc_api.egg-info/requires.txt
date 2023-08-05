@@ -1,0 +1,4 @@
+requests
+lxml
+pyyaml
+lark-parser
