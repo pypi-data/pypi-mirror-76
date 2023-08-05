@@ -1,0 +1,8 @@
+README.md
+setup.py
+ansi_capture/__init__.py
+ansi_capture.egg-info/PKG-INFO
+ansi_capture.egg-info/SOURCES.txt
+ansi_capture.egg-info/dependency_links.txt
+ansi_capture.egg-info/entry_points.txt
+ansi_capture.egg-info/top_level.txt
