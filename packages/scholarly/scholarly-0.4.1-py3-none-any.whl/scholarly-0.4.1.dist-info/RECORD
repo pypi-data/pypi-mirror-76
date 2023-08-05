@@ -1,0 +1,10 @@
+scholarly/__init__.py,sha256=nRt51JQsjGLJFieadftrSDko2gEhLIMVx2xiBeVjrks,61
+scholarly/_navigator.py,sha256=TmxxKDmLliDcYNydWgunqkFB_n09n9KST7WQrUJ93OI,20923
+scholarly/_scholarly.py,sha256=fF0sDb1YmVVYYsbpl47mrBs1-3O2PrlyUGBdA9tLSRw,11291
+scholarly/author.py,sha256=e8DAhNR2FHymulrYPPTrc8csND92bdTqHbpqpVouExU,8679
+scholarly/publication.py,sha256=nBUNXD6j4kcahloUgR1niskEN0JU5aRu8QYE2JBLC9I,11357
+scholarly-0.4.1.dist-info/LICENSE.txt,sha256=fhLl30uuEsshWBuhV87SDhmGoFCN0Q0Oikq5pM-U6Fw,1211
+scholarly-0.4.1.dist-info/METADATA,sha256=nxkh451kIfxu6ColHdpirroN4jAayiOYtnLAaor0I2o,15914
+scholarly-0.4.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+scholarly-0.4.1.dist-info/top_level.txt,sha256=mUQrzxtPxa-L-7-I2hoae7ICIPEbulaVey0HJQKcrL0,10
+scholarly-0.4.1.dist-info/RECORD,,
