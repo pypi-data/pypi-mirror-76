@@ -1,0 +1,11 @@
+j_basic_stock_prediction/__init__.py,sha256=0Q3OVV7JE9FnuA9f6LN21tgxCjJ6YXtMTieVOicd7cI,29
+j_basic_stock_prediction/predict_stocks.py,sha256=7gkCKazCjy9UX_qkB5U_BuOp5obXPc15h1xLcNuSi1g,5298
+j_basic_stock_prediction/pytransform/__init__.py,sha256=bksJGVn5nIVTegN_YA-dY5CjK6hMmDdL0HQ28PK2kaA,12377
+j_basic_stock_prediction/pytransform/platforms/darwin/x86_64/_pytransform.dylib,sha256=2OeOvSV0k5XUNKqSTFlyU22U3Pz7-7mmUSXZN9kPNTE,1453200
+j_basic_stock_prediction/pytransform/platforms/linux/x86_64/_pytransform.so,sha256=I5RFu7o13uR23XvT5PVgis7ZnGxXODCwH1cDZP2GErg,1185728
+j_basic_stock_prediction/pytransform/platforms/windows/x86_64/_pytransform.dll,sha256=6y-1EfbExMhALkGzEza4mpmxAknxeDQQ8aUYrRxVSe0,1155584
+j_basic_stock_prediction-0.0.10.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+j_basic_stock_prediction-0.0.10.dist-info/METADATA,sha256=zQig-yw5RUAk08EZVRdP5X6-H8G0fkedVomBvqkrwVo,498
+j_basic_stock_prediction-0.0.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+j_basic_stock_prediction-0.0.10.dist-info/top_level.txt,sha256=-adRf6C_pgcQ_QlXigl_5HhHKlA96U0FBl0p98yegjI,25
+j_basic_stock_prediction-0.0.10.dist-info/RECORD,,
