@@ -1,0 +1,17 @@
+artella/__init__.py,sha256=b4ew1taJzo-7bGrcdWLDwxbxq1uuH8J5I3dDk5c-oaY,233
+artella/plugins/__init__.py,sha256=9Cyq98s1475R3DMojzS4EB_tdQQUW74bUkWi-G-7qwE,241
+artella/plugins/getdependencies/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+artella/plugins/getdependencies/__version__.py,sha256=348rov26Clrb5iSXV65VKaOIhUWm4SvrTXTSYcFXwKU,413
+artella/plugins/getdependencies/_version.py,sha256=CzbhoWPpP5icbhw51zwNe484y0O8iRVb1aPPT49MgcA,497
+artella/plugins/getdependencies/artella-plugin.json,sha256=e0fxnDdgeSscjwRu97THiTvfnFFDrq7-M9-eXqBCnwo,447
+artella/plugins/getdependencies/getdependencies.py,sha256=A3_EfAtc4yhf0g7otMtR9KZEYBGd26dvYpmgIA_VPmc,10531
+artella/plugins/getdependencies/widgets.py,sha256=3HIx0sN05VwkjeIS5iIgGvO3ugAbQuxLuu9KXXUzUBY,4734
+artella/plugins/getdependencies/maya/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+artella/plugins/getdependencies/maya/getdependencies.py,sha256=kIeB0PersZAlf3G4ReIwpaiqAQQLJD-AOcZKe1X2exE,832
+artella/plugins/getdependencies/resources/getdependencies.png,sha256=oj0a46UmDHBMtWreZYQuH-5oknJLZBRmVKzDn-xenI0,3905
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_plugin.py,sha256=tBJrtccRCGoj4XptJFnQ2PQTEm1kMX8XGhRbH8SRC-g,171
+artella_plugins_getdependencies-1.0.1.dist-info/METADATA,sha256=dHW6qZeDfVh0ox9Om7khFBHTVLjqpE53bDWGNhGyreQ,1438
+artella_plugins_getdependencies-1.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+artella_plugins_getdependencies-1.0.1.dist-info/top_level.txt,sha256=AbqY0GnW-7zeK-j_jK_IkNrYTU41RoI77xGK-1ucYw0,14
+artella_plugins_getdependencies-1.0.1.dist-info/RECORD,,
