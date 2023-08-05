@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: turing-envs
+Version: 0.1.0
+Summary: Ambientes do gym desenvolvidos pelo Grupo Turing
+Home-page: https://github.com/GrupoTuring/turing-envs
+Author: Grupo Turing
+Author-email: turing.usp@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/GrupoTuring/turing-envs
+Project-URL: Tracker, https://github.com/GrupoTuring/turing-envs/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pygame
+Requires-Dist: gym
+
+UNKNOWN
+
+
