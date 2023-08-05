@@ -1,0 +1,6 @@
+README.md
+setup.py
+seven_cloudapp.egg-info/PKG-INFO
+seven_cloudapp.egg-info/SOURCES.txt
+seven_cloudapp.egg-info/dependency_links.txt
+seven_cloudapp.egg-info/top_level.txt
