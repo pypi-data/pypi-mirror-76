@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        rasa_plus=rasa_plus.__main__:rasa_plus
+    
