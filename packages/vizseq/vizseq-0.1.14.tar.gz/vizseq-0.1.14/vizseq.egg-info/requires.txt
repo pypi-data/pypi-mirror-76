@@ -1,0 +1,16 @@
+numpy
+sacrebleu>=1.4.13
+torch
+tqdm
+nltk>=3.5
+py-rouge
+langid
+google-cloud-translate
+jinja2
+IPython
+matplotlib
+tornado
+pandas
+soundfile
+laserembeddings
+bert-score
