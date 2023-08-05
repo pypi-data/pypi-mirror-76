@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: nats_python_client
+Version: 0.0.1
+Summary: Nats client abstraction to use inside python projects
+Home-page: https://github.com/Routte/nats-python-client
+Author: jp-vargas
+Author-email: vargasm.jp@gmail.com
+License: UNKNOWN
+Description: # nats-python-client
+        
+        ## create enviroment
+        - python3 -m venv .venv
+        - touch ./src/.env
+        - source .venv/bin/activate
+        
+        ## example
+        
+        - run `python3 example.py`
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
