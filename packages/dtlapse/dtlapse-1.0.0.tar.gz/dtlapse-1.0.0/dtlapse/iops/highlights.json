@@ -1,0 +1,8 @@
+{ "operation": "highlights",
+  "iopdata": [ { "modversion": 2
+   , "iop_order": 4.0
+   , "smooth": [false, false, false, false, false]
+   , "cformat": "ffffi"
+  } ]
+, "help": "Copy highlights settings."
+}

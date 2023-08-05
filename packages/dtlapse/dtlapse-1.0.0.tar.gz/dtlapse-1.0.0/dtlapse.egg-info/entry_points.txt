@@ -1,0 +1,3 @@
+[console_scripts]
+dtlapse = dtlapse.dtlapse:main
+

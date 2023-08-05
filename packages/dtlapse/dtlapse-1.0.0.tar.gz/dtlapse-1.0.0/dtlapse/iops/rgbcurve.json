@@ -1,0 +1,11 @@
+{ "operation": "rgbcurve"
+, "iopdata": [ { "modversion": 1
+               , "iop_order": 41.0
+               , "smooth": "eval:120*[True] + 9*[False]"
+               , "cformat": "eval:120*'f' + 9*'i'"
+               }
+             ]
+, "help": "Smoothing for the rgbcurve module. The parameters are the actual nodes for each curve (120 floats), number of nodes per curve (3 ints), curve type (3 ints), autoscale, middle grey scaling and color preservation."
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jochen Keil <jochen.keil@gmail.com>"]
+}

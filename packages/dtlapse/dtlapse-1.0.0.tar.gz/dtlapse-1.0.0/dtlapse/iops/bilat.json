@@ -1,0 +1,16 @@
+{ "operation": "bilat"
+, "iopdata": [ { "modversion": 3
+               , "iop_order": 53.0
+               , "smooth": [false, true, true, true, true]
+               , "cformat": "iffff"
+               }
+             , { "modversion": 1
+               , "iop_order": 53.0
+               , "smooth": [true, true, true]
+               , "cformat": "fff"
+               }
+             ]
+, "help": "Smoothing for the bilat (local contrast) module. The parameters are mode, sigma_r, sigma_s, detail and midtone."
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jochen Keil <jochen.keil@gmail.com>"]
+}

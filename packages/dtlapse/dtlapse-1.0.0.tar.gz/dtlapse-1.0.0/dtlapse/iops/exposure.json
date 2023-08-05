@@ -1,0 +1,16 @@
+{ "operation": "exposure"
+, "iopdata": [ { "modversion": 5
+               , "iop_order": 21.0
+               , "smooth": [false, true, true, true, true]
+               , "cformat": "iffff"
+               },
+               { "modversion": 6
+               , "iop_order": 21.0
+               , "smooth": [false, true, true, true, true, false]
+               , "cformat" :"iffffi"
+               }
+             ]
+, "help": "Smoothing for the exposure module. The parameters are mode (auto/manual), black point, exposure, deflicker percentile, deflicker target level and whether to correct auto-exposure bias (from darktable 3.2)."
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jochen Keil <jochen.keil@gmail.com>", "2020 Reinout Nonhebel <github@rpnonhebel.nl>"]
+}

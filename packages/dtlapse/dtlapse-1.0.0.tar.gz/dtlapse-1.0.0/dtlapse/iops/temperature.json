@@ -1,0 +1,11 @@
+{ "operation": "temperature"
+, "iopdata": [ { "modversion": 3
+               , "iop_order": 3.0
+               , "smooth": [true, true, true, true]
+               , "cformat": "ffff"
+               }
+             ]
+, "help": "Smoothing for the temperature (white balance) module. The parameters temperature coefficients."
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jochen Keil <jochen.keil@gmail.com>"]
+}

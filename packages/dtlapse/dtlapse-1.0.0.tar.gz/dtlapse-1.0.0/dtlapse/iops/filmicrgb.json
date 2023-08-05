@@ -1,0 +1,11 @@
+{ "operation": "filmicrgb"
+, "iopdata": [ { "modversion": 1
+               , "iop_order": 45.0
+               , "smooth": "eval: 12*[True] + 1*[False]"
+               , "cformat": "eval: 12*'f' + 1*'i'"
+               }
+             ]
+, "help": "Smoothing for the filmicrgb module. The parameters are grey point source, black point source, white point source, security factor, grey point target, black point target, white point target, output power, latitude, contrast, saturation, balance and color preservation"
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jochen Keil <jochen.keil@gmail.com>"]
+}

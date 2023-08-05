@@ -1,0 +1,11 @@
+{ "operation": "graduatednd"
+, "iopdata": [ { "modversion": 1
+               , "iop_order": 25.0
+               , "smooth": [true, true, true, true, true, true]
+               , "cformat": "ffffff"
+               }
+             ]
+, "help": "Smoothing for the graduatednd module. The parameters are density, hardness, rotation, offset, hue and saturation."
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jochen Keil <jochen.keil@gmail.com>"]
+}
