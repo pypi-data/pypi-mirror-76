@@ -1,0 +1,147 @@
+[
+    {
+        "path": "vggish/lr_car_chase_model.sav.gz",
+        "name": "CarChase",
+        "framework": "sklearn",
+        "audio": "dsai_vggish"
+    },
+    {
+        "path": "3dcnn/lr-BuildingExplode.pkl.gz",
+        "name": "BuildingExplode",
+        "framework": "sklearn",
+        "video": "dsai_videocnn"
+    },
+    {
+        "path": "3dcnn/lr-Bullet.pkl.gz",
+        "name": "Bullet",
+        "framework": "sklearn",
+        "video": "dsai_videocnn"
+    },
+    {
+        "path": "3dcnn/lr-Climbing.pkl.gz",
+        "name": "Climbing",
+        "framework": "sklearn",
+        "video": "dsai_videocnn"
+    },
+    {
+        "path": "3dcnn/lr-ConcertCrowd.pkl.gz",
+        "name": "ExcitedCrowd",
+        "framework": "sklearn",
+        "video": "dsai_videocnn"
+    },
+    {
+        "path": "3dcnn/lr-DinnerChat.pkl.gz",
+        "name": "DinnerChat",
+        "framework": "sklearn",
+        "video": "dsai_videocnn"
+    },
+    {
+        "path": "3dcnn/lr-Fight.pkl.gz",
+        "name": "Fight",
+        "framework": "sklearn",
+        "video": "dsai_videocnn"
+    },
+    {
+        "path": "3dcnn/lr-Phones.pkl.gz",
+        "name": "Phones",
+        "framework": "sklearn",
+        "video": "dsai_videocnn"
+    },
+    {
+        "path": "3dcnn/lr-Running.pkl.gz",
+        "name": "Running",
+        "framework": "sklearn",
+        "video": "dsai_videocnn"
+    },
+    {
+        "path": "3dcnn/lr-War.pkl.gz",
+        "name": "War",
+        "framework": "sklearn",
+        "video": "dsai_videocnn"
+    },
+    {
+        "path": "3dcnn/lr_kissing_model.pkl.gz",
+        "name": "Kissing",
+        "framework": "sklearn",
+        "video": "dsai_videocnn",
+    },
+    {
+        "path": "3dcnn/lr-JumpScare.pkl.gz",
+        "name": "JumpScare",
+        "framework": "sklearn",
+        "video": "dsai_videocnn",
+    },
+    {
+        "path": "3dcnn-vggish/lr-BuildingExplode.pkl.gz",
+        "name": "BuildingExplode",
+        "framework": "sklearn",
+        "video": "dsai_videocnn",
+        "audio": "dsai_vggish"
+    },
+    {
+        "path": "3dcnn-vggish/lr-Bullet.pkl.gz",
+        "name": "Bullet",
+        "framework": "sklearn",
+        "video": "dsai_videocnn",
+        "audio": "dsai_vggish"
+    },
+    {
+        "path": "3dcnn-vggish/lr-Climbing.pkl.gz",
+        "name": "Climbing",
+        "framework": "sklearn",
+        "video": "dsai_videocnn",
+        "audio": "dsai_vggish"
+    },
+    {
+        "path": "3dcnn-vggish/lr-ConcertCrowd.pkl.gz",
+        "name": "ExcitedCrowd",
+        "framework": "sklearn",
+        "video": "dsai_videocnn",
+        "audio": "dsai_vggish"
+    },
+    {
+        "path": "3dcnn-vggish/lr-DinnerChat.pkl.gz",
+        "name": "DinnerChat",
+        "framework": "sklearn",
+        "video": "dsai_videocnn",
+        "audio": "dsai_vggish"
+    },
+    {
+        "path": "3dcnn-vggish/lr-Fight.pkl.gz",
+        "name": "Fight",
+        "framework": "sklearn",
+        "video": "dsai_videocnn",
+        "audio": "dsai_vggish"
+    },
+    {
+        "path": "3dcnn-vggish/lr-Phones.pkl.gz",
+        "name": "Phones",
+        "framework": "sklearn",
+        "video": "dsai_videocnn",
+        "audio": "dsai_vggish"
+    },
+    {
+        "path": "3dcnn-vggish/lr-Running.pkl.gz",
+        "name": "Running",
+        "framework": "sklearn",
+        "video": "dsai_videocnn",
+        "audio": "dsai_vggish"
+    },
+    {
+        "path": "3dcnn-vggish/lr-War.pkl.gz",
+        "name": "War",
+        "framework": "sklearn",
+        "video": "dsai_videocnn",
+        "audio": "dsai_vggish"
+    },
+    {
+        "path": "3dcnn-vggish/lr-JumpScare.pkl.gz",
+        "name": "JumpScare",
+        "framework": "sklearn",
+        "video": "dsai_videocnn",
+        "audio": "dsai_vggish"
+    }
+
+
+    
+]
