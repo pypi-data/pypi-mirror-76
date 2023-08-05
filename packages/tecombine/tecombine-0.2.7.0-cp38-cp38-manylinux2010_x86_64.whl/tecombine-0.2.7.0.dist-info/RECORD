@@ -1,0 +1,11 @@
+tecombine-0.2.7.0.data/purelib/tecombine/__init__.py,sha256=exhzc277fQL2mcYbw_6w2qi4h2zEa0xpfI_RAmsOFqc,26
+tecombine-0.2.7.0.data/purelib/tecombine/_libcombine.so,sha256=NLI92EsXt__Z4q2iFB2opA6IOByxrnYX8taC4OEx_VQ,14509144
+tecombine-0.2.7.0.data/purelib/tecombine/libCombine-static.a,sha256=1G1ZZjgOPbX6t4F0EPfBgp_261oKX_zqhqSMGS005ic,910048
+tecombine-0.2.7.0.data/purelib/tecombine/libCombine.so,sha256=5bQN97JkDpCKz3LKcGG68HtWzccWr-_shhtsdJxx7Mo,604416
+tecombine-0.2.7.0.data/purelib/tecombine/libCombine.so.0,sha256=5bQN97JkDpCKz3LKcGG68HtWzccWr-_shhtsdJxx7Mo,604416
+tecombine-0.2.7.0.data/purelib/tecombine/libCombine.so.0.2.7,sha256=5bQN97JkDpCKz3LKcGG68HtWzccWr-_shhtsdJxx7Mo,604416
+tecombine-0.2.7.0.data/purelib/tecombine/libcombine.py,sha256=WZA7vi5OzZ3jCYKQguvkUCUL0mHX56hSk2V-FPcNiAI,275055
+tecombine-0.2.7.0.dist-info/METADATA,sha256=ZnzhyUaab_0PLL3wjncjCngrW5SbD9yTXzo5ljxP0Z0,504
+tecombine-0.2.7.0.dist-info/WHEEL,sha256=TpFVeXF_cAlV118WSIPWtjqW7nPvzoOw-49FmS3fDKQ,103
+tecombine-0.2.7.0.dist-info/top_level.txt,sha256=1OqmpUxj-ZVC6qPR-hDKapH5IzRKRxa311MxNWwIxwg,10
+tecombine-0.2.7.0.dist-info/RECORD,,
