@@ -1,0 +1,8 @@
+README.md
+setup.py
+aidcraftbr.egg-info/PKG-INFO
+aidcraftbr.egg-info/SOURCES.txt
+aidcraftbr.egg-info/dependency_links.txt
+aidcraftbr.egg-info/top_level.txt
+bot_resources/__init__.py
+bot_resources/test.py
