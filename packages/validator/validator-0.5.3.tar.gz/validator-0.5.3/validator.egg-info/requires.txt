@@ -1,0 +1,7 @@
+black
+flask
+jinja2
+pprint
+pytest
+python-dateutil
+requests
