@@ -1,0 +1,42 @@
+# `lonny_pg_queue`
+
+A lightweight distributed queue using a postgres DB.
+
+## Installation
+
+```bash
+pip install lonny_pg_queue
+```
+
+## Usage
+
+The first step is importing the `Queue` class. This can be done as:
+
+```python
+from lonny_pg_queue import Queue
+```
+
+We then need to ensure the requisite queue table is implemented. This can be done by passing a `lonny_db` connection object to the `Queue.setup(db)` method (This method is idempotent and can be run multiple times).
+
+To create a `queue` object simply invoke the constructor with a `lonny_db` connection and a mandatory `namespace`:
+
+```python
+queue_1 = Queue(db, "queue_1")
+queue_2 = Queue(db, "queue_2")
+```
+
+The messages placed in these queues will be isolated from one another.
+
+To enqueue objects, simply call `queue.put(obj)` on any JSON serializable object.
+
+To retrieve an object from the queue, call `queue.get()`. This will return a `Message` object. The underlying payload can be accessed via `message.payload`. Messages work similar to how they work in AWS SQS - messages retrieved from the queue are immediately "locked". In this state they cannot be retrieved by another consume. After a timeout, they become unlocked and can be accessed as before by another consumer. This happens a maximum number of times until the message is deleted permanently. 
+
+Once you are done with a message, you should call `.consume()` on it - this will prevent it being accessed again at a later point. To simplify this procedure, we can use the `with` syntax:
+
+```python
+with queue.get() as payload:
+    do_stuff(payload)
+```
+
+If we leave the block with no exception, the message is consumed/deleted as expected. However, if something goes wrong, `consume` isn't called, giving us another chance in the future to handle this message.
+
