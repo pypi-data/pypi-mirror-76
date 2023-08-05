@@ -1,0 +1,7 @@
+data_ntegration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_ntegration/database_writer.py,sha256=pjItB8KNGFqfAp-Gvvpj9s4JyAyTn9LT4qvRcUiH2mg,3041
+data_ntegration/receiver.py,sha256=aj8-uo20186wOXfvWGQmTgDg-8U-u5HOFZUCqcoa4EM,928
+data_ntegration-0.1.dist-info/METADATA,sha256=u9gttOVQcFfRKi5kVpDxbtcM9PCWqV9Ua2hGEMyP1SQ,518
+data_ntegration-0.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+data_ntegration-0.1.dist-info/top_level.txt,sha256=TUjnBP_LAQekxPhcMtS12eH2omjpZFLxb2Sikx3A23I,16
+data_ntegration-0.1.dist-info/RECORD,,
