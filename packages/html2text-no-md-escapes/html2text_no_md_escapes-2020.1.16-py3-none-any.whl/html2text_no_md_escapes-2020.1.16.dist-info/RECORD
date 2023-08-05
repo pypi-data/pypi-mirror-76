@@ -1,0 +1,15 @@
+html2text/__init__.py,sha256=d3xE_sLV2nmGQFmoaitqbgOyncuoryYnlrTK1q6ntFs,34836
+html2text/__main__.py,sha256=wT62aXCuN7iwRPQoswnmeGiBS5Cou0CIBvMxbOTfvFs,33
+html2text/cli.py,sha256=YchuFWRrcDNLjo9NyS2yN7HP_kgEdPnqfmNHAa9EjHQ,9554
+html2text/config.py,sha256=vDbCrlyBASIaU-UChtxtHS5bS8hZO6xQsNZ6HHiOS4A,3999
+html2text/elements.py,sha256=l8S3ErMxyR9BCqxLogdWVDC-v3iODQ5PfmVMme9Px_s,441
+html2text/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+html2text/typing.py,sha256=KvWkf2UJIdPTl2v6ZTCgCN0yvOTo3PDrKgOdXlxMDoE,74
+html2text/utils.py,sha256=admheIfgg_iH_vJEhARis2Ygl1V5sXiZnCSPZwWx_RU,8403
+html2text_no_md_escapes-2020.1.16.dist-info/AUTHORS.rst,sha256=9ZhN-z3B6EwG8JFRBYvGKqqIR_DBkmixwGaWHe4MpvA,1130
+html2text_no_md_escapes-2020.1.16.dist-info/COPYING,sha256=Czg9WmPaZE9ijZnDOXbqZIftiaqlnwsyV5kt6sEXHms,35821
+html2text_no_md_escapes-2020.1.16.dist-info/METADATA,sha256=JIFsF4dNcTztCRHp1E1OtwR28Qt8YeyYF3HHFG9vP-Y,4283
+html2text_no_md_escapes-2020.1.16.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+html2text_no_md_escapes-2020.1.16.dist-info/entry_points.txt,sha256=E66AUkP4rplYUpl6JuvAf3kFvRELLYQ0LI6Q8MBKrkA,50
+html2text_no_md_escapes-2020.1.16.dist-info/top_level.txt,sha256=IfV9ShoJ7Kk6WoKekLfEkEJ4RRs0naHwsaXN5JN8srg,10
+html2text_no_md_escapes-2020.1.16.dist-info/RECORD,,
