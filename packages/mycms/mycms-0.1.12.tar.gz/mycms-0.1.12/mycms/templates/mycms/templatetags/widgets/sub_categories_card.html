@@ -1,0 +1,20 @@
+<!-- Search Widget -->
+      {% if view_object.categories %}
+        <div class="card my-4">
+          <h5 class="card-header">{{view_object.title}}</h5>
+        <div class="card-body">
+            <div class="row">
+              <div class="col-lg-12">
+                <ul class="list-unstyled mb-0">
+                  {%for category in view_object.categories %}
+                  <li>
+                    <a href="/cms{{category.path}}">{{category.title}}</a>
+                  </li>
+                  {%endfor%}
+                </ul>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+      {% endif %}

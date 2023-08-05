@@ -1,0 +1,59 @@
+/**
+Styles for Fonts 
+
+**/
+
+
+h1 { 
+    font-size: 1.7em;
+}
+
+
+.page-header h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+
+#page-content h2 {
+    font-size: 1.5rem;
+    margin: 0 0 10px 0;
+}
+
+
+
+#page-content h2 {
+    font-size: 1.5rem;
+    margin: 0 0 10px 0;
+}
+
+
+
+#page-content h3 {
+    font-size: 1.3rem;
+    margin: 0 0 10px 0;
+}
+
+
+/**
+Edit Icon at the bottom of the page.
+**/
+
+#edit_button{
+
+    position:fixed;
+    bottom:10px;
+    left:10px;
+    z-index:2049;
+    width:30px;
+    height:30px;
+    
+}
+
+#edit_button:hover {
+    cursor: pointer;
+}
+

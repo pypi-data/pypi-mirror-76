@@ -1,0 +1,20 @@
+<div class="card my-4">
+          <h5 class="card-header">Main Categories</h5>
+          <div class="card-body">
+            <div class="row">
+              {% for view_objects in row_objects %}
+   
+              <div class="col-lg-6">
+              
+                <ul class="list-unstyled mb-0">
+                  {%for view_object in view_objects %}
+                  <li>
+                    <a href="/cms{{view_object.path}}">{{view_object.title}}</a>
+                  </li>
+                  {%endfor%}
+                </ul>
+              </div>
+             {%endfor%}
+            </div>
+          </div>
+        </div>

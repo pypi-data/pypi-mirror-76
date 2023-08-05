@@ -1,0 +1,141 @@
+<div id="overlay">
+  
+  <div class="row-fluid" id="admin-pane">
+
+     <div id="admin-tabs" class="d-flex flex-row">
+      <div>
+        <ul class="nav nav-tabs grey-background" id="myTab" role="tablist">
+       
+          <li class="nav-item float-left" >
+            <a class="nav-link active" id="creole-editor-tab" data-toggle="tab" 
+              href="#creole-editor-pane" role="tab" aria-controls="creole-editor" 
+              aria-selected="true">Page Markup
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" 
+              role="tab" aria-controls="profile" aria-selected="false">Page Assets
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#cmsentries-editor-pane" role="tab" aria-controls="contact" aria-selected="false">Sub Pages</a>
+          </li>
+        </ul>
+      </div>
+           <div class="ml-auto">
+        <span id="admin-message-alert"></span>
+      </div>
+       <div class="ml-auto">
+        <img id="close-admin-overlay-button" src="/static/mycms/icons/gnome-desktop-tango-icons/actions/window-close.svg">
+      </div>
+  
+    </div>
+      
+    <div class="tab-content" id="admin-tabs-container">
+      
+      <div class="tab-pane fade show active" id="creole-editor-pane" role="tabpanel" aria-labelledby="creole-editor-tab">
+        <!--Editor Code-->
+        <div id="creole-editor-icons">
+          <ul class="nav">
+              <li class="nav-item"><button type="button" class="editor-icon btn btn-dark btn-sm"><span>H1</span></button></li>
+              <li class="nav-item"><button type="button" class="editor-icon btn btn-dark btn-sm"><span>H2</span></button></li>
+              <li class="nav-item"><button type="button" class="editor-icon btn btn-dark btn-sm"><span>H3</span></button></li>
+              <li class="nav-item"><button type="button" class="editor-icon btn btn-dark btn-sm"><span>H4</span></button></li>
+              <li class="nav-item"><button type="button" class="editor-icon btn btn-dark btn-sm"><img src="/static/mycms/icons/gnome-desktop-tango-icons/24x24/actions/format-text-bold.png"></span></button></li>
+              <li class="nav-item"><button id="editor-save-button" type="button" class="editor-icon btn btn-dark btn-sm"><img src="/static/mycms/icons/gnome-desktop-tango-icons/24x24/actions/document-save.png"></button></li>
+              <li class="nav-item">
+                <button type="button" class="editor-icon-checkbox editor-icon btn btn-dark btn-sm">
+                  <label class="icon-label"><input type="checkbox" value id="published_checkbox">Published</label>
+                </button>
+              </li>
+              <li class="nav-item">
+                <button type="button" class="editor-icon-checkbox editor-icon btn btn-dark btn-sm">
+                  <label class="icon-label"><input type="checkbox" value id="frontpage_checkbox">FrontPage</label>
+                </button>
+              </li>
+            
+          </ul>
+        </div>
+        
+        
+        <div class="my-editor" id="editor-container">
+          <form>
+            <textarea id="content-editor" data-gramm_editor="false" placeholder="When text overflows it automatically changes its height and width."></textarea>
+          </form>
+        </div>
+        <!-- end-editor-code -->
+      
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+      <!--File Upload Code-->
+        <div id="fileupload-container">
+          
+          <form enctype="multipart/form-data">
+              <div class="file-loading">
+                  <input id="kv-explorer" type="file" multiple>
+              </div>
+              <br>
+          </form>
+        <!--End File Upload Code-->
+        </div>
+      </div>        
+     
+     
+      <div class="tab-pane fade" id="cmsentries-editor-pane" role="tabpanel" aria-labelledby="contact-tab">
+        <!--Category Editor-->
+        <div id="cmsentries-admin-container" class="xcontainer">
+      
+          <div class="cmsentries-admin-row row">
+          
+            <div class="col-sm-4 pad-sm">
+              <input id="createpage_title" type="text" placeholder="title" class="form-control">
+            </div>
+            <div class="col-sm-4 pad-sm">
+              <input id="createpage_slug" type="text" placeholder="slug" class="form-control">
+            </div>
+            <div class="col-sm-3 pad-sm">
+              <select id="createpage_pagetype_select" name="createpage_pagetype_select"
+                          type="text" class="form-control">
+                              <option value="1">Single Page HTML Update</option>
+                              <option value="2">Category Page</option>
+                              <option value="3">MultPage Article</option>
+                              <option value="4">MemberPage Article</option>
+              </select>
+            </div>
+            <div class="col-sm-1 pad-sm">
+              <button class="btn btn-primary float-right" type="button" id="create-cms-entry-button">Create</button>
+            </div>
+          </div>
+              
+          <div class="cmsentries-admin-row row" id="cmsentries-table-row">
+            <div class="pad-sm col">
+                 <table class="table table-striped" id="CMSEntriesTable">
+                      <thead>
+                          <tr>
+                              <th  scope="col">#</th>
+                              <th  scope="col">Title</th>
+                              <th  scope="col">PageType</th>
+                              <th  scope="col">Published</th>
+                              <th  scope="col">Front Page</th>
+                              <th  scope="col">Date Created</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                      <tbody>
+                     
+                      
+                      </tbody>
+                  </table>
+          </div>  
+        </div>
+      </div>  
+      <!--Category Editor-->
+      </div>
+    </div>
+  </div>
+
+
+
+</div><!-- end overlay-->
+
+  

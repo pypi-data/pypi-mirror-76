@@ -1,0 +1,47 @@
+body {   background: #308eab;}
+main { background: #FFF}
+
+a { color: #080808;}
+h1 { color: #080808;}
+h2 { color: #080808;}
+h3 { color: #080808;}
+p { color: #080808;}
+
+
+#main-header {  background: #f8f9fa;}
+.navbar-brand { color: #080808;}
+.navbar-brand:hover { color: #FBC702;}
+
+
+#page-header {   
+    background: #F0CB69;
+    color: #080808;;
+    }
+
+.breadcrumb { background-color: #eaeaea; }
+
+#page-content h1 { color: #080808;}
+#page-content h2 { color: #080808;}
+#page-content h3 { color: #080808;}
+#page-contnet p { color: #080808;}
+
+footer { 
+    color: #308eab;
+    background: #308eab;
+}
+
+.btn-primary  { 
+    color:#080808;
+    background-color: #fbc702;
+    border-color: #fbc702
+    
+}
+
+.btn-primary:hover { 
+    color:#555;
+    background-color: #F7d624;
+    border-color: #fbc702
+    
+}
+
+#red-notice { background-color: #bd2130 };

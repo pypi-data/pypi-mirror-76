@@ -1,0 +1,97 @@
+{% extends "mycms/base_with_header_and_right_sidebar.html"%}
+  {
+  
+  
+{%block PAGE_CONTENT%}
+
+<article>
+    {% for article in view_object.articles %}
+         <article class="post clearfix">
+             <div class="row">
+                 <section class="col-sm-11 col-xs-10 article-summary">
+                     <h2><a href="/cms{{article.path}}">{{article.title}}</a></h2>
+                         <p style="display: inline">{{ article.introduction|safe|truncatewords_html:50 }}</p>
+                         
+                         <ul class="list-inline entry-meta">
+                             <li class="entry-date"><a href="#"><i class="far fa-calendar-alt"></i>&nbsp;{{article.created_timestamp_str}}</a></li>
+                             <li class="entry-category"><a href="/cms{{article.page_object.parent.path}}"><i class="far fa-folder"></i>&nbsp;{{article.page_object.parent.title}}</a></li>
+                             <li class="entry-author"><a href="#"><i class="far fa-user"></i>&nbsp;Admin</a></li>
+                             <li class="entry-date"><a href="/cms/{{article.page_object.parent.path}}" class="readMore">read more</a></li>
+                             <!-- li class="entry-comments"><a href="#"><i class="icon-comment-1"></i>&nbsp;12 comments</a></li -->
+                         </ul>
+                 </section>
+             </div>
+         </article>
+     {% endfor %}
+</article>
+    
+   {% load pagecontents_tags%}
+   
+   {% PageNavigation %}
+            
+{%endblock PAGE_CONTENT%}
+      
+
+ 
+{%block BOTTOM_HTML %}
+<!--bottom html-->
+
+{% if view_object.request.user.username == "admin" %}
+
+    {% load pageadmin_tags %}   
+    {% PageAdmin %}
+
+    <!--Required JavaScript for PageAdmin -->
+   
+    <script src="/static/mycms/vendor/fileinput/js/plugins/sortable.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/fileinput.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/locales/fr.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/locales/es.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/plugins/piexif.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/themes/fas/theme.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/themes/explorer-fas/theme.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="/static/mycms/js/admin.js"></script>
+
+<script>
+$(document).ready(function () {
+  
+    log.setLevel(log.levels.DEBUG);
+    log.debug("Entered Document.ready");
+    log.debug("document.ready on page reached.");
+    alert("log");
+    //log.info("This is an info");
+    //log.warn("This is a warning");
+    //log.error("This is a fatal error");
+    
+    console.log("Loaded Page.")
+    
+    
+    url = "/cms"+ cmsentry.path + "/assets_manager/";
+    
+    $.ajax({
+        url: url,
+        type: 'GET',
+        error: function(){
+          log.warn("Failed to get cmscontent object");
+        },
+        success: function(data){
+            content = data["categories"];
+            //console.log("DATA ", data);
+            
+            initialPreviewConfigData = data["initialPreviewConfig"];
+            initialPreviewData = data["initialPreview"];
+            update_file_uploader(initialPreviewData, initialPreviewConfigData);           
+        },
+  });
+
+</script>
+{%endif%}
+
+
+
+
+<!-- end-->
+{%endblock BOTTOM_HTML %}
+</body>
+</html>

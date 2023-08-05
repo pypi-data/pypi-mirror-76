@@ -1,0 +1,57 @@
+{% extends "base_with_header_and_right_sidebar.html" %}
+{% load staticfiles %}
+
+
+{%block DESCRIPTION %}{{view_object.introduction}}{% endblock DESCRIPTION %}
+{% block TITLE%} {{view_object.title}}{% endblock TITLE %}
+{%block PAGE_HEADER_TITLE%}Search Results for query: {{query}}{%endblock PAGE_HEADER_TITLE%}
+
+{% block PAGE_CONTENT %}
+
+    {% if query %}
+    
+        {% if page.object_list  %}
+          
+          {% for result in page.object_list %}
+           
+             <article class="post clearfix">
+             <div class="row">
+                 <section class="col-sm-11 col-xs-10 article-summary">
+                     <h2><a href="/cms{{result.object.path}}">{{result.object.title}}</a></h2>
+                         <p style="display: inline">{{ result.object.view_object.introduction|safe|truncatewords_html:50 }}</p>
+                         
+                         <ul class="list-inline entry-meta">
+                             <li class="entry-date"><a href="#"><i class="far fa-calendar-alt"></i>&nbsp;{{article.created_timestamp_str}}</a></li>
+                             <li class="entry-category"><a href="/cms{{result.object.parent.path}}"><i class="far fa-folder"></i>&nbsp;{{result.object.parent.title}}</a></li>
+                             <li class="entry-author"><a href="#"><i class="far fa-user"></i>&nbsp;Admin</a></li>
+                             <li class="entry-date"><a href="/cms/{{result.page_object.parent.path}}" class="readMore">read more</a></li>
+                             <!-- li class="entry-comments"><a href="#"><i class="icon-comment-1"></i>&nbsp;12 comments</a></li -->
+                         </ul>
+                 </section>
+             </div>
+              </article>
+            
+         {% endfor %}
+       
+        
+        {% else %}
+          <p>Search returned with no results.</p>
+        {%endif%}
+    
+    {% if page.has_previous or page.has_next %}
+      <div>
+        {% if page.has_previous %}
+          <a href="?q={{ query }}&amp;page={{ page.previous_page_number }}">{% endif %}&laquo; Previous{% if page.has_previous %}</a>
+        {% endif %}
+        |
+        {% if page.has_next %}
+          <a href="?q={{ query }}&amp;page={{ page.next_page_number }}">{% endif %}Next &raquo;{% if page.has_next %}</a>
+        {% endif %}
+      </div>
+    {% endif %}
+    {% else %}
+      {# Show some example queries to run, maybe query syntax, something else? #}
+    {% endif %}
+  </form>
+
+{% endblock PAGE_CONTENT %}

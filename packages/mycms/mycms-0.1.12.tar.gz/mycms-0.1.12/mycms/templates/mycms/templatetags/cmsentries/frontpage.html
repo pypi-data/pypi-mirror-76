@@ -1,0 +1,21 @@
+  {%for article in cmsentries %}
+
+        <!--Start Blog Post Item -->
+        <div class="blog-post-item">
+          <h2><a href="/cms/{{article.path}}">{{article.title}}</a></h2>
+          <ul class="blog-post-info list-inline">
+                  <li><a href="#"><i class="fa fa-clock-o"></i><span class="font-lato">June 29, 2017</span></a></li>
+                  <!-- li><a href="#"><i class="fa fa-comment-o"></i> <span class="font-lato">28 Comments</span></a></li-->
+                  <li><i class="fa fa-folder-open-o"></i> <a class="category" href="/cms/{{article.parent.path}}"><span class="font-lato"></span></a>
+                      <a class="category" href="{{article.parent.path}}"><span class="font-lato">{{article.page_object.parent.title}}</span></a>
+                  </li>
+                  <li><a href="#"><i class="fa fa-user"></i> <span class="font-lato">{{article.author}}</span></a></li>
+          </ul>
+          <p>{{ article.introduction|safe|truncatewords_html:50 }}</p>
+          <a href="/cms{{article.path}}" class="font-light btn btn-reveal btn-default bg-light">
+            <i class="fa fa-plus"></i><span>Read More</span>
+          </a>
+        </div>
+        <hr>
+        <!-- End blog post Item-->
+  {%endfor%}

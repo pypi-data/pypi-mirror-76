@@ -1,0 +1,56 @@
+{% extends "mycms/base_with_header.html"%}
+  
+{%block PAGE_CONTENT%}
+     {{view_object.html_content | safe }}     
+     
+
+                            
+{%endblock PAGE_CONTENT%}
+      
+ 
+{%block BOTTOM_HTML %}
+<!--bottom html-->
+
+
+{% if view_object.request.user.username == "admin" %}
+
+    {% load pageadmin_tags %}
+    {# PageAdmin will load the admin html which is usually hidden. #}
+    {% PageAdmin %}
+
+    <!--Required JavaScript for PageAdmin -->
+   
+    <script src="/static/mycms/vendor/fileinput/js/plugins/sortable.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/fileinput.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/locales/fr.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/locales/es.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/js/plugins/piexif.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/themes/fas/theme.js" type="text/javascript"></script>
+    <script src="/static/mycms/vendor/fileinput/themes/explorer-fas/theme.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/static/mycms/js/admin.js"></script>
+
+<script>
+
+
+
+$(document).ready(function () {
+  
+    log.setLevel(log.levels.DEBUG);
+    
+    //log.debug("document.ready on page reached.");
+    //log.info("This is an info");
+    //log.warn("This is a warning");
+    //log.error("This is a fatal error");
+    
+      
+});
+    
+  
+</script -->
+
+{%endif%}
+
+<!-- end-->
+{%endblock BOTTOM_HTML %}
+</body>
+</html>
