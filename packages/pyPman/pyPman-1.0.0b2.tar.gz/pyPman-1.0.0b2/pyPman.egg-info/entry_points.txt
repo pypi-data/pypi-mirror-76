@@ -1,0 +1,3 @@
+[console_scripts]
+pyPm = pyPman.__main__:cli
+
