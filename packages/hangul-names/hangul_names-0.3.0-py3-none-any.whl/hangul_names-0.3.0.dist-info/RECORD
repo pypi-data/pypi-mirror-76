@@ -1,0 +1,11 @@
+hangul_names/__init__.py,sha256=OgfvlOui_Z4FwAja2bTJgiUkMeuAXZ561wYewaEr6SQ,18
+hangul_names/defs.py,sha256=ecMlqh6-qH_bJHI9yzYQRShayrxLHpnwGpzSFTACi-w,1287
+hangul_names/transliterator.py,sha256=CsoEVsCpGIqQz2KHFzVOMxkpzudI9GdEzNQPjrmFuBY,2170
+hangul_names/words.py,sha256=v_C918Rvtyvs78ndaC6a32h7Jd__2zUZnq6RvWQOI4w,8784
+hangul_names/dramawiki/__init__.py,sha256=2LUAFFW8zXnmb2kreeBhnHl4PMcRv2CpSuxTcjvJ8WQ,870
+hangul_names/dramawiki/rules.py,sha256=tNJ_W8Nlj77PdzZqV53vRbSsO9_4Sv69OrGGPICFIFk,731
+hangul_names-0.3.0.dist-info/LICENSE,sha256=5n6254VfY8DagXkmWSCLN0NhwaRkz-5kPeeBB1MejEc,1280
+hangul_names-0.3.0.dist-info/METADATA,sha256=HtNJbBPq0CyDtk81z6NJ_rbtUtNIJEtPwHrjVmERllw,2305
+hangul_names-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hangul_names-0.3.0.dist-info/top_level.txt,sha256=1IRs9z4ljMwOfa1tslK5DxFoHMrAS6kofL5FU_Ffu4Q,13
+hangul_names-0.3.0.dist-info/RECORD,,
