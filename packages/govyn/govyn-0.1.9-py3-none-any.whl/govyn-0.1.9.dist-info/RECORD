@@ -1,0 +1,11 @@
+govyn/__init__.py,sha256=ECFmiYvtTSPyQ4IloBjgTVY3QAmQMP9JyhwHJ8YfAK0,1739
+govyn/auth.py,sha256=9VoUvC6Brtyu6suy4ZvBbtb71M4B4VmQ-w_E9n6Hs9A,1902
+govyn/endpoint.py,sha256=jL3WZg8cJpOYWVHyvXruPG5Sq_zeIVOJzoeTbcNdV-A,1836
+govyn/errors.py,sha256=WQXapmeI4k3chL37yr-mMtpzOPXE4lcQne2px8nid2A,1236
+govyn/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+govyn/route_def.py,sha256=1vRyUMjCd84DZd9cOPTsWvMlGqwc-lqLDm230TKKnac,2068
+govyn/schemas.py,sha256=RkUEBrsJxEoIVVlqY3x0h_RIC7B0sV5xmRntCETuNJc,2266
+govyn-0.1.9.dist-info/METADATA,sha256=0Sc2bZ9hIjEH29c36THTAFYpdf8s6BwjKXHLUHBXMbY,2460
+govyn-0.1.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+govyn-0.1.9.dist-info/top_level.txt,sha256=jg3u-GyhNa4bqLvIU21kkz6zOZJgjXkBRKpXYQeMVxU,6
+govyn-0.1.9.dist-info/RECORD,,
