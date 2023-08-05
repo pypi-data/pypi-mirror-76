@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: covseisnet
+Version: 0.4.1
+Summary: Covariance matrix analysis of network seismic data
+Home-page: UNKNOWN
+Author: The covseisnet team
+Author-email: covseisnet@gmail.com
+License: UNKNOWN
+Description: # CovSeisNet
+        
+        Analyzing seismic data with array processing tools.
+        
+        [![PyPI Version](https://img.shields.io/pypi/v/covseisnet.svg)](https://pypi.org/project/covseisnet/)
+        [![Conda Version](https://img.shields.io/conda/v/francistong/covseisnet)](https://anaconda.org/francistong/covseisnet)
+        [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+        [![License](https://img.shields.io/conda/l/francistong/covseisnet)](https://www.gnu.org/licenses/lgpl.html)
+        [![Python Version](https://img.shields.io/pypi/pyversions/covseisnet)](https://pypi.org/project/covseisnet/)
+        [![Platform](https://img.shields.io/conda/pn/francistong/covseisnet)](https://anaconda.org/francistong/covseisnet)
+        [![Pipeline Build](https://gricad-gitlab.univ-grenoble-alpes.fr/covseisnet/covseisnet/badges/develop/pipeline.svg)]()
+        [![codecov](https://codecov.io/gh/covseisnet/covseisnet/branch/develop/graph/badge.svg?token=N462A7PPRF)](https://codecov.io/gh/covseisnet/covseisnet)
+        
+Keywords: seismic data covariance
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
