@@ -1,0 +1,11 @@
+emojificate/__init__.py,sha256=c_HWMYvS6JRrSQMdGIp9sqGPSt7R7cgRBQItzCt5JKk,115
+emojificate/__main__.py,sha256=Xuc7CJQISxiM4rvMy8rlaTSQUxF_l9waaiuL_HVFCak,313
+emojificate/_version.py,sha256=LWjsi6RMUO36BzrNwnPD8o6IEWelYtQD8fvopB6C3lU,498
+emojificate/filter.py,sha256=YmpyJFZ3UbCGk-lCmtmcHH6BtkBMm0iNvtRzGs5j9qU,1949
+emojificate/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+emojificate/templatetags/emojificate.py,sha256=fT8YQOn01APuVraRp5c66e_Q9H_zProRfdeB8LUIyBU,929
+emojificate-0.4.3.dist-info/LICENSE,sha256=byoDUwHSsuJUoNv9x_s6daQYx6KwN_PQNSuvdH9EwGc,1485
+emojificate-0.4.3.dist-info/METADATA,sha256=Xn1bbFoBaYShShbP3xdX10rTgOKHrNvMH5opJSOlBIc,4296
+emojificate-0.4.3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+emojificate-0.4.3.dist-info/top_level.txt,sha256=CdUO4CCOAQ37AnoFL89abm2K96kI3Jkumn6WIG6JrpE,12
+emojificate-0.4.3.dist-info/RECORD,,
