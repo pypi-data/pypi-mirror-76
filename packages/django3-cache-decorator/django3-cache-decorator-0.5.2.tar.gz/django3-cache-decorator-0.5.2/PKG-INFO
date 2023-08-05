@@ -1,0 +1,57 @@
+Metadata-Version: 1.1
+Name: django3-cache-decorator
+Version: 0.5.2
+Summary: Easily add caching to functions within a django project.
+Home-page: https://github.com/ramwin/django-cache-decorator/
+Author: Richard Caceres
+Author-email: me@rchrd.net
+License: MIT
+Description: Easily add caching to functions within a django project.
+        
+        
+        ## Installation from PyPi
+        
+        ```
+        pip install django3-cache-decorator
+        ```
+        
+        ## Example usage
+        ```
+        from django_cache_decorator import django_cache_decorator
+        @django_cache_decorator(time=0)
+        def geocodeGooglePlaceTextJson(location):
+        ```
+        
+        
+        ## Running tests
+        
+        ```
+        python -m unittest tests
+        ```
+        
+        
+        ## Credits
+        
+        Built off of example code from:
+        http://james.lin.net.nz/2011/09/08/python-decorator-caching-your-functions/
+        
+        Further development and packaging by Richard Caceres (@rchrd2)
+        
+        
+        ## Release log
+        
+        - 0.4 - Update project for PyPi (pip install django-cache-decorator)!
+        - 0.3 - another bug fix for unicode params
+        - 0.2 - bug fix for unicode params
+        - 0.1 - initial release
+        
+Keywords: django caching decorator
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

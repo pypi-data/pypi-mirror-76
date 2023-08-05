@@ -1,0 +1,8 @@
+README.md
+setup.py
+django3_cache_decorator.egg-info/PKG-INFO
+django3_cache_decorator.egg-info/SOURCES.txt
+django3_cache_decorator.egg-info/dependency_links.txt
+django3_cache_decorator.egg-info/top_level.txt
+django_cache_decorator/__init__.py
+django_cache_decorator/utils.py
