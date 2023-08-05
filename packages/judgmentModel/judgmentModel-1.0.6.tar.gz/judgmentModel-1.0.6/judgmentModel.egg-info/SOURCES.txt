@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+judgmentModel/XG_Word2Vec_Predict.py
+judgmentModel/__init__.py
+judgmentModel.egg-info/PKG-INFO
+judgmentModel.egg-info/SOURCES.txt
+judgmentModel.egg-info/dependency_links.txt
+judgmentModel.egg-info/requires.txt
+judgmentModel.egg-info/top_level.txt
