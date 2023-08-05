@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: BitcoinExchangeFH
+Version: 2020.2.0
+Summary: Cryptocurrency exchange market data feed handler
+Home-page: https://github.com/gavincyi/BitcoinExchangeFH
+Author: Gavin Chan
+Author-email: gavincyi@gmail.com
+License: Apache Software License 2.0
+Keywords: BitcoinExchangeFH
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: Click (>=6.0)
+Requires-Dist: PyYAML (>=4.2b1)
+Requires-Dist: ccxt (>=1.17.485)
+Requires-Dist: sqlalchemy (>=1.1.11)
+Requires-Dist: alembic (>=0.9.3)
+Requires-Dist: pyzmq (>=17.1.2)
+Requires-Dist: cryptofeed (>=1.4.1) ; python_version>='3.5.3'
+
+UNKNOWN
+
+
