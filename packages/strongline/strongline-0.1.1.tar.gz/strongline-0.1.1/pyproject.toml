@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "strongline"
+version = "0.1.1"
+description = ""
+authors = ["Marc Ford <mrfxyz567@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^1.6.1"
+channels = { version = "^2.4", optional = true }
+
+[tool.poetry.extras]
+django = ["channels"]
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^19.10b0"
+isort = "^5.3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
