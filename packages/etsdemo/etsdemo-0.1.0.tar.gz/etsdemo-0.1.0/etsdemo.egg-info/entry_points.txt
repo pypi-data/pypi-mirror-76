@@ -1,0 +1,6 @@
+[console_scripts]
+etsdemo = etsdemo.main:main
+
+[enthought_app_metadata]
+etsdemo = etsdemo.info:info
+
