@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: talk-cloud
+Version: 0.0.1
+Summary: Talk-Cloud SDK for Python
+Home-page: https://github.com/ni-ning/talk-cloud
+Author: lightnning
+Author-email: nining1314@gmail.com
+License: UNKNOWN
+Keywords: talk-cloud,sdk
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: six (>=1.8.0)
+Requires-Dist: requests (>=2.4.3)
+
+################################
+Talk-Cloud SDK for Python
+################################
+
+
+拓课云 Python SDK。
+
+
+********
+功能特性
+********
++ 拓课云接入api
+
+
+********
+安装
+********
+
+
+为了简化安装过程，推荐使用 pip 进行安装
+
+.. code-block:: bash
+
+    pip install talk-cloud
+
+升级 talk-cloud 到新版本::
+
+    pip install -U talk-cloud
+
+如果需要安装 GitHub 上最新代码::
+
+    pip install https://github.com/ni-ning/talk-cloud/archive/master.zip
+
+
+
