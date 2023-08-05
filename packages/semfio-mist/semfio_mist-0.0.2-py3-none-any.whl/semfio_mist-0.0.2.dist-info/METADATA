@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: semfio-mist
+Version: 0.0.2
+Summary: Set of functions to interact with the Mist Juniper Cloud
+Home-page: https://github.com/semfionetworks/semfio-mist.git
+Author: François Vergès
+Author-email: fverges@semfionetworks.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# semfio-mist
+
+## Quick Description
+This package stores a list of functions and modules that can be used to interact
+with the Mist/Juniper Cloud.
+
+
