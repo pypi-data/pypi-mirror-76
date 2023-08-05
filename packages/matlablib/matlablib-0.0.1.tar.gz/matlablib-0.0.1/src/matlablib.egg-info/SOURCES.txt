@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+src/matlablib.py
+src/matlablib.egg-info/PKG-INFO
+src/matlablib.egg-info/SOURCES.txt
+src/matlablib.egg-info/dependency_links.txt
+src/matlablib.egg-info/requires.txt
+src/matlablib.egg-info/top_level.txt
