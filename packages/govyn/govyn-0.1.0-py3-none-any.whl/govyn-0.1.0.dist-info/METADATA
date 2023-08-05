@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: govyn
+Version: 0.1.0
+Summary: HTTP APIs in typed Python
+Home-page: https://github.com/returnString/govyn
+Author: Ruan Pearce-Authers
+Author-email: ruanpa@outlook.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >= 3.8
+Requires-Dist: starlette (>=0.13)
+Requires-Dist: uvicorn (>=0.11)
+Requires-Dist: dacite (>=1.5.1)
+Requires-Dist: requests (>=2.24)
+
+UNKNOWN
+
+
