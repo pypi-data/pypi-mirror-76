@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+versioneer.py
+artella/__init__.py
+artella/installer/__init__.py
+artella/installer/maya/__init__.py
+artella/installer/maya/__version__.py
+artella/installer/maya/_version.py
+artella/installer/maya/artella-installer.json
+artella_installer_maya.egg-info/PKG-INFO
+artella_installer_maya.egg-info/SOURCES.txt
+artella_installer_maya.egg-info/dependency_links.txt
+artella_installer_maya.egg-info/not-zip-safe
+artella_installer_maya.egg-info/requires.txt
+artella_installer_maya.egg-info/top_level.txt
