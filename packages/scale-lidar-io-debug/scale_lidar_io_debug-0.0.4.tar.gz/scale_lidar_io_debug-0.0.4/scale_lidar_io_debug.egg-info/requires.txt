@@ -1,0 +1,6 @@
+scale-lidar-io
+pytest
+pymongo
+open3d
+cryptography
+requests
