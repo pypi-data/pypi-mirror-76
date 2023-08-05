@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_classifiers.py,sha256=SO2QUt0HmKJxGYxIZTKjYB9xuQCZOrSqi760VvwhLPI,2007
+tests/lib/__init__.py,sha256=TEhxQD8jH7SqM8tRBDn1ykg29D3_PbmO1pi4Ye64wxY,1943
+tests/lib/__main__.py,sha256=XjLUNPNeYBRQD818am33zqwwB6zyLhPk0O3hZ8sKZEE,152
+trove_classifiers/__init__.py,sha256=eGrb0Gad19RViTcoHm3O2xnkBbYoHvqH1cAYS1V71qQ,35168
+trove_classifiers/__main__.py,sha256=GgMnKJ-JyW8rBr1_bN9PzgIkvHU9MByrQj9aiprIcYA,104
+trove_classifiers-2020.8.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+trove_classifiers-2020.8.6.dist-info/METADATA,sha256=0ioWXpaUqfO2OIF-u2U12I717Ob1lP9d1d2EvoZjG18,2144
+trove_classifiers-2020.8.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+trove_classifiers-2020.8.6.dist-info/top_level.txt,sha256=nWWf75_wf439WOlvLugm4sWM8xZwz6khQemKBZdoQcU,24
+trove_classifiers-2020.8.6.dist-info/RECORD,,
