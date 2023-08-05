@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: magforce
+Version: 2.1
+Summary: free python3 library for easy calculation and plotting of magnetic forces
+Home-page: https://github.com/MateusRodolfo/magforce
+Author: Mateus Rodolfo
+Author-email: mateusgrodolfo@gmail.com
+License: MIT
+Download-URL: https://github.com/MateusRodolfo/magforce/archive/v2.1.tar.gz
+Description: UNKNOWN
+Keywords: python,python3,magnet
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
