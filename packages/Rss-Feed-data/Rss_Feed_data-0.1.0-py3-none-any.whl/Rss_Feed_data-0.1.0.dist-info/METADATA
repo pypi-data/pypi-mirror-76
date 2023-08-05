@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Rss-Feed-data
+Version: 0.1.0
+Summary: Fecha data from rss feed urls
+Home-page: UNKNOWN
+Author: Ramkiran
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: logging
+Requires-Dist: datetime
+Requires-Dist: os
+Requires-Dist: urllib
+Requires-Dist: validators
+Requires-Dist: BeautifulSoup
+Requires-Dist: pandas
+Requires-Dist: socket
+
+UNKNOWN
+
+
