@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+cloud_requests/__init__.py
+cloud_requests.egg-info/PKG-INFO
+cloud_requests.egg-info/SOURCES.txt
+cloud_requests.egg-info/dependency_links.txt
+cloud_requests.egg-info/requires.txt
+cloud_requests.egg-info/top_level.txt
