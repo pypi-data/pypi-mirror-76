@@ -1,0 +1,7 @@
+README.rst
+setup.py
+YiriAir.egg-info/PKG-INFO
+YiriAir.egg-info/SOURCES.txt
+YiriAir.egg-info/dependency_links.txt
+YiriAir.egg-info/requires.txt
+YiriAir.egg-info/top_level.txt
