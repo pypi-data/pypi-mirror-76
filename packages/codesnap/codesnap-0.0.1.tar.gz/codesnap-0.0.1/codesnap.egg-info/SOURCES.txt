@@ -1,0 +1,15 @@
+README.md
+setup.py
+codesnap/__init__.py
+codesnap/__main__.py
+codesnap/codesnap.py
+codesnap/htmlconverter.py
+codesnap/snaptree.py
+codesnap/tracer.py
+codesnap.egg-info/PKG-INFO
+codesnap.egg-info/SOURCES.txt
+codesnap.egg-info/dependency_links.txt
+codesnap.egg-info/top_level.txt
+tests/__init__.py
+tests/test_basic.py
+tests/test_tracer.py
