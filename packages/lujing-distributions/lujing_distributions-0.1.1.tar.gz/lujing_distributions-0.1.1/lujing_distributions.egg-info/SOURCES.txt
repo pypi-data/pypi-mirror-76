@@ -1,0 +1,10 @@
+setup.py
+lujing_distributions/Binomialdistribution.py
+lujing_distributions/Gaussiandistribution.py
+lujing_distributions/Generaldistribution.py
+lujing_distributions/__init__.py
+lujing_distributions.egg-info/PKG-INFO
+lujing_distributions.egg-info/SOURCES.txt
+lujing_distributions.egg-info/dependency_links.txt
+lujing_distributions.egg-info/not-zip-safe
+lujing_distributions.egg-info/top_level.txt
