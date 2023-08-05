@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+catratenvironment.egg-info/PKG-INFO
+catratenvironment.egg-info/SOURCES.txt
+catratenvironment.egg-info/dependency_links.txt
+catratenvironment.egg-info/requires.txt
+catratenvironment.egg-info/top_level.txt
