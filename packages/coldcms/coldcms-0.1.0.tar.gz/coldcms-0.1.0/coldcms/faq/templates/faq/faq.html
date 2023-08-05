@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% load i18n svg %}
+
+{% block content %}
+  <section class="hero is-medium is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          {{ page.title }}
+        </h1>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <section class="section">
+      {% if page.content %}
+        <div class="content is-medium">
+          {{ page.content | safe }}
+        </div>
+      {% endif %}
+
+      {% if page.questions_groups %}
+        <div class="tabs">
+          <ul>
+            {% for questions_group in page.questions_groups %}
+              <label for="category_{{ forloop.counter }}">
+                <li>
+                  <a>
+                    {% if questions_group.value.category_name %}
+                      {{ questions_group.value.category_name }}
+                    {% else %}
+                      {% trans "Other" %}
+                    {% endif %}
+                  </a>
+                </li>
+              </label>
+            {% endfor %}
+          </ul>
+        </div>
+
+
+        {% for questions_group in page.questions_groups %}
+          <section>
+            <input type="radio" name="tab" id="category_{{ forloop.counter }}"{% if forloop.first %} checked{% endif %}>
+            <div class="tab-content">
+              {% for question in questions_group.value.questions %}
+                <div class="card">
+                  <input type="checkbox" id="answer_{{ questions_group.id }}_{{ forloop.counter }}">
+                  <header class="card-header">
+                    <label class="is-fullwidth" for="answer_{{ questions_group.id }}_{{ forloop.counter }}">
+                      <a class="card-header-icon" aria-label="show answer">
+                        <p class="card-header-title">
+                          {{ question.value.question }}
+                        </p>
+
+                        <span class="icon angle-right is-small">
+                        {% svg "angle-right" %}
+                      </span>
+                        <span class="icon angle-down is-small">
+                        {% svg "angle-down" %}
+                      </span>
+                      </a>
+                    </label>
+                  </header>
+                  <div class="card-content">
+                    <div class="content">
+                      {{ question.value.answer | safe }}
+                    </div>
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+          </section>
+        {% endfor %}
+      {% endif %}
+    </section>
+  </div>
+
+{% endblock content %}

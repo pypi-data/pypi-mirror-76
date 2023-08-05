@@ -1,0 +1,11 @@
+{% load wagtailimages_tags image_filters %}
+
+<div class="columns is-gapless is-centered">
+  <div class="column is-half" id="centered_image_{{centered_image_id}}">
+    <div class="section">
+      <div class="image is-fullwidth">
+        {% image img_block.image original %}
+      </div>
+    </div>
+  </div>
+</div>

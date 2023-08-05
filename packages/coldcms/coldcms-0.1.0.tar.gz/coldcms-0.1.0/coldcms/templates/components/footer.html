@@ -1,0 +1,30 @@
+{% load site_tags %}
+
+{% get_footer_columns as columns %}
+{% if columns %}
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-multiline is-variable is-7 is-centered">
+      {% for col in columns %}
+        <div class="column is-3">
+          {% if col.title %}
+            <h5 class="subtitle">
+              {{ col.title }}
+            </h5>
+          <hr>
+          {% endif %}
+          {% if col.links %}
+            {% for link in col.links %}
+              <a href="{{ link.value.url }}" class="is-1" >
+                {{ link.value.text }}
+              </a>
+              <br>
+            {% endfor %}
+            <hr>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</footer>
+{% endif %}

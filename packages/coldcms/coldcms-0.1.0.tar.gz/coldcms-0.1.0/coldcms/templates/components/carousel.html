@@ -1,0 +1,67 @@
+{% load svg image_filters %}
+
+{% if carousel %}
+  {% if settings.site_settings.MenuOptions.hide_menu %}
+    <div class="carousel slide hero is-fullheight" id="carousel_{{carousel_id}}">
+  {% else %}
+    <div class="carousel slide hero is-fullheight-with-navbar" id="carousel_{{carousel_id}}"">
+  {% endif %}
+    <ul class="slider">
+    {% for slide in carousel %}
+      <li>
+        <input type="radio"
+               id="slide{{ forloop.counter }}"
+               name="slide"
+               {% if forloop.first %}checked{% endif %}>
+
+        {% if carousel|length > 1 %}
+          {% if forloop.first %}
+            <label class="previous" for="slide{{ carousel|length }}">
+              {% svg "carousel_previous" %}
+            </label>
+          {% else %}
+            <label class="previous" for="slide{{ forloop.counter|add:"-1" }}">
+              {% svg "carousel_previous" %}
+            </label>
+          {% endif %}
+        {% endif %}
+
+        <div class="slide-text content is-medium columns">
+        <div class="column is-offset-one-quarter-desktop is-half-desktop is-offset-2-touch is-8-touch">
+          {% if slide.title %}
+            <h2 class="has-text-white title is-spaced is-2">{{ slide.title }}</h2>
+          {% endif %}
+          {% if slide.text %}
+            <p class="has-text-white subtitle is-4">{{ slide.text }}</p>
+          {% endif %}
+          {% if slide.buttons %}
+            {% for button in slide.buttons %}
+              <a href="{{ button.url }}" class="button is-primary is-medium" >
+                {{ button.text }}
+              </a>
+            {% endfor %}
+          {% endif %}
+        </div>
+
+        </div>
+
+        {% if slide.image %}
+          {% responsive_image slide.image "img-slide" %}
+        {% endif %}
+
+        {% if carousel|length > 1 %}
+          {% if forloop.last %}
+            <label class="next" for="slide1">
+              {% svg "carousel_next" %}
+            </label>
+          {% else %}
+            <label class="next" for="slide{{ forloop.counter|add:"1" }}">
+              {% svg "carousel_next" %}
+            </label>
+          {% endif %}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}

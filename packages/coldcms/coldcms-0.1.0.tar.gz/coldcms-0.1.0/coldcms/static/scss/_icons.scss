@@ -1,0 +1,23 @@
+svg {
+  fill: currentColor;
+}
+
+.icon.is-small svg{
+  min-height: $icon-dimensions-small ;
+  min-width: $icon-dimensions-small ;
+}
+
+.icon.is-medium svg{
+  min-height: $icon-dimensions-medium ;
+  min-width: $icon-dimensions-medium ;
+}
+
+.icon.is-large svg{
+  min-height: $icon-dimensions-large ;
+  min-width: $icon-dimensions-large ;
+}
+
+.icon svg {
+  min-height: $icon-dimensions ;
+  min-width: $icon-dimensions ;
+}

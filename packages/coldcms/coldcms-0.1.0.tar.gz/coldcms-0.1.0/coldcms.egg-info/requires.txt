@@ -1,0 +1,13 @@
+wagtail
+psycopg2
+django-inline-svg
+django-assets
+wagtail-bakery
+django-htmlmin
+dj-database-url
+waitress
+whitenoise
+
+[doc]
+sphinx
+sphinx_rtd_theme

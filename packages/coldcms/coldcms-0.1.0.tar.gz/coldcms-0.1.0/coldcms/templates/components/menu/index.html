@@ -1,0 +1,41 @@
+{% load navigation_tags wagtailimages_tags %}
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <input type="checkbox" id="main-navbar-input">
+  <label for="main-navbar-input">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="main-navbar">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  </label>
+
+  <div id="main-navbar" class="navbar-menu">
+    <label for="main-navbar-input">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger burger close" aria-label="menu" aria-expanded="false" data-target="main-navbar">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+    </label>
+    <div class="navbar-start">
+      {% get_site_root as root_page %}
+      {% if settings.site_settings.SiteSettings.logo %}
+        <a class="navbar-item is-hidden-touch" href="{{ root_page.url }}">
+          {% image settings.site_settings.SiteSettings.logo fill-32x32 %}
+        </a>
+      {% endif %}
+      {% if root_page.show_in_menus %}
+        <a class="navbar-item" href="{{ root_page.url }}">
+          {{ root_page.title }}
+        </a>
+      {% endif %}
+      {% top_menu parent=root_page first_level=True %}
+
+    </div>
+  </div>
+</nav>

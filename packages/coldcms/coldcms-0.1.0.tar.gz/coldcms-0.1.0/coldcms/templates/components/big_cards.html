@@ -1,0 +1,33 @@
+{% if cards %}
+  <section class="container section" id="big_card_group_{{big_card_group_id}}">
+
+    {% for card in cards %}
+      <div class="columns is-vcentered is-variable is-8 " id="big_card_{{big_card_group_id}}_{{forloop.counter}}">
+      
+        {% with left_side=forloop.counter|divisibleby:2 %}
+          {% if left_side %}
+
+            {% include 'components/big_cards_text.html' with big_card_group_id=big_card_group_id big_card_text_id=forloop.counter %}
+            {% if card.image %}
+              {% include 'components/big_cards_img.html' with big_card_group_id=big_card_group_id  big_card_img_id=forloop.counter %}
+            {% endif %}
+
+          {% else %}
+
+            {% if card.image %}
+              {% include 'components/big_cards_img.html' with big_card_group_id=big_card_group_id  big_card_img_id=forloop.counter %}
+            {% endif %}
+            {% include 'components/big_cards_text.html' with big_card_group_id=big_card_group_id  big_card_text_id=forloop.counter %}
+
+          {% endif %}
+        {% endwith %}
+
+      </div>
+
+      <div class="section">
+        <hr class="is-marginless">
+      </div>
+    {% endfor %}
+
+  </section>
+{% endif %}

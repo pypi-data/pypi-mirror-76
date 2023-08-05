@@ -1,0 +1,35 @@
+$navbar-item-img-max-height: 2rem ;
+$primary: #38b2db ;
+$icon-dimensions-small: 0.75rem ;
+
+// Load Bulma global styles
+@import "../node_modules/bulma/sass/utilities/_all.sass" ;
+@import "../node_modules/bulma/sass/base/_all.sass" ;
+
+// Load  Bulma modules when needed
+@import "../node_modules/bulma/sass/components/card" ;
+@import "../node_modules/bulma/sass/components/navbar" ;
+@import "../node_modules/bulma/sass/components/tabs" ;
+
+@import "../node_modules/bulma/sass/elements/box" ;
+@import "../node_modules/bulma/sass/elements/button" ;
+@import "../node_modules/bulma/sass/elements/container" ;
+@import "../node_modules/bulma/sass/elements/content" ;
+@import "../node_modules/bulma/sass/elements/icon" ;
+@import "../node_modules/bulma/sass/elements/image" ;
+@import "../node_modules/bulma/sass/elements/tag" ;
+@import "../node_modules/bulma/sass/elements/title" ;
+
+@import "../node_modules/bulma/sass/grid/columns" ;
+
+@import "../node_modules/bulma/sass/layout/footer" ;
+@import "../node_modules/bulma/sass/layout/hero" ;
+@import "../node_modules/bulma/sass/layout/section" ;
+
+// Custom css
+@import "carousel" ;
+@import "small_cards" ;
+@import "menu" ;
+@import "tabs" ;
+@import "spacing" ;
+@import "icons" ;

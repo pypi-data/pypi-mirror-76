@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load wagtailimages_tags %}
+
+{# Handling meta tags for social media preview image #}
+{% block og_image %}
+  {# We take the image from the first component on the page, #}
+  {# only if this component is a carousel or a centered image. #}
+  {# carousel is a list of images, centered_image is a single image #}
+  {% if self.content_blocks.0.block_type == 'centered_image' and self.content_blocks.0.value.image %}
+    {% image self.content_blocks.0.value.image fill-1200x630 as first_image %}
+    <meta property="og:image" content="http://{{ self.get_site.hostname }}{{ first_image.url }}" />
+  {% elif self.content_blocks.0.block_type == 'carousel' and self.content_blocks.0.value.0.image %}
+    {% image self.content_blocks.0.value.0.image fill-1200x630 as first_image %}
+    <meta property="og:image" content="http://{{ self.get_site.hostname }}{{ first_image.url }}" />
+  {% else %}
+    {{ block.super }}
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  {% if self.content_blocks %}
+    {% for block in self.content_blocks %}
+
+      {% if block.block_type == 'carousel' %}
+        {% include 'components/carousel.html' with carousel=block.value carousel_id=forloop.counter %}
+      {% endif %}
+
+      {% if block.block_type == 'big_card' %} 
+        {% include 'components/big_cards.html' with cards=block.value big_card_group_id=forloop.counter%}
+      {% endif %}
+  
+      {% if block.block_type == 'small_card' %}
+        {% include 'components/small_cards.html' with cards=block.value small_card_group_id=forloop.counter%}
+      {% endif %}
+
+      {% if block.block_type == 'centered_image' %}
+        {% include 'components/centered_image.html' with img_block=block.value centered_image_id=forloop.counter%}
+      {% endif %}
+
+      {% if block.block_type == 'centered_text_block' %}
+        {% include 'components/centered_text_block.html' with txt_block=block.value centered_text_id=forloop.counter%}
+      {% endif %}
+
+    {% endfor %}
+  {% endif %}
+{% endblock content %}

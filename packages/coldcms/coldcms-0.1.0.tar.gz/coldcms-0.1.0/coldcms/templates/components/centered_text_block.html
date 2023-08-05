@@ -1,0 +1,14 @@
+  <div class="columns is-gapless is-centered">
+    <div class="column is-half" id="centered_text_{{centered_text_id}}">
+      <div class="section">
+        <section class="content is-medium has-text-justified">
+          {% if txt_block.title%} 
+            <h2 class="has-text-centered">{{ txt_block.title }}</h2>
+          {% endif %}
+          {% if txt_block.text%}
+            {{ txt_block.text | safe }}
+          {% endif %}
+        </section>
+      </div>
+    </div>
+  </div>

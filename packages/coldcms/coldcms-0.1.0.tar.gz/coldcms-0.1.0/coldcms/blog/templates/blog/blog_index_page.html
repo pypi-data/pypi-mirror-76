@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% load wagtailcore_tags image_filters i18n %}
+
+{% block content %}
+
+  <section class="hero is-medium is-primary">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          {{ page.title }}
+        </h1>
+        <h2 class="subtitle is-5">
+          {{ page.intro }}
+        </h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="columns is-multiline articles-list">
+        {% for post in blog_pages %}
+          <div class="column is-4">
+            {% with post=post.specific %}
+              <a href="{% pageurl post %}">
+                <div class="card">
+                  {% with post.main_image as main_image %}
+                    {% if main_image %}
+                      <div class="card-image">
+                        <figure class="image is-4by1">
+                          {% responsive_image main_image ratio=1.5 %}
+                        </figure>
+                      </div>
+                    {% endif %}
+                  {% endwith %}
+                  <header class="card-header">
+                    <h3 class="card-header-title title is-3">
+                      {{ post.title }}
+                    </h3>
+                  </header>
+                  <div class="card-content">
+                    <p class="has-text-black">{{ post.intro }}</p>
+                    <p>
+                      <a href="{% pageurl post %}">{% trans "Read more..." %}</a>
+                    </p>
+                  </div>
+                </div>
+              </a>
+            {% endwith %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+{% endblock %}

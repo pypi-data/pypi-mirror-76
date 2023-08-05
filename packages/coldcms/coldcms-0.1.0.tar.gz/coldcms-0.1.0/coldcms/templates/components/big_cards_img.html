@@ -1,0 +1,7 @@
+{% load image_filters %}
+
+<div class="column is-hidden-touch">
+  <div class="image" id="big_card_img_{{big_card_group_id}}_{{big_card_img_id}}">
+    {% responsive_image img=card.image ratio=0.75 %}
+  </div>
+</div>
