@@ -1,0 +1,3 @@
+[console_scripts]
+ps-signal = ps_signal.__main__:main
+
