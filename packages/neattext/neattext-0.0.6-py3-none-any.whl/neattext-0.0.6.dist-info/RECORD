@@ -1,0 +1,13 @@
+neattext/__init__.py,sha256=V3jl73Qt0D-KPcRgCBBJ9OnuVEtZxUtiuR3e-vfIYc8,301
+neattext/explainer/__init__.py,sha256=zcRb_uoFavD_2OHsVNQPY3HOgYw3GL-_GSKLZhc_iMw,25
+neattext/explainer/explainer.py,sha256=rrYcIgCT-xrIuPVGWmZ_FgmmiyC-eBRYq7so1YTHbZM,87941
+neattext/functions/__init__.py,sha256=xj6d0EGBslRMqwegomzD_egs_JIiUAgqULcq3ZW7t1I,25
+neattext/functions/emoji.json,sha256=LSD7TnaHcuCv8cWof8-6kCfpRvikvV5_0qoiU9AYQHo,36476
+neattext/functions/functions.py,sha256=kC6hQfGe6e-9Ss4pRRgSIO6PVtdxFPUELhEJuicudt0,18184
+neattext/neattext.py,sha256=rHbEHXDhOWrrH3xv3AlgcDv0lb5mt93rWRtYRcnDouI,27556
+neattext/pattern_data/__init__.py,sha256=dODTwmqIQHSN2l6amQTLVtpfUxuoGT0p6acjwPzARWE,27
+neattext/pattern_data/pattern_data.py,sha256=PWoc_FK5rI6VqJXeV57JC_iRYjQDxTALploZjCi0nR4,4522
+neattext-0.0.6.dist-info/LICENSE,sha256=6m73zv-ATqZTBOJhT_eC0yUyUoBe0qzpmCIm_YPkLb0,1060
+neattext-0.0.6.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+neattext-0.0.6.dist-info/METADATA,sha256=zUmLrSSCOxHQ24tcGVfC5C_GymCaOPfFtBYn9LaQZBA,7707
+neattext-0.0.6.dist-info/RECORD,,
