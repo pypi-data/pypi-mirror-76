@@ -1,0 +1,11 @@
+expm/CONFIG,sha256=LwiUjKM54hj-6TuNZJhOT-FOecosE5bmFm9AVr1lzws,35
+expm/VERSION,sha256=cQFcl5zLD8igvnygroMEarBFzcLI-qCfsvD35ED5tKY,6
+expm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+expm/common.py,sha256=NV9ukRpTXAb6i1VuW8-pXx8HkKzzl9tr9CH9Q3SH088,794
+expm/expm.py,sha256=R2YBayYF1HAsuVTFPiqPOEIs6Yj3eGlHuzGpYNA2aas,1936
+expm/expm_common.py,sha256=5TolUEjIHjM6aOYa_4qhnWQOk0jXnUx9VFZWW3cVR_s,3431
+expmcc-0.2.1.dist-info/METADATA,sha256=CATni5b0nkp2RwrA2t5ppRJa4eC5_qDlUvi1ctaVA40,280
+expmcc-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+expmcc-0.2.1.dist-info/entry_points.txt,sha256=Iql3qElJMgnTg1TIvXykuv2HYP6hW_GTOK_cvqIQsIw,138
+expmcc-0.2.1.dist-info/top_level.txt,sha256=iM5YtKiPaWLvjW1GLHXTx1IlpoNESbh7bTMSbzQKvRk,5
+expmcc-0.2.1.dist-info/RECORD,,

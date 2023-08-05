@@ -1,0 +1,6 @@
+[console_scripts]
+expm = expm.expm:expm
+expm-test = expm.commands:test
+expmcc = expm.expm_common:expmcc
+expmxx = expm.expm_common:expmxx
+
