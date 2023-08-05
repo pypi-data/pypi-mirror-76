@@ -1,0 +1,11 @@
+pcprox_reader/__init__.py,sha256=VwIuUynetXkhoGbjZSpR_J31degXimHChHCr3vaKMeg,166
+pcprox_reader/cardreader.py,sha256=R-JkmdGFWc6zaze1Hy4L63y-bCH87A-o3TbD3eX6M8w,5069
+pcprox_reader/cli.py,sha256=pocgL9l4nLI-KtMRMqj-IJSRJuDFNoUnXUcVHqENXl8,439
+pcprox_reader/udev_rule.py,sha256=mGr8BFaL9rBjdvxgmN2ieGQrzFItnvH_LXwFPxa8Oc8,998
+pcprox_reader-0.4.0.dist-info/AUTHORS.rst,sha256=RHWg5V0_3uTmqStfbS_IjunJltbmBf1fgvpp_nN4DIw,166
+pcprox_reader-0.4.0.dist-info/LICENSE,sha256=Pa6WiQJZvtNEpDaT9CxryUGVFDNoLmFeZpy21TDAbhE,1069
+pcprox_reader-0.4.0.dist-info/METADATA,sha256=UOjt6N7ZqTjH7uUPuJtaOU18YdAYli0Ja_0v33uXzBk,2110
+pcprox_reader-0.4.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+pcprox_reader-0.4.0.dist-info/entry_points.txt,sha256=tDBvTAAX5k9guiNg_wLgimfeoBIQVguNhU3X6eSXgh4,58
+pcprox_reader-0.4.0.dist-info/top_level.txt,sha256=3b6BoxwDGxths55dGY3xzW_Taf0i7lwT1jlO-1BahnA,14
+pcprox_reader-0.4.0.dist-info/RECORD,,
