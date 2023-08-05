@@ -1,0 +1,7 @@
+setup.py
+pynstagram/__init__.py
+pynstagram.egg-info/PKG-INFO
+pynstagram.egg-info/SOURCES.txt
+pynstagram.egg-info/dependency_links.txt
+pynstagram.egg-info/requires.txt
+pynstagram.egg-info/top_level.txt
