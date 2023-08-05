@@ -1,0 +1,20 @@
+{
+    "revision": "0.21",
+    "common": {
+        "valid_datetime": {"bad_flag": 3},
+        "valid_geolocation": {"bad_flag": 3},
+        "location_at_sea": {"bad_flag": 3}
+    },
+    "variables": {
+        "sea_water_temperature": {
+            "global_range": {"minval": -2.5, "maxval": 43},
+            "spike_depthconditional": {
+                "pressure_threshold": 500,
+                "shallow_max": 0.05,
+                "deep_max": 0.01
+            }
+        },
+        "sea_water_salinity": {
+            "global_range": {"minval": 19.0, "maxval": 45.0}}
+    }
+}

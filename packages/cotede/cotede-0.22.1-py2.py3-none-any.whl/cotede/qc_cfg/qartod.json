@@ -1,0 +1,13 @@
+{
+    "revision": "0.21",
+    "variables": {
+        "sea_water_temperature": {
+            "density_inversion": {"threshold": -0.03, "flag_good": 1, "flag_bad": 4},
+            "rate_of_change": {"threshold": 3, "sd_scale": true}
+        },
+        "sea_water_salinity": {
+            "density_inversion": {"threshold": -0.03, "flag_good": 1, "flag_bad": 4},
+            "rate_of_change": {"threshold": 3, "sd_scale": true}
+        }
+    }
+}

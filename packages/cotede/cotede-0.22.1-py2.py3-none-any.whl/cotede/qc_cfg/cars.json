@@ -1,0 +1,8 @@
+{
+    "revision": "0.21",
+    "common": {"valid_datetime": null},
+    "variables": {
+        "sea_water_temperature": {"cars_normbias": {"threshold": 10}},
+        "sea_water_salinity": {"cars_normbias": {"threshold": 10}}
+    }
+}
