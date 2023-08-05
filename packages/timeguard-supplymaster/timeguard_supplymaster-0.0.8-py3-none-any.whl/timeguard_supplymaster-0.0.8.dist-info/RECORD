@@ -1,0 +1,10 @@
+timeguard-supplymaster/__init__.py,sha256=NxvkwXmCOZu5njAw8u5XHzImfhgvD5x4uoFuBdJ7HgU,53
+timeguard-supplymaster/client.py,sha256=eU97cq8AzTv7nuKInNbOucQlDnLzPplMwjdF2J_6gJ4,2908
+timeguard-supplymaster/device.py,sha256=7dZpJu6tpvKABFqnZ04zaUh2tt7zOGSG2OrHeRtQwCg,1512
+timeguard-supplymaster/program.py,sha256=FbfCH23wHx6fv-PbsVS22EO9Vg5nV4nvmB7jlIdWbBs,1032
+timeguard-supplymaster/timeslot.py,sha256=-YInidKnfV6QdPWFHVHwRuN12_ZCQ5sRk4Tk5GyGih4,1848
+timeguard_supplymaster-0.0.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+timeguard_supplymaster-0.0.8.dist-info/METADATA,sha256=nvMhQdwLpuRPHDUZ6pUrTgzdfNTt9_xB96Dm_mOWlBM,2810
+timeguard_supplymaster-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+timeguard_supplymaster-0.0.8.dist-info/top_level.txt,sha256=v8dnNgybeG3KYuD7OxNmX7nTY0_CiCBagFQsHJM_fp8,23
+timeguard_supplymaster-0.0.8.dist-info/RECORD,,
