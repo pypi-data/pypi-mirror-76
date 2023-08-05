@@ -1,0 +1,4 @@
+bcrypt
+gql
+kubernetes
+pyjwt
