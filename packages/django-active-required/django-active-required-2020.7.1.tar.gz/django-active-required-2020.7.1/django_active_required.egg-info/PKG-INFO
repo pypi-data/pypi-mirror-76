@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: django-active-required
+Version: 2020.7.1
+Summary: Django ActiveRequiredMixin - request.user.is_active==True required
+Home-page: https://github.com/andrewp-as-is/django-active-required.py
+License: Unlicense
+Description: <!--
+        https://readme42.com
+        -->
+        
+        
+        [![](https://img.shields.io/pypi/v/django-active-required.svg?maxAge=3600)](https://pypi.org/project/django-active-required/)
+        [![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+        
+        ### Installation
+        ```bash
+        $ [sudo] pip install django-active-required
+        ```
+        
+        ##### `views.py`
+        ```python
+        from django_active_required.views import ActiveRequiredMixin
+        
+        class MyView(ActiveRequiredMixin,...):
+            pass
+        ```
+        
+        <p align="center">
+            <a href="https://readme42.com/">readme42.com</a>
+        </p>
+Keywords: django active
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
