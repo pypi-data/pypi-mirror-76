@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: Encod
+Version: 0.0.1
+Summary: A Python package to encode and decode with style.
+Home-page: https://github.com/pisslow/styleEncoder/
+Author: pisslow
+Author-email: pisslowmail@gmail.com
+License: MIT
+Description: styleEncoder
+        
+        Encoding and Decoding with Style
+        
+        Usage: use the "encrytper" method to encode a String/File and use the "decrypter" method to decode.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
