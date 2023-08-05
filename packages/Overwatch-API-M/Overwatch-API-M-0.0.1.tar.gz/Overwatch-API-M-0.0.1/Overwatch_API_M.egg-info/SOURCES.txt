@@ -1,0 +1,7 @@
+README.md
+setup.py
+Overwatch-API/Overwatch.py
+Overwatch_API_M.egg-info/PKG-INFO
+Overwatch_API_M.egg-info/SOURCES.txt
+Overwatch_API_M.egg-info/dependency_links.txt
+Overwatch_API_M.egg-info/top_level.txt
