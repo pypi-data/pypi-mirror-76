@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: yaspeak
+Version: 0.0.1
+Summary: Python wrapper for Yandex text voiceover
+Home-page: https://github.com/dmitrijkotov634/YaSpeak
+Author: dmitrijkotov
+Author-email: dmitrijkotov634@mail.ru
+License: MIT
+Description: <div align="center">
+        	<h1>YaSpeak</h1>
+        
+        Python wrapper for Yandex text voiceover
+        
+        ![pypi](https://badge.fury.io/py/YaSpeak.svg)
+        
+        </div>
+        
+        ## Install
+        `pip install --upgrade yaspeak`
+        
+        ## Usage
+        ```python
+        from yaspeak import YaSpeak
+        
+        ysp = YaSpeak()
+        
+        ysp.oksana("hello")
+        ysp.levitan("hello", "out1.mp3")
+        ysp.yandex("hello", "out2.mp3")
+        ```
+Keywords: speak
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown

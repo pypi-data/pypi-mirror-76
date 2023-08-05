@@ -1,0 +1,9 @@
+README.md
+setup.py
+yaspeak/__init__.py
+yaspeak/yaspeak.py
+yaspeak.egg-info/PKG-INFO
+yaspeak.egg-info/SOURCES.txt
+yaspeak.egg-info/dependency_links.txt
+yaspeak.egg-info/requires.txt
+yaspeak.egg-info/top_level.txt
