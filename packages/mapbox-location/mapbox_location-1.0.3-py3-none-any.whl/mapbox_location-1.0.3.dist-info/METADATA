@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mapbox-location
+Version: 1.0.3
+Summary: draw mapbox location
+Home-page: https://github.com/whatever/whatever
+Author: iwata_n
+Author-email: a.tokai.wain@gmail.com
+License: MIT
+Keywords: mapbox
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: mapboxgl
+
+UNKNOWN
+
+
