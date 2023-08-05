@@ -1,0 +1,8 @@
+
+[pyqt5]
+PyQt5
+qtpy
+
+[pyside2]
+PySide2
+qtpy
