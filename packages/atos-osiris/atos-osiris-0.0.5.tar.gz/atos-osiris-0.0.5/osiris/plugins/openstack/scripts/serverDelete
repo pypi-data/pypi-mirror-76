@@ -1,0 +1,100 @@
+#!/bin/bash
+
+function usage
+{
+	echo "Usage : server-delete <name> [--floating-ip "desallocate"][--project <project>]"
+}
+
+# Execute getopt on the arguments passed to this program, identified by the special character $@
+PARSED_OPTIONS=$(getopt -n "$0"  -o p:t:h --long "project:,floating-ip:,help"  -- "$@")
+
+# Bad arguments, something has gone wrong with the getopt command.
+if [ $? -ne 0 ]
+then
+	exit 1
+fi
+ 
+# A little magic, necessary when using getopt.
+eval set -- "$PARSED_OPTIONS"
+  
+# Now goes through all the options with a case and using shift to analyze 1 argument at a time.
+# $1 identifies the first argument, and when we use shift we discard the first argument, so $2 becomes $1 and goes again through the case.
+optargs=""
+while true;
+do
+	case "$1" in
+		-p|--project)
+			project="$2"
+			shift 2;;
+
+		-t|--floating-ip)
+			if [ "$2" != "desallocate" ]
+			then
+				echo "ERROR : allowed value for floating-ip option is desallocate"
+				exit 1
+			fi
+			release_floating_ip=true
+			shift 2;;
+
+		-h|--help)
+			usage
+			shift;;
+
+		--)
+			shift
+			break;;
+	esac
+done
+
+# Handle non-option arguments
+if [ $# -ne 1 ]
+then
+	usage
+	exit 1
+fi
+
+# Set the project (default = "admin")
+
+if [ "$project" == "" ]
+then
+	project="admin"
+	echo "warning: $project project has been set by default"
+fi
+export OS_PROJECT_NAME=$project
+
+server=$1
+
+# Retrieve the floating ip of the release option is set
+
+if [ "$release_floating_ip" = true ]
+then
+	floating_ip=`openstack server show $server -f value -c addresses | awk 'NF{ print $NF }'`
+	if [ "$floating_ip" = "" ]
+	then
+		echo "warning: no floating ip to release"
+	fi
+fi
+
+# Delete the server
+
+server_id=`openstack server delete "$server"`
+if [ $? -ne 0 ]
+then
+	echo "ERROR : server delete $server"
+	exit 1
+fi
+
+# Release the floating ip if requested
+
+if [ "$floating_ip" != "" ]
+then
+	openstack floating ip delete $floating_ip
+	if [ $? -ne 0 ]
+	then
+		echo "ERROR: floating ip delete $floating_ip"
+	else
+		echo "floating ip $floating_ip successfully deleted"
+	fi
+fi
+
+echo "server $server successfully deleted"

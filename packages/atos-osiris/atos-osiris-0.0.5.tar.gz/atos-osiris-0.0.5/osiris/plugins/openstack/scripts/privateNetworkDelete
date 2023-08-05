@@ -1,0 +1,134 @@
+#!/bin/bash
+
+function usage
+{
+	echo "Usage : private-network-delete <name> [--project <project>]"
+}
+ 
+
+# Execute getopt on the arguments passed to this program, identified by the special character $@
+PARSED_OPTIONS=$(getopt -n "$0"  -o p:h --long "project:,help"  -- "$@")
+ 
+# Bad arguments, something has gone wrong with the getopt command.
+if [ $? -ne 0 ];
+then
+	exit 1
+fi
+ 
+# A little magic, necessary when using getopt.
+eval set -- "$PARSED_OPTIONS"
+  
+# Now goes through all the options with a case and using shift to analyze 1 argument at a time.
+# $1 identifies the first argument, and when we use shift we discard the first argument, so $2 becomes $1 and goes again through the case.
+while true;
+do
+	case "$1" in
+		-p|--project)
+			project="$2"
+			shift 2;;
+
+		-h|--help)
+			usage
+			shift;;
+
+		--)
+			shift
+			break;;
+	esac
+done
+
+# Handle non-option arguments
+if [ $# -ne 1 ];
+then
+	usage
+	exit 1
+fi
+
+network=$1
+router="router-$network"
+subnet="subnet-$network"
+
+# Default project = "admin"
+if [ "$project" == "" ]
+then
+	project="admin"
+	echo warning: $project project has been set by default
+fi
+
+routerid=`openstack router list --name "$router" --project "$project" -f value -c ID`
+subnetid=`openstack subnet list --name "$subnet" --project "$project" -f value -c ID`
+netid=`openstack network list --name "$network" --project "$project" -f value -c ID`
+
+#echo "$0: name = $1, project="$project", description="$description", subnet-range="$subnet_range", external-route=$external_route, shared=$shared"
+
+# Delete the router if exists
+
+if [ "$routerid" != "" ]
+then
+
+	# Detach the router from the external network
+
+	openstack router unset --external-gateway "$routerid"
+	if [ $? -ne 0 ]
+	then
+		echo "ERROR : router unset --external-gateway $router"
+		exit 1
+	fi
+
+	# Detach the router from the subnet
+
+	if [ "$subnetid" != "" ]
+	then
+		openstack router remove subnet "$routerid" "$subnetid"
+		if [ $? -ne 0 ]
+		then
+			echo "ERROR : router remove subnet $router $subnet"
+			exit 1
+		fi
+	fi
+
+	# Delete the router
+
+	openstack router delete "$routerid"
+	if [ $? -ne 0 ]
+	then
+		echo "ERROR : router delete $router"
+		exit 1
+	fi
+	echo "router $router deleted"
+
+fi
+
+# Delete the subnet
+
+if [ "$subnetid" != "" ]
+then
+
+	# Delete the subnet
+
+	openstack subnet delete "$subnetid"
+	if [ $? -ne 0 ]
+	then
+		echo "ERROR : subnet delete $subnet"
+		exit 1
+	fi
+	echo "subnet $subnet deleted"
+
+fi
+
+# Delete the network
+
+if [ "$netid" != "" ]
+then
+
+	# Delete the network
+
+	openstack network delete "$netid"
+	if [ $? -ne 0 ]
+	then
+		echo "ERROR : network delete $network"
+		exit 1
+	fi
+	echo "network $network deleted"
+
+fi
