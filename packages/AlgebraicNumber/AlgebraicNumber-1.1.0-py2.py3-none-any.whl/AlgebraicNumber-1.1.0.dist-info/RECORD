@@ -1,0 +1,13 @@
+AlgebraicNumber/AlgebraicNumber.py,sha256=IJXlZV5BLBkMsDF6DVicuQbmCTrJjdSiRybYeFvH4xM,5650
+AlgebraicNumber/__init__.py,sha256=R-Y-KNfXiS8x3p7Vkzj8lRwqExm0AfZW4YQ5LgI_Ov8,1184
+AlgebraicNumber/inria_utils.py,sha256=P6sglxa-D74iD8sNbuLFpEPTBjgT14w5qmfFXxVdMkA,6380
+AlgebraicNumber/utils.py,sha256=nybxEFSbVw2lzJL-BLxzcfPyl3rYp5R5--_BGarXvBE,7068
+tests/TestBase.py,sha256=UNhpA91e2Z2Z90bm0Gd_nHu0kG3xjcyG0t9iyVjmAmw,1283
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_ops.py,sha256=7LThlwcVrbcNuvOOEiCKELqwO_dtnI2r2mZVEN2ISo0,4277
+AlgebraicNumber-1.1.0.dist-info/AUTHORS.rst,sha256=kbgCsMK1voiGl8NMfodABeb_Hdr-aETH7EtqEBTZ-b0,155
+AlgebraicNumber-1.1.0.dist-info/LICENSE,sha256=I73GjGwF_NdPvZngmBobfY9lJVucUi7ipKrF5BzMMEI,1070
+AlgebraicNumber-1.1.0.dist-info/METADATA,sha256=xpkRTraaR0bxMJSL81KcgLSesbqkPAcG6fipL_bTrZs,3470
+AlgebraicNumber-1.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+AlgebraicNumber-1.1.0.dist-info/top_level.txt,sha256=fvwwwssF9YfyTs7lGJ1LC-BM9qlJoUmLwOHbXDG42hk,22
+AlgebraicNumber-1.1.0.dist-info/RECORD,,
