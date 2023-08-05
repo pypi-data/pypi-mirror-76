@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: aws-get-logs
+Version: 0.0.6
+Summary: Get logs from AWS Cloudwatch.
+Home-page: https://github.com/normoes/aws-helpers/tree/master/cloudwatch_logs
+Author: Norman Moeschter-Schenck
+Author-email: <norman.moeschter@gmail.com>
+Maintainer: Norman Moeschter-Schenck
+Maintainer-email: <norman.moeschter@gmail.com>
+License: UNKNOWN
+Download-URL: https://github.com/normoes/aws-helpers/archive/v0.0.6.tar.gz
+Description: # Cloudwatch logs
+        
+        This pypi package has moved to https://pypi.org/project/aws-cloudwatch-logs/.
+        
+        The package and module names are new: `aws_cloudwatch_logs`.
+        
+        ```
+        pip install aws-cloudwatch-logs
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
