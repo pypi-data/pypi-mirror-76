@@ -1,0 +1,11 @@
+birch/__init__.py,sha256=uQH3ALjTmz1bjytJAr0y8DYayaC-T46k5yakZr0uTa8,351
+birch/_version.py,sha256=_ODC27H4ysYZb4bc8pFzigSnwSRwhQANuCcP3rwzh4o,498
+birch/core.py,sha256=OJCBTWYWRA9eHHPfxcy7gQMWpxJpAftez3h9viSWmm8,13404
+birch/exceptions.py,sha256=haU-kWLZpH6W_HE3OGZ5Fhs7fglg8sXrQH6XsOF0Y-g,158
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=i5TD4PRwfB63_dyZetF7E_gMJgmW4IGuaNpF1sgxd6g,11244
+birch-0.0.27.dist-info/LICENSE,sha256=8sZx0cvuX2vE9eAsPtA3Aw32RkmoMKrQBIkh-u7BP9A,1069
+birch-0.0.27.dist-info/METADATA,sha256=lFgHSSEer6Bgk44FDFaXC9cxCnJaVE-Hsg6j-BmMYp8,14256
+birch-0.0.27.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+birch-0.0.27.dist-info/top_level.txt,sha256=DtavyJF-QVAC5Ti-CkAC6zjprtyXmGhDbSbzXHbC7Zw,12
+birch-0.0.27.dist-info/RECORD,,
