@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: galileo-db
+Version: 0.4.0.dev1
+Summary: Galileo DB: Gateway and client tools for the Galileo Experiment DB
+Home-page: https://github.com/edgerun/galileo-db
+Author: Thomas Rausch
+Author-email: t.rausch@dsg.tuwien.ac.at
+License: UNKNOWN
+Description: Galileo DB: Galileo Experiment System Database
+        ==============================================
+        
+        [![PyPI](https://img.shields.io/pypi/v/galileo-db)](https://pypi.org/project/galileo-db/)
+        
+        This project provides an API to work with the experiment database (edb) of Galileo.
+        Specifically, it provides the following functionality:
+        
+        * Core model of the database (Experiment, Telemetry, NodeInfo, ...)
+        * Various bindings to an actual database (sqlite, mysql)
+        * Telemetry subscriber to write telemetry into edb.
+        * Trace recorder
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
