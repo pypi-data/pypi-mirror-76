@@ -1,0 +1,5 @@
+fire
+boto3
+db-sqlite3
+zipfile36
+tabulate
