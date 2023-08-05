@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+mozpower/__init__.py
+mozpower/intel_power_gadget.py
+mozpower/macintelpower.py
+mozpower/mozpower.py
+mozpower/mozpowerutils.py
+mozpower/powerbase.py
+mozpower.egg-info/PKG-INFO
+mozpower.egg-info/SOURCES.txt
+mozpower.egg-info/dependency_links.txt
+mozpower.egg-info/entry_points.txt
+mozpower.egg-info/not-zip-safe
+mozpower.egg-info/requires.txt
+mozpower.egg-info/top_level.txt
