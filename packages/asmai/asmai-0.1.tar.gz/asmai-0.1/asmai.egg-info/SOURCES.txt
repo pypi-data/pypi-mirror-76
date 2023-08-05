@@ -1,0 +1,17 @@
+MANIFEST.in
+README.rst
+setup.py
+asmai/__init__.py
+asmai/anasem.py
+asmai/sem_const.py
+asmai/semdictionary.py
+asmai.egg-info/PKG-INFO
+asmai.egg-info/SOURCES.txt
+asmai.egg-info/dependency_links.txt
+asmai.egg-info/requires.txt
+asmai.egg-info/top_level.txt
+asmai/data/semantic.sqlite
+data-source/derivations.csv
+data-source/relations.csv
+data-source/semantic-schema.sql
+data-source/semantic.sql
