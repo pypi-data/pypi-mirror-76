@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: mailman-telegram-webhook
+Version: 0.1
+Summary: A small archiver sending message to telegram chats 
+Home-page: https://github.com/nanoy42/mailman-telegram-webhook
+Author: Yoann Piétri
+Author-email: me@nanoy.fr
+License: GPLv3
+Download-URL: https://github.com/nanoy42/mailman-telegram-webhook/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: mailman,telegram,webhook
+Platform: UNKNOWN
