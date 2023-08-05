@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: grus
+Version: 0.0.1
+Summary: Traffic generation, system validation and monitoring at very large scale.
+Home-page: https://github.com/gitvipin/grus
+Author: Vipin Sharma
+Author-email: sh.vipin@gmail.com
+License: UNKNOWN
+Description: 
+        # GRUS
+        
+        Grus is a tool for Testbed monitoring and system validation at large scale.
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
