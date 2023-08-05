@@ -1,0 +1,8 @@
+click
+dictdiffer>=0.7.0
+jinja2
+jsonpath_rw
+mongoengine>=0.16.0
+pymongo>=3.0
+python-dateutil
+wrapt
