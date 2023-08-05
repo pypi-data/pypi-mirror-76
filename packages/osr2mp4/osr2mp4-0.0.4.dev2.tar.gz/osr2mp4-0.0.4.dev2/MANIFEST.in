@@ -1,0 +1,8 @@
+include pypiREADME.md
+include requirements.txt
+include osr2mp4/config.json
+include osr2mp4/settings.json
+include osr2mp4/ImageProcess/Curves/libcurves/*.h
+include osr2mp4/ImageProcess/Curves/libcurves/*.cpp
+include osr2mp4/ImageProcess/Curves/libcurves/*.pyx
+recursive-include osr2mp4/res *
