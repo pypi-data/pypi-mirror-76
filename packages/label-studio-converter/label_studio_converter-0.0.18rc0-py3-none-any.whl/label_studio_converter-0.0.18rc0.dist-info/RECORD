@@ -1,0 +1,8 @@
+label_studio_converter/__init__.py,sha256=dLVo8GFRc7U3ScTpHJAKvqituW8p9DAnBVw88arKc_0,32
+label_studio_converter/brush.py,sha256=2coZ32kv_6Vkf4Oef2Y2vihgk07bPak1GQaQuKnGLsM,4416
+label_studio_converter/converter.py,sha256=XLPhUci1D4QT8UfrJPTkQl04vtB28z9lJyfLzqs_VPA,18640
+label_studio_converter/utils.py,sha256=bME5CtJSDzYikgSwEdoWowIMeqfm5AR0maRfxihUzSw,3830
+label_studio_converter-0.0.18rc0.dist-info/METADATA,sha256=LjmJ4Ifkd7MxJRCzrf2smSfLlpmRV5KduKE1Ubo2mG0,587
+label_studio_converter-0.0.18rc0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+label_studio_converter-0.0.18rc0.dist-info/top_level.txt,sha256=lKRXX-N54hYBX9JzKLsJCfdJ2XrMIepuPDGwDyT22_I,23
+label_studio_converter-0.0.18rc0.dist-info/RECORD,,
