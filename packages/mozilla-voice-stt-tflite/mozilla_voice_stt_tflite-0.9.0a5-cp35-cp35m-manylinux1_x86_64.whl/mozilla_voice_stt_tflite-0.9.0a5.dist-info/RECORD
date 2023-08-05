@@ -1,0 +1,10 @@
+mozilla_voice_stt/__init__.py,sha256=HqvEvv44gpPUqOMWzEFEI89QE2yu4OrIHsrUT4uIC3I,11017
+mozilla_voice_stt/_impl.cpython-35m-x86_64-linux-gnu.so,sha256=n3Sd5oO0hXvtU0A0edMEtGu3kPxxp_BMvG-GnP3LaWI,332576
+mozilla_voice_stt/client.py,sha256=TjTAEEmdSqG-sulCGH78BsYkQa_er9v6e0OCzeIOkdo,6309
+mozilla_voice_stt/impl.py,sha256=SXil0ClUVHQFQfhv8OCI0xcxyxkgfdegg4x2-Zb1vOY,6813
+mozilla_voice_stt/lib/libmozilla_voice_stt.so,sha256=B02s1FY3Fp1TDCOYoqtAyzPqcgn7CEkWPlEaj7jRauM,4000768
+mozilla_voice_stt_tflite-0.9.0a5.dist-info/METADATA,sha256=aEHwnyLWg_aPjNaq7ebbzDKZiwuA2Y0bIRKi0Y4op5A,1415
+mozilla_voice_stt_tflite-0.9.0a5.dist-info/WHEEL,sha256=41yCFrJSFHVzlc2oBILEBKDUJ7HO3YjpyLd1p8p3js8,109
+mozilla_voice_stt_tflite-0.9.0a5.dist-info/entry_points.txt,sha256=C1UhRbPyxMyhQupR2rYuh7hvq4NA2DQPV1Tug8SDX_k,69
+mozilla_voice_stt_tflite-0.9.0a5.dist-info/top_level.txt,sha256=3WAQb7_q8cv5tNYfrIdQVioyhzhEB4hcV0wo3Cf8xqI,18
+mozilla_voice_stt_tflite-0.9.0a5.dist-info/RECORD,,
