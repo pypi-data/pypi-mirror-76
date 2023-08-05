@@ -1,0 +1,6 @@
+[autopip]
+flake8 = 3 [weekly]
+rstcheck = 3.0.1
+twine = 1 [weekly]
+workspace-tools = latest
+
