@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: iospytools
+Version: 1.0.4
+Summary: provides useful tools/commands which are used in iOS research
+Home-page: https://github.com/merculous/ios-python-tools
+Author: Merculous
+Author-email: vycemerculous@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: autopep8 (==1.5.3)
+Requires-Dist: bsdiff4 (==1.1.9)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: flake8 (==3.8.3)
+Requires-Dist: humanize (==2.5.0)
+Requires-Dist: idna (==2.10)
+Requires-Dist: importlib-metadata (==1.7.0)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: progressbar (==2.5)
+Requires-Dist: pycodestyle (==2.6.0)
+Requires-Dist: pyflakes (==2.2.0)
+Requires-Dist: pyusb (==1.0.2)
+Requires-Dist: remotezip (==0.9.2)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: tabulate (==0.8.7)
+Requires-Dist: toml (==0.10.1)
+Requires-Dist: urllib3 (==1.25.9)
+Requires-Dist: zipp (==1.2.0)
+
+This project was inspired by Matteyeux with his ios-tools repo, this will be a similar project but for my own practice. Also, in native Python 3 code :D
+
+### Prerequisites
+
+    1. Run: ./install.sh, which also updates, so run this each time to update
+    2. You should then have a module called: "iospytools"
+
+    Example: iospytools --keys iPhone2,1 3.0
+
+### Commands
+
+    --buildid device iOS  | convert an iOS to its buildid
+    --clean               | if there are any leftover json files, this will get rid of them
+    --codename device iOS | get codename of an iOS
+    --download device iOS | download an ipsw
+    --keys device iOS     | get keys for an iOS
+    --shsh DEVICE ECID    | save SHSH for all signed iOS versions of a device (Disabled atm, needs updating.)
+    --signed device       | print the signed versions for a device
+    --split key           | splits a GID decrypted key
+
+### TODO
+
+    foreman: key grabbing/uploading
+    template: template creating
+    ota/beta shsh saving: CC @mcg
+    img3: iBoot patcher, kernel patcher
+    img4: idk if I can make this lol
+    ipsw: ipsw handling and creating
+
+### Credits
+
+    Visual Studio Code: Holy! I love this IDE! (better than Pycharm...)
+    Matteyeux @matteyeux: inspiration, some techniques from ios-tools
+    Noah/32Bites @TheNoahParty: some techniques from PyKeys
+    mcg29 @mcg29_: Helping with this project
+    wxblank @wxblank2: TSS stuff!
+
+
