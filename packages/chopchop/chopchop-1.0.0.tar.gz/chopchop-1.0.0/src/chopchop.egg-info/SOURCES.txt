@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/chopchop.egg-info/PKG-INFO
+src/chopchop.egg-info/SOURCES.txt
+src/chopchop.egg-info/dependency_links.txt
+src/chopchop.egg-info/top_level.txt

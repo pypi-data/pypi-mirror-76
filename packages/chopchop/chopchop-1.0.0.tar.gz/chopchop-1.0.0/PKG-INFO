@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: chopchop
+Version: 1.0.0
+Summary: Make logs digestible
+Home-page: https://www.github.com/seongminp/chopchop
+Author: Seongmin Park
+Author-email: llov0708@gmail.com
+License: MIT
+Description: # chopchop
+        🌳 Log 뿌시기. Make logs digestible
+        
+Keywords: Log management
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
