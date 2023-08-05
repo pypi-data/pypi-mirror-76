@@ -1,0 +1,9 @@
+include CONTRIBUTING.md
+include HISTORY.md
+include LICENSE
+include README.md
+
+recursive-include tests *
+recursive-exclude * __pycache__ *.py[co]
+include versioneer.py
+include nbautoexport/_version.py
