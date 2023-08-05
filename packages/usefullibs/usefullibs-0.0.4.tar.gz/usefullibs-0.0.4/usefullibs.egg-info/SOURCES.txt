@@ -1,0 +1,6 @@
+setup.py
+usefullibs.egg-info/PKG-INFO
+usefullibs.egg-info/SOURCES.txt
+usefullibs.egg-info/dependency_links.txt
+usefullibs.egg-info/requires.txt
+usefullibs.egg-info/top_level.txt
