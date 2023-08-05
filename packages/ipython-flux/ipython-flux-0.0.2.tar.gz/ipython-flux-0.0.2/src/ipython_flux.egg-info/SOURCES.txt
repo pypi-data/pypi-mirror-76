@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+NEWS.rst
+README.rst
+setup.py
+src/flux/__init__.py
+src/flux/connection.py
+src/flux/magic.py
+src/flux/parse.py
+src/ipython_flux.egg-info/PKG-INFO
+src/ipython_flux.egg-info/SOURCES.txt
+src/ipython_flux.egg-info/dependency_links.txt
+src/ipython_flux.egg-info/not-zip-safe
+src/ipython_flux.egg-info/requires.txt
+src/ipython_flux.egg-info/top_level.txt
