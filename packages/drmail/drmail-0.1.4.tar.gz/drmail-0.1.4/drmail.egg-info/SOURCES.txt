@@ -1,0 +1,8 @@
+README.rst
+setup.py
+drmail/__init__.py
+drmail/mail.py
+drmail.egg-info/PKG-INFO
+drmail.egg-info/SOURCES.txt
+drmail.egg-info/dependency_links.txt
+drmail.egg-info/top_level.txt
