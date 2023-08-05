@@ -1,0 +1,13 @@
+CHANGELOG.rst
+MANIFEST.in
+README.rst
+setup.py
+dane_jwe_jws/__init__.py
+dane_jwe_jws/authentication.py
+dane_jwe_jws/encryption.py
+dane_jwe_jws/util.py
+dane_jwe_jws.egg-info/PKG-INFO
+dane_jwe_jws.egg-info/SOURCES.txt
+dane_jwe_jws.egg-info/dependency_links.txt
+dane_jwe_jws.egg-info/requires.txt
+dane_jwe_jws.egg-info/top_level.txt
