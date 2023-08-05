@@ -1,0 +1,12 @@
+Release/_impl.cp38-win_amd64.exp,sha256=JsNAb4E4DnFRv3UcPJI9aNO09W_WGQ5z5KOMOGC6_Vc,759
+Release/_impl.cp38-win_amd64.lib,sha256=fgx2tms7FmtI2hg-YzwncMQF13pdpiqSrhjYb7o20aQ,1964
+mozilla_voice_stt/__init__.py,sha256=YXeG08wQ4iDIAgNJh4Ivg_cPHv7EIhsBKbj3rKG4Gtw,11331
+mozilla_voice_stt/_impl.cp38-win_amd64.pyd,sha256=wBQZmw7i70E2JucImsW2Kb1SwF5Hk0mlOPfgaecngcY,83456
+mozilla_voice_stt/client.py,sha256=ipJ1V2akHr_xuW6UZ2XSklBd_3ewXOPrGNRg_tjrd2Y,6471
+mozilla_voice_stt/impl.py,sha256=rtIbc1zFfE1QKz6XGMfS-y0BUh873Gdt7cfo6BZwrzY,7014
+mozilla_voice_stt/lib/libmozilla_voice_stt.so,sha256=4khst6LEgcfH1IWMhqCWtpaFI73zADNp5hKVPG_wGz8,2342912
+mozilla_voice_stt_tflite-0.9.0a5.dist-info/METADATA,sha256=-TqMPV9nyz3ONlFKy97FUnDG6EvfyILjficArBDIadk,1435
+mozilla_voice_stt_tflite-0.9.0a5.dist-info/WHEEL,sha256=z-ezgbNu1Y2ixypRrBmFDHP9mmiBhiGywozViqVfAIc,105
+mozilla_voice_stt_tflite-0.9.0a5.dist-info/entry_points.txt,sha256=C1UhRbPyxMyhQupR2rYuh7hvq4NA2DQPV1Tug8SDX_k,69
+mozilla_voice_stt_tflite-0.9.0a5.dist-info/top_level.txt,sha256=3WAQb7_q8cv5tNYfrIdQVioyhzhEB4hcV0wo3Cf8xqI,18
+mozilla_voice_stt_tflite-0.9.0a5.dist-info/RECORD,,
