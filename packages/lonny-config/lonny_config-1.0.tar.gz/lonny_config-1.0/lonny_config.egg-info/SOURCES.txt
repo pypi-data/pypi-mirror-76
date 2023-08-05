@@ -1,0 +1,9 @@
+MANIFEST.in
+requirements.txt
+setup.py
+lonny_config/__init__.py
+lonny_config/config.py
+lonny_config.egg-info/PKG-INFO
+lonny_config.egg-info/SOURCES.txt
+lonny_config.egg-info/dependency_links.txt
+lonny_config.egg-info/top_level.txt
