@@ -1,0 +1,9 @@
+README.md
+setup.py
+Gitlab_MR_Security_Bot.egg-info/PKG-INFO
+Gitlab_MR_Security_Bot.egg-info/SOURCES.txt
+Gitlab_MR_Security_Bot.egg-info/dependency_links.txt
+Gitlab_MR_Security_Bot.egg-info/entry_points.txt
+Gitlab_MR_Security_Bot.egg-info/requires.txt
+Gitlab_MR_Security_Bot.egg-info/top_level.txt
+gl_pr/app.py
