@@ -1,0 +1,11 @@
+sherlockpipe/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sherlockpipe/__main__.py,sha256=QQa741eT1sls12yCOnpuuPiSi0eocrsLvg8LhgiVqvs,8620
+sherlockpipe/sherlock.py,sha256=xvlyIMtEZ_bynLq1NPRoj73oZcb6_3kCpun4qVW03zQ,45691
+sherlockpipe/sherlock_runner.py,sha256=ZH_VWNOEPWM_THZyPplJ8LJxErR_D1Tv-Mt5UrvQ7XU,6346
+sherlockpipe/sherlock_tests.py,sha256=7K2vuh5JmR0QtIp4c79susvn1YRAeb-k3EJDhCeEUUw,8530
+sherlockpipe/sherlock_user_properties.py,sha256=y09xhSVb7x2t9R9iAmYNWw0Van-rPFDfWeghXNnp43I,7368
+sherlockpipe-0.9.3.dist-info/LICENSE,sha256=3KvnEkJBm8fNEKCeSPy0PMSxfrdgh7zICSGxphBg_wE,1077
+sherlockpipe-0.9.3.dist-info/METADATA,sha256=HCBRfK4wbrUG8XZelJymzHpdlCfavOw1PVWU3LvRe-U,11690
+sherlockpipe-0.9.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sherlockpipe-0.9.3.dist-info/top_level.txt,sha256=57iBvuNOxLQshNqYp0-xUbsOLRpuNXvvylN3Xzg2K_c,13
+sherlockpipe-0.9.3.dist-info/RECORD,,
