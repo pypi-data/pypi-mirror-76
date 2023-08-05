@@ -1,0 +1,6 @@
+setuptools>=42.0.1
+tensorflow~=2.3
+scipy==1.4.1
+numpy<1.19,>=1.17
+pandas<2,>=0.25
+matplotlib<4,>=3
