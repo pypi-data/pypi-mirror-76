@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements-dev.txt
+requirements.txt
+setup.py
+nlplot/__init__.py
+nlplot/helper.py
+nlplot/nlplot.py
+nlplot.egg-info/.DS_Store
+nlplot.egg-info/PKG-INFO
+nlplot.egg-info/SOURCES.txt
+nlplot.egg-info/dependency_links.txt
+nlplot.egg-info/requires.txt
+nlplot.egg-info/top_level.txt
+nlplot/data/mplus-1c-regular.ttf
