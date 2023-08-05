@@ -1,0 +1,12 @@
+oppai
+pydub
+numpy
+opencv-python
+scipy
+toolz
+osrparse
+recordclass
+requests
+autologging
+configparser
+cython
