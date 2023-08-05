@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: writhub
+Version: 0.0.0.1
+Summary: A static post generator, for when you don't feel like generating an entire site
+Author: Dan Nguyen
+Author-email: dansonguyen@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: Jinja2 (==2.11)
+Requires-Dist: PyYaml (>=5.1,<6.0)
+Requires-Dist: cssselect (>=1.1.0,<2.0.0)
+Requires-Dist: lxml (>=4.5.2,<5.0.0)
+Requires-Dist: pypandoc (>=1.5,<2.0)
+Requires-Dist: rich (==5.0.0)
