@@ -1,0 +1,3 @@
+[parsexml.parsexml]
+.rst = parsexml:parsexml
+
