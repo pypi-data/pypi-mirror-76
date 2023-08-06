@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+wre_commit/__init__.py
+wre_commit/__main__.py
+wre_commit/main.py
+wre_commit.egg-info/PKG-INFO
+wre_commit.egg-info/SOURCES.txt
+wre_commit.egg-info/dependency_links.txt
+wre_commit.egg-info/entry_points.txt
+wre_commit.egg-info/top_level.txt
