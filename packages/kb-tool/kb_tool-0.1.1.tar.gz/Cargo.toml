@@ -1,0 +1,19 @@
+[package]
+name = "kb-tool"
+version = "0.1.1"
+authors = ["reiyw <reiyw.setuve@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "kb_tool"
+crate-type = ["cdylib"]
+
+[dependencies]
+counter = "0.4"
+rand = "0.7"
+rand_distr = "0.2"
+ndarray = "0.13.1"
+
+[dependencies.pyo3]
+version = "0.8.5"
+features = ["extension-module"]
