@@ -1,0 +1,17 @@
+aiojenkins/__init__.py,sha256=jJlSG_NX__jGIHUsQQopxyXjKsdAgcf9mH3WBorGApw,6096
+aiojenkins/__init__.pyi,sha256=mDrtooj_JcsRADm4_W9naHyL6bbok_5U3ZZ-oPceeVg,1225
+aiojenkins/builds.py,sha256=4gh2HiE9vbfI9qWHHTBrNkdamqUW2qWZwc3TUKw_EVs,3968
+aiojenkins/builds.pyi,sha256=aT4Nw0d8z2LezSBZO_pwyNBAyTW8MMjSTdM-CmOdu6Q,877
+aiojenkins/exceptions.py,sha256=9CMwGZ8DBORXm6ig9O-wVusG3RO88-PwF15ZaEfxvwc,194
+aiojenkins/exceptions.pyi,sha256=w8bfVuy7SJebveIbz3px_sMExW6Pup_2NzBLnDHpaVQ,252
+aiojenkins/jobs.py,sha256=PRVj19259jfmGliMo4jAhebgyiNm9BcY7XYiWsLyChM,2698
+aiojenkins/jobs.pyi,sha256=G1r6LRqHxEy-dh8bnqqlt7l3JcmeM7TUhXTdZZ3voK8,870
+aiojenkins/nodes.py,sha256=qc0TF3RnSTDTAttpHqGGy_pZzFM-FKcOymyKqtjbeF0,5291
+aiojenkins/nodes.pyi,sha256=0Bcecozhzbrd8Uh3iDNjC0ejbA740KRX7hOXR9mkojc,1033
+aiojenkins/utils.py,sha256=qopXVGezjIUzoHr8_Y9fHF618RXBDUI5sQiHBOePYAY,4162
+aiojenkins/utils.pyi,sha256=wlTF4gUblU-JWLIaDK4o12y-mMJ9YZh8qdIROcnO1dA,391
+aiojenkins-0.5.2.dist-info/LICENSE,sha256=wPeDESYP7nY0M9XxTB9YukuBEdP53N_vnDr1rSEANx4,1069
+aiojenkins-0.5.2.dist-info/METADATA,sha256=ou2ssLjToNWjo_xuUpORkwI5VVYtItgtyUMNURujLJY,2136
+aiojenkins-0.5.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+aiojenkins-0.5.2.dist-info/top_level.txt,sha256=-apG3YaTuGHqg5PZyzlVNhTSCzSKnPXWfTmlhVFhCJc,11
+aiojenkins-0.5.2.dist-info/RECORD,,
