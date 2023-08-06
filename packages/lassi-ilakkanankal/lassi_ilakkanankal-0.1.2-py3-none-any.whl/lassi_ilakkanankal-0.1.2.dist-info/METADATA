@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lassi-ilakkanankal
+Version: 0.1.2
+Summary: லஸ்ஸி மென்பொருளுக்காக இலக்கணம் விவரக்குறிப்புகள்
+Home-page: https://github.com/lassi-samaaj/lassi-ilakkanangal
+Author: ம. ஜூலீஎன்
+Author-email: julien.malard@mail.mcgill.ca
+License: AGPL-3.0-or-later
+Platform: UNKNOWN
+Requires-Dist: lark-parser
+
+UNKNOWN
+
+
