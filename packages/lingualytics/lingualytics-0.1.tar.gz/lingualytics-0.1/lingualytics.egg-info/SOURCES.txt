@@ -1,0 +1,7 @@
+README.md
+setup.py
+lingualytics/__init__.py
+lingualytics.egg-info/PKG-INFO
+lingualytics.egg-info/SOURCES.txt
+lingualytics.egg-info/dependency_links.txt
+lingualytics.egg-info/top_level.txt
