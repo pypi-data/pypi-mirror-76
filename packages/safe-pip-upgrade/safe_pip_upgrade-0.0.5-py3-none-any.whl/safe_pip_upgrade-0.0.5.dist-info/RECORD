@@ -1,0 +1,15 @@
+safe_pip_upgrade/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+safe_pip_upgrade/config.py,sha256=9mFOmId2nPTQbG6nQ33xVX_bT68QwGzxbOM90gLDdy0,2648
+safe_pip_upgrade/pip_upgrade.py,sha256=8D2oGIc6yuIi1LR3qcw-f90N1DfOiYMIltab0wbNqrI,4442
+safe_pip_upgrade/pypi.py,sha256=C5hnBZNQB1Z3_qfKUFJafZhgJyz2tCPsHc8hafmNJn0,2277
+safe_pip_upgrade/requirements_file.py,sha256=2CaZofze42EbR6S4DHrUqqtCC3C5zQAWx16TLAjQhgM,1474
+safe_pip_upgrade/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+safe_pip_upgrade/core/packages.py,sha256=jP601to6mhYmPczwwm4IMzZZKrliQnrXNbrlFVLhb1U,4216
+safe_pip_upgrade/core/upgrade.py,sha256=kZnc6_cNES2ZgzHw-mj6kIkUZXVm0ykMEe-sh3xKsLM,2116
+safe_pip_upgrade/runners/compose.py,sha256=QfjM2NJ9XWJrdrmflgYzCEq8XcQc7zkpgoxM5-QR-2A,3177
+safe_pip_upgrade-0.0.5.dist-info/LICENSE,sha256=vharFUQXgrVom5amoCq8AO3YKcyHffTkvjTm1C_qkKo,1061
+safe_pip_upgrade-0.0.5.dist-info/METADATA,sha256=3ZeeOyivAc9wSAlQK4h78dud9rWGmnhQjKs8tC_MjsU,3440
+safe_pip_upgrade-0.0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+safe_pip_upgrade-0.0.5.dist-info/entry_points.txt,sha256=Mg6q9XRa_cbmAzqGTfkLWaJhxJSwnFA6s2V0Wu-BRSw,67
+safe_pip_upgrade-0.0.5.dist-info/top_level.txt,sha256=yvkREXHmEQ7HwI7EO4zc1LFLdQSMlZmMETPiXchZhd0,17
+safe_pip_upgrade-0.0.5.dist-info/RECORD,,
