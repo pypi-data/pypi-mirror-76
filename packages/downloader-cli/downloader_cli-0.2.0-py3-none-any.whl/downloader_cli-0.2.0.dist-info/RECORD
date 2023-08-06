@@ -1,0 +1,9 @@
+downloader_cli/__init__.py,sha256=mPq7DMHeGNCIv_x4s-m_wU49kMsxAoB8MNoF1_rNaz8,97
+downloader_cli/__version__.py,sha256=O7urm8y_xd_cIsCS5oDZOk0G7E-Kqq-F8Y9aO7anG4k,64
+downloader_cli/download.py,sha256=p-Hzq0pN2FnlhwVey95hdlZFj_M_cip1qIGZPcr5Psg,13969
+downloader_cli-0.2.0.dist-info/LICENSE,sha256=rHC2fVdpcn3jsB_WYRuUDhky-23ZiptoKIzF7ptZZQ0,1073
+downloader_cli-0.2.0.dist-info/METADATA,sha256=GTZYaWBxZPURcduIIfNXp6uKTgbvqAOyAMonPw2gjig,5098
+downloader_cli-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+downloader_cli-0.2.0.dist-info/entry_points.txt,sha256=f9CT1LryykijWRznsr2lePTmqfuNG5RnbNvLGWHG658,53
+downloader_cli-0.2.0.dist-info/top_level.txt,sha256=9wIy3BUdGRszpD09KCtHLe4CDMT55fHj8KJHjEMCkzA,15
+downloader_cli-0.2.0.dist-info/RECORD,,
