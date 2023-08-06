@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: ketool
+Version: 0.0.3
+Summary: A set of tools that make coding more simpler for python.
+Home-page: https://github.com/liukecode/ketool.git
+Author: Liuke
+Author-email: 821711401@qq.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # KeTool
+        
+        A set of tools that make coding more simpler for python.
+        
+        [github](https://github.com/liukecode/ketool.git)
+        
+        LiuKe
+Keywords: python,KeTool
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
