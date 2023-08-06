@@ -1,0 +1,7 @@
+README.md
+aligi.py
+setup.py
+aligi.egg-info/PKG-INFO
+aligi.egg-info/SOURCES.txt
+aligi.egg-info/dependency_links.txt
+aligi.egg-info/top_level.txt
