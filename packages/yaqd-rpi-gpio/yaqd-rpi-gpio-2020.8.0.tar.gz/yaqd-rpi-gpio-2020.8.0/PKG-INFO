@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: yaqd-rpi-gpio
+Version: 2020.8.0
+Summary: yaq daemons for control of Rasperry Pi GPIO
+Home-page: https://yaq.fyi
+Author: Blaise Thompson
+Author-email: blaise@untzag.com
