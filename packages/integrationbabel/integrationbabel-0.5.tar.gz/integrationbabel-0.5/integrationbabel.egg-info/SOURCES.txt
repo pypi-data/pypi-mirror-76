@@ -1,0 +1,9 @@
+setup.py
+data_integration_babel/__init__.py
+data_integration_babel/database_writer.py
+data_integration_babel/receiver.py
+integrationbabel.egg-info/PKG-INFO
+integrationbabel.egg-info/SOURCES.txt
+integrationbabel.egg-info/dependency_links.txt
+integrationbabel.egg-info/requires.txt
+integrationbabel.egg-info/top_level.txt
