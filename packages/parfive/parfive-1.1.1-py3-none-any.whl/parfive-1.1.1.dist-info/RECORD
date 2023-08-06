@@ -1,0 +1,16 @@
+parfive/__init__.py,sha256=Fmiyji8qyAMDGjsuGKIa3uMXPvvl5QDeJa2C607dmsY,312
+parfive/downloader.py,sha256=J3373MhwX67IgMSszXB3HpgvtMbfivakchsYXgHTt_k,22733
+parfive/main.py,sha256=TrfyHmuVokcczqWvXACUmMkjMzywTfwJGi6-vqdSs9g,1642
+parfive/results.py,sha256=5Z5jCQjmrWfX7jvLjosoKEPkeiI_iSENQ7lxSn6iLJQ,2523
+parfive/utils.py,sha256=LbUFNtjHVrnQu6J5nxoSmKT3LOiceTyOVP89OvoWl_k,4073
+parfive/version.py,sha256=4RVbwnidZIe_dPVDeC8TRRXPdKq52kLmHrEzVmtYVj0,345
+parfive/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parfive/tests/test_downloader.py,sha256=uOZU6M9qdUQQ4QOZKMsfbkHiwCWRxd7jtR6Ifva-RQk,11410
+parfive/tests/test_main.py,sha256=txtifVurcVO39ooHiWGwPB-ryTKlhcG9kLpASJocbrc,899
+parfive/tests/test_utils.py,sha256=v6VKjAY1dNZw3zT63C45kbxHD3cmbkuaJFyRZjN3Cwc,303
+parfive-1.1.1.dist-info/LICENSE,sha256=B2J7lRNeIK8Ka6xQLdhj4sjMxv5WAH3LVX302d4gM3w,1062
+parfive-1.1.1.dist-info/METADATA,sha256=Ocj-YQ7X7_ggViGbyWYiLOhshJIiWYNSZUSM43AZTMg,3824
+parfive-1.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+parfive-1.1.1.dist-info/entry_points.txt,sha256=Fz-QcAQHEehXTFoUwRdGUq-uRWOs9ZxSVvty61l726g,47
+parfive-1.1.1.dist-info/top_level.txt,sha256=Rm21X5EZ3Y5Izj12sUIKJ6WVnCzbaTZ26dRhlE-uRsQ,8
+parfive-1.1.1.dist-info/RECORD,,
