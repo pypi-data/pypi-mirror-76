@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+backmusic/main.py
+backmusic/player.py
+backmusic.egg-info/PKG-INFO
+backmusic.egg-info/SOURCES.txt
+backmusic.egg-info/dependency_links.txt
+backmusic.egg-info/entry_points.txt
+backmusic.egg-info/requires.txt
+backmusic.egg-info/top_level.txt
