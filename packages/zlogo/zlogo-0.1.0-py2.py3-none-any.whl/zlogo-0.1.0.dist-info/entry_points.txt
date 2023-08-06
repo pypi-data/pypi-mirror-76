@@ -1,0 +1,3 @@
+[console_scripts]
+zlogo = zlogo.engine.cli:main
+

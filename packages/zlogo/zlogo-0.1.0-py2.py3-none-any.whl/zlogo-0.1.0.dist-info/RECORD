@@ -1,0 +1,17 @@
+zlogo/__init__.py,sha256=ceCUOLTY_4qxYp44Yl4Lh1e8EUEfcmSYCf-Og84RGZs,133
+zlogo/config/__init__.py,sha256=8G9P2e8OB4qSYmUoMiEwf1hk2kIuznjs2KxCTQr_rwo,111
+zlogo/config/defaults.py,sha256=J1_Z-l3BgPmfoQsIE22p8FMkqsIrBb0CubwbCNm-WNA,1363
+zlogo/config/zlogo.logorc,sha256=lAYnXSsFoL_O2W57wAK3AYNCh_0ABOdqA-XixDXyk8M,187
+zlogo/engine/__init__.py,sha256=mr1PqP_4DMw9DHCkrrqZspyTV5OzYk6y5olTzvz0m9Q,111
+zlogo/engine/cli.py,sha256=nVm_oyyCRn3-Sc0i2scbrQNMUdUP-qloxSFFb6tNSM0,1926
+zlogo/tool/__init__.py,sha256=NZ0389RtJHjzLTOoRgMprFWxoqsNuoLNzcXnBxi1rkk,108
+zlogo/tool/logo,sha256=1QUhQJzLfWQeL7zYYCFyNlMYY0LAfXr62hAg7xYdYKI,50205933
+zlogo/util/__init__.py,sha256=mr1PqP_4DMw9DHCkrrqZspyTV5OzYk6y5olTzvz0m9Q,111
+zlogo/util/misc.py,sha256=P9dl6HVLj03EthxEyIR6ltE3Gau8U4AR4Krxorb6Jhk,746
+zlogo/util/utility.py,sha256=7jCcv267tnku5PKvmt6BVH1lMj-NpBpkhjIW-ol-yM4,875
+zlogo-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+zlogo-0.1.0.dist-info/METADATA,sha256=RjH8Tn0gYY--8yW_Hf6epJtfszlrsZpyfn4FsrZUXUg,2173
+zlogo-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+zlogo-0.1.0.dist-info/entry_points.txt,sha256=BCjfsCbHi1oxfu56vFnxqGDY16I8CirJvrNoULMjM9A,49
+zlogo-0.1.0.dist-info/top_level.txt,sha256=ZgoQLEl_x5lYHF7BF643ONnNoWepxyf4eV4dUE4Nwe0,6
+zlogo-0.1.0.dist-info/RECORD,,
