@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Img2UrlApi
+Version: 0.1
+Summary: Img2Url-Api for images hosting
+Home-page: https://github.com/Vitz/Img2Url-API
+Author: Patryk Organisciak
+Author-email: patrykorganisciak@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Img2Url-API
+
+API for image hosting eg. www.img2url.site
+
+
