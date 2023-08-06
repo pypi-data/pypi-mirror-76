@@ -1,0 +1,16 @@
+HISTORY.md
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+src/bintypenew/__init__.py
+src/bintypenew/bintypenew.py
+src/bintypenew/crypto.py
+src/bintypenew/errors.py
+src/bintypes6.egg-info/PKG-INFO
+src/bintypes6.egg-info/SOURCES.txt
+src/bintypes6.egg-info/dependency_links.txt
+src/bintypes6.egg-info/not-zip-safe
+src/bintypes6.egg-info/requires.txt
+src/bintypes6.egg-info/top_level.txt
