@@ -1,0 +1,5 @@
+vaex
+dnspython
+boto3
+beautifulsoup4
+facebook-scraper==0.2.9
