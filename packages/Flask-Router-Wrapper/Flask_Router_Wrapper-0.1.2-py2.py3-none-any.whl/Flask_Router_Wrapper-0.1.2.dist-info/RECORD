@@ -1,0 +1,10 @@
+flask_router_wrapper/__init__.py,sha256=NWM_QWF8k4btuydvFKANSsCKbA_6QKLEVgd4iqahmk4,617
+flask_router_wrapper/exception.py,sha256=1lLsrPkSeO6OT9fFUlfiD7wRaGZYcGXBKoiJ9sLa77Q,323
+flask_router_wrapper/middleware.py,sha256=HqKokosWk2EbNkHywqoAsc9VojihxaovTSxUajplWiE,714
+flask_router_wrapper/router.py,sha256=my_2co-AHmIP7kEjMJQ5iGOXn4mVlyocLCDROv4LPyo,8831
+flask_router_wrapper/version.py,sha256=mdp2CftfqYbdKtP-eWv1z7rAUycYv6X1ntXSMUf8Kss,22
+Flask_Router_Wrapper-0.1.2.dist-info/LICENSE,sha256=V0V5HELWo0VDwSLo83KUv6p44_2i27d9e_IQONy126o,1070
+Flask_Router_Wrapper-0.1.2.dist-info/METADATA,sha256=oell4nOnz83L5JLYnLldSgBVHG7hkATgr55JWhmMZ1I,1636
+Flask_Router_Wrapper-0.1.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+Flask_Router_Wrapper-0.1.2.dist-info/top_level.txt,sha256=hylxUkuwxy5BZXrKdu3rsY5NA46PUcAftrmrFPVAHdk,21
+Flask_Router_Wrapper-0.1.2.dist-info/RECORD,,
