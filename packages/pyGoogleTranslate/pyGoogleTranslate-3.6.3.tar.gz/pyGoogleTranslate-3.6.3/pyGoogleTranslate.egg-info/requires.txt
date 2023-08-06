@@ -1,0 +1,4 @@
+selenium
+lifeeasy
+psutil
+pyppeteer
