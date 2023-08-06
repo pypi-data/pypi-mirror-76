@@ -1,0 +1,17 @@
+face_mask_detector/__init__.py,sha256=eOI0PyDHS4fJi7wYWqsdmFdJQFxvHqGKYEnNL10YFZo,395
+face_mask_detector/command_line_interface.py,sha256=om9lRpFuHFGrBdFm8TjTQ7OPU4CRyyEWeb4Of339LIo,1291
+face_mask_detector/face_detector.py,sha256=jX_n5I2ZN_IDRcQtkHW8Q9yVBofW5FWhuODiokEaWzw,1101
+face_mask_detector/file_helper.py,sha256=rvWERIKZKfiSLXfDHEXfC6yYbSjZckuiQVsANdMSd-M,703
+face_mask_detector/lib.py,sha256=UlKbBzWYBj2ws3Mj44IRhhXINJlSWnq-T0VyWF6hIZ8,7996
+face_mask_detector/logger.py,sha256=7z2lCvcFAednGCdjWJAg4wfTcdY0l2v4rsjHO8z6Ztg,1115
+face_mask_detector/face_detector_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+face_mask_detector/face_detector_model/deploy.prototxt,sha256=9iYhyskj1vN71mkpjEKLt-5yIztfjDOJu4k-Neu895U,28092
+face_mask_detector/face_detector_model/res10_300x300_ssd_iter_140000.caffemodel,sha256=KlahGlekopWVawZgtKPXa73KIgbElhzqjv59lcfLLy0,10666211
+face_mask_detector/face_mask_detector_model/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+face_mask_detector/face_mask_detector_model/face_mask_detector.model,sha256=Y7neqK4zCRlMEs_titegmWQWxG6z0NrDTqhIU8lJlKM,11489344
+face_mask_detector-0.2.0.dist-info/LICENSE,sha256=ixD8LovftBZOzZ_G5pkK5sKgCGQ0VU786VofA2L7ROk,1072
+face_mask_detector-0.2.0.dist-info/METADATA,sha256=7djRtkoePYHCtnF3YNJ1Fw0iWab8AWe4fiKN170m1AM,2052
+face_mask_detector-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+face_mask_detector-0.2.0.dist-info/entry_points.txt,sha256=QTDGc3q5ZDZ9gOXMIPifEiE6uRkNR_CmeMGKy023lt0,87
+face_mask_detector-0.2.0.dist-info/top_level.txt,sha256=F_hfoXPHPtw_b5wte-nFBjQ78ECxcjBGvcDG7rAkhig,19
+face_mask_detector-0.2.0.dist-info/RECORD,,
