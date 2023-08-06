@@ -1,0 +1,2 @@
+class GPUAccelerator(Accelerator):
+
