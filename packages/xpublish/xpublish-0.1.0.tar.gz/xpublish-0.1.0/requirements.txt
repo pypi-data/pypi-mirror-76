@@ -1,0 +1,9 @@
+cachey
+dask
+fastapi>=0.59
+numcodecs
+numpy>=1.17
+toolz
+uvicorn
+xarray>=0.16
+zarr
