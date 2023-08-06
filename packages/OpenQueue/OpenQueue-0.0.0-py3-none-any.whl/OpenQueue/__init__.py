@@ -1,0 +1,5 @@
+__version__ = "0.0.0"
+__url__ = "https://github.com/OpenQueueCS"
+__description__ = "OpenQueue is open-source CS: GO Tournament & PUG platform."
+__author__ = "WardPearce"
+__author_email__ = "wardpearce@protonmail.com"
