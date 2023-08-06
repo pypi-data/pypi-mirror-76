@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+itslit/__init__.py
+itslit/__version__.py
+itslit/cli.py
+itslit.egg-info/PKG-INFO
+itslit.egg-info/SOURCES.txt
+itslit.egg-info/dependency_links.txt
+itslit.egg-info/entry_points.txt
+itslit.egg-info/requires.txt
+itslit.egg-info/top_level.txt
+itslit/data/lightning_talks

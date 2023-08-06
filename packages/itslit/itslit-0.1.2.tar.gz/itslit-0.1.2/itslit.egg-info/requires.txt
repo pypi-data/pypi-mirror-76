@@ -1,0 +1,5 @@
+Click>=7.0
+
+[dev]
+Sphinx>=2.2.1
+Click>=7.0
