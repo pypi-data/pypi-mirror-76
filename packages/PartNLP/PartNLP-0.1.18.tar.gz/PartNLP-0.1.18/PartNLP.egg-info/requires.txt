@@ -1,0 +1,7 @@
+hazm
+parsivar
+stanza
+nltk
+dash
+dash_bootstrap_components
+terminaltables
