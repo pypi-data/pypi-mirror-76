@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: PyRFKit
+Version: 1.0.0
+Summary: Python RF Kit built on scikit-rf.
+Home-page: https://bitbucket.org/samteccmd/pyrfkit
+Author: Samtec - ASH
+Author-email: samtec-ash@samtec.com
+License: UNKNOWN
+Description: ![./icon.png](./icon.png)
+        
+        # PyRFKit
+        
+        ⚠️ **WARNING: This is a very early pre-release. Expect things to break.** ⚠️
+        
+        #### A [Py]thon RF Kit built on top of sciki-rf.
+        
+        <!-- ![PyPI](https://img.shields.io/pypi/v/pyrfkit) -->
+        
+        # Compatibility
+        
+        - Python 3.5+
+        
+        # Install
+        
+        Install the latest from PyPi:
+        
+        `pip install pyrfkit`
+        
+        _-OR-_ using **pipenv**:
+        
+        `pipenv install pyrfkit`
+        
+        Install from source:
+        
+        `python3 setup.py install`
+        
+        # Modules
+        
+        Coming soon...
+        
+        # Examples
+        
+        ```python
+        
+        ```
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
