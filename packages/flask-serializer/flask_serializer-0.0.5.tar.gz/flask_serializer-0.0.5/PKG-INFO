@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: flask_serializer
+Version: 0.0.5
+Summary: A Flask serializer built with marshmallow and flask-sqlalchemy
+Home-page: https://github.com/ZinkLu
+Author: ZinkLu
+Author-email: zinkworld@live.cn
+Maintainer: zinklu
+Maintainer-email: zinkworld@live.cn
+License: MIT
+Download-URL: https://github.com/ZinkLu/Flask-Serializer/archive/v0.0.5.tar.gz
+Project-URL: Code, https://github.com/ZinkLu/Flask-Serializer
+Description: file: README.md
+Keywords: Flask,extension,serializer,marshmallow,flask-sqlalchemy
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
