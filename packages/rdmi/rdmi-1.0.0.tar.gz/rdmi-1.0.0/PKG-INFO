@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: rdmi
+Version: 1.0.0
+Summary: Print a range of numbers in random order
+Home-page: https://github.com/Teal-Projects/rdmi
+Author: Kanchen Monnin
+Author-email: kanchen@mail.com
+License: UNKNOWN
+Description: README on github : https://github.com/Teal-Projects/rdmi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System

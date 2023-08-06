@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+rdmi/__init__.py
+rdmi/rdmi.py
+rdmi.egg-info/PKG-INFO
+rdmi.egg-info/SOURCES.txt
+rdmi.egg-info/dependency_links.txt
+rdmi.egg-info/entry_points.txt
+rdmi.egg-info/requires.txt
+rdmi.egg-info/top_level.txt
