@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: trending_bay_messaging
+Version: 0.4.12
+Summary: RabbitMQ usage in Trending Bay project
+Home-page: https://github.com/trending-bay/trending-bay-messaging
+Author: RBH
+Author-email: your.email@domain.com
+License: MIT
+Download-URL: https://github.com/trending-bay/trending-bay-messaging/archive/0.4.12.tar.gz
+Description: UNKNOWN
+Keywords: pika,messaging,rabbitmq
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
