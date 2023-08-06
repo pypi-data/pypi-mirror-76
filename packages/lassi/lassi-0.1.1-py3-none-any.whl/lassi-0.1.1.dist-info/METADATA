@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lassi
+Version: 0.1.1
+Summary: ਸੰਕੇਤ ਦੀ ਅਨੁਵਾਦ।
+Home-page: https://lassi.readthedocs.io
+Author: ਜ਼ੂਲੀਏਂ ਮਲਾਰ (Julien Malard)
+Author-email: julien.malard@mail.mcgill.ca
+License: GNU Affero GPL 3
+Download-URL: https://github.com/julienmalard/Lassi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: lark-parser
+Requires-Dist: ennikkai
+
+UNKNOWN
+
+
