@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "rpc.py"
+version = "0.3.0"
+description = "An easy-to-use and powerful RPC framework. Base WSGI & ASGI."
+authors = ["abersheeran <me@abersheeran.com>"]
+readme = "README.md"
+license = "Apache-2.0"
+
+homepage = "https://github.com/abersheeran/rpc.py"
+repository = "https://github.com/abersheeran/rpc.py"
+
+classifiers=[
+    "Programming Language :: Python :: 3",
+]
+
+packages = [
+    { include = "rpcpy" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+typing-extensions = {version = "^3.7.4", python = "<3.8"}
+httpx = {version = "^0.13.3", optional = true}  # for client and test
+pydantic = {version = "^1.6.1", optional = true}  # for openapi docs
+
+[tool.poetry.extras]
+client = ["httpx"]
+type = ["pydantic"]
+full = ["httpx", "pydantic"]
+
+[tool.poetry.dev-dependencies]
+flake8 = "*"
+mypy = "^0.782"
+black = "^19.10b0"
+pytest = "^5.4.3"
+pytest-asyncio = "^0.14.0"
+
+[tool.dephell.main]
+from = { format = "poetry", path = "pyproject.toml" }
+to = { format = "setuppy", path = "setup.py" }
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
