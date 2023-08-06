@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+Math2.0.egg-info/PKG-INFO
+Math2.0.egg-info/SOURCES.txt
+Math2.0.egg-info/dependency_links.txt
+Math2.0.egg-info/top_level.txt
