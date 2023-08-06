@@ -1,0 +1,14 @@
+scipy
+dask
+scikit-learn
+toolz
+coverage
+matplotlib
+numpy
+pytest
+pytest-cov
+notebook
+dask-ml
+nbval
+graphviz
+Deprecated
