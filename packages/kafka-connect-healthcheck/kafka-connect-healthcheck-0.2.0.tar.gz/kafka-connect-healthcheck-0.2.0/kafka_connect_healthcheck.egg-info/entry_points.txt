@@ -1,0 +1,3 @@
+[console_scripts]
+kafka-connect-healthcheck = kafka_connect_healthcheck.main:main
+
