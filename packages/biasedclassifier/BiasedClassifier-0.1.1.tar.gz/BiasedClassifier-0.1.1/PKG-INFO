@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: biasedclassifier
+Version: 0.1.1
+Summary: 
+Home-page: https://github.com/rparraca/BiasedClassifier
+License: MIT
+Keywords: imbalanced,classification,random forest
+Author: Rodrigo Parra
+Author-email: contact@rodrigo-parra.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: scikit-learn (>=0.23.2,<0.24.0)
+Project-URL: Repository, https://github.com/rparraca/BiasedClassifier
+Description-Content-Type: text/markdown
+
+# Biased Classifier
+
+Biased Classifier
+
+## Install
+
+Directly from `PyPi` servers:
+
+```
+pip install BiasedClassifier
+```
+
+## Use
+
+Example using Random Forests from `scikit-learn`.
+
+Assume `X, y` is a training set with three classes and two heavily inbalanced classes. In this case, we'd like to bias two classifiers into these subsets. We've decided that `0.3` and `0.2` proportions are enough for the minority classes (from smaller up)
+
+```
+from biasedclassifier import BiasedClassifier
+from sklearn.ensemble import RandomForestClassifier
+
+clf = BiasedClassifier(
+    k=5, 
+    p=[0.3, 0.2], 
+    unbiased_classifier=RandomForestClassifier(), 
+    knn_jobs=1
+)
+
+# Train
+clf.fit(X,y)
+
+# Obtain probabilities for each class
+prob = clf.predict_proba(X)
+
+# Predicted values
+y_pred = clf.predict(X)
+
+# Average accuracy score
+score = clf.score(X, y)
+```
