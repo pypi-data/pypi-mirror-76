@@ -1,0 +1,6 @@
+Jinja2
+Django
+click<8.0,>=7.0
+pyyaml
+python-slugify
+stevedore
