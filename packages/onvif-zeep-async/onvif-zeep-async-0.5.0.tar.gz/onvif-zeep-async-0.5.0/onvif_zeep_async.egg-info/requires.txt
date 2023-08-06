@@ -1,0 +1,2 @@
+aiohttp>=1.0
+zeep[async]>=3.0.0
