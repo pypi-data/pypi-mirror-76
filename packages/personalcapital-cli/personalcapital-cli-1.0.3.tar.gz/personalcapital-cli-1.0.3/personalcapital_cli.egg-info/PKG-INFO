@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: personalcapital-cli
+Version: 1.0.3
+Summary: Personal Capital CLI
+Home-page: https://github.com/clintecker/personalcapital-cli
+Author: Clint Ecker
+Author-email: me@clintecker.com
+License: MIT
+Description: Installs two command line scripts:
+        
+        - "fetch_data"
+        - "store_in_google_sheets"
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Provides-Extra: test
