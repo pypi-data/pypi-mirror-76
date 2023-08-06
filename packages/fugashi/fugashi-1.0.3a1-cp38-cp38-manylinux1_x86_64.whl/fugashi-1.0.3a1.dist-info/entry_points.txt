@@ -1,0 +1,4 @@
+[console_scripts]
+fugashi = fugashi_cli.cli:main
+fugashi-info = fugashi_cli.cli:info
+
