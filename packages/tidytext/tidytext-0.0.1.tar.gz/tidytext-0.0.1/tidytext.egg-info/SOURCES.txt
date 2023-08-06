@@ -1,0 +1,8 @@
+README.md
+setup.py
+tidytext.py
+tidytext.egg-info/PKG-INFO
+tidytext.egg-info/SOURCES.txt
+tidytext.egg-info/dependency_links.txt
+tidytext.egg-info/requires.txt
+tidytext.egg-info/top_level.txt
