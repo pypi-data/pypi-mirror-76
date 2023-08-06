@@ -1,0 +1,3 @@
+[console_scripts]
+mod_updater = mod_updater.mod_updater:main
+
