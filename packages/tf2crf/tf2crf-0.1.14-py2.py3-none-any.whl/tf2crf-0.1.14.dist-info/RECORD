@@ -1,0 +1,8 @@
+tf2crf/__init__.py,sha256=gvNi6srcEn2vRBZYttDH1D1bMuycM_t3dBoPqacoMRs,43
+tf2crf/crf.py,sha256=XWVJZyqu6PFaYETP-hTud8YaSyc1arvRws3Pwi7FQFc,4044
+tf2crf/test.py,sha256=vC6epZkzkJ0OuG0tltEWbjhnKbgYYVeayqMP4M4BbLE,876
+tf2crf-0.1.14.dist-info/LICENSE,sha256=6a-PMI_iWySduNvZgZisAh4-P_xompHyFISjyN1SOUo,1065
+tf2crf-0.1.14.dist-info/METADATA,sha256=x6EdB19ywrC-LnAV8c7eyQ1fpsTM8vmzO8Z4KKBo_s0,1097
+tf2crf-0.1.14.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+tf2crf-0.1.14.dist-info/top_level.txt,sha256=xaZTHbDr5HJWHZAz4SbW_pggu_wZJiRM-lUpz86IsgM,7
+tf2crf-0.1.14.dist-info/RECORD,,
