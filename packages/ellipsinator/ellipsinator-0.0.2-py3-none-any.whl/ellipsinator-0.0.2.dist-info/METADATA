@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ellipsinator
+Version: 0.0.2
+Summary: Ellipse tools for Python
+Home-page: https://github.com/mckib2/ellipsinator
+Author: Nicholas McKibben
+Author-email: nicholas.bgp@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Requires-Dist: numpy (>=1.19.1)
+
+Ellipsinator
+============
+
+Tools for working with ellipses in Python.
+
+Installation
+============
+
+Should be an easy pip install:
+
+.. code-block:: bash
+
+    pip install ellipsinator
+
+
+Usage
+=====
+
+To fit an ellipse:
+
+.. code-block:: python
+
+    from ellipsinator import fit_ellipse_halir
+
+
