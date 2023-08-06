@@ -1,0 +1,9 @@
+RPi.PIR-0.5.0.data/scripts/raspi-pir,sha256=ECrMBelXgcBTB1v1wvcFJ1d1YqvBu_F2etS7cZOtWyU,392
+raspi_pir/__init__.py,sha256=aeYV0LrdG1AHKfd7dsEnyMI2Usu-6XdA24zD9MJ04Po,238
+raspi_pir/main.py,sha256=zXhp-BhhjDYgbgOD48yVCc49UxpBmVYT4g0gOyomw40,1451
+raspi_pir/pir.py,sha256=T4zL5HzRRcXOnJFzavmjHcnsvITB_DphsLUZ0qCaas4,2413
+RPi.PIR-0.5.0.dist-info/LICENSE,sha256=OoHj3LtS-iEGcR4RgU75egYj6UhCDWA-ZOWCozNMCJQ,1083
+RPi.PIR-0.5.0.dist-info/METADATA,sha256=gIBx8w6EGQUOlv5tg40QbriJivk7MauF664JFpA6O2w,4004
+RPi.PIR-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+RPi.PIR-0.5.0.dist-info/top_level.txt,sha256=-NNp3WZoSeOjQukHFM6rXO20-hzl3-RL1WtVPy6BJ9Q,10
+RPi.PIR-0.5.0.dist-info/RECORD,,
