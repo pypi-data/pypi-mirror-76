@@ -1,0 +1,23 @@
+<script>
+
+    $('.datatable').DataTable({
+        "processing": true,
+        "serverSide": true,
+        "ajax": {
+            url: '',
+            type: "post",
+            error: () => {
+                console.log("someting went wrong!");
+            },
+            data: {
+                csrfmiddlewaretoken: '{{ csrf_token }}'
+            }
+        },
+        "deferRender": true,
+        pageLength: 10,
+        responsive: true,
+        paging: true,
+        ordering: false,
+        info: false
+    });
+</script>
