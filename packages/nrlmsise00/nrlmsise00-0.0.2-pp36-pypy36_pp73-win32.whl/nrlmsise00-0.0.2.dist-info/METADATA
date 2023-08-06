@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nrlmsise00
+Version: 0.0.2
+Summary: Python interface for the NRLMSISE-00 neutral atmosphere model
+Home-page: https://github.com/st-bender/pynrlmsise00
+Author: Stefan Bender
+Author-email: stefan.bender@ntnu.no
+License: GPLv2
+Requires-Dist: numpy (>=1.13.0)
+Provides-Extra: all
+Requires-Dist: pytest ; extra == 'all'
+Requires-Dist: spaceweather ; extra == 'all'
+Requires-Dist: sphinx (!=3.2.0) ; extra == 'all'
+Requires-Dist: xarray ; extra == 'all'
+Provides-Extra: dataset
+Requires-Dist: spaceweather ; extra == 'dataset'
+Requires-Dist: xarray ; extra == 'dataset'
+Provides-Extra: docs
+Requires-Dist: sphinx (!=3.2.0) ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+# PyNRLMSISE-00
+
+
