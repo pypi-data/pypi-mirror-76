@@ -1,0 +1,20 @@
+[tool.bumpytrack]
+current_version = "1.1.4"
+git_commit = true
+git_tag = true
+
+[[tool.bumpytrack.file_replaces]]
+path = "setup.py"
+search_template = "version=\"{version}\""
+
+[[tool.bumpytrack.file_replaces]]
+path = "README.md"
+search_template = "**Current version:** {version}"
+
+[[tool.bumpytrack.file_replaces]]
+path = "src/bumpytrack.py"
+search_template = "Version: {version}"
+
+[[tool.bumpytrack.file_replaces]]
+path = "tests/bumpytrack_test.py"
+search_template = "Version: {version}"
