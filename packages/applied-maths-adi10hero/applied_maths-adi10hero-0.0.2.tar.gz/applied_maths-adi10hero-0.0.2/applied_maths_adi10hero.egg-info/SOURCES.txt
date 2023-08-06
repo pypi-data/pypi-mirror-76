@@ -1,0 +1,8 @@
+README.md
+setup.py
+applied_maths/__init__.py
+applied_maths/pyhoc.py
+applied_maths_adi10hero.egg-info/PKG-INFO
+applied_maths_adi10hero.egg-info/SOURCES.txt
+applied_maths_adi10hero.egg-info/dependency_links.txt
+applied_maths_adi10hero.egg-info/top_level.txt
