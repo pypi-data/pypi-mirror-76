@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+torchvision_detection/__init__.py
+torchvision_detection/coco_eval.py
+torchvision_detection/coco_utils.py
+torchvision_detection/engine.py
+torchvision_detection/transforms.py
+torchvision_detection/utils.py
+torchvision_detection.egg-info/PKG-INFO
+torchvision_detection.egg-info/SOURCES.txt
+torchvision_detection.egg-info/dependency_links.txt
+torchvision_detection.egg-info/not-zip-safe
+torchvision_detection.egg-info/requires.txt
+torchvision_detection.egg-info/top_level.txt
