@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: nisystemlink-configuration
+Version: 0.1.0
+Summary: A command-line utility for managing SystemLink Server configurations
+Home-page: https://github.com/ni/systemlink-configuration-utility
+Author: NI
+Maintainer: cameronwaterman
+Maintainer-email: cameron.waterman@ni.com
+License: MIT
+Keywords: nisystemlink,systemlink
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+===========  ====================================================
+Info         NI SystemLink Configuration Utility
+Author       National Instruments
+===========  ====================================================
+
+.. _about_section:
+
+About
+=====
+The *nisystemlink-configuration* package contains a command line utility for IT professionals to use
+when managing the configuration of an NI `SystemLink Server <https://ni.com/systemlink>`_ installation.
+
+.. image:: https://badge.fury.io/py/ni/nisystemlink-configuration.svg
+    :target: https://badge.fury.io/py/ni/nisystemlink-configuration
+
+.. _requirements_section:
+
+Requirements
+============
+**nisystemlink-configuration** has the following requirements:
+
+* A SystemLink Server installation
+    - Version 2020R3 or later
+    - Single-box installation
+* Python
+    - Version >= 3.7 - `Python Installers <https://www.python.org/downloads/>`_
+    - PATH environment variable
+
+.. _usage_section:
+
+Usage
+=====
+See the `docs <docs>`_ for documentation on usage of the utility.
+
+.. _contributing_section:
+
+Contributing
+============
+See the `contributing guideline <CONTRIBUTING.md>`_ for how to set up and submit
+contributions to the *nisystemlink-configuration*.
+
+
