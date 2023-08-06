@@ -1,0 +1,17 @@
+dbt/adapters/presto/__init__.py,sha256=aaJG2__nLYR9ctpBllYEkNa4Y3HOwrytVDWpZuYxXOE,451
+dbt/adapters/presto/__version__.py,sha256=4IwcmsNj8hgCbGiQ0g5zHV57IR2i1IJnh5KzTtYcfGQ,19
+dbt/adapters/presto/column.py,sha256=mDXkxdlMhG9p7zMqEzGKdx5pe4sGSILPDgO6EgLVuik,222
+dbt/adapters/presto/connections.py,sha256=hr0MByFt5yCTD66hy44TSWaZk_aazLAP9i0nkOnfaWU,7281
+dbt/adapters/presto/impl.py,sha256=EoOc3u4h-dkUtwf84Z05Lt-4Nv_xYBIcThsKdwWmMec,701
+dbt/include/presto/__init__.py,sha256=MPQnGccFsedAruDmH7jUXQ4DyS19z-jk8Sty9zdMXVc,51
+dbt/include/presto/dbt_project.yml,sha256=vUgvUPrMM74sYuZcv1WUKWbmDNIoLpQp8P604RBavJ8,73
+dbt/include/presto/macros/adapters.sql,sha256=xHr3spLZ333WyGnthYyyo_kxFiXsDUYyqM8GRr5IHf0,4210
+dbt/include/presto/macros/catalog.sql,sha256=RZGrtG1y4QXZzLwQi27xdQF3NEQ84I3hXM5QB80JT2g,1556
+dbt/include/presto/macros/materializations/archive.sql,sha256=AMa8YWcBrwg4FCX7uI6xC0PIlw2LBTnRYY6XeeDbcPo,186
+dbt/include/presto/macros/materializations/incremental.sql,sha256=pljW-kkTyCQxtvNWa3Av6gkY7qRV-vWtQK_eff2dmOs,194
+dbt/include/presto/macros/materializations/table.sql,sha256=WL8V-gjeeRMXdfgIr_PY_NeYGCtXtb4SXwD4VoVhxPA,2419
+dbt/include/presto/macros/materializations/view.sql,sha256=UEI0b3xeszelSgbDDEIxPWQts0c-Obzd_ScK1FjY9L0,115
+dbt_presto-0.17.2.dist-info/METADATA,sha256=mLjPQM98O74iaBx01ht8DrTW_PuTr8W9bILTy4qlThk,4594
+dbt_presto-0.17.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dbt_presto-0.17.2.dist-info/top_level.txt,sha256=B2YH4he17ajilEWOGCKHbRcEJlCuZKwCcgFcLPntLsE,4
+dbt_presto-0.17.2.dist-info/RECORD,,
