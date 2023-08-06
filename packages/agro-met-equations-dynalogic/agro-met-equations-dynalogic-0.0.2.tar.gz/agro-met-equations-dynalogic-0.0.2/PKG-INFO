@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: agro-met-equations-dynalogic
+Version: 0.0.2
+Summary: Library for agrometeorological calculation like evapotranspiration, water balance, degree days, etc
+Home-page: https://github.com/dynalogic-agtech/dynalogic-agro-met-equations-pkg/
+Author: Bruno Ducraux
+Author-email: bducraux@dynalogic.net
+License: BSD 3-Clause
+Description: # Agrometeorological Equations Package  
+        ## Library for agrometeorological calculation like evapotranspiration, water balance, degree days, etc
+        
+        |      |                                      |
+        |------|--------------------------------------|
+        |Owner:   | [![Dynalogic](http://dynalogic.net/wp-content/uploads/2017/08/logo200.png)](http://dynalogic.net) |
+        |Author:  | Bruno Ducraux                     |
+        |Email:   | bducraux@dynalogic.net            |
+        | Based on: | [PyEto](https://github.com/woodcrafty/PyETo)|
+        | | |
+        ---
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
