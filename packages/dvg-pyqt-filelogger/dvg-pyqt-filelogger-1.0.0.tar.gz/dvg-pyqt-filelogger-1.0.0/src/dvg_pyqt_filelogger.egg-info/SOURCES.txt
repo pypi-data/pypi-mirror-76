@@ -1,0 +1,13 @@
+AUTHORS.rst
+CHANGELOG.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+src/dvg_pyqt_filelogger.py
+src/dvg_pyqt_filelogger.egg-info/PKG-INFO
+src/dvg_pyqt_filelogger.egg-info/SOURCES.txt
+src/dvg_pyqt_filelogger.egg-info/dependency_links.txt
+src/dvg_pyqt_filelogger.egg-info/not-zip-safe
+src/dvg_pyqt_filelogger.egg-info/requires.txt
+src/dvg_pyqt_filelogger.egg-info/top_level.txt
