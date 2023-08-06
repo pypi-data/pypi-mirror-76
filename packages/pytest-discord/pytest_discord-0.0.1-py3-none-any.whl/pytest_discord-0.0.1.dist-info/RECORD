@@ -1,0 +1,10 @@
+pytest_discord/__init__.py,sha256=XOL6wHg6Soy0p0rLr8rTl6ER9yKknp0H1d0WjfbxA50,88
+pytest_discord/__version__.py,sha256=CXdLwBmBUH4ITS21svGChYGBdrxf0ESDYCsZiSJ8RDQ,209
+pytest_discord/_const.py,sha256=D-7MLCPYuLg3vCwl8PNZ1qtylRZzh2Sgcy0PaI74IvE,1879
+pytest_discord/plugin.py,sha256=tOmapSIFol2vFmqOwZ7gSIvvTkzBRQl9jqKfYqg2jR4,12141
+pytest_discord-0.0.1.dist-info/LICENSE,sha256=9BoEVtXyu6Jf1NflC1GpXeMEdw_x21p5UV0DOXqRTY0,1074
+pytest_discord-0.0.1.dist-info/METADATA,sha256=xxfksPz8RQztpeqMBL5XTj76a4jw--5jU4SXqdGfTkU,6712
+pytest_discord-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytest_discord-0.0.1.dist-info/entry_points.txt,sha256=JyBMb-sPUtiAnWSZNs3YbhJS6gMkQXDapPsXbJM5Ge0,51
+pytest_discord-0.0.1.dist-info/top_level.txt,sha256=1RzECzpVh2GYXwy3_cOizhNM2lDROtR0pDwuFZQFTas,15
+pytest_discord-0.0.1.dist-info/RECORD,,
