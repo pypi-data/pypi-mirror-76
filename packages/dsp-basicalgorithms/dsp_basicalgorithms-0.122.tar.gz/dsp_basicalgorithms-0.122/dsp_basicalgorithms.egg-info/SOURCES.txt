@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+dsp_basicalgorithms.egg-info/PKG-INFO
+dsp_basicalgorithms.egg-info/SOURCES.txt
+dsp_basicalgorithms.egg-info/dependency_links.txt
+dsp_basicalgorithms.egg-info/top_level.txt
+dspalgorithm/__init__.py

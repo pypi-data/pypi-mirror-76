@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: dsp-basicalgorithms
+Version: 0.122
+Summary: Basic Dsp algorithms and Filter Design
+Home-page: UNKNOWN
+Author: Shivaprasad Rao
+Author-email: shivarao101@gmail.com
+License: UNKNOWN
+Description: This package consists of several basic dsp algorithms implemented such as linear convolution,
+        circular convolution, Discret fourier transform, auto-correlation, cross-correlation, Fir filter
+        
+        Change Log
+        =============
+        
+        0.122(14/8/2020)
+        
+        =============
+        - Third Release
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
