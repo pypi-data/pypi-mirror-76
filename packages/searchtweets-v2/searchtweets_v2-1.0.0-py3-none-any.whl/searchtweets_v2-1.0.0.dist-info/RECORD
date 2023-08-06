@@ -1,0 +1,13 @@
+searchtweets/__init__.py,sha256=12Y0G2ounXKuj3-hqiw4rIMyWyM5rapOUD7wRqUL_FQ,284
+searchtweets/_version.py,sha256=Qf_ueG4hojwCihifLPgJcuQYe9XwTLKtZH-7C-zUKWQ,144
+searchtweets/api_utils.py,sha256=GaikMNzTz8TaWxVGbror1hP21650oI5fZoycxt8GOF0,6647
+searchtweets/credentials.py,sha256=LrlV_9sCRk7C-Ko9QbmEWSCpU7RWvw6kgCN6D4CX0h8,6024
+searchtweets/result_stream.py,sha256=lzulHqZWmWHrDaIlTMQBS2SP1qcG4rA02U6eY3vXPm8,11340
+searchtweets/utils.py,sha256=KvzWex6XldFFj3zAT8cMYcHmFWRhRJItgFPMeNOzyG0,6691
+searchtweets_v2-1.0.0.data/scripts/poll_tweets.py,sha256=M4v_tI7u_K2VIOVh8X4JVJYjh_IJ4nZm9CI1OFkyWss,10256
+searchtweets_v2-1.0.0.data/scripts/search_tweets.py,sha256=jOkQiRnqfNlL9bhrCmPQGP8Ys_uip_OZYO4M70K3f80,8837
+searchtweets_v2-1.0.0.dist-info/LICENSE,sha256=zDUBKtBXSxFjH5dPds-Eg1zeca-qCHJ19eBZCmMAxXY,1070
+searchtweets_v2-1.0.0.dist-info/METADATA,sha256=2TfEyLh7S6Qdto9uXEKliMrdjuce0nWG6kvo4a_pExY,27376
+searchtweets_v2-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+searchtweets_v2-1.0.0.dist-info/top_level.txt,sha256=CqUhTHNdXCMTnDsiH1iH_uGqWFw467MH51qzJvAuHis,13
+searchtweets_v2-1.0.0.dist-info/RECORD,,
