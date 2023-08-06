@@ -1,0 +1,8 @@
+requests
+pykafka
+pyodbc
+pandas
+deprecated
+retrying
+azure-common
+azure-storage
