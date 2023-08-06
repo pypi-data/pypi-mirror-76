@@ -1,0 +1,8 @@
+autoindex.py
+setup.py
+autoindex.egg-info/PKG-INFO
+autoindex.egg-info/SOURCES.txt
+autoindex.egg-info/dependency_links.txt
+autoindex.egg-info/entry_points.txt
+autoindex.egg-info/requires.txt
+autoindex.egg-info/top_level.txt
