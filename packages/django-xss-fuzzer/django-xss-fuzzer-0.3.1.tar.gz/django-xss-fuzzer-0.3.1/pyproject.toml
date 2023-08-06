@@ -1,0 +1,29 @@
+[build-system]
+requires = ["flit_core >=2,<4", "Django >= 2.0"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "django_xss_fuzzer"
+dist-name = "django-xss-fuzzer"
+keywords = "django,xss,security,testing"
+requires-python = ">=3.5"
+description-file = "README.md"
+author = "Anthony Shaw"
+author-email = "anthonyshaw@apache.org"
+home-page = "https://github.com/tonybaloney/django-xss-fuzzer"
+requires = ["Django >= 2.0"]
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Framework :: Pytest"]
+
+[tool.flit.entrypoints."pytest11"]
+django_xss_fuzzer = "django_xss_fuzzer.pytest_plugin"
+
+[tool.flit.metadata.requires-extra]
+test = [
+    "pytest >= 5.0.0",
+    "pytest-django",
+    "selenium",
+    "pytest-selenium",
+    "pytest-pythonpath"
+]

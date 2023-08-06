@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <title>Test Site</title>
+</head>
+<body>
+Sample String:
+    {{ safe_str | safe }}
+<img src={{ non_quoted_attribute | safe}} />
+<div class="{{ quoted_attribute }}">
+    example tag
+</div>
+<script type="application/javascript">
+    console.log('--PASS--');
+</script>
+<script type="application/javascript">
+    {{ direct_js_string }}
+</script>
+</body>
+</html>

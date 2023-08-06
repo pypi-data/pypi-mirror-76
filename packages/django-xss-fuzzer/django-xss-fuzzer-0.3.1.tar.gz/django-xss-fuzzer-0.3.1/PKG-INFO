@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: django-xss-fuzzer
+Version: 0.3.1
+Summary: django-xss-fuzzer: An XSS vulnerability fuzz tester for Django views.
+Home-page: https://github.com/tonybaloney/django-xss-fuzzer
+Author: Anthony Shaw
+Author-email: anthonyshaw@apache.org
