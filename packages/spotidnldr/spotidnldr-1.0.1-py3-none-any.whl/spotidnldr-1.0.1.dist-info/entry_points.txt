@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        spoti=spotidnldr.clifi:download
+    
