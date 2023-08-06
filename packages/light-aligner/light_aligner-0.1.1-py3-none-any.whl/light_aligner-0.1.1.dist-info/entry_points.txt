@@ -1,0 +1,3 @@
+[console_scripts]
+light-aligner=light_aligner.__main__:main
+
