@@ -1,0 +1,11 @@
+fluyt_nightly-0.1.0.dev20200817150023.data/purelib/fluyt/__init__.py,sha256=FXby8IugaYPU7AIfC-RtHJzX-oOXzQAK95COK0cfeE8,764
+fluyt_nightly-0.1.0.dev20200817150023.data/purelib/fluyt/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fluyt_nightly-0.1.0.dev20200817150023.data/purelib/fluyt/core/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fluyt_nightly-0.1.0.dev20200817150023.data/purelib/fluyt/core/python/api/__init__.py,sha256=z110PlHSZBGhvfgASwFbDQUYI7LoSAj03sxDlFjrctw,773
+fluyt_nightly-0.1.0.dev20200817150023.data/purelib/fluyt/core/python/ops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fluyt_nightly-0.1.0.dev20200817150023.data/purelib/fluyt/core/python/ops/core_ops.py,sha256=gUK3a5gy9KYXrdw8KatqOvl_oxABtfPsEX5M5IFlfaQ,1821
+fluyt_nightly-0.1.0.dev20200817150023.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+fluyt_nightly-0.1.0.dev20200817150023.dist-info/METADATA,sha256=NzmWnFzROgUUnoc0Tmcw5i_UZJDearUQz-zl3yJeeVc,212
+fluyt_nightly-0.1.0.dev20200817150023.dist-info/WHEEL,sha256=9MdUI0OzwjYaHl3jWlKFDIJ5MFBPjwppNgWNtexntqg,105
+fluyt_nightly-0.1.0.dev20200817150023.dist-info/top_level.txt,sha256=6YbZFDc4VXh72aBFRidzFIQkxZrlgmQKSvhFn3Ls32E,6
+fluyt_nightly-0.1.0.dev20200817150023.dist-info/RECORD,,
