@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: aioextensions
+Version: 20.8.791959
+Summary: 
+Home-page: https://github.com/kamadorueda/aioextensions
+License: MIT
+Author: Kevin Amado
+Author-email: kamadorueda@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: uvloop
+Project-URL: Repository, https://github.com/kamadorueda/aioextensions
+Description-Content-Type: text/markdown
+
+# Aioextensions
+
+[![PyPI](https://img.shields.io/pypi/v/aioextensions)](https://pypi.org/project/aioextensions)
+[![Status](https://img.shields.io/pypi/status/aioextensions)](https://pypi.org/project/aioextensions)
+[![Downloads](https://img.shields.io/pypi/dm/aioextensions)](https://pypi.org/project/aioextensions)
+[![License](https://img.shields.io/pypi/l/aioextensions)](https://github.com/kamadorueda/aioextensions/blob/latest/LICENSE.md)
+
