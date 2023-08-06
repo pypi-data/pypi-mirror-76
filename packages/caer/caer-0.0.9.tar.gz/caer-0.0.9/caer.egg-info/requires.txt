@@ -1,0 +1,4 @@
+tensorflow
+numpy
+opencv-contrib-python
+os
