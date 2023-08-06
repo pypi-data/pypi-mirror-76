@@ -1,0 +1,12 @@
+armcor/__init__.py,sha256=Oz803gtLQcQVH_r0f9anMZeUr4y1KDk-X4zQIcaJnLs,18
+armcor/ocr.py,sha256=d4Abf1XSYTL_BIyHKUEeuhs4WVNjaktaX_oEcr_gpUA,2951
+armcor/combo/encoders.py,sha256=53E_u0l074ifnpuaKZxCXe8PQIAURP7rnbnV9qfG1q4,14053
+armcor/combo/main.py,sha256=hWvhhU8GKgiG8yLEosZzAhVLm-GwFlXXkLEZ_OiQYQI,14665
+armcor/combo/models.py,sha256=y76-MOPLbayQXsIE7aVb-70C4MWum4Q10AcMzd-qrUo,17094
+armcor/combo/mst.py,sha256=AqLaeCgNYPAT0cPaQsE0If5RfCb5f0iRPw8CfQl1ZfQ,3848
+armcor/combo/parser.py,sha256=a6GkZdEWHAC00nO8RqSmAOZ9Hu6CwX7NzONYSfQNLCk,8376
+armcor/combo/utils.py,sha256=mKD8-xkNo7eOg7xDNN4dC28Jnr5OeZSqWcfYvER0xEY,9085
+armcor-0.1.dist-info/METADATA,sha256=zD8jzDwADbycPFx4baoOkdXNR3_-0kEQQv6ITtAIVGM,874
+armcor-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+armcor-0.1.dist-info/top_level.txt,sha256=psEHrsog5BAw1JA8Buoa6tx6CUgixdry0eh0-Xja4yM,7
+armcor-0.1.dist-info/RECORD,,
