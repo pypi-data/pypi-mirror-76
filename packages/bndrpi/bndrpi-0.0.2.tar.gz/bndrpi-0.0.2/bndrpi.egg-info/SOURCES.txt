@@ -1,0 +1,8 @@
+README.md
+setup.py
+bndrpi.egg-info/PKG-INFO
+bndrpi.egg-info/SOURCES.txt
+bndrpi.egg-info/dependency_links.txt
+bndrpi.egg-info/top_level.txt
+common/__init__.py
+test/test.py
