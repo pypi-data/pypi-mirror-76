@@ -1,0 +1,6 @@
+README.md
+setup.py
+believe.egg-info/PKG-INFO
+believe.egg-info/SOURCES.txt
+believe.egg-info/dependency_links.txt
+believe.egg-info/top_level.txt
