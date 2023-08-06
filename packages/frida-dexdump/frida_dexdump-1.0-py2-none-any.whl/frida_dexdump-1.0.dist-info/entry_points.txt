@@ -1,0 +1,3 @@
+[console_scripts]
+frida-dexdump = frida_dexdump.main:entry
+
