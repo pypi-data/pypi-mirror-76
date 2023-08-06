@@ -1,0 +1,8 @@
+README.md
+setup.py
+sparseregression/__init__.py
+sparseregression/linear.py
+sparseregression.egg-info/PKG-INFO
+sparseregression.egg-info/SOURCES.txt
+sparseregression.egg-info/dependency_links.txt
+sparseregression.egg-info/top_level.txt
