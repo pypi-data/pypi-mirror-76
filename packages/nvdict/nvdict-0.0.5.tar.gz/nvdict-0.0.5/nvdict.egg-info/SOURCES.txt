@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+RESOURCES/.suffix
+RESOURCES/dummy
+nvdict/__init__.py
+nvdict/attr_func.py
+nvdict/dcls.py
+nvdict/dict_func.py
+nvdict/term_func.py
+nvdict/util.py
+nvdict.egg-info/PKG-INFO
+nvdict.egg-info/SOURCES.txt
+nvdict.egg-info/dependency_links.txt
+nvdict.egg-info/entry_points.txt
+nvdict.egg-info/top_level.txt
