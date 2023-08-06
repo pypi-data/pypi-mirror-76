@@ -1,0 +1,9 @@
+quantumML/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quantumML/machine_learning.py,sha256=u7JktB-FW_YCp7wp0AcTBzv78foX6TcIDmisxuwf2R0,8355
+quantumML/rest.py,sha256=X5xhrBIfwt8HQezFAFD5D_sJKkI2v0-4koeDLC6q8i4,15173
+quantumML/workflows.py,sha256=uFyFKUb6ju5anxyCgzchlWnqY1O0ji9yKvXyjTi0-kA,12192
+quantumML-0.0.6.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+quantumML-0.0.6.dist-info/METADATA,sha256=7-aupSlS5zphti7Pfjiz3E6COgxqSM2SBpqO7Jkfp9k,626
+quantumML-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+quantumML-0.0.6.dist-info/top_level.txt,sha256=-uFKUwqG55cle90aNg9o9scJIHvrN0dY_tI1IgjgNOk,10
+quantumML-0.0.6.dist-info/RECORD,,
