@@ -1,0 +1,4 @@
+#!/bin/bash
+
+EDITING_MODE="${1:-emacs}"
+ipython3 -m minirobots -i --TerminalInteractiveShell.editing_mode=${EDITING_MODE}

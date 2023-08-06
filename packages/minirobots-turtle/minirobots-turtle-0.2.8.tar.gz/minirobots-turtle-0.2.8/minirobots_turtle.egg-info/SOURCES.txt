@@ -1,0 +1,42 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bin/minirobots-serial-monitor
+bin/minirobots-shell
+bin/minirobots-tutorial
+minirobots/__init__.py
+minirobots/__main__.py
+minirobots/turtle.py
+minirobots-tutorial/Desplazamiento de la tortuga.ipynb
+minirobots-tutorial/Detener la tortuga.ipynb
+minirobots-tutorial/Extender la clase Turtle.ipynb
+minirobots-tutorial/Index.ipynb
+minirobots-tutorial/Jugar con los leds.ipynb
+minirobots-tutorial/Múltiples tortugas.ipynb
+minirobots-tutorial/Optimizar la comunicación con la tortuga.ipynb
+minirobots-tutorial/Primeros pasos.ipynb
+minirobots-tutorial/Subir y bajar el lápiz.ipynb
+minirobots-tutorial/Tocar notas y hacer melodías.ipynb
+minirobots-tutorial/canvas_adelante_atras.png
+minirobots-tutorial/canvas_cuadrado.png
+minirobots-tutorial/canvas_estrellas_al_azar.png
+minirobots-tutorial/canvas_hexagono.png
+minirobots-tutorial/canvas_inicio.png
+minirobots-tutorial/canvas_linea_punteada.png
+minirobots-tutorial/canvas_octogono.png
+minirobots-tutorial/canvas_pentagono.png
+minirobots-tutorial/canvas_triangulo.png
+minirobots-tutorial/canvas_triangulo_lineas_punteadas.png
+minirobots-tutorial/minirobots.py
+minirobots-tutorial/notas_musicales.png
+minirobots-tutorial/.jupyter/migrated
+minirobots-tutorial/.jupyter/custom/custom.css
+minirobots-tutorial/.jupyter/custom/custom.js
+minirobots-tutorial/.jupyter/custom/favicon.ico
+minirobots-tutorial/.jupyter/custom/logo.png
+minirobots_turtle.egg-info/PKG-INFO
+minirobots_turtle.egg-info/SOURCES.txt
+minirobots_turtle.egg-info/dependency_links.txt
+minirobots_turtle.egg-info/requires.txt
+minirobots_turtle.egg-info/top_level.txt
