@@ -1,0 +1,7 @@
+hat/duktape/__init__.py,sha256=D3cQgVlvMUT_2N0aC9mUNz5arttT7FfmLQpdNA3JaeY,13227
+hat/duktape/duktape.so,sha256=Oy8xpQDBY2rLmB0nj867DRFOanMuJuLgfhxxoS2z_Bc,468192
+hat_duktape-0.4.0.dev20200812.dist-info/METADATA,sha256=bNDmMn7XjR3NDppCzxsFEbkHRUfqiEEl_AIjZmMjWCs,5081
+hat_duktape-0.4.0.dev20200812.dist-info/WHEEL,sha256=-qfrUsnDll8Di3kMvmbV0O_UvGWhj8nA3kGzzc5E-0U,107
+hat_duktape-0.4.0.dev20200812.dist-info/entry_points.txt,sha256=mUNMmpYTR3SQX28bXHIajDqBXHktexsbcq1_r41xrys,36
+hat_duktape-0.4.0.dev20200812.dist-info/top_level.txt,sha256=3RuRoRsaXQZNKwr3T2RE9XepBRTk4YpnXUbMiH5nes8,4
+hat_duktape-0.4.0.dev20200812.dist-info/RECORD,,
