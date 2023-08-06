@@ -1,0 +1,10 @@
+pydantic_kms_secrets/__init__.py,sha256=p3_7rtN4Adn7HF318tx5ebpdUuX2_h9oDQPxfugZbnY,90
+pydantic_kms_secrets/cli.py,sha256=MagGBs0nPqDSJ1plputjvOWZLtFX0yl1DpMz9DxT7ws,1760
+pydantic_kms_secrets/kms.py,sha256=lj5YkcpyE8XgApL6QE5i81a4xI3MJDzPsVCsoI_bk1A,693
+pydantic_kms_secrets/pydantic.py,sha256=PYvC7BGZlJgY9ymF-BYb--vsmpami-TCTUYWy6MsMZI,1894
+pydantic_kms_secrets-0.2.0.dist-info/LICENSE,sha256=I5bCfX2K9wjXp_jqFtiVM0qXoy35kisNdWdz22cDBz4,1067
+pydantic_kms_secrets-0.2.0.dist-info/METADATA,sha256=AhmXgvwVykm0Mw29vq-gDeKJFcWtE-zp9YA6LDMyStY,3652
+pydantic_kms_secrets-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pydantic_kms_secrets-0.2.0.dist-info/entry_points.txt,sha256=0iDegDXVPiptJ6SGmoNhIh4mCdDMlbx4ecnGS_gFYRE,55
+pydantic_kms_secrets-0.2.0.dist-info/top_level.txt,sha256=upUW5rU3W5bvjiqRomwQ2dhy8vCo3UxqS-Te2GV78TI,21
+pydantic_kms_secrets-0.2.0.dist-info/RECORD,,
