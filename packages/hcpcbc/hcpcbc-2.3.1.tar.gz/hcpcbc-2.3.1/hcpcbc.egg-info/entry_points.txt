@@ -1,0 +1,3 @@
+[console_scripts]
+hcpcbc = cbc.__main__:main
+
