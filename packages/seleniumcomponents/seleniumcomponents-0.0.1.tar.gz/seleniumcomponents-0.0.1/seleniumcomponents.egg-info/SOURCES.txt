@@ -1,0 +1,10 @@
+README.md
+setup.py
+seleniumcomponents/__init__.py
+seleniumcomponents.egg-info/PKG-INFO
+seleniumcomponents.egg-info/SOURCES.txt
+seleniumcomponents.egg-info/dependency_links.txt
+seleniumcomponents.egg-info/requires.txt
+seleniumcomponents.egg-info/top_level.txt
+seleniumcomponents/components/SliderComponent.py
+seleniumcomponents/components/__init__.py

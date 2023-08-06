@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: seleniumcomponents
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/pypa/sampleproject
+Author: Example Author
+Author-email: author@example.com
+License: UNKNOWN
+Description: # SeleniumComponents
+        
+        This is a reusable package which can be installed into local machine using pip.
+        
+        ## Install 
+        
+        Below command should be used to install this package -
+        
+        pip install ./seleniumcomponents
+        
+        This command will also install the the required packages mentioned in setup.py
+        
+        ## Import
+        
+        This package can be imported using below statement-
+        
+        from seleniumcomponents import [classname]
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
