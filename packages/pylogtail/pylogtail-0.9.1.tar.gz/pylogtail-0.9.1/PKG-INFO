@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pylogtail
+Version: 0.9.1
+Summary: Process log file lines that have not been read.
+Home-page: https://gitlab.com/ixydo/python-logtail
+Author: Jinn Koriech
+Author-email: python-logtail@mx.ixydo.com
+License: UNKNOWN
+Description: # Python logtail
+        
+        Python implementation of the logtail tool for use in python projects to process log file lines that have not been read.
+        
+        ## Usage
+        
+        ```
+        #!/usr/bin/env python3
+        
+        from logtail import logtail
+        
+        log = logtail("file.log")
+        
+        for line in log.readline():
+            if line:
+                print(line.rstrip())
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

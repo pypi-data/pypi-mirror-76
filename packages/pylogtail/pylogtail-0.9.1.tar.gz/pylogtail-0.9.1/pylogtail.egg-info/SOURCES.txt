@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+logtail/__init__.py
+pylogtail.egg-info/PKG-INFO
+pylogtail.egg-info/SOURCES.txt
+pylogtail.egg-info/dependency_links.txt
+pylogtail.egg-info/top_level.txt
