@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: googling
+Version: 0.0.1
+Summary: python package by lcb
+Home-page: https://me.csdn.net/?c=4b2bc19803048d5a5cc6fccd3a122c25&c=95dcfcbe1ad229d37dd2c2888b8639ab
+Author: chambin
+Author-email: 2281181505@qq.com
+License: UNKNOWN
+Description: this is a test package by chambin.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
