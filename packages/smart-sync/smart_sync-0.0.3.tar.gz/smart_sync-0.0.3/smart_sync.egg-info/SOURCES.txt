@@ -1,0 +1,17 @@
+README.md
+setup.py
+core/__init__.py
+core/client_flask_img.py
+core/infer.py
+core/infer_label.py
+core/mq_write.py
+core/oss_upload_img.py
+core/pic_snapshots.py
+core/send_email.py
+core/send_msg.py
+core/server_ai_xunjian.py
+smart_sync.egg-info/PKG-INFO
+smart_sync.egg-info/SOURCES.txt
+smart_sync.egg-info/dependency_links.txt
+smart_sync.egg-info/requires.txt
+smart_sync.egg-info/top_level.txt
