@@ -1,0 +1,112 @@
+{% extends "bootstrap/base.html" %}
+
+{% block head %}
+{{ super() }}
+    <style>
+      body { background-color:#555888; font-family:sans-serif; color:#fff; text-align:center }
+      code { display:inline-block; max-width:600px;  padding:80px 0 0; line-height:1.5; font-family:monospace; color:#ccc }
+      body img#github {
+      	position: absolute;
+      	top: 0;
+      	right: 0;
+      	border: 0;
+      }
+      #footer {
+      	width: 960px;
+      	height: 50px;
+      	margin: 0 auto;
+      	padding: 0px 0 15px 0;
+      	border-top: 1px solid #292929;
+      }
+
+      #footer p {
+      	margin: 0;
+      	padding-top: 20px;
+      	line-height: normal;
+      	text-transform: uppercase;
+      	text-align: center;
+      	color: #444444;
+      }
+
+      #footer a {
+      	color: #444444;
+      }
+
+      .container { width:100%; }
+      .sc-gauge  { width:200px; margin:30px auto; }
+      .sc-background { position:relative; height:100px; margin-bottom:10px; background-color:#fff; border-radius:150px 150px 0 0; overflow:hidden; text-align:center; }
+      .sc-mask { position:absolute; top:20px; right:20px; left:20px; height:80px; background-color:#555888; border-radius:150px 150px 0 0 }
+      .sc-percentage { position:absolute; top:100px; left:-200%; width:400%; height:400%; margin-left:100px; }
+      .sc-percentage { transform:rotate(158deg); transform-origin:top center; }
+      .sc-min { float:left; color: transparent; }
+      .sc-max { float:right; color: transparent; }
+      .log-gravity { position:absolute; top:25%; left:0; width:100%;  font-size:22px; font-weight:700 }
+      .log-temp { position:absolute; top:50%; left:0; width:100%;  font-size:18px; font-weight:700 }
+      .log-color { position:absolute; top:75%; left:0; width:100%;  font-size:12px; }
+      .log-timestamp { position:absolute; top:90%; left:0; width:100%;  font-size:8px; }
+    </style>
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function(){
+          var socket = io.connect('http://' + document.domain + ':' + location.port + '/');
+          var start_time;
+          window.setInterval(function() {
+              start_time = (new Date).getTime();
+              socket.emit('refresh');
+          }, 2000);
+          socket.on('refresh', function(msg) {
+            for (data in msg.data) {
+              var container = document.getElementById("container");
+              var gaugeData = [
+                `<div id="${msg.data[data].mac}" class="sc-gauge">`,
+                '  <div class="sc-background">',
+                `    <div id="${msg.data[data].mac}-sc-percentage" class="sc-percentage"></div>`,
+                '    <div class="sc-mask"></div>',
+                '    <span class="sc-value">',
+                `      <p class="log-gravity" id="${msg.data[data].mac}-log-gravity"></p>`,
+                `      <p class="log-temp" id="${msg.data[data].mac}-log-temp"></p>`,
+                `      <p class="log-color" id="${msg.data[data].mac}-log-color"></p>`,
+                `      <p class="log-timestamp" id="${msg.data[data].mac}-log-timestamp"></p>`,
+                '    </span>',
+                '  </div>',
+                '  <span class="sc-min">1</span>',
+                '  <span class="sc-max">1.1</span>',
+                '</div>',
+              ].join("\n");
+              if(
+                $('#container').find(`[id*="${msg.data[data].mac}"]`).length == 0
+              ) {
+                $('#container').append(gaugeData);
+              }
+              var perc = document.getElementById(`${msg.data[data].mac}-sc-percentage`);
+              var percentValue = (((msg.data[data].gravity-1.0)*1000)*100)/((1.08-1.0)*1000);
+              $(perc).css({ transform: 'rotate(' + 180*(percentValue/100) + 'deg)'});
+              document.getElementById(`${msg.data[data].mac}-sc-percentage`).style["background-color"] = msg.data[data].color;
+              document.getElementById(`${msg.data[data].mac}-log-color`).innerHTML = msg.data[data].color + '(' + msg.data[data].mac + ')';
+              document.getElementById(`${msg.data[data].mac}-log-gravity`).innerHTML = msg.data[data].gravity;
+              document.getElementById(`${msg.data[data].mac}-log-temp`).innerHTML = msg.data[data].temp + '&deg;';
+              document.getElementById(`${msg.data[data].mac}-log-timestamp`).innerHTML = 'Last updated: ' + msg.data[data].timestamp;
+            };
+          });
+      });
+    </script>
+{% endblock %}
+
+{% block body %}
+
+<a href="https://github.com/myoung34/tilty-dashboard" target="_blank">
+	<img id="github" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
+</a>
+
+<!-- Build a custom look here that all pages can inherit. -->
+<div class="row">
+  <div class="col-md-12">
+    {% block content %}
+    {% endblock %}
+  </div>
+</div>
+<div id="footer">
+	<p>Maintained by <a href="https://marcyoung.us">Marc Young</a></p>
+</div>
+{% endblock %}
