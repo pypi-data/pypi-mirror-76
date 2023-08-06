@@ -1,0 +1,11 @@
+image_slicer/__init__.py,sha256=6AeiQoM8roevHHBCFvoUMSqxDZIuI7mHUiYSweVHM7c,405
+image_slicer/helpers.py,sha256=icqN0E-MxacEcaF2W7UcN1Fya8vkd4tiK0EoP1o7McA,838
+image_slicer/main.py,sha256=Yy4vNducntazaIlbUAtBED2TSetf0YVy5Ye5QHmq_nU,7783
+image_slicer/bin/__init__.py,sha256=qrQdr1ll_1yJ6uTb5Rq9zCY1jQp8tPMoNe9JlFjDPr8,69
+image_slicer/bin/slice.py,sha256=CF1pMekYHQz9whNjqJzU3LXQxbawCfkNoJral50Y3ks,2482
+image_slicer-2.1.1.dist-info/LICENSE,sha256=wlud0i9i9BE1fZ3P7MNvAnGMwT8lm2Ef047HDxn-qC8,1055
+image_slicer-2.1.1.dist-info/METADATA,sha256=3OqMZVE_JSUyLVhLQIVAJMzXERyLcsSk-L2At7ppfMU,4385
+image_slicer-2.1.1.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+image_slicer-2.1.1.dist-info/entry_points.txt,sha256=RaTSlzxePRBeAr--Rn1h_uL_ibesn1ZovvGZW8mV4N8,61
+image_slicer-2.1.1.dist-info/top_level.txt,sha256=VbtqrDZ70j0XcXLx_WSYB4S9G8c0SJyEwCMW1Mc3sDc,13
+image_slicer-2.1.1.dist-info/RECORD,,
