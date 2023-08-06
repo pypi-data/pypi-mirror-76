@@ -1,0 +1,13 @@
+CODE_OF_CONDUCT.md
+LICENSE
+MANIFEST.in
+README.md
+TreeCluster.py
+VERSION
+setup.py
+treecluster.egg-info/PKG-INFO
+treecluster.egg-info/SOURCES.txt
+treecluster.egg-info/dependency_links.txt
+treecluster.egg-info/not-zip-safe
+treecluster.egg-info/requires.txt
+treecluster.egg-info/top_level.txt
