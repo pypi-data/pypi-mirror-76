@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: pandas-stocks-tech-analysis
+Version: 0.0.2
+Summary: We used the Bombay stock exchange (BSE) Data to calculate different technical indicators for the batter stock analysis in using pandas
+Home-page: https://github.com/uday171197/pandas-stocks-tech-analysis,https://github.com/rahuldayma7/pandas-stocks-tech-analysis
+Author: 'Uday Gupta & Rahul Dayma'
+Author-email: udaygupta9594@gmail.com,rahuldayma07.rd@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7

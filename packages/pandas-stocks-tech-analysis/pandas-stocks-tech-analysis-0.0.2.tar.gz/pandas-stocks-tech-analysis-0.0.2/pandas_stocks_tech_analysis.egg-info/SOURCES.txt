@@ -1,0 +1,7 @@
+README.md
+setup.py
+Technical_Analysis/__init__.py
+pandas_stocks_tech_analysis.egg-info/PKG-INFO
+pandas_stocks_tech_analysis.egg-info/SOURCES.txt
+pandas_stocks_tech_analysis.egg-info/dependency_links.txt
+pandas_stocks_tech_analysis.egg-info/top_level.txt
