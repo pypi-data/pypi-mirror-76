@@ -1,0 +1,10 @@
+rapidfuzz/__init__.py,sha256=NT29oMkI0BRfb3YE4xxLnDJ0lcGKVAFNdtAEkijdbKg,96
+rapidfuzz/fuzz.cp37-win32.pyd,sha256=jeiqhCpHKULYo3uKU77cVQgQjYx7QIBrA8TpH6jfSvg,185344
+rapidfuzz/levenshtein.cp37-win32.pyd,sha256=IVVweYGbQICUeb-LtkLtGvfNrfbe10dJ11JhF8XBojM,46080
+rapidfuzz/process.py,sha256=DIvY0EcOBuR0jIu2YyV3ZpLvN3UdXGS6Rs0IIaaBgZI,8391
+rapidfuzz/utils.cp37-win32.pyd,sha256=vmDPmjekjm8sAAKwyvSO3u5mrdQMNOXY2EsV6GRbAq4,14336
+rapidfuzz-0.10.0.dist-info/LICENSE,sha256=UZLgcFzb_G2cBTxv8lxLs-mCG06VPshbwdvBkgWotIo,1102
+rapidfuzz-0.10.0.dist-info/METADATA,sha256=SE3vCdmVND7EPLa-87omqgPTJNyI-QpKGhuoumSdj2s,5018
+rapidfuzz-0.10.0.dist-info/WHEEL,sha256=W7gQNdCXaaCQL4_mS6kf-ClnoFRCfSnJ5Gcl1436agg,102
+rapidfuzz-0.10.0.dist-info/top_level.txt,sha256=Oxm3Kk-v28hdkOkW3AVE1EMl8Ml5FPFl32w6V65shvg,10
+rapidfuzz-0.10.0.dist-info/RECORD,,
