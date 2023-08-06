@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: kvuilder
+Version: 1.0.1
+Summary: Kivy Project Template Builder
+Home-page: https://github.com/aprilahijriyan/kvuilder
+Author: Aprila Hijriyan
+Author-email: hijriyan23@gmail.com
+License: MIT
+Description: # kvuilder
+        
+        kvuilder adalah alat sederhana untuk pembuatan template project kivy, untuk memudahkan anda membuat project dengan kivy.
+        
+        # installation
+        
+        Anda dapat menginstall ``kvuilder`` dengan pip, seperti dibawah ini:
+        
+        ```
+        $ pip install kvuilder
+        ```
+        
+        # usage
+        
+        Membuat project.
+        
+        ```
+        $ kvuilder create hello_kivy
+        ```
+        
+        Menjalankan project.
+        
+        ```
+        $ cd hello_kivy
+        $ python main.py
+        ```
+Keywords: kivy kivymd gui android ios desktop application
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Indonesian
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Desktop Environment
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
