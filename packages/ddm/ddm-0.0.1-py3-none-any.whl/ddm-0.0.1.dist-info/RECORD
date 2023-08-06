@@ -1,0 +1,11 @@
+ddm/__init__.py,sha256=Hm8FjaV-F_BuRpkm1yhjdQO33X993hIZ5Y0vnAGBGOI,161
+ddm/baidu.so,sha256=7LlSOTOoNuCr9I5PYTqVrmWinMXdu38b6yN5qo9i8FY,86120
+ddm/common.py,sha256=Pveyc_KY57GTmdkMOJgPMpeHXqIfBJxQYAs-L_3nFdg,2257
+ddm/config.so,sha256=U4cuqBENH64fJXmaHoncvmlKmdIXG2sxpYP3hGSbxK4,71392
+ddm/iflytek.py,sha256=R-F6wb_9gLQC1nSDmkMAwX2bsHfxFr881Jozhf5QUlg,10648
+ddm/ownthink.py,sha256=Tff2zkhqyf56HSJ1Jf-P-4I-uNW6TCN71abjByn5vUA,886
+ddm-0.0.1.dist-info/LICENSE.txt,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+ddm-0.0.1.dist-info/METADATA,sha256=DXarDHwaIrt5pIHB3feHCakXXdNIPmMPFKiwle-QIAk,594
+ddm-0.0.1.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+ddm-0.0.1.dist-info/top_level.txt,sha256=xusWLK9g-bSe7QrLEvxNFUH_3IDQtQYiHHaUJrIzmaI,4
+ddm-0.0.1.dist-info/RECORD,,

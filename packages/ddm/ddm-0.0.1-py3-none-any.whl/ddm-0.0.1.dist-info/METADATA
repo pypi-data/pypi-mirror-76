@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ddm
+Version: 0.0.1
+Summary: This is a package for AI 
+Home-page: https://github.com/NocoldBob/robot
+Author: 快乐风男
+Author-email: fastbiubiu@163.com
+License: UNKNOWN
+Platform: Linux
+Classifier: Topic :: System :: Operating System Kernels :: Linux
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+
+AI项目包
+
+
+
