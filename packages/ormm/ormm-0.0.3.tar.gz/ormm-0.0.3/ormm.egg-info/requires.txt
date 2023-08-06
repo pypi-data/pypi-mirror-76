@@ -1,0 +1,11 @@
+pyomo>=5.0
+pandas>=1
+
+[dev]
+pytest>=6.0
+sphinx>=3.1.2
+sphinx_rtd_theme>=0.5.0
+twine>=3.2.0
+flake8>=3.8.3
+pytest-cov>=2.10.0
+codecov>=2.1.8
