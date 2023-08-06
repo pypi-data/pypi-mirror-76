@@ -1,0 +1,11 @@
+pyuipc.cp35-win32.pyd,sha256=ldiwXZMdzGjFa8RpsTA68_WVuvY7Bbfw5cdRqy9PvUU,24064
+fsuipc/__init__.py,sha256=hzigupSe5SBCTd8XQShY0pf2lDC3qG-qXGdVZkJLBsU,1790
+fsuipc/fsuipc.py,sha256=LI_MkihFLgiB1fCfq2p7NlH8VzOpa1rvvCs-goYwExA,4441
+fsuipc/prepared_data.py,sha256=IA8kqcysyow9IuGsxeAMObC6x8IzS7c6PeyW0Q6pTiY,1118
+fsuipc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyuipc-stubs/__init__.pyi,sha256=gesgtKSNGpqF7nv5kcjKzcAa27LvpRENdTxw3Mnc1xY,1153
+fsuipc-1.0.0.dist-info/LICENSE,sha256=sl_2aoHx9VeAfrt_FgtLrTWQ7mCOcbVX-3-v-LXzdW0,1088
+fsuipc-1.0.0.dist-info/METADATA,sha256=Xlcsbky1euUL7IBvUz9fLmuWQUG-yBTwZR1V4Ww7UU8,1856
+fsuipc-1.0.0.dist-info/WHEEL,sha256=DX1SP-DbAdXMfk6ok9UcWsQdRMX1heXRO4MPf_P4KqE,102
+fsuipc-1.0.0.dist-info/top_level.txt,sha256=ZhioD18E0N7XikloGWuGhM3yNn8U6aErk7MfeWCFtX4,27
+fsuipc-1.0.0.dist-info/RECORD,,
