@@ -1,0 +1,3 @@
+[console_scripts]
+gemina = gemina.__main__:main
+
