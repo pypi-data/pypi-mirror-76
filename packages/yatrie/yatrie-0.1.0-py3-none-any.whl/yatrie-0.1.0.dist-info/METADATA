@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: yatrie
+Version: 0.1.0
+Summary: Python Trie data structure for fast string lookups
+Home-page: https://github.com/surajiyer/trie
+Author: Suraj Iyer
+Author-email: me@surajiyer.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: dill
+
+# Yet Another Trie (YATrie)
+Python Trie data structure implementation for string mapping to values and fast lookups.
+
+## Installation
+`pip install yatrie`
+
