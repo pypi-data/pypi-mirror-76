@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: vavvy-sent-encoder
+Version: 0.0.1
+Summary: This package contains the sentence encoder client implementation.
+Home-page: UNKNOWN
+Author: Vavvy
+Author-email: vavvyox@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

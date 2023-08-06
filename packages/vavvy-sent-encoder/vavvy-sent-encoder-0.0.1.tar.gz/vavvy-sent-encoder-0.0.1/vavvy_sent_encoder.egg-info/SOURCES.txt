@@ -1,0 +1,5 @@
+setup.py
+vavvy_sent_encoder.egg-info/PKG-INFO
+vavvy_sent_encoder.egg-info/SOURCES.txt
+vavvy_sent_encoder.egg-info/dependency_links.txt
+vavvy_sent_encoder.egg-info/top_level.txt
