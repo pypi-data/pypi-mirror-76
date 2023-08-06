@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: feed-stream
+Version: 0.0.2
+Summary: A streamable version of pandas.
+Home-page: https://github.com/mwbrulhardt/feed
+Author: Matthew Brulhardt
+Author-email: mwbrulhardt@gmail.com
+License: GPL
+Description: # feed
+        A streamable version of pandas for online computation.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
