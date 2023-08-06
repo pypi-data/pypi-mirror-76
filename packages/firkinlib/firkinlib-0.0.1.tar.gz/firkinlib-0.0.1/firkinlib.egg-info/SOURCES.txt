@@ -1,0 +1,7 @@
+README.md
+setup.py
+example_pkg/__init__.py
+firkinlib.egg-info/PKG-INFO
+firkinlib.egg-info/SOURCES.txt
+firkinlib.egg-info/dependency_links.txt
+firkinlib.egg-info/top_level.txt
