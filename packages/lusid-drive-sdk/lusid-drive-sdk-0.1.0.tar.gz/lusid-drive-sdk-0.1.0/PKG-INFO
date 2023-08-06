@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: lusid-drive-sdk
+Version: 0.1.0
+Summary: Python SDK for FINBOURNE Drive API
+Home-page: https://github.com/finbourne/drive-sdk-python
+Author: FINBOURNE Technology
+Author-email: engineering@finbourne.com
+License: MIT
+Description: UNKNOWN
+Keywords: OpenAPI,FINBOURNE,LUSID,FINBOURNE Drive API
+Platform: UNKNOWN
