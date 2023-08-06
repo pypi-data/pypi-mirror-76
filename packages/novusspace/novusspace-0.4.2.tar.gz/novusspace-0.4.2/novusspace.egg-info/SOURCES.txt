@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+novusspace/__init__.py
+novusspace/gui.py
+novusspace/update.py
+novusspace/var.py
+novusspace.egg-info/PKG-INFO
+novusspace.egg-info/SOURCES.txt
+novusspace.egg-info/dependency_links.txt
+novusspace.egg-info/requires.txt
+novusspace.egg-info/top_level.txt
