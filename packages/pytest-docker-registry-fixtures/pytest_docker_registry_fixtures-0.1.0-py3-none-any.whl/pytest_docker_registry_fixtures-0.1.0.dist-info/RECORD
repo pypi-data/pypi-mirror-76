@@ -1,0 +1,16 @@
+pytest_docker_registry_fixtures/__init__.py,sha256=uJpmfmkTRf4_lZTqESyOuqgvzE3M_PBt2Ag-htA2FPA,215
+pytest_docker_registry_fixtures/conftest.py,sha256=4_IOXTENF3DaSX4a995O91fAvGjWorBvLlIYgcWtyqY,1560
+pytest_docker_registry_fixtures/docker-compose.yml,sha256=04WLX2vp6lsVDnB1qN_KYyXa6e2kN_7RMn9ADYc8lxA,955
+pytest_docker_registry_fixtures/fixtures.py,sha256=56xnxCWZo8zVQDDCIme6Scro6T21xnndK4qupMtMZB8,11895
+pytest_docker_registry_fixtures/imagename.py,sha256=XwRJwR1v1zPetIdwPxH7VU3TVXHjIG9iSTxQEuYBFnQ,5132
+pytest_docker_registry_fixtures/utils.py,sha256=uSrxMZfBnMZREfGBPjn7UjkmlFIi-JhDnnsv4VJsXv0,12417
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_fixtures.py,sha256=aXCeOtFJabu-v1N1jDBZX-qowdgb38UJiFq7nHQG6QU,6432
+tests/test_imagename.py,sha256=FWN4kqkkCWvuRJldyOPRggD3cIxZJx9e_ghU6IMtETU,4115
+tests/test_utils.py,sha256=f-ZjEj9BuQ48iiPS7CP4fNNXDzbAsvkS9mVNQebrQBg,10371
+pytest_docker_registry_fixtures-0.1.0.dist-info/LICENSE.md,sha256=wc3T9Ul52023xiiTnW6ogK5xbFPow71GJGtsgGLkmYM,10759
+pytest_docker_registry_fixtures-0.1.0.dist-info/METADATA,sha256=8iqvuNuRcKCmR4UQDzX_wLwvECvz1A3ufpJ0QFjfg0w,12035
+pytest_docker_registry_fixtures-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytest_docker_registry_fixtures-0.1.0.dist-info/entry_points.txt,sha256=8TJx3fRU8e5r0m8Ij5LzCqFNPUDfWH9x3XjpsZuUS6Q,71
+pytest_docker_registry_fixtures-0.1.0.dist-info/top_level.txt,sha256=u8cDN8rHyoU4TT34qrDGyi9xXcpA12CA5Q2KruC1FgA,38
+pytest_docker_registry_fixtures-0.1.0.dist-info/RECORD,,
