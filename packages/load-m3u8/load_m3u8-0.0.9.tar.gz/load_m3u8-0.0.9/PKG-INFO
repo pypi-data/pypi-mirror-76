@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: load_m3u8
+Version: 0.0.9
+Summary: Download video by m3u8 file
+Home-page: https://github.com/16beer/load_m3u8
+Author: sunmaolin.com
+Author-email: xxdx@sunmaolin.com
+License: Apache License
+Description: # load-m3u8
+        [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
+        
+        ## Import
+        ```
+        from load_m3u8.resolve import Load_M3U8
+        
+        Load_M3U8("http://www.youtube.com/test.m3u8").run()
+        ```
+        
+        ## Usage
+        ```
+        pip --no-cache-dir install load-m3u8
+        
+        load-m3u8 "http://www.youtube.com/test1.m3u8" "http://www.youtube.com/test2.m3u8"
+        `
+        
+Keywords: m3u8 m3u8-downloader m3u8-download
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
