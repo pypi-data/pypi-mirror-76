@@ -1,0 +1,8 @@
+setup.py
+winpdb_legacy.py
+winpdb.egg-info/PKG-INFO
+winpdb.egg-info/SOURCES.txt
+winpdb.egg-info/dependency_links.txt
+winpdb.egg-info/entry_points.txt
+winpdb.egg-info/requires.txt
+winpdb.egg-info/top_level.txt

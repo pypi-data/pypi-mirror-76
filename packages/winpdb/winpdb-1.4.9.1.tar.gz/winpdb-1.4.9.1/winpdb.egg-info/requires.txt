@@ -1,0 +1,2 @@
+wxpython>=4
+winpdb-reborn>=2.0.0.0
