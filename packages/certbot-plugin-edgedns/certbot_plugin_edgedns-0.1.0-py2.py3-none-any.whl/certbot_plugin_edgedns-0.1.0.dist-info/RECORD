@@ -1,0 +1,9 @@
+certbot_plugin_edgedns/__init__.py,sha256=LlLezepDbGh_WAfXrKAotgWC2LhB4TLwxIFzvzt7y4E,4010
+certbot_plugin_edgedns/edgedns.py,sha256=IwXLyy3Pas1DoXRpJrVTjmEzX_IK5TowKlRvbPjKGgc,19021
+certbot_plugin_edgedns/edgedns_test.py,sha256=1pGCAqhvjlrPjoYRVC8xs5jpCdaMS3xujxCbRCrs_rg,14331
+certbot_plugin_edgedns-0.1.0.dist-info/LICENSE.txt,sha256=LMXecVrlqXbwhvukkwiAyeQhkUFz_IURG_9RTUdXEj8,10786
+certbot_plugin_edgedns-0.1.0.dist-info/METADATA,sha256=kRCvdVvBM0k95K0cHv_k4Hp0tydJUkr4G7rLLAmp5Tg,8040
+certbot_plugin_edgedns-0.1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+certbot_plugin_edgedns-0.1.0.dist-info/entry_points.txt,sha256=zl4SrFNUUIOfPJ1R9ofn7IeeyAAu4zUFrW6SGnVcT-M,74
+certbot_plugin_edgedns-0.1.0.dist-info/top_level.txt,sha256=96ekfvaGgLZeYTx2YwC7zSHtT-WI-zwCx201lCvT99Y,23
+certbot_plugin_edgedns-0.1.0.dist-info/RECORD,,
