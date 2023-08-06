@@ -1,0 +1,8 @@
+README.md
+setup.py
+typescript/__init__.py
+typescript/__main__.py
+typescript.egg-info/PKG-INFO
+typescript.egg-info/SOURCES.txt
+typescript.egg-info/dependency_links.txt
+typescript.egg-info/top_level.txt
