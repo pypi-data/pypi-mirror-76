@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pypipegraph
+Version: 0.191
+Summary: A workflow (job) engine/pipeline for bioinformatics and scientific computing.
+Home-page: https://github.com/IMTMarburg/pypipegraph
+Author: Florian Finkernagel
+Author-email: finkernagel@imt.uni-marburg.de
+License: mit
+Description: 
+        # pypipegraph 
+        
+        This repo is archived - visit https://github.com/IMTMarburg/pypipegraph for the active one.
+        
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: testing
+Provides-Extra: doc
