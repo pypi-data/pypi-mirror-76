@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: laundromat
+Version: 1.0.1
+Summary: Scrub personal information from text with Laundromat.
+Home-page: UNKNOWN
+Author: Marius Dioli @ NAV IKT and Petter Sunde Nymark @ NAV IKT
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
