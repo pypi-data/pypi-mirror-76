@@ -1,0 +1,2 @@
+djangorestframework
+django-filter>=2.0
