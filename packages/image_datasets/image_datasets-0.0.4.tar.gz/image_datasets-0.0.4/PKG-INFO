@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: image_datasets
+Version: 0.0.4
+Summary: Image datasets for computer vision projects
+Home-page: https://github.com/yale-dhlab/image_datasets
+Author: Douglas Duhaime
+Author-email: douglas.duhaime@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: computer-vision,machine-learning,datasets
+Platform: UNKNOWN

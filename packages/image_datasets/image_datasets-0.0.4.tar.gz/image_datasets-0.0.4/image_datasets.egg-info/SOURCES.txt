@@ -1,0 +1,10 @@
+README.md
+setup.py
+image_datasets/__init__.py
+image_datasets/core.py
+image_datasets/datasets.py
+image_datasets.egg-info/PKG-INFO
+image_datasets.egg-info/SOURCES.txt
+image_datasets.egg-info/dependency_links.txt
+image_datasets.egg-info/requires.txt
+image_datasets.egg-info/top_level.txt
