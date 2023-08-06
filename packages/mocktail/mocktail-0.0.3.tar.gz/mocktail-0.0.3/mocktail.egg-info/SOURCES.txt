@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+mocktail/__init__.py
+mocktail.egg-info/PKG-INFO
+mocktail.egg-info/SOURCES.txt
+mocktail.egg-info/dependency_links.txt
+mocktail.egg-info/requires.txt
+mocktail.egg-info/top_level.txt
