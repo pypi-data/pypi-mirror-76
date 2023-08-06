@@ -1,0 +1,8 @@
+README.md
+setup.py
+jhvar/__init__.py
+jhvar_django_utils.egg-info/PKG-INFO
+jhvar_django_utils.egg-info/SOURCES.txt
+jhvar_django_utils.egg-info/dependency_links.txt
+jhvar_django_utils.egg-info/requires.txt
+jhvar_django_utils.egg-info/top_level.txt
