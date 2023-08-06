@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: vedant-mehta-package
+Version: 1.0.0
+Summary: first package. Nothing to see here...
+Home-page: UNKNOWN
+Author: Vedant Mehta
+Author-email: veds.mehta@gmail.com
+License: UNKNOWN
+Description: Hello, World. This is my first python package. Again, nothing to see here
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent

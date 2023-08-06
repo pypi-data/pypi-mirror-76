@@ -1,0 +1,5 @@
+setup.py
+vedant_mehta_package.egg-info/PKG-INFO
+vedant_mehta_package.egg-info/SOURCES.txt
+vedant_mehta_package.egg-info/dependency_links.txt
+vedant_mehta_package.egg-info/top_level.txt
