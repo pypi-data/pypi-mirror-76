@@ -1,0 +1,10 @@
+setup.py
+saman_distributions/Binomialdistribution.py
+saman_distributions/Gaussiandistribution.py
+saman_distributions/Generaldistribution.py
+saman_distributions/__init__.py
+saman_distributions.egg-info/PKG-INFO
+saman_distributions.egg-info/SOURCES.txt
+saman_distributions.egg-info/dependency_links.txt
+saman_distributions.egg-info/not-zip-safe
+saman_distributions.egg-info/top_level.txt
