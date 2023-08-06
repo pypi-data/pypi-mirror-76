@@ -1,0 +1,45 @@
+import setuptools
+
+setuptools.setup(
+    name="smnsr",
+    version="0.4.51",
+    author="rciszek",
+    author_email="rkciszek@gmail.com",
+    description="SMNSR",
+    long_description="SMNSR",
+    long_description_content_type="text/markdown",
+    url="https://github.com/rciszek/SMNSR/",
+    packages=setuptools.find_packages(),
+    python_requires=">=3.7",
+    scripts=[("bin/smnsr_ts_folds"), ("bin/smnsr_cv"), ("bin/smnsr_merge")],
+    install_requires=[
+        "PySocks >= 1.7.1",
+        "pandas >= 1.0.5",
+        "matplotlib >= 3.2.2",
+        "scipy >= 1.4.1",
+        "xgboost >= 1.1.1",
+        "psutil >= 5.7.0",
+        "ray >= 0.8.4",
+        "vaex_core >= 2.0.3",
+        "pytictoc >= 1.5.0",
+        "gdown >= 3.11.1",
+        "numpy >= 1.18.4",
+        "seaborn >= 0.10.1",
+        "python_dateutil >= 2.8.1",
+        "PyYAML >= 5.3.1",
+        "scikit_learn >= 0.23.1",
+        "vaex >= 3.0.0",
+    ],
+    package_data={
+        "smnsr": ["logging.yaml"],
+        "smnsr":  ["modalities/modalities.yaml"]
+    },
+    classifiers=[
+        "Development Status :: 2 - Pre-Alpha",
+        "Environment :: Console",
+        "Intended Audience :: Science/Research",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
+    ],
+)

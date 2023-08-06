@@ -1,0 +1,5 @@
+#!/usr/bin/env python
+from smnsr import perform_cv, parse_args
+import sys
+
+perform_cv(parse_args(sys.argv[1:]))

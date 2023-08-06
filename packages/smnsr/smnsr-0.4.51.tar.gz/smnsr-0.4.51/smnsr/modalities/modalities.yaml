@@ -1,0 +1,52 @@
+apoe4:
+  - APOE4
+cognitive1:
+  - CDRSB
+  - ADAS11
+  - RAVLT_learning
+  - RAVLT_immediate
+  - RAVLT_perc_forgetting
+  - FAQ
+cognitive2:
+  - MOCA
+  - EcogPtMem
+  - EcogPtLang
+  - EcogPtVisspat
+  - EcogPtPlan
+  - EcogPtOrgan
+  - EcogPtDivatt
+  - EcogPtTotal
+  - EcogSPMem
+  - EcogSPLang
+  - EcogSPVisspat
+  - EcogSPPlan
+  - EcogSPOrgan
+  - EcogSPDivatt
+  - EcogSPTotal
+cognitive_simple:
+  - ADAS13
+  - MMSE
+pet:
+  - AV45
+pet2:
+  - FDG
+mri:
+  - Ventricles
+  - Hippocampus
+  - WholeBrain
+  - Entorhinal
+  - Fusiform
+  - MidTemp
+  - ICV
+csf:
+  - ABETA_UPENNBIOMK9_04_19_17
+  - TAU_UPENNBIOMK9_04_19_17
+  - PTAU_UPENNBIOMK9_04_19_17
+patient:
+  - PTGENDER
+  - PTEDUCAT
+  - PTETHCAT
+  - PTRACCAT
+  - PTMARRY
+  - AGE
+  - DX
