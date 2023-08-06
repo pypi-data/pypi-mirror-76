@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: rstool
+Version: 0.1.0
+Summary: Command-line program for converting native radiosonde data to NetCDF and calculation of derived quantities, supporting InterMet Systems (iMet) and Windsond radiosondes
+Home-page: https://github.com/peterkuma/rstool
+Author: Peter Kuma
+Author-email: peter@peterkuma.net
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: radiosonde,netcdf,atmospheric-science
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: Physics
