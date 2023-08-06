@@ -1,0 +1,10 @@
+JT_AWS/__init__.py,sha256=54zUjksEVihR1VbL7eoOcENc116nmas0oGqHcqhz50Q,51
+JT_AWS/aws.py,sha256=vlUbqSh2OgGIWK9w4mmz0srZpIA-0KCKodGCQXSOoP4,9920
+JT_AWS/dynamo_util.py,sha256=QokcpjbFUBs49Be5nzCJLhDjcssOIsNoUixuGTpPWfs,565
+JT_AWS/pip_util.py,sha256=CDO7ld7j2_wyxxDutRMqjeOsl51H5whsewAMdfQQl4U,920
+JT_AWS/zip_util.py,sha256=SpKBf8xYAFeLz_gyUVeZALv2Ox3_ZRweM89DhrB0E1c,1227
+JT_AWS-0.0.11.dist-info/LICENSE,sha256=5oqA-AA4VXFkpSO6ouma8ty07wqR4UikMHXsALSyuXE,1095
+JT_AWS-0.0.11.dist-info/METADATA,sha256=UuvklgAW1pqOnvnaaeWkl3-Lis4hBKln_YY174Puem0,589
+JT_AWS-0.0.11.dist-info/WHEEL,sha256=v8slff5hmCpvciQ3G55d2d1CnOBupjDFJHDE2dUb1Ao,97
+JT_AWS-0.0.11.dist-info/top_level.txt,sha256=4RV0v8JQ839lPQv_7YI8KD8NGGv7SsYRGab-Am9myxY,7
+JT_AWS-0.0.11.dist-info/RECORD,,
