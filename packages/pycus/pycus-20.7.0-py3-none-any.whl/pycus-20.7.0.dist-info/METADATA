@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pycus
+Version: 20.7.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Moshe Zadka
+Author-email: moshez@zadka.club
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: incremental
+Requires-Dist: jupyterlab
+Requires-Dist: face
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Provides-Extra: lint
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: mypy ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+
+Pycus
+=====
+
+In Roman mythology,
+Picus used a charm to make Jupiter come to earth.
+`Pycus`, likewise, helps manage `Jupyter`.
+
+
