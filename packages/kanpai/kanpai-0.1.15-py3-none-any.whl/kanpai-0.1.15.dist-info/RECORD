@@ -1,0 +1,15 @@
+kanpai/Kanpai.py,sha256=Q2onQYfz-TdYBGrVyrKse0Vi7puaY2EDST2ARY-xmBw,216
+kanpai/__init__.py,sha256=C4Xjji9C-vPlZt_u_bJHVjyUgSERYsypO0eaP_6Cc7s,16
+kanpai/array.py,sha256=vzi1FODoHL-cz3f03iNEsvh76lF_uCcW3J3z34Cp2XI,3561
+kanpai/boolean.py,sha256=OWCkTHqN01hz4P9cruoYh8-Z0I1PlRZ2QdS50AlHmRA,1089
+kanpai/email.py,sha256=D0erMmBkhhONwI01FaanlGuujGsFIAe6jmBc8I3C0-o,226
+kanpai/number.py,sha256=eRI2I7stDbwN6WQsl9ylVOfqtvsR-unWSNqN1aMoNpo,3551
+kanpai/object.py,sha256=0VeTQ8DF0ZtyJ-OpUH8LxJLRkI2K6jaVdTm7wl1Xtho,2782
+kanpai/string.py,sha256=Wv4fpfyghF11X6VWyyiPspJgfYNL707kTokPiHAsuTs,4294
+kanpai/uuid.py,sha256=qDA-E_otz7h8aIWyz4DSqsexk91GGB3o4VoQcb-Fcts,627
+kanpai/validator.py,sha256=kVW4kryL7r76lgng_WoEOOkCiTK60PozfgjHDq4SPIs,1422
+kanpai-0.1.15.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+kanpai-0.1.15.dist-info/METADATA,sha256=793qN4NPqjDQy2lc2RY1AAIV6qlrCOof1WIS27TEzLo,3287
+kanpai-0.1.15.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kanpai-0.1.15.dist-info/top_level.txt,sha256=2SJcKq6R1ZiPk-cfVGDcLLqxVj0M_RimvYhIgiv4i00,7
+kanpai-0.1.15.dist-info/RECORD,,
