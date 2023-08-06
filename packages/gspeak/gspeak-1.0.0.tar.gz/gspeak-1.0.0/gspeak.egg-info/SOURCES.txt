@@ -1,0 +1,9 @@
+README.md
+setup.py
+gspeak/__init__.py
+gspeak/wrapper.py
+gspeak.egg-info/PKG-INFO
+gspeak.egg-info/SOURCES.txt
+gspeak.egg-info/dependency_links.txt
+gspeak.egg-info/requires.txt
+gspeak.egg-info/top_level.txt

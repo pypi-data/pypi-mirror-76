@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: gspeak
+Version: 1.0.0
+Summary: Simple wrapper for gTTS and pygame to play audio directly from buffer
+Home-page: https://github.com/rcox771/gspeak
+Author: rcox771
+Author-email: 
+License: MIT
+Description: # gspeak
+        
+        This is just a simple no fuss wrapper around gTTS that plays buffers directly using pygame. I had found some articles with people posting various solutions, but this is the only one that I could get to work. I figured I might as well make it available for others too.
+        
+        ## Quickstart
+        
+        ```python
+        from gspeak import speak
+        
+        speak("yo dog what it is")
+        ```
+        
+        ## Install
+        
+        ```bash
+        pip install gspeak
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
