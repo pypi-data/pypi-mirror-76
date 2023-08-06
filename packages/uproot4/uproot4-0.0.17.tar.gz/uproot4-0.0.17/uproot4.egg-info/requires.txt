@@ -1,0 +1,11 @@
+numpy
+
+[testing]
+pytest
+flake8
+scikit-hep-testdata
+pandas
+awkward1
+boost_histogram
+hist>=2.0.0a1
+dask[array,dataframe]
