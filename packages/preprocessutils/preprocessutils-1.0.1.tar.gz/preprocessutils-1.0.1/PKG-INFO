@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: preprocessutils
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Punit Nanda
+Author-email: punit.nanda01@gmail.com
+License: MIT
+Description: # preprocessutils
+        
+        This packages has data processing tools which can be used to make developer work easier
+        
+        ## Installation
+        
+        pip install preprocessutils
+        
+        ## Usage
+        
+        from preprocessutils import fix_imbalance
+        
+        # OVER-SAMPLE
+        balanced_dataframe = fix_imbalance(data=df, target=target, threshold=10.0, oversample=True)
+        
+        # OVER-SAMPLE SMOTE
+        balanced_dataframe = fix_imbalance(data=df, target=target, threshold=10.0, smote=True)
+        
+        # UNDER-SAMPLE
+        balanced_dataframe = fix_imbalance(data=df, target=target, threshold=10.0, oversample=False)
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
