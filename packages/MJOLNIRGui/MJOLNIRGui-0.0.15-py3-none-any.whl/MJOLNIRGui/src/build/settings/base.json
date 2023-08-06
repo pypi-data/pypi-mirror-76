@@ -1,0 +1,6 @@
+{
+    "app_name": "MJOLNIRGui",
+    "author": "Jakob Lass and Henrik Jacobsen",
+    "main_module": "src/main/python/main.py",
+    "version": "0.0.15"
+}
