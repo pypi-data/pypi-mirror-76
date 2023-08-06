@@ -1,0 +1,3 @@
+[console_scripts]
+ngboost_tuner = ngboost_tuner.__main__:main
+
