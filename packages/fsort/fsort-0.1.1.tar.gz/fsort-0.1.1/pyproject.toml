@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "fsort"
+author = "a.opalev"
+author-email = "levisolympus@gmail.com"
+classifiers = ["License :: OSI Approved :: MIT License"]
+requires = [
+    "click>=7.1.2"
+]
+requires-python=">=3.5"
+description-file="Readme.md"
+
+[tool.flit.scripts]
+fsort = "fsort:cli"
