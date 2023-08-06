@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block headpagetitle %}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{% block pagedescription %}{% endblock %}">
+    <link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/vendor/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/app.css">
+    <link rel="icon" type="image/png" href="/static/img/icon.png">
+    {% block extrahead %}
+    {% endblock %}
+  </head>
+  <body role="document">
+    <div class="container">
+
+      <!-- header logo -->
+      <div class="row my-2">
+        <div class="col-md">
+          <img src="/static/img/logo.svg" alt="Biuletyn Informacji Publicznej" id="logo">
+        </div>
+        <div class="col">
+          <h1>{{ site.name }}</h1>
+        </div>
+      </div>
+
+      <!-- top navigation -->
+      <div class="row my-2">
+        <div class="col">
+          <ul class="nav justify-content-end" role="navigation">
+            <li class="nav-item">
+              <a class="nav-link{% if request.url_rule.endpoint == 'main.home' %} active{% endif %}" href="/">Strona główna</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link{% if request.url_rule.endpoint == 'main.basic_information' %} active{% endif %}" href="{{ url_for('main.basic_information') }}">Informacje podstawowe</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link{% if request.url_rule.endpoint == 'main.staff' %} active{% endif %}" href="{{ url_for('main.staff') }}">Pracownicy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link{% if request.url_rule.endpoint == 'main.contact' %} active{% endif %}" href="{{ url_for('main.contact') }}">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <form method="GET" action="{{ url_for('main.search') }}">
+                <input class="form-control form-control-sm" name="q" type="text" placeholder="szukaj...">
+                <input type="submit" style="position: absolute; left: -9999px"/>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- alerts -->
+      {% with flashes = get_flashed_messages(with_categories=True) %}
+      {% if flashes %}
+      <div class="row my-2">
+        <div class="col">
+          {% for category, flash in flashes %}
+          <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+            {{ flash }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="zamknij"><span aria-hidden="true">&times;</span></button>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+      {% endwith %}
+
+      <!-- main page content -->
+      <div class="row my-2 pt-4">
+
+        <!-- content area -->
+        <div class="col-md-12 col-lg-9 order-md-last">
+          {% block breadcrumbs %}
+          {% endblock %}
+          {% block content %}
+          {% endblock %}
+        </div>
+
+        <!-- sidebar -->
+        <div class="col-md-12 col-lg-3">
+          <h6>Strony</h6>
+          <ul class="nav flex-column">
+            {% for page in pages %}
+            <li class="nav-item"><a class="nav-link" href="{{ page.url }}">{{ page.title }}</a></li>
+            {% endfor %}
+          </ul>
+          <hr>
+          <h6>Etykiety</h6>
+          <ul class="nav flex-column">
+            {% for label in labels %}
+            <li class="nav-item"><a href="{{ url_for('main.label_page_list', slug=label.slug) }}" class="badge badge-secondary nav-link">{{ label.name }} ({{ label.page_count }})</a></li>
+            {% endfor %}
+          </ul>
+          <hr>
+          <h6>Ogólne</h6>
+          <ul class="nav flex-column">
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('main.changes') }}">Rejestr zmian</a></li>
+          </ul>
+          <hr>
+          <h6>Konto redaktora</h6>
+          <ul class="nav flex-column">
+            {% if current_user.is_authenticated %}
+            {% for item in editortools %}
+            <li class="nav-item"><a class="nav-link" href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+            {% else %}
+            <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.login') }}">zaloguj</a></li>
+            {% endif %}
+          </ul>
+          {% if current_user.is_authenticated and current_user.admin %}
+          <hr>
+          <h6>Administracja</h6>
+          <ul class="nav flex-column">
+            {% for item in admintools %}
+            <li class="nav-item"><a class="nav-link" href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+
+      </div>
+
+      <footer class="text-center">
+        <hr>
+        <p>Copyright &copy; 2019, Jarek Zgoda</p>
+        <p>Oprogramowanie dostarczone na podstawie licencji <a href="https://www.gnu.org/licenses/gpl-3.0.html">GNU General Public License, wersja 3</a>.</p>
+      </footer>
+
+    </div>
+
+    <script src="/static/vendor/jquery-3.5.1.slim.min.js"></script>
+    <script src="/static/vendor/popper.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.min.js"></script>
+    {% block extrajs %}
+    {% endblock %}
+  </body>
+</html>
