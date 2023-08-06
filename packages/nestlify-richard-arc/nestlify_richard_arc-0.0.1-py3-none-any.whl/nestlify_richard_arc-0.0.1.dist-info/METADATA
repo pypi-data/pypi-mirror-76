@@ -1,0 +1,18 @@
+Metadata-Version: 2.0
+Name: nestlify-richard-arc
+Version: 0.0.1
+Summary: testing packaging in python
+Home-page: https://github.com/pypa/sampleproject
+Author: Example Author
+Author-email: richardafoudo07@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+just testing packaging in python
+
+
