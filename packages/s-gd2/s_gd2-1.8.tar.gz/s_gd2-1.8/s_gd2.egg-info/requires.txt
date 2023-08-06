@@ -1,0 +1,5 @@
+numpy<1.17,>=1.16
+
+[test]
+nose2
+scipy
