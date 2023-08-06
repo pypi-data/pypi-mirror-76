@@ -1,0 +1,10 @@
+simplediskimage/__init__.py,sha256=UhhkRcK9hetMDDs0JY8uksIyAEDdbLKwo-BP5BjzCgM,21958
+simplediskimage/cfr.py,sha256=zlPND3-y7XZkq91ILVSDjFeUrCZvX2nDp_btfPSTb80,7416
+simplediskimage/common.py,sha256=eQiWo79hBfxh0rcvApbaHVaVfEjihBMMGvMx2ZBxwI4,1401
+simplediskimage/partitioners.py,sha256=98ZLOr9DkzElF3YQiL6iNUtCJuWM6S9ZPdK4o9i1tBM,10796
+simplediskimage/tools.py,sha256=swSHOpIY6TBsK72LkUgNuO0tkrs1JcF2V7LIQwa36iE,10716
+simplediskimage-0.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+simplediskimage-0.3.dist-info/METADATA,sha256=dKLslDkDYTPLAPlxLlL5pJE46bn35f4AxTYGGo6-YYg,2016
+simplediskimage-0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+simplediskimage-0.3.dist-info/top_level.txt,sha256=f5xOHDVDnn55cJ3__QAfoPztdOq8nRec0pxkDWAxxpU,16
+simplediskimage-0.3.dist-info/RECORD,,
