@@ -1,0 +1,15 @@
+pymws/__init__.py,sha256=xBxBe0IXkpsgV7UjGrlgZKc7RwQ7O8E6PLgf6ei28VI,220
+pymws/cli.py,sha256=tnmpme5MNQoId7Roy02KD-3RsyfHWYpTXaeIZISFBSE,394
+pymws/exceptions.py,sha256=4FudLkq7p0-hxSyMuyWj0siSxG1uHunzM49a6-He_G0,439
+pymws/orders.py,sha256=OEWIVN9VPE_l-z_hgrtO5yyPRCtiW83Fu7-fmNLN1AA,3478
+pymws/products.py,sha256=9aAethCNin6vCVmbcwN1v6qFnu0Ti92YeFZrwKV7OgI,403
+pymws/pymws.py,sha256=26Nre6u_APZy14kdkuXIHMyLCFPMY7EcLPFGpm24HO0,5070
+pymws/reports.py,sha256=tIop2BO-ocTqxArc_kqb1H8EGX2mSHVCkSyAQnMpv8A,4826
+pymws/utils.py,sha256=m32_gngwVynzBF9hXEs3amnW6gSJCH7jL3eGjYqypBQ,3652
+pymws-0.1.0.dist-info/AUTHORS.rst,sha256=6rqxw0dUir835HoxQBZ5lnduuR4hWhqAq7C9WxbF5hM,154
+pymws-0.1.0.dist-info/LICENSE,sha256=HjO7xsIhNov3nGkdnUzN5sM4u4Knu90-7Vshicg3cjI,1073
+pymws-0.1.0.dist-info/METADATA,sha256=6rwPo2irosmVIIry2BgTUn5YedOPOFYI3vvrOR-losA,2213
+pymws-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+pymws-0.1.0.dist-info/entry_points.txt,sha256=QoQZPb5RLd2KIALWEh9g6aoiVj9ZS0CYNelHu4yVpAg,42
+pymws-0.1.0.dist-info/top_level.txt,sha256=FVQTaea_p1xW1Vn2iOCwLpL4GKoi991Rbx-ggUfiLAE,6
+pymws-0.1.0.dist-info/RECORD,,
