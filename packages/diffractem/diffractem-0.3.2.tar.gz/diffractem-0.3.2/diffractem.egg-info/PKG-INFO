@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: diffractem
+Version: 0.3.2
+Summary: Some tools for working with serial electron microscopy data.
+Home-page: https://github.com/robertbuecker/diffractem
+Author: Robert Buecker
+Author-email: robert.buecker@mpsd.mpg.de
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
