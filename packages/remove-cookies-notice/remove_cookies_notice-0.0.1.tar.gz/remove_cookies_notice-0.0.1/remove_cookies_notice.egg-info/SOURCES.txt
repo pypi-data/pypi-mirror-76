@@ -1,0 +1,8 @@
+README.md
+setup.py
+remove_cookies_notice/CookiesNoticeRemover.py
+remove_cookies_notice/__init__.py
+remove_cookies_notice.egg-info/PKG-INFO
+remove_cookies_notice.egg-info/SOURCES.txt
+remove_cookies_notice.egg-info/dependency_links.txt
+remove_cookies_notice.egg-info/top_level.txt
