@@ -1,0 +1,11 @@
+README.md
+setup.py
+sqlpipe/SqlPipeBuilder.py
+sqlpipe/__init__.py
+sqlpipe/__main__.py
+sqlpipe.egg-info/PKG-INFO
+sqlpipe.egg-info/SOURCES.txt
+sqlpipe.egg-info/dependency_links.txt
+sqlpipe.egg-info/not-zip-safe
+sqlpipe.egg-info/requires.txt
+sqlpipe.egg-info/top_level.txt
