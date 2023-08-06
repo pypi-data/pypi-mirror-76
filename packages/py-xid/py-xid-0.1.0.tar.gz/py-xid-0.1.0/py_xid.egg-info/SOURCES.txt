@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+py_xid.egg-info/PKG-INFO
+py_xid.egg-info/SOURCES.txt
+py_xid.egg-info/dependency_links.txt
+py_xid.egg-info/not-zip-safe
+py_xid.egg-info/top_level.txt
+xid/__init__.py
+xid/xid.py
