@@ -1,0 +1,7 @@
+requests~=2.24.0
+selenium~=3.141.0
+
+[test]
+pytest
+pytest-cov
+codecov
