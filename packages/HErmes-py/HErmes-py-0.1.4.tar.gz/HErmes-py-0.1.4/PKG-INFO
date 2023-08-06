@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: HErmes-py
+Version: 0.1.4
+Summary: Highly efficient, rapid multipurpose event selection
+Home-page: https://github.com/achim1/HErmes
+Author: Achim Stoessl
+Author-email: achim.stoessl@gmail.com
+License: GPL
+Description: Aggregate data from hdf or root files and conveniently apply filter criterias.Explore datasets with ease with a focus on interactivity and rapidity.
+Keywords: event selection,physics,hep,particle physicsastrophysics,icecube
+Platform: Ubuntu 18.04
+Platform: Ubuntu 20.04
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6.0
