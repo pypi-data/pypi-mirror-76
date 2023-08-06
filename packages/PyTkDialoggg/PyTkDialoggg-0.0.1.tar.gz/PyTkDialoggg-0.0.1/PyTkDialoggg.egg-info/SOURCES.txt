@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyTkDialoggg.egg-info/PKG-INFO
+PyTkDialoggg.egg-info/SOURCES.txt
+PyTkDialoggg.egg-info/dependency_links.txt
+PyTkDialoggg.egg-info/top_level.txt
+src/Dialog.py
+src/__init__.py
