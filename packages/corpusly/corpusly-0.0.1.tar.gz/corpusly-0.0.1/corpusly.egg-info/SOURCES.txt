@@ -1,0 +1,8 @@
+README.md
+setup.py
+corpusly/__init__.py
+corpusly.egg-info/PKG-INFO
+corpusly.egg-info/SOURCES.txt
+corpusly.egg-info/dependency_links.txt
+corpusly.egg-info/requires.txt
+corpusly.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: corpusly
+Version: 0.0.1
+Summary: corpusly
+Home-page: https://github.com/
+Author: corpusly
+Author-email: 1918118941@qq.com
+License: UNKNOWN
+Description: Corpusly
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
