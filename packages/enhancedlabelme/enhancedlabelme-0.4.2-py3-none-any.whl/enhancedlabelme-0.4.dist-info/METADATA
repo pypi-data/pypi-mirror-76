@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: enhancedlabelme
+Version: 0.4
+Summary: Image Polygonal Annotation with Python
+Home-page: https://github.com/wkentaro/labelme
+Author: Kentaro Wada
+Author-email: www.kentaro.wada@gmail.com
+License: GPLv3
+Keywords: Image Annotation,Machine Learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+Requires-Dist: imgviz (>=0.10.6)
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: Pillow (>=2.8.0)
+Requires-Dist: PyYAML
+Requires-Dist: qtpy
+Requires-Dist: termcolor
+Requires-Dist: QDarkStyle (>=2.8.1)
+
+EnhancedLabelMe-4.1.1
+
+<installtion>
+1. (if labelme is already installed) 
+>> pip uninstall labelme
+>> sudo apt-get remove labelme
+2. 
+>> pip install enhancedlabelme
+3. you can start the program typing 'labelme' (it's literally same with original)
+>> labelme 
+4. (to update)
+>> pip install enhancedlabelme --upgrade
+
+<history>
+v0.1 (200805)
+- Added time keys to json data (loadTime, saveTime)
+- Removed double click function when creating polygon
+v0.2 (200806)
+- Always dump jsons in utf-8 encoding
+- "Save Automatically" is checked as default
+- Added indication of work progress in the window title (# of images/# of jsons)
+- Added the Preference in menu bar (File - Preference) and open config file.
+   : You can change hotkey(단축키) in this config file. It will be applied after relaunch
+v0.3 (200807)
+- Labelme will launch in fullscreen mode as default
+v0.4 (200810)
+- Added the dark theme (menubar - View - Toggle dark theme)
+
+@misc{labelme2016,
+  author =       {Kentaro Wada},
+  title =        {{labelme: Image Polygonal Annotation with Python}},
+  howpublished = {\url{https://github.com/wkentaro/labelme}},
+  year =         {2016}
+}
+
