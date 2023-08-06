@@ -1,0 +1,11 @@
+.gitignore
+README.md
+setup.py
+.github/workflows/publish-to-test-pypi.yml
+google_yubikey/__init__.py
+google_yubikey.egg-info/PKG-INFO
+google_yubikey.egg-info/SOURCES.txt
+google_yubikey.egg-info/dependency_links.txt
+google_yubikey.egg-info/entry_points.txt
+google_yubikey.egg-info/requires.txt
+google_yubikey.egg-info/top_level.txt
