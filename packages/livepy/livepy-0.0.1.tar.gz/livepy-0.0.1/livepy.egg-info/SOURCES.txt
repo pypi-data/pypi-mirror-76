@@ -1,0 +1,7 @@
+README.md
+setup.py
+livepy/__init__.py
+livepy.egg-info/PKG-INFO
+livepy.egg-info/SOURCES.txt
+livepy.egg-info/dependency_links.txt
+livepy.egg-info/top_level.txt
