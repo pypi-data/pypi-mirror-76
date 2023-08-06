@@ -1,0 +1,14 @@
+regret/__init__.py,sha256=21xO7xrDEfKQAK_ZfOvc2fkk0MWAbXPj09bCmoAFiL0,119
+regret/_api.py,sha256=46CbspUmo8hnIWD-qWEEiwH2F1TJw--_Tj8oS8hexgE,4390
+regret/_sphinx.py,sha256=yeEBciBmlMls6PtLDzZNHaLrTeOoL1B7wNaxVTNCpJQ,688
+regret/_warnings.py,sha256=rAEfV01IUYZgheT-jFBc58nLbxTnR5Dtu8GRKZ0aN2Y,287
+regret/emitted.py,sha256=i-FkeY2jeRp5YEuzxsiWJ4wjW-QxE1UUVlVbTCLTheM,1709
+regret/testing.py,sha256=R0t1q1GFaTG3Kz5QgeNDRaADD_H4kGtyCB3ou2toQJU,200
+regret/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+regret/tests/test_api.py,sha256=7qeuKCcaSfERO4hcRVpIQOtFaIBwhqDIkb9IxdoD1eA,17432
+regret/tests/test_integration.py,sha256=ko8U8y3DEYU9kDo13qaFD71cKSdx7ir9yAg5AFlTHhs,7157
+regret-0.24.0.dist-info/COPYING,sha256=aJtU0WW4EihEQhEnxtGa_8pzit5Fhfz3CMOXgo7SeUg,1057
+regret-0.24.0.dist-info/METADATA,sha256=4Tn5m5VvW0wr-aPk-OQ6znIAAEeRX0UPCGyeexkvne8,4123
+regret-0.24.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+regret-0.24.0.dist-info/top_level.txt,sha256=U6zlw9odwRq4TL-vQowb_UwmsTJXoSz6E7D9-O782yk,7
+regret-0.24.0.dist-info/RECORD,,
