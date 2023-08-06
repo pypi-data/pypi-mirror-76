@@ -1,0 +1,10 @@
+LICENSE,sha256=mwQ8oYP7ZAlcmC7IdLqIF3nm3k-DjY9dBdxASDpsT5s,1071
+README.md,sha256=b9J4eMcEGUIFBzzDCMKrFM0r3ExzJ4Ze7EDy1xK20sk,6822
+pypokedex/__init__.py,sha256=Cqf0ixoB0xTbN2f0LSFKKc2C_Sj-8hKzEVGLArgIRc4,198
+pypokedex/api.py,sha256=MV1NdCzgAYcNGOCdkeh-vcfuaQqldHlWBt6VvZ9K3m0,1395
+pypokedex/exceptions.py,sha256=NFFa6N4_Y140OP08xuDlku8hS3E77eZbebXxrBMSs9Y,299
+pypokedex/pokemon.py,sha256=GRmOaI4qFZD7MdENS_haCZmh2MnWxNOSwWY7sT7ecDQ,5663
+pypokedex-1.5.0.dist-info/LICENSE,sha256=mwQ8oYP7ZAlcmC7IdLqIF3nm3k-DjY9dBdxASDpsT5s,1071
+pypokedex-1.5.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+pypokedex-1.5.0.dist-info/METADATA,sha256=anxs52lMm0PAN5jG9RdPwmc2F8IDIzp6yOrLXt87H5I,7745
+pypokedex-1.5.0.dist-info/RECORD,,
