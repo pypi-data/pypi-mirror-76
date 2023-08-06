@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: fwiffos
+Version: 0.0.4
+Summary: FwiffOS
+Home-page: https://github.com/SCUPPERfoundation/fwiffo
+Author: SCUPPER™ Foundation
+Author-email: info@scupper.org
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+
+fwiffos
+=======
+
+"Quickstart"
+------------
+
+This is a WIP self-provisioning bot operating system.
+Give it a budget, and it will do things for you.
+
+
