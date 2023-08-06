@@ -1,0 +1,10 @@
+remapSDK/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remapSDK/remapSDK.py,sha256=kH15rH8m6IesHvSkgi6WldikVmkg3iIC_9IS99v75yU,6007
+remapSDK/data/dataset.csv,sha256=6MthTL5aXbz40NnZZ-bekWdxYY6GhNrq3DK3HZUOk3Y,327
+remapSDK/data/metadata.json,sha256=s7vIS-ueQUUWHU-NK7FYohwPcf9euj1PzXupzjrs7HU,3106
+remapSDK/data/sdk_config.json,sha256=pY4H6IntvSv1wb7QXB-i_tkNuGe7HKenW9Lv5DWrYqA,327
+remapSDK-0.1.0.dist-info/LICENSE,sha256=B_utP9dd2Fh4diBPZl3I43PYt71NKLvrRFZZT8N214w,689
+remapSDK-0.1.0.dist-info/METADATA,sha256=MO8bNRF2HW_ZPxIMKABegOZ_TpIo5tuhRlEnSnUhaBY,8122
+remapSDK-0.1.0.dist-info/WHEEL,sha256=CbUdLTqD3-4zWemf83rgR_2_MC4TeXw9qXwrXte5w4w,92
+remapSDK-0.1.0.dist-info/top_level.txt,sha256=50otwTN1nbRBwjdD3Rb8WexVri7QJ2YrvclCRXS_nhc,9
+remapSDK-0.1.0.dist-info/RECORD,,

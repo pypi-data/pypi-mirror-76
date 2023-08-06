@@ -1,0 +1,9 @@
+{
+    "serial": "Serial_NO" , 
+    "dataset": "DatasetID" , 
+    "model":"modelId", 
+    "runnerId":"runnerId",
+    "OUTPUT_URL":"http://localhost:3200/mngTools/api/models/RulEstimation",
+    "KC_TOKEN_URL":"http://local-remap:8080/auth/realms/remapnode/protocol/openid-connect/token",
+    "CLIENT_ID": "rulSDK"
+    } 	
