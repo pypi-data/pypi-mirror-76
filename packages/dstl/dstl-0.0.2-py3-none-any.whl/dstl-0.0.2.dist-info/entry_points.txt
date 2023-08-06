@@ -1,0 +1,6 @@
+[console_scripts]
+dstl=dstl.cli:app
+
+[prodigy_recipes]
+ner.translate=dstl:prodigy_recipes.ner_translate
+
