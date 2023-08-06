@@ -1,0 +1,15 @@
+challenge_test_lib/__init__.py,sha256=ovguP4wzQEDNguczwiZnhMm4dRRVcvnzmHrfQtlRCNQ,15
+challenge_test_lib/challenge_test.py,sha256=q1EXTXmaTNZ8W-ycNazLOTPvp18eyFiDzEArsRVJsI8,13425
+challenge_test_lib/mock_import.py,sha256=vXTaAZwGyI4pL0vuMPWz3AhxnRT0UG8LNuPXUXPumlk,3209
+strtest/__init__.py,sha256=4bgzr_JH9gAUApybgf6S5l2v3uoB-4SKTYNq56LYcBE,39
+strtest/challenge_test.py,sha256=4D3Upyga1DL3XT0zs0P03XIfi7RK-ebkCQywxG8hFCg,14355
+strtest/mock_import.py,sha256=vXTaAZwGyI4pL0vuMPWz3AhxnRT0UG8LNuPXUXPumlk,3209
+strtest/str_test.py,sha256=4D3Upyga1DL3XT0zs0P03XIfi7RK-ebkCQywxG8hFCg,14355
+strtest-0.0.1.data/scripts/insper_test.py,sha256=mjmLfmueN5RjTlrtQJ1emQJVkGap_4BQhNtNFat06Gg,1400
+strtest-0.0.1.data/scripts/run_str_test.py,sha256=b3pGGk2Ei--HSLKZ6KLrqGzp3MB5O7BducY7r5BwkcA,1336
+strtest-0.0.1.data/scripts/str_test.py,sha256=ufj--PCTw7Mbz5l0EBAsvCX3JqX53Jss6JkJG8umeJ0,1392
+strtest-0.0.1.dist-info/LICENSE,sha256=6pwm_3iI5GHf5kiyiPJtxR7JEUc-ip4MuXFeDs5jog8,1063
+strtest-0.0.1.dist-info/METADATA,sha256=n_H8tde_nz6KQTD_sR4HsUv5tn2hw7tNkAZfb7dJoyQ,528
+strtest-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+strtest-0.0.1.dist-info/top_level.txt,sha256=GF4lVt3-wV-XbvYyTa5ZRNJHE0u52fQoHeKU-zQbXqA,8
+strtest-0.0.1.dist-info/RECORD,,
