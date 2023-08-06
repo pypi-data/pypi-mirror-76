@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: elgamal
+Version: 0.0.4
+Summary: Elgamal cryptography algorithms
+Home-page: https://t.me/sidqdev
+Author: Sidq
+Author-email: dimax258223@gmail.com
+License: UNKNOWN
+Description: pip install PyCryptoDomex<br>
+        
+        
+        from elgamal import Elgamal<br>
+        
+        m = b'Text'<br>
+        
+        print(m)<br>
+        
+        pb, pv = Elgamal.newkeys(128)<br>
+        
+        print(pb)<br>
+        print(pv)<br>
+        
+        ct = Elgamal.encrypt(m, pb)<br>
+        
+        print(ct)<br>
+        
+        dd = Elgamal.decrypt(ct, pv)<br>
+        
+        print(dd)<br>
+        print()<br>
+        
+        My telegram: https://t.me/sidqdev<br>
+        By sidq with love
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
