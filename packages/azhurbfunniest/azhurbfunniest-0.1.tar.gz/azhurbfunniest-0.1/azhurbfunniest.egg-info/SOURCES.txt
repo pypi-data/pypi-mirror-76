@@ -1,0 +1,7 @@
+setup.py
+azhurbfunniest.egg-info/PKG-INFO
+azhurbfunniest.egg-info/SOURCES.txt
+azhurbfunniest.egg-info/dependency_links.txt
+azhurbfunniest.egg-info/not-zip-safe
+azhurbfunniest.egg-info/top_level.txt
+funniest/__init__.py
