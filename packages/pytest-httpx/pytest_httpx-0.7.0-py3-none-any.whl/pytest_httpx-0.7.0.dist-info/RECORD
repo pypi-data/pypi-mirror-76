@@ -1,0 +1,10 @@
+pytest_httpx/__init__.py,sha256=O6e0YGkjIN90rZWdG8WrjvU9SN0-r-nbYOzqFAHkiaw,805
+pytest_httpx/_httpx_internals.py,sha256=yw5oNyMF1U2XgbWCCm1-cEYNA6dJqJ5CqAQi9GV_g3c,1049
+pytest_httpx/_httpx_mock.py,sha256=XdpHXWk5vhpqV-LlJ0Ep5M--X9LprHBqB7OQNIT7gTk,13764
+pytest_httpx/version.py,sha256=wjOJuSxjlFhEGeBhsCPXKIx8q1NY8RPWOB4cGKbYJ2o,371
+pytest_httpx-0.7.0.dist-info/LICENSE,sha256=xd320zQeoc-jRB1LnCTKMFT2x0yIIqqX64icuabaQtE,1071
+pytest_httpx-0.7.0.dist-info/METADATA,sha256=zw4JS4E4fkqT5F5M8Tznwe20ym-IiI-euXpvpNLQ328,19353
+pytest_httpx-0.7.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytest_httpx-0.7.0.dist-info/entry_points.txt,sha256=MHncrlotY3U1I3GWGAeYHXrV-amRPzgK-eFHBm_uvyU,40
+pytest_httpx-0.7.0.dist-info/top_level.txt,sha256=LHiyJaBe0D71RJgb63nuXCiDwG7PAH_Oecgl_W0aNWM,13
+pytest_httpx-0.7.0.dist-info/RECORD,,
