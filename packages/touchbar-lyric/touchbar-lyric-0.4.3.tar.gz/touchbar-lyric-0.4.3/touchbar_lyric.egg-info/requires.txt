@@ -1,0 +1,10 @@
+requests
+osascript
+cachier
+hanziconv
+pinyin
+regex
+loguru
+pycrypto
+textdistance
+numpy
