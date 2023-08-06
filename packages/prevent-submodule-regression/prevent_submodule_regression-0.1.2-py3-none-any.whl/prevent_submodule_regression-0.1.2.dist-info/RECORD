@@ -1,0 +1,8 @@
+prevent_submodule_regression/__init__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+prevent_submodule_regression/cli.py,sha256=OHlBCten_yj7v0jWhRFdoQ3pkE6Lgk4yYuiUpP8hlZ4,112
+prevent_submodule_regression/parser.py,sha256=KSSGY3zGSUZNcp7BILnf0ADzsf03zJJR_TJiNen2-WQ,3488
+prevent_submodule_regression-0.1.2.dist-info/entry_points.txt,sha256=bulpL5uGqecx21Qa4Lzg3NW5asUrp0G_LzQNS609zAQ,86
+prevent_submodule_regression-0.1.2.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+prevent_submodule_regression-0.1.2.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+prevent_submodule_regression-0.1.2.dist-info/METADATA,sha256=7kbp1YNtkDvMB5qezbrh0791h4HRf5Opy0diTin3BTo,2645
+prevent_submodule_regression-0.1.2.dist-info/RECORD,,
