@@ -1,0 +1,55 @@
+{% extends "admin/base.html" %}
+
+{% from "macros/pagination.html" import render_pagination %}
+{% from "macros/forms.html" import render_form %}
+{% from "macros/navigation.html" import breadcrumbs %}
+{% import "macros/mde.html" as mde %}
+
+{% block headpagetitle %}Strony{% endblock %}
+
+{% block content %}
+<h2>Strony</h2>
+{% if pagination.items %}
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">tytuł</th>
+      <th scope="col">utworzona</th>
+      <th scope="col">zmodyfikowana</th>
+      <th scope="col">aktywna</th>
+      <th scope="col">w menu</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for page in pagination.items %}
+    <tr>
+      <td><a href="{{ url_for('admin.page_detail', page_pk=page.pk) }}">{{ page.title }}</a></td>
+      <td>{{ page.created|datetimeformat(format='short') }}</td>
+      <td>{{ page.updated|datetimeformat(format='short') }}</td>
+      <td>{{ page.active|yesno }}</td>
+      <td>{{ page.main|yesno }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{{ render_pagination(pagination) }}
+{% else %}
+<p>Nie ma żadnych stron. Dodaj nową używając formularza poniżej.</p>
+{% endif %}
+<h2>Nowa strona</h2>
+{{ render_form(form, action=request.path) }}
+{% endblock %}
+
+{% block breadcrumbs %}
+{% set pages = [(url_for('admin.home'), 'Początek'), (request.path, 'Lista stron')] %}
+{{ breadcrumbs(pages) }}
+{% endblock %}
+
+{% block extrahead %}
+{{ mde.css() }}
+{{ mde.js() }}
+{% endblock %}
+
+{% block extrajs %}
+{{ mde.load_for('text') }}
+{% endblock %}
