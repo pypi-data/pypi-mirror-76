@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+__init__.py
+setup.py
+nesssery.egg-info/PKG-INFO
+nesssery.egg-info/SOURCES.txt
+nesssery.egg-info/dependency_links.txt
+nesssery.egg-info/top_level.txt

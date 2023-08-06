@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: nesssery
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: patrick sery
+Author-email: nesssery@gmail.com
+License: MIT
+Description: Une simple calculatrice permettant de faire une addition, une soustraction, une multiplication ou une division
+        
+        Change Log
+        ====================
+        
+        0.0.1 (11/08/2020)
+        ------------------
+         - First release
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Environment :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

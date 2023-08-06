@@ -1,0 +1,1 @@
+Une simple calculatrice permettant de faire une addition, une soustraction, une multiplication ou une division
