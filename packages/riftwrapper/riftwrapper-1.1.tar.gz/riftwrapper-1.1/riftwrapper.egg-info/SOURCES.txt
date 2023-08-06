@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+riftwrapper/ApiVer.py
+riftwrapper/RiftWrapper.py
+riftwrapper/__init__.py
+riftwrapper.egg-info/PKG-INFO
+riftwrapper.egg-info/SOURCES.txt
+riftwrapper.egg-info/dependency_links.txt
+riftwrapper.egg-info/requires.txt
+riftwrapper.egg-info/top_level.txt
+riftwrapper/ApiBase/ApiBase.py
+riftwrapper/ApiBase/__init__.py
+riftwrapper/ApiBase/api/Error.py
+riftwrapper/ApiBase/api/LeagueApi.py
+riftwrapper/ApiBase/api/LorApi.py
+riftwrapper/ApiBase/api/__init__.py
