@@ -1,0 +1,4 @@
+pygame
+pygame-minesweeper-core
+pygame-minesweeper-sprites
+appdirs
