@@ -1,0 +1,11 @@
+django_modelapiview/APIView.py,sha256=uZYGVsYUFNASGkC_mPi5SpwadVmszdyn80qGybeecGs,6814
+django_modelapiview/JSONMixin.py,sha256=3Yojolfdhnuohd67XAYtKWxRI_p6VyAohhjU-EbSBpo,3800
+django_modelapiview/Token.py,sha256=HP6DMKyfY-DrQjFjxSRLgQ9iucoGd_MJg_e0cIf8Qn8,1194
+django_modelapiview/__init__.py,sha256=v7vO5Zepy58LjbKpu58_S0GaVh5KRIS56qOMp2BaJ4E,87
+django_modelapiview/decorators.py,sha256=0mMbE_A-p5EcTbwOXPw0JHH9u98zcCUeb3QdsZZUqqA,480
+django_modelapiview/responses.py,sha256=P5M8mE6uyrrIEhMfhx-HaBrtcAcBquKAfDWlkJsjI74,2935
+django_modelapiview-1.2.1.dist-info/LICENSE,sha256=62p4-nHIkiOOeEQlOa95zN2fIzb1n6ua3sWv2XKKZRc,1326
+django_modelapiview-1.2.1.dist-info/METADATA,sha256=WE-XzINH-0jPemi2kdoqz6b8NsDLKqcS55dqAG2LIB4,826
+django_modelapiview-1.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_modelapiview-1.2.1.dist-info/top_level.txt,sha256=CrdBWrPRA7UdukZF0AY9EVzYLvknOS8sO2ZfglO3Hrs,20
+django_modelapiview-1.2.1.dist-info/RECORD,,
