@@ -1,0 +1,11 @@
+README.md
+setup.py
+deep_utils.dynamodb.egg-info/PKG-INFO
+deep_utils.dynamodb.egg-info/SOURCES.txt
+deep_utils.dynamodb.egg-info/dependency_links.txt
+deep_utils.dynamodb.egg-info/not-zip-safe
+deep_utils.dynamodb.egg-info/requires.txt
+deep_utils.dynamodb.egg-info/top_level.txt
+deep_utils/dynamodb/django_utils.py
+deep_utils/dynamodb/models.py
+deep_utils/dynamodb/s3.py

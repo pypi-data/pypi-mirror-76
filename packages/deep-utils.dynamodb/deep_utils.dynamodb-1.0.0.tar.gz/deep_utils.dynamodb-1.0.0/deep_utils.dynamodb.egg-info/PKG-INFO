@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: deep-utils.dynamodb
+Version: 1.0.0
+Summary: Dynamodb helpers for DEEP
+Home-page: https://github.com/the-deep/deep-server-utils
+Author: Bibek Pandey
+Author-email: bibek.pandey@togglecorp.com
+License: MIT
+Description: ## DEEP Dynamodb utils
+        
+        Utilities, mostly dynamodb models for DEEP.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Utilities
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
