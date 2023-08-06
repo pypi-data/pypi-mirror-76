@@ -1,0 +1,3 @@
+[console_scripts]
+news-mining-db = news_mining_db.commands:news_mining_db
+
