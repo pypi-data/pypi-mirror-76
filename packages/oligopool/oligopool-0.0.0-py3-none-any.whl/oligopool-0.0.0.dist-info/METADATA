@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: oligopool
+Version: 0.0.0
+Summary: Under Construction
+Home-page: https://github.com/ayaanhossain/oligopool
+Author: Ayaan Hossain
+Author-email: auh57@psu.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6, <4
+
+UNKNOWN
+
+
