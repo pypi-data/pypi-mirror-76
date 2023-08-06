@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pywrangle
+Version: 0.0.1
+Summary: Auxiliary functions to clean pandas data frames
+Home-page: https://github.com/jaimiles23/pywrangle
+Author: Jai Miles
+Author-email: jaimiles23@gmail.com
+License: MIT
+Description: # Pywrangle
+        Library with auxiliary functions to clean pandas data frames. Available on PyPI [here]()
+        
+        ## Install
+        - Python 3.6+
+        - numpy
+        - pandas
+        
+        To install pywrangle, use pip:
+        ```
+        pip install pywrangle
+        ```
+        
+        
+        ## Contents
+        
+        ### Missing Data
+        
+        ### String cleaning
+        
+        ## TODO:
+        TODO lists available in pywrangle functions.
+        
+        
+        
+Keywords: clean,wrangle,pandas,dataframe,mangle
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

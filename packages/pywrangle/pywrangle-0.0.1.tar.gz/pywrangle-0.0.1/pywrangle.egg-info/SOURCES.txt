@@ -1,0 +1,7 @@
+README.md
+setup.py
+pywrangle.egg-info/PKG-INFO
+pywrangle.egg-info/SOURCES.txt
+pywrangle.egg-info/dependency_links.txt
+pywrangle.egg-info/requires.txt
+pywrangle.egg-info/top_level.txt
