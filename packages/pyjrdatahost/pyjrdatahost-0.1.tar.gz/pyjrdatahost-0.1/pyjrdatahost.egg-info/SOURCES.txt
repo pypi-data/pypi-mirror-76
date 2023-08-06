@@ -1,0 +1,9 @@
+README.md
+setup.py
+pyjrdatahost/__init__.py
+pyjrdatahost/client.py
+pyjrdatahost/server.py
+pyjrdatahost.egg-info/PKG-INFO
+pyjrdatahost.egg-info/SOURCES.txt
+pyjrdatahost.egg-info/dependency_links.txt
+pyjrdatahost.egg-info/top_level.txt
