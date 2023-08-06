@@ -1,0 +1,4 @@
+fdsnextender
+Click
+PyYAML
+psycopg2-binary
