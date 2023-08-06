@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ayx-learn
+Version: 2020.2.0
+Summary: ['Ayx-learn alpha release.']
+Home-page: https://git.alteryx.com/hamilton/ayx-learn
+Author: Alteryx, Inc.
+Author-email: support@alteryx.com
+License: UNKNOWN
+Platform: Windows
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (==0.24.2)
+Requires-Dist: scikit-learn (==0.21.1)
+Requires-Dist: numpy (==1.16.3)
+Requires-Dist: pydantic (==1.5.1)
+Requires-Dist: pyyaml (==3.13)
+Requires-Dist: typing-extensions (==3.7.4.1)
+Requires-Dist: xgboost (==0.90)
+
+# ayx-learn
+
+A foundation of [scikit-learn](https://scikit-learn.org/stable/) compatible data science tools, such as Transformers, that the Alteryx ML Toolkit is built on.
+
+## Documentation
+
+`ayx-learn` follows the [Alteryx Python Documentation Standards](https://alteryx.quip.com/bFgiAZThHaJv/Python-Documentation-Standards).
+
+See [README](docs/README.md).
+
+
