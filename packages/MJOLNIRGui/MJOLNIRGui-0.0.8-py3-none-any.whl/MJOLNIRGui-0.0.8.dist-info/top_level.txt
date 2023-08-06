@@ -1,0 +1,12 @@
+MJOLNIRGui
+MJOLNIRGui/Views
+MJOLNIRGui/icons
+MJOLNIRGui/icons/base
+MJOLNIRGui/icons/linux
+MJOLNIRGui/icons/mac
+MJOLNIRGui/resources
+MJOLNIRGui/resources/base
+MJOLNIRGui/resources/base/Icons
+MJOLNIRGui/resources/base/Icons/Own
+MJOLNIRGui/resources/base/Views
+MJOLNIRGui/settings
