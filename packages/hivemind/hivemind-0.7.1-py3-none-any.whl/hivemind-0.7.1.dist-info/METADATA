@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: hivemind
+Version: 0.7.1
+Summary: UNKNOWN
+Home-page: https://github.com/learning-at-home/hivemind
+Author: Learning@home authors
+Author-email: mryabinin@hse.ru
+License: MIT
+Keywords: pytorch,deep learning,machine learning,gpu,distributed computing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: PyYAML
+Requires-Dist: torch (>=1.3.0)
+Requires-Dist: numpy (>=1.17)
+Requires-Dist: prefetch-generator (>=1.0.1)
+Requires-Dist: umsgpack
+Requires-Dist: uvloop (>=0.14.0)
+Requires-Dist: grpcio (>=1.31)
+Requires-Dist: grpcio-tools (>=1.30.0)
+
+UNKNOWN
+
+
