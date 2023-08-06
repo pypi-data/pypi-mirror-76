@@ -1,0 +1,4 @@
+pylsd-nova
+numpy
+Pillow
+moviepy

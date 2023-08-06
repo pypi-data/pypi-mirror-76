@@ -1,0 +1,13 @@
+README.md
+setup.py
+get_stick_bugged_lol.egg-info/PKG-INFO
+get_stick_bugged_lol.egg-info/SOURCES.txt
+get_stick_bugged_lol.egg-info/dependency_links.txt
+get_stick_bugged_lol.egg-info/entry_points.txt
+get_stick_bugged_lol.egg-info/requires.txt
+get_stick_bugged_lol.egg-info/top_level.txt
+gsbl/__init__.py
+gsbl/__main__.py
+gsbl/generator.py
+gsbl/media/audio.wav
+gsbl/media/stick_bug.mp4
