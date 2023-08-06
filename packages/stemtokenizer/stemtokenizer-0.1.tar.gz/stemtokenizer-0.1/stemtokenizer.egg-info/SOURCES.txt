@@ -1,0 +1,8 @@
+setup.py
+stemtokenizer/__init__.py
+stemtokenizer/tokenizer.py
+stemtokenizer.egg-info/PKG-INFO
+stemtokenizer.egg-info/SOURCES.txt
+stemtokenizer.egg-info/dependency_links.txt
+stemtokenizer.egg-info/not-zip-safe
+stemtokenizer.egg-info/top_level.txt
