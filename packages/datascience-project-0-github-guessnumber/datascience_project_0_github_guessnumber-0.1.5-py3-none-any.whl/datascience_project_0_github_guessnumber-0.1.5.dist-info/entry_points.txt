@@ -1,0 +1,3 @@
+[console_scripts]
+datascience_guessnumber = datascience_project_0_github_guessnumber.command_line:run
+
