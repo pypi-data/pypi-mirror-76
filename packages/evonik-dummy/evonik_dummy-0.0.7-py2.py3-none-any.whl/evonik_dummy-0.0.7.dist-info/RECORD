@@ -1,0 +1,17 @@
+evonik/dummy/__init__.py,sha256=2-vfjR0asFXwnuFDPEw9Z8G41-NxorzcNYOvpUiQxvg,212
+evonik/dummy/array.py,sha256=w8WR0CXSbxYBM2eAKDQFg6FgJXRCpx-OFBUa3wQR7hA,5152
+evonik/dummy/boolean.py,sha256=EmuiAYlqrXrHk4yZkneQDYYd7b2-lWXzgXyTh8wSHpk,2059
+evonik/dummy/dummy.py,sha256=_iFdP2zfGl6zkrqpXVRAcNvychMbeMQUGrhuvx_BH-Y,1796
+evonik/dummy/enum.py,sha256=klDm8B6L8GdCa5yr1STIg0rNdX8Bogz7kcTYlH34WKU,1508
+evonik/dummy/faker.py,sha256=oeWQ8KJ79kcrSgUu1szQ86jzVYmaAbWQpdQSBB6ERGw,2262
+evonik/dummy/integer.py,sha256=1jMvpl1Owa9kXcIR-PxWNfMCXoWuZfjJcqwZohOsGjQ,3698
+evonik/dummy/number.py,sha256=KaPRq9gH2R8aZT_Gta148w99DCde2sbotlAXDDe3Egc,5734
+evonik/dummy/object.py,sha256=aNGnZtFkR2S6IMCnKeOVHklt9hDQvEnRnxXUt4MzjQ4,4241
+evonik/dummy/string.py,sha256=o5pZCIqQnm7ocRvk91xCQ2IMzSiJIWr4nGRQE8VAt_M,4131
+evonik/dummy/test_all.py,sha256=fEmeqD69IOgrurYf-gWE2ai0LfjNXwdCywbRlYElCYY,252
+evonik/dummy/util.py,sha256=Dsm_C6dPUutFc3xgp0DBnGDRXChB8zvqD3tF4o8DJpQ,1072
+evonik_dummy-0.0.7.dist-info/LICENSE,sha256=9cDa3icKhNHiECCxUgvuJYmw7e4mhm4oBqVRJDSp5z4,1082
+evonik_dummy-0.0.7.dist-info/METADATA,sha256=djlY3fRdngfKGrvMH5Ayb7-r8yUBhW10HfnvIQny1b8,2028
+evonik_dummy-0.0.7.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+evonik_dummy-0.0.7.dist-info/top_level.txt,sha256=fJis3spPIMESfEKhD48hcj5omxdyGTwoaFxf8QyV35M,7
+evonik_dummy-0.0.7.dist-info/RECORD,,
