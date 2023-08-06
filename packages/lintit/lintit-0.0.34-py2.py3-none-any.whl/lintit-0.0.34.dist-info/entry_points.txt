@@ -1,0 +1,3 @@
+[console_scripts]
+lintit = lint_it.linter:main
+
