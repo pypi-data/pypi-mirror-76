@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: lmgtfyreborn
+Version: 0.2
+Summary: A library to get a Lmgfty url from a set of terms
+Home-page: https://github.com/DiegoMagdaleno/imgtify-reborn
+Author: Diego Magdaleno
+Author-email: diegomagdaleno@protonmail.com
+License: MIT
+Download-URL: https://github.com/DiegoMagdaleno/lmgtfyreborn/archive/0.3.tar.gz
+Description: UNKNOWN
+Keywords: lmgtfy
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
