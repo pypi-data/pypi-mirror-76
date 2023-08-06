@@ -1,0 +1,11 @@
+README.md
+setup.py
+libvxshare/__init__.py
+libvxshare/apiv2.py
+libvxshare.egg-info/PKG-INFO
+libvxshare.egg-info/SOURCES.txt
+libvxshare.egg-info/dependency_links.txt
+libvxshare.egg-info/requires.txt
+libvxshare.egg-info/top_level.txt
+libvxshare/tests/__init__.py
+libvxshare/tests/test_apiv2.py
