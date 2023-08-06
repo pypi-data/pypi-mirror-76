@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nidsdata/__init__.py
+nidsdata.egg-info/PKG-INFO
+nidsdata.egg-info/SOURCES.txt
+nidsdata.egg-info/dependency_links.txt
+nidsdata.egg-info/requires.txt
+nidsdata.egg-info/top_level.txt
+nidsdata/kddcup99/README.md
+nidsdata/kddcup99/__init__.py
+nidsdata/nslkdd/__init__.py
+nidsdata/unswnb15/__init__.py
