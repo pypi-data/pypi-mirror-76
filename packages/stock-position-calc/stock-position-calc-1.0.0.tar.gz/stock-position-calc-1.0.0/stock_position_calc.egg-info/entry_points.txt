@@ -1,0 +1,3 @@
+[console_scripts]
+stock-position-calc = stock_position_calc.app:main
+
