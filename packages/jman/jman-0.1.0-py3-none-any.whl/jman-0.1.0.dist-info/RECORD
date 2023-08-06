@@ -1,0 +1,13 @@
+jman/__init__.py,sha256=s_X84pt4AfpsPZeCYMZQ2OIqFT45emrj9zYbz7GDkSE,332
+jman/client.py,sha256=klhjOgcnTPPMzw2NMQQCP2MAw6ijf-VnEtnt2a89hmM,1666
+jman/current_job.py,sha256=mHWLfh5cIYc8MUwKjX0sdiU1S48hoeHTQcDrf8tGb6Q,1765
+jman/job.py,sha256=EHgIRJ6SmRJIjWTSKur6fk3pLNlHaUPnEtwWXGNn-_o,3264
+jman/manager.py,sha256=ozn_feuyQPbhFQ1u7HMwwQx9Pn_hG1Fy1Vj0ypb4TzU,1664
+jman/server.py,sha256=fkgR3vb1C-HCd1P6j5IO90BcMhxTByj32oilFvqSfWo,4552
+jman/serverd.py,sha256=xmQAQGWCYrrcNYGVw8-4QZPGdve5gWGiEICo8Y8034c,465
+jman-0.1.0.dist-info/LICENSE,sha256=PFiL2wkEWXKVP3Dh-8IhodWIMtq9p8IdQZ7_IfQs0Tc,1072
+jman-0.1.0.dist-info/METADATA,sha256=H4yZR_xzxP0JLGVD3q6MQ3HUjfeq6F4yiGTspcLpHRU,653
+jman-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jman-0.1.0.dist-info/entry_points.txt,sha256=8SqFLUrfXtGtJE6vuE3OK-X8EeBs3XdWsCMr4VHChus,53
+jman-0.1.0.dist-info/top_level.txt,sha256=j9lyHj7cQpu3n6nHvnc-UilA0Y466ELftjbIZCWzHac,5
+jman-0.1.0.dist-info/RECORD,,

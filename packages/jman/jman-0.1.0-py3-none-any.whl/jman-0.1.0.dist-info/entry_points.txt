@@ -1,0 +1,3 @@
+[console_scripts]
+jman_serverd = jman.serverd:_main
+
