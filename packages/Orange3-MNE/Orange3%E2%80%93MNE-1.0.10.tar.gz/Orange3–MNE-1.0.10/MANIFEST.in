@@ -1,0 +1,5 @@
+include Orange3MNE/EegClassification/widgets/icons/*
+include Orange3MNE/EegDataIO/widgets/icons/*
+include Orange3MNE/EegFeatureExtraction/widgets/icons/*
+include Orange3MNE/EegPreprocessing/widgets/icons/*
+include Orange3MNE/EegVisualization/widgets/icons/*
