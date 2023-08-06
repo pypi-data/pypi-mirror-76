@@ -1,0 +1,53 @@
+# Norfair  [ TODO: Mention <points> in the intro ]
+Norfair is a Python library for adding tracking to any detector. It aims at being easy to use, providing tools for creating your video tracking program using Norfair, while being modular enough to integrate only the parts of Norfair you need into an already existing program.
+
+A typical use case would be any software alrady using a detector (such as object detection, instance segmentantion, pose estimation, etc) on video, seeking to easily add tracking to it. Another way we've seen it used is to speed up video inference, by only running the detector every x frames, and using Norfair to interpolate the detections on the skipped frames.
+
+## Usage overview
+We know that using the latest SOTA detector usually requires running the code associated to a research paper, which sometimes means getting an eval script working as an inference script, and generally having to tweak a code base which wasn't built with modularity and ease of use in mind. Therefore we designed Norfair so that it could seamlessly plug in into this way of working with research projects.
+
+Norfair consists of a set of tracking and video processing tools which are each designed to be usable on their own. You can create your video processing loop using just the tools Norfair provides, or plug parts of Norfair into your already existing video processing code.
+
+A simple example of an all Norfair loop:
+
+```python
+# Your detector
+detector = SomeDetector()
+
+# Norfair
+video = Video(input_path="video.mp4")
+tracker = Tracker(distance_function=distance_fn)
+
+for frame in video:
+    detections = detector(frame)
+    detections = convert_fn(detections)
+    tracked_objects = tracker.update(detections=detections)
+
+    norfair.draw_tracked_objects(frame, tracked_objects)
+    video.write(frame)
+```
+
+It isn't alway easy to extract a SOTA detector into a nice single `detector` object, so here is a simple example of plugging Norfair into a research repo:
+
+```python
+### Find a good repo to use as a canonical Norfair demo
+```
+
+## Installation
+```bash
+pip install norfair
+```
+
+## API
+Norfair provides a `Video` class to provide a simple and pythonic api to interact with video. It returns regular OpenCV frames which allows you to use the huge number of tools OpenCV provides to modify images.
+
+You can get a simple video inference loop with just:
+```python
+video = Video(input_path="video.mp4")
+for frame in video:
+    # Your modifications to the frame
+    video.write(frame)
+```
+we think the api is a bit more pythonic than the standard OpenCV api, and it provides several nice ammenities such as an optional progress bar, and lets you not have to handle video formats, input validation, output file saving.
+
+
