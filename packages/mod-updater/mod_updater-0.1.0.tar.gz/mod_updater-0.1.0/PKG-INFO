@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: mod_updater
+Version: 0.1.0
+Summary: Automatically update forge minecraft mods
+Home-page: https://github.com/snallapa/mod_updater
+Author: Sahith Nallapareddy
+Author-email: sahith.reddy@gmail.com
+License: MIT
+Description: 
+        # Minecraft Mod Updater
+        
+        Update forge mods on a server easily
+        
+        ## Tests
+        
+        To run the test suite, run the following in the project root directory: 
+        ```
+        python -m unittest
+        ```
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
