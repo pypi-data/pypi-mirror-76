@@ -1,0 +1,20 @@
+commands:
+  - command: "tap-exchangeratesapi"
+    args: "--config config/tap-config.json"
+    venv: "proc_01"
+    installs:
+      - "pip install tap-exchangeratesapi"
+  - command: "python files/stats_collector.py"
+    venv: "proc_01"
+  - command: "target-csv"
+    args: "--config config/target-config.json"
+    venv: "proc_02"
+    installs:
+      - "pip install target-csv"
+deploy:
+  provider: "aws"
+  platform: "fargate"
+  envs:
+    resource_group: "handoff-test"
+    docker_image: "singer_exchange_rates_to_csv"
+    task: "test-03-exchange-rates"
