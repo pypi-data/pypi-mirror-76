@@ -1,0 +1,11 @@
+slackblocks/__init__.py,sha256=H0_fTBa0OQC5YBkKZ6Qy2Z9cMZWaz8E_hLoSPAKnhmY,305
+slackblocks/attachments.py,sha256=kFSKgMwBKJdlAnCn3Fs51NcHs8PlwgHnsMgImAOOOtM,2395
+slackblocks/blocks.py,sha256=PkwSlTe5xEvNKfmtDKnzXXnRfj72yAGJoAzeqTCF6f0,6970
+slackblocks/elements.py,sha256=SyxZmVjUoblHse1xzufl2Gio5RnxcteOZsRSW7HvOWI,5692
+slackblocks/errors.py,sha256=6f6Ozz-TE3krcJBPOQUTGQzO3Ex2dd_d8CofNhRUWSo,131
+slackblocks/messages.py,sha256=qrqTdZv3Cb6KRgBAbc8UxZ_4iDWWExgkjyiDLokOIA0,3372
+slackblocks-0.2.1.dist-info/LICENSE,sha256=YMZ31nSXZCpYAOPyKqcS4iAbXY0HGhzVzNHdUVAqbaE,1526
+slackblocks-0.2.1.dist-info/METADATA,sha256=fduKuu1UkjxPsUVYqwG0CJ-B4Llhn6smKR5dtc_7N58,3084
+slackblocks-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+slackblocks-0.2.1.dist-info/top_level.txt,sha256=aN4aPXpfJuQLEgr8-pwuemG_Hh9P8-dqTf119TvPONA,12
+slackblocks-0.2.1.dist-info/RECORD,,
