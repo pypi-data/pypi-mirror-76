@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: time_series_transform
+Version: 0.0.2
+Summary: A data preprocessing package for time series data. It provides tools for machine learing and deep learning.It also has subsection specialized in stock.
+Home-page: https://github.com/allen-chiang/Time-Series-Transformer
+Author: KuanLun Chiang KuanYu Chiang
+Author-email: kuanlun.chiang@outlook.com
+License: MIT
+Download-URL: https://github.com/allen-chiang/Time-Series-Transformer/archive/0.0.2.tar.gz
+Description: UNKNOWN
+Keywords: time series,stock,machine learning,deep learning
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
