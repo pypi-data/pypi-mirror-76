@@ -1,0 +1,9 @@
+reader/Reader.py,sha256=tq5YBBlswZqWuStP_P7WeRULvHrcR87p_TYictfDOBs,1893
+reader/__init__.py,sha256=m_9GbS999tZaSRlPtD856nox49_Tji3ZybYnYj9oSfU,629
+reader/__main__.py,sha256=4C65FoU3X3U_p9hoz7J9Zrx3NYwaboSyxNmJzU6B7Co,825
+csv_reader-1.2.0a0.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+csv_reader-1.2.0a0.dist-info/METADATA,sha256=JGFJu0WQ34I7_3cdyGZDhvFjboRbRxCLr7RUnQxE4O0,1331
+csv_reader-1.2.0a0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+csv_reader-1.2.0a0.dist-info/entry_points.txt,sha256=m8wNjP17oUO99KT2X1ki1_KcZwVZxQ91AX7DVZY5m54,49
+csv_reader-1.2.0a0.dist-info/top_level.txt,sha256=zVRv6FulXZWKf9Gycz9vjxul5OCZ3fCq2Attdwsu7Z4,7
+csv_reader-1.2.0a0.dist-info/RECORD,,
