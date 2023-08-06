@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: aiostp
+Version: 0.0.1.dev0
+Summary: asyncio client library for stpmex.com
+Home-page: https://github.com/cuenca-mx/aiostp
+Author: Cuenca
+Author-email: dev@cuenca.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: aiohttp (<3.7.0,>=3.6.2)
+Requires-Dist: cryptography (<4.1,>=3.0)
+Requires-Dist: cuenca-validations (<0.6.0,>=0.4.1)
+
+asyncio client library for stpmex.com
+
+
