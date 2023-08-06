@@ -1,0 +1,3 @@
+[console_scripts]
+faceless=faceless.__main__:main
+
