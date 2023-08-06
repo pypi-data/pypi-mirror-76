@@ -1,0 +1,8 @@
+README.md
+setup.py
+LazyIter/__init__.py
+LazyIter/count.py
+LazyIter_teshnizi.egg-info/PKG-INFO
+LazyIter_teshnizi.egg-info/SOURCES.txt
+LazyIter_teshnizi.egg-info/dependency_links.txt
+LazyIter_teshnizi.egg-info/top_level.txt
