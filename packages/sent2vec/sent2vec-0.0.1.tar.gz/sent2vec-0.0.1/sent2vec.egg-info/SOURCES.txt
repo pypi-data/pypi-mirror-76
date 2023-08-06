@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+sent2vec/__init__.py
+sent2vec/test_vectorizer.py
+sent2vec/vectorizer.py
+sent2vec.egg-info/PKG-INFO
+sent2vec.egg-info/SOURCES.txt
+sent2vec.egg-info/dependency_links.txt
+sent2vec.egg-info/entry_points.txt
+sent2vec.egg-info/requires.txt
+sent2vec.egg-info/top_level.txt
