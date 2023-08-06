@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+botnoi/__init__.py
+botnoi/cv.py
+botnoi/mobilenet.py
+botnoi/openapi.py
+botnoi/resnet50.py
+botnoi/scrape.py
+botnoi.egg-info/PKG-INFO
+botnoi.egg-info/SOURCES.txt
+botnoi.egg-info/dependency_links.txt
+botnoi.egg-info/top_level.txt
