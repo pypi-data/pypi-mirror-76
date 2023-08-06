@@ -1,0 +1,14 @@
+syncP/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+syncP/__main__.py,sha256=dj26utQkFdipkXQX5E1I8r9RtsnOD-_rjcMeBHUPb88,781
+syncP/client.py,sha256=KXg2h1OSvCxnvrlRSSeEDEvw5A_n7bvXrUuetl9adNs,2466
+syncP/host.py,sha256=gUFsBywlg7x-gT6t-h5Zc5lXGbwyGeJ0w_48fH2FKBM,1901
+syncP/mpv.py,sha256=yJhxGAgLj1j648LNpUN8bL6wO8DDNMjfpX_66faOKYE,79029
+syncP/player.py,sha256=gRN8MyBPZoByMD8EeLIluOyr-Dt14mdwsnMheTUSoCs,1496
+syncP/testmpv.py,sha256=WgQh07AWQfASS9rXj9s1PFo5uVpGU9TLyxxnOJyaXwA,528
+syncP/media/vid.mkv,sha256=IidNSj7GPB9a6uWCpSfN_kEeGJwuxp8xatGzwKlfllM,5003257
+syncP-0.1.dist-info/LICENSE,sha256=ujpEsbZ5c_GF0xOASVAwVoYQxBB3LCGfMPskO6KbSNE,1071
+syncP-0.1.dist-info/METADATA,sha256=yscISgP4KbO2tfZTdpt-HL4rru5l2jZ6ZO4uZNBkbms,2977
+syncP-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+syncP-0.1.dist-info/entry_points.txt,sha256=JeoAx-2f9Uqs1gvkxEHX6WL24QDxJ01AEev2xEx0_dI,62
+syncP-0.1.dist-info/top_level.txt,sha256=au1Bhim05cAIfyLS90ypk9nvX1vqKu2fC5nOZeOwPn0,6
+syncP-0.1.dist-info/RECORD,,
