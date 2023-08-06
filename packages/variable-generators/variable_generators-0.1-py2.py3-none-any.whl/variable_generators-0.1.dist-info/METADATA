@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: variable-generators
+Version: 0.1
+Summary: Bulk definition of explanatory variables for UrbanSim
+Home-page: https://github.com/udst/variable_generators
+Author: UrbanSim Inc.
+Author-email: info@urbansim.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: numpy (>=1.1)
+Requires-Dist: pandas (>=0.16)
+Requires-Dist: orca (>=1.3)
+Requires-Dist: urbansim (>=0.1.1)
+Provides-Extra: pandana
+Requires-Dist: pandana (>=0.1) ; extra == 'pandana'
+
+Functions that facilitate bulk creation of Orca column functions for use as explanatory variables in UrbanSim.
+
+
