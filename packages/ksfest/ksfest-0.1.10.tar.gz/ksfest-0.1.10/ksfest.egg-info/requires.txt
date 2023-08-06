@@ -1,0 +1,6 @@
+numpy>=1.15
+numba
+pandas>=0.19
+scipy>=0.18
+tqdm>=4.38.0
+click>=7.0
