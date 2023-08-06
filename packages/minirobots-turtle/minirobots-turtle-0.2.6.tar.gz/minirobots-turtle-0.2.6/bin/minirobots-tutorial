@@ -1,0 +1,4 @@
+#!/bin/bash
+
+BASEDIR=$(python -c 'import pathlib, minirobots; print(pathlib.Path(minirobots.__file__).resolve().parent, end="")')
+JUPYTER_CONFIG_DIR=$BASEDIR-tutorial/.jupyter jupyter notebook $BASEDIR-tutorial/Index.ipynb
