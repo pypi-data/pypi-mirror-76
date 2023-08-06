@@ -1,0 +1,9 @@
+README.md
+setup.py
+GitlabMRScanner.egg-info/PKG-INFO
+GitlabMRScanner.egg-info/SOURCES.txt
+GitlabMRScanner.egg-info/dependency_links.txt
+GitlabMRScanner.egg-info/entry_points.txt
+GitlabMRScanner.egg-info/requires.txt
+GitlabMRScanner.egg-info/top_level.txt
+gl_pr/app.py
