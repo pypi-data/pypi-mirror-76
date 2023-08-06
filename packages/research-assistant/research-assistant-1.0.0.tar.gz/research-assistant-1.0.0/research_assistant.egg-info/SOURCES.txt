@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/paper-scraper.py
+research_assistant.egg-info/PKG-INFO
+research_assistant.egg-info/SOURCES.txt
+research_assistant.egg-info/dependency_links.txt
+research_assistant.egg-info/not-zip-safe
+research_assistant.egg-info/requires.txt
+research_assistant.egg-info/top_level.txt
