@@ -1,0 +1,11 @@
+datalite/__init__.py,sha256=3cWEp8oIqZyKcaxzh57k9wXDufWrzgmJSfDSiM0rTj8,106
+datalite/commons.py,sha256=wYT_hVQKv6aTepfq4KAOKMzAS1dowWNyvoF4liGwzwA,1144
+datalite/datalite_decorator.py,sha256=o4Ly_5AchtatzNJWmzo0ho7Q6t9gQ9XnWIsj8LCytKo,4559
+datalite/fetch.py,sha256=YUfXjwu3v5kjcSbivQLr_3Me-tUyKJBsVq_fBoA1T0I,5596
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/main_tests.py,sha256=ko_-NvIucLdKtqtQiAm4YnyqFr7ocvlc5FjQHhWh71A,3509
+datalite-0.5.0.dist-info/LICENSE,sha256=T-qyzt-n5lzB4-jq5EQyZzSL8IcLLch_srFzyhV6DVk,1054
+datalite-0.5.0.dist-info/METADATA,sha256=fZCC-xj92qflQbgXXb9l9ESkmeqz_VclCwJQib7WsGA,4155
+datalite-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+datalite-0.5.0.dist-info/top_level.txt,sha256=Rb57hn_qTpzShwgOJVJAAZO42yg-Nvn6lPr6yvY2taI,14
+datalite-0.5.0.dist-info/RECORD,,
