@@ -1,0 +1,11 @@
+README.md
+setup.py
+confizzo/ConfizzoError.py
+confizzo/__init__.py
+confizzo.egg-info/PKG-INFO
+confizzo.egg-info/SOURCES.txt
+confizzo.egg-info/dependency_links.txt
+confizzo.egg-info/top_level.txt
+confizzo/multifile/__init__.py
+confizzo/multifile/config_manager.py
+confizzo/multifile/parser.py
