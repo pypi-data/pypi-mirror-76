@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python-clint-utilities
+Version: 1.0.3
+Summary: A library of stuff I use a lot.
+Home-page: https://github.com/clintecker/python-clint-utilities
+Author: Clint Ecker
+Author-email: me@clintecker.com
+License: MIT
+Description: A package of utilties i use often!
+        
+Keywords: python
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Provides-Extra: test
