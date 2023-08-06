@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+leila/__init__.py
+leila/calidad_datos.py
+leila/datos_gov.py
+leila/reporte.py
+leila.egg-info/PKG-INFO
+leila.egg-info/SOURCES.txt
+leila.egg-info/dependency_links.txt
+leila.egg-info/requires.txt
+leila.egg-info/top_level.txt
+leila/templates/template.html
