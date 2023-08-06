@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: data_warehouse
+Version: 1.0.0
+Summary: 데이터 웨어하우스를 만들 때 사용하는 간소화된 인터페이스입니다.
+Home-page: https://github.com/da-huin/data_warehouse
+Author: JunYeong Park
+Author-email: dahuin000@gmail.com
+License: MIT
+Download-URL: https://github.com/da-huin/data_warehouse/archive/master.zip
+Description: Please refer to the https://github.com/da-huin/data_warehouse
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
