@@ -1,0 +1,23 @@
+[Unit]
+Description=OSPd based OpenVAS scanner (ospd-openvas)
+Documentation=man:ospd-openvas(8) man:openvas(8)
+After=network.target networking.service redis-server@openvas.service
+Wants=redis-server@openvas.service
+ConditionKernelCommandLine=!recovery
+
+[Service]
+Type=forking
+EnvironmentFile=<install-prefix>/etc/default/ospd-openvas.default
+Environment="PATH=$PATH"
+Environment="PYTHONPATH=$PYTHONPATH"
+User=$OSPD_OPENVAS_USER
+Group=$OSPD_OPENVAS_GROUP
+PIDFile=$OSPD_OPENVAS_PID
+ExecStart=<install-prefix>/bin/ospd-openvas $OSPD_OPENVAS_ARGS
+SuccessExitStatus=SIGKILL
+# This works asynchronously, but does not take the daemon down during the reload so it's ok.
+Restart=always
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
