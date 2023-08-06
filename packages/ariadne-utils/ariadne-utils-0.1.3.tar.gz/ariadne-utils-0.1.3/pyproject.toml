@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "ariadne-utils"
+version = "0.1.3"
+description = ""
+authors = ["Marc Ford <mrfxyz567@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/mfdeux/ariadne-utils"
+packages = [{ include = "ariadne_utils" }]
+include = ["data/*"]
+
+[tool.poetry.dependencies]
+python = ">=3.6,<4"
+ariadne = ">=0.11.0"
+click = ">=7.1"
+python-dateutil = ">=2.8"
+validator-collection = ">=1.4"
+pytimeparse = ">=1.1"
+django = { version = "^2.2", optional = true }
+channels = { version = "^2.4", optional = true }
+
+[tool.poetry.extras]
+django = ["django", "channels"]
+
+[tool.poetry.dev-dependencies]
+pytest = ">=5.2"
+black = ">=19"
+isort = ">=5"
+
+[tool.poetry.scripts]
+ariadne-utils = "ariadne_utils.cli:cli"
+
+[tool.black]
+line-length = 88
+target_version = ['py38']
+exclude = '''
+(
+  /(
+    \.git
+    | \.mypy_cache
+    | \.pytest_cache
+    | htmlcov
+    | venv
+    | .venv
+  )/
+)
+'''
+
+[tool.isort]
+line_length = 88
+indent = '    '
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
