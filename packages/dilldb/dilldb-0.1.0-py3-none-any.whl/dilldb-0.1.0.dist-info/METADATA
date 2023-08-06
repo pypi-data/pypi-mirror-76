@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: dilldb
+Version: 0.1.0
+Summary: key value database with json or pickle format
+Home-page: https://github.com/afeldman/dilldb
+Author: anton feldmann
+Author-email: anton.feldmann@gmail.com
+Maintainer: Anton Feldmann
+Maintainer-email: anton.feldmann@gmail.de
+License: MIT
+Download-URL: https://github.com/afeldman/dilldb
+Project-URL: Source, https://github.com/afeldman/dilldb
+Project-URL: Tracker, https://github.com/afeldman/dilldb/issues
+Project-URL: Documentations, http://lj25fp.asux-ae-ai-gitlab.aptiv.today/dilldb
+Keywords: key/value,database
+Platform: Linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development
+Classifier: Topic :: Database
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+Requires-Dist: dill
+
+# dilldb
+
+Is package is based on pickelDB with extensions and a binary storage format
+
