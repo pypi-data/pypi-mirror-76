@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: deduce-uces
+Version: 1.0.2
+Summary: DedUCE is a tool for efficiently finding ultra-conserved elements across multiple genomes.
+Author: Cadel Watson
+Author-email: cadel@cadelwatson.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: gffutils (>=0.10.1,<0.11.0)
+Requires-Dist: mappy (>=2.17,<3.0)
+Requires-Dist: networkx (>=2.4,<3.0)
+Requires-Dist: tqdm (>=4.48.2,<5.0.0)

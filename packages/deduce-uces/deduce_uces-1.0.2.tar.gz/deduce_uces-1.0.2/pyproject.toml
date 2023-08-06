@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "deduce_uces"
+version = "1.0.2"
+description = "DedUCE is a tool for efficiently finding ultra-conserved elements across multiple genomes."
+authors = ["Cadel Watson <cadel@cadelwatson.com>", "Maxine Halbeer <maxine.halbheer@student.unsw.edu.au>", "Yasir Kusay <yasir.kusay@student.unsw.edu.au>", "Eric Urng <eric.urng@student.unsw.edu.au>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+mappy = "^2.17"
+tqdm = "^4.48.2"
+gffutils = "^0.10.1"
+networkx = "^2.4"
+
+[tool.poetry.dev-dependencies]
+hypothesis = "^5.23.11"
+
+[tool.poetry.scripts]
+deduce = "deduce_uces.__main__:main"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
