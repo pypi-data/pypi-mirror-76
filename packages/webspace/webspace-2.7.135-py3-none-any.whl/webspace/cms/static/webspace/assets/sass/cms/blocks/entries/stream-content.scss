@@ -1,0 +1,12 @@
+.stream-content-container {
+  display: flex;
+  flex-direction: column;
+
+  &.right {
+    align-items: flex-end;
+  }
+
+  &.center {
+    align-items: center;
+  }
+}
