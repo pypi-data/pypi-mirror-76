@@ -1,0 +1,7 @@
+setup.py
+djenius/auth/__init__.py
+djenius/proto/__init__.py
+djenius_base.egg-info/PKG-INFO
+djenius_base.egg-info/SOURCES.txt
+djenius_base.egg-info/dependency_links.txt
+djenius_base.egg-info/top_level.txt
