@@ -1,0 +1,11 @@
+nrlmsise00-0.0.2rc1.dist-info/COPYING.GPLv2,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+nrlmsise00-0.0.2rc1.dist-info/COPYING.NRLMSISE-00,sha256=-QgY4T4cFEJzV-TmiK1a9Pl0bRLfdmLOxNd-FxbSC04,1119
+nrlmsise00-0.0.2rc1.dist-info/top_level.txt,sha256=R2hqc0W_g7YUebtAkXyrY7cqk9wHtSf0oB35DXmjA0M,11
+nrlmsise00-0.0.2rc1.dist-info/RECORD,,
+nrlmsise00-0.0.2rc1.dist-info/METADATA,sha256=0Bn6xfJ00c5ZafdF_d4fjz_dCAAcq_ySqJBG6Gwtfjc,14905
+nrlmsise00-0.0.2rc1.dist-info/WHEEL,sha256=_QvEhECr65UbTJGS8Zy_pdER1BV1EDVDB2c4fVZSnjk,114
+nrlmsise00/core.py,sha256=A9B0N16t710ytAgt2YqA6imttiVwsyEt_RgRaI99CAA,6094
+nrlmsise00/__init__.py,sha256=0aWTGyRKgc4-i8F9Uj5hK5IQFHLXZ4Pb38VZKyBgwcY,583
+nrlmsise00/_nrlmsise00.pypy-73.so,sha256=Z8ONQvwrV23ILWT6NmRa4nmP3F7RWtiZiCwolNfiTJ4,75328
+nrlmsise00/dataset/core.py,sha256=hJQFr_lWci3yugp2f0VYE8hKXwMU2q944AJt7t0bp0w,9230
+nrlmsise00/dataset/__init__.py,sha256=39OapBTbkDqg2UgKlS3_WJ_ERW0auY3v7pUdG912jGs,842
