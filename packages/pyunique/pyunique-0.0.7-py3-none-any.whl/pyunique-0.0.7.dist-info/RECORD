@@ -1,0 +1,15 @@
+pyunique/__init__.py,sha256=znX27MQlgXGLb1uElnzrtgXWvSlC1ty5nZvraz5LPlM,25
+pyunique/archive.py,sha256=pKdhoR3yZyvAnXeWu2ILvLzd3ssgeX97ZWZoSAE7Zoo,1694
+pyunique/configs.py,sha256=nosa7cw3-gVdgh2aJPL2WJz30PQYThNLKTKffq5rYkU,922
+pyunique/digest.py,sha256=7eMX7NYvE9JslXv_GGTve8QVinZt76OQ5-IFrTQlfkw,409
+pyunique/utils.py,sha256=N42c5DKC8K33oshDh_vJNVPPuWhOyQ5IeicMCP3ugYo,280
+pyunique/version.py,sha256=g78XEb4bLt7uIg2hikf93oe6ysi-_jnxzdJlJ542aN4,83
+pyunique/endpoints/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyunique/endpoints/group_default.py,sha256=nlrHcKC90m6nr66Zl9MsE1g233T4BMqJV5kVNO5WFtc,1759
+pyunique/endpoints/main.py,sha256=p7ow1h7n_jZaF1bs09wQzropDW8n4LbfyTPzAblL-JI,546
+pyunique-0.0.7.dist-info/LICENSE,sha256=iwFQQUu2nh_gHEI7WRLvLBV7tl-cWaV5-HRFz4nZ6B0,1069
+pyunique-0.0.7.dist-info/METADATA,sha256=ZT8DnBr6LeTuKOg_LpIB2HvrzL0b4aTrXGKfGIQoEs8,1351
+pyunique-0.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyunique-0.0.7.dist-info/entry_points.txt,sha256=8p3aduuw0yn407JYWG7iPOzUCmeiIcf2DNvmLOVfS_Y,59
+pyunique-0.0.7.dist-info/top_level.txt,sha256=LBX17kVjhQhRyyNyzBK2__TN5fv6fKYJijinTV9Ea84,9
+pyunique-0.0.7.dist-info/RECORD,,
