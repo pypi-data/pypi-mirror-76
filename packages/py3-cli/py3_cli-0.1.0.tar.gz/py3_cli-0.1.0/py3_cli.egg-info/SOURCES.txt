@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+py3_cli/__init__.py
+py3_cli/py3_cli.py
+py3_cli.egg-info/PKG-INFO
+py3_cli.egg-info/SOURCES.txt
+py3_cli.egg-info/dependency_links.txt
+py3_cli.egg-info/not-zip-safe
+py3_cli.egg-info/requires.txt
+py3_cli.egg-info/top_level.txt
