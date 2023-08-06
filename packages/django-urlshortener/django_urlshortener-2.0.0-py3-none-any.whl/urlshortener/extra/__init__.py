@@ -1,0 +1,1 @@
+from urlshortener.extra.shortcodes import get_shortcode

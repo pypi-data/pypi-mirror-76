@@ -1,0 +1,9 @@
+{% extends "djangoadmin/base/body/index_admin.html" %}
+
+{% block body %}
+{% include "djangoadmin/widgets/shortener_accordian_list.html" with data=url_list %}
+{% endblock body %}
+
+{% block sidebar_right %}
+{% include "djangoadmin/widgets/promo_window.html" %}
+{% endblock sidebar_right %}

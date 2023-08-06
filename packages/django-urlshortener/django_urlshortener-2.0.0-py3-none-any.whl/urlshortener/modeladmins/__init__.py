@@ -1,0 +1,1 @@
+from urlshortener.modeladmins.ShortenerModelAdmin import ShortenerModelAdmin
