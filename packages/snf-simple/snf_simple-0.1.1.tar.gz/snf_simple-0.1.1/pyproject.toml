@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "snf_simple"
+version = "0.1.1"
+description = "Similarity Network Fusion (SNF) python implementation"
+authors = ["fmakdemir <fmakdemir@users.noreply.github.com>"]
+license = "LGPL-3.0-or-later"
+repository = 'https://github.com/fmakdemir/snf'
+homepage = 'https://github.com/fmakdemir/snf'
+readme = 'README.md'
+
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^1.19.1"
+scikit-learn = "^0.23.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
+bumpversion = "^0.6.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
