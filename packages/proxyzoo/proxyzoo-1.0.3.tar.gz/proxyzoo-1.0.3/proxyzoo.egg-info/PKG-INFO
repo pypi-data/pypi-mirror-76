@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: proxyzoo
+Version: 1.0.3
+Summary: Haproxy dynamic load balancing
+Home-page: http://git.wadecn.com:18082/bits/proxy-zk
+Author: xiedx
+Author-email: 40317303@qq.com
+License: MIT
+Description: proxyzoo is a dynamic soft load based on haproxy+zookeeper+python.
+        The main function is:
+          the daemon implemented by python synchronizes the application instance registration from zookeeper (zk) to the instance IP: port address information in zk
+          Generate the corresponding haproxy configuration according to the specified haproxy template, and use the generated configuration to start the haproxy load process
+          when the instance information in zk changes (application instance restart, release), the daemon will perform the backend service corresponding to the haproxy process Real-time activation and graceful offline,
+          realizing uninterrupted system access
+        Online documentation is at http://git.wadecn.com:18082/bits/proxy-zk.
+        Bugs can be reported to http://git.wadecn.com:18082/bits/proxy-zk.  The code can also be found there.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Communications
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: System :: Networking
+Description-Content-Type: text/plain
