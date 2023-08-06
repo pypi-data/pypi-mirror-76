@@ -1,0 +1,12 @@
+sharp/__init__.py,sha256=Q097PK2iFXdhvP77cwL9Oc0g-0UYv6LLOzsNWh90fdA,3664
+sharp/codegen.py,sha256=iVH-fnnBWdyAIpANcRys4xadLRl_KfSBibQ2S9tui2Q,1124
+sharp/error.py,sha256=P6mB2WsC8Cq6UM_TJnR7LW1_Xc_41IYC8_1F1tRXcnU,174
+sharp/function.py,sha256=gtGwzzuH8yc-fETdLWV5JAkmLdUjiIFyuulD0WEPYAQ,198
+sharp/js/class.js,sha256=IfhEy_um6WrmVQ5zdX8TAt4VbCeoE8yoLDfp_sF2PUY,762
+sharp/js/function.js,sha256=HhIkLfo0ghL1QFlWOtU1Ej006_NJ81ySyDPpSGOMbG8,281
+sharp/naming/__init__.py,sha256=9LdnyVrqzeQJPV9EFO0CyjHTCuSiEvetY4jxsJE8zew,625
+Flask_Sharp-0.0.5.dist-info/LICENSE,sha256=mE0_RD_g_FxZC9RpGgewE6289UaAV62BGMQh2LpDD2w,1091
+Flask_Sharp-0.0.5.dist-info/METADATA,sha256=ZQODA04bovzg0VsK2WDAMcmXjH5_KbQ6-_xPSf06CWE,3798
+Flask_Sharp-0.0.5.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+Flask_Sharp-0.0.5.dist-info/top_level.txt,sha256=I_aMCVUI3TkJXgKwtp7xCeArigJQlotVGoQgWq0il6Y,6
+Flask_Sharp-0.0.5.dist-info/RECORD,,
