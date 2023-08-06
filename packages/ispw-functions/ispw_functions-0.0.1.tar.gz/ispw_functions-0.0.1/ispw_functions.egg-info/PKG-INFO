@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ispw-functions
+Version: 0.0.1
+Summary: Helper functions for programming basics seminar
+Home-page: https://github.com/lebalz/ispw_functions
+Author: Balthasar Hofer
+Author-email: lebalz@outlook.com
+License: UNKNOWN
+Description: # ISPW Functions
+        
+        ### Package and upload to pip
+        
+        ```sh
+        rm -rf build/ dist/ ispw_functions.egg-info/
+        python3 setup.py sdist bdist_wheel
+        python3 -m twine upload dist/*
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.2
+Description-Content-Type: text/markdown

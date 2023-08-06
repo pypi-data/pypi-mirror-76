@@ -1,0 +1,7 @@
+README.md
+setup.py
+ispw_functions/__init__.py
+ispw_functions.egg-info/PKG-INFO
+ispw_functions.egg-info/SOURCES.txt
+ispw_functions.egg-info/dependency_links.txt
+ispw_functions.egg-info/top_level.txt
