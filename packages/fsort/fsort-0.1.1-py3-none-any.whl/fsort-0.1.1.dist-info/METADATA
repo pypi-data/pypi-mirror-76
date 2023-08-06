@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: fsort
+Version: 0.1.1
+Summary: Cli util to sort large files
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: a.opalev
+Author-email: levisolympus@gmail.com
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: click>=7.1.2
+
+# Cli util to sort large file.
+
+# Installation
+
+```bash
+$ python3 -m pip install fsort
+```
+
+# Usage
+
+### Create file
+
+```python
+fsort.py create-file largefile.txt
+```
+
+### Sort file
+
+```python
+fsort.py external-sort largefile.txt
+```
+Result would be `output.txt` sorted file
+
+# Source code
+
+```python
+
+"""Cli util to sort large files"""
+__version__ = '0.1.0'
+
+import string
+
+from contextlib import ExitStack
+from heapq import merge
+from itertools import count, islice
+from random import choice, randint
+
+import click
+
+chunk_names = []
+
+
+@click.group()
+def cli():
+    pass
+
+
+@cli.command()
+@click.option('--filename', help='File to sort')
+@click.option('--size', default=50000, help='Size of each chunk')
+def external_sort(filename, size):
+    """
+    Sort file large file by chunks storing these chunks
+    into separate files with the given size – 50K by default.
+
+    Result would be `output.txt` file with a sorted text.
+    """
+    with open(filename) as f:
+        for c in count(1):
+            sorted_chunk = sorted(islice(f, size))
+            if not sorted_chunk:
+                break
+
+            chunk_name = f'chunk_{c}.txt'
+            chunk_names.append(chunk_name)
+            with open(chunk_name, 'w') as chunk_file:
+                chunk_file.writelines(sorted_chunk)
+
+    with ExitStack() as stack, open('output.txt', 'w') as of:
+        files = (
+            stack.enter_context(open(chunk))
+            for chunk
+            in chunk_names
+        )
+        of.writelines(merge(*files))
+
+
+def generate_text(length=None):
+    word_length = randint(8, length or 45)
+    return ''.join(choice(string.printable) for i in range(length))
+
+
+@cli.command()
+@click.option('--filename', default='large_file.txt', help="File's name")
+@click.option('--lines', default=100, help='Rows in a file')
+@click.option('--line-length', default=45, help="Max line length")
+def create_file(filename, lines, line_length):
+    with open(filename, 'w') as f:
+        for i in range(lines):
+            f.write(f'{generate_text(line_length)}\n')
+```
+
+
