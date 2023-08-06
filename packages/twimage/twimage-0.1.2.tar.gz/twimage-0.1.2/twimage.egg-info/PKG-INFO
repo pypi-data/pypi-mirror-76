@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: twimage
+Version: 0.1.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: MIT
+Description: # Twimage v0.1.2
+        
+        Twimage is a Python library that can scrap the trending section of Twitter for Hashtags and further to download images. It can be used as an image dataset generator for applying machine learning models for research.
+        
+        ### Getting Started
+        
+        These instructions will get you the project up and running on your local machine for scraping purposes. 
+        
+        ### Prerequisites
+        
+        Twimage uses Selenium for the headless browser functionality. It also uses Click for CLI purposes and Wget for downloading images.
+        Your system should have [Mozilla Firefox](https://www.mozilla.org/en-US/exp/firefox/new/) installed.
+        
+        ```
+        pip3 install selenium click wget colorama
+        ```
+        To download the [Firefox WebDriver](https://github.com/mozilla/geckodriver/releases) follow the steps.
+        ```
+        wget https://github.com/mozilla/geckodriver/releases/download/v0.27./geckodriver-v0.27.0-linux64.tar.gz
+        tar xvfz geckodriver-v0.19.1-linux64.tar.gz
+        mv geckodriver ~/.local/bin
+        ```
+        
+        ### Installing
+        
+        Install Twimage v0.1.2 by:
+        ```
+         pip install twimage==0.1.2 
+        ```
+        
+        ### Built With
+        
+        * [Selenium](https://www.selenium.dev/) - For headless browser
+        * [Click](https://click.palletsprojects.com/en/7.x/) - Command Line Interace
+        * [Wget](https://pypi.org/project/wget/) - Used to download images
+        
+        ## Contributing
+        
+        Please mail Anshul.6273@iitkgp.ac.in for contributing in the project.
+        
+        
+        
+        ## Authors
+        
+        * **Anshul Sharma** - [TheVoxium](https://github.com/thevoxium)
+        
+        
+        ## License
+        
+        This project is licensed under the MIT License
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
