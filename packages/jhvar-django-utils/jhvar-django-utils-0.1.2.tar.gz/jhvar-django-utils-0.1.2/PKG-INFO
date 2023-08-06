@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: jhvar-django-utils
+Version: 0.1.2
+Summary: A toolkit for django-2.2.5 or higher
+Home-page: https://github.com/jhvar/django-utils
+Author: jhvar
+Author-email: jhvar@outlook.com
+License: MIT Licence
+Description: # django-utils
+        
+        Some useful tools for django project
+        
+Keywords: pip,django,role,util
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
