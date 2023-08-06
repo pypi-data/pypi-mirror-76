@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+calc/__init__.py
+calc/calc.py
+calculator_metatron.egg-info/PKG-INFO
+calculator_metatron.egg-info/SOURCES.txt
+calculator_metatron.egg-info/dependency_links.txt
+calculator_metatron.egg-info/not-zip-safe
+calculator_metatron.egg-info/top_level.txt
