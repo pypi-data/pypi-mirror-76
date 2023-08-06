@@ -1,0 +1,14 @@
+neowise/__init__.py,sha256=AanEFvnN6BDgWIpsLN-pPQEwxasSjR24k3FC27x8Hzo,217
+neowise/activations.py,sha256=ODCkMr2hJIjj0V0NpzdOrtlJyYWd5MqdfazidWJdwTY,839
+neowise/cost_function.py,sha256=MuXPHz4IHp0aGsB1nQO7Gm9s566FTfLHneMlB5N0paU,2320
+neowise/functional.py,sha256=Udd4nTSzcAROBCW1EtBFs5u77KhiqskgScsUunhe9z4,5608
+neowise/layers.py,sha256=FPHnnIbnzIW8hUCcCM0TBWo5ZREtT77jJ-D5hx0XtEc,2118
+neowise/neural_net.py,sha256=Nu08wtv_kPnuDT2XFRWgU19Zz5tW_0tLzkG8Dptvaig,11634
+neowise/optimizers.py,sha256=O5RkcgeWUq6IKmPoRCqAaDy-DGv016dn0FqZYr4coT0,4201
+neowise/plots.py,sha256=CJThrPWE7cmnuSr9jTLFECW7F5hbHFE21CXGLkHb5c8,3830
+neowise/regularizers.py,sha256=D227Dex6defSl2BrrJ5bwXhBG0CzETd6w5IPsq56fYI,1076
+neowise-0.0.4.dist-info/LICENSE.md,sha256=IU8U9FcnZPbhdAHty-Skwk_NSl7-vFkWmkjxGFE4nRs,1069
+neowise-0.0.4.dist-info/METADATA,sha256=IThEOWzrB7V9B6mCVRPpX0kXuzh4adOiUgBBF0jL7xM,398
+neowise-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+neowise-0.0.4.dist-info/top_level.txt,sha256=lN36fGO3D6-PP1ogW9IBIZz7avpTNaC7cZo8UgWlxek,8
+neowise-0.0.4.dist-info/RECORD,,
