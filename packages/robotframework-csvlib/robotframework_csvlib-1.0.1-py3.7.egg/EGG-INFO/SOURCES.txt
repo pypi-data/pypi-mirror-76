@@ -1,0 +1,7 @@
+README.md
+setup.py
+CSVLib/__init__.py
+robotframework_csvlib.egg-info/PKG-INFO
+robotframework_csvlib.egg-info/SOURCES.txt
+robotframework_csvlib.egg-info/dependency_links.txt
+robotframework_csvlib.egg-info/top_level.txt
