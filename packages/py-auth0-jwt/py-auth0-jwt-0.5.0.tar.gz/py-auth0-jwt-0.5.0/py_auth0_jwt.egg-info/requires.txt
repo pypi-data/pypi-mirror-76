@@ -1,0 +1,6 @@
+jwcrypto
+cryptography
+furl
+pyjwt
+requests
+Django>=1.11
