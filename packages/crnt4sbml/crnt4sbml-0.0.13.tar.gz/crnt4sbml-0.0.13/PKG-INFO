@@ -1,0 +1,138 @@
+Metadata-Version: 2.1
+Name: crnt4sbml
+Version: 0.0.13
+Summary: CRNT4SBML is an easily installable Python based package available on MacOS and Windows. CRNT4SBML is concentrated on providing a simple workflow for the testing of core CRNT methods directed at detecting bistability in cell signaling pathways endowed with mass action kinetics.
+Home-page: https://github.com/PNNL-Comp-Mass-Spec/CRNT4SBML
+Author: Brandon Reyes
+Author-email: reyesb123@gmail.com
+License: Apache Software License 2.0
+Description: =========
+        CRNT4SBML
+        =========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/crnt4sbml.svg
+                :target: https://pypi.python.org/pypi/crnt4sbml
+        
+        .. image:: https://img.shields.io/travis/PNNL-Comp-Mass-Spec/CRNT4SBML.svg
+                :target: https://travis-ci.org/PNNL-Comp-Mass-Spec/CRNT4SBML
+        
+        .. image:: https://readthedocs.org/projects/crnt4sbml/badge/?version=latest
+                :target: https://crnt4sbml.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        CRNT4SBML is an easily installable Python based package available on MacOS and Windows. CRNT4SBML is concentrated on
+        providing a simple workflow for the testing of core CRNT methods directed at detecting bistability in cell signaling
+        pathways endowed with mass action kinetics.
+        
+        * Free software: Apache Software License 2.0
+        * Documentation: https://crnt4sbml.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * Routine for testing of the Deficiency Zero and One Theorems.
+        * Routine for running the mass conservation approach.
+        * Routine for running the semi-diffusive approach.
+        
+        Citing CRNT4SBML
+        -----------------
+        
+        If you use CRNT4SBML in your research, we would appreciate it if you use the following citation in any works you publish:
+        
+            Brandon C Reyes, Irene Otero-Muras, Michael T Shuen, Alexandre M Tartakovsky, Vladislav A Petyuk,
+            `CRNT4SBML: a Python package for the detection of bistability in biochemical reaction networks <https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btaa241/5820009?searchresult=1>`_,
+            Bioinformatics.
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.0.1 (08-22-2019)
+        ------------------
+        
+        * First release on PyPI.
+        
+        0.0.2 (08-23-2019)
+        ------------------
+        
+        * Addition of Cytoscape functionality.
+        
+        0.0.3 (08-26-2019)
+        ------------------
+        
+        * Improvements to the plots produced by the continuity analysis.
+        
+        0.0.4 (09-5-2019)
+        ------------------
+        
+        * Addition of safety precautions for numerical continuation.
+        
+        0.0.5 (09-16-2019)
+        ------------------
+        
+        * Addition of routines to parse catalysis in SBML.
+        * Addition of routines to automatically generate physiological bounds.
+        
+        0.0.6 (09-23-2019)
+        ------------------
+        
+        * Updating safety wrapper to smoothly work on Windows and Mac.
+        
+        0.0.7 (10-11-2019)
+        ------------------
+        
+        * Adding output to continuity routine to make post-processing simpler.
+        
+        0.0.8 (10-23-2019)
+        ------------------
+        
+        * Adding functionality to allow use of Jupyter notebooks.
+        
+        0.0.9 (11-6-2019)
+        ------------------
+        
+        * Improving stability when creating the equilibrium manifold in the mass conservation approach.
+        
+        0.0.10 (11-6-2019)
+        ------------------
+        
+        * Adding routine for an exhaustive equilibrium manifold creation in the mass conservation approach.
+        
+        0.0.11 (4-23-2020)
+        ------------------
+        
+        * Adding a general approach for mass conserving systems.
+        
+        0.0.12 (5-21-2020)
+        ------------------
+        
+        * Adding a different layout for installation of package.
+        
+        0.0.13 (8-10-2020)
+        ------------------
+        
+        * Improving usability on Windows machines.
+Keywords: crnt4sbml
+Platform: ALL
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: Windows
+Provides-Extra: Linux
+Provides-Extra: MacOS
+Provides-Extra: MPIMacOS
+Provides-Extra: MPILinux
+Provides-Extra: MPIWindows
