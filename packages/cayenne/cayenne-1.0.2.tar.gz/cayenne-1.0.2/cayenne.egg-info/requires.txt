@@ -1,0 +1,6 @@
+numpy>=1.18
+Cython>=0.29
+matplotlib>=3.3
+antimony>=2.12
+Cython>=0.29
+numpy>=1.18
