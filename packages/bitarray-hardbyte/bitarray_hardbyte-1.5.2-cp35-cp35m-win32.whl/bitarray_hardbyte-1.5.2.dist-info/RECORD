@@ -1,0 +1,14 @@
+bitarray/__init__.py,sha256=QZv_0S4lsgT2KujwlZ1nw3uLpPmeSTwPte2ciw2_whw,2263
+bitarray/_bitarray.c,sha256=WsT3a1U_ggutXnrRpof2MDpWbI0AXFjQggF9ZFfZ8s8,96122
+bitarray/_bitarray.cp35-win32.pyd,sha256=TJRyiEVpTDBItnfFqkKz-OG9laxbn46yUSdTOjb0-84,43520
+bitarray/_util.c,sha256=4gSvUbX-nQQgpu-9Y7eFJ7Rj4IGl9lYq33fmpS4dAto,12011
+bitarray/_util.cp35-win32.pyd,sha256=KlTW75xrGwqjPXN8P63Fqgm7kOwGAR2J8AXWNHuwVAI,14336
+bitarray/test_bitarray.py,sha256=zRRXp7oxt4_Ku3GGAzht3pFJ0__tGT6TbVEoWnQ3H9k,91160
+bitarray/test_util.py,sha256=WJK0TzsF50QgjsrQI4H97buYWL0_8PufujMqHfqTmV0,31352
+bitarray/util.py,sha256=NnEvreWRP4NJU4Tej7OA4d6y2OQjM5Ubdwwe-IrfLv8,9750
+bitarray_hardbyte-1.5.2.dist-info/AUTHORS,sha256=LvasnyLevCJExJ03y_IsXHuKEnIOqpYfEwJtu2696-o,638
+bitarray_hardbyte-1.5.2.dist-info/LICENSE,sha256=puRquPmC4DzO7Gai8YSosVcUnsG2-gbEBkcaBGw7JxQ,2436
+bitarray_hardbyte-1.5.2.dist-info/METADATA,sha256=BlyoRJea28Y3k0SClY2SzWRk8UeUXk80VAN7chL9pfc,24436
+bitarray_hardbyte-1.5.2.dist-info/WHEEL,sha256=-rTg6LWut4ntqX_CQuQ69jO8szxa_5x3QK4tByU6RZo,102
+bitarray_hardbyte-1.5.2.dist-info/top_level.txt,sha256=cLdoeIHotTwh4eHSe8qy8umF7zzyxUM90I8zFb2_xhg,9
+bitarray_hardbyte-1.5.2.dist-info/RECORD,,
