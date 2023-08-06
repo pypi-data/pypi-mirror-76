@@ -1,0 +1,8 @@
+README.md
+setup.py
+mainmethod/__init__.py
+mainmethod/mainmethod.py
+mainmethod.egg-info/PKG-INFO
+mainmethod.egg-info/SOURCES.txt
+mainmethod.egg-info/dependency_links.txt
+mainmethod.egg-info/top_level.txt
