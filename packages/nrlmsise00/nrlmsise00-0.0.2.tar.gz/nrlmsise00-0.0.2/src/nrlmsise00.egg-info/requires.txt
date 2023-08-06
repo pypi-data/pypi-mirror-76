@@ -1,0 +1,17 @@
+numpy>=1.13.0
+
+[all]
+pytest
+spaceweather
+sphinx!=3.2.0
+xarray
+
+[dataset]
+spaceweather
+xarray
+
+[docs]
+sphinx!=3.2.0
+
+[tests]
+pytest
