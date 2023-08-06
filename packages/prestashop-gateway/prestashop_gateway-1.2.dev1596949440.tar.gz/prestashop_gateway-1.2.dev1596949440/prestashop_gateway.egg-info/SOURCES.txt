@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+prestashop_gateway/__init__.py
+prestashop_gateway/connection.py
+prestashop_gateway/error.py
+prestashop_gateway/exception.py
+prestashop_gateway.egg-info/PKG-INFO
+prestashop_gateway.egg-info/SOURCES.txt
+prestashop_gateway.egg-info/dependency_links.txt
+prestashop_gateway.egg-info/requires.txt
+prestashop_gateway.egg-info/top_level.txt
