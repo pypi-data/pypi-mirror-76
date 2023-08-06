@@ -1,0 +1,4 @@
+[console_scripts]
+angrylibs = angrylibs:cli
+libs = angrylibs:cli
+
