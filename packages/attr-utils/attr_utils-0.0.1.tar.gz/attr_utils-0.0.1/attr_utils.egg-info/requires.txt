@@ -1,0 +1,9 @@
+attrs
+
+[all]
+sphinx>=3.0.3
+sphinx_autodoc_typehints>=1.11.0
+
+[sphinx]
+sphinx>=3.0.3
+sphinx_autodoc_typehints>=1.11.0
