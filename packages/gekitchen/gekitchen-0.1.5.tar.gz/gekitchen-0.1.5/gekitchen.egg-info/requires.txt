@@ -1,0 +1,4 @@
+aiohttp
+bidict
+requests
+slixmpp==1.5.2
