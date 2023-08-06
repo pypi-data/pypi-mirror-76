@@ -1,0 +1,11 @@
+numpy
+dask
+zarr
+s3fs
+aiohttp
+requests
+toolz
+vispy
+
+[napari]
+napari
