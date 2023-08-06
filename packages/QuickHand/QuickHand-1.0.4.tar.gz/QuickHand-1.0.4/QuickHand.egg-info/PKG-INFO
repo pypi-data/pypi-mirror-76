@@ -1,0 +1,43 @@
+Metadata-Version: 1.2
+Name: QuickHand
+Version: 1.0.4
+Summary: A  Chinese handwright image generater, a GUI based on  https://github.com/Gsllchb/Handright/ 
+Home-page: https://github.com/HaujetZhao/QuickHand
+Author: Haujet Zhao
+Author-email: 1292756898@qq.com
+Maintainer: Haujet Zhao
+Maintainer-email: 1292756898@qq.com
+License: MPL-2.0 License
+Description: ###########
+        Quick Hand
+        ###########
+        
+        快速的仿手写文字的图片生成器。基于 https://github.com/Gsllchb/Handright/ 的 GUI。
+        
+        它是开源的，你可以免费使用它。下载请到 release 界面。
+        
+        目前在两个仓库更新：
+        
+        - https://github.com/HaujetZhao/QuickHand
+        - https://gitee.com/haujet/QuickHand
+        
+        关于软件参数的帮助，你可以参照：https://github.com/Gsllchb/Handright/blob/master/docs/tutorial.md
+        
+        
+        ###########
+        原理
+        ###########
+        
+        原理：首先，在水平位置、竖直位置和字体大小三个自由度上，对每个字的整体做随机扰动。随后，在水平位置、竖直位置和旋转角度三个自由度上，对每个字的每个笔画做随机扰动。
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Artistic Software
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5, <4
