@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: git-autoignore
+Version: 1.0.3
+Summary: Create gitignore template with lighten Speed
+Home-page: https://github.com/Imdeepmehta/git-autoignore
+Author: Imdeepmehta
+Author-email: itsdeepmehta25@gmail.com
+License: MIT
+Description: # Auto create Gitignore Template for you
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

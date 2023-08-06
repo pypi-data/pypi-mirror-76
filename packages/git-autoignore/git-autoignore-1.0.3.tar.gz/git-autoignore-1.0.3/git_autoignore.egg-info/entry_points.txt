@@ -1,0 +1,3 @@
+[console_scripts]
+git-autoignore = gitignore.__main__:main
+
