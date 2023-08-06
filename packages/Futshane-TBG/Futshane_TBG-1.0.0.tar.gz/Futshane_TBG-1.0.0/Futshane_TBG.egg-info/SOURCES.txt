@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+Futshane_TBG.egg-info/PKG-INFO
+Futshane_TBG.egg-info/SOURCES.txt
+Futshane_TBG.egg-info/dependency_links.txt
+Futshane_TBG.egg-info/top_level.txt
+TBG/CMD.py
+TBG/__init__.py
+TBG/default_help.py
+TBG/fight_move.py
+TBG/item.py
+TBG/level.py
+TBG/player.py
+TBG/room.py
