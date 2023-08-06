@@ -1,0 +1,10 @@
+mecab_python3-1.0.2a1.dist-info/COPYING,sha256=ntigF_Iia28Nbdah0lQEgAN0oSxw4UpWypYTF294d44,240
+mecab_python3-1.0.2a1.dist-info/top_level.txt,sha256=IVvVKeTLHhM6T9k5l1p9R6q6g9YlzVjjNn1IWwjM5Es,6
+mecab_python3-1.0.2a1.dist-info/RECORD,,
+mecab_python3-1.0.2a1.dist-info/METADATA,sha256=WaL8rsZVIFTgTZxjOYD57_a3_ApapPdximlqP0LIMNs,4841
+mecab_python3-1.0.2a1.dist-info/entry_points.txt,sha256=QK-YZRJo08K_GIPvJZlV_2OTA1nwl2GCa7Kz_xD-X_U,77
+mecab_python3-1.0.2a1.dist-info/WHEEL,sha256=x_vzcI4ZEGB3mgPWPKzGiYMKKJ7Ixf6JpcM2LwQveJI,109
+mecab_python3-1.0.2a1.dist-info/AUTHORS,sha256=iILKKikEFVrLH3S2bl4m1fCNQ8NM4GMRsz8hppNzEJs,144
+MeCab/cli.py,sha256=f8Yy0rRqTarHT2eY343atf1nmeb7aBqLY59XjPKPe6A,988
+MeCab/_MeCab.cpython-37m-x86_64-linux-gnu.so,sha256=f7IDMcJKWTG7qrnx685y1XjJFRwyD2YLiFUHdaXaDFQ,10555925
+MeCab/__init__.py,sha256=-3agARS_4z3uPcvqfQwvGAtg8N5IhNG_hkey11_D8VA,4405
