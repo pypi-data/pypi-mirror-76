@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tenhoulog
+Version: 0.1.0
+Summary: 
+Author: kitagawa-hr
+Author-email: kitagawa@cancerscan.jp
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: beautifultable (>=1.0.0,<2.0.0)
+Requires-Dist: httpx (>=0.13.3,<0.14.0)
+Requires-Dist: japanize-matplotlib (>=1.1.2,<2.0.0)
+Requires-Dist: matplotlib (>=3.3.0,<4.0.0)
+Requires-Dist: pandas (>=1.1.0,<2.0.0)
+Requires-Dist: pydantic (>=1.6.1,<2.0.0)
