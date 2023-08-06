@@ -1,0 +1,14 @@
+thoth/messaging/__init__.py,sha256=rca--h7rFxffn_U-J3CIv6I7Aioz1pCF3X-rysAgBko,1569
+thoth/messaging/advise_justification.py,sha256=Y0tsGbBXwl6hS3uXWO2cC_MrR32WHoVS1QSRiRqHGUY,2132
+thoth/messaging/hash_mismatch.py,sha256=QMuCZUXhIztCFdpN5Pd6Ixu0k0VYblZoNpzcTUQi7Fc,2164
+thoth/messaging/message_base.py,sha256=9wcJkvh3ksAh__Z-v352K_Y9KXfwdBMronJqH1aLYQ4,3260
+thoth/messaging/message_factory.py,sha256=D_HUyuOCH8LQZQXAXIerMhhKFJlZ5U26tDhFitd_o9w,3423
+thoth/messaging/missing_package.py,sha256=pWHTIe-XhtApKZwW5QLRtGjn0ohgN6MruZM0dtD6AtE,2041
+thoth/messaging/missing_version.py,sha256=8dUp2JkOT9xKGAZOdHaYvGBcloV9_db7XhAEuQHsZAE,2079
+thoth/messaging/package_releases.py,sha256=n7gwWKZ4WeQhY4SMbQDytCY2zIiKq-kPGPNGeESUnSo,2022
+thoth/messaging/solved_package.py,sha256=4X6fwY7CWOEBZnur4S_2b-EdMMyZCTHZ054QG2F503k,2113
+thoth/messaging/unresolved_package.py,sha256=H7_gc7yKgbkG_KBdlmxiVmkFolxyGWnYYbJaMmJrp0Q,2215
+thoth_messaging-0.6.3.dist-info/METADATA,sha256=7askUnRv_rLcv6-jSgRn6e13JWZ30fpSAncRA9Ds5tc,1112
+thoth_messaging-0.6.3.dist-info/RECORD,,
+thoth_messaging-0.6.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+thoth_messaging-0.6.3.dist-info/top_level.txt,sha256=c8JaaYuJlrd-trXiXD9l4fSkVuHvV1zFYn_x4Ij-0I0,6
