@@ -1,0 +1,7 @@
+
+      [z3c.autoinclude.plugin]
+      target = plone
+
+      [zodbupdate]
+      renames = eea.aliases:RENAME_DICT
+      
