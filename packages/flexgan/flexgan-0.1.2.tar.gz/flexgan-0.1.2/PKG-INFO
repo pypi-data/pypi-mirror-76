@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: flexgan
+Version: 0.1.2
+Summary: The FlexGAN library provides autonomous synthetic data generation for structured data sets.
+Home-page: https://github.com/emuccino/flexgan
+Author: Eric Muccino
+Author-email: emuccino@mindboard.com
+License: MIT
+Download-URL: https://github.com/emuccino/flexgan/archive/v0.1.2.tar.gz
+Description: UNKNOWN
+Keywords: SYNTHETIC,DATA,GENERATION,GENERATE,GENERATIVE
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
