@@ -1,0 +1,39 @@
+### django-request-sign
+
+对django请求,根据参数进行签名
+
+### 需要在header头中增加的参数
+
+| 参数  | 说明  |
+| ------------ | ------------ |
+| timestamp  | 请求时间戳  |
+| nonce  |  请求ID（随机生成） |
+| sign | 本次请求签名 |
+
+
+### 配置参数
+
+| 配置参数  | 说明   | 类型|默认值 |示例|
+| ------------ | ------------ | ------------ | ------------ |------------ |
+|  ENABLE_REQUEST_SIGNATURE |  是否开启 | Boolean |`False`| `True`/`False`|
+|  SIGNATURE_SECRET | 签名秘钥  | Str|`None`|`e6QGz7AhFzFAFsR9jYoCUnZGsqDrQI`|
+|  SIGNATURE_ALLOW_TIME_ERROR|允许请求时间前后误差|Int|`600`|`600`|
+|  SIGNATURE_RESPONSE|签名不通过返回方法|Str|`request_sign.utils.default_response`|`you_project.you_app.file.function`|
+
+
+### 签名参数sign生成的方法
+
+1. 拼接字符串，首先去除sign参数本身，然后去除值是空的参数p3，剩下p2=v2&p1=v1&method=cancel&pn=vn，
+然后按参数名字符升序排序，method=cancel&p1=v1&p2=v2&pn=vn.
+2. 然后做参数名和值的拼接，最后得到methodcancelp1v1p2v2pnvn
+3. 在上面拼接得到的字符串后加上验证密钥key，我们假设是abc，得到新的字符串methodcancelp1v1p2v2pnvnabc
+4. 然后将这个字符串换为小写进行md5计算，假设得到的是abcdef，这个值即为sign签名值。
+
+
+
+
+### 参考
+
+* https://www.jianshu.com/p/ad410836587a
+* https://www.cnblogs.com/yoyoketang/p/11742187.html
+
