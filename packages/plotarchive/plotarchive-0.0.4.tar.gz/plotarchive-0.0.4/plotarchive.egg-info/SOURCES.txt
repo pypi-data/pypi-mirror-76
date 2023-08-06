@@ -1,0 +1,11 @@
+README.md
+setup.py
+plotarchive/__init__.py
+plotarchive.egg-info/PKG-INFO
+plotarchive.egg-info/SOURCES.txt
+plotarchive.egg-info/dependency_links.txt
+plotarchive.egg-info/top_level.txt
+plotarchive/src/__init__.py
+plotarchive/src/archive.py
+plotarchive/src/files.py
+plotarchive/src/unarchive.py
