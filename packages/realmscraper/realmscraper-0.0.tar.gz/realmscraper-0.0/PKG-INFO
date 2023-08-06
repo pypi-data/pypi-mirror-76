@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: realmscraper
+Version: 0.0
+Summary: A library to scrape data from realmeye, the wiki for ROTMG
+Home-page: https://github.com/merxlc/realmscraper
+Author: merxlc
+Author-email: liddleconquerer@gmail.com
+License: MIT
+Download-URL: https://github.com/merxlc/realmscraper/archive/0.0.tar.gz
+Description: UNKNOWN
+Keywords: python,scraping,realmeye
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
