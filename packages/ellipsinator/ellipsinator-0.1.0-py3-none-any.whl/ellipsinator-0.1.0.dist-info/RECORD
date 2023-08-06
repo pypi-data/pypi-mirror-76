@@ -1,0 +1,17 @@
+ellipsinator/__init__.py,sha256=iAke0gVfkHl3oO20-StWNK5g3eY659qI3dyGcbR5mKs,334
+ellipsinator/_fit_ellipse_process_params.py,sha256=oTBgMzUNU2upBBIULykfegh1w0aI07_Wfwfraf_8ISg,710
+ellipsinator/basic.py,sha256=2hZ3quQSHi3YD6GZBHfuC_rhzp8WJ4LHm9yIkTgWtaw,5366
+ellipsinator/direct_ellipse_fit.py,sha256=o_FJn9CRooJp8DXOxWLnpxTspaU0_m1LuvDGPemXG7g,1342
+ellipsinator/fast_guaranteed_ellipse_estimate.py,sha256=t8NgVzBrJOam6fdn79T46vkNSiM0cLtyXU4AQcsfFTI,8153
+ellipsinator/fit_ellipse_fitzgibon.py,sha256=ZlmFH_A6IuPdhM-xkYPt3btiClsQx2ilDUwAvwHJJMs,1916
+ellipsinator/fit_ellipse_halir.py,sha256=guK1BsGy_Y-t0SAPCu_e1135Z91RMGjn1sANAbVhGbg,3614
+ellipsinator/_fast_guaranteed_ellipse_funcs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ellipsinator/_fast_guaranteed_ellipse_funcs/compute_directellipse_estimate.py,sha256=mXWyUJM-fnxY-0Js9OYQWh41ch-MRiLzdfKIY7BMGFs,2470
+ellipsinator/_fast_guaranteed_ellipse_funcs/fastGuaranteedEllipseFit.py,sha256=S52dzE8ab_TU2JeU_oz97iWn6fGJPhYO39H-UjIEJvk,9610
+ellipsinator/_fast_guaranteed_ellipse_funcs/fastLevenbergMarquardtStep.py,sha256=okWbq8yIX3b-SCw5Q6Uwyo_e_H8AGWXPNf91ZkeKVSI,6723
+ellipsinator/_fast_guaranteed_ellipse_funcs/normalize_data_isotropically.py,sha256=ncMRFRk94AUPYnOxCBWFmITIp-rTQeUnsfF3b6semv4,1857
+ellipsinator-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ellipsinator-0.1.0.dist-info/METADATA,sha256=GeRNxdn0wfWL6TtcTg2EjIzaVNdj7MYEq7BFM9twJf4,1234
+ellipsinator-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ellipsinator-0.1.0.dist-info/top_level.txt,sha256=2qS6_5ee_SsxWGGv5iTV5oSmY33smUIIMh6vew_KQ6Q,13
+ellipsinator-0.1.0.dist-info/RECORD,,
