@@ -1,0 +1,15 @@
+core/__init__.py,sha256=noti-B6lxm-gbuU9oDJ1E4azdwIVMHDA4U3R0xYoL6c,8
+core/client_flask_img.py,sha256=eplVCgewFFA7n7B1KBjCN7Lz-Z8wSpaTGU78UY_MH2U,491
+core/infer.py,sha256=HVJK-p5tsyvv5GKvNcr9iAgIcoBRMiXhB1NFsASw9fM,2346
+core/infer_label.py,sha256=paF79kdEvEAx1N1-7VA4Ys8kt-QXjUnf-EEflC_mB6Q,1766
+core/mq_write.py,sha256=4_iVtQjUX8Jeb4xe9_m_TSAx2dDMc7-6NuVvR199Qd8,3307
+core/oss_upload_img.py,sha256=JRVFUtGd8HxjQWKSpwWegSS_ecdz8dK-Dg8sxUFAQj0,509
+core/pic_snapshots.py,sha256=n1J3n9EPYGKqPiaG98I1_TQ94tGJtmRVXMwnqoZCbAU,1453
+core/send_email.py,sha256=TQZzzE9T0280YTPahA6frmy4HCl9qilh365Xwtzwfq8,1934
+core/send_msg.py,sha256=JvrrpODUFeBHSZCalotBUMlUUyHMOICRfP-F9AIg6hc,1697
+core/server_ai_xunjian.py,sha256=XYr_CqHndbikIT0fhnFt-6E8rPMrJlU6Pak0WyTyMSk,1295
+smart_sync-0.0.3.dist-info/LICENSE,sha256=Uy_4seZHPASM6yJujV0-M8gG1HDWDPR3vQzaLsI6wVI,1065
+smart_sync-0.0.3.dist-info/METADATA,sha256=lxWQDqiGZ-S8VO_dhD5s2FEmqcI65MNKGs5Erj4__4U,891
+smart_sync-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+smart_sync-0.0.3.dist-info/top_level.txt,sha256=0ebp8k35dOTHVwbY3UcokRsjC7cWLN_iaJ70tIcmODU,5
+smart_sync-0.0.3.dist-info/RECORD,,
