@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: judgmentModel
+Version: 1.0.7
+Summary: A Chinese question judgment library
+Home-page: https://github.com/chendayin
+Author: dayin
+Author-email: 760849607@qq.com
+License: MIT License
+Description: A Chinese question judgment library
+Keywords: wenju xgboost gensim
+Platform: any
