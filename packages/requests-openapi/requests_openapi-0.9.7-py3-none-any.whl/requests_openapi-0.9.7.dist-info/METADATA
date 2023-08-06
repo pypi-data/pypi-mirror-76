@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: requests-openapi
+Version: 0.9.7
+Summary: RequestsOpenAPI is a python client library for OpenAPI 3.0
+Home-page: https://github.com/wy-z/requests-openapi
+Author: weiyang
+Author-email: weiyang.ones@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+# requests-openapi
+
+[![image](https://img.shields.io/pypi/v/requests-openapi.svg)](https://pypi.org/project/requests-openapi/)
+[![image](https://img.shields.io/pypi/l/requests-openapi.svg)](https://pypi.org/project/requests-openapi/)
+[![image](https://img.shields.io/pypi/pyversions/requests-openapi.svg)](https://pypi.org/project/requests-openapi/)
+
+RequestsOpenAPI is a python client library for OpenAPI 3.0
+
+## Usage
+
+```python
+import requests_openapi
+
+c = requests_openapi.Client()
+c.load_spec_from_url("https://raw.githubusercontent.com/OAI/OpenAPI-Specification/master/examples/v3.0/petstore.yaml")
+resp = c.listPets() # resp: requests.Response
+resp.json()
+```
+
+## Installation
+
+```
+pip install requests-openapi
+```
+
+## Licennse
+
+MIT
+
+
