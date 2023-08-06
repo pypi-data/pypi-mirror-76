@@ -1,0 +1,44 @@
+videomass (3.0.5-1) UNRELEASED; urgency=medium
+
+  * New stable upstream release
+  * [PRESETS MANAGER] fixed missing `EBU R128` string on summary dialog when EBU automation is enabled.
+  * [PRESETS MANAGER] Added a warning message box when enabling EBU normalization on one-pass conversions.
+  * [PRESETS MANAGER] adding more understandable information on the summary dialog.
+  * The tooltip messages in the audio indexes mapping are now a little more understandable (I suppose)
+  * "Check for new versions" has been restored from preferences menu to the help menu.
+  * [STREAMS ANALYZER] Adding first item auto selection to prevent empty data view.
+  * Improved some dialog boxes layout and colors.
+
+ -- Gianluca Pernigotto <jeanlucperni@gmail.com>  Sat, 15 Aug 2020 10:50:52 +0200
+
+videomass (3.0.2-1) UNRELEASED; urgency=medium
+
+  * New stable upstream release
+  * Fixed 'page not found' on menu > Help > Translation...
+  * Fixed problem with youtube-dl self-update when user click on 'Update youtube-dl'
+  * 'Check for new versions' has been moved from the help menu to the preferences menu.
+
+ -- Gianluca Pernigotto <jeanlucperni@gmail.com>  Tue, 04 Aug 2020 18:10:00 +0200
+
+videomass (3.0.0-1) UNRELEASED; urgency=medium
+
+  * New stable upstream release
+  * Fixed "IndexError" when the file name has no format extension.
+  * Notify when the cached youtube-dl executable is no longer used to give priority to the one installed on the system.
+  * Fixed "NameError: name 'OS' is not defined"  on two_pass.py thread (on two pass conversions)
+
+ -- Gianluca Pernigotto <jeanlucperni@gmail.com>  Sun, 19 Jul 2020 11:00:00 +0200
+
+videomass (2.9.2-1) UNRELEASED; urgency=medium
+
+  * New upstream release
+  * Improved graphic layout on all dialog boxes
+  * Dependency redefinition: `python3-pypubsub` becomes `python3-pubsub` on control file.
+
+ -- Gianluca Pernigotto <jeanlucperni@gmail.com>  Fri, 17 Jul 2020 13:40:00 +0200
+
+videomass (2.9.1-1) UNRELEASED; urgency=low
+
+  * Initial debian packaging
+
+ -- Gianluca Pernigotto <jeanlucperni@gmail.com>  Wed, 15 Jul 2020 13:45:06 +0200
