@@ -1,0 +1,3 @@
+[console_scripts]
+wre-commit = wre_commit.main:main
+
