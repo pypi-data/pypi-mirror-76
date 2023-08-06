@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/bbd/__init__.py
+src/bbd.egg-info/PKG-INFO
+src/bbd.egg-info/SOURCES.txt
+src/bbd.egg-info/dependency_links.txt
+src/bbd.egg-info/top_level.txt
