@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+solaredgeha/__init__.py
+solaredgeha/solaredgeha.py
+solaredgeha.egg-info/PKG-INFO
+solaredgeha.egg-info/SOURCES.txt
+solaredgeha.egg-info/dependency_links.txt
+solaredgeha.egg-info/requires.txt
+solaredgeha.egg-info/top_level.txt

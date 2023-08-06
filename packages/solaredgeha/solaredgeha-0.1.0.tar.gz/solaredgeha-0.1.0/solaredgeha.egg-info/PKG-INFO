@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: solaredgeha
+Version: 0.1.0
+Summary: A python API wrapper for Solaredge Home Automation service
+Home-page: https://github.com/amccarthy/solaredge-ha
+Author: Aaron McCarthy
+Author-email: mccarthy.aaron@gmail.com
+License: MIT
+Description: # SolarEdge Home Automation
+        API wrapper for SolarEdge Home Automation service.
+        
+        This is an undocumented api.
+        
+        ## Create a new connection by supplying your Solaredge HA token
+        ```
+        s = solaredgeHa.SolaredgeHa(siteId, token)
+        ```
+        
+        where ```siteId``` is the SolarEdge site id and ```token``` is the value of the
+        ```SPRING_SECURITY_REMEMBER_ME_COOKIE``` cookie when logged in to the Smart Home section of the
+        SolarEdge site.
+        
+        ## API Requests
+        2 API requests are supported. The methods return the parsed JSON response as a dict.
+        
+        ```
+        def get_devices(self):
+        
+        def activate_device(self, reporterId, level, duration=None):
+        
+        ```
+        
+        
+Keywords: solaredge home automation api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
