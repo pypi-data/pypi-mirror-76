@@ -1,0 +1,7 @@
+README.md
+csvnav.py
+setup.py
+csvnav.egg-info/PKG-INFO
+csvnav.egg-info/SOURCES.txt
+csvnav.egg-info/dependency_links.txt
+csvnav.egg-info/top_level.txt
