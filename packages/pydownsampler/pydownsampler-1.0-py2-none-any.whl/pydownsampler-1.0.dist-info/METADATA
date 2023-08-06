@@ -1,0 +1,106 @@
+Metadata-Version: 2.1
+Name: pydownsampler
+Version: 1.0
+Summary: A Python package for downsampling sequence alignment files
+Home-page: https://github.com/LindoNkambule/pydownsampler
+Author: Lindokuhle Nkambule
+Author-email: lindonkambule116@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/x-rst
+Requires-Dist: pysam
+Requires-Dist: docopt
+
+pydownsampler
+=============
+
+A Python package for downsampling sequence alignment files.
+
+Installation
+------------
+
+pydownsampler is available through `pypi`_. To install, type:
+
+.. code:: bash
+
+   pip install pydownsampler
+
+Usage
+-----
+
+.. code:: bash
+
+   $ pydownsampler (<file>) [-d <dcov>]
+   $ pydownsampler (<file>) [-d <dcov>] [-o <output>]
+   $ pydownsampler (<file>) [-c]
+   $ pydownsampler [-h] | [--help]
+   $ pydownsampler [-v] [--version]
+
+Arguments and Options
+---------------------
+
++------------------------+--------------------------------------------+
+| **Argument/ Option**   | **Description**                            |
++========================+============================================+
+| ``-h, --help``         | Show help message to screen.               |
++------------------------+--------------------------------------------+
+| ``-v, --version``      | Show version.                              |
++------------------------+--------------------------------------------+
+| ``<file>``             | Input BAM/CRAM/SAM file                    |
++------------------------+--------------------------------------------+
+| ``-d, --downcoverage`` | The coverage you want to downsample to     |
+|                        | (Required argument)                        |
++------------------------+--------------------------------------------+
+| ``-o, --output``       | Output filename prefix (Optional)          |
++------------------------+--------------------------------------------+
+| ``-c, --coverage``     | Check file coverage                        |
++------------------------+--------------------------------------------+
+
+Examples
+--------
+
+.. code:: bash
+
+   # option 1 (default):
+   $ pydownsampler input.bam -d 10
+   In the example above, the file 'input.bam' will be downsampled to 10X coverage. The output filename will be 'input.Downsampled10X.bam'.
+
+   # option 2 (optional):
+   $ pydownsampler input.bam -d 10 -o downsampled
+
+   # check coverage of a BAM/CRAM/SAM file
+   $ pydownsampler input.bam -c
+
+Authors
+-------
+
+`Lindokuhle Nkambule`_
+
+`Scott Hazelhurst`_
+
+License
+-------
+
+pydownsampler is generously distributed under The MIT License
+
+.. _pypi: https://pypi.org/project/pydownsampler
+.. _Lindokuhle Nkambule: https://github.com/LindoNkambule
+.. _Scott Hazelhurst: https://github.com/shaze
+
