@@ -1,0 +1,3 @@
+[console_scripts]
+print_hello = python_setup.tools.cli:main
+
