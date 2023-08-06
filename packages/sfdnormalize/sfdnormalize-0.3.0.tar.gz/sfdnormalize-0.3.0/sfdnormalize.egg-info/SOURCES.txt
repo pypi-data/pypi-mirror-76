@@ -1,0 +1,9 @@
+README.md
+setup.py
+sfdnormalize/__init__.py
+sfdnormalize/__main__.py
+sfdnormalize.egg-info/PKG-INFO
+sfdnormalize.egg-info/SOURCES.txt
+sfdnormalize.egg-info/dependency_links.txt
+sfdnormalize.egg-info/entry_points.txt
+sfdnormalize.egg-info/top_level.txt
