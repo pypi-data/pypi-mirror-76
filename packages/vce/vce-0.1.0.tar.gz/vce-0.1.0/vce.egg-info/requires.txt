@@ -1,0 +1,13 @@
+Cartopy
+click
+influxdb
+influxdb
+jinja2
+matplotlib
+netifaces
+pyqt5
+requests
+responder
+scipy
+strictyaml
+tcconfig

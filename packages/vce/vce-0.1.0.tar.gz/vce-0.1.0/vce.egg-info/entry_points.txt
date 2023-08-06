@@ -1,0 +1,3 @@
+[console_scripts]
+vce = vce.__main__:main
+
