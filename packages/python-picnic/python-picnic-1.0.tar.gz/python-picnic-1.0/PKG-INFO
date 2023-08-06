@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: python-picnic
+Version: 1.0
+Summary: Python bindings for picnic
+Home-page: https://github.com/sebastinas/python-picnic
+Author: Sebastian Ramacher
+Author-email: sebastian.ramacher@ait.ac.at
+License: Expat
+Description: # Python bindings for Picnic
+        
+        pypicnic provides Python bindings based on [Cython](https://cython.org/) for the
+        [Picnic](https://microsoft.github.io/Picnic/) post-quantum signature scheme implementation.
+        
+        ## Dependencies
+        
+        * `Cython >= 0.28`
+        * `pkgconfig`
+        * [Picnic](https://github.com/IAIK/Picnic)
+        
+        ## License
+        
+        The code is licensed under the MIT license.
+        
+        ## Build status
+        
+        [![Build Status](https://travis-ci.org/sebastinas/python-picnic.svg?branch=master)](https://travis-ci.org/sebastinas/python-picnic)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Security :: Cryptography
+Description-Content-Type: text/markdown
