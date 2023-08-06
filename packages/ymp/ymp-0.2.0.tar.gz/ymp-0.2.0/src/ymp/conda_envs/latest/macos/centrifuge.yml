@@ -1,0 +1,18 @@
+name: centrifuge
+channels:
+- conda-forge
+- bioconda
+- defaults
+dependencies:
+- ca-certificates=2020.6.20=hecda079_0
+- centrifuge=1.0.4_beta=h2dec4b4_5
+- gettext=0.19.8.1=h1f1d5ed_1
+- libcxx=10.0.1=h5f48129_0
+- libidn2=2.3.0=h0b31af3_0
+- libunistring=0.9.10=h1de35cc_0
+- openssl=1.1.1g=haf1e3a3_1
+- perl=5.26.2=haec8ef5_1006
+- python=1.6=0
+- tar=1.29=h470a237_1
+- wget=1.20.1=h33e2efd_0
+- zlib=1.2.11=1007

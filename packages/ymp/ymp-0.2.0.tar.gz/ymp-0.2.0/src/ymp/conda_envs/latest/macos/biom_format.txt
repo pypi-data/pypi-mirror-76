@@ -1,0 +1,39 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/osx-64/ca-certificates-2020.6.20-hecda079_0.tar.bz2#7933a42d363f3e88f239384ff68252db
+https://conda.anaconda.org/conda-forge/osx-64/libcxx-10.0.1-h5f48129_0.tar.bz2#abc0f77f31d9e69bdcf2c550058da337
+https://conda.anaconda.org/bioconda/osx-64/libffi-3.2.1-1.tar.bz2#36086c3c6a4880763fa99cc7f9bdfe35
+https://conda.anaconda.org/conda-forge/osx-64/llvm-openmp-10.0.1-h28b9765_0.tar.bz2#c75ab018203fefa1a87b17ef5d182ca4
+https://conda.anaconda.org/conda-forge/osx-64/zlib-1.2.11-1007.tar.bz2#45baf062af78d948c4eaf5a5dba0b2b5
+https://conda.anaconda.org/conda-forge/osx-64/libgfortran-4.0.0-2.tar.bz2#c22c451e64f8f5a6644b2f02febac8a6
+https://conda.anaconda.org/conda-forge/osx-64/ncurses-6.2-hb1e8313_1.tar.bz2#711f66ee1fd8585c28a47910ddbeaa4a
+https://conda.anaconda.org/conda-forge/osx-64/openssl-1.1.1g-haf1e3a3_1.tar.bz2#31736d93dc6075a776645e5f5346fb9f
+https://conda.anaconda.org/conda-forge/osx-64/tk-8.6.10-hb0a8c7a_0.tar.bz2#f93186025751849c38dcc6c624ef424e
+https://conda.anaconda.org/conda-forge/osx-64/hdf5-1.10.5-nompi_h3e39495_1104.tar.bz2#5b83eacdb31fa5f8421a2510b0b46414
+https://conda.anaconda.org/conda-forge/osx-64/libopenblas-0.3.10-openmp_h63d9170_4.tar.bz2#b67fe39a155929f64e17296827c06041
+https://conda.anaconda.org/conda-forge/osx-64/readline-8.0-h0678c8f_2.tar.bz2#8f69d684fce8e73328995d7efb77816a
+https://conda.anaconda.org/conda-forge/osx-64/libblas-3.8.0-17_openblas.tar.bz2#ceac2df441f5c3acae4fb1cb02ea7fb2
+https://conda.anaconda.org/conda-forge/osx-64/sqlite-3.32.3-h960bd1c_1.tar.bz2#3e9b870e8946bcc20259e1fb3ab34774
+https://conda.anaconda.org/conda-forge/osx-64/libcblas-3.8.0-17_openblas.tar.bz2#f5e84f9f770d0e1659fb7d90cd3cb539
+https://conda.anaconda.org/conda-forge/osx-64/liblapack-3.8.0-17_openblas.tar.bz2#d37ad4c540d99ba3d09674994b774a16
+https://conda.anaconda.org/conda-forge/osx-64/python-2.7.15-h8e446fc_1010_cpython.tar.bz2#4afad5d77f406f637152a04d3c01b142
+https://conda.anaconda.org/conda-forge/osx-64/certifi-2019.11.28-py27_0.tar.bz2#e83b17776c9d2ab6a7ac2c0a5560eb24
+https://conda.anaconda.org/conda-forge/noarch/click-7.1.2-pyh9f0ad1d_0.tar.bz2#bd50a970ce07e660c319fdc4d730d3f1
+https://conda.anaconda.org/conda-forge/osx-64/future-0.18.2-py27_0.tar.bz2#db9c28d9a4619be33e14cb6342fcfe1a
+https://conda.anaconda.org/conda-forge/noarch/linecache2-1.0.0-py_1.tar.bz2#6b370c22aa1f8cdaaf6d43621eab94dc
+https://conda.anaconda.org/conda-forge/osx-64/numpy-1.16.5-py27hde6bac1_0.tar.bz2#c6917299fdb62377edf88157281e0036
+https://conda.anaconda.org/conda-forge/noarch/pytz-2020.1-pyh9f0ad1d_0.tar.bz2#e52abc1f0fd70e05001c1ceb2696f625
+https://conda.anaconda.org/conda-forge/noarch/six-1.15.0-pyh9f0ad1d_0.tar.bz2#1eec421f0f1f39e579e44e4a5ce646a2
+https://conda.anaconda.org/conda-forge/noarch/wheel-0.35.1-pyh9f0ad1d_0.tar.bz2#126827869be32f21872a2b30ebe2b038
+https://conda.anaconda.org/conda-forge/noarch/python-dateutil-2.8.1-py_0.tar.bz2#0d0150ed9c2d25817f5324108d3f7571
+https://conda.anaconda.org/conda-forge/osx-64/scipy-1.2.1-py27h7e0e109_2.tar.bz2#df30ade5e6d8fbdf16bea2244b643fe9
+https://conda.anaconda.org/conda-forge/osx-64/setuptools-44.0.0-py27_0.tar.bz2#54c5c7f9979f906584da8b257c501594
+https://conda.anaconda.org/conda-forge/osx-64/traceback2-1.4.0-py27_0.tar.bz2#823aade0e98f8c3f02b5f509ee862369
+https://conda.anaconda.org/conda-forge/osx-64/pandas-0.24.2-py27h86efe34_0.tar.bz2#f507fcecc73d811bab9ba38e400ce841
+https://conda.anaconda.org/conda-forge/noarch/pip-20.1.1-pyh9f0ad1d_0.tar.bz2#cd67a20c73ff2514cf5f34cae28fc867
+https://conda.anaconda.org/bioconda/osx-64/pyqi-0.3.2-py27_1.tar.bz2#10bd39d004097e90018ca92002c19e26
+https://conda.anaconda.org/conda-forge/noarch/unittest2-1.1.0-py_0.tar.bz2#504cc35ff8221d810cdeb49f50c5accc
+https://conda.anaconda.org/conda-forge/osx-64/h5py-2.10.0-nompi_py27h106b333_102.tar.bz2#cb9b7d7092ffe5281d2d1c8f2812b9e6
+https://conda.anaconda.org/bioconda/osx-64/biom-format-2.1.7-py27_0.tar.bz2#d38dc634828eb7aa2aa4c25b6474d7c0

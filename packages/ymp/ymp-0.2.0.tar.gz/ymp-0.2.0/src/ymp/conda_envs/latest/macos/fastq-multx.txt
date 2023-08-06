@@ -1,0 +1,8 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/osx-64/libcxx-10.0.1-h5f48129_0.tar.bz2#abc0f77f31d9e69bdcf2c550058da337
+https://conda.anaconda.org/conda-forge/osx-64/zlib-1.2.11-1007.tar.bz2#45baf062af78d948c4eaf5a5dba0b2b5
+https://conda.anaconda.org/bioconda/osx-64/fastq-multx-1.4.0-ha1b3eb9_0.tar.bz2#899da20ebd2f9f3ccd7dbda3fc576d58
+https://conda.anaconda.org/conda-forge/osx-64/pigz-2.3.4-hbbe82c9_1.tar.bz2#b2b109f2f4729b62e57763bf4b29c524

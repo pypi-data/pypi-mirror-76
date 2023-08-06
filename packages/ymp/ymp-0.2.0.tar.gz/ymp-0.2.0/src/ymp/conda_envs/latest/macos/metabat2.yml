@@ -1,0 +1,27 @@
+name: metabat2
+channels:
+- conda-forge
+- bioconda
+- defaults
+dependencies:
+- bzip2=1.0.8=haf1e3a3_2
+- c-ares=1.16.1=haf1e3a3_0
+- ca-certificates=2020.6.20=hecda079_0
+- curl=7.71.1=hbdca1c0_4
+- htslib=1.9=h3a161e8_7
+- krb5=1.17.1=h14dd6a4_2
+- libcurl=7.71.1=he6690cf_4
+- libcxx=10.0.1=h5f48129_0
+- libdeflate=1.0=h1de35cc_1
+- libedit=3.1.20191231=hed1e85f_1
+- libev=4.33=haf1e3a3_0
+- libnghttp2=1.41.0=h8a08a2b_1
+- libssh2=1.9.0=h39bdce6_5
+- llvm-openmp=10.0.1=h28b9765_0
+- metabat2=2.15=hf8346e8_0
+- ncurses=6.2=hb1e8313_1
+- openssl=1.1.1g=haf1e3a3_1
+- perl=5.26.2=haec8ef5_1006
+- tk=8.6.10=hb0a8c7a_0
+- xz=5.2.5=haf1e3a3_1
+- zlib=1.2.11=1007

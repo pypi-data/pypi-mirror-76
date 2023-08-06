@@ -1,0 +1,9 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/osx-64/libcxx-10.0.1-h5f48129_0.tar.bz2#abc0f77f31d9e69bdcf2c550058da337
+https://conda.anaconda.org/conda-forge/osx-64/zlib-1.2.11-1007.tar.bz2#45baf062af78d948c4eaf5a5dba0b2b5
+https://conda.anaconda.org/conda-forge/osx-64/llvm-openmp-8.0.1-h770b8ee_0.tar.bz2#22981e6688ff84040427ecfbdb45825a
+https://conda.anaconda.org/conda-forge/osx-64/openmp-8.0.1-0.tar.bz2#3dbc076bd4314ddaa831fe6bbe19ee2a
+https://conda.anaconda.org/bioconda/osx-64/cd-hit-4.8.1-hfbae3c0_3.tar.bz2#dc7289d8be14c152c679c3d71a4a397c

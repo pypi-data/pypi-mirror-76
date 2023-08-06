@@ -1,0 +1,36 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/osx-64/libcxx-10.0.1-h5f48129_0.tar.bz2#abc0f77f31d9e69bdcf2c550058da337
+https://conda.anaconda.org/conda-forge/osx-64/libiconv-1.15-h0b31af3_1006.tar.bz2#523911900c91d32697f4cb463a86e19d
+https://conda.anaconda.org/conda-forge/osx-64/llvm-openmp-10.0.1-h28b9765_0.tar.bz2#c75ab018203fefa1a87b17ef5d182ca4
+https://conda.anaconda.org/conda-forge/osx-64/perl-5.26.2-haec8ef5_1006.tar.bz2#7c0ced1da3e20d98b1045f3e945d3d1c
+https://conda.anaconda.org/conda-forge/osx-64/xz-5.2.5-haf1e3a3_1.tar.bz2#41116deb499e9bc58048c297d6403ce6
+https://conda.anaconda.org/conda-forge/osx-64/zlib-1.2.11-1007.tar.bz2#45baf062af78d948c4eaf5a5dba0b2b5
+https://conda.anaconda.org/conda-forge/osx-64/icu-67.1-h4a8c4bd_0.tar.bz2#c77dccce11c08d2e260c46102672a82d
+https://conda.anaconda.org/conda-forge/osx-64/libgfortran-4.0.0-2.tar.bz2#c22c451e64f8f5a6644b2f02febac8a6
+https://conda.anaconda.org/bioconda/osx-64/perl-app-cpanminus-1.7044-pl526_1.tar.bz2#236fbf1ce9555b2208b3a1dec7b30082
+https://conda.anaconda.org/bioconda/osx-64/perl-constant-1.33-pl526_1.tar.bz2#7c7c1871c4d3037b7534e34c582508bd
+https://conda.anaconda.org/bioconda/osx-64/perl-data-dumper-2.173-pl526_0.tar.bz2#e382aaa6de3e4b8efea609b938e86964
+https://conda.anaconda.org/bioconda/osx-64/perl-exporter-5.72-pl526_1.tar.bz2#47f54b85636468fe0c3f684b8e62ae5e
+https://conda.anaconda.org/bioconda/osx-64/perl-extutils-makemaker-7.36-pl526_1.tar.bz2#ce023c3bdf623d8b6379bf61281cd8cc
+https://conda.anaconda.org/bioconda/osx-64/perl-parent-0.236-pl526_1.tar.bz2#3fff03fa561b5336f5e22849016a4614
+https://conda.anaconda.org/bioconda/osx-64/perl-xml-sax-base-1.09-pl526_0.tar.bz2#91b0f650078a73e27bea2d3649c66838
+https://conda.anaconda.org/bioconda/osx-64/perl-xsloader-0.24-pl526_0.tar.bz2#65125e7ff25e3b7c3d03759aa3f2036f
+https://conda.anaconda.org/conda-forge/osx-64/pigz-2.3.4-hbbe82c9_1.tar.bz2#b2b109f2f4729b62e57763bf4b29c524
+https://conda.anaconda.org/conda-forge/osx-64/hdf5-1.10.5-nompi_h3e39495_1104.tar.bz2#5b83eacdb31fa5f8421a2510b0b46414
+https://conda.anaconda.org/conda-forge/osx-64/libxml2-2.9.10-h7fdee97_2.tar.bz2#0e85f302f80f137d2a9783a0e6f9a154
+https://conda.anaconda.org/bioconda/osx-64/perl-carp-1.38-pl526_3.tar.bz2#844ebd848b892bd18a3736e6fd885628
+https://conda.anaconda.org/bioconda/osx-64/perl-encode-2.88-pl526_1.tar.bz2#c856452e01d67fac94f99e91b3e089b1
+https://conda.anaconda.org/bioconda/osx-64/perl-file-path-2.16-pl526_0.tar.bz2#829443f73a214c46e4fee9fc7a8e3444
+https://conda.anaconda.org/bioconda/osx-64/perl-mime-base64-3.15-pl526_1.tar.bz2#cd9f076249ffcaac86f113c9640e0bd8
+https://conda.anaconda.org/bioconda/osx-64/perl-xml-namespacesupport-1.12-pl526_0.tar.bz2#4d4623843b0cf3c6915d3ef87c50a47a
+https://conda.anaconda.org/bioconda/osx-64/ncbi-ngs-sdk-2.10.4-h35754c2_0.tar.bz2#e0fd1842e1e7363e1027455891c7a37f
+https://conda.anaconda.org/bioconda/osx-64/perl-business-isbn-data-20140910.003-pl526_0.tar.bz2#d7ff8f2ac43c229c7d536553bbb3cac6
+https://conda.anaconda.org/bioconda/osx-64/perl-file-temp-0.2304-pl526_2.tar.bz2#7bed8fcb0f646b952bb074d523d10b38
+https://conda.anaconda.org/bioconda/osx-64/perl-business-isbn-3.004-pl526_0.tar.bz2#dc59fad57c60cda03d13f3507ded2f0a
+https://conda.anaconda.org/bioconda/noarch/perl-xml-sax-1.02-pl526_0.tar.bz2#b4fda7e83376806d5eedbef2c3a3b356
+https://conda.anaconda.org/bioconda/osx-64/perl-uri-1.76-pl526_0.tar.bz2#0f59a670ab6d95abfdddf70bb2c8295a
+https://conda.anaconda.org/bioconda/osx-64/perl-xml-libxml-2.0132-pl526h08abf6f_1.tar.bz2#a18f524b9efadf9b8f69cbe32e0c6272
+https://conda.anaconda.org/bioconda/osx-64/sra-tools-2.10.1-pl526h9f37e31_0.tar.bz2#ebd160361eafee7dd39f81c188561690

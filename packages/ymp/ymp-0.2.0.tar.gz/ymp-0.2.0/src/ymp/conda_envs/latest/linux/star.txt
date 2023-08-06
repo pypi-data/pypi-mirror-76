@@ -1,0 +1,5 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+@EXPLICIT
+https://conda.anaconda.org/bioconda/linux-64/star-2.7.5a-0.tar.bz2#806fcbd3d86cde139ac6ccc0bb86e6b0

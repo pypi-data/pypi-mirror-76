@@ -1,0 +1,23 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/osx-64/bzip2-1.0.8-haf1e3a3_2.tar.bz2#161b6ea07113e3415a288f2d1427e9cf
+https://conda.anaconda.org/conda-forge/osx-64/c-ares-1.16.1-haf1e3a3_0.tar.bz2#bfbc0795e86212cd7fbb38942e4f7bc8
+https://conda.anaconda.org/conda-forge/osx-64/ca-certificates-2020.6.20-hecda079_0.tar.bz2#7933a42d363f3e88f239384ff68252db
+https://conda.anaconda.org/conda-forge/osx-64/libcxx-10.0.1-h5f48129_0.tar.bz2#abc0f77f31d9e69bdcf2c550058da337
+https://conda.anaconda.org/conda-forge/osx-64/libdeflate-1.6-h0b31af3_0.tar.bz2#ddb0ca6a4ede3850eec49ec7b21d9fee
+https://conda.anaconda.org/conda-forge/osx-64/libev-4.33-haf1e3a3_0.tar.bz2#d8641f5ec1769e04c1f9e2db62074499
+https://conda.anaconda.org/conda-forge/osx-64/xz-5.2.5-haf1e3a3_1.tar.bz2#41116deb499e9bc58048c297d6403ce6
+https://conda.anaconda.org/conda-forge/osx-64/zlib-1.2.11-1007.tar.bz2#45baf062af78d948c4eaf5a5dba0b2b5
+https://conda.anaconda.org/conda-forge/osx-64/ldc-1.19.0-h8c63ce9_0.tar.bz2#cd5dcb6c486883744656cebf8980c6b3
+https://conda.anaconda.org/conda-forge/osx-64/ncurses-6.2-hb1e8313_1.tar.bz2#711f66ee1fd8585c28a47910ddbeaa4a
+https://conda.anaconda.org/conda-forge/osx-64/openssl-1.1.1g-haf1e3a3_1.tar.bz2#31736d93dc6075a776645e5f5346fb9f
+https://conda.anaconda.org/conda-forge/osx-64/tk-8.6.10-hb0a8c7a_0.tar.bz2#f93186025751849c38dcc6c624ef424e
+https://conda.anaconda.org/conda-forge/osx-64/libedit-3.1.20191231-hed1e85f_1.tar.bz2#02634bbc516b3c37a7bbc510f47041fc
+https://conda.anaconda.org/conda-forge/osx-64/libnghttp2-1.41.0-h8a08a2b_1.tar.bz2#36f0b720affe5e8588f55f375c033228
+https://conda.anaconda.org/conda-forge/osx-64/libssh2-1.9.0-h39bdce6_5.tar.bz2#476b4daa896469326286db3a37e23190
+https://conda.anaconda.org/conda-forge/osx-64/krb5-1.17.1-h14dd6a4_2.tar.bz2#83901a0a118fd23cc43e45bfd0a2a914
+https://conda.anaconda.org/conda-forge/osx-64/libcurl-7.71.1-he6690cf_4.tar.bz2#892013135d4cdee8d3163ef356b4ba61
+https://conda.anaconda.org/bioconda/osx-64/htslib-1.10.2-h422799e_1.tar.bz2#09f7d2fad41c25d45559c0e61752ea89
+https://conda.anaconda.org/bioconda/osx-64/sambamba-0.7.1-h03ee1c4_3.tar.bz2#5136e0c0fba6eab09cb75fb17eff44e3

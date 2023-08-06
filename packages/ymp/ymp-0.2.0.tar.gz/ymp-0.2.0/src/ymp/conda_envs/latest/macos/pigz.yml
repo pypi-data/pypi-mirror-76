@@ -1,0 +1,8 @@
+name: pigz
+channels:
+- conda-forge
+- bioconda
+- defaults
+dependencies:
+- pigz=2.3.4=hbbe82c9_1
+- zlib=1.2.11=1007
