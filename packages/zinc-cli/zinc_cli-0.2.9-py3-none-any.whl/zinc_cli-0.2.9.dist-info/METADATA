@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: zinc-cli
+Version: 0.2.9
+Summary: Package Description.
+Home-page: https://github.com/krinj
+Author: Jakrin Juangbhanich
+Author-email: juangbhanich.k@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: botocore
+Requires-Dist: pyyaml
+Requires-Dist: boto3
+Requires-Dist: kix
+Requires-Dist: aws-cdk.core (==1.42)
+Requires-Dist: aws-cdk.aws-lambda (==1.42)
+Requires-Dist: aws-cdk.aws-route53 (==1.42)
+Requires-Dist: aws-cdk.aws-s3 (==1.42)
+Requires-Dist: aws-cdk.aws-cloudfront (==1.42)
+Requires-Dist: aws-cdk.aws-route53-targets (==1.42)
+Requires-Dist: aws-cdk.aws-s3-deployment (==1.42)
+Requires-Dist: aws-cdk.aws-dynamodb (==1.42)
+Requires-Dist: aws-cdk.aws-iam (==1.42)
+Requires-Dist: aws-cdk.aws-cognito (==1.42)
+Requires-Dist: aws-cdk.custom-resources (==1.42)
+
+# ZINC CLI
+Welcome to the Zinc CLI.
+___
+## Features
+* Blah 1
+* Blah 2
+* Blah 3
+
+## Links
+[Hello](www.google.com)
+
+## Examples
+```python
+print("Hello World")
+```
+
