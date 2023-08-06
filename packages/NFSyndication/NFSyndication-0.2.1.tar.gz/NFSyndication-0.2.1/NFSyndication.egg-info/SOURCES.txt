@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+NFSyndication/__init__.py
+NFSyndication/extras.py
+NFSyndication/main.py
+NFSyndication.egg-info/PKG-INFO
+NFSyndication.egg-info/SOURCES.txt
+NFSyndication.egg-info/dependency_links.txt
+NFSyndication.egg-info/entry_points.txt
+NFSyndication.egg-info/top_level.txt
+NFSyndication/templates/template.html
