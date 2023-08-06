@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: PyFileIO
+Version: 0.0.3
+Summary: Some very basic  routines for file IO in Python
+Home-page: https://github.com/mattkjames7/PyFileIO
+Author: Matthew Knight James
+Author-email: mattkjames7@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: RecarrayTools
+
+# PyFileIO
+Some very basic  routines for file IO in Python
+
+

@@ -1,0 +1,14 @@
+PyFileIO/FileIO.py,sha256=9PYPKL82OelathhjemINq5Bci9IuN4NKvOSo0odWimg,2922
+PyFileIO/FileSearch.py,sha256=86ihtlNJvcWQT_KYvk04W0Xgt6BzuJxb2v0_1CDskUU,712
+PyFileIO/LoadDict.py,sha256=h9IOlZSmylRuX3Oz6A0r8-c7hZ8DCvBgMErREc1VEQA,311
+PyFileIO/ReadASCIIData.py,sha256=9r3wwNhjGyMouV6XNY5oDtEumzDc8EkS9MZRUajnRJg,3731
+PyFileIO/ReadASCIIFile.py,sha256=dIFqrYOqsPiv1RXF-E1LoJsjJnTVL_sUf2dTUNZPYUc,283
+PyFileIO/SaveDict.py,sha256=zjx1nglFMb8YpleyUaFvkP_2OwUHUJWRqFF-cN1UA1E,291
+PyFileIO/WriteASCIIData.py,sha256=Stpj7fOGJcSIToXMGchLmYIV5R64lst6aWS3YK5cDwU,569
+PyFileIO/WriteASCIIFile.py,sha256=pGt8AaOxGEyOEk8xNtz6bnYBb_Ivz9Zp0s04s2Ou4v4,244
+PyFileIO/__init__.py,sha256=j0WSNpkOZjw0rGFjf-d0PwDsKbnujAGo2U2wo_jc7bk,475
+PyFileIO-0.0.3.dist-info/LICENSE,sha256=OuCa0PgonaOkYcK4tj_AX5mcGyFqVzd8_7A_oP9WhoU,1070
+PyFileIO-0.0.3.dist-info/METADATA,sha256=jvPLVdKSx5pkoWVnT3P_boVXTL3DelpBmlvU9oAgkT4,549
+PyFileIO-0.0.3.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+PyFileIO-0.0.3.dist-info/top_level.txt,sha256=QKAFZI-PdlJO3-cVrFJCzJb6QIl1LQY09hfzx4HEdKw,9
+PyFileIO-0.0.3.dist-info/RECORD,,
