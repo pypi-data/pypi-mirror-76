@@ -1,0 +1,11 @@
+frattlesnake/Effect.py,sha256=w7n7wtUFcQMeZcW37QyHrCTFxnB9R-EgpgJbYPvb5V8,1580
+frattlesnake/Familiar.py,sha256=KPRrHdLpwI6iAURW2vnO_KFlGTqn-MQmjJnpmk4S5HI,1805
+frattlesnake/Item.py,sha256=Q-YuhW5NsL8Flplnf0zj2mFiN5iNW2gDdMw-wIiHNVo,3597
+frattlesnake/Modifier.py,sha256=MJdUKegQw6c6JNS_tfzX1zhmbC9rwg6ElVCreS4DylY,7192
+frattlesnake/Range.py,sha256=BxvqiGrGcGAnhMhnsQaLf7mkZD05R1PQvHwGHhVH1U4,344
+frattlesnake/__init__.py,sha256=sGVAztNl6urJjY0mMa6dzCY3nHeh8xbneQjZ5ZCkFd8,215
+frattlesnake/frattlesnake.py,sha256=pC1xgMK4IxA2lzUGPO6sjiZNXiSABZ5jR0ZIqPZAxcI,769
+frattlesnake/kolmafia.py,sha256=s_tLFvxtDJrs6COeeeWA3d5QuwyET030b8VTEYIOcu4,1187
+frattlesnake-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+frattlesnake-0.1.0.dist-info/METADATA,sha256=zy2oZdfayMr42wHGcDl6uXFMuGcqCgyruCU4vUQZ0mo,281
+frattlesnake-0.1.0.dist-info/RECORD,,
