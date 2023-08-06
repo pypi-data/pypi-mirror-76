@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+oligopool.egg-info/PKG-INFO
+oligopool.egg-info/SOURCES.txt
+oligopool.egg-info/dependency_links.txt
+oligopool.egg-info/top_level.txt
