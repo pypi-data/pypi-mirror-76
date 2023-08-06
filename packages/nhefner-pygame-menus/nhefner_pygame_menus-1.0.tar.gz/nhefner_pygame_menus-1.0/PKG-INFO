@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: nhefner_pygame_menus
+Version: 1.0
+Summary: Menu System for Pygame Games
+Home-page: https://github.com/noahhefner/nhefner_pygame_menus
+Author: Noah Hefner
+Author-email: noah.hefner127@gmail.com
+License: MIT
+Download-URL: https://github.com/noahhefner/nhefner_pygame_menus/archive/1.0.tar.gz
+Description: UNKNOWN
+Keywords: pygame,menu,python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
