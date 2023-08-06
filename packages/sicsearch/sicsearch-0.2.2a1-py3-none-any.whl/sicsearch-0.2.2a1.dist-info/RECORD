@@ -1,0 +1,16 @@
+sicsearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sicsearch/cardlist.py,sha256=dvwVhPIfKCqHIj_cZD4dKougI7x4idwk0DzKhx0RXqA,3651
+sicsearch/cardpanel.py,sha256=ajOczSB_tjb2HEGljQa94PFbO3oou_hTyfAHf93E7Mc,4038
+sicsearch/database.py,sha256=3k-0bk5rzHqE2sDoI79pd8EJSF75Xqx7-rkoLpm6DhY,1480
+sicsearch/fzmatch.py,sha256=DnBnt3ageZuJNjgUPahQeVesrV48fH7l-VZgRwrsB-U,2074
+sicsearch/search.py,sha256=yfsM_HhvPNvibz26hWRAllOYV521jT6qFALTe_VvcTU,4464
+sicsearch/suppress.py,sha256=JBRn_2teF-AiIcmrUNbtXd9jLPixJheH5qbL9Yv_Dkw,1319
+sicsearch/version.py,sha256=hhwU4qW_MY3MZHYbV1eTFQ1abMcIBzUJuXE-Q34Csao,24
+sicsearch/watcher.py,sha256=o1AT2sKrgHT6SRxjLwfnnSpZC7igQXCjqv0Y11mnhqc,917
+sicsearch-0.2.2a1.dist-info/LICENSE,sha256=BJ8Mlqr8nPxKtgr3GhwRrW0V51pzULZOrwqV2xKrE7w,1093
+sicsearch-0.2.2a1.dist-info/METADATA,sha256=w9XHfVy4sS6zYOIpwRaLCT80QaQGjFzxTmXVn5VVc1Q,2934
+sicsearch-0.2.2a1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+sicsearch-0.2.2a1.dist-info/entry_points.txt,sha256=ZO4eeNnwKXGlDA_B8XmvbJ_CWxi-pMZXXXfZ6vC0ip4,53
+sicsearch-0.2.2a1.dist-info/top_level.txt,sha256=CpGAwWmiybTc8_5RPPT3LF7Z7s6wX6YZ-ZKa4tTcQBE,10
+sicsearch-0.2.2a1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+sicsearch-0.2.2a1.dist-info/RECORD,,
