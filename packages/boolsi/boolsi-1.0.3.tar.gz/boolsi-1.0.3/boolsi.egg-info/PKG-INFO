@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: boolsi
+Version: 1.0.3
+Summary: BoolSi is a tool for distributed simulations and analysis of Boolean networks
+Home-page: https://github.com/boolsi/boolsi
+Author: Vladyslav Oles, Anton Kukushkin
+Author-email: kukushkin.anton@gmail.com, vladyslav.oles@wsu.edu
+License: MIT
+Description: BoolSi is a command line tool for distributed simulations and analysis of synchronous Boolean networks.
+        
+        Read more at: https://github.com/boolsi/boolsi/blob/master/README.md
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Provides-Extra: mpi
