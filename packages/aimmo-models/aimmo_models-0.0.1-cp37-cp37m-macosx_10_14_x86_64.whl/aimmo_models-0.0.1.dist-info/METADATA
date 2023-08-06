@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: aimmo-models
+Version: 0.0.1
+Summary: Python Package and Tools for Deep Learning Model Deployment
+Home-page: https://github.com/bluewhalekr/aimmo-models
+Author: Brian Kim
+Author-email: brian@aimmo.co.kr
+License: Apache 2.0
+Keywords: AIMMO Models
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: torch-model-archiver (==0.1.1)
+
+# AIMMO Models
+
+
