@@ -1,0 +1,8 @@
+rosbridge-library
+rosbridge-server
+rosmaster
+roslaunch
+rosgraph
+rosbag
+rosapi
+rospy
