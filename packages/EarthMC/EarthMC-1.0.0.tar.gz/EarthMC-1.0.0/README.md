@@ -1,0 +1,1 @@
+# A python package providing info on the EarthMC Minecraft server.
