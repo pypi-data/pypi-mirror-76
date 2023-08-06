@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: enzo
+Version: 0.0.1.dev4
+Summary: A neural network library designed from scratch.
+Home-page: https://github.com/thomasbreydo/enzo
+Author: Thomas Breydo
+Author-email: tbreydo@gmail.com
+License: UNKNOWN
+Project-URL: Code, https://github.com/thomasbreydo/enzo
+Project-URL: Documentation, https://enzo-docs.readthedocs.io
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: numpy (==1.19.0)
+
+enzo
+====
+.. image:: https://travis-ci.com/thomasbreydo/enzo.svg?branch=master
+    :target: https://travis-ci.com/thomasbreydo/enzo
+.. image:: https://readthedocs.org/projects/enzo-docs/badge/?version=latest
+    :target: https://enzo-docs.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+A neural network designed from scratch in Python (no tensorflow, pytorch, etc.).
+
+Why from scratch?
+-----------------
+
+Neural networks have grown to become very popular and useful. Because they are so complex, it is tough to have a core understanding of *how* the networks actually "learn." Coding one from scratch turned out to be extremely helpful.
+
+Why in Python?
+--------------
+
+- Python is easy and quick to use, meaning that the time I spend coding will mostly be devoted to actually coding the network.
+
+- More importantly, Python is easy to understand, meaning the code can serve as a learning resource for those who would like a better understanding of how neural networks work.
+
+
