@@ -1,0 +1,9 @@
+README.md
+setup.py
+csv_mAP_calculator/__init__.py
+csv_mAP_calculator/compute_overlap_slow.py
+csv_mAP_calculator.egg-info/PKG-INFO
+csv_mAP_calculator.egg-info/SOURCES.txt
+csv_mAP_calculator.egg-info/dependency_links.txt
+csv_mAP_calculator.egg-info/requires.txt
+csv_mAP_calculator.egg-info/top_level.txt
