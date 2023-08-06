@@ -1,0 +1,4 @@
+requests
+requests_toolbelt
+filetype
+websocket_client
