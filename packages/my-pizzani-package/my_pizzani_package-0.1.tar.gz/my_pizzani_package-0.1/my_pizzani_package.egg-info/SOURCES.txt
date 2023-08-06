@@ -1,0 +1,10 @@
+setup.py
+my_pizzani_package/Binomialdistribution.py
+my_pizzani_package/Gaussiandistribution.py
+my_pizzani_package/Generaldistribution.py
+my_pizzani_package/__init__.py
+my_pizzani_package.egg-info/PKG-INFO
+my_pizzani_package.egg-info/SOURCES.txt
+my_pizzani_package.egg-info/dependency_links.txt
+my_pizzani_package.egg-info/not-zip-safe
+my_pizzani_package.egg-info/top_level.txt
