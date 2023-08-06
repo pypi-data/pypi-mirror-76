@@ -1,0 +1,8 @@
+README.md
+setup.py
+DetectBinod/__init__.py
+DetectBinod.egg-info/PKG-INFO
+DetectBinod.egg-info/SOURCES.txt
+DetectBinod.egg-info/dependency_links.txt
+DetectBinod.egg-info/requires.txt
+DetectBinod.egg-info/top_level.txt

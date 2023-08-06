@@ -1,0 +1,4 @@
+PyPDF2
+xlrd
+python-docx
+python-pptx

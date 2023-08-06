@@ -1,0 +1,36 @@
+# DetectBinod
+
+
+DetectBinod is a python lib for detecting binod from docx, ppt, txt , pdf, xlsx files
+
+
+# New Features!
+
+  - Now it is possible to detect Binod in ppt files also 
+  - Now, just import DetectBinod and pass filename
+
+# Functions: 
+```
+import DetectBinod as db
+db.isBinod_txt(filename)
+db.isBinod_docx(filename)
+db.isBinod_pdf(filename)
+db.isBinod_xlsx(filename)
+db.isBinod_ppt(filename)
+
+# Output will reflect on terminal
+```
+
+
+
+### Installation
+
+
+Install the dependencies and devDependencies and start the server.
+
+```
+pip install DetectBinod
+```
+You can reach out me at, 
+- akshagpawar15@gmail.com
+-
