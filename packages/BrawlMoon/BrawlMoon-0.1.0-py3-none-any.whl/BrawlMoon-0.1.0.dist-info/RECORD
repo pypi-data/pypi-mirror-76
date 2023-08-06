@@ -1,0 +1,15 @@
+BrawlMoon/__init__.py,sha256=8alJoIFLO94bt7ok1DgEWnIJPXYj8i2Wt2jdh9aO30w,135
+BrawlMoon/abilities.py,sha256=7yusa-R32hFc6TwJglvl4yi2PT0koC83FaFWTs-DJ74,251
+BrawlMoon/basis.py,sha256=yo3YaUAG6R-reAyquz5pISLdE9gHz_SRcsDdmFYLpr4,118
+BrawlMoon/brawler.py,sha256=Vdp3byLotdgV9sWD7RSgdfmnrQtu0kSXMIdKe5BYCEY,833
+BrawlMoon/client.py,sha256=pyTq9bLwyOTovE2gj_lCHHSAVe2V55LyyP1vFH0ZRPY,4167
+BrawlMoon/club.py,sha256=35Hv58IotQ4wGflHlyrYe4xHs0iaxwUWK1d2FteupM0,1490
+BrawlMoon/enums.py,sha256=hSKAjuAzA_avLw8BZNZVbfwf4pe5cp3mUkeATF0Eb8s,198
+BrawlMoon/errors.py,sha256=e1JHWAtgxQVwiLg34U_jd48SbD7zGGHD5VAirZkYqJo,119
+BrawlMoon/player.py,sha256=Pbna5lWaDj0uF0TwBKFSuXDf2B5TqWPY8-k_VjGT7Sg,1322
+BrawlMoon/resp.py,sha256=bEPwyyMjQ_cS50eq6rka2TekEYVmXlhQnX4xD1o7hl0,220
+BrawlMoon-0.1.0.dist-info/LICENSE,sha256=_z_sCMzB3JSuqgvaC48fPefoDR4ajSh4OhPHlCD67XQ,1090
+BrawlMoon-0.1.0.dist-info/METADATA,sha256=Zly-hZy1CG01_HXBoaW_yUWG1fBZO0dvtSvnmgSN-7U,467
+BrawlMoon-0.1.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+BrawlMoon-0.1.0.dist-info/top_level.txt,sha256=GnAEn3aRjHz6xgYrSTP41JaS8owyMZA3MuPLceq6MpI,10
+BrawlMoon-0.1.0.dist-info/RECORD,,
