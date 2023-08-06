@@ -1,0 +1,3 @@
+[sentry.apps]
+auth_chy = sentry_auth_chy
+
