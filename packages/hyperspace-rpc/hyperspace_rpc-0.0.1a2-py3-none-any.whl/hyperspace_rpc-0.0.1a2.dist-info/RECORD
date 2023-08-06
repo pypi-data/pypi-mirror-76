@@ -1,0 +1,11 @@
+hyperspace_rpc/__init__.py,sha256=a8F0ybiAD7z9FIU8Nuz_5kZHOdxz-7mLQU71O__WRaQ,29
+hyperspace_rpc/hrpc.proto,sha256=WYlk9W3a9SEHYTB73yFmWGXDQHeO9fAvUbusbsscJNg,248
+hyperspace_rpc/hrpc_grpc.py,sha256=wIDD-9DJZHZo4TnVVD63-y5C_3g3hrZDd-QezQyGo2E,125
+hyperspace_rpc/hrpc_pb2.py,sha256=DrzZ8Dq6dvG7BWOG4JgAmvrLmXr6oGvGfktq0hoje-A,3016
+hyperspace_rpc/schema.proto,sha256=fR_WuLoqywlrdpw6_vboAyUfviLS7tc55jYFa2MKduE,7480
+hyperspace_rpc/schema_grpc.py,sha256=-3xu03pNKIiE242rdtEyTKuk6UpX0MFku-gV87rGDPY,22607
+hyperspace_rpc/schema_pb2.py,sha256=hT7vqak-WVIq_7COLu6Xd2NN8z4d57IOdzFMemUEkpk,111751
+hyperspace_rpc-0.0.1a2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+hyperspace_rpc-0.0.1a2.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+hyperspace_rpc-0.0.1a2.dist-info/METADATA,sha256=izWxgnlsX_Mt9SekXGs_R0k72eNBt-6273ssH55qZ68,939
+hyperspace_rpc-0.0.1a2.dist-info/RECORD,,
