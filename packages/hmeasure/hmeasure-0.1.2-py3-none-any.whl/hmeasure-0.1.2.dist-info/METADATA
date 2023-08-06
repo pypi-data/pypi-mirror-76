@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hmeasure
+Version: 0.1.2
+Summary: H-Measure Classification Metric
+Home-page: https://github.com/ldanov/pypkg_hmeasure
+Author: Lyubomir Danov
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.17.2)
+Requires-Dist: scikit-learn (>=0.21.3)
+Requires-Dist: scipy (>=1.2.2)
+
+UNKNOWN
+
+
