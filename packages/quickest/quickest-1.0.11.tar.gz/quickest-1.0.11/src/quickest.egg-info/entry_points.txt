@@ -1,0 +1,3 @@
+[console_scripts]
+quickest = quickest.__main__:main
+

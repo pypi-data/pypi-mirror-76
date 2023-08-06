@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: quickest
+Version: 1.0.11
+Summary: Tools for studying POMDP quickest change problems
+Home-page: https://bitbucket.org/j2-riseley/qcr-py-tools/
+Author: Jenna Riseley
+Author-email: j2.riseley@qut.edu.au
+License: UNKNOWN
+Description: 
+        # Install
+        
+        ```
+        $ pip install quickest
+        ```
+        # Quickstart
+        
+        Get a config file:
+        
+        ```
+        $ quickest getconf
+        ```
+        
+        Run a simulation and save the result locally:
+        
+        ```
+        $ quickest simulate --conf [CONFIG].json
+        ```
+        
+        View a result from a folder:
+        
+        ```
+        $ quickest view --loc [FOLDER]
+        ```
+        
+        See more options:
+        
+        ```
+        $ quickest -h
+        ```
+Keywords: sample,setuptools,development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
