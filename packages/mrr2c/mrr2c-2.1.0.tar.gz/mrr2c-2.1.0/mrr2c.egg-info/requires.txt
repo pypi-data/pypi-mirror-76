@@ -1,0 +1,4 @@
+aquarius-time>=0.1.0
+ds-format>=1.0.0
+numpy>=1.12.1
+pydash>=4.0.3

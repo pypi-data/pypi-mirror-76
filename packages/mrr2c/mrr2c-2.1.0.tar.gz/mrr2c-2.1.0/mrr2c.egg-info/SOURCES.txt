@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+mrr2c.1
+mrr2c.py
+setup.cfg
+setup.py
+mrr2c.egg-info/PKG-INFO
+mrr2c.egg-info/SOURCES.txt
+mrr2c.egg-info/dependency_links.txt
+mrr2c.egg-info/entry_points.txt
+mrr2c.egg-info/requires.txt
+mrr2c.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+mrr2c = mrr2c:main
+
