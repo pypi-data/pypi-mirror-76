@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: mindmap_etl
+Version: 0.1.41
+Summary: 使用 .xmmap 思维导图文件构建模型和ETL导入逻辑，转换为图数据库需要的结构。
+Home-page: https://github.com/tr33oph/mindmap_etl.git
+Author: treeoph
+Author-email: treeoph@gmail.com
+License: MIT Licence
+Description: UNKNOWN
+Keywords: mindmap,ETL,etl,graph
+Platform: any
