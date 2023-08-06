@@ -1,0 +1,9 @@
+ecl2df
+pandas
+
+[tests]
+pylint~=2.3
+black
+bandit
+mypy
+pytest
