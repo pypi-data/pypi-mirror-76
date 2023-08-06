@@ -1,0 +1,11 @@
+README.md
+setup.py
+palladium/__init__.py
+palladium/chrome_custom.py
+palladium/chromium_setup.py
+palladium/params.py
+palladium_python.egg-info/PKG-INFO
+palladium_python.egg-info/SOURCES.txt
+palladium_python.egg-info/dependency_links.txt
+palladium_python.egg-info/requires.txt
+palladium_python.egg-info/top_level.txt
