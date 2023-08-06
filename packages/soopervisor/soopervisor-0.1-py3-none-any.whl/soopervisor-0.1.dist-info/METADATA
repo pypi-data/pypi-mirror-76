@@ -1,0 +1,109 @@
+Metadata-Version: 2.1
+Name: soopervisor
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/ploomber/soopervisor
+Author: 
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click
+Requires-Dist: tqdm
+Requires-Dist: pydantic
+Requires-Dist: boxsdk
+Requires-Dist: Jinja2
+Requires-Dist: pyyaml
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: Faker ; extra == 'dev'
+
+Soopervisor
+===========
+
+
+.. image:: https://github.com/ploomber/ci-for-ds/workflows/CI/badge.svg
+   :target: https://github.com/ploomber/ci-for-ds/workflows/CI/badge.svg
+   :alt: CI badge
+
+
+Soopervisor is a command line utility to execute
+`Ploomber <github.com/ploomber/ploomber>`_-compatible projects.
+
+Installation
+------------
+
+.. code-block:: sh
+
+   pip install soopervisor
+
+Usage
+-----
+
+For its simplest usage, ``soopervisor`` expects a project with a ``pipeline.yaml``
+file, outputs saved in an ``output/`` directory and dependencies declared
+in an `environment.yml <https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-file-manually>`_ file
+
+To execute a project:
+
+.. code-block:: sh
+
+   soopervisor build
+
+
+Unlike ``ploomber build``, ``soopervisor build`` creates the environment first,
+and then executes the pipeline (using ``ploomber build``). This ensures
+dependency installation is part of the reproducibility process. But it
+offers much more than just installing dependencies.
+
+Configuration
+-------------
+
+An optional ``soopervisor.yaml`` file allows you to customize the build process.
+
+Using Soopervisor for Continuous Integration
+--------------------------------------------
+
+[WIP]
+
+Github action
+-------------
+
+[WIP]
+
+Development
+-----------
+
+Once you cloned the repo:
+
+.. code-block::
+
+   pip install --editable ".[dev]"
+
+To run tests:
+
+.. code-block::
+
+   pytest
+
+CHANGELOG
+=========
+
+0.1 (2020-08-09)
+-----------------
+
+* First release
+
+
