@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: alsobrowserlib
+Version: 0.0.1
+Summary: 爱搜浏览器功能库，由爱搜浏览器团队制作，爱搜浏览器团队版权所有。
+Home-page: https://github.com/
+Author: 爱搜浏览器团队
+Author-email: 3182305655@qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
