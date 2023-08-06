@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/pineappl/__init__.py
+src/pineappl/interface.py
+src/pineappl/loader.py
+src/pineappl.egg-info/PKG-INFO
+src/pineappl.egg-info/SOURCES.txt
+src/pineappl.egg-info/dependency_links.txt
+src/pineappl.egg-info/not-zip-safe
+src/pineappl.egg-info/requires.txt
+src/pineappl.egg-info/top_level.txt
