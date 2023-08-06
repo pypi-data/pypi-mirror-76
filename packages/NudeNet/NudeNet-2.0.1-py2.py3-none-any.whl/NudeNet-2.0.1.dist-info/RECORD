@@ -1,0 +1,9 @@
+nudenet/__init__.py,sha256=elJKZpYxA3mR5gMUUTLHmOU6FWKaNM5vsCt9x3EV578,100
+nudenet/classifier.py,sha256=YdX675WKIebexdnyy0GnXqq9ECVpuVJET1sETtoNt-A,8612
+nudenet/detector.py,sha256=5js0gi9okiNSDSA_Nxszd77Td6IOIhxtv0_ZeR3zOEk,6470
+nudenet/video_utils.py,sha256=co3esujSeUY-GAwekl9URdSCyY9kohRYepRAWJs1Zik,3689
+NudeNet-2.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+NudeNet-2.0.1.dist-info/METADATA,sha256=ISYj-QaXTP03I5L3628wifyZwfdgFirIkO6m8_Ig3UY,5855
+NudeNet-2.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+NudeNet-2.0.1.dist-info/top_level.txt,sha256=Ui7TIqYSXY_-Att9PtFyZ1-1YwvQPCcs5KwHYx12OvI,8
+NudeNet-2.0.1.dist-info/RECORD,,
