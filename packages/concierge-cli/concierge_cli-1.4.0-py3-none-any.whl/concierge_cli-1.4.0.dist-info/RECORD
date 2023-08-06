@@ -1,0 +1,12 @@
+concierge_cli/__init__.py,sha256=Hko4SPqpXd5q6YLwUA6sScbwP3G3jY4eysRCsG-a77E,205
+concierge_cli/__main__.py,sha256=RLS1WgBmtGO1TplW1EtNtcVlydPQiZOiAM9PgNJ-DBU,147
+concierge_cli/adapter.py,sha256=ZKxwC2u8eT0VP9iIkCnQPKnEDOgoWng8EAU1EDbzybo,3819
+concierge_cli/cli.py,sha256=ETs7n-jigueIGtQM_56VhKIOeu-LZ2a47SqDs_3ewrk,6465
+concierge_cli/constants.py,sha256=WVtn1eNpIzATn9Q1x3vYq0mmWA12xDdIUBxeCYOwt6k,573
+concierge_cli/manager.py,sha256=DESfg240Xg9tovkldsr1-4CTJOx89dFiA0dTpR7k5QE,8589
+concierge_cli-1.4.0.dist-info/LICENSE,sha256=qcvEKKfa9SH3y83cY6xYXhUHqlDKPLw1hoUhEsuROw0,1507
+concierge_cli-1.4.0.dist-info/METADATA,sha256=gx_EPW2pDCenCKaHi3gq4ZrQETHmIDMQvEllBFYrsHY,5899
+concierge_cli-1.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+concierge_cli-1.4.0.dist-info/entry_points.txt,sha256=BDuc6FPYww654bxU-Jw8a5_iA9CVsu63nH_x6EVrkM0,58
+concierge_cli-1.4.0.dist-info/top_level.txt,sha256=Qk2wAxuQUaXN4TFQ7epx6W-4llGQ-oYlk9ztK9xgwgU,14
+concierge_cli-1.4.0.dist-info/RECORD,,
