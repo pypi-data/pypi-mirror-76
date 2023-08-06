@@ -1,0 +1,7 @@
+README.md
+setup.py
+image_px_to_text/__init__.py
+image_px_to_text.egg-info/PKG-INFO
+image_px_to_text.egg-info/SOURCES.txt
+image_px_to_text.egg-info/dependency_links.txt
+image_px_to_text.egg-info/top_level.txt
