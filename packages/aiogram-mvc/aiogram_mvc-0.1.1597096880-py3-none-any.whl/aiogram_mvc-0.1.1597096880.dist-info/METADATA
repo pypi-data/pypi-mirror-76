@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: aiogram-mvc
+Version: 0.1.1597096880
+Summary: aiogram MVC framework
+Home-page: https://git.yurzs.dev/yurzs/aiogram_mvc
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: mdocument (<4,>=3)
+Requires-Dist: aiogram
+
+AIOGRAM MVC
+===========
+
+README GOES HERE
+
+
