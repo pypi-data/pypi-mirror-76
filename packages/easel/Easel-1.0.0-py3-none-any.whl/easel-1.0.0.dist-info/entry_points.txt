@@ -1,0 +1,4 @@
+[console_scripts]
+_easel=src.easel.cli:cli
+easel=easel.cli:cli
+
