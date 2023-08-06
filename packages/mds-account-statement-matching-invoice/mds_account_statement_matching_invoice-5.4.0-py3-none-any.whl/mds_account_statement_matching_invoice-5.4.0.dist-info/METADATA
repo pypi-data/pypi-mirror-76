@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: mds-account-statement-matching-invoice
+Version: 5.4.0
+Summary: Tryton module for automatic matching of unpaid invoices when importing bank statements.
+Home-page: https://www.m-ds.de/
+Author: m-ds
+Author-email: service@m-ds.de
+License: GPL-3
+Keywords: tryton import account statement invoice matching
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Framework :: Tryton
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Office/Business
+Classifier: Natural Language :: German
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: trytond-account-statement (<5.5,>=5.4)
+Requires-Dist: trytond (<5.5,>=5.4)
+
+mds-account-statement-matching-invoice
+======================================
+Tryton module for automatic matching of unpaid invoices when importing bank statements.
+
+Install
+=======
+
+pip install mds-account-statement-matching-invoice
+
+Requires
+========
+- Tryton 5.4
+
+Changes
+=======
+
+*5.4.0 - 12.08.2020*
+
+- matching works
+
+

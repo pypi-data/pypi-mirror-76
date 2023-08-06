@@ -1,0 +1,12 @@
+trytond/modules/account_statement_matching_invoice/README.rst,sha256=6XSR2Vw6f93N5DdL7SVrnX1Em7QbOP-uPuGPZMX1NU4,324
+trytond/modules/account_statement_matching_invoice/__init__.py,sha256=bYSW5FsIQZEX6KmyCBqsNgfru5zuRtAp0JqMHhtqang,368
+trytond/modules/account_statement_matching_invoice/statement.py,sha256=PvewmEK6-_GjcjtXPcAjh3wubMvMkJLn_nvSRmGkbWo,2172
+trytond/modules/account_statement_matching_invoice/tryton.cfg,sha256=QkMDUXs2LYCGxuSnYBabeOj2q-dte6QgIxs3cDZskcY,59
+trytond/modules/account_statement_matching_invoice/versiondep.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trytond/modules/account_statement_matching_invoice/locale/de.po,sha256=gHWZexYt0Kw3iv8YcsLiISUji_uz-le2K9c6Pdq6nAw,63
+trytond/modules/account_statement_matching_invoice/locale/en.po,sha256=_X5QMRWQ5B2zAEtjYQNQmj1N-wTuYEOR_NZ-RTXFSOM,62
+mds_account_statement_matching_invoice-5.4.0.dist-info/METADATA,sha256=k_Vwq5DIkaOofTE_cE92XAWOALoYzBU2u6WG7wMR0AY,1421
+mds_account_statement_matching_invoice-5.4.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+mds_account_statement_matching_invoice-5.4.0.dist-info/entry_points.txt,sha256=LC7fjtbCjQ8p3pXc3YgPLqTJN1bFHIR74uoXMNdvm6s,120
+mds_account_statement_matching_invoice-5.4.0.dist-info/top_level.txt,sha256=1UNriCfRfjRjutJbJ_B8i13huVUoV_Otp9RlW3mCfw4,8
+mds_account_statement_matching_invoice-5.4.0.dist-info/RECORD,,

@@ -1,0 +1,4 @@
+ 
+    [trytond.modules]
+    account_statement_matching_invoice = trytond.modules.account_statement_matching_invoice
+    
