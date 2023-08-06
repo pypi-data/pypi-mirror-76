@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: basic_logtools
+Version: 0.1.8
+Summary: Some useful tools for log use inside classes
+Home-page: https://logtools.readthedocs.io/en/latest/
+Author: David Pineda Osorio
+Author-email: dpineda@uchile.cl
+License: GPLv3
+Description: Basic Logtools
+        ===
+        
+        This is a module to create a log in a easy way.
+        
+Keywords: logger
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

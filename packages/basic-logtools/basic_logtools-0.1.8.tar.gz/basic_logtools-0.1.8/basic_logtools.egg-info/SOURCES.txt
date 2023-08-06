@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+MANIFEST.in
+NAME
+PKG-INFO
+README.md
+VERSION
+setup.cfg
+setup.py
+basic_logtools/filelog.py
+tests/test_logfile.py
