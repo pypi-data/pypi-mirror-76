@@ -1,0 +1,9 @@
+fscache/__init__.py,sha256=OtJoMXcZoT_NS3goctQSpnCR25r4maVl0cpaaZLK9Q8,195
+fscache/encoder.py,sha256=jdmQvMtzTEcKCEqYr5nrBGhpYM10lMgnGvO5tbSbdpA,1418
+fscache/fscache.py,sha256=3LvmdiPk2AdZhI9_dCTbhAtY_AiSkoSm1kZlp4rVfFA,5280
+fscache-0.2.0.dist-info/AUTHORS.rst,sha256=yPxEiT-npPnTHu8RZz_09SVo3NHrLJN_wsdGjqs8jmE,154
+fscache-0.2.0.dist-info/LICENSE,sha256=4DAVlkf6Zz2w8EnObjM4noa_Fl7u0ouke57S9C8UZ-Q,1072
+fscache-0.2.0.dist-info/METADATA,sha256=YzvH-4GRpsHyHxoN_eBfYnhx0d95wo2lz0iRRCRAfoU,1268
+fscache-0.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+fscache-0.2.0.dist-info/top_level.txt,sha256=vRIdYvRlVFyCimv3GJ65pu57fhlituMhYWOQryyo6NY,8
+fscache-0.2.0.dist-info/RECORD,,
