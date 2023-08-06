@@ -1,0 +1,7 @@
+README.md
+setup.py
+collidoscope.egg-info/PKG-INFO
+collidoscope.egg-info/SOURCES.txt
+collidoscope.egg-info/dependency_links.txt
+collidoscope.egg-info/requires.txt
+collidoscope.egg-info/top_level.txt
