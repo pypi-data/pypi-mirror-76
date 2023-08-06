@@ -1,0 +1,15 @@
+README.rst
+setup.py
+samplesizelib/__init__.py
+samplesizelib.egg-info/PKG-INFO
+samplesizelib.egg-info/SOURCES.txt
+samplesizelib.egg-info/dependency_links.txt
+samplesizelib.egg-info/requires.txt
+samplesizelib.egg-info/top_level.txt
+samplesizelib/linear/__init__.py
+samplesizelib/linear/bayesian.py
+samplesizelib/linear/heuristic.py
+samplesizelib/linear/models.py
+samplesizelib/linear/statistical.py
+samplesizelib/shared/__init__.py
+samplesizelib/shared/estimator.py
