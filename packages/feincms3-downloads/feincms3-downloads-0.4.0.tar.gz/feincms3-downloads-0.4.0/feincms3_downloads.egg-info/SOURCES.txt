@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+feincms3_downloads/__init__.py
+feincms3_downloads/checks.py
+feincms3_downloads/plugins.py
+feincms3_downloads/previews.py
+feincms3_downloads.egg-info/PKG-INFO
+feincms3_downloads.egg-info/SOURCES.txt
+feincms3_downloads.egg-info/dependency_links.txt
+feincms3_downloads.egg-info/not-zip-safe
+feincms3_downloads.egg-info/top_level.txt
+feincms3_downloads/locale/de/LC_MESSAGES/django.mo
+feincms3_downloads/locale/de/LC_MESSAGES/django.po
+feincms3_downloads/templates/plugins/download.html
