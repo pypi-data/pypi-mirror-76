@@ -1,0 +1,3 @@
+[console_scripts]
+hl7_transform = hl7_transform.__main__:main
+
