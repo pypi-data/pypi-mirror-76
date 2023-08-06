@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: xbrief
+Version: 0.0.5
+Summary: pretty print
+License: MIT
+Author: Hoyeung Wong
+Author-email: hoyeungw@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aryth (>=0.0.5)
+Requires-Dist: intype (>=0.0.2)
+Requires-Dist: ject (>=0.0.1)
+Requires-Dist: palett (>=0.0.4)
+Requires-Dist: texting (>=0.0.3)
+Requires-Dist: veho (>=0.0.4)
