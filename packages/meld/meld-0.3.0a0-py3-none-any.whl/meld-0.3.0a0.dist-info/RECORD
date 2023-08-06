@@ -1,0 +1,11 @@
+meld/__init__.py,sha256=FLUJvI0v-OXYU_MA5LD7z5yvUwuyQY8WH9x-OlvePRA,156
+meld/cluster.py,sha256=lxlkgjYzTpFNPAC8PZuhTm70XCw8hGrPEIg5U4txils,11769
+meld/meld.py,sha256=x2ioo_LL_ML9T030-IUKvrmChQ7D5uydR9OEVl0Nwtc,8459
+meld/utils.py,sha256=otCee4ZF7v9lzez8-AgBit-trPWHjHU7pMFgt4FDKm4,1380
+meld/version.py,sha256=vhBjKmGoidSEoyT1sYocjqHxUX5V8dCGL7Ynkp6886A,80
+meld-0.3.0a0.dist-info/LICENSE,sha256=oHx-Ll8KVZOSlPGXJYVqV4V6p-QVVnSr_Z285EaQhPU,935
+meld-0.3.0a0.dist-info/LICENSE-GPL3.txt,sha256=8vKV38wEAez8SUyD92nXVA0VoUpkl814wVZ7YXvBai4,34539
+meld-0.3.0a0.dist-info/METADATA,sha256=xVBN6CCpjv5Em37Bq2BtVFEwAlb8V9on8TJSgrlGMYE,6857
+meld-0.3.0a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+meld-0.3.0a0.dist-info/top_level.txt,sha256=_8TVm2TsnLKF9OoLaXmaqxLdBdSu-4q1aUxTY-oC7PU,5
+meld-0.3.0a0.dist-info/RECORD,,
