@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: libimobiledevice
+Version: 0.4
+Summary: Python bindings for libimobiledevice
+Home-page: https://github.com/libimobiledevice/python-libimobiledevice
+License: UNKNOWN
+Author: Rick Mark
+Author-email: rickmark@outlook.com
