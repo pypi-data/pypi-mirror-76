@@ -1,0 +1,17 @@
+smorfinder/__init__.py,sha256=tA8wNbL2KpvMH7eY7Z3X5W_8bo7ZOWQI690-5Ddp4k4,2485
+smorfinder/finalize.py,sha256=JU5pstOEDiTrA79zHhbs6qVaxxb2cQTASgs-RVyUIHo,5594
+smorfinder/help.py,sha256=A5l_Ge64QkYyL8Tzj1oF1o0pq6VZBA-QDQ4VlAsvCg8,1104
+smorfinder/hmmsearch.py,sha256=IJgdAHV1vf5D5DTQ_6GzVI7-5_Ue9AS-Af3Q9Nr6Bwc,1017
+smorfinder/main.py,sha256=rHYF8oK6xjFknWZL_GsPdvDXaJVItKu1EzgKRKGf-jc,6766
+smorfinder/model.py,sha256=VeI3jc0bZFyxBzZt8fRU_caf8GwjC89LylxS-nrs9V0,2624
+smorfinder/prodigal.py,sha256=M9AFFchIv0OFXT957VjJu_Bprd6aKTdx7Pl_5brK3qg,7701
+smorfinder/run.py,sha256=4GiJ7LQ3EcQ0rB4DiYLxIWFvRO6FMSLK38Iy1sHugzo,2089
+smorfinder/bin/hmmscan,sha256=Il5iiXX8mDJyNq8vVd2dvLfUHCuVdO1RPT6O4bHU0rU,1018984
+smorfinder/bin/hmmsearch,sha256=pRP2VJ53pD9v4FEalsRX3zIvzw_hq7HY0rXblY2pdfs,1019312
+smorfinder/bin/prodigal,sha256=EjWMJD6PVzN0p6YFbAcJQuubXjNnYp8hc-b-gyt8EOg,12451832
+smorfinder-0.0.3.dev0.dist-info/LICENSE.txt,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+smorfinder-0.0.3.dev0.dist-info/METADATA,sha256=s10IwGd3yo1_FkodaSAYbfecPdjETxZiwd3tt0bRsxI,432
+smorfinder-0.0.3.dev0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+smorfinder-0.0.3.dev0.dist-info/entry_points.txt,sha256=eDs_SLaKYCpjVeS62yEaZiau5zUvNq8p08crt1FrHm8,47
+smorfinder-0.0.3.dev0.dist-info/top_level.txt,sha256=e3tk6QVKY1xro6mW1psowTz263EnLiBJ0rTYsaAKW5g,11
+smorfinder-0.0.3.dev0.dist-info/RECORD,,
