@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: sevdeskapi
+Version: 0.2.0
+Summary: Provides a Python (object-based) API for SevDesk
+Home-page: https://github.com/Sachs-Media/sevdeskapi
+Author: Stefan Eiermann, Sachs Media
+Author-email: support@sachs-media.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# SevDesk API
+
+![Prepare Sevdesk](https://github.com/Sachs-Media/sevdeskapi/workflows/Prepare%20Sevdesk/badge.svg)
+[![docArea](https://img.shields.io/badge/docArea-0.0.1-%2340cbb1)](https://www.docarea.io/sachsmedia/sevdesk-api/)
+![PyPI](https://img.shields.io/pypi/v/sevdeskapi)
+![GitHub](https://img.shields.io/github/license/sachs-media/sevdeskapi)
+
+
+A python-based API for communication with SevDesk
+
+Further information coming soon
+
+
+See documentation on docArea!
+
+https://www.docarea.io/sachsmedia/sevdesk-api/index.html
+
+
