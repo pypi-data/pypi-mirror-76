@@ -1,0 +1,3 @@
+[pytest11]
+django_xss_fuzzer=django_xss_fuzzer.pytest_plugin
+
