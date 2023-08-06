@@ -1,0 +1,7 @@
+opentelemetry-api==0.12b0
+opentelemetry-instrumentation==0.12b0
+celery~=4.0
+
+[test]
+pytest
+opentelemetry-test==0.12b0
