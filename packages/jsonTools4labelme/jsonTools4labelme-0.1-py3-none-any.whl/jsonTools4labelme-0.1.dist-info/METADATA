@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: jsonTools4labelme
+Version: 0.1
+Summary: json-Tools
+Home-page: https://github.com/LilactheGreat/jsonTools/tree/master/json_tools
+Author: jooho.kim
+Author-email: jooho.kim@nuvi-labs.com
+License: UNKNOWN
+Download-URL: https://github.com/LilactheGreat/jsonTools/tree/master/json_tools/json_tools.py
+Keywords: ccpy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
+
