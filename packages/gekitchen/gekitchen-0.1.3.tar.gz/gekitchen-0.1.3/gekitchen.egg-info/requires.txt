@@ -1,0 +1,3 @@
+aiohttp
+requests
+slixmpp==1.5.2
