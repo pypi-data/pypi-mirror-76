@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: admin-favorite
+Version: 0.2
+Summary: Mark most used app to favorite in Django admin
+Home-page: https://github.com/achintyachaudhary/admin_favorite/
+Author: Achintya Ranjan Chaudhary
+Author-email: achintyac77@gmail.com
+License: MIT
+Description: **Mark most usable app as favorite in django admin**
+        
+        https://admin-favorite.herokuapp.com/admin/
+        
+        **License :** MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
