@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: wikiarticle
+Version: 0.0.2
+Summary: wikipedia atricles in an object oriented format
+Home-page: https://github.com/kkristof200/py_wikiarticle
+Author: Kristof
+License: UNKNOWN
+Description: # wikiarticle
+        ![python_version](https://img.shields.io/static/v1?label=Python&message=3.5%20|%203.6%20|%203.7&color=blue) [![PyPI downloads/month](https://img.shields.io/pypi/dm/wikiarticle?logo=pypi&logoColor=white)](https://pypi.python.org/pypi/wikiarticle)
+        
+        ## Description
+        wikipedia atricles in an object oriented format
+        
+        ## Install
+        ~~~~bash
+        pip install wikiarticle
+        # or
+        pip3 install wikiarticle
+        ~~~~
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
