@@ -1,0 +1,3 @@
+[console_scripts]
+battlebots = battlebots.__main__:main
+

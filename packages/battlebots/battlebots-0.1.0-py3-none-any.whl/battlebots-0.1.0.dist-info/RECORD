@@ -1,0 +1,9 @@
+battlebots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+battlebots/__main__.py,sha256=jkXCjYZLSci6gEyxPbLpjqS0vDMkrraZ3-XkePt6wc8,110
+battlebots/art_to_gif.py,sha256=W9x-zw3YUK9IbteNqBRMg5nhE5WLvVz0VIqJ2U6SF6s,3261
+battlebots/cli.py,sha256=aNpSy5PCLtoQVQceaxRAz5U5WlTFep_SjjnFdzLW4ys,1425
+battlebots-0.1.0.dist-info/METADATA,sha256=3zX9k1Ck5OXGRI87gl-w0z_VbKSfBPLPEkMt2T-M9dw,411
+battlebots-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+battlebots-0.1.0.dist-info/entry_points.txt,sha256=jFpy3DV5DLohnqIGBOHMStBNkSJT3TK-iPVtIIMFGqU,57
+battlebots-0.1.0.dist-info/top_level.txt,sha256=RPqbuO9a2ac_xEO9ZDKA9JM2y-j8Us8lG5DBdabogxw,11
+battlebots-0.1.0.dist-info/RECORD,,
