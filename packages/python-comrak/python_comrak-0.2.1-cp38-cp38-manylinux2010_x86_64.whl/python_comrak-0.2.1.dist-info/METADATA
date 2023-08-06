@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: python-comrak
+Version: 0.2.1
+Summary: The Procedures language
+Home-page: http://gitlab.merchise.org/mercurio-2018/travertine
+Author: Merchise Autrement
+Author-email: info@merchise.org
+License: Unlicense
+Keywords: markdown
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Public Domain
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Python: >=3.8
+
+================================
+Rust markdown parsers for Python
+================================
+
+Exposes two Rust crates which parse markdown to Python using PyO3_.  The first
+crate exposed is comrak_ from which we inherited the name:
+
+Using Comrak
+============
+
+Example::
+
+  >>> from python_comrak import markdown_to_html
+  >>> markdown_to_html("\tfoo\tbaz\t\tbim\n")
+  "<pre><code>foo\tbaz\t\tbim\n</code></pre>\n"
+
+`markdown_to_html` activates the extensions:
+
+- `strikethrough <https://docs.rs/comrak/0.8.0/comrak/struct.ComrakExtensionOptions.html#structfield.strikethrough>`__
+- `tagfilter <https://docs.rs/comrak/0.8.0/comrak/struct.ComrakExtensionOptions.html#structfield.tagfilter>`__
+- `autolink <https://docs.rs/comrak/0.8.0/comrak/struct.ComrakExtensionOptions.html#structfield.autolink>`__
+
+
+Using pulldown-cmark
+====================
+
+The second crate is `pulldown-cmark`_.  Example::
+
+  >>> from python_comrak import commonmark_to_html
+  >>> commonmark_to_html("\tfoo\tbaz\t\tbim\n")
+  "<pre><code>foo\tbaz\t\tbim\n</code></pre>\n"
+
+`commonmark_to_html` activates the extensions:
+
+- `STRIKETHOUGH <https://docs.rs/pulldown-cmark/0.7.2/pulldown_cmark/struct.Options.html#associatedconstant.ENABLE_STRIKETHROUGH>`__
+
+.. warning:: `pulldown-cmark`_ doesn't implement 100% of CommonMark yet.  Also
+   it doesn't have the same set of extensions we use with comrak_.
+
+.. _pulldown-cmark: https://crates.io/crates/pulldown-cmark
+.. _comrak: https://docs.rs/comrak/
+.. _PyO3: https://pyo3.rs/
+
+
