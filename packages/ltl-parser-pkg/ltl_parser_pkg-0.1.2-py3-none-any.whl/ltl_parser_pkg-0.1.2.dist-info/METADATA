@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: ltl-parser-pkg
+Version: 0.1.2
+Summary: Parse the DOT file generated from SPOT API and creates a Graph with node-edge information.
+Home-page: https://github.com/rezaurrakib/ltl_parser
+Author: Md Rezaur Rahman
+Author-email: rakib08cse@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+## Graph Parser for LTL formulation
+LTL Graph parser takes a **.dot** file as an input generated from the SPOT library, parses it and creates a Graph with node-edge information.
+
+### API Reference
+class **LTLGraphCreation** contain following APIs.
+  - **parsing_buffer()**
+    - This method takes the **.dot** file as string and creates the graph object. Internally a callback method is invoked to store the node and edge information in a dictionary object. 
+
+  - **graph_print()**
+    - Print the full graph information with edges and nodes.
+
+  - **get_action(src, dst)**
+    - Returns a list of actions taken from a source vertex to the destination vertex in the LTL formaulation.
+
+  - **check_dead_nodes()**
+    - Print all the dead nodes (if present any) in the formulated graph. 
+
+  - **is_dead(node)**
+    - Check whether a vertex/node is in a dead state, i.e., no other vertex/state can be reachable from this vertex/node.
+
+  - **recurse_traversal(cur_node, path, actions, p_len=20)**
+    - It prints the path of length p_len (default: 20) and the corresponding actions taken along the edges from a starting vertex. While traversing the graph, it avoids the dead vertex and randomly choose the next valid vertex with an action.
+
+  - **self.graph**
+    - This class variable holds all the node and edge information of the LTL graph generated from the SPOT library.
+
+
+
+
