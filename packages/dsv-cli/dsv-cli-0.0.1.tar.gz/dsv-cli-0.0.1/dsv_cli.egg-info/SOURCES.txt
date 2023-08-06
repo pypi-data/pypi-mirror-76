@@ -1,0 +1,9 @@
+README.md
+setup.py
+./scripts/dsv
+dsv_cli.egg-info/PKG-INFO
+dsv_cli.egg-info/SOURCES.txt
+dsv_cli.egg-info/dependency_links.txt
+dsv_cli.egg-info/top_level.txt
+lib/dsv/__init__.py
+lib/dsv/__main__.py
