@@ -1,0 +1,8 @@
+pyqode3.core
+pyqode3.python
+python-qdatamatrix
+python-pseudorandom
+python-qnotifications
+python-fileinspector
+PyYAML
+webcolors
