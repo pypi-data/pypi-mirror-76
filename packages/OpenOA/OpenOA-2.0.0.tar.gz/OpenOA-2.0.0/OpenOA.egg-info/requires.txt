@@ -1,0 +1,10 @@
+numpy
+scipy
+pandas
+pygam
+geopandas
+tqdm
+statsmodels
+scikit_learn
+EIA-python
+requests
