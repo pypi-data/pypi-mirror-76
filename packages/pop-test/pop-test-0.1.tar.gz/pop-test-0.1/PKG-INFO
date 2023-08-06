@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pop-test
+Version: 0.1
+Summary: Stop pepperonis from publishing this package
+Home-page: https://github.com/popsiclestick/pop-test
+Author: Michael Salsone
+Author-email: mike.salsone@gmail.com
+License: MIT
+Download-URL: https://github.com/popsiclestick/pop-test/archive/v_03.tar.gz
+Description: UNKNOWN
+Keywords: request,stub,dont,use,this
+Platform: UNKNOWN
