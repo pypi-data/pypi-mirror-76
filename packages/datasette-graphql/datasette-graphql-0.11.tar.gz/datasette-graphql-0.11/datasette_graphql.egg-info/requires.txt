@@ -1,0 +1,9 @@
+datasette
+graphene>=2.0
+sqlite-utils
+wrapt
+
+[test]
+pytest
+pytest-asyncio
+httpx
