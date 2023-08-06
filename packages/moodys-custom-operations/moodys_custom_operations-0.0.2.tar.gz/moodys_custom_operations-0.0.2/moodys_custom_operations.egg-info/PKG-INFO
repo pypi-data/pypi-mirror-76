@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: moodys-custom-operations
+Version: 0.0.2
+Summary: Some useful arithmetic and boolean operations
+Home-page: https://www.moodys.com/
+Author: Subhajit Ganguli
+Author-email: subhajit.ganguli-non-empl@moodys.com
+License: UNKNOWN
+Description: # Custom Operations Package
+        
+        This package contains some custom arithmetic and boolean operations like, SUM, AVERAGE, COALESCE, ISNUMBE, SUB, MUL, DIV, MEDIAN, IF, AND, OR, IN, STDEV, PERCENTILE, etc.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
