@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pycus
+Version: 20.7.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Moshe Zadka
+Author-email: moshez@zadka.club
+License: MIT
+Description: Pycus
+        =====
+        
+        In Roman mythology,
+        Picus used a charm to make Jupiter come to earth.
+        `Pycus`, likewise, helps manage `Jupyter`.
+        
+Platform: UNKNOWN
+Provides-Extra: test
+Provides-Extra: lint
+Provides-Extra: doc
