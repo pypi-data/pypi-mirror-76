@@ -1,0 +1,10 @@
+agrid/__init__.py,sha256=3VRILpc5GiAxBt5jiM8Kob_FXOJX8jm-YDHLB70L_e4,34
+agrid/acc.py,sha256=K5mymlHqpzjz4NGB9S66VKCWuCmKLQ3T2HNGE_ZL55I,6668
+agrid/features.py,sha256=V0wPW8qFrjN62nLocNzP08oUqlsUKeCOfjW4JZZh4gg,8291
+agrid/grid.py,sha256=Qr8WfkpITcCrtf7GDgP3fp2visd8kvBSASKHAYPSn20,63089
+agrid/strat.py,sha256=ePlYVQv-vjtg4V1kMZyh7_npneBF1DvsMYbnJEdBPas,6252
+agrid-0.3.8.1.dist-info/LICENSE,sha256=bQ0GKvWFzmzW2d-_NCfGyrGNAzAj8et_4x7uKaEqW6M,1072
+agrid-0.3.8.1.dist-info/METADATA,sha256=lzpCCiDO7YrwFdGb3BwPm7Z0FAiO1yStp8WGbpyeX1A,2445
+agrid-0.3.8.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+agrid-0.3.8.1.dist-info/top_level.txt,sha256=fabKVKu_PeyifTEo3IHCPYMPmS--RNvlodYL8dSHpSs,6
+agrid-0.3.8.1.dist-info/RECORD,,
