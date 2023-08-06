@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: chesspdftofen
+Version: 0.5.2
+Summary: Annotates PDF with comments containing FEN of detected chessboards. Runs completely locally as an offline process with possible GPU support and is open source
+Home-page: https://github.com/jamarshon/chesspdftofen
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: chess,computervision
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
