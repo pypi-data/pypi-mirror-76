@@ -1,0 +1,3 @@
+[console_scripts]
+packagevikrant = packagevikrant.init:speak
+
