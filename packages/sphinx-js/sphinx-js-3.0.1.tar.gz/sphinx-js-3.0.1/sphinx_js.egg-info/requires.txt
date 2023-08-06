@@ -1,0 +1,4 @@
+docutils
+Jinja2<3.0,>2.0
+parsimonious<0.8.0,>=0.7.0
+Sphinx>=3.0.0
