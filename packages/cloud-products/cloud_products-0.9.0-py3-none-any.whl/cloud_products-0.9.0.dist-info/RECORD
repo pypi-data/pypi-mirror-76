@@ -1,0 +1,9 @@
+crawler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+crawler/aws.py,sha256=MWCg_Dk2-RihwzESL0EFznF4bZZdn8Y6KoDOot4Vg3w,4225
+crawler/base.py,sha256=UuR1UfgKGGVccbxjJ4-ys5HcG6pGZyqmJUQV75wpT-g,1322
+crawler/product.py,sha256=rKwkE7-QtBXC3h_1205iELkb86GO9OoRJtOqfQQewdA,180
+cloud_products-0.9.0.dist-info/LICENSE,sha256=d_Chw5Y-dcwAiNwwe7eCJqicV5iK1Agl02chCfrruw8,1067
+cloud_products-0.9.0.dist-info/METADATA,sha256=vJ2whk4XED6xkX3YOne1Yidx0XEZz6I8fLndsC5MOrk,1549
+cloud_products-0.9.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cloud_products-0.9.0.dist-info/top_level.txt,sha256=-zAX84nOMD5IqSxPLa8WFZeEd0cLAbCG1PtXVdCHuIY,8
+cloud_products-0.9.0.dist-info/RECORD,,
