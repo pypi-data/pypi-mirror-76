@@ -1,0 +1,15 @@
+statsfig/__init__.py,sha256=oZi6hk-CMQWgkorJu_fGfFckcF5uRl6Z493k4gg9cK0,298
+statsfig/bernoulli.py,sha256=qVn46AKvYMT4Z6kwVoL87QtlMaHg3-5ENRAq749GC_w,2413
+statsfig/binomial.py,sha256=IarcAniiob0GI7zWYC0uM7J57Bvp_C5isKxhcpdJ5UI,2689
+statsfig/boxplot.py,sha256=TpHvCUQIwJgZgqvEtVGk1ljnGTgDSBJN9YyfBkA4AsM,3131
+statsfig/chisquare.py,sha256=GhLDM4XMR6dEBe-5AEeNie2PCPr3L2TsHF6iEbg3wuY,2065
+statsfig/exponential.py,sha256=Nc9k2lLJdePq3BB1MpTCJ7xd4NulSKWEzGNhQbJbeSs,2640
+statsfig/gamma.py,sha256=z-12n5dJSUBB7n-lfNx2SmiJR88adeGGLTbLxMLKWtg,2433
+statsfig/normal.py,sha256=dkXLdJN84QP8JRcoKgPzZf23-TK3j9WceqAWKjFpCGg,8461
+statsfig/poisson.py,sha256=hHLD8sQtllxbi2yrVt_Q-U1BliSKuhUTPIVYiRqydWQ,2448
+statsfig/uniform.py,sha256=83_BKaAmxmA5s3fA1pHntKQ_VOrcdHWaBrO1jqI7izA,2712
+statsfig-0.2.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+statsfig-0.2.3.dist-info/METADATA,sha256=mURX94_TM1gio1nUYa9GttJntUmLK398lUHwxMdADjk,2727
+statsfig-0.2.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+statsfig-0.2.3.dist-info/top_level.txt,sha256=dD6RXxez4RyUqNevdtBEHFpI5YhXchV5tpVIaK6EtLM,9
+statsfig-0.2.3.dist-info/RECORD,,
