@@ -1,0 +1,11 @@
+README.md
+setup.py
+downloader_cli/__init__.py
+downloader_cli/__version__.py
+downloader_cli/download.py
+downloader_cli.egg-info/PKG-INFO
+downloader_cli.egg-info/SOURCES.txt
+downloader_cli.egg-info/dependency_links.txt
+downloader_cli.egg-info/entry_points.txt
+downloader_cli.egg-info/requires.txt
+downloader_cli.egg-info/top_level.txt
