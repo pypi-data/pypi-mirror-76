@@ -1,0 +1,14 @@
+README.md
+setup.py
+pymagnitude/__init__.py
+pymagnitude/converter.py
+pymagnitude/converter_shared.py
+pymagnitude/third_party/__init__.py
+pymagnitude/third_party/repoze/__init__.py
+pymagnitude/third_party/repoze/lru/__init__.py
+pymagnitude/third_party/repoze/lru/tests.py
+pymagnitude_lite.egg-info/PKG-INFO
+pymagnitude_lite.egg-info/SOURCES.txt
+pymagnitude_lite.egg-info/dependency_links.txt
+pymagnitude_lite.egg-info/requires.txt
+pymagnitude_lite.egg-info/top_level.txt
