@@ -1,0 +1,380 @@
+from random import randint
+from .abstract_pn import AbstractPetriNet
+import numpy
+import pprint
+
+
+class TraceNet(AbstractPetriNet):
+    
+    def __init__(self, trace: list):
+		self.places = {}
+		self.transitions = {}
+		self.edges = []
+		self.marking = []
+		self.capacity = []
+		self.counter = 0  # mapping
+		self.make_trace_net(trace)
+
+    def __make_trace_net(self, trace: list):
+		"""
+		Takes a trace, as a list of strings(=events) and makes a traces net from it, 
+		i.e. a sequential connection of the events as places with transitions in between.
+		"""
+		#assume empty PetriNet
+		num_places = len(trace)+1
+
+		for i in range(1, num_places+1):
+			self.add_place(i)
+
+		for t in trace:
+			self.add_transition(t)
+ 
+		for i in range(1, num_places):
+			self.add_edge(i, -i)
+			self.add_edge(-i, i)
+		return self
+    
+    def __add_place(self, name: int, capacity: int=1):
+		"""
+		Add a place to the net and set its token capacity. The name
+		has to be numeric. Further, the keys are indices of the corresponding
+		marking vector and capacity vector.
+
+		Args:
+			name: integer place name
+			capacity: integer number of token per place
+
+		Raises:
+			ValueError: place identifier has to be unique
+			TypeError: place identifier has to be numeric
+		"""
+		if isinstance(name, int) and name > 0:
+			if not self.place_exists(name):
+				idx = len(self.places)
+				self.places[idx] = name
+				self.marking.append(0)
+				self.capacity.append(capacity)
+			else:
+				raise ValueError('place identifier has to be unique')
+		else:
+			raise TypeError('place identifier has to be numeric and > 0')
+
+		return self
+
+    def num_places(self) -> int:
+		return len( self.places.keys() )
+
+    def get_mapping(self) -> dict:
+		return self.transitions
+
+    def get_marking(self) -> list:
+		return self.marking
+
+    def __add_transition(self, name: str, id: int=None):
+		"""
+		Add a transition to the net. The name has to be a string.
+		Adding the same name multiple times will append to the list which the name(key) points to.
+
+		Args:
+			name: string name of transition, key 
+			id: negative integer, value of transition at the key(name)
+		"""
+
+		self.counter -= 1
+
+		if len(name) == 0:
+			name = 'tau'
+
+		if id is None:
+			id = self.counter
+		else:
+			if id >= 0:
+				raise ValueError('transition identifier has to be < 0')
+
+		if name in self.transitions.keys():
+			self.transitions[name].append(id)
+		else:
+			self.transitions[name] = [id]
+
+		return self
+
+    def num_transitions(self) -> int:
+		return sum( [len(v) for v in self.transitions.values()] )
+
+    def __add_edge(self, source, target, two_way=False):
+		#could also get one touple as an argument...
+		"""
+		Add a new edge between two elements in the net. If two way argument
+		is True, one edge per direction will be added.
+
+		Args:
+			source: id of transition/name of place
+			target: id of transition/name of place
+			two_way: add edge from target to source
+
+		Raises:
+			ValueError: source/target does not exists
+		"""
+		if source > 0 and target > 0 or source < 0 and target < 0:
+			raise ValueError('edges can only be added between places and '
+							 'transition and vice versa')
+
+		if source > 0:
+			# source is place
+			if not self.place_exists(source):
+				raise ValueError('place does not exist')
+		else:
+			# source is transition
+			if not self.transition_exists(source):
+				raise ValueError('transition does not exist')
+
+		if target > 0:
+			# target is place
+			if not self.place_exists(target):
+				raise ValueError('place does not exist')
+		else:
+			# target is transition
+			if not self.transition_exists(target):
+				raise ValueError('transition does not exist')
+
+		if not two_way:
+			self.edges.append((source, target))
+		else:
+			self.edges.append((source, target))
+			self.edges.append((target, source))
+
+		return self
+
+    def is_enabled(self, transition_id: int) -> bool:
+		"""
+		Check whether a transition is able to fire or not.
+
+		Args:
+			transition: id of transition
+
+		Retruns:
+			True if transition is enabled, False otherwise.
+			Special case: returning true, when a transition has no input places
+		"""
+
+		# all palces which are predecessor of the given transition
+		inputs = self.get_inputs(transition)
+		# do any inputs exist?
+		if len(inputs) > 0:
+			# check if each place contains at least one token aka. has a
+			# marking
+			for i in inputs:
+				idx = self.index_of_place(i)
+				# input place has no token
+				if self.marking[idx] == 0:
+					return False
+			# transition is able to fire
+			return True
+		else:
+			# no input places
+			return True
+
+    def all_enabled_transitions(self) -> list:
+		"""
+		Find all transitions in the net which are enabled.
+
+		Returns:
+			List of all enabled transitions.
+		"""
+		transitions = [item for sublist in self.transitions.values() for item
+					   in sublist]
+
+		return list(filter(lambda x: self.is_enabled(x), transitions))
+
+    def fire_transition(self, transition_id: int):
+		"""
+		Fire transition.
+
+		Args:
+			name: id of transition
+		"""
+		if self.is_enabled(transition):
+			inputs = self.get_inputs(transition)
+
+			outputs = self.get_outputs(transition)
+
+			# update ingoing token
+			for i in inputs:
+				idx = self.index_of_place(i)
+				self.marking[idx] -= 1
+
+			# update outgoing token
+			for o in outputs:
+				idx = self.index_of_place(o)
+				self.marking[idx] += 1
+		else:
+			print("Transition is not enabled!")
+
+    def get_inputs(self, node: int) -> list:
+		"""
+		args: node; name of place or id of transition
+
+		returns: list of numbers, positives when node is a transition and negatives when node is a place
+		"""
+		inputs = []
+		for edge in self.edges:
+			if edge[1] == node:
+				inputs.append(edge[0])
+		return inputs
+
+    def get_outputs(self, node: int) -> list:
+		"""
+		args: node; name of place or id of transition
+
+		returns: list of numbers, positives when node is a transition and negatives when node is a place
+		"""
+		outputs = []
+		for edge in self.edges:
+			if edge[0] == node:
+				outputs.append(edge[1])
+		return outputs
+
+    def get_index_initial_places(self) -> list:
+		"""
+		Returns a list of the indices of the initial places, i.e. the keys to the values(names) of the place names for all places,
+		who do not have any input transitions.
+		"""
+		index_places_start = []
+		for key in self.places.keys():
+			if len(self.get_inputs(self.places[key])) == 0:
+				index_places_start.append(key)
+		return index_places_start
+
+    def get_index_final_places(self) -> list:
+		"""
+		Returns a list of the indices of the final places, i.e. the keys to the values(names) of the place names for all places,
+		who do not have any output transitions.
+		"""
+		index_places_end = []
+		for key in self.places.keys():
+			if len(self.get_outputs(self.places[key])) == 0:
+				index_places_end.append(key)
+		return index_places_end
+
+    def index_of_place(self, place_name: int) -> int:
+		for idx, p in self.places.items():
+			if p == place:
+				return idx
+
+    def add_marking(self, place_name: int, num_token: int=1):
+		"""
+		Add a new marking to the net.
+
+		Args:
+			place: name of place
+			num_token: number of token to add
+
+		Raises:
+			ValueError: place does not exists
+		"""
+		index = None
+		if self.place_exists(place):
+			for idx, p in self.places.items():
+				if p == place:
+					index = idx
+					break
+
+			self.marking[index] = token
+		else:
+			raise ValueError('place does not exist.')
+
+		return self
+
+    def null_marking(self):
+		"""
+		Resets the net to the null marking, i.e. all places contain no token
+		"""
+		for i in range(0, len(self.marking)):
+			self.marking[i] = 0
+
+    def place_exists(self, place_name: int) -> bool:
+		"""
+		Check whether the place exists in the net or not.
+
+		Args:
+			name: name of place
+
+		Returns:
+			True if place exists in petri net, False otherwise.
+		"""
+
+		return name in list(self.places.values())
+    
+    def transition_exists(self, transition_id: int) -> bool:
+		"""
+		Check whether the transition exists in the net or not.
+
+		Args:
+			name: id of transition
+
+		Returns:
+			True if transition exists in petri net, False otherwise.
+		"""
+
+		# flatten list
+		transition_mapping = [item for sublist in self.transitions.values() for
+							  item
+							  in sublist]
+		return name in transition_mapping
+
+    def transitions_by_index(self) -> dict:
+		"""
+		Returns the reverse of data structure of the transitions, 
+		i.e. a dict where the id of the transitions are the keys and the
+		values are the transtions names (strings)
+		"""
+		transitions_by_index = dict()
+
+		for key, value in self.transitions.items():
+				for val in value:
+					transitions_by_index[-(val+1)] = key
+
+		return transitions_by_index
+
+    def replay(self, max_length: int) -> list:
+		"""Randomly replay the net starting from its current marking.
+
+		Returns:
+			Sequence of transitions which were fired.
+		"""
+		seq = []
+		enabled_transitions = self.all_enabled_transitions()
+		while (len(enabled_transitions) > 0 and len(seq) < max_length):
+			t = enabled_transitions[randint(0, len(enabled_transitions) - 1)]
+			seq.append(t)
+			self.fire_transition(t)
+			enabled_transitions = self.all_enabled_transitions()
+
+		if len(seq) == max_length:
+			seq.append('BREAK')
+
+		return seq
+
+    def __repr__(self):
+		"""
+		Change class representation.
+
+		:return: string
+		"""
+		desc = "Transitions: %s \n" \
+			   "Places: %s \n" \
+			   "Capacities: %s \n" \
+			   "Marking: %s \n" \
+			   "Edges: %s" % (self.transitions, self.places, self.capacity,
+							  self.marking, self.edges)
+
+		return desc
+    
+    def __remove_place(self, name):
+		pass
+
+    def __remove_transition(self, name):
+		pass
+
+    def __remove_edge(self, place, transitions):
+		pass
