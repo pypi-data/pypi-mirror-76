@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: chia
+Version: 2.0rc1
+Summary: Concept Hierarchies for Incremental and Active Learning
+Home-page: UNKNOWN
+Author: Clemens-Alexander Brust
+Author-email: clemens-alexander.brust@uni-jena.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: GPU
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Requires-Dist: python-configuration (~=0.7)
+Requires-Dist: nltk (~=3.5)
+Requires-Dist: imageio (~=2.6)
+Requires-Dist: pillow (~=7.1.0)
+Requires-Dist: gputil (~=1.4.0)
+Requires-Dist: networkx (~=2.4)
+Requires-Dist: numpy (~=1.18.5)
+Requires-Dist: tensorflow-addons (==0.11.1)
+Requires-Dist: tensorflow (==2.3.0)
+
+UNKNOWN
+
+
