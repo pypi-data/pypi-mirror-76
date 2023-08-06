@@ -1,0 +1,3 @@
+[sphinx.html_themes]
+torchexpo_sphinx_theme = torchexpo_sphinx_theme
+
