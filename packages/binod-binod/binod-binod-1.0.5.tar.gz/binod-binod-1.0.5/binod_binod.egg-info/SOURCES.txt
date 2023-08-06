@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+binod3/__init__.py
+binod3/__main__.py
+binod_binod.egg-info/PKG-INFO
+binod_binod.egg-info/SOURCES.txt
+binod_binod.egg-info/dependency_links.txt
+binod_binod.egg-info/entry_points.txt
+binod_binod.egg-info/top_level.txt
