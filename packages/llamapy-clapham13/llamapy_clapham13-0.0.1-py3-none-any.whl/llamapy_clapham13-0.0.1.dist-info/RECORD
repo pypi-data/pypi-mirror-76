@@ -1,0 +1,9 @@
+llamapy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llamapy/llamapy.py,sha256=HBftKX3YG5S3pwKnD3UmgNabuhFH2Dv6svUsOLDe_do,10742
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_llamapy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+llamapy_clapham13-0.0.1.dist-info/LICENSE,sha256=KtU-RwKNeeVVkOVq9mEIMEuXpbN_cfNycCqzgdxi-3I,1042
+llamapy_clapham13-0.0.1.dist-info/METADATA,sha256=3q6fV410Yr4yPdXqmycGl3wr-oHdMEd8Weaz5G4oiuo,501
+llamapy_clapham13-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+llamapy_clapham13-0.0.1.dist-info/top_level.txt,sha256=gSr6kRHGAlB9CeJFVf2kwJAWuDXjP42UW4mgzlTXdXw,14
+llamapy_clapham13-0.0.1.dist-info/RECORD,,
