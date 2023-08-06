@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: gitutor
+Version: 0.4.6
+Summary: Git wrapper that offers more user friendly commands
+Home-page: https://gitutor.io
+License: MIT
+Keywords: git,python,cli
+Author: AMAI
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: GitPython (==3.1.3)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: colorama (==0.4.3)
+Requires-Dist: gitdb (==4.0.5)
+Requires-Dist: pygithub (==1.51)
+Requires-Dist: pyinquirer (==1.0.3)
+Requires-Dist: requests (>=2.20.0,<3.0.0)
+Requires-Dist: smmap (==3.0.4)
+Description-Content-Type: text/markdown
+
+# gitutor
+
+Gitutor is a git wrapper cli tool designed to get you up and running using git in the shortest amount of time possible while learning on the go. 
+
+## Available commands
+1. gt init - Initialize your local and remote repository.
+2. gt save - Save you changes in the local and remote repository.
+3. gt goback - Return to a previous commit.
+4. gt compare - Compare the current state with a previous commit.
+5. gt ignore - Make git ignore selected files.
+
+
