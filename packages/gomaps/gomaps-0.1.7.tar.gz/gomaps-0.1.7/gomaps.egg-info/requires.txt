@@ -1,0 +1,6 @@
+requests_html
+selenium
+pandas
+GeoLiberator
+openpyxl
+pyppdf
