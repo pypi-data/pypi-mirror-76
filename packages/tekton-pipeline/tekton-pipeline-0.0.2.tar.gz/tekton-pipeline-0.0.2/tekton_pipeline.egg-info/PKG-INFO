@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tekton-pipeline
+Version: 0.0.2
+Summary: Tekton Pipeline Python SDK
+Home-page: https://github.com/tektoncd/pipeline.git
+Author: Tekton Authors
+Author-email: hejinchi@cn.ibm.com
+License: Apache License Version 2.0
+Description: Python SDK for Tekton Pipeline.
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: test
