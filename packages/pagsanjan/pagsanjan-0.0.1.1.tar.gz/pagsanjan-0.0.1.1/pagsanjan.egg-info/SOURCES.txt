@@ -1,0 +1,8 @@
+setup.py
+pagsanjan/__init__.py
+pagsanjan/logger.py
+pagsanjan.egg-info/PKG-INFO
+pagsanjan.egg-info/SOURCES.txt
+pagsanjan.egg-info/dependency_links.txt
+pagsanjan.egg-info/requires.txt
+pagsanjan.egg-info/top_level.txt

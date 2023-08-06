@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pagsanjan
+Version: 0.0.1.1
+Summary: simple pandas logger
+Home-page: UNKNOWN
+Author: Gianna Pineda
+Author-email: gcppineda@gmail.com
+License: UNKNOWN
+Description: pipe-able pandas logging that converts your logs to dataframe na
+Platform: UNKNOWN
