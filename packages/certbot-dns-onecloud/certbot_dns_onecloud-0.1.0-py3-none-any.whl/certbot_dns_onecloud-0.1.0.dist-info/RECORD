@@ -1,0 +1,10 @@
+certbot_dns_onecloud-0.1.0.dist-info/dependency_links.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+certbot_dns_onecloud-0.1.0.dist-info/entry_points.txt,sha256=qJSOK-7dXo3w811NH84KKE5sOOQzLvb_Thk3mGRC7T0,80
+certbot_dns_onecloud-0.1.0.dist-info/METADATA,sha256=4dw3sL5JV1pRyDH2nCOt6Nyh5uKxEswGcSnMfo6BqWI,2438
+certbot_dns_onecloud-0.1.0.dist-info/top_level.txt,sha256=1DYnUKw_VMNBwhwFgRUGKL8_7SssAjGvaBqcMEGALRM,20
+certbot_dns_onecloud-0.1.0.dist-info/WHEEL,sha256=Us79eivRQjLGHRjcJWcKLoOci69wgGrVnpmn7W4m6PA,86
+certbot_dns_onecloud/dns_onecloud.py,sha256=wZBm3N-C1JNKc_n6A4qPA26q91T0GF79A9GMFeVLSh0,1814
+certbot_dns_onecloud/__init__.py,sha256=nDWNd6_TSf4vDQuHVBoAf4QfZCB3ZUFQ0M7XvifNJ-g,78
+certbot_dns_onecloud/client.py,sha256=p13cekwifeKwJmX5GQ58pF3_MhrjQDXTfC_gM5GCpS4,8065
+certbot_dns_onecloud-0.1.0.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+certbot_dns_onecloud-0.1.0.dist-info/RECORD,,
