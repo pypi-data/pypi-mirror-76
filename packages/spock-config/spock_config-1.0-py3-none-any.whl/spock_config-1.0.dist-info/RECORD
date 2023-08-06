@@ -1,0 +1,16 @@
+spock/__init__.py,sha256=27REx-SGmTMXF3TSLTxNexaWJ6Ih_TI-BfObV3R2Ghk,414
+spock/_dataclasses.py,sha256=EvrOZD07puTBLqq0RthWJHIwjqgHaIcE_fsPzR7uzg8,48700
+spock/_version.py,sha256=afWPUqZzPhovHsm0876nUNi-0TvPYFvLD0y3LqX0DDU,496
+spock/args.py,sha256=O_tQT4EBUmokEcSjlEXhsOS4Hb08euI0uroQ0Av8jE4,5740
+spock/builder.py,sha256=GiCFhXIjCyttsmcyqKXvx92GTteHDxocsLS1iP5H-84,15038
+spock/config.py,sha256=3InDB-4sNFo1Re5Vi6N-h2HG1G5N9T40GyzVzyw4m90,519
+spock/handlers.py,sha256=vGccVgCga7gHUGR8l6RF8pH_thsC1oxVziweYafB9bA,3566
+spock/payload.py,sha256=HkM8iu6ktKtovAbMemyoAGai488Q3FsUiCQkeuK25io,5512
+spock/saver.py,sha256=bp2tDQdSUA5u8kzsFTYGWedPrrD3HemyRovCre6zNtQ,3642
+spock/utils.py,sha256=_0_MESY_hqs0kaXf5nMjxvwrIAydMqZkEp6d4yOw_WM,2618
+spock_config-1.0.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+spock_config-1.0.dist-info/METADATA,sha256=qzbdGhrDu16qvt2y_VXHGCL9J8u6k8nkU7qf0EAQ37k,3274
+spock_config-1.0.dist-info/NOTICE.txt,sha256=PKFVj2P76zsHs9ZNJG32zzhq3RZB5LNbMClK855COYQ,665
+spock_config-1.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+spock_config-1.0.dist-info/top_level.txt,sha256=Tcz1j2pWg18IDKMNwBXNi3z1Ny6FQW-RyISme8x0hLQ,6
+spock_config-1.0.dist-info/RECORD,,
