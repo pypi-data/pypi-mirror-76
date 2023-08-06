@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: grad
+Version: 0.0.1
+Summary: My grad package
+Home-page: https://grad.com
+Author: grad
+Author-email: grad@grad.com
+License: MIT License
+Description: UNKNOWN
+Keywords: grad
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
