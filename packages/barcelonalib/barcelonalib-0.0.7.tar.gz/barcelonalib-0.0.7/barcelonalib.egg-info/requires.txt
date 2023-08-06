@@ -1,0 +1,8 @@
+ipython
+msgpack
+opentelemetry-api
+opentelemetry-sdk
+environs
+setuptools
+attrdict
+python-dotenv
