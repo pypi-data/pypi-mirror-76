@@ -1,0 +1,9 @@
+settings_helper/__init__.py,sha256=L9TD_j6x3aeR3H3GYPKu7expmU3piVRYhdavbU8rjWs,5387
+settings_helper/settings.ini,sha256=Tl1S_7-LU1RYl1CASZhZkknEc9V93gbEeWD0HBMi1Kg,172
+tests/__init__.py,sha256=jci-DFyrUeT4kU4vCgkmGeFgq6wfxwEtoyRQcBSuM_8,43
+tests/test_settings.py,sha256=H_34w1qYIsb_zxRXWhGmIC_6rxtMGk8_2p4hYlbOiDM,2070
+settings_helper-0.0.8.dist-info/LICENSE.txt,sha256=qkd6gO3_mhiG9TiDq5tJieC-1f64xFSpep3GBsIfNr0,608
+settings_helper-0.0.8.dist-info/METADATA,sha256=vXD3S_5M-dL9_pqDudx4oCPbp-Y7BN4sPjoCIyE3lBU,4330
+settings_helper-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+settings_helper-0.0.8.dist-info/top_level.txt,sha256=6wWt1dntuZYQP2TwSZGZJS43M0GDzWd3GNlZkPoVmj4,22
+settings_helper-0.0.8.dist-info/RECORD,,
