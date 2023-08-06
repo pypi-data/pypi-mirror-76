@@ -1,0 +1,9 @@
+future
+wcwidth
+
+[dev]
+
+[test]
+pandas
+pytest
+pytest-cov
