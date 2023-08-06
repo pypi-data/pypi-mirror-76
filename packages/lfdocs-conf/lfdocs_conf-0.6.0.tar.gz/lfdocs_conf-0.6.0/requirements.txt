@@ -1,0 +1,7 @@
+pyyaml
+Sphinx~=3.2.0
+sphinx_bootstrap_theme~=0.7.1
+sphinx-tabs
+
+# Indirect Dependencies
+more-itertools~=5.0.0;python_version<'3.4'  # >6.0.0 requires Python >=3.4

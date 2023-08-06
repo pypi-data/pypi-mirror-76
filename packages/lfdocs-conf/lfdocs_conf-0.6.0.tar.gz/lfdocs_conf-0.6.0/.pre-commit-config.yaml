@@ -1,0 +1,58 @@
+---
+default_language_version:
+  python: python3
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.1.0
+    hooks:
+      - id: trailing-whitespace
+
+  - repo: https://github.com/jorisroovers/gitlint
+    rev: v0.13.1
+    hooks:
+      - id: gitlint
+
+  - repo: https://github.com/prettier/prettier
+    rev: 2.0.5
+    hooks:
+      - id: prettier
+
+  - repo: https://github.com/ambv/black
+    rev: stable
+    hooks:
+      - id: black
+
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.8.3
+    hooks:
+      - id: flake8
+        args: ["--max-line-length=88"]
+
+  - repo: https://github.com/pycqa/bandit
+    rev: 1.6.2
+    hooks:
+      - id: bandit
+        # Bandit does not need to run on test code
+        exclude: tests/*
+
+  - repo: https://github.com/pycqa/pydocstyle
+    rev: 5.0.2
+    hooks:
+      - id: pydocstyle
+
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.24.2
+    hooks:
+      - id: yamllint
+
+  - repo: local
+    hooks:
+      # TODO: Switch to upstream hook when https://github.com/btford/write-good/pull/119 is merged.
+      - id: write-good
+        name: write-good
+        description: Check docs for English prose with write-good
+        entry: write-good
+        language: node
+        files: "\\.(rst|md|markdown|mdown|mkdn)$"
+        additional_dependencies: ["write-good"]

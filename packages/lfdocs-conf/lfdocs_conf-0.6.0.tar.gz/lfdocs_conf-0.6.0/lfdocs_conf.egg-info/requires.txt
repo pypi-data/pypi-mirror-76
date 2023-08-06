@@ -1,0 +1,7 @@
+pyyaml
+Sphinx~=3.2.0
+sphinx_bootstrap_theme~=0.7.1
+sphinx-tabs
+
+[:(python_version<'3.4')]
+more-itertools~=5.0.0
