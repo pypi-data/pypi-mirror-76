@@ -1,0 +1,8 @@
+README.md
+setup.py
+OmieAPI/__init__.py
+OmieAPI.egg-info/PKG-INFO
+OmieAPI.egg-info/SOURCES.txt
+OmieAPI.egg-info/dependency_links.txt
+OmieAPI.egg-info/requires.txt
+OmieAPI.egg-info/top_level.txt

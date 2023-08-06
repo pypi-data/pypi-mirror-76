@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: OmieAPI
+Version: 0.0.1
+Summary: Pacote de ingração com Omie
+Home-page: https://github.com/btmluiz/OmieAPI
+Author: BtmLuiz
+Author-email: luiz@selectbrasil.com.br
+License: LICENSE.txt
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
