@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "sutd-tts-lib"
+version = "0.1.0"
+description = "A (relatively) lightweight library for programmatically submitting entries to SUTD's Temperature Taking System, without Selenium and the like."
+authors = ["Chester <chester8991@gmail.com>"]
+packages = [
+    { include = "sutd" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+poetry = "^4.9.1"
+requests = "^2.24.0"
+fake-headers = "^1.0.2"
+beautifulsoup4 = "^4.9.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
