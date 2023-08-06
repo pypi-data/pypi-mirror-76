@@ -1,0 +1,10 @@
+README.md
+setup.py
+analytics/__init__.py
+analytics/main.py
+analytics/test.py
+atados_analytics_sdk.egg-info/PKG-INFO
+atados_analytics_sdk.egg-info/SOURCES.txt
+atados_analytics_sdk.egg-info/dependency_links.txt
+atados_analytics_sdk.egg-info/requires.txt
+atados_analytics_sdk.egg-info/top_level.txt
