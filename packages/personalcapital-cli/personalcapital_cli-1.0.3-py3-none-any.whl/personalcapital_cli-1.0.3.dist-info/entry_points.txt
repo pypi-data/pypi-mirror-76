@@ -1,0 +1,4 @@
+[console_scripts]
+fetch_data = bin.fetch_data:main
+store_in_google_sheets = bin.store_in_google_sheets:main
+
