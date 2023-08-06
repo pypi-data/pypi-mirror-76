@@ -1,0 +1,9 @@
+soccerapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soccerapi/__version__.py,sha256=8FNvCpbHKqo-s72IiFGeskOsOgcmIBIIUW1ncEm47mE,63
+soccerapi/api/__init__.py,sha256=g3WOwlbIH--m99hdu3lNadCWXYwoRM9mT-uMPrTTfVs,272
+soccerapi/api/base.py,sha256=r1JWI9y0u-foiPeqzApFhKslv5bJXSxFcNVlHDh9wU4,5964
+soccerapi-0.3.3.dist-info/LICENSE,sha256=5-XwO89oTRan1JiU9RYpdHURAbjFEhzDvrZFYAFwFxY,1064
+soccerapi-0.3.3.dist-info/METADATA,sha256=XAdOGfYXn61eXRCSjX9_kQdOE__NYOBSLW3Av2awQ_8,2345
+soccerapi-0.3.3.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+soccerapi-0.3.3.dist-info/top_level.txt,sha256=CRxzJ1W5hx7cXqsDOars_oZQAs1XQVK6Ac6z6J3Titc,10
+soccerapi-0.3.3.dist-info/RECORD,,
