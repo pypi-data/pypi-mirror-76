@@ -1,0 +1,10 @@
+MANIFEST.in
+license
+readme.md
+setup.py
+packagevikrant/__init__.py
+packagevikrant.egg-info/PKG-INFO
+packagevikrant.egg-info/SOURCES.txt
+packagevikrant.egg-info/dependency_links.txt
+packagevikrant.egg-info/requires.txt
+packagevikrant.egg-info/top_level.txt
