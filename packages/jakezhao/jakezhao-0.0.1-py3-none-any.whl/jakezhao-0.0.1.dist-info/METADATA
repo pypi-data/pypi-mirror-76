@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: jakezhao
+Version: 0.0.1
+Summary: Help you survive from AM2 by Prof.JakeZhao
+Home-page: https://github.com/pypa/sampleproject
+Author: Niko
+Author-email: niko@pku.edu.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Materials for students in Peking University HSBC Business School 
+=====================================
+
+Import packages:
+`from phbs import jakezhao`
+
+Homework Answer:
+`jakezhao.hw1()` (you can also change to hw1~hw4) provides you the relative homework answer.
+
