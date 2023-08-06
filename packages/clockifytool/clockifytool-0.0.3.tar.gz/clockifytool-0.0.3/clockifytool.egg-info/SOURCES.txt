@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+bin/cft
+clockifytool/__init__.py
+clockifytool/api.py
+clockifytool/app.py
+clockifytool/cli.py
+clockifytool/commands.py
+clockifytool/helpers.py
+clockifytool.egg-info/PKG-INFO
+clockifytool.egg-info/SOURCES.txt
+clockifytool.egg-info/dependency_links.txt
+clockifytool.egg-info/requires.txt
+clockifytool.egg-info/top_level.txt
