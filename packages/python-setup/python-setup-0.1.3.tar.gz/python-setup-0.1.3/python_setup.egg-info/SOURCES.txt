@@ -1,0 +1,12 @@
+README.md
+setup.py
+python_setup/__init__.py
+python_setup.egg-info/PKG-INFO
+python_setup.egg-info/SOURCES.txt
+python_setup.egg-info/dependency_links.txt
+python_setup.egg-info/entry_points.txt
+python_setup.egg-info/top_level.txt
+python_setup/src/__init__.py
+python_setup/src/hello.py
+python_setup/tools/__init__.py
+python_setup/tools/cli.py
