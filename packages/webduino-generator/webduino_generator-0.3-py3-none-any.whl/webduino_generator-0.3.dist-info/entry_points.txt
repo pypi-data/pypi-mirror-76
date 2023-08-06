@@ -1,0 +1,3 @@
+[console_scripts]
+webduino-generator = webduino_generator.generator:main
+

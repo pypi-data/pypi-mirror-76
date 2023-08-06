@@ -1,0 +1,13 @@
+webduino_generator/__init__.py,sha256=JMhP1aDrGTEH1OnW22PoE9f3j0519bsNbHJyMWsZnVE,115
+webduino_generator/generator.py,sha256=wbfjwopmwaz6FPevx4_L_0usEnbTiZyMcjGkOEHObU8,11185
+webduino_generator/helper.py,sha256=1LgzOUFIdqyeME9_w-gyMUEfzArr8-9-L6k2SYQ09x0,934
+webduino_generator/userio.py,sha256=Trilai2G6UotbOgTVChxEnUml2DSc1DZKUjPr9p0PWc,1540
+webduino_generator/templates/WebServer.h,sha256=nnozG9H1KtooSbYML_MTAywyB0iISIeF-5jQ_au-6Ig,33630
+webduino_generator/templates/commands.h,sha256=qchTu8cWIv9tPtg7gsn4SrmGFUsYTkW_DH4dwJyGMOg,2080
+webduino_generator/templates/main.ino,sha256=5GjGomXdiWzRQJwmTxC12TN4G-jMD2xDhhIU9cTYZiY,968
+webduino_generator-0.3.dist-info/LICENSE.md,sha256=sJWr7F61migcIruUQDQ7rB5GR0af_SSQbyL0DErBoQg,1357
+webduino_generator-0.3.dist-info/METADATA,sha256=2CbM0RIjIfmbkvbOg_rbGpEs_VmaNTRfiLF_xAn8glw,517
+webduino_generator-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+webduino_generator-0.3.dist-info/entry_points.txt,sha256=41aK725KhXtbGeFtuC3DCNYxgBb8DddKN9A9kHOP8zw,74
+webduino_generator-0.3.dist-info/top_level.txt,sha256=1On71a44xG3rMK6Mseh0pbPR2DGvveI0Hqb_OToj3c0,19
+webduino_generator-0.3.dist-info/RECORD,,

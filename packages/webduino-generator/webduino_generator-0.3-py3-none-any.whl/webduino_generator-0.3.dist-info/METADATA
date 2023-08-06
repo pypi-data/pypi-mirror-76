@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: webduino-generator
+Version: 0.3
+Summary: Python program to automatically generate source code for an arduino web server
+Home-page: https://github.com/StoneLabs/webduino-generator
+Author: Levy Ehrstein
+Author-email: levyehrstein@googlemail.com
+License: UNLICENSE
+Platform: UNKNOWN
+Requires-Dist: jinja2
+Requires-Dist: rich
+
+Python program to automatically create arduino webserver from folder.
+Supports basically all file types. For example: html, js, css, images, and arbitrary binaries.
+
