@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: mrr2c
+Version: 2.0.1
+Summary: Convert Metek MRR-2 micro rain radar data files to NetCDF
+Home-page: https://github.com/peterkuma/mrr2c
+Author: Peter Kuma
+Author-email: peter@peterkuma.net
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: metek,radar,mrr-2,netcdf
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
