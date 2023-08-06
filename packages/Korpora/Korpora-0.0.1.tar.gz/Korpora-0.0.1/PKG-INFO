@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: Korpora
+Version: 0.0.1
+Summary: Korean Corpus Downloader
+Home-page: https://github.com/lovit/Korpora
+Author: lovit
+License: UNKNOWN
+Description: # Korpora: Korean Corpora Archives
+        
+        This package provides easy-download and easy-usage for various Korean corpora
+        
+        ## Install
+        
+        From source
+        
+        ```
+        git clone https://github.com/lovit/Korpora
+        python setup.py install
+        ```
+        
+        Using pip
+        
+        ```
+        pip install Korpora
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

@@ -1,0 +1,8 @@
+README.md
+setup.py
+Korpora/__init__.py
+Korpora/about.py
+Korpora.egg-info/PKG-INFO
+Korpora.egg-info/SOURCES.txt
+Korpora.egg-info/dependency_links.txt
+Korpora.egg-info/top_level.txt
