@@ -1,0 +1,17 @@
+pinax/__init__.py,sha256=3E-xdt1VSB6lEVCdVbZuYExYeQe36vpOqjd_E8mmxvY,84
+pinax/eventlog/__init__.py,sha256=JDRhrZeL8bvB_AklyjPx81RYkiqctzD1Zo4gFAhMgVU,93
+pinax/eventlog/admin.py,sha256=2KQw1GUdJ0nb0pkbYP2I3AIftQL2Ru3TgNpXY2gYvQw,326
+pinax/eventlog/mixins.py,sha256=nnKxed9MQ8dbBmO2KcuN6lt8Wo8hfZccXFjw9bKVYu4,695
+pinax/eventlog/models.py,sha256=UmbiWaqT2hLBy46y2B0-ONWQ72Xutnz-wJJM_Sd_WGE,1726
+pinax/eventlog/signals.py,sha256=z6FFUYo0DCOS-YyM_QYMQegv5EptMd_g9W2KuNIgHPM,88
+pinax/eventlog/stats.py,sha256=HVGEiwgdzZTR9GY9IIheYvkAaxjPwUOE4_di2oWFTh0,768
+pinax/eventlog/migrations/0001_initial.py,sha256=XIPA8uoQ53cwHPpNQFmbNVeDFyYRIygRe_clmnwXPpo,1418
+pinax/eventlog/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pinax/eventlog/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pinax/eventlog/tests/tests.py,sha256=wGf6J98ksD_loDqCvt4ZC-AMH5jRyKoRJCJ71PuwNEQ,3377
+pinax_eventlog-5.0.0.dist-info/AUTHORS,sha256=3ksP3cSn_HdA6Zk5ir_cRr1sAD1o8n7UBEpsrqSnEwU,527
+pinax_eventlog-5.0.0.dist-info/LICENSE,sha256=ESsfKNGKnkSJtqpU8UYLs58k-iT1iyVcz1c59PJPLIk,1104
+pinax_eventlog-5.0.0.dist-info/METADATA,sha256=S5cF_B0n5DlcHpa68gJtLkn_u9KX4kct8pnGsfDP9j8,2593
+pinax_eventlog-5.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pinax_eventlog-5.0.0.dist-info/top_level.txt,sha256=vqhDengTXIyZV-6qYcH5Pmb5O0p7s4hJceQh1FhEgCA,6
+pinax_eventlog-5.0.0.dist-info/RECORD,,
