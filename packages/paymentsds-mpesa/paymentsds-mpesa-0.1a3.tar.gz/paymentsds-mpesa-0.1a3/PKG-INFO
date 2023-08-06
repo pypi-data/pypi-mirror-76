@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: paymentsds-mpesa
+Version: 0.1a3
+Summary: MPesa Python SDK
+Home-page: https://github.com/paymentsds/mpesa-python-sdk
+Author: Edson Michaque
+Author-email: edson@michaque.com
+License: Apache-2.0
+Description: UNKNOWN
+Keywords: MPesa
+Platform: UNKNOWN
