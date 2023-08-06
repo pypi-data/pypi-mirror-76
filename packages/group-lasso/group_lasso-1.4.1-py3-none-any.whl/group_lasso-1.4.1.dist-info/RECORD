@@ -1,0 +1,17 @@
+group_lasso/__init__.py,sha256=4NXVoKODtqy2dIuAlsGJRAsQy1ndtNw7yhh4wDwko5c,321
+group_lasso/_fista.py,sha256=k-ayqf4pwufrMNyxdWq0ay60gNAv0bFxEE-9aOQ7Lsw,4627
+group_lasso/_group_lasso.py,sha256=b7J40I_XHzVGLsY-0xsmH88Vxx4hkwXzGThhww7hAYA,35321
+group_lasso/_singular_values.py,sha256=wo4iN2iB8aZXqkgiwna6D2eM5jFK6LhuiesIXj55YzY,1747
+group_lasso/_subsampling.py,sha256=rxFxtw38Pt2-mYcKzvYjXEFFp-MMfMRSpJX7O5lZL_s,3764
+group_lasso/utils.py,sha256=exIjMHsJRlTVHyGNJG-4zvTHBzUqa-wO7J7VtPVecyI,774
+group_lasso/__pycache__/__init__.cpython-37.pyc,sha256=u-oYoiznvgcF85breBxE8NED4meJyU4Xpk3VIcRk8fk,453
+group_lasso/__pycache__/_fista.cpython-37.pyc,sha256=2dAjN9fBMbfCtJu5Xk_eqBnTp94OIYJ6k4OfF7lSD1g,2718
+group_lasso/__pycache__/_group_lasso.cpython-37.pyc,sha256=HFNYPIbaaXiaIwbYN4SQ7k8ss3DtG0SpuWwMh2UUcB4,32797
+group_lasso/__pycache__/_singular_values.cpython-37.pyc,sha256=FSlseO4ADPV3i8X3BBnJ1edvm6BGDCokJ9B0wrvBbQ4,1478
+group_lasso/__pycache__/_subsampling.cpython-37.pyc,sha256=dn8hpF7Y97NvZakFsfEZ2dzvUxTnxW_DjFkWD7BW6DA,3786
+group_lasso/__pycache__/utils.cpython-37.pyc,sha256=lhiRmjFocJwap5-AwAY_IZUIEG_ZjprNYmzWjCCZlUI,994
+group_lasso-1.4.1.dist-info/LICENSE,sha256=9NNxA4gvoai17DyhjoKAypSKnJohlTelWLRW4443m1Y,1104
+group_lasso-1.4.1.dist-info/METADATA,sha256=jEnrR8bw9o15n28ZhKe7UO3dDx4yPjtf5Y-Uo1rHCz8,5508
+group_lasso-1.4.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+group_lasso-1.4.1.dist-info/top_level.txt,sha256=vltGG-UuVyZYtRjSbfeRUYb1DPgQCZ1W47qS0UnFB8A,12
+group_lasso-1.4.1.dist-info/RECORD,,
