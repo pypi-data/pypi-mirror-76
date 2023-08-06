@@ -1,0 +1,3 @@
+[girder.plugin]
+slicer_package_manager = slicer_package_manager:GirderPlugin
+
