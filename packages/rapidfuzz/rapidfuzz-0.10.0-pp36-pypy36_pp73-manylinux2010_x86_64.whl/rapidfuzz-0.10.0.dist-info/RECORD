@@ -1,0 +1,10 @@
+rapidfuzz/process.py,sha256=qEBE5ebW_d-hg7H1X3vToETtoyIakICB4r2hCawThZ0,8186
+rapidfuzz/__init__.py,sha256=91oh4GNRvxYT816HSR6N1i6dY2pPH_ARPuoWO9_lf4I,93
+rapidfuzz/levenshtein.pypy36-pp73-x86_64-linux-gnu.so,sha256=QXjb70SkxYIUvYrE79kkXS2H-AfSmQMNRYNGmDbIq3E,83656
+rapidfuzz/utils.pypy36-pp73-x86_64-linux-gnu.so,sha256=Dh5q9TlmplGdA_HL-dFJS4H-OZvXqXYAlResatuHaGU,27488
+rapidfuzz/fuzz.pypy36-pp73-x86_64-linux-gnu.so,sha256=QJwWb_yA5Yq4GNFQIagiSHVbQ5pi0KrWQ2GH_r9IggY,456224
+rapidfuzz-0.10.0.dist-info/LICENSE,sha256=B7k0BI6XLQ4j3OOdUbQD3nu6KmYOCcOP9WXyWTM60kY,1082
+rapidfuzz-0.10.0.dist-info/top_level.txt,sha256=Oxm3Kk-v28hdkOkW3AVE1EMl8Ml5FPFl32w6V65shvg,10
+rapidfuzz-0.10.0.dist-info/WHEEL,sha256=xmhpmbSsfIt_QwrkQmWM86e6poqOz6U-e984lyCmqOE,118
+rapidfuzz-0.10.0.dist-info/RECORD,,
+rapidfuzz-0.10.0.dist-info/METADATA,sha256=SE3vCdmVND7EPLa-87omqgPTJNyI-QpKGhuoumSdj2s,5018
