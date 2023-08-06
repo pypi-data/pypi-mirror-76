@@ -1,0 +1,13 @@
+numpy
+biopython
+pandas
+seaborn
+chardet
+argparse
+multiprocess
+joblib
+ujson
+python-coveralls
+pyyaml
+matplotlib
+pytest-cov
