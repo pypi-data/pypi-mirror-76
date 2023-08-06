@@ -1,0 +1,9 @@
+dsv_cli-0.0.1.data/scripts/dsv,sha256=8Go1Mb_04THll0or3qfNfLfKXZdW9-SFDSoKlS9EqC4,208
+lib/dsv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib/dsv/__main__.py,sha256=tZitWt-ICQbiXD_Ag-k24w2We_kdqhs2_IU2_Nfivsg,142
+lib/dsv/dsv.py,sha256=Md1yt7kWlJ25yJBum4OTTMxlgnvJjlp-CmoiOjgLTd8,134
+dsv_cli-0.0.1.dist-info/LICENSE,sha256=u-GwLUfAFzzMIgIgc3a5KhKeRW8qFps0RyNxgB3CLZY,1064
+dsv_cli-0.0.1.dist-info/METADATA,sha256=IdXNJC87FhZ7ZBUsWJDu0YDcJOPBlIAMfhVJThmuQ8g,424
+dsv_cli-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dsv_cli-0.0.1.dist-info/top_level.txt,sha256=oyXcrLgLICoBS0ILk_wZBhkAAY-M4hbQoMsA1hDsf5c,4
+dsv_cli-0.0.1.dist-info/RECORD,,
