@@ -1,0 +1,13 @@
+language: python
+python:
+        - "3.5"
+        - "3.6"
+        - "3.7"
+        - "3.8"
+before_install:
+        - pip install setuptools-scm
+        - pip install coverage
+script:
+        - coverage run --source=mockselector -m unittest discover
+after_success:
+        - bash <(curl -s https://codecov.io/bash)
