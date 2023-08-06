@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: typeconstructor
+Version: 0.1
+Summary: Singleton used to dynamically construct objects based upon type.
+Home-page: https://github.com/BRutan/TypeConstructor
+Author: Ben Rutan
+Author-email: brutan.github@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+# TypeConstructor
+Python singleton class that dynamically generates class instances using type information, with or without arguments.
+
+
