@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: swagger_integration_tests
+Version: 0.0.7
+Summary: python swagger integration tests helper
+Home-page: https://github.com/SamuelJansen/swagger_integration_tests/
+Author: Samuel Jansen
+Author-email: samuel.jansenn@gmail.com
+License: MIT
+Download-URL: https://github.com/SamuelJansen/swagger_integration_tests/archive/v0.0.7.tar.gz
+Description: UNKNOWN
+Keywords: swagger,python swagger helper,python swagger,swagger helper
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
