@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+scrapy_rabbit_mq/connection.py
+scrapy_rabbit_mq/spider.py
+scrapy_rabbit_mq.egg-info/PKG-INFO
+scrapy_rabbit_mq.egg-info/SOURCES.txt
+scrapy_rabbit_mq.egg-info/dependency_links.txt
+scrapy_rabbit_mq.egg-info/requires.txt
+scrapy_rabbit_mq.egg-info/top_level.txt
