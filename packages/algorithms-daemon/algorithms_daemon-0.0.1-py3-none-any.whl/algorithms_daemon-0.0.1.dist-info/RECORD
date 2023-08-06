@@ -1,0 +1,8 @@
+algorithms_daemon/__init__.py,sha256=_dfGTaXAtGtm8ZcVQpFi5pdAFrK7ovOzGxP4DOgm1B8,245
+algorithms_daemon/config.py,sha256=gxDsJvSIEoYnYt4bFFThYa0WXslqA6u-5kY2hSop4dQ,1097
+algorithms_daemon/daemon.py,sha256=h2HJ4OpMSiVF5D7pspdSVjQvjTEfNOzq24iegeMJTAM,3026
+algorithms_daemon-0.0.1.dist-info/LICENSE,sha256=16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s,1139
+algorithms_daemon-0.0.1.dist-info/METADATA,sha256=xl1GlBHJgQvbMOEvnfTTkXSTvRBGMI6K5DbLCl9ZSmk,573
+algorithms_daemon-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+algorithms_daemon-0.0.1.dist-info/top_level.txt,sha256=2wXoAW_D7JjPTL1_zGA3TNbPNWa2qsDYrrtRL7nS0QE,18
+algorithms_daemon-0.0.1.dist-info/RECORD,,
