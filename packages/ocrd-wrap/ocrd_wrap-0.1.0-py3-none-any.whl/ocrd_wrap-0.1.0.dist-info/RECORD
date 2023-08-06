@@ -1,0 +1,17 @@
+ocrd_wrap/__init__.py,sha256=BxU-K4549CNpugiyTJiWeP5jWkHdazuV7cDxk0z_B1Y,71
+ocrd_wrap/cli.py,sha256=_p8Cn43NUrhkpbr4RVemzSpQe6PJMv3_KgmznCevXvI,1062
+ocrd_wrap/config.py,sha256=KIGdj-YnnMrMvR84YgNQJVH0BO4DUYC_bRZDKGE5aNw,138
+ocrd_wrap/ocrd-tool.json,sha256=zGWrf5dka6z2PYzSa8p_SJh6afPNFseFxJC0XkYL6PA,9534
+ocrd_wrap/param_im6convert-denoise-raw.json,sha256=jbDqgz_ivCkg9ZC0adHtXnuHt2bswQ0dLIEY3SA2Yo0,552
+ocrd_wrap/param_scribo-cli-binarize-sauvola-ms-split.json,sha256=8xFnBbrgYPSNQ1hIxfAFa-XgqaxAYkS4Jua8NWSJej4,704
+ocrd_wrap/shell.py,sha256=Ln3zJUnm8YQ7Asp9fYUcDBy7n-jqnW1-2vXsuDb4nTQ,11364
+ocrd_wrap/skimage_binarize.py,sha256=xqoJceztNHCFzIach-J7kRj3ofE7MFjgZXjERf0Q8wk,9187
+ocrd_wrap/skimage_denoise.py,sha256=JSMCPU4-45-A1Wg3S_J5C0GO9X8BdCDaFxnKVxRSELg,8578
+ocrd_wrap/skimage_denoise_raw.py,sha256=vNab-V_VxpX6QQSFujmJtLiR8BT_-jwnRYfTVAP88MA,9545
+ocrd_wrap/skimage_normalize.py,sha256=YMYf5hti8JcF0_BRjEXK0K547bNwm69HPr16dXC8ceM,9582
+ocrd_wrap-0.1.0.dist-info/LICENSE,sha256=2l2vZ-kRu3aSTRoNbGpStv7Ciawc0rqSUmQJNFXdjHc,1060
+ocrd_wrap-0.1.0.dist-info/METADATA,sha256=rxMBEJUeX_DZoxvAMu0cOHoGan-p0Nu-Nc5zAzV1dX8,12482
+ocrd_wrap-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ocrd_wrap-0.1.0.dist-info/entry_points.txt,sha256=P_5Qp06QFK1zKHsy8SyirXNDYHly5L32EpJCrJZVDy8,325
+ocrd_wrap-0.1.0.dist-info/top_level.txt,sha256=MSXEfoCCPtlf65tfGel4q9F4OGK9XygankVpr4O7liU,10
+ocrd_wrap-0.1.0.dist-info/RECORD,,
