@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    science_data_structure=science_data_structure.tools.manage:manage
+    
