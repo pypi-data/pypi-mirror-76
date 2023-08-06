@@ -1,0 +1,7 @@
+pygitbucket/__init__.py,sha256=EHsTrliH9fRXPfYgxh-_L1MU5b8ozbRCyx9hqWX1I2Q,109
+pygitbucket/client.py,sha256=6jy2CHBp4ILBg46m8Vyj5eZiVCMMQwW8q85LPWuCMyQ,14382
+pygitbucket/exceptions.py,sha256=nszz3s70GCY_2w9FWQgNL8jIfjKa4QLOEicYvLh5xLU,264
+pygitbucket-2020.8.12.dist-info/LICENSE,sha256=YIKh8D5TdpSajoPHHtJ6_r_sEKiJ2EtLpGV3IY7UMkQ,1065
+pygitbucket-2020.8.12.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+pygitbucket-2020.8.12.dist-info/METADATA,sha256=gcY-OIgC-AqhMb2p8nxgE6uEKheWicBuV723l8jsBek,3692
+pygitbucket-2020.8.12.dist-info/RECORD,,
