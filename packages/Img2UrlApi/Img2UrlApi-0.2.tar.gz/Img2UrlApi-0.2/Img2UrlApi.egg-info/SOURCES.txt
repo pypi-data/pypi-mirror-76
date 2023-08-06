@@ -1,0 +1,8 @@
+README.md
+setup.py
+Img2UrlApi/ImgUploader.py
+Img2UrlApi/__init__.py
+Img2UrlApi.egg-info/PKG-INFO
+Img2UrlApi.egg-info/SOURCES.txt
+Img2UrlApi.egg-info/dependency_links.txt
+Img2UrlApi.egg-info/top_level.txt
