@@ -1,0 +1,13 @@
+ier_processor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ier_processor/__main__.py,sha256=eQWmHup0lMfPn8H0wY8RDXKWEQNk-Z3XUuptWHuMu64,2065
+ier_processor/image_record_processing.py,sha256=r7YKv4dSVAGLinUMEJo3qHk5RDLQPP-AbQvLsFXuclo,15359
+ier_processor/pdf_slicing.py,sha256=WpVg9biMqLnBNiFdI9CcPnqO1-2U8riXd09s_qTkNUQ,13437
+ier_processor/spark_job.py,sha256=DgAk-hVz2eQHTaiaEt2TvZGo8Q7U4H1o9rX0n-PxfGg,6767
+ier_processor/spark_job_emr.py,sha256=Wc5Mu86uqQyZpxm7q7oVAc-hBTbsmRDkqQXTIcJy3So,1466
+ier_processor/spark_job_local.py,sha256=5L0xdJU1VvMn42CYRWxBD7xcVf1yT5ruvm_nROOxi7Y,1956
+ier_processor/utils.py,sha256=VKVyBVFyccqXkhFDLp80NigenOyRp3Ee0qcYNLfdH2I,1382
+ier_processor/test_data/whole_pdf/Benaulim/Part01.pdf,sha256=byIPcv0N22X-Ee0mdQy72mlH_-ZrP5AWdLYpcj9sSno,4573519
+indian_electoral_roll_processor-1.0.13.dist-info/METADATA,sha256=ByjI5KXqnHMt7HzTFcELm2KsIczq1FNTnagtz5tEQhQ,953
+indian_electoral_roll_processor-1.0.13.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+indian_electoral_roll_processor-1.0.13.dist-info/top_level.txt,sha256=LX-daiqRIUbRdzgmydh1_rmO4LaHrFgdU__-1UemXOc,14
+indian_electoral_roll_processor-1.0.13.dist-info/RECORD,,
