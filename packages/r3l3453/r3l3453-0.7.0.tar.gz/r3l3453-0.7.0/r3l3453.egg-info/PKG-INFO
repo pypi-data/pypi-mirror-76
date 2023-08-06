@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: r3l3453
+Version: 0.7.0
+Summary: Bump version, tag, commit, release to pypi, bump again, and push.
+Home-page: https://github.com/5j9/r3l3453
+Author: 5j9
+Author-email: 5j9@users.noreply.github.com
+License: GNU General Public License v3 (GPLv3)
+Description: `r3l3453` is a small project that I use for semi-automating release cycle on a few of my projects.
+        It's not intended for public use.
+        
+        In short what it does is:
+        
+        * bump the version to a release version
+        * tag the version
+        * commit the version change
+        * release to PyPI
+        * bump the version again to dev version
+        * push changes to repository
+        
+        There is a ``--simulate`` cli option which allows one to see what is going to happen.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.9
+Description-Content-Type: text/x-rst
