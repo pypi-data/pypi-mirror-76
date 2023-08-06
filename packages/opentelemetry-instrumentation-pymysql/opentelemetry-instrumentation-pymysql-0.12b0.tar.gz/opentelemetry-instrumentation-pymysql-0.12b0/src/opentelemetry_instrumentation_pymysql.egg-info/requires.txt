@@ -1,0 +1,7 @@
+opentelemetry-api==0.12b0
+opentelemetry-instrumentation-dbapi==0.12b0
+opentelemetry-instrumentation==0.12b0
+PyMySQL~=0.9.3
+
+[test]
+opentelemetry-test==0.12b0
