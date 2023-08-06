@@ -1,0 +1,10 @@
+laylib/__init__.py,sha256=w5yqgY8bKxg-8TxZcGGU3vgrNUnTPAKV1J-stRO35G4,555
+laylib/default_engine.py,sha256=coFvWHNoNlaJeBnAceGxRxNEDNOsZEPWTkknLrytr4s,5318
+laylib/environment.py,sha256=wOfXr5omnAfhx9RShZO_3xMMShAJ8HN0wYVeD1JvJak,5431
+laylib/resources.py,sha256=fdA-SpJ9Peyduy5TNFe6E5JYjksTLNOr3sw7sEuffMI,10676
+laylib/util.py,sha256=LD5X04KrpA_NWzqcN885sN1r2eL-aVPjmBZb8jqoSQ4,1604
+laylib-1.1.8.dist-info/LICENCE.txt,sha256=-DfI-I1_qmEvlV-_9FON8fRbNmUdC8VvcIk_8oZ04KE,1094
+laylib-1.1.8.dist-info/METADATA,sha256=2O98qcAZdFP6YqJhi_Ja_JCbyZppy--W7LEXMg-X8sI,3973
+laylib-1.1.8.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+laylib-1.1.8.dist-info/top_level.txt,sha256=OOPGI6YYKdypFSKYzfX4hyq63mpS_qIV8Nmu0SYVXxo,7
+laylib-1.1.8.dist-info/RECORD,,
