@@ -1,0 +1,9 @@
+README.md
+setup.py
+SWRunShell.egg-info/PKG-INFO
+SWRunShell.egg-info/SOURCES.txt
+SWRunShell.egg-info/dependency_links.txt
+SWRunShell.egg-info/requires.txt
+SWRunShell.egg-info/top_level.txt
+swrunshell/__init__.py
+swrunshell/shell_command.py
