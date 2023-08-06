@@ -1,0 +1,144 @@
+{% extends "sidebar.html" %}
+{% block main %}
+<div>
+    <div id="pending-screen" class="my-disable">
+        <div id="pending-screen-content">
+            <p><i class="fa fa-circle-notch fa-spin" style="font-size: 42px;"></i></p>
+        </div>
+    </div>
+</div>
+<form action="{{ url_for('get_wifi') }}" methods="POST, GET">
+    <table id="network_table">
+        <tr>
+            <td id="my_table_data" class="my_label">
+                <b>Network:</b>
+            </td>
+            <td id="my_table_data" >
+                <div style="width: 100%">
+                    <select name="ssid" id="ssid" class="js-example-basic-single" style="width: 100%;">
+                        {% for id in ssids %}
+                            {% if id == ssid %}
+                                <option value="{{ id }}" selected="selected">{{ id|e }}</option>
+                            {% else %}
+                                <option value="{{ id }}">{{ id|e }}</option>
+                            {% endif %},
+                        {% endfor %}
+                    </select>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td id="my_table_data" class="my_label">
+                <b>Password:</b>
+            </td>
+            <td id="my_table_data">
+                <input type="password" id="psk" name="psk" value="{{ psk|e }}">
+            </td>
+            <td id="my_table_data">
+        </tr>
+        <tr>
+            <td id="my_table_data">
+            </td>
+            <td id="my_table_data" style="padding-left: 7px;">
+                <input class="form-check-input" type="checkbox" style="margin-left: 0px" id="showPsk" onclick="toggle_psk()" name="showPsk"><label class="checkbox-inline show-psk">Show Password<label>
+            </td>
+        </tr>
+        <tr> 
+            <td></td>
+            <td id="my_table_data">
+                <div id="network_btn_container">
+                    <button type="submit" name="btn" class="btn recbtn" value="refresh">
+                        <i class="fas fa-sync-alt"></i>
+                    </button>
+                    <button type="submit" name="btn" class="btn recbtn" value="back">Cancel</button>
+                    <button id="saveBtn" type="button" name="btn" class="btn recbtn" value="continue" onclick="submitNetwork()">Save</button>  
+                </div>
+            </td>
+        </tr>
+    </table>
+</form>
+<script>
+function toggle_psk() { 
+  var checkBox = document.getElementById("showPsk");
+  var psk = document.getElementById("psk");
+  if (checkBox.checked == true){
+     psk.type = "text";
+  } else {
+     psk.type = "password";
+  }
+}
+function submitNetwork() {
+    var ssid = $("#ssid").val();
+    var psk = $("#psk").val();
+    startDisplayPending();
+    $.post("/setup_connection?ssid="+ssid+"&psk="+psk, function(data,status) {
+        if(data=="200") {
+            $.get("/update_connection_status", function(data, status){
+                if(data == "200") {
+                    setTimeout(function(){
+                        window.location.href = "/config_submenu?btn=pin";
+                        //$.get("/config_submenu?btn=pin");
+                    }, 2000);
+                } else {
+                    $.get("/update_connection_status", function(data,status) {
+                        setTimeout(function(){
+                            location.reload()
+                            //$.get("/config_submenu?btn=network");
+                        }, 2000);
+                    });                    
+                }
+            }); 
+        } else {
+            console.log("500 from setup network");
+            $.get("/update_connection_status", function(data,status) {
+                setTimeout(function(){
+                    location.reload()
+                    //$.get("/config_submenu?btn=network");
+                }, 2000);
+            });
+        }
+    });
+}
+
+function startDisplayPending() {
+    // remove class my-disable
+    $("#pending-screen").removeClass("my-disable");
+};
+function stopDisplayPending() {
+    // add class my-disable
+    $("#pending-screen").addClass("my-disable");
+    $("#saveBtn").css({'pointer-events': 'mouseleave'});
+}
+</script>
+<script>
+$('#psk')
+	.keyboard({
+		layout: 'international',
+		css: {
+			// input & preview
+			// "label-default" for a darker background
+			// "light" for white text
+			// keyboard container
+			container: 'center-block well',
+			// default state
+			buttonDefault: 'btn btn-default',
+			// hovered button
+			buttonHover: 'btn-primary',
+			// Action keys (e.g. Accept, Cancel, Tab, etc);
+			// this replaces "actionClass" option
+			buttonAction: 'active',
+			// used when disabling the decimal button {dec}
+			// when a decimal exists in the input area
+			buttonDisabled: 'disabled'
+
+		}
+	})
+
+// Script - typing extension
+// simulate typing into the keyboard, use:
+// \t or {t} = tab, \b or {b} = backspace, \r or \n or {e} = enter
+// added {l} = caret left, {r} = caret right & {d} = delete
+
+</script>
+{% endblock %}
+

@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<body>
+    <div style="color: #B7C8C4; text-align: center">
+        <h1>There was an issue initializing the recording</h1><br>
+        <i style="opacity: 0.7" class="fas fa-exclamation-triangle fa-10x"></i><br><br>
+        <h2>Please check that recording devices are connected and try again</h2><br>
+        <form action="{{ url_for('home') }}" methods="GET">
+            <button type="submit" name="btn" class="btn recbtn" style="border-radius: 50%;" value="back">Back</button>
+        </form>
+   </div>
+</body>
+
+{% endblock %}

@@ -1,0 +1,134 @@
+#!/usr/bin/env bash
+#
+# A Simple Shell Script to Record 
+#
+# John Poncini
+# Video and Informatics Systems Associate
+# MAPS Public Benefit Corporation
+
+while read d; 
+    do data+=($d);
+done < "/etc/opt/adam/default.info"
+declare -p data
+DIRNAME="/var/local/media/${data[0]}_${data[2]}_${data[3]}"
+FILENAME="${DIRNAME}/${data[4]}"
+WEBCAMS=${data[5]}
+MICROPHONES=${data[6]}
+mkdir ${DIRNAME}
+if [ $WEBCAMS == 1  ]; then    
+    {
+    if [ $MICROPHONES == 0  ]; then
+        {
+        ffmpeg \
+            -use_wallclock_as_timestamps 1 -f v4l2 -thread_queue_size 5096 -input_format yuyv422 \
+                -vcodec h264 -s 1280x720 -r 24 -i /dev/video0 \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s16le -ac 2 -ar 32000 -i hw:CARD=C920 \
+            -movflags +faststart \
+            -map 0 -c:v copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_video_%04d.mp4" \
+            -map 1 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_%04d.wav" \
+            2> "${FILENAME}_info.txt"
+        };
+    elif [ $MICROPHONES == 1 ]; then
+        {
+        ffmpeg \
+            -use_wallclock_as_timestamps 1 -f v4l2 -thread_queue_size 5096 -input_format yuyv422 \
+                -vcodec h264 -s 1280x720 -r 24 -i /dev/video0 \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s16le -ac 2 -ar 32000 -i hw:CARD=C920 \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s24le -ac 2 -ar 44100 -i hw:CARD=AT2020USBi \
+            -movflags +faststart \
+            -map 0 -c:v copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_video_%04d.mp4" \
+            -map 1 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_1_%04d.wav" \
+            -map 2 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_2_%04d.wav" \
+            2> "${FILENAME}_info.txt"
+        };
+    elif [ $MICROPHONES == 2 ]; then
+        {
+        ffmpeg \
+            -use_wallclock_as_timestamps 1 -f v4l2 -thread_queue_size 5096 -input_format yuyv422 \
+                -vcodec h264 -s 1280x720 -r 24 -i /dev/video0 \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s16le -ac 2 -ar 32000 -i hw:CARD=C920 \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s24le -ac 2 -ar 44100 -i hw:CARD=AT2020USBi \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s24le -ac 2 -ar 44100 -i hw:CARD=AT2020USBi_1 \
+            -movflags +faststart \
+            -map 0 -c:v copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_video_%04d.mp4" \
+            -map 1 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_1_%04d.wav" \
+            -map 2 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_2_%04d.wav" \
+            -map 3 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_3_%04d.wav" \
+            2> "${FILENAME}_info.txt"
+        };
+    fi;
+    };
+elif [ $WEBCAMS == 2 ]; then
+    {
+    if [ $MICROPHONES == 0  ]; then
+        {
+        ffmpeg \
+            -use_wallclock_as_timestamps 1 -f v4l2 -thread_queue_size 5096 -input_format yuyv422 \
+                -vcodec h264 -s 1280x720 -r 24 -i /dev/video0 \
+            -use_wallclock_as_timestamps 1 -f v4l2 -thread_queue_size 5096 -input_format yuyv422 \
+                -vcodec h264 -s 1280x720 -r 24 -i /dev/video2 \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s16le -ac 2 -ar 32000 -i hw:CARD=C920 \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s16le -ac 2 -ar 32000 -i hw:CARD=C920_1 \
+            -movflags +faststart \
+            -map 0 -c:v copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_video_1_%04d.mp4" \
+            -map 1 -c:v copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_video_2_%04d.mp4" \
+            -map 2 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_1_%04d.wav" \
+            -map 3 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_2_%04d.wav" \
+            2> "${FILENAME}_info.txt"
+        };
+    elif [ $MICROPHONES == 1 ]; then
+        {
+        ffmpeg \
+            -use_wallclock_as_timestamps 1 -f v4l2 -thread_queue_size 5096 -input_format yuyv422 \
+                -vcodec h264 -s 1280x720 -r 24 -i /dev/video0 \
+            -use_wallclock_as_timestamps 1 -f v4l2 -thread_queue_size 5096 -input_format yuyv422 \
+                -vcodec h264 -s 1280x720 -r 24 -i /dev/video2 \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s16le -ac 2 -ar 32000 -i hw:CARD=C920 \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s16le -ac 2 -ar 32000 -i hw:CARD=C920_1 \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s24le -ac 2 -ar 44100 -i hw:CARD=AT2020USBi \
+            -movflags +faststart \
+            -map 0 -c:v copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_video_1_%04d.mp4" \
+            -map 1 -c:v copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_video_2_%04d.mp4" \
+            -map 2 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_1_%04d.wav" \
+            -map 3 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_2_%04d.wav" \
+            -map 4 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_3_%04d.wav" \
+            2> "${FILENAME}_info.txt"
+        };
+    elif [ $MICROPHONES == 2 ]; then
+        {
+        ffmpeg \
+            -use_wallclock_as_timestamps 1 -f v4l2 -thread_queue_size 5096 -input_format yuyv422 \
+                -vcodec h264 -s 1280x720 -r 24 -i /dev/video0 \
+            -use_wallclock_as_timestamps 1 -f v4l2 -thread_queue_size 5096 -input_format yuyv422 \
+                -vcodec h264 -s 1280x720 -r 24 -i /dev/video2 \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s16le -ac 2 -ar 32000 -i hw:CARD=C920 \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s16le -ac 2 -ar 32000 -i hw:CARD=C920_1 \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s24le -ac 2 -ar 44100 -i hw:CARD=AT2020USBi \
+            -use_wallclock_as_timestamps 1 -f alsa -thread_queue_size 5096 \
+                -acodec pcm_s24le -ac 2 -ar 44100 -i hw:CARD=AT2020USBi_1 \
+            -movflags +faststart \
+            -map 0 -c:v copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_video_1_%04d.mp4" \
+            -map 1 -c:v copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_video_2_%04d.mp4" \
+            -map 2 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_1_%04d.wav" \
+            -map 3 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_2_%04d.wav" \
+            -map 4 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_3_%04d.wav" \
+            -map 5 -c:a copy -f segment -segment_time 60 -metadata date="$(date +%s.%N)" "${FILENAME}_audio_4_%04d.wav" \
+            2> "${FILENAME}_info.txt"
+        };
+    fi;
+    };
+fi;

@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="lock-container">
+    <div class="lock-subcontainer">
+        <h3>
+            <b>Insert your USB key</b>
+        </h3>
+    </div>
+    <div class="lock-subcontainer">
+        <span class="lock"></span>
+    </div>
+    <div class="warning lock-subcontainer">
+        <p style="color: #9dcfff">
+            Tap the screen once to unlock.
+        </p><br>
+    </div>
+</div>
+
+
+<script>
+document.body.addEventListener('click', function () {
+    $.ajax({
+        url: "/check_usb",
+        type : 'GET',
+        success : function(data) {
+            setTimeout(function(){ 
+                $(".lock").toggleClass('unlocking');
+            }, 1000);
+            if (data.verified) {
+                setTimeout(function(){
+                    $(".warning").html("");
+                    $(".lock").toggleClass('unlocked');
+                }, 500);
+                window.location.href = "{{ url_for('unlock') }}";
+            } else {
+                $(".warning").html("Unable to read key. Please try again.");
+            }
+            $(".lock").css("boarder", "3px solid var(--unlocked-color)");
+        },
+        error : function(data) {
+            $(".warning").html("Please insert a key and try again.");
+        }
+    });
+});
+</script>
+{% endblock %}

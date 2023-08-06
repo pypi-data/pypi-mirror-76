@@ -1,0 +1,27 @@
+{% extends "sidebar.html" %}
+{% block main %}
+<form action="{{ url_for('get_site') }}" methods="POST, GET">
+        <div style="width:70%; margin-left:auto; margin-right:auto; color: white; text-align: center; margin-bottom: 20px; margin-top: -20px;">
+            <h3>Please Enter Your Registration Code</h3>
+        </div>
+        <div style="width: 60%; margin-left:auto; margin-right:auto; margin-top: 40px;" >
+                <select name="site" id="site" class="js-example-basic-single" style="width:100%">
+                    {% for s in sites %}
+                        {% if s == site %}
+                            <option value="{{ site_num }}" selected="selected">{{ sites[s][0] }}</option>
+                        {% else %}
+                            <option value="{{ site_num }}">{{ sites[s][0] }}</option>
+                        {% endif %}
+                    {% endfor %}
+                </select>
+         </div>
+<div class="nav-buttons">
+        <div>
+            <button type="submit" name="btn" class="btn recbtn" value="back">Back</button>
+            {% if  not configured %}
+            <button type="submit" name="btn" class="btn recbtn" value="continue">Continue</button>
+            {% endif %}
+        </div>
+    </div>
+</form>
+{% endblock %}

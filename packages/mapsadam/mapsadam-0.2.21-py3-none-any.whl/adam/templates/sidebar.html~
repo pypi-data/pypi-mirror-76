@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<script src="{{ url_for('static',filename='styles/js/sidebar.js') }}"></script>
+
+{% if sidebar.active %}
+<script>
+window.onload = open;
+</script>
+{% endif %}
+
+<div id="notification_container">
+    {% if uploading %}
+        <i id="notification_icon_upload" class="fa fa-upload fa-lg fa-fw"></i>
+    {% endif %}
+     {% if wifi %}
+            <i id="notification_icon" class="fa fa-wifi fa-lg fa-fw"></i>
+    {% else %}
+            <i id="notification_icon" class="fa fa-wifi fa-lg fa-fw"></i>
+            <i id="notification_icon_overlay" class="fa fa-times fa-lg fa-fw"></i>
+    {% endif %}
+    <span class="circle">{{ initials }}</span>
+
+</div>
+
+<div class="sidebar" id="menu">
+    <nav class="sidebar-nav" id="sidebar">
+       {% if sidebar.title %}
+        <h3 class="sidebar-title">
+            <div class="sidebar-icon-box">
+                <i class="{{ sidebar.icon }} sidebar-icon"></i>
+            </div>
+            <div class="sidebar-title-box">
+                {{ sidebar.title }}
+            <div>
+        </h3>
+        <br>
+        {% endif %}
+        <form action="{{ url_for(sidebar.method) }}" methods="POST, GET">
+            {% for item in sidebar.submenu %}
+                <button class="sidebar-btn {% if item.name == name %}active{% endif %}" type="submit" name='btn' value="{{ item.name }}">
+                    <div class="sidebar-icon-box">
+                        <i class="{{ item.icon }} sidebar-icon"></i>
+                    </div>
+                    <div class="sidebar-item-box">
+                        {{ item.title }}
+                    </div>
+                </button>
+            {% endfor %}
+        </form>
+    </nav>
+</div>
+<div class="main" id="main">
+    {% if not sidebar.hidden %}
+    <button class="btn toggle-btn" id="collapse-btn" onclick="toggle()">&#9776</button>
+    {% endif %}
+
+    {% block main %}
+    {% endblock %}
+</div>
+{% endblock %}

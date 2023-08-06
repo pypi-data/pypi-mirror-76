@@ -1,0 +1,44 @@
+Metadata-Version: 2.0
+Name: mapsadam
+Version: 0.2.21
+Summary: Analog to Digital Audiovisual Machine
+Home-page: UNKNOWN
+Author: John Poncini
+Author-email: john@mapsbcorp.com
+License: GPLv2
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Capture/Recording
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Multimedia :: Video :: Capture
+Requires-Dist: boto3
+Requires-Dist: flask
+Requires-Dist: iso3166
+Requires-Dist: pyudev
+
+
+ADAM: Analog to Digital Audiovisual Machine
+################################################
+
+ADAM is a graphical audio and video capture tool for recording the MAPS 
+sponsored MDMA-assisted psychotherapy sessions in their Phase 3 clinical trials.
+Its goal is to steamline the process of recording and transfer of recorded 
+clinical therapy sessions. 
+
+
+Installation
+============
+
+This package should be installed on a ADAM Raspian image using ``pip``.
+
+    ``sudo pip3 install mapsadam`` 
+
+Contact 'me <john@mapsbcorp.com>'_  for the image file.
+
+

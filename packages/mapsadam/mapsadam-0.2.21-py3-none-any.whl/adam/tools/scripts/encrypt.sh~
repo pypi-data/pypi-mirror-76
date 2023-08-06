@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+
+# A Simple Shell Script to Package, Encrypt, and Sign Media Files
+
+while read d;
+    do data+=($d);
+done < "/etc/opt/adam/default.info"
+declare -p data
+
+FILEPATH="/var/local/media/${data[0]}_${data[2]}_${data[3]}"
+FILENAME="${data[0]}_${data[2]}_${data[3]}_"$(date +%Y%m%d-%H%M%S)
+STUDY="${data[0]}"
+
+SECRET=$(cat /tmp/session.conf | grep secret | cut -f2 -d'=')
+
+if [ $STUDY == "MT1" ] || [ $STUDY == "MT2" ]; then
+    sudo mount /dev/sda2 /mnt/video -o uid=pi,gid=pi
+    sudo cp ${FILEPATH} /mnt/video/
+
+else
+    openssl rand 128 > /tmp/${FILENAME}.key
+
+    tar -czv ${FILEPATH} | openssl aes-256-cbc -out \
+        /var/local/pkg/${FILENAME}.tar.gz.enc -pass file:"/tmp/${FILENAME}.key"
+
+    openssl rsautl -encrypt -inkey /etc/keys/public.pem -pubin \
+        -in /tmp/${FILENAME}.key -out /var/local/pkg/${FILENAME}.key.enc
+
+    cat /var/local/pkg/${FILENAME}.tar.gz.enc | sha256sum > /tmp/${FILENAME}.sig
+
+    openssl aes-256-cbc -nosalt -in /tmp/${FILENAME}.sig \
+        -out /tmp/${FILENAME}.sig.enc \
+        -pass pass:$(echo $SECRET)
+
+    USER_ID=$(cat /tmp/session.conf | grep user_id | cut -f2 -d'=')
+    FIRST_NAME=$(cat /tmp/session.conf | grep first_name | cut -f2 -d'=')
+    LAST_NAME=$(cat /tmp/session.conf | grep last_name | cut -f2 -d'=')
+    SIGNATURE=$(cat /tmp/${FILENAME}.sig.enc | sha256sum)
+    USER_NAME=$(echo $FIRST_NAME'_'$LAST_NAME | awk '{print tolower($0)}')
+
+    JSON='{"user_id":"'$USER_ID'","user_name":"'$USER_NAME'","signature":"'${SIGNATURE::-3}'"}'
+
+    echo $JSON > /tmp/metadata.json
+
+    rm /tmp/${FILENAME}.key
+    rm /tmp/${FILENAME}.sig
+    rm -R $FILEPATH
+
+    bash -c "sudo supervisorctl start upload"
+
+fi;

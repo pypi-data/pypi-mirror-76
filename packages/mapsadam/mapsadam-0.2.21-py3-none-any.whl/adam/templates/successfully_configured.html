@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="main welcome">
+    <img class="logo" src="{{ url_for('static', filename='img/logo.png') }}">
+    <h2><b>You have successfully configured your ADAM!</b></h2>
+    <form action="{{ url_for('complete_configuration') }}" methods="POST, GET">
+        <button type="submit" class="btn recbtn">Continue</button>
+    </form>
+</div>
+{% endblock %}
