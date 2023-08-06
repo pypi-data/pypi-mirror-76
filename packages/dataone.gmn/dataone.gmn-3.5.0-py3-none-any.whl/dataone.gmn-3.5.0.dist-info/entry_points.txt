@@ -1,0 +1,3 @@
+[console_scripts]
+d1-gmn = d1_gmn.manage:main
+
