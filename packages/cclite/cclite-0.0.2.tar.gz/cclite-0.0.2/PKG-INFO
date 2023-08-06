@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: cclite
+Version: 0.0.2
+Summary: A light Common Crawl API for Python
+Home-page: https://github.com/morrisalp/cclite
+Author: Morris Alper
+Author-email: morrisalp@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6

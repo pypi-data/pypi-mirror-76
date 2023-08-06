@@ -1,0 +1,8 @@
+README.md
+setup.py
+cclite/__init__.py
+cclite/common_crawl.py
+cclite.egg-info/PKG-INFO
+cclite.egg-info/SOURCES.txt
+cclite.egg-info/dependency_links.txt
+cclite.egg-info/top_level.txt
