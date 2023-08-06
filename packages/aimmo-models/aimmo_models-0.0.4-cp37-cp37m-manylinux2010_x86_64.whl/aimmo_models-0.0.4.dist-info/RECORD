@@ -1,0 +1,12 @@
+aimmo_models-0.0.4.data/purelib/aimmo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aimmo_models-0.0.4.data/purelib/aimmo/models.py,sha256=2yYQ3laaEfBCKjBW6wwLQVh6664zZXP-QnwNhmxGHd0,3621
+aimmo_models-0.0.4.data/purelib/aimmo/models/__init__.py,sha256=anI17LHVnjVpyAi8t8NiCzS84rFMUf3BHQg7bUcu4RY,204
+aimmo_models-0.0.4.data/purelib/aimmo/models/_model.py,sha256=2yYQ3laaEfBCKjBW6wwLQVh6664zZXP-QnwNhmxGHd0,3621
+aimmo_models-0.0.4.data/purelib/aimmo/models/model.py,sha256=yQKbTcM2feksfTJMiheIRXjBKdVKgLzfjYY1AI5uAfE,3659
+aimmo_models-0.0.4.data/purelib/aimmo/models/server.py,sha256=pxBlDshGYQu7ffIgll5Rcu0w53-BNXh3TWHKtPDrR-A,2283
+aimmo_models-0.0.4.dist-info/LICENSE,sha256=SxcjxpLenL8Ezy74UBCrmK6hBsbrOuoEmpJu51XYOqY,11410
+aimmo_models-0.0.4.dist-info/METADATA,sha256=w7Wac57hlcJqAgyarXiNb1u7kHulqxOvIFL09dHGGGI,1006
+aimmo_models-0.0.4.dist-info/WHEEL,sha256=fgEDqTvJ7t6Dks7wJIP8MuGNJfT7rZstMDs3LUSwCl8,112
+aimmo_models-0.0.4.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+aimmo_models-0.0.4.dist-info/top_level.txt,sha256=ivuC2c7aKURvXga7K2eymsiiwE-BJlU0CFnrnLrElrg,6
+aimmo_models-0.0.4.dist-info/RECORD,,
