@@ -1,0 +1,4 @@
+[console_scripts]
+sagasu=sagasu.app:app
+sagasu-web=streamlitrunsagasu/ui.py
+
