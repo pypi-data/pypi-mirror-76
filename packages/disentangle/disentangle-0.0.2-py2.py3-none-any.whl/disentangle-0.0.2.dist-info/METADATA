@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: disentangle
+Version: 0.0.2
+Summary: Quickly create disentanglement pipelines for machine learning research.
+Home-page: https://github.com/yukunchen113/disentangle
+Author: Yukun Chen
+Author-email: yukunchenlib@gmail.com
+License: MIT
+Project-URL: Documentation, https://disentangle.readthedocs.io/
+Project-URL: Changelog, https://disentangle.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/yukunchen113/disentangle/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+
+========
+Overview
+========
+
+
+
+Quickly create disentanglement pipelines for machine learning research.
+
+This has prebuilt and functionality for tensorflow function wrappers, to make changing the architecture easy. Though it is not too hard to use keras, viewing the whole architecture on one page and making comparisons between different archtectures might be a bit of a pain and prone to errors. 
+
+Though this library can be used to wrap any tensorflow (or custom) keras module, making it useful for a variety of different fields of deep learning research. This library is called disentangle as my main focus of research is on disentanglement and much of the functionality (such as visualization tools, prebuilt architectures, etc) are biased towards that.
+
+There are a few parts of this which use functionality from disentanglement_lib, so please take a look at their work. This code is contained in other_library_tools.
+
+Other than tensorflow wrappers, this library contains useful functionality for datasets (custom, if needed), visualizations, and general useful tools such as timers and path managers.
+
+Thanks to ionelmc's cookiecutter-pylibrary for the generation of a pypi library with many good practices. So I could easily convert this library to be deployable to pypi.
+
+* Free software: MIT license
+
+Installation
+============
+
+::
+
+    pip install disentangle
+
+You can also install the in-development version with::
+
+    pip install https://github.com/yukunchen113/disentangle/archive/master.zip
+
+
+Documentation
+=============
+
+
+https://disentangle.readthedocs.io/
+
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.0.0 (2020-08-16)
+------------------
+
+* First release on PyPI.
+
+
