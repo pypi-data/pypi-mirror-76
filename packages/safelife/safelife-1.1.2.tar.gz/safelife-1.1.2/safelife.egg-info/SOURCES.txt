@@ -1,0 +1,147 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+/Users/maxwain/programming/safelife/safelife/speedups_src/advance_board.c
+/Users/maxwain/programming/safelife/safelife/speedups_src/fast_render.c
+/Users/maxwain/programming/safelife/safelife/speedups_src/gen_board.c
+/Users/maxwain/programming/safelife/safelife/speedups_src/iset.c
+/Users/maxwain/programming/safelife/safelife/speedups_src/module.c
+/Users/maxwain/programming/safelife/safelife/speedups_src/random.c
+/Users/maxwain/programming/safelife/safelife/speedups_src/wrapped_label.c
+safelife/__init__.py
+safelife/__main__.py
+safelife/env_wrappers.py
+safelife/file_finder.py
+safelife/helper_utils.py
+safelife/interactive_game.py
+safelife/keyboard_input.py
+safelife/level_iterator.py
+safelife/proc_gen.py
+safelife/random.py
+safelife/render_graphics.py
+safelife/render_text.py
+safelife/safelife_env.py
+safelife/safelife_game.py
+safelife/safelife_logger.py
+safelife/side_effects.py
+safelife/sprites.png
+safelife.egg-info/PKG-INFO
+safelife.egg-info/SOURCES.txt
+safelife.egg-info/dependency_links.txt
+safelife.egg-info/entry_points.txt
+safelife.egg-info/requires.txt
+safelife.egg-info/top_level.txt
+safelife/levels/benchmarks/v0.1/append-dynamic-1.npz
+safelife/levels/benchmarks/v0.1/append-dynamic-2.npz
+safelife/levels/benchmarks/v0.1/append-dynamic-3.npz
+safelife/levels/benchmarks/v0.1/append-dynamic-4.npz
+safelife/levels/benchmarks/v0.1/append-still-1.npz
+safelife/levels/benchmarks/v0.1/append-still-2.npz
+safelife/levels/benchmarks/v0.1/append-still-3.npz
+safelife/levels/benchmarks/v0.1/append-still-4.npz
+safelife/levels/benchmarks/v0.1/append-stochastic-1.npz
+safelife/levels/benchmarks/v0.1/append-stochastic-2.npz
+safelife/levels/benchmarks/v0.1/append-stochastic-3.npz
+safelife/levels/benchmarks/v0.1/append-stochastic-4.npz
+safelife/levels/benchmarks/v0.1/append-stochastic-osc-1.npz
+safelife/levels/benchmarks/v0.1/append-stochastic-osc-2.npz
+safelife/levels/benchmarks/v0.1/bipole.npz
+safelife/levels/benchmarks/v0.1/box-side-effect.npz
+safelife/levels/benchmarks/v0.1/prune-dynamic-1.npz
+safelife/levels/benchmarks/v0.1/prune-dynamic-2.npz
+safelife/levels/benchmarks/v0.1/prune-dynamic-3.npz
+safelife/levels/benchmarks/v0.1/prune-dynamic-4.npz
+safelife/levels/benchmarks/v0.1/prune-still-1.npz
+safelife/levels/benchmarks/v0.1/prune-still-2.npz
+safelife/levels/benchmarks/v0.1/prune-still-3.npz
+safelife/levels/benchmarks/v0.1/prune-still-4.npz
+safelife/levels/benchmarks/v0.1/prune-stochastic-1.npz
+safelife/levels/benchmarks/v0.1/prune-stochastic-2.npz
+safelife/levels/benchmarks/v0.1/prune-stochastic-3.npz
+safelife/levels/benchmarks/v0.1/prune-stochastic-4.npz
+safelife/levels/benchmarks/v0.1/prune-stochastic-osc-1.npz
+safelife/levels/benchmarks/v0.1/prune-stochastic-osc-2.npz
+safelife/levels/benchmarks/v1.0/append-dynamic.npz
+safelife/levels/benchmarks/v1.0/append-spawn.npz
+safelife/levels/benchmarks/v1.0/append-still.npz
+safelife/levels/benchmarks/v1.0/navigation.npz
+safelife/levels/benchmarks/v1.0/prune-dynamic.npz
+safelife/levels/benchmarks/v1.0/prune-spawn.npz
+safelife/levels/benchmarks/v1.0/prune-still-hard.npz
+safelife/levels/benchmarks/v1.0/prune-still.npz
+safelife/levels/examples/color test.npz
+safelife/levels/examples/containment.npz
+safelife/levels/examples/controlled expansion.npz
+safelife/levels/examples/controlled predation.npz
+safelife/levels/examples/grow still life.npz
+safelife/levels/examples/hard removal.npz
+safelife/levels/examples/move still life.npz
+safelife/levels/examples/one way.npz
+safelife/levels/examples/predator.npz
+safelife/levels/examples/rainbow spawn.npz
+safelife/levels/examples/simple removal.npz
+safelife/levels/examples/simple still life.npz
+safelife/levels/examples/sokuban.npz
+safelife/levels/examples/spawn and oscillate 1.npz
+safelife/levels/examples/spawn and oscillate 2.npz
+safelife/levels/examples/super weed.npz
+safelife/levels/mazes/00 - Empty.npz
+safelife/levels/mazes/01 - Simple.npz
+safelife/levels/mazes/02 - Wall.npz
+safelife/levels/mazes/03 - Two paths.npz
+safelife/levels/mazes/04 - Two paths 2.npz
+safelife/levels/mazes/05 - Tick tock.npz
+safelife/levels/mazes/06 - Bipole.npz
+safelife/levels/mazes/07 - Bipole 2.npz
+safelife/levels/mazes/08 - Spark.npz
+safelife/levels/mazes/09 - Unix dash.npz
+safelife/levels/mazes/10 - Fumarole dash.npz
+safelife/levels/patterns/acorn.npz
+safelife/levels/patterns/glider.npz
+safelife/levels/patterns/growth.npz
+safelife/levels/patterns/rpentomino.npz
+safelife/levels/puzzles/01 - Corridor.npz
+safelife/levels/puzzles/02 - Block.npz
+safelife/levels/puzzles/03 - Fragile block.npz
+safelife/levels/puzzles/04 - Tub.npz
+safelife/levels/puzzles/05 - Beehive.npz
+safelife/levels/puzzles/06 - Tricky ship.npz
+safelife/levels/puzzles/07 - Obstacle.npz
+safelife/levels/puzzles/08 - Breakout.npz
+safelife/levels/puzzles/09 - Unstable.npz
+safelife/levels/puzzles/10 - Pruning.npz
+safelife/levels/puzzles/11 - Jungle.npz
+safelife/levels/puzzles/12 - Loaf.npz
+safelife/levels/puzzles/13 - Pool.npz
+safelife/levels/puzzles/14 - Blinky maze.npz
+safelife/levels/puzzles/15 - Blue blink.npz
+safelife/levels/puzzles/16 - Chaos contained.npz
+safelife/levels/puzzles/17 - Total chaos.npz
+safelife/levels/puzzles/18 - Inside out.npz
+safelife/levels/random/_defaults.yaml
+safelife/levels/random/append-dynamic.yaml
+safelife/levels/random/append-spawn.yaml
+safelife/levels/random/append-still-easy.yaml
+safelife/levels/random/append-still.yaml
+safelife/levels/random/challenge.yaml
+safelife/levels/random/navigation.yaml
+safelife/levels/random/prune-dynamic.yaml
+safelife/levels/random/prune-spawn.yaml
+safelife/levels/random/prune-still-easy.yaml
+safelife/levels/random/prune-still-hard.yaml
+safelife/levels/random/prune-still.yaml
+safelife/speedups_src/advance_board.c
+safelife/speedups_src/advance_board.h
+safelife/speedups_src/constants.h
+safelife/speedups_src/fast_render.c
+safelife/speedups_src/fast_render.h
+safelife/speedups_src/gen_board.c
+safelife/speedups_src/gen_board.h
+safelife/speedups_src/iset.c
+safelife/speedups_src/iset.h
+safelife/speedups_src/module.c
+safelife/speedups_src/random.c
+safelife/speedups_src/random.h
+safelife/speedups_src/wrapped_label.c
+safelife/speedups_src/wrapped_label.h
