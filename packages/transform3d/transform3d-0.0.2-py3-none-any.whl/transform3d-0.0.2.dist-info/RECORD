@@ -1,0 +1,10 @@
+transform3d/__init__.py,sha256=NIOu7_4Xia6UGah8_mflaopfthI4VhxdPIOpEUmL7wQ,74
+transform3d/scene.py,sha256=dyYvl7hL-KutKZ6Daux-7SM9UUtIHM4hVteRcDW2erQ,3654
+transform3d/transform.py,sha256=Qr1zGlD1OD-18qsN2r9H5Jwzld-3_on6bYLg9HaEQig,4658
+transform3d/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+transform3d/tests/test_scene.py,sha256=sBQx0m5fjkRR3Kdx0vN1LQrant9DI5t5bjksuv1xFso,1191
+transform3d/tests/test_transform.py,sha256=zd-eLT-DCeqzxTSJPY2dgBPtpd7AHwi6J8nnDhyrUys,902
+transform3d-0.0.2.dist-info/METADATA,sha256=oRTmgawf6_TbEMG4bEz8yAM5IEpLFqIsBOcdAvkWrOY,2205
+transform3d-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+transform3d-0.0.2.dist-info/top_level.txt,sha256=NhnipZCPNLK_FGUzCShe3zJ__U-XGH-nSXNy2xt8ctc,12
+transform3d-0.0.2.dist-info/RECORD,,
