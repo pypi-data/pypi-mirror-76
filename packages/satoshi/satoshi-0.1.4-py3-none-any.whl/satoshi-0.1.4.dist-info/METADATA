@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: satoshi
+Version: 0.1.4
+Summary: Manipulate satoshi-related prices in Python 3, simple and sweet.
+Home-page: https://github.com/quan-digital/satoshi/
+Author: canokaue
+Author-email: kaue.cano@quan.digital
+License: MIT
+Download-URL: https://github.com/quan-digital/satoshi/dist/satoshi-0.1.4.tar.gz
+Keywords: satoshi,satoshi-nakamoto,bitcoin,crypto-api,bitcoin-price,bitcoin-api,satoshi-price,digital-currency,fiat
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.23.0)
+
+# > satoshi
+Manipulate satoshi-related prices in Python 3, simple and sweet 💵 ₿🍬
+
+<img src="img/ccover.png" align="center" />
+
+#### Why complicate?
+
+The idea behind this project is to provide Python programmers with a simple, light and intuitive package to manipulate satoshis.
+
+This can be extremely useful on future/perpetual markets and crypto exchanges that don't automatically associate XBT balances to an USD value. With > satoshi you can use a single function to convert your satoshis to any fiat currency :)
+
+No need to handle more requests and currency mangling in your code, simply use > satoshi and, therefore, [CryptoCompare's](https://www.cryptocompare.com) open API.
+
+#### Installation
+
+```bash
+pip install satoshi
+```
+
+#### Usage
+
+```python
+include satoshi
+satoshi.to_fiat(984223) # satoshi to usd
+satoshi.to_fiat(18923, 'BRL') # satoshi to reais
+```
+
+Feel free to run example.py for a demo.
+
+#### Notes
+
+Project idealized while listening to [this](https://open.spotify.com/track/3X4dJnyoxhFbNw1bX8qas0?si=M4xhiD7vQyerQnMLxfuyfQ) song.
+
+Feel free to become a collaborator.
+
