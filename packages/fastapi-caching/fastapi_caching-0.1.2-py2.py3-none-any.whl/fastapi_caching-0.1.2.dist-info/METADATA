@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: fastapi-caching
+Version: 0.1.2
+Summary: Cache library for FastAPI with tag based invalidation
+Home-page: https://github.com/jmagnusson/fastapi-caching
+Author: Jacob Magnusson
+Author-email: m@jacobian.se
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: cachetools
+Provides-Extra: all
+Requires-Dist: aioredis ; extra == 'all'
+Requires-Dist: uvicorn (==0.11.5) ; extra == 'all'
+Requires-Dist: databases[sqlite] ; extra == 'all'
+Requires-Dist: pytest (>=5.4.0) ; extra == 'all'
+Requires-Dist: pytest-cov ; extra == 'all'
+Requires-Dist: pytest-asyncio ; extra == 'all'
+Requires-Dist: requests ; extra == 'all'
+Requires-Dist: httpx ; extra == 'all'
+Requires-Dist: fakeredis ; extra == 'all'
+Requires-Dist: lupa ; extra == 'all'
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: isort ; extra == 'all'
+Requires-Dist: watchgod (<0.7,>=0.6) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: watchgod (<0.7,>=0.6) ; extra == 'dev'
+Provides-Extra: examples
+Requires-Dist: uvicorn (==0.11.5) ; extra == 'examples'
+Requires-Dist: databases[sqlite] ; extra == 'examples'
+Provides-Extra: redis
+Requires-Dist: aioredis ; extra == 'redis'
+Provides-Extra: test
+Requires-Dist: pytest (>=5.4.0) ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-asyncio ; extra == 'test'
+Requires-Dist: requests ; extra == 'test'
+Requires-Dist: httpx ; extra == 'test'
+Requires-Dist: fakeredis ; extra == 'test'
+Requires-Dist: lupa ; extra == 'test'
+
+# FastAPI-Caching
+
+Cache library for FastAPI with tag based invalidation
+
+## Features
+
+- Automatic response cache fetching using FastAPI dependencies
+- Fine-grained control over when to return and set the cache
+- Ability to invalidate cached objects based on a concept of associated tags. See [examples/redis_app](/examples/redis_app) for an example.
+
+## Installation
+
+With in-memory support only:
+```bash
+pip install fastapi-caching
+```
+
+NOTE: In-memory backend is only recommended when your app is only run as a single instance.
+
+With redis support (through the [aioredis](https://aioredis.readthedocs.io/) library):
+```bash
+pip install fastapi-caching[redis]
+```
+
+## Usage examples
+
+Examples on how to use [can be found here](/examples).
+
+
+## Changelog
+
+### v0.1.2, 2020-08-16
+
+- Feature: Support lazy configuration of caching backend
+
+
