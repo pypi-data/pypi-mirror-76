@@ -1,0 +1,14 @@
+receiptparser/__init__.py,sha256=Jzb_RfgvXCrm_SQ4AfeGVi1N36YybxnM5mpyxrnihgI,33
+receiptparser/config.py,sha256=ZAphfyuF5yc8K0pW8IiQ2SD5ATmwyjveX5d4Mhqh0Dk,374
+receiptparser/parser.py,sha256=yW55ONMJjwItc01hB1sFN9wvCziZ4de6XscCnVEZYjQ,1380
+receiptparser/receipt.py,sha256=ppdgLPIUI_VHoZjWUh5JyWdeNXuMMx725SklrZQzou4,3712
+receiptparser/util.py,sha256=uurX_OMc7Z_AEuX2Ka6PbJ4D6TeyidYg04dWFoJXdto,185
+receiptparser/version.py,sha256=517UgydKkbWfFo17-Eh4NBXKyqz_4zrQR0goKb828CE,75
+receiptparser-1.0.data/scripts/receiptparser,sha256=5pHI8Kl_MwmWrBDiVf-Gfzi5E1RpJ-55kwAtdx4N-kM,3729
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_parser.py,sha256=qYyAn25kwMYDTVSGKsXtDFcw3y-3TAHtnr1b96een_o,6563
+receiptparser-1.0.dist-info/COPYING,sha256=-cTHe6o4KABO5UuKTy2y6I7USmI3pJOWW_VR-sD8ti0,1023
+receiptparser-1.0.dist-info/METADATA,sha256=p76xE2Se2TBA-W6cxugVq51jToqBB9cUqtrbPwAGI4A,978
+receiptparser-1.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+receiptparser-1.0.dist-info/top_level.txt,sha256=SpbJ7xgyOfpLiznXdgeKE9J2gYnU32GhM0S18DHJFE4,20
+receiptparser-1.0.dist-info/RECORD,,

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: receiptparser
+Version: 1.0
+Summary: Receipt and bill parser using OCR
+Home-page: https://github.com/knipknap/receiptparser/
+Author: Samuel Abels
+Author-email: knipknap@gmail.com
+License: MIT
+Keywords: receipt bill parser ocr fuzzy scan library
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Environment :: Console
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing
+
+Use OCR to parse an image of a receipt or bill, and use fuzzy matching to
+extract information like the dollar (or Euro) amount, the company name,
+the date and the postal code.
+
