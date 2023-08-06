@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: serverless_cache
+Version: 1.1
+Summary: Using DigitalOcean s3 spaces service just 5$ unlimited cache service package
+Home-page: https://github.com/AldimGeldi/serverless_cache
+Author: AldimGeldi
+Author-email: teknik@aldimgeldi.com
+License: MIT
+Download-URL: https://github.com/AldimGeldi/serverless_cache/archive/first_stable_release.zip
+Description: UNKNOWN
+Keywords: serverless,cache,serverless-db,serverless-cache
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
