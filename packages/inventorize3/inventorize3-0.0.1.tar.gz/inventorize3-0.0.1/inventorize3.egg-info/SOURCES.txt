@@ -1,0 +1,10 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+setup.py
+inventorize3/__init__.py
+inventorize3.egg-info/PKG-INFO
+inventorize3.egg-info/SOURCES.txt
+inventorize3.egg-info/dependency_links.txt
+inventorize3.egg-info/requires.txt
+inventorize3.egg-info/top_level.txt
