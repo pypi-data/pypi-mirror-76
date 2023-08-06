@@ -1,0 +1,6 @@
+xdg
+urwid
+urwid_readline
+
+[:platform_system == "Windows"]
+windows-curses
