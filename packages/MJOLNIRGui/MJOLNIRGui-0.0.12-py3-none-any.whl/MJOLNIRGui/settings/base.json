@@ -1,0 +1,7 @@
+{
+    "app_name": "MJOLNIRGui",
+    "author": "Jakob Lass",
+    "main_module": "MJOLNIRGui/main.py",
+    "version": "0.0.11",
+    "public_settings": ["app_name", "version"]
+}
