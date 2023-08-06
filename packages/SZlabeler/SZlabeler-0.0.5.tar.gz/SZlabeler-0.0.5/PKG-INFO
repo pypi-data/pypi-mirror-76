@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: SZlabeler
+Version: 0.0.5
+Summary: A rule-based toolkit for resume classification
+Home-page: https://github.com/helloliuzw/parser
+Author: liuzw
+Author-email: helloliuzw@163.com
+License: MIT Licence
+Description: A rule-based toolkit for resume classification, applied in ShenZhen
+Keywords: pip,shorttext,rule,career
+Platform: any
