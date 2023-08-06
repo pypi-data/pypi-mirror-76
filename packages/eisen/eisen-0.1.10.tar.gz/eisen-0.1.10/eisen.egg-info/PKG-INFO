@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: eisen
+Version: 0.1.10
+Summary: Eisen Meta Package (installs all components of Eisen)
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
