@@ -1,0 +1,3 @@
+[console_scripts]
+neato-coding-challenge-tcp-client=neato_coding_challenge_tcp_client.__main__:main
+
