@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+j_basic_stock_prediction/__init__.py
+j_basic_stock_prediction/predict_stocks.py
+j_basic_stock_prediction.egg-info/PKG-INFO
+j_basic_stock_prediction.egg-info/SOURCES.txt
+j_basic_stock_prediction.egg-info/dependency_links.txt
+j_basic_stock_prediction.egg-info/requires.txt
+j_basic_stock_prediction.egg-info/top_level.txt
+j_basic_stock_prediction/pytransform/__init__.py
+j_basic_stock_prediction/pytransform/platforms/darwin/x86_64/_pytransform.dylib
+j_basic_stock_prediction/pytransform/platforms/linux/x86_64/_pytransform.so
+j_basic_stock_prediction/pytransform/platforms/windows/x86_64/_pytransform.dll
