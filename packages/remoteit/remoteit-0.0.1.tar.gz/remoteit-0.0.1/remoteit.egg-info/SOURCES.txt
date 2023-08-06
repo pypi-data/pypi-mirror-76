@@ -1,0 +1,9 @@
+README.md
+setup.py
+remoteit/__init__.py
+remoteit/core.py
+remoteit/queue.py
+remoteit.egg-info/PKG-INFO
+remoteit.egg-info/SOURCES.txt
+remoteit.egg-info/dependency_links.txt
+remoteit.egg-info/top_level.txt
