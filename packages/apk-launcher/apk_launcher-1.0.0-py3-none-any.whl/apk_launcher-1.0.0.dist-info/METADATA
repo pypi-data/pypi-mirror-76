@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: apk-launcher
+Version: 1.0.0
+Summary: Easy to handle your apk
+Home-page: https://github.com/ksg97031/apk-launcher
+Author: ksg97031
+Author-email: ksg97031@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+Requires-Dist: androguard
+Requires-Dist: adb
+Requires-Dist: click
+Requires-Dist: rsa
+
+apk-launcher
+============================================================
+| Reinstall provided apk -> Start MainActivity -> Logcat(pid of target)
+
+--------------------
+How to install
+--------------------
+.. code:: sh
+
+  $ pip install apk-launcher
+
+or
+
+.. code:: sh
+
+  $ pip install apk-launcher --global-option=build_ext --global-option="-L/usr/local/opt/openssl/lib" --global-option="-I/usr/local/opt/openssl/include"
+
+--------------------
+How to use
+--------------------
+.. code:: sh
+
+  $ apk-launcher {YOUR_APK_PATH}
+
+''''''''''''''''''''''
+Option: no logcat
+''''''''''''''''''''''
+.. code:: sh
+
+  $ apk-launcher {YOUR_APK_PATH} --nolog  
+
+
