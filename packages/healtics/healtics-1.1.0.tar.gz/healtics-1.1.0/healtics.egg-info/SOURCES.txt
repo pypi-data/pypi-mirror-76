@@ -1,0 +1,7 @@
+README.md
+setup.py
+healtics.egg-info/PKG-INFO
+healtics.egg-info/SOURCES.txt
+healtics.egg-info/dependency_links.txt
+healtics.egg-info/requires.txt
+healtics.egg-info/top_level.txt
