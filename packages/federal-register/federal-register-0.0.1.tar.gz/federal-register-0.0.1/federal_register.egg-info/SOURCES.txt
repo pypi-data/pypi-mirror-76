@@ -1,0 +1,9 @@
+README.md
+setup.py
+federal_register/client.py
+federal_register/fields.py
+federal_register.egg-info/PKG-INFO
+federal_register.egg-info/SOURCES.txt
+federal_register.egg-info/dependency_links.txt
+federal_register.egg-info/requires.txt
+federal_register.egg-info/top_level.txt
