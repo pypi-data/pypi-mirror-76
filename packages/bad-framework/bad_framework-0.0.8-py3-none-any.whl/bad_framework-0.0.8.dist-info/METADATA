@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: bad-framework
+Version: 0.0.8
+Summary: Benchmarking Anomaly Detection (BAD) framework.
+Home-page: UNKNOWN
+Author: Sivam Pasupathipillai
+Author-email: s.pasupathipillai@unitn.it
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+Requires-Dist: Jinja2
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pyod
+Requires-Dist: requests
+Requires-Dist: scikit-learn
+Requires-Dist: tornado
+
+# BAD: a research framework for Benchmarking Anomaly Detection
+The BAD framework (**bad_framework**) is a distributed benchmarking framework for unsupervised anomaly detection algorithms.
+
+Please refer to the [official documentation](https://passiv-me.github.io/bad-framework/) for details.
+
+## Security
+The **BAD framework** lets users execute **arbitrary code** on the server machine.
+
+**DO NOT** deploy on production critical systems or open networks.
+
+Security features might be added in later releases.
+
+Copyright (c) 2020 Sivam Pasupathipillai <s.pasupathipillai@unitn.it>.
+
+All rights reserved.
+
+
