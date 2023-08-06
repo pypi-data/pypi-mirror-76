@@ -1,0 +1,8 @@
+README.txt
+setup.py
+pyrmvtxt.egg-info/PKG-INFO
+pyrmvtxt.egg-info/SOURCES.txt
+pyrmvtxt.egg-info/dependency_links.txt
+pyrmvtxt.egg-info/requires.txt
+pyrmvtxt.egg-info/top_level.txt
+src/pyrmvtxt/pyrmvtxt.py
