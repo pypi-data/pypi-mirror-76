@@ -1,0 +1,11 @@
+django_openapi/__init__.py,sha256=ZPcdWuYNjTXBSYoao22AUccvTkdopXeYBRn43jbxp0M,97
+django_openapi/api.py,sha256=AeH1IIhHQCT4UBGfujso_9lLv87LQjFJyAONcTXvAYg,7121
+django_openapi/cookie.py,sha256=_1iYkq5BygTpAAgjAcZgmlaZphx3aihCP8T4TyHRafU,1707
+django_openapi/params.py,sha256=s2WiJFXt4vgouiroXd_u45cAznW55aT78jlnCL3dfPU,4057
+django_openapi/route.py,sha256=o1Ik9kk2IioS3917sjju5s7uehFGqLebg43aCtD_AuU,10154
+django_openapi/utils.py,sha256=SCIzPtzPBmHJnSb9NYOYJzbo9V7A2O9KiIl-GYsAGRI,296
+django_openapi-0.1.1.4.dist-info/LICENSE,sha256=1vt7sY47FjguZ4jVgpmtTJZ3phozhZzFuBSU8HRP3XU,1066
+django_openapi-0.1.1.4.dist-info/METADATA,sha256=y1eNr7M4-Dd-eoFLF1L1-aHHzrrQzlWBB0hrdAPCg9Q,3580
+django_openapi-0.1.1.4.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+django_openapi-0.1.1.4.dist-info/top_level.txt,sha256=jiEVYvhAf8DSQ9sSqmh_RZcggPocZIoTYsXlwNDLn8k,15
+django_openapi-0.1.1.4.dist-info/RECORD,,
