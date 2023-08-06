@@ -1,0 +1,13 @@
+arduino_temperature_sensors/ArduinoBoard.py,sha256=Tx8vvTrfP4Hirk6tGIp7Fv0cR48gn5OT1TIa_N4YJpA,12014
+arduino_temperature_sensors/Daemon.py,sha256=fTgUKFzXoxTRZyuEA1KKCM7Qd1nEt21Yl2qrEfhip7A,18786
+arduino_temperature_sensors/Monitor.py,sha256=SiclQv25_UnUkZZGF4AB6rr77h-q_RYTdqld0KfGwjo,12611
+arduino_temperature_sensors/__init__.py,sha256=OI3Jv2e1DFza6DrQhHOhwv3YOgOHLTip-bAu3yf5jks,439
+arduino_temperature_sensors/__main__.py,sha256=WV43yPuyxUDkipRPL8xIBKSZcW7n1mUjN3cGoZV_qcY,131
+arduino_temperature_sensors/__project__.py,sha256=F_v8ueldmLQuDVQiFWtxvMLRvooRsYVY1qRPZOkKfB0,592
+arduino_temperature_sensors/arduino_temperature_sensors.py,sha256=M0kIUBOQXgOjQgqWWR5gQ5DgRD3kwsE56N2EtIIPF6I,5810
+arduino_temperature_sensors-0.1.0.dist-info/LICENSE.md,sha256=gx6SgI61UyUAZiYaE4epMjy_MA1FWaQfLHH9NxK9tEo,34903
+arduino_temperature_sensors-0.1.0.dist-info/METADATA,sha256=bBjl2FHH67nwsIzz3aYSIEcOKr_hvRLHqN9Px4DB4sM,3769
+arduino_temperature_sensors-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+arduino_temperature_sensors-0.1.0.dist-info/entry_points.txt,sha256=0BURbkbk383UUxvDDLVnzUgqTwFBSumbstVmcGSVcXo,91
+arduino_temperature_sensors-0.1.0.dist-info/top_level.txt,sha256=4fONOlgcHKtgcQeeGBfHnbeskgOVa-nQjJkF3Ok_9S0,28
+arduino_temperature_sensors-0.1.0.dist-info/RECORD,,
