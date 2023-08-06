@@ -1,0 +1,14 @@
+sparshik/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparshik/kyc/__init__.py,sha256=VWlHk-WMyDdIf1HzehlwPnITl2vk6cLsy2_tLUe8LQ0,339
+sparshik/kyc/applicants.py,sha256=S8DFkoMiXGghltgWKXVdB8tcDPZlaAZRk_2ORsI8Ypw,4425
+sparshik/kyc/challenge.py,sha256=iCk1lvyzzdBh0wv5h_9yNAqIgUmBj__vJInsqt_Xbn4,966
+sparshik/kyc/documents.py,sha256=EGDp3rM3jUe7qam9Ne5v3tzREoR5d_7YnXXz4Bon2eA,2625
+sparshik/kyc/mask.py,sha256=EHqIC9YamSrslarM3_fc_5cq3nsbkRygUizXhWFmOBY,861
+sparshik/kyc/reports.py,sha256=hhbzaZPtyqucLZwb7FxThNvGedAgi2XUJ3Vw84vr-XQ,7343
+sparshik/kyc/utils.py,sha256=dnEVKKDSKp2XmCJzF1f8jgeSO2hu-f28qj4gb09wMls,2831
+sparshik/kyc/version.py,sha256=PkWtx5HrtMudVxt6q6NbuA7yw7RPn3fe_W5qX6qQdPs,373
+sparshik_kyc-0.2.0.dist-info/LICENSE.md,sha256=1oYRugFHFoDCYCmuVehKmPQPoWu_uKN58duo_tOoCY0,1129
+sparshik_kyc-0.2.0.dist-info/METADATA,sha256=ULAjITdPoIK41jLUcuw_LR_23mAqzXCa8qeP7U800mI,2885
+sparshik_kyc-0.2.0.dist-info/WHEEL,sha256=QNZmmMbQUQDSFNbbXyXHUMkgO-aoElXpPB6KCI2u8H8,110
+sparshik_kyc-0.2.0.dist-info/top_level.txt,sha256=6Kad48Q_C0QXcvhMOp2DOYIwvbcut7UqoF_KSRz5mb0,9
+sparshik_kyc-0.2.0.dist-info/RECORD,,
