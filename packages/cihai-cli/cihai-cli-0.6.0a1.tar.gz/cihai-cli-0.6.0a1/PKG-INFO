@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: cihai-cli
+Version: 0.6.0a1
+Summary: Command line frontend for the cihai CJK language library
+Home-page: https://cihai-cli.git-pull.com
+License: MIT
+Author: Tony Narlock
+Author-email: tony@git-pull.com
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Utilities
+Provides-Extra: coverage
+Provides-Extra: docs
+Provides-Extra: format
+Provides-Extra: lint
+Provides-Extra: test
+Requires-Dist: PyYAML (>=3.12,<6)
+Requires-Dist: cihai (>=0.9.0,<0.10.0)
+Requires-Dist: click (>=7)
+Project-URL: Bug Tracker, https://github.com/cihai/cihai-cli/issues
+Project-URL: Documentation, https://cihai-cli.git-pull.com
+Project-URL: Repository, https://github.com/cihai/cihai-cli
