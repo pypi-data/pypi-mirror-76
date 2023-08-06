@@ -1,0 +1,11 @@
+six_pack_trade_algo/__init__.py,sha256=u0yZlfu1U8qtpPFBiNyJhuhPHIC44iU30ceFoFSTjWo,43
+six_pack_trade_algo/algos.py,sha256=2aXORe6s42nzKqc8Te1Ytrc1j5f8x0QAeLpQZPdfsNQ,20330
+six_pack_trade_algo/creds.py,sha256=RIPW0IHMy0_cgKW37R1blIEgLwxE01kV7rnel5SUg2g,461
+six_pack_trade_algo/main.py,sha256=HCZ8bmBo3L-WKKj39hwlAkfDFpnRAfnJzb5CIE0OmvQ,4860
+six_pack_trade_algo/test.py,sha256=eQmH7bW9cNvBXdkcq8t8AZe8I56xtLAvK1VwGLgRZEY,889
+six_pack_trade_algo/util.py,sha256=x31XGjSwPR-RKPCI06lmwjKnj54idoSj8XoG55lDKcU,10309
+six_pack_trade_algo-0.0.11.dist-info/LICENSE,sha256=LoV48WtuomVBIWbotLHaBF_MEfKNsD1mSQhBASSi8B4,35801
+six_pack_trade_algo-0.0.11.dist-info/METADATA,sha256=pCHBkkMe82XHAFYUSQ81gp7p4mOjMaxYj8oZiUdK6Ow,477
+six_pack_trade_algo-0.0.11.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+six_pack_trade_algo-0.0.11.dist-info/top_level.txt,sha256=D8MHrvbkgz-ceME4hn-0cuNkWzmRWJ6Kc1DamXTlDeo,20
+six_pack_trade_algo-0.0.11.dist-info/RECORD,,
