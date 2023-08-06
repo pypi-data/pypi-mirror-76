@@ -1,0 +1,7 @@
+fastapi_authenticator/__init__.py,sha256=Pw2VB1_ITOCgqo2fvtbzM0_i5Dxh1lBevMDsGwyN51s,2996
+gcp_taskqueue/__init__.py,sha256=Kfc3TISB__T-SRVBcELUl0LRBYwRxvqjXnGaCsTcQm8,5195
+gcp_taskqueue-0.0.1.dist-info/LICENSE,sha256=KaQRpq1kWNzzU-1si8XnZqK4qXWF2uWGJNkXt5wgxoQ,1066
+gcp_taskqueue-0.0.1.dist-info/METADATA,sha256=hA4eJs4NcJUQAQs7IrbGb0_1DzfuDO4WAx4Dk410CRc,1243
+gcp_taskqueue-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gcp_taskqueue-0.0.1.dist-info/top_level.txt,sha256=R292CbHJMDJV3fPxL4mfWO2XEzdLaP5pJrQaeP4eHzk,14
+gcp_taskqueue-0.0.1.dist-info/RECORD,,
