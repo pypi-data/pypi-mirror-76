@@ -1,0 +1,3 @@
+[console_scripts]
+bqup = bqup.main:main
+
