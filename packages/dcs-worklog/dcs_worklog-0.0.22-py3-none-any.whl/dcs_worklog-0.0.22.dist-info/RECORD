@@ -1,0 +1,16 @@
+worklog/__init__.py,sha256=RCJzchhprne1VhkgbEZsMtLsqbwXuvZg2sfoMRbA5ow,4065
+worklog/__main__.py,sha256=zyzNSWD05WnSPDjBOdLcBXFyGMF1OY08VIZSzAuyVlY,62
+worklog/config.cfg,sha256=w-oSl0vVFag-vauHItn2Iep8Mi8LgPkRbyjVdqBk0jg,431
+worklog/constants.py,sha256=1rtzqFaEbtBjeJJHrtp9bo5l4NsYmSyxP6CvDkfmpxw,878
+worklog/log.py,sha256=PIeI-sY5eLLYaFydrZ6_5_nOYLTsD1OT6A88yrH6Ilo,18145
+worklog/parser.py,sha256=Y3lksQFzulUnparHK0_T5d8rvi8LbmgmFLI-AzrErNg,5673
+worklog/utils.py,sha256=-zG8hRN2Wuz2tn6npuRV0mqysy-RqDj2cPxZtpX5y-A,5976
+worklog/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+worklog/tests/test_parser.py,sha256=3itXDG-ugNqm9YIGoiVwRZlZIaDnKDjP_1RKmI71jMo,2883
+worklog/tests/test_utils.py,sha256=mza1LNyQovacGeSRwsANSZmEFV5dIrVhX7v3-ZMqRh4,5369
+dcs_worklog-0.0.22.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+dcs_worklog-0.0.22.dist-info/METADATA,sha256=hQxi0Hlv4N59N5MNHVK9LLpTrNa4sAqeUYcO2tvVIs0,3525
+dcs_worklog-0.0.22.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dcs_worklog-0.0.22.dist-info/entry_points.txt,sha256=nkgeAC1d_a9RMaABO4fyjqtlmQ0p2hWo3V1PuGOMi6s,36
+dcs_worklog-0.0.22.dist-info/top_level.txt,sha256=cVCQNJEQcxfZkKY1Ssyk2aAF-USixqhBDSsOIjOGb3s,8
+dcs_worklog-0.0.22.dist-info/RECORD,,
