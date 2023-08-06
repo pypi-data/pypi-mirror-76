@@ -1,0 +1,32 @@
+#!/usr/bin/env python
+import ycat
+import select
+import yaml
+import sys
+
+if __name__ == "__main__":
+    if len(sys.argv) == 2:
+        try:
+            with open(sys.argv[1]) as f:
+                YAML = yaml.safe_load(f)
+        except:
+            print("ERROR: {FILE} is a not a valid yaml object".format(
+                FILE=sys.argv[1]))
+            sys.exit(1)
+        ycat.ycat(YAML)
+
+    elif select.select([sys.stdin, ], [], [], 30)[0]:
+        try:
+            YAML = yaml.safe_load(sys.stdin.read())
+        except:
+            print("ERROR: stdin data is not a valid yaml object")
+            sys.exit(1)
+
+        ycat.ycat(YAML)
+
+    else:
+        print("""USAGE:
+        cat some.yaml | ycat
+        ycat some.yaml
+        """)
+        sys.exit(0)
