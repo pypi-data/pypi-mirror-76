@@ -1,0 +1,13 @@
+owoify/__init__.py,sha256=ZNOEQrAhu3i7UYjqUXruoUoamPhTa2mO2CbW7TKtewM,50
+owoify/owoify.py,sha256=20woEhMbdvisOtKH0ChXF_mCGBiHWxvr8Q6G1d121SU,1402
+owoify/structures/__init__.py,sha256=ybR6DyoKyLOWmV_Jlm0_Ihpxe_jsMC2JZrO5AZilv0w,23
+owoify/structures/word.py,sha256=g8lCGKKUrJpzITdcooJIte5UsrbqddaRuzgO-ocZdvk,3530
+owoify/utility/__init__.py,sha256=dhMTxDMNmeNcESTV0rBHhY9ChigwcrSLqW75nAfQ4aQ,95
+owoify/utility/interleave_arrays.py,sha256=MFyU7b3yTUM6ebmNKDssATIMjymm1_mJOhem1BVTFv4,323
+owoify/utility/mapping.py,sha256=xlxtNfwHe2K2fDgW0zDpdP9JlQalVrgLsGPeZDvb_Q0,9302
+owoify/utility/presets.py,sha256=wNMyVmMMMS0RkzIghwVWRKQqG1rqC4n2yBvfNKfu4x0,987
+owoify_py-1.0.4.dist-info/LICENSE,sha256=KwOoFNK0S1Hisz8gPL5Wkg_WGReJ7FlGtZ_Vdbuqfjo,1068
+owoify_py-1.0.4.dist-info/METADATA,sha256=e6HdNNDwnmmD-5D-q0WEenLQXhEejaKPsM6eC598O9g,2653
+owoify_py-1.0.4.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+owoify_py-1.0.4.dist-info/top_level.txt,sha256=Hpt0MUu_2O8IQbzQ4kE88OjS9BMqWWnwgdGfmFzbLUM,7
+owoify_py-1.0.4.dist-info/RECORD,,
