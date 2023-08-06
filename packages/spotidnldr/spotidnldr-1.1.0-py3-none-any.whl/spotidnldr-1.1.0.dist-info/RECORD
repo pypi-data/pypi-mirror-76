@@ -1,0 +1,15 @@
+spotidnldr/__init__.py,sha256=xXS8HgooKE802Wx7y7H9_gx4cAyRqld7nHIe37_METM,204
+spotidnldr/clifi.py,sha256=iM5MRiRwjlDwdhVvOqnDp15pVkr5qejV8aK7mPwTmGA,3001
+spotidnldr/converter.py,sha256=7RAhrQPYZoFGD08DCf9VvNMqXI3DVama38SjFOR_VrY,333
+spotidnldr/cover_download.py,sha256=WEuYYy0G8NApBC6kPcqxHcp5uzcY9FxLmMaLukqnODs,711
+spotidnldr/downloader.py,sha256=U_7m9C8By5SlWBcry8tLhvCx6VYqHhr54bNBvyAtl6o,604
+spotidnldr/env_setup.py,sha256=lPNd31GbFUy3UzEI1vtKkyfvJHQnp16XaIvwuK19FcI,233
+spotidnldr/spot.py,sha256=x_qec9f9XdiG4iKpPKd90fLsDpyWSmQ8NzWgxhEKxmk,6904
+spotidnldr/tag_embedder.py,sha256=MW-4tLeiv9FkiCy7xUyW_1sCqWZsJMLHgDtQBpbl1Is,742
+spotidnldr/youtube_search.py,sha256=Mote7Icphv7f2CZQGr7GRGl8QUWNmAHT5O_gEU3JmG0,330
+spotidnldr-1.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+spotidnldr-1.1.0.dist-info/METADATA,sha256=JUpXTuQ4VK4N7SR1G1wAgRPLp-su4BnpzsnLo2hubVw,4030
+spotidnldr-1.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+spotidnldr-1.1.0.dist-info/entry_points.txt,sha256=QN9LkrltR8hLTPhE6iPSt6aLrzLXQoulP2pYMQ8JJjw,71
+spotidnldr-1.1.0.dist-info/top_level.txt,sha256=Ab1dr_kRIIJJ6WPihpDs4bJJcs_gkkRjS0U7PFGGZdU,11
+spotidnldr-1.1.0.dist-info/RECORD,,
