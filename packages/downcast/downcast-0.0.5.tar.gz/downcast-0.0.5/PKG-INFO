@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: downcast
+Version: 0.0.5
+Summary: Reduce the pandas dataframe size automatically.
+Home-page: https://github.com/deepak7376/downcast
+Author: dky
+Author-email: dky.united@gmail.com
+License: UNKNOWN
+Description: # downcast
+        Reduce the pandas dataframe size automatically.
+        
+        # Usage
+        ```python
+        from downcast import reduce
+        import pandas as pd
+        
+        # load your dataframe
+        df = pd.read_csv("PATH")
+        # reduce the size of dataframe
+        df = reduce(df) 
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
