@@ -1,0 +1,3 @@
+[console_scripts]
+hrpc=hyper_rpc.hrpc:main
+
