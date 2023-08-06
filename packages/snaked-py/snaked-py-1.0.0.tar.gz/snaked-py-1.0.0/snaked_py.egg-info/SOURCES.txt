@@ -1,0 +1,8 @@
+README.md
+setup.py
+snaked/__init__.py
+snaked_py.egg-info/PKG-INFO
+snaked_py.egg-info/SOURCES.txt
+snaked_py.egg-info/dependency_links.txt
+snaked_py.egg-info/requires.txt
+snaked_py.egg-info/top_level.txt
