@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: python-comrak
+Version: 0.1.1
+Summary: The Procedures language
+Home-page: http://gitlab.merchise.org/mercurio-2018/travertine
+Author: Merchise Autrement
+Author-email: info@merchise.org
+License: Unlicense
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: Public Domain
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.8
+
+====================
+ Comrak_ for Python
+====================
+
+Exposes the Rust crate comrak_ as a Python extension using PyO3_.
+
+Example::
+
+  >>> from python_comrak import markdown_to_html
+  >>> markdown_to_html("\tfoo\tbaz\t\tbim\n")
+  "<pre><code>foo\tbaz\t\tbim\n</code></pre>\n"
+
+
+.. _comrak: https://docs.rs/comrak/
+.. _PyO3: https://pyo3.rs/
+
+
