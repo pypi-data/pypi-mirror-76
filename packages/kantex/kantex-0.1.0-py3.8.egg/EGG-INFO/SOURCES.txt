@@ -1,0 +1,11 @@
+README.md
+setup.py
+kantex/__init__.py
+kantex/_document.py
+kantex/_items.py
+kantex/_sections.py
+kantex/_styles.py
+kantex.egg-info/PKG-INFO
+kantex.egg-info/SOURCES.txt
+kantex.egg-info/dependency_links.txt
+kantex.egg-info/top_level.txt
