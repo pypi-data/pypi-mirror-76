@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ject"
+version = "0.0.1"
+description = "function/lambda extensions"
+authors = ["Hoyeung Wong <hoyeungw@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/pydget/ject"
+repository = "https://github.com/pydget/ject"
+keywords = [
+    "function", "functional", "fp",
+    "lambda", "noop", "signature"
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
