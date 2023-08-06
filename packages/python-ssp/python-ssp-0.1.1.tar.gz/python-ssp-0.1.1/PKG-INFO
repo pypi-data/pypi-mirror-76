@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python-ssp
+Version: 0.1.1
+Summary: Library for interfacing with FedRAMP system security plan templates.
+Home-page: https://github.com/brasky/python-ssp
+Author: Elliot DeMatteis
+License: MIT License
+Description: See https://github.com/brasky/python-ssp
+Keywords: fedramp ssp word
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
