@@ -1,0 +1,17 @@
+django-imagekit<4.1,>=4.0
+hashids<1.4,>=1.2.0
+pillow<7.3,>=6.1.0
+
+[dev]
+django-debug-toolbar<3.0,>=2.0
+flake8<3.9,>=3.8
+black==19.10b0
+Django<3.2,>=3.1
+
+[test]
+django-debug-toolbar<3.0,>=2.0
+flake8<3.9,>=3.8
+black==19.10b0
+factory-boy<3.0,>=2.12.0
+freezegun<0.4,>=0.3.12
+coverage
