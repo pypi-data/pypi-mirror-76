@@ -1,0 +1,9 @@
+pyprerender/BaseEventHandler.py,sha256=wCF8-v4KOqa78ilWT0-bPRW7l7VUbzxwgFMnDEweJCs,441
+pyprerender/Chrome.py,sha256=3IWG8En2A4rYD7it0b8o96qZ7pr6vPZZ1bHuyI0q9-g,2587
+pyprerender/ParseHTMLEventHandler.py,sha256=9_qiropXKXkR5vXRLhBjy0XUiPp_TkLvCIj8poE2WsY,3173
+pyprerender/__init__.py,sha256=4bnjs1OTNmd6o1rD0vbrxD241bjXgo9JR8XxdcLj2ME,164
+pyprerender-0.0.8.dist-info/LICENSE,sha256=Kb2PXXIi28mDWyg2G6qi-6kie7rRfVzlMApiExXI8-s,1070
+pyprerender-0.0.8.dist-info/METADATA,sha256=CC5M2-_URuk7VRoaGpTilpyPZM5C1djLUObnNC2Pv14,742
+pyprerender-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyprerender-0.0.8.dist-info/top_level.txt,sha256=J5pp_PUFfVIyCXbaozl7-sgFUATcSa6Vq-CsfiKUoTE,12
+pyprerender-0.0.8.dist-info/RECORD,,
