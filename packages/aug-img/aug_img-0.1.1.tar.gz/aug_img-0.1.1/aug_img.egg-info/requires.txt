@@ -1,0 +1,6 @@
+numpy>=1.15
+Pillow
+pandas
+matplotlib
+scikit-image>=0.14.2
+opencv-python-headless
