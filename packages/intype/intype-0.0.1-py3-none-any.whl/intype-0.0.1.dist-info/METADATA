@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: intype
+Version: 0.0.1
+Summary: dynamic type infer
+Home-page: https://github.com/hoyeungw/intype
+License: MIT
+Keywords: type,dynamic,regex
+Author: Hoyeung Wong
+Author-email: hoyeungw@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/hoyeungw/intype
+Description-Content-Type: text/markdown
+
+
