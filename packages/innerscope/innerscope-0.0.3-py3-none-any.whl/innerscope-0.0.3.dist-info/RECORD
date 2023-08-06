@@ -1,0 +1,10 @@
+innerscope/__init__.py,sha256=CJWUKly8Jmw4dn16wpeiX838BpsQ5H_pQj7KItWStKc,162
+innerscope/_version.py,sha256=48V8bOq_6vdjPHytLHyfZ0U1IwtHFGF27HjW7Nn0okM,497
+innerscope/core.py,sha256=3HVH61TRGCOAKFc6KvwPvKqdAHOqRMH7dpsk8CpTSSU,15326
+innerscope/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+innerscope/tests/test_core.py,sha256=jkdRrURlGUncEG2P-TOgoti3pBVZsLa-BRUwCo1UJvU,7103
+innerscope-0.0.3.dist-info/LICENSE,sha256=NG1c8V_vVzVlCV5Ru0O9eiDe9BWh8G6-n3SGpqF7CyE,1492
+innerscope-0.0.3.dist-info/METADATA,sha256=Kt3gEcBe5v8GASZ0fWvtSzU1_8le6HRrfIOtSbCDIvs,5059
+innerscope-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+innerscope-0.0.3.dist-info/top_level.txt,sha256=0WwbF5sjirCjYAr2oEvII2wwdCqNraoOSSxJJiFjPJE,11
+innerscope-0.0.3.dist-info/RECORD,,
