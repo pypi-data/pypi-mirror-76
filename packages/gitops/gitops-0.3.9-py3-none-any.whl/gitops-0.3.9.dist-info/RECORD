@@ -1,0 +1,12 @@
+gitops/__init__.py,sha256=a4AUi9iZ4rKacvJ8pqBf_TVNJ4lyyx3h-mR8PVx2GOc,38
+gitops/core.py,sha256=d_VppQNqrj0kNycSQVZz5N32DuFyIVWHlgWSMady2lI,8886
+gitops/db.py,sha256=B7CYoeppumMn_qnnkzFC4grIq7NvnOLRjlC5_UMwbnc,2419
+gitops/main.py,sha256=xnvy464unRfB7w_FRFqWaD4CQOKYsqtr5O8OZQ9rWnw,590
+gitops/newtenant.py,sha256=D4KSwj7jxA5x0xoHC_5gM7N73oQp5wbv16c3c-GmMkY,10256
+gitops/shorthands.py,sha256=znRSrqq9jBXNF8jf2o3l_rsQLdNnj8tnWZDVukjIGbs,1123
+gitops-0.3.9.dist-info/LICENSE,sha256=djjFuXlq10kBK1IFVHFpg-Zh0aARFIe80Uke5pphpps,1315
+gitops-0.3.9.dist-info/METADATA,sha256=84rudF5kiLF3vTf12BOS7FcX_dEuTSkHkwUXY2yJehI,3347
+gitops-0.3.9.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+gitops-0.3.9.dist-info/entry_points.txt,sha256=Ohdd6i3qwVtyH2AV_XdqlGH3IxFl75DaM5O1FjriqJQ,52
+gitops-0.3.9.dist-info/top_level.txt,sha256=WOggrhFUNbEC5Hx4VuzfWxQo3jH73dYK4PCyVjuHTss,7
+gitops-0.3.9.dist-info/RECORD,,
