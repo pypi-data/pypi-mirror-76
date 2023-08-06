@@ -1,0 +1,13 @@
+README.md
+setup.py
+simplecmr/__init__.py
+simplecmr/cli.py
+simplecmr/query.py
+simplecmr/result.py
+simplecmr/utils.py
+simplecmr.egg-info/PKG-INFO
+simplecmr.egg-info/SOURCES.txt
+simplecmr.egg-info/dependency_links.txt
+simplecmr.egg-info/not-zip-safe
+simplecmr.egg-info/requires.txt
+simplecmr.egg-info/top_level.txt
