@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+googlepatentscraper/__init__.py
+googlepatentscraper/document.py
+googlepatentscraper.egg-info/PKG-INFO
+googlepatentscraper.egg-info/SOURCES.txt
+googlepatentscraper.egg-info/dependency_links.txt
+googlepatentscraper.egg-info/requires.txt
+googlepatentscraper.egg-info/top_level.txt
