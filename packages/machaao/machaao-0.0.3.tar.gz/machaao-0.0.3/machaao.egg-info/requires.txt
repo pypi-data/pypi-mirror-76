@@ -1,0 +1,8 @@
+Flask-API
+asyncio
+bs4
+click
+flask
+httpx
+pyjwt
+requests

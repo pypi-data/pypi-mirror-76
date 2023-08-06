@@ -1,0 +1,52 @@
+#!/usr/bin/python3
+
+import errno
+import click
+import os
+from shutil import copytree, copy
+import machaao
+
+FILE_DIR = os.path.dirname(os.path.abspath(machaao.__file__))
+
+CURR_DIR = os.path.abspath(os.getcwd())
+
+
+def copyany(src, dst):
+    try:
+        copy(src, dst)
+    except OSError as exc:
+        click.secho(exc, fg="red", bold=True)
+
+
+@click.command()
+@click.option('--start', type=str, default='/', help="Start a project by passing Project Name or .")
+def cli(start):
+    """
+    An easy to use module for python developers 
+    looking to build and develop chatbots using 
+    MACHAAO Platform. Provide the Project Name to start with the template.
+    Here is an example:
+
+    1. machaao --start sample-chatbot
+
+    You need a valid FREE API key from https://messengerx.io for the server to work. You can
+    sign up for a free account at https://portal.messengerx.io.
+    """
+    path = os.path.join(CURR_DIR, start)
+    try:
+        os.mkdir(path)
+    except Exception as e:
+        click.echo(e)
+        raise SystemExit(0)
+    click.secho(f'Project {start} created...', fg="green", bold=True, )
+
+    copyany(FILE_DIR+"/chatbot.py", path+"/")
+
+    click.secho(f'Copying files to project directory...', fg="green", bold=True)
+
+    click.secho(f'Project Created, Keep Developing Bots', fg="blue", blink=True)
+    
+    
+
+if __name__=='__main__':
+    cli()
