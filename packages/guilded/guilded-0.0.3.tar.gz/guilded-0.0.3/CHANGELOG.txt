@@ -1,0 +1,7 @@
+Changelog
+=========
+
+v0.0.3 (16/08/2020)
+-------------------
+- Updated development status
+- Fixed file names

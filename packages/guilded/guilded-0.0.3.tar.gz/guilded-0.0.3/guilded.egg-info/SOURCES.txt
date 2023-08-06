@@ -1,0 +1,9 @@
+CHANGELOG.txt
+MANIFEST.in
+README.txt
+setup.py
+guilded/__init__.py
+guilded.egg-info/PKG-INFO
+guilded.egg-info/SOURCES.txt
+guilded.egg-info/dependency_links.txt
+guilded.egg-info/top_level.txt
