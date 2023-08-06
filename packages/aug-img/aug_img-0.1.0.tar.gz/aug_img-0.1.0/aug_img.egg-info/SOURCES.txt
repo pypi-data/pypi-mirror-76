@@ -1,0 +1,9 @@
+README.md
+setup.py
+aug/__init__.py
+aug/imgaug.py
+aug_img.egg-info/PKG-INFO
+aug_img.egg-info/SOURCES.txt
+aug_img.egg-info/dependency_links.txt
+aug_img.egg-info/requires.txt
+aug_img.egg-info/top_level.txt
