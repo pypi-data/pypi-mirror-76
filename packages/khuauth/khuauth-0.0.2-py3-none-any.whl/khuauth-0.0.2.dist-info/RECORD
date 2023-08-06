@@ -1,0 +1,8 @@
+khuauth/__init__.py,sha256=Nhx3m0dtgkiDESpAfoUH3wBR5U5UXj4DSGcWc7qyGJ8,24
+khuauth/auth.py,sha256=mr-GRefvb3r4ST0fhetI0D6JPeRyfZfqOsOV_5hG7K4,895
+khuauth/auth_handler.py,sha256=EV4yWj-YcoZeE5868IAmcCuYbB-W5xMN8WbpSou15mg,2258
+khuauth/config.py,sha256=1oCgvdKK_K-b7xkKRqsE5HgfSZUwjR9Zy2zBMH3RDF8,341
+khuauth-0.0.2.dist-info/METADATA,sha256=pXhcxJBoOr8cwdOx4Ciw5TXw0NEeCz9QX4XFyelI-aw,470
+khuauth-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+khuauth-0.0.2.dist-info/top_level.txt,sha256=GfwvxrY1nT-0RGrtmT3Yue0GY4zY-NdZXVT8Yr6BXE4,8
+khuauth-0.0.2.dist-info/RECORD,,
