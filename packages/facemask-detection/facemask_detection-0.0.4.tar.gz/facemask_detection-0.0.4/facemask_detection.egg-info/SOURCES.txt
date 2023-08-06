@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+facemask_detection/__init__.py
+facemask_detection/dataloader.py
+facemask_detection/inference.py
+facemask_detection/pre_trained_models.py
+facemask_detection/train.py
+facemask_detection/utils.py
+facemask_detection.egg-info/PKG-INFO
+facemask_detection.egg-info/SOURCES.txt
+facemask_detection.egg-info/dependency_links.txt
+facemask_detection.egg-info/requires.txt
+facemask_detection.egg-info/top_level.txt
