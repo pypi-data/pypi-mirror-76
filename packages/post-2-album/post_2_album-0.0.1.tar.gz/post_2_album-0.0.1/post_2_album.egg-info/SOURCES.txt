@@ -1,0 +1,8 @@
+README.md
+setup.py
+post_2_album/__init__.py
+post_2_album.egg-info/PKG-INFO
+post_2_album.egg-info/SOURCES.txt
+post_2_album.egg-info/dependency_links.txt
+post_2_album.egg-info/requires.txt
+post_2_album.egg-info/top_level.txt
