@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/Nations.py
+src/Players.py
+src/Towns.py
+src/EarthMC.egg-info/PKG-INFO
+src/EarthMC.egg-info/SOURCES.txt
+src/EarthMC.egg-info/dependency_links.txt
+src/EarthMC.egg-info/top_level.txt
