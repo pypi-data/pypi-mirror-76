@@ -1,0 +1,3 @@
+[console_scripts]
+binod-m = binod3.__main__:main
+
