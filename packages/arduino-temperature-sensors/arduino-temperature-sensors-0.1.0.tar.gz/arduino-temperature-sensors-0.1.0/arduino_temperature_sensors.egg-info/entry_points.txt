@@ -1,0 +1,3 @@
+[console_scripts]
+arduino_temperature_sensors = arduino_temperature_sensors.__main__:main
+

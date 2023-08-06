@@ -1,0 +1,62 @@
+# README
+
+[![PyPI Latest Version](https://badge.fury.io/py/arduino-temperature-sensors.svg)](https://badge.fury.io/py/arduino-temperature-sensors)
+[![pipeline status](https://gitlab.ethz.ch/exotic-matter/cw-beam/arduino-temperature-sensors/badges/master/pipeline.svg)](https://gitlab.ethz.ch/exotic-matter/cw-beam/arduino-temperature-sensors/-/commits/master)
+[![coverage report](https://gitlab.ethz.ch/exotic-matter/cw-beam/arduino-temperature-sensors/badges/master/coverage.svg)](https://gitlab.ethz.ch/exotic-matter/cw-beam/arduino-temperature-sensors/-/commits/master)
+[![Documentation Status](https://readthedocs.org/projects/arduino-temperature-sensors/badge/?version=stable)](https://arduino-temperature-sensors.readthedocs.io/en/stable/?badge=table)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+## Arduino Temperature Sensors
+
+The **arduino-temperature-sensors** is a readout and logging software for the EPIC temperature sensors. 
+
+## Dependencies
+
+The package **arduino-temperature-sensors** has the following pre-requisites:
+
+ -  [Python 3.6](https://www.python.org/downloads/release/python-360/) and [pip 10.0](https://pip.pypa.io/en/stable/)
+    are the minimum required versions to build and install **arduino-temperature-sensors** and its dependencies. It is
+    recommended to install and run **arduino-temperature-sensors** (and any other package, for that matter) under a
+    [virtual environment](https://docs.python.org/3/library/venv.html).
+
+ -  [libpq](https://www.postgresql.org/docs/11/libpq.html), a C library that implements connections to the PostgreSQL
+    backend server. It is used by the package [lab-utils](https://gitlab.ethz.ch/exotic-matter/cw-beam/lab-utils) to
+    connect to the PostgreSQL backend, manage database structure and save new data entries.
+
+## Getting Started
+
+TODO: pip package available now 
+
+## Usage
+
+To use a the **arduino-temperature-sensors** package, TODO
+
+
+
+## Authors
+
+* [**Carlos Vigo**](mailto:carlosv@phys.ethz.ch?subject=[GitHub%-%lab-utils]) - *Initial work* - 
+[GitLab](https://gitlab.ethz.ch/carlosv)
+
+## Contributing
+
+Please read our [contributing policy](CONTRIBUTING.md) for details on our code of
+conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [Git](https://git-scm.com/) for versioning. For the versions available, see the 
+[tags on this repository](https://gitlab.ethz.ch/exotic-matter/cw-beam/arduino-temperature-sensors).
+
+## License
+
+This project is licensed under the [GNU GPLv3 License](LICENSE.md)
+
+## Built With
+
+* [PyCharm Professional Edition](https://www.jetbrains.com/pycharm//) - The IDE used
+* [Sphinx](https://www.sphinx-doc.org/en/master/index.html) - Documentation
+
+## Acknowledgments
+
+* Nobody so far
