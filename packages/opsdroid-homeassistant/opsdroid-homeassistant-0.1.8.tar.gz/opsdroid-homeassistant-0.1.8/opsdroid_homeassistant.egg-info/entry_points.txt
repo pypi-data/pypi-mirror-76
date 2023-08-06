@@ -1,0 +1,3 @@
+[opsdroid_connectors]
+homeassistant = opsdroid_homeassistant.connector
+
