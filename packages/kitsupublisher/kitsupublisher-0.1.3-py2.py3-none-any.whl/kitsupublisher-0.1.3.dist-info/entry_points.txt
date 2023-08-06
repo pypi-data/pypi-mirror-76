@@ -1,0 +1,3 @@
+[gui_scripts]
+kitsupublisher = kitsupublisher.__main__:main
+
