@@ -1,0 +1,20 @@
+diff --git a/quixote/http_response.py b/quixote/http_response.py
+index 4ddb7af..2cc5040 100644
+--- a/quixote/http_response.py
++++ b/quixote/http_response.py
+@@ -161,6 +161,7 @@ class HTTPResponse:
+         self.buffered = True
+         self.javascript_code = None
+         self._allow_chunked = False
++        self._body_bytes = 0
+ 
+     def set_content_type(self, content_type, charset=None):
+         """(content_type : string, charset : string = None)
+@@ -547,6 +548,7 @@ class HTTPResponse:
+             return
+         for chunk in self.generate_body_chunks():
+             output.write(chunk)
++            self._body_bytes += len(chunk)
+             if flush_output:
+                 output.flush()
+         if flush_output:
