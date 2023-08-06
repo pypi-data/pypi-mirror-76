@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.py
+sylajone/__init__.py
+sylajone/anasyn.py
+sylajone/cache.py
+sylajone/refactor.py
+sylajone/stemmedsynword.py
+sylajone/syn_const.py
+sylajone/synnode.py
+sylajone.egg-info/PKG-INFO
+sylajone.egg-info/SOURCES.txt
+sylajone.egg-info/dependency_links.txt
+sylajone.egg-info/requires.txt
+sylajone.egg-info/top_level.txt
