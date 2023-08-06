@@ -1,0 +1,4 @@
+[console_scripts]
+cookdata_to_sbyml = cookdata_convert.cookDataToSbyml:main
+cookdata_to_yml = cookdata_convert.cookDataToYml:main
+
