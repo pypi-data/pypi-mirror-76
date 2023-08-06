@@ -1,0 +1,3 @@
+extinction>=0.4
+astropy
+dustmaps
