@@ -1,0 +1,7 @@
+attr
+numpy
+sympy
+typing
+
+[dev]
+pytest
