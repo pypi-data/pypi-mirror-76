@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/battlebots/__init__.py
+src/battlebots/__main__.py
+src/battlebots/art_to_gif.py
+src/battlebots/cli.py
+src/battlebots.egg-info/PKG-INFO
+src/battlebots.egg-info/SOURCES.txt
+src/battlebots.egg-info/dependency_links.txt
+src/battlebots.egg-info/entry_points.txt
+src/battlebots.egg-info/requires.txt
+src/battlebots.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: battlebots
+Version: 0.1.0
+Summary: BagelCon Battlebots Runner
+Home-page: UNKNOWN
+Author: Tyler Lubeck
+Author-email: tyler@tylerlubeck.com
+License: UNKNOWN
+Description: The Battlebots runner
+Platform: UNKNOWN
+Requires-Python: >=3.8,<4.0
