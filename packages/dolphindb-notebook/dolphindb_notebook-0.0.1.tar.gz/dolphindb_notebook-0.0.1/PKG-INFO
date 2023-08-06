@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: dolphindb_notebook
+Version: 0.0.1
+Summary: A Jupyter Notebook Extension for DolphinDB.
+Home-page: https://www.dolphindb.com
+Author: DolphinDB, Inc.
+Author-email: support@dolphindb.com
+License: DolphinDB
+Download-URL: https://www.dolphindb.com
+Description: # jupyter-notebook-extension
+        ## DolphinDB Jupyter Notebook 扩展插件
+        Jupyter Notebook是基于网页的用于交互计算的应用程序。用户可以直接通过浏览器编辑和运行代码，同时在代码块下方展示运行结果。DolphinDB database 提供了Jupyter Notebook的插件，用户可以使用 Jupyter Notebook编写DolphinDB脚本并运行。
+        
+        DolphinDB Jupyter Notebook 扩展插件提供以下功能：
+        - 连接DolphinDB Server
+        - 编辑和运行DolphinDB脚本
+        - 展示代码块运行结果
+        
+        DolphinDB Jupyter Notebook 扩展插件包括以下两个部分：
+        - dolphindb_extension：使用户直接从Jupyter Notebook的界面与DolphinDB Server建立连接
+        - dolphindb_kernel：使Jupyter Notebook支持DolphinDB脚本语言的编写与执行
+        
+        **1. 环境配置**
+        
+        - dolphindb_kernel使用DolphinDB Python API进行对接。DolphinDB Python API 支持Python 3.4~3.7版本。通过执行如下指令进行安装：
+        
+            `pip install dolphindb`
+        - 对于一些运行结果，dolphindb_kernel使用第三方库tabulate进行展示。通过执行如下指令进行安装：
+        
+            `pip install tabulate`
+        
+        **2. 下载插件并安装**
+        
+        - 下载插件
+        
+            `git clone https://2xdb.net/dolphindb/jupyter-notebook-extension.git`
+        
+            内置有两个名为dolphindb_extension和dolphindb_kernel的文件夹
+        - 安装dolphindb_extension
+        
+            `jupyter nbextension install –-user <到dolphindb_extension的路径>`
+        
+            `jupyter nbextension enable dolphindb_extension/main`
+        
+           安装后，`jupyter nbextension list`查看Jupyter Notebook现有的extension，如果可以看到dolphindb_extension/main enabled和 - Validating: OK，说明安装已成功
+        
+        - 安装dolphindb_kernel
+        
+            `jupyter kernelspec install –-user <到dolphindb_kernel的路径>`
+            
+           安装后，`jupyter kernelspec list`查看Jupyter Notebook现有的kernel，如果可以看到dolphindb_kernel，说明安装已成功
+        
+        **3. 连接DolphinDB Server**
+        
+        - 在命令行输入`jupyter notebook`，启动Jupyter Notebook
+        - 在Jupyter Notebook的页面右侧点击新建，选择DolphinDB，新建一个DolphinDB notebook
+        - 点击notebook工具栏的Connect to DolphinDB Server按钮。选择相应的server，然后点击右下角Connect按钮，即与DolphinDB server建立连接（如果不需要该server，可以点击Delete按钮删除）。也可以通过New按钮，输入新的server信息，然后点击Save & Connect按钮保存该信息并与DolphinDB server建立连接。
+        
+        **4. 编辑和运行DolphinDB脚本**
+        
+        连接DolphinDB Server后，在代码块区域编写DolphinDB脚本，点击运行即可运行相应代码块。
+        
+        **5. 展示代码块运行结果**
+        
+        每次运行DolphinDB脚本后，运行结果都会在相应的代码块下方展示。对于DolphinDB的绘图功能，以富媒体格式PNG展示结果。
+        
+        
+        
+        
+        
+Keywords: IPython,Jupyter,notebook,DolphinDB
+Platform: Any
+Requires: jupyter_nbextensions_configurator
+Requires: widgetsnbextension
+Requires: metakernel
+Requires: jupyter_client
+Requires: ipykernel
+Requires: dolphindb
+Requires: tabulate
+Description-Content-Type: text/markdown
