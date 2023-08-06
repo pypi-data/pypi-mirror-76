@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+src/ya/__init__.py
+src/ya/resourcepool.py
+src/ya.resourcepool.egg-info/PKG-INFO
+src/ya.resourcepool.egg-info/SOURCES.txt
+src/ya.resourcepool.egg-info/dependency_links.txt
+src/ya.resourcepool.egg-info/requires.txt
+src/ya.resourcepool.egg-info/top_level.txt
+test/test_resourcepool.py
