@@ -1,0 +1,3 @@
+aquarius-time>=0.1.0
+netCDF4
+pst-format>=1.1.1
