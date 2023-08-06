@@ -1,0 +1,13 @@
+sql_column_parser
+typer
+mako
+requests
+git-python
+
+[dev]
+wemake-python-styleguide
+mypy
+dlint
+nitpick
+cohesion
+pyformat
