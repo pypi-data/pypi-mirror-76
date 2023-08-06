@@ -1,0 +1,10 @@
+matrix42sdk/AuthNClient.py,sha256=WZu3detwyhB-tUxL3xPmLZJxPGFlw3OPO8aGLNr3Qss,4931
+matrix42sdk/Exceptions.py,sha256=GYA0JgFA0y6mZXZSRo229YiyJWYePhKasBghvzW9wo8,46
+matrix42sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matrix42sdk/api_endpoints/__init__.py,sha256=5MYNb48GCtpHrhPGgl7fGOgzppuRPnCt6hrMbLMv5Qs,694
+matrix42sdk/api_endpoints/fragments.py,sha256=uN5lgA9ydXqUFdBfuaMaUwKjV5wBkDcJgNbkVvA35m0,18154
+matrix42sdk/api_endpoints/objects.py,sha256=-fp2rRSvwD2N93LCB8T3wnQyYMud9_DMYQ1EtX0Say0,7823
+matrix42sdk-2.2.6.dist-info/LICENSE,sha256=1EtY2YozZBhrjbtjyDFPnD0fxVgpuU8plVkWu07ep8E,1061
+matrix42sdk-2.2.6.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+matrix42sdk-2.2.6.dist-info/METADATA,sha256=ERFZ_N1CNkP9lZtTKRxd9leirvIf9BpiSOfZNcUPClA,7191
+matrix42sdk-2.2.6.dist-info/RECORD,,
