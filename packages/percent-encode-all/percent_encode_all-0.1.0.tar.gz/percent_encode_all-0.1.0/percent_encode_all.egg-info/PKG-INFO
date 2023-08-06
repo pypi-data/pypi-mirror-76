@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: percent-encode-all
+Version: 0.1.0
+Summary: Encode every charactor into percent format.
+Home-page: https://github.com/fx-kirin/percent_encode_all
+Author: fx-kirin
+Author-email: fx.kirin@gmail.com
+License: MIT
+Description: 
+        percent_encode_all
+        ==================
+        
+        
+        .. image:: https://img.shields.io/pypi/v/package_name.svg
+           :target: https://pypi.python.org/pypi/percent_encode_all
+           :alt: Latest PyPI version
+        
+        
+        Encode every charactor into percent format.
+        
+        Usage
+        -----
+        
+        Installation
+        ------------
+        
+        Requirements
+        ^^^^^^^^^^^^
+        
+        Compatibility
+        -------------
+        
+        Licence
+        -------
+        
+        Authors
+        -------
+        
+        percent_encode_all was written by `fx-kirin <fx.kirin@gmail.com>`_.
+        =======================================================================
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
