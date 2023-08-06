@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: prefixed
+Version: 0.0.2
+Summary: Prefixed alternative numeric library
+Home-page: https://github.com/Rockhopper-Technologies/prefixed
+Author: Avram Lubkin
+Author-email: avylove@rockhopper.net
+Maintainer: Avram Lubkin
+Maintainer-email: avylove@rockhopper.net
+License: MPLv2.0
+Keywords: si iec prefix nist
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Terminals
+
+Overview
+========
+
+Prefixed provides an alternative implementation of the built-in `float`_
+
+Key differences:
+
+- Format type 'h' will output with an SI prefix (ex: k for 1000)
+- Format type 'j' will output with an IEC prefix (ex: Ki for 1024)
+- Format type 'J' will output with an IEC prefix minus the i (ex: K for 1024)
+- When initializing from strings, SI and IEC prefixes are honored
+    - SI Example: Float('3k')
+    - IEC Example: Float('3Ki')
+
+
+.. _float: https://docs.python.org/3/library/functions.html#float
+
+
