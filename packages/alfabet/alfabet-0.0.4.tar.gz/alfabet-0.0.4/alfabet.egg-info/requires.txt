@@ -1,0 +1,4 @@
+pandas
+nfp<0.1.0,>=0.0.8
+joblib
+tqdm
