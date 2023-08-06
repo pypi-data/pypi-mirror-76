@@ -1,0 +1,6 @@
+README.md
+setup.py
+hydralisk.egg-info/PKG-INFO
+hydralisk.egg-info/SOURCES.txt
+hydralisk.egg-info/dependency_links.txt
+hydralisk.egg-info/top_level.txt
