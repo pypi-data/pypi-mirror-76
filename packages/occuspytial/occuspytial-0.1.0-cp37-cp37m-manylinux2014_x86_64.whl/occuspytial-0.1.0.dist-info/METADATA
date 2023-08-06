@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: occuspytial
+Version: 0.1.0
+Summary: 'A package for bayesian analysis of spatial occupancy models'
+Home-page: https://github.com/zoj613/OccuSpytial/
+License: BSD-3-Clause
+Keywords: spatial statistics,occupancy modelling,markov chain monte carlo,occupancy prediction,Species Occupancy
+Author: Zolisa Bleki
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: docs
+Requires-Dist: arviz (>=0.9.0,<0.10.0)
+Requires-Dist: joblib (>=0.14.0,<0.15.0)
+Requires-Dist: jupyter; extra == "docs"
+Requires-Dist: libpysal
+Requires-Dist: nbsphinx; extra == "docs"
+Requires-Dist: numpy (>=1.19.0,<2.0.0)
+Requires-Dist: numpydoc; extra == "docs"
+Requires-Dist: pypolyagamma (>=1.2.3,<2.0.0)
+Requires-Dist: scipy (>=1.5.1,<2.0.0)
+Requires-Dist: sphinx (>=3,<4); extra == "docs"
+Requires-Dist: sphinx_rtd_theme; extra == "docs"
+Requires-Dist: tqdm (>=4.46.1,<5.0.0)
+Project-URL: Repository, https://github.com/zoj613/OccuSpytial/
+Description-Content-Type: text/markdown
+
+# OccuSpytial
+
+A package for fast bayesian analysis of spatial occupancy models. OccuSpytial implements
+several samplers for the single season site spatial occupancy model using the Intrinsic Conditional Autoregressive (ICAR) model for spatial random effects.
+
+## Usage
+
+For usage examples refer to the project's [documentation](https://occuspytial.readthedocs.io).
+
+
+## Installation
+
+The package can be installed using [pip](https://pip.pypa.io).
+
+```shell
+pip install occuspytial
+
+```
+
+Alternatively, it can be installed from source using [poetry](https://python-poetry.org)
+
+```shell
+git clone https://github.com/zoj613/OccuSpytial.git
+cd OccuSpytial/
+poetry install
+
+```
+Note that installing this way requires that `Cython` is installed for a successful build.
+
+
+## Testing
+
+To run tests after installation, the package `pytest` is required. Simply run
+the following line from the terminal in this package's root directory.
+
+```shell
+python -m pytest
+```
+
+If all tests pass, then you're good to go.
+
+
+## Licensing
+
+OccuSpytial is free software made available under the BSD License. For details
+see the [LICENSE](https://github.com/zoj613/OccuSpytial/blob/master/LICENSE) file.
