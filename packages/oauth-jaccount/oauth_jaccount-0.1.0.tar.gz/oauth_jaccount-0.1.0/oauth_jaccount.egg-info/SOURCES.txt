@@ -1,0 +1,9 @@
+README.md
+setup.py
+oauth_jaccount/__init__.py
+oauth_jaccount/client.py
+oauth_jaccount.egg-info/PKG-INFO
+oauth_jaccount.egg-info/SOURCES.txt
+oauth_jaccount.egg-info/dependency_links.txt
+oauth_jaccount.egg-info/requires.txt
+oauth_jaccount.egg-info/top_level.txt
