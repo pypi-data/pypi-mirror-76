@@ -1,0 +1,14 @@
+louvijan/__init__.py,sha256=ZrTGzPXqCC8rMBiG1gcbwe7r80I6qR4Jm4i-vu5KMqE,136
+louvijan/pipe.py,sha256=vVZbpze0Pc3a49OmwzP8WGfmI3wzGc8ldsM0pEvMZGg,10968
+louvijan/manager/__init__.py,sha256=ely2PttjgSv7vKdzskuD1rtK_l_UOpmxJSz8isrveD0,16
+louvijan/manager/base.py,sha256=cK-GFuxiquGPBwUQ_Vy0lzwa9rfUshxI1dRGbal9J3c,1293
+louvijan/manager/config.py,sha256=5tVZOQrJMitY_zrvqubPC5SobBoiCMaBt3qKLZjZ-3w,3679
+louvijan/manager/execution.py,sha256=fya6k9b_KPwJMv0RgPFWq3lnglMJ6LdrDBNP8jP6xsA,1668
+louvijan/manager/log.py,sha256=JXGZgobVRcCV0-9EdZBtqnGW-rrnObhCdrds3fSg9Zw,1718
+louvijan/manager/mail.py,sha256=iz2avIKMD4gg2fxWgvkJF1CkZODNdst9CLMhW9IwlXI,3136
+louvijan/manager/remote.py,sha256=QR0nmjXKdBrHTETe5y-d7QzSPlgpUmGKoMU833c2foI,2786
+louvijan-0.1.3.dist-info/LICENSE,sha256=aU-WWBEE_UmEbTTRaNdQLUa25N_txjSGLSyYE0-x1Ew,1089
+louvijan-0.1.3.dist-info/METADATA,sha256=Q7PD_c2vR_MQXJGcfJ_YmS3Z0nz589MX6Wk6JDFJRFE,2811
+louvijan-0.1.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+louvijan-0.1.3.dist-info/top_level.txt,sha256=r5HfzEZckTmFELBrudJzuIp9q2AKeRCPK6gfdkEX_4Q,9
+louvijan-0.1.3.dist-info/RECORD,,
