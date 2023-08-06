@@ -1,0 +1,13 @@
+SimulRPi/GPIO.py,sha256=D8uaVMOgrSm2-UWPZGugMj9i_JB3NFueaGMISpp6FVI,36274
+SimulRPi/__init__.py,sha256=OpiCSXlw9l5e5ss-tGdonOL8ceX42Oz4UZD8L7tv2VM,44
+SimulRPi/default_keymap.py,sha256=OAmt0QuqqMNbLkK80r5hA8FYQd8PrElHofSmXDBBjY8,1020
+SimulRPi/mapping.py,sha256=sX44T5XwepDJs-Nv7I1dZgsGvb0pqHtG8AdEXvmOWDc,3150
+SimulRPi/run_examples.py,sha256=R5sywB8p6TQhGTJ5a1ORTk5rLxPzriQ3puaU3PLUhjA,15587
+SimulRPi/test.py,sha256=L4RiY7mbYrb3QD_tzpXngVZ8eRGY46KD3mNeI5twRYE,30627
+SimulRPi/utils.py,sha256=qRCb_hzOY7cBJN10_k46RTK-xwKugOSLdWt7pesi9Ww,1297
+SimulRPi-0.0.0a0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+SimulRPi-0.0.0a0.dist-info/METADATA,sha256=QBA_ezjlO183tN23abLffnybVcTOc_P90Uk3QJ1UAUg,18519
+SimulRPi-0.0.0a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+SimulRPi-0.0.0a0.dist-info/entry_points.txt,sha256=67nKZRI3HpN1nEU7V7eQp8Tkv7WEIWbCOiUHyA4wIS0,61
+SimulRPi-0.0.0a0.dist-info/top_level.txt,sha256=VQ9ftdt4xislM7RdwNe3smQMxvXPSR4gJMeZvyC0daY,9
+SimulRPi-0.0.0a0.dist-info/RECORD,,
