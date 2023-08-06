@@ -1,0 +1,5 @@
+albumentations
+timm
+
+[test]
+pytest
