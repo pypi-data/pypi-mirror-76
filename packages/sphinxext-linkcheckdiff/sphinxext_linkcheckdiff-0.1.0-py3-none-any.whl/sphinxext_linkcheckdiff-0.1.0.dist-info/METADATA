@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: sphinxext-linkcheckdiff
+Version: 0.1.0
+Summary: Sphinx Extension to run diff-only linkchecks
+Home-page: https://github.com/wpilibsuite/sphinxext-linkcheckdiff
+Author: Vasista Vovveti
+Author-email: vasistavovveti@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Plugins
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Documentation
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: sphinx (>=3.0)
+
+# sphinxext-linkcheckdiff
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+Sphinx Extension to run diff-only linkchecks
+
+## Installation
+
+`python -m pip install git+https://github.com/wpilibsuite/sphinxext-linkcheckdiff`
+
+## Usage
+Add `sphinxext.linkcheckdiff` to your extensions list in your `conf.py`
+
+```python
+extensions = [
+   sphinxext.linkcheckdiff,
+]
+```
+## Options
+These values are placed in the conf.py of your sphinx project.
+
+* `linkcheckdiff_branch`
+    * Required. The branch to diff against.
+
+Note: linkcheckdiff is an extension of the linkcheck builder that ships with Sphinx. linkcheckdiff respects all of linkcheck's configuration options.
+
+
+## Example Config
+
+```python
+linkcheckdiff_branch = "master"
+```
+
