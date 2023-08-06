@@ -1,0 +1,2 @@
+recursive-include ./hathor/resources *
+recursive-exclude ./hathor/resources *.pyc
