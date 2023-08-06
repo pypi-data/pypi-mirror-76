@@ -1,0 +1,8 @@
+albumentations
+iglovikov_helper_functions
+numpy
+torch
+torchvision
+
+[test]
+pytest
