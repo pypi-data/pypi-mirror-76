@@ -1,0 +1,12 @@
+vrcpy/__init__.py,sha256=2eowUUF15tAyb3zHRnxZdGxGfiSJpqe02ClTH7lKfBA,163
+vrcpy/_hardtyping.py,sha256=M3HkyCS85tLgXxn29IKDhk0X_k3xZzv2Y0GWEqVseN4,122
+vrcpy/aobjects.py,sha256=a7jm7crYtx8ZN5HT-V4HOvMdzZfQJNfKl0T4acrw2l8,6986
+vrcpy/client.py,sha256=Vig8CpomlP275EAGQnhcrXRRcvbxR3STMAcAniDrxSM,19854
+vrcpy/errors.py,sha256=bxBzAh_ItDWEukQ54VnjYBBOac72qmeITx_DpmqgkCk,1137
+vrcpy/objects.py,sha256=KHH3P6_NtP7XjZYf6KK3nyqG90AC6d6STk6GUhmGICw,14998
+vrcpy/request.py,sha256=KtXTNrLsgcaD5c-hy9l_Y4HFWd39H4eI7OZiEnKd1xs,9188
+vrcpy/types.py,sha256=lNDB3--pTPGE9Bm4Tojbc9UJUpoKqE1qk7P9rpaH9Qc,1680
+vrcpy-0.6.8.dist-info/METADATA,sha256=uopqC_-PvUVumnqzaYxllmYTSfQmpHd5J9TXPMJmZC4,1399
+vrcpy-0.6.8.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+vrcpy-0.6.8.dist-info/top_level.txt,sha256=nvdZvyPacg4Y-URJjcRPaAo-RNF6X2uyeNzgnBZK3NA,6
+vrcpy-0.6.8.dist-info/RECORD,,
