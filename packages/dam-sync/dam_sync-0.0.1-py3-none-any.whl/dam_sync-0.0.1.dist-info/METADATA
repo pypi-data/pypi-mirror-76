@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: dam-sync
+Version: 0.0.1
+Summary: Synchronisation CLI tool for your digital assets
+Home-page: https://github.com/dmitrybelyakov/dam-sync
+Author: Dmitry Belyakov
+Author-email: dmitrybelyakov@gmail.com
+License: MIT License
+Download-URL: https://github.com/dmitrybelyakov/dam-sync/releases/v0.0.1.tar.gz
+Keywords: python3,dam,digital asset management,backup
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console
+Classifier: Topic :: Desktop Environment :: File Managers
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Multimedia
+Classifier: Topic :: System :: Archiving :: Backup
+Description-Content-Type: text/markdown
+Requires-Dist: click (<8.0.0,>=7.1.2)
+
+Synchronisation CLI tool for your digital assets
+
+
