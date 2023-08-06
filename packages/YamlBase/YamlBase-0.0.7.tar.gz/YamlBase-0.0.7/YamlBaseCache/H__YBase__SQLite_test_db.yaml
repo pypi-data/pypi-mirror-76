@@ -1,0 +1,37 @@
+db_name: test_db
+db_type: SQLite
+ip: H:/YBase/
+password: ''
+schemas:
+  main:
+  - columns:
+      column1:
+        is_pk: 0
+        name: column1
+        type: text
+      column2:
+        is_pk: 0
+        name: column2
+        type: double
+      column3:
+        is_pk: 0
+        name: column3
+        type: text
+    name: table1
+    permissions: []
+  - columns:
+      column1:
+        is_pk: 0
+        name: column1
+        type: text
+      column2:
+        is_pk: 0
+        name: column2
+        type: double
+      column3:
+        is_pk: 0
+        name: column3
+        type: text
+    name: table2
+    permissions: []
+username: ''

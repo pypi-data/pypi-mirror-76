@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: YamlBase
+Version: 0.0.7
+Summary: YamlBase: simple yaml config based VCS for database
+Home-page: UNKNOWN
+Author: Maxim Yurchenko
+License: MIT
+Project-URL: Source, https://github.com/mv-yurchenko/YBase
+Project-URL: Tracker, https://github.com/mv-yurchenko/YBase/issues
+Description: # YamlBase
+        [![codecov](https://codecov.io/gh/mv-yurchenko/YBase/branch/dev/graph/badge.svg)](https://codecov.io/gh/mv-yurchenko/YBase)
+        [![Actions Status](https://github.com/mv-yurchenko/YBase/workflows/deploy_on_master/badge.svg)](https://github.com/mv-yurchenko/YBase/actions)
+        [![CodeFactor](https://www.codefactor.io/repository/github/mv-yurchenko/ybase/badge)](https://www.codefactor.io/repository/github/mv-yurchenko/ybase)
+        
+        This utility allows you to manage tables in a database using YAML files, which makes it faster to create and delete tables in multiple databases simultaneously
+        
+        ## The following databases are currently supported: 
+        
+        - SQLite 
+        
+        ## Installation 
+        
+        ```shell script
+        pip install YamlBase
+        ``` 
+        
+        ## Usage Example
+        
+        To use this utility, you need 2 files, one is the configuration of new tables for the database, and the second is a file with a list of actions
+        
+        File examples: 
+        - actions_example.yaml
+        - base_example.yaml
+        
+Keywords: Database,VCS
+Platform: linux
+Platform: Development Status :: 3 - Aplha
+Platform: Intended Audience :: Developers
+Platform: License :: OSI Approved :: MIT License
+Platform: Operating System :: MacOS :: MacOS X
+Platform: Operating System :: Microsoft :: Windows
+Platform: Programming Language :: Python :: 3
+Platform: Programming Language :: Python :: 3 :: Only
+Platform: Programming Language :: Python :: 3.7
+Platform: Programming Language :: Python :: 3.8
+Platform: Programming Language :: Python :: 3.9
+Platform: Topic :: Software Development :: Libraries
+Platform: Topic :: Software Development :: DataBase
+Platform: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
