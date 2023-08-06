@@ -1,0 +1,17 @@
+django_simple_bulma/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_simple_bulma/apps.py,sha256=ON6GguAR-Steo_bMkwd_fyKMSOXYSyI8QvzFACzdorM,338
+django_simple_bulma/finders.py,sha256=dLZrGkBHbeY05I7EmpJNZ4tz21IMG_nZTpuc2Esm7UM,7169
+django_simple_bulma/settings.py,sha256=9PgBEgnTQ4MbiFgYBFu21SwensMwjGN5mmvozMKtOGw,243
+django_simple_bulma/utils.py,sha256=cdDiTUYTPRS_pwVsYgXNBgVJPaID_eC6W3AbEM1kfK8,2645
+django_simple_bulma/css/bulma.css,sha256=bouF7WQyqWdK-wSvctr1kyjRc-hU5M9rgOYRo3TY-2A,104
+django_simple_bulma/extensions/bulma-dropdown/dist/js/bulma-dropdown.js,sha256=E8W5d318ogoHpWrvNE380Fnif4F9xMX7eepNhOc4DzU,936
+django_simple_bulma/extensions/bulma-fileupload/dist/js/bulma-fileupload.js,sha256=bCIuXUPGpme6dW0Q1GJzwruYh0ybqyEoTebm_O6Fsz0,444
+django_simple_bulma/extensions/bulma-navbar-burger/dist/js/bulma-navbar-burger.js,sha256=zoh74U9nB0cb11K1LNlvlup81Pi60aVeZy0RXJHK2Q8,1302
+django_simple_bulma/extensions/bulma-notifications/dist/js/bulma-notifications.js,sha256=SK5xJksnwCVIZcfh96Iy-wvrLhQTiCAEWJFIIMSKIVg,362
+django_simple_bulma/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_simple_bulma/templatetags/django_simple_bulma.py,sha256=UHEZOfwgLwBiOVPoaLdsDS2H5fYtSA4GKoDBGcNhsHA,2103
+django_simple_bulma-2.0.0.dist-info/LICENSE,sha256=GA1LnovFATgsbVgR6SwNaLGlzivBtwgZprbX6DyEnMw,1187
+django_simple_bulma-2.0.0.dist-info/METADATA,sha256=GQCx78WzoDnJxwH47QUoCLmSgAQoaM4G942MwwvZ1W4,10854
+django_simple_bulma-2.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+django_simple_bulma-2.0.0.dist-info/top_level.txt,sha256=dEfZPy05gwdCsSm0DIeOAzqgBo5KrKphKb8L7Q_rwq0,20
+django_simple_bulma-2.0.0.dist-info/RECORD,,
