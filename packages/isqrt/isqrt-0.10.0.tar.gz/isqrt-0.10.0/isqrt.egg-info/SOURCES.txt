@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+isqrt/__init__.py
+isqrt/isqrt.py
+isqrt.egg-info/PKG-INFO
+isqrt.egg-info/SOURCES.txt
+isqrt.egg-info/dependency_links.txt
+isqrt.egg-info/top_level.txt
