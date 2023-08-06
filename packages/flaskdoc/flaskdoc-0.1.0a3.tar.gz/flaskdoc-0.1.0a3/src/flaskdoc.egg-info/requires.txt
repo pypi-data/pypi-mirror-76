@@ -1,0 +1,24 @@
+attrs~=19.3
+click~=7.1
+flask~=1.0
+PyYaml~=5.3
+
+[dev]
+click
+coverage[toml]
+flake8
+openapi-spec-validator
+pre-commit
+pytest
+pytest-cov
+pytest-flask
+sphinx
+sphinx_rtd_theme
+sphinxcontrib-napoleon
+
+[dev:python_version >= "3.6"]
+black
+
+[rtd]
+sphinx
+sphinxcontrib-napoleon
