@@ -1,0 +1,7 @@
+pandas
+numpy
+clize
+hyperopt
+sigtools
+matplotlib
+scikit-learn
