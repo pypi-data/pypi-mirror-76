@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "genisys"
+version = "0.1.1"
+description = "A framework for building intelligent microservices"
+license = "MIT"
+authors = ["David Lee <ltw_david@hotmail.com>"]
+packages = [
+    { include = "genisys" },
+]
+exclude = [
+    "devops",
+    "genisys/*/tests"
+]
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+cookiecutter = "^1.7.2"
+click = "^7.1.2"
+colorama = "^0.4.3"
+toml = "^0.10.1"
+
+[tool.poetry.dev-dependencies]
+# For documentation
+mkdocs = "^1.1.2"
+
+# For testing
+tox = "^3.16.1"
+tox-pyenv = "^1.1.0"
+docker = "^4.2.2"
+
+[tool.poetry.scripts]
+genisys = "genisys.console:genisys_cli"
+
+[tool.poetry.plugins."genisys.cli"]
+init = "genisys.console.init:init_cli"
+create = "genisys.console.create:create_cli"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist = py36,py37,py38
+
+[testenv]
+commands = python -m unittest discover -v -s ./genisys -t .
+"""
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
