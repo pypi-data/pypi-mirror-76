@@ -1,0 +1,5 @@
+flask
+flask_cors
+lxml
+pathlib
+flask_socketio
