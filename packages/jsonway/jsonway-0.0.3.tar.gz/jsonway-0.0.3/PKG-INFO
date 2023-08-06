@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jsonway
+Version: 0.0.3
+Summary: complete tool for the JSON
+Home-page: https://github.com/umeshdhakar/sample-python-package
+Author: Vishwanath
+Author-email: justvishu91@gmail.com
+License: UNKNOWN
+Description: ## Demo_car
+        
+        This is a sample package to learn the steps of creating and publishing package.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
