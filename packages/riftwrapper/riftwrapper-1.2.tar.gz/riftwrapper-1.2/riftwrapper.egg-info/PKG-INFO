@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: riftwrapper
+Version: 1.2
+Summary: Python Riot API wrapper
+Home-page: https://github.com/verd1c/Rift-Wrapper
+Author: verd1c
+Author-email: kwstasfortmanik@gmail.com
+License: gpl-3.0
+Download-URL: https://github.com/verd1c/Rift-Wrapper/archive/v1.2.tar.gz
+Description: UNKNOWN
+Keywords: RiotAPI,Riot API wrapper,Python API
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
