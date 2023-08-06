@@ -1,0 +1,8 @@
+opentelemetry/instrumentation/psycopg2/__init__.py,sha256=BU3t4iRoN6H_Ar_ZFW75XAuuCxub98-xBFl5kybVmMc,3273
+opentelemetry/instrumentation/psycopg2/version.py,sha256=PZZADxTUMbz8kTx9AruV_-DR818kDDswOE2lDOkkNts,608
+opentelemetry_instrumentation_psycopg2-0.12b0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+opentelemetry_instrumentation_psycopg2-0.12b0.dist-info/METADATA,sha256=-thYTbyrUSEPJsf5rf9RRcvrt5xfuhfv-RB9qn0y8l8,1821
+opentelemetry_instrumentation_psycopg2-0.12b0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+opentelemetry_instrumentation_psycopg2-0.12b0.dist-info/entry_points.txt,sha256=CXrqWK86bW8zdcwYepbXIPjL-sDMh1B7hBhFEE0z78g,101
+opentelemetry_instrumentation_psycopg2-0.12b0.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_instrumentation_psycopg2-0.12b0.dist-info/RECORD,,
