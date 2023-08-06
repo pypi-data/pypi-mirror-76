@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: libsocks
+Version: 0.0.2
+Summary: A socks5/socks/http proxy client module
+Home-page: https://github.com/ccssrryy/libsocks
+Author: ccssrryy
+Author-email: cs010@hotmail.com
+License: MIT
+Description: https://github.com/ccssrryy/libsocks/blob/master/README.md
+Keywords: socks,socks5,socks4,asyncio,proxy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
