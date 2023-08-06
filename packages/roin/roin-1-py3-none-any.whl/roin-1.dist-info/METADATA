@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: roin
+Version: 1
+Summary: This is just a module for easier installation of Rosehip dependencies
+Home-page: https://github.com/donno2048/Rosehip
+Author: Elisha Hollander
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pygame
+Requires-Dist: pyttsx3
+Requires-Dist: pywin32
+Requires-Dist: comtypes
+Requires-Dist: pygame-gui
+Requires-Dist: keyboard
+Requires-Dist: wheel
+Requires-Dist: Js2Py
+Requires-Dist: selenium
+Requires-Dist: chromedriver-autoinstaller
+Requires-Dist: html2text
+Requires-Dist: requests
+Requires-Dist: opencv-python
+
+UNKNOWN
+
+
