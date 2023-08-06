@@ -1,0 +1,3 @@
+[twine.registered_commands]
+verify_upload = twine_verify_upload.command:main
+
