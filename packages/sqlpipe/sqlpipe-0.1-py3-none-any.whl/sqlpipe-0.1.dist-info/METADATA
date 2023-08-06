@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: sqlpipe
+Version: 0.1
+Summary: A simple way to run multiple SQL script pipelines in parallel.
+Home-page: https://github.com/mariotaddeucci/sqlpipe
+Author: Mario Taddeucci
+Author-email: mariotaddeucci@gmx.com
+License: MIT
+Keywords: sql pipeline etl parallel redshift postgres postgresql
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: asyncpg (==0.21.0)
+
+# sqlpipe
+A simple way to run multiple SQL script pipelines in parallel.
+
+
