@@ -1,0 +1,3 @@
+[console_scripts]
+sap = sap.cli:main
+
