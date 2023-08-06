@@ -1,0 +1,15 @@
+{% load wagtailimages_tags wagtailcore_tags my my_amp %}
+
+<div class="bg-container-item {% if pos %}bg-pos-{{ pos }}{% endif %}"
+        {% if media.block_type == 'svg' %}
+            {% if block_num >= 2 and not amp or forloop.counter0 > 0 and not amp %}data-src="{{ media.value.url }}"
+            {% else %}style="background-image: url({{ media.value.url }})"
+            {% endif %}
+        {% elif media.block_type == 'image' %}
+            {% with img=media.value|myimg:rendition %}
+                {% if block_num >= 2 and not amp or forloop.counter0 > 0 and not amp %}data-src="{{ img.url }}"
+                {% else %}style="background-image: url({{ img.url }})"{% endif %}
+            {% endwith %}
+        {% endif %}
+>
+</div>
