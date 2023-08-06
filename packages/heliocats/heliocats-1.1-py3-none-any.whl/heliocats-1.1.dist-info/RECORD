@@ -1,0 +1,10 @@
+heliocats/__init__.py,sha256=bXD_FSy8_v0_e54M-XenVJc6s7eVI7g4GLfeWtLTpZ8,379
+heliocats/cats.py,sha256=ZvZW1V3cq9_EoQ3INS8Ktkdr54pjl4arrJ4k8O0babw,32251
+heliocats/data.py,sha256=0NcWr-5382mxw_KqLWfqcdQ7mevnqKIWUv6h3Dm21pQ,109605
+heliocats/plot.py,sha256=FfS-04p-4V_Y1hUSEBJBgiKmpbYP2kle0_QAl1MWMMk,62902
+heliocats/stats.py,sha256=5yfvOFFL36Ai7JmmeClOzg1aeVpVKzyz77N_Z0ay0DM,9304
+heliocats-1.1.dist-info/LICENSE,sha256=zzEB3sl0416O7-GpLUUzHdN2t-JUogAOHO503QsttKE,1073
+heliocats-1.1.dist-info/METADATA,sha256=4yboWNhoWNX8OqMPZnF_1wBlKumGZm8sAx-kyEc6z-o,6314
+heliocats-1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+heliocats-1.1.dist-info/top_level.txt,sha256=5qQ9tqoNi2fAFXXnSepWyXRFk8JGlF6ml2BiwDFe4Es,10
+heliocats-1.1.dist-info/RECORD,,
