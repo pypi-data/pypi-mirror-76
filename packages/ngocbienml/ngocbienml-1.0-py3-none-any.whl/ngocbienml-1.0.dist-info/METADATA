@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: ngocbienml
+Version: 1.0
+Summary: An ecosystem for machine learning project
+Home-page: https://github.com/ngocbien
+Author: Nguyen Ngoc Bien
+Author-email: ngocbien.nguyen.vn@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7.*
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.16.6)
+Requires-Dist: scikit-learn (>=0.20.4)
+Requires-Dist: scipy (>=0.19.0)
+Requires-Dist: pandas (>=0.24.2)
+Requires-Dist: matplotlib (>=2.2.5)
+
+This is a machine learning tools with pipeline.
+
+Here some example to run machine learning project:
+
+```python
+from ngocbienml import MyPipeline
+pipeline = MyPipeline()
+pipeline.fit(data, target)
+pipeline.score(new_data, new_target)
+```
+note that data must be data frame and target is a binary target for this beta version.
+
+You can use to save and reload pipeline for a long usage.
+```python
+from joblib import dump, load
+dump(pipeline, path)
+pipeline = load(path)
+pipeline.score(data, target)
+```
+You can use include many preprocessing classes  like Fillna, Scale, or Labelencoder 
+in your customized pipeline. Note that actually, 
+you can not use full labelencoder by sklearn
+
+```python
+from ngocbienml import Scale, Fillna, Labelencoder, ModelWithPipeline
+from sklearn.pipeline import Pipeline
+pipeline = Pipeline([('label_encoder', Labelencoder()),
+                    ('fillna', Fillna()), 
+                    ('scale', Scale()),
+                    ('model', ModelWithPipeline())])
+pipeline.fit(data, target)
+pipline.score(test,  y_test)
+```
+
+
+```python
+from ngocbienml import PipelineKfold
+pipeline = PipelineKfold()
+pipeline.fit(data, target)
+pipline.score(test, y_test)
+```
+
