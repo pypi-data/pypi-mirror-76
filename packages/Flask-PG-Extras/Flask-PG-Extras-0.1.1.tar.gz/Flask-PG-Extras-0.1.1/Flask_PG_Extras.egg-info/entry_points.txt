@@ -1,0 +1,3 @@
+[flask.commands]
+pg-extras = flask_pg_extras.cli:pg_extras
+

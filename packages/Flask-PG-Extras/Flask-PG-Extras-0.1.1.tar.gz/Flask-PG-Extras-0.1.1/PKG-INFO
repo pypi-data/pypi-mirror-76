@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: Flask-PG-Extras
+Version: 0.1.1
+Summary: Flask extension to obtain useful information from your PostgreSQL database.
+Home-page: https://github.com/nickjj/flask-pg-extras
+Author: Nick Janetakis
+Author-email: nick.janetakis@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Database
+Requires-Python: >=3.6
