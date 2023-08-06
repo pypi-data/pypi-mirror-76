@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: djmssql
+Version: 0.2.0
+Summary: Django database backend for MS SQLServer
+Home-page: https://github.com/nakagami/djmssql/
+Author: Hajime Nakagami
+Author-email: nakagami@gmail.com
+License: BSD
+Description: djfirebirdsql
+        ==============
+        
+        Django Microsoft SQL Server backend.
+        
+        I refer to djang-pyodbc-azure (https://github.com/michiya/django-pyodbc-azure).
+        
+        Requirements
+        -------------
+        
+        * Django 3.1
+        * minitds (https://github.com/nakagami/minitds) recently released.
+        
+        Installation
+        --------------
+        
+        ::
+        
+            $ pip install djmssql django
+        
+        Database settings example
+        ------------------------------
+        
+        ::
+        
+            DATABASES = {
+                'default': {
+                    'ENGINE': 'djmssql',
+                    'NAME': ...,
+                    'HOST': ...,
+                    'USER': ...,
+                    'PASSWORD': ...,
+                }
+            }
+        
+Keywords: Django,SQLServer,minitds
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Classifier: Framework :: Django
