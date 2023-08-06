@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ja_ginza
+Version: 4.0.0
+Summary: Japanese multi-task CNN trained on UD-Japanese BCCWJ v2.6 + GSK2014-A(2019). Assigns word2vec token vectors, POS tags, dependency parse and named entities.
+Home-page: https://github.com/megagonlabs/ginza
+Author: Megagon Labs, Tokyo.
+Author-email: ginza@megagon.ai
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
