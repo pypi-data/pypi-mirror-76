@@ -1,0 +1,11 @@
+README.md
+setup.py
+climailsystem.egg-info/PKG-INFO
+climailsystem.egg-info/SOURCES.txt
+climailsystem.egg-info/dependency_links.txt
+climailsystem.egg-info/entry_points.txt
+climailsystem.egg-info/requires.txt
+climailsystem.egg-info/top_level.txt
+sendmail/__init__.py
+sendmail/__main__.py
+sendmail/sendmail.py

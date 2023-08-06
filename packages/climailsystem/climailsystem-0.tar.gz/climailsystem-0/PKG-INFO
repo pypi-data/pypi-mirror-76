@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: climailsystem
+Version: 0
+Summary: A small Package for sending and reading mails from cli
+Home-page: https://github.com/aksh45/climailsystem
+Author: Akshit Ahuja
+Author-email: techsyapa@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
