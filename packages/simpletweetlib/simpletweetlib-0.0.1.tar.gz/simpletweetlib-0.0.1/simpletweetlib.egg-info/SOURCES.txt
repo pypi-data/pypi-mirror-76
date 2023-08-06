@@ -1,0 +1,10 @@
+README.md
+setup.py
+simpletweetlib/__init__.py
+simpletweetlib/_auth.py
+simpletweetlib/tweet.py
+simpletweetlib.egg-info/PKG-INFO
+simpletweetlib.egg-info/SOURCES.txt
+simpletweetlib.egg-info/dependency_links.txt
+simpletweetlib.egg-info/requires.txt
+simpletweetlib.egg-info/top_level.txt
