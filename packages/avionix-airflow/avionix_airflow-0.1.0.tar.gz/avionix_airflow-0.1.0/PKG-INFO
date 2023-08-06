@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: avionix_airflow
+Version: 0.1.0
+Summary: A package for deploying airflow to kubernetes with included monitoring (grafana and elasticsearch integration)
+Home-page: https://github.com/zbrookle/avionix_airflow
+Maintainer: Zach Brookler
+Maintainer-email: zachb1996@yahoo.com
+License: UNKNOWN
+Download-URL: https://github.com/zbrookle/avionix_airflow/archive/master.zip
+Project-URL: Source Code, https://github.com/zbrookle/avionix_airflow
+Project-URL: Documentation, https://github.com/zbrookle/avionix_airflow
+Project-URL: Bug Tracker, https://github.com/zbrookle/avionix_airflow/issues
+Description: Coming soon...
+Keywords: kuberenetes,helm,docker,infrastructure,airflow,grafana,elasticsearch,filebeat
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Typing :: Typed
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
