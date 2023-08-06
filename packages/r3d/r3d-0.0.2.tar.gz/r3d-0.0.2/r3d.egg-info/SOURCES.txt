@@ -1,0 +1,6 @@
+README.md
+setup.py
+r3d.egg-info/PKG-INFO
+r3d.egg-info/SOURCES.txt
+r3d.egg-info/dependency_links.txt
+r3d.egg-info/top_level.txt
