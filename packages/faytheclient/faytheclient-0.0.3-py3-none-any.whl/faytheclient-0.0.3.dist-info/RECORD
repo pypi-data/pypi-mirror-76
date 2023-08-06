@@ -1,0 +1,12 @@
+faytheclient/__init__.py,sha256=cN3awuYQ0lfkkoJNTz718x5UOMGnXPaAAyX22E6D0gk,943
+faytheclient/client.py,sha256=EU3nuQ2tp9M8NLbzAMXaHlgR__f869H7qJSGtdIwvRs,9942
+faytheclient/exceptions.py,sha256=lG3h8SakEh7OljnShfd6aGuXk21il4jOaoCMx5jhdBI,1539
+faytheclient/http.py,sha256=Gzrqsv4PDztjdxWmgjHjK36TWGgBGS6hDUVeG1eEd-g,4789
+faytheclient/utils.py,sha256=Thn2l3dQVV9UBilg0y0pO9gISCNGrBTsQr4kCl89cpE,1308
+faytheclient-0.0.3.dist-info/AUTHORS,sha256=2qo1bD5Q4jb4TRj0E_UmU7xV5CR2lNZ3CmPsLIeP6DM,40
+faytheclient-0.0.3.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+faytheclient-0.0.3.dist-info/METADATA,sha256=ogcFGXbx8VMkmatpvI2UVgBwKeleFjeyGOZNrAzBEEg,1840
+faytheclient-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+faytheclient-0.0.3.dist-info/pbr.json,sha256=DIqpr95HkAz4j1O2D-mMLmQXJHJk6F0NzzVdzuMXeJg,47
+faytheclient-0.0.3.dist-info/top_level.txt,sha256=pHhdn6UvAUyly9eFyUSzvUPh-MHj306ODj1Ey1hBsgY,13
+faytheclient-0.0.3.dist-info/RECORD,,
