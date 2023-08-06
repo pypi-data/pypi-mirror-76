@@ -1,0 +1,18 @@
+future
+
+[:python_version < "3.6"]
+numpy<1.17
+
+[:python_version == "3.6.*"]
+numpy<1.19
+
+[:python_version >= "3.7"]
+numpy
+
+[cseabreeze]
+
+[pyseabreeze]
+pyusb>=1.0
+
+[pyseabreeze:python_version < "3.4"]
+enum34
