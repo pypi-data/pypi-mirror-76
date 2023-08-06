@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: beautylog
+Version: 0.0.1
+Summary: Let your code generate logs automatically
+Home-page: https://github.com/Aglargil/beautylog
+Author: AglarGil
+Author-email: aglargilwang@gmail.com
+License: UNKNOWN
+Description: Let your code generate logs automatically
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
