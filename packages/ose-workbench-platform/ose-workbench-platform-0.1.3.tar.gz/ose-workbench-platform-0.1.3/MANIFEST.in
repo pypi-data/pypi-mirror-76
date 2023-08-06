@@ -1,0 +1,13 @@
+# Include extra files in Python package distribution.
+# https://packaging.python.org/guides/using-manifest-in/
+
+include README.md
+include LICENSE
+include osewb/.flake8
+include osewb/.mypy.ini
+include osewb/.pycodestyle
+include osewb/.mustache
+include osewb/docs/ose-sticker-logo.svg
+recursive-include osewb/docs/templates/ *
+recursive-include osewb/templates/ *
+recursive-include osewb/cookiecutter_ose_workbench/ *
