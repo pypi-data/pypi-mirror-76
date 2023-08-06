@@ -1,0 +1,10 @@
+pentinsula/__init__.py,sha256=oYa3R33hHrqa-qUS5PKpDQvjLzJebbCRQLD_EhyQTcU,86
+pentinsula/chunkbuffer.py,sha256=50VFrmxvaO3GtMx6hC-JfLJl154OVHYRV6qJwUHS4c8,18285
+pentinsula/h5utils.py,sha256=moG2nO6F5borueQatsJlFwxWFDK_6JKQPRx6nSLtrXI,2701
+pentinsula/timeseries.py,sha256=5v1OjjO3aSsVTCr8NPvlOdBUojIt0otXQWKGRAHaL7Q,17529
+pentinsula/types.py,sha256=XctmRHxHGloiY8hrJ-wwXy0nUCHqOO5JZjSxTaVh7tU,330
+pentinsula-0.1.dist-info/LICENSE,sha256=BkHeuRoTOn-9rPQAm7QdP21_8YfwbLcs48sndoOLW_I,1072
+pentinsula-0.1.dist-info/METADATA,sha256=agp_p2zJayC37KMSniz8QwmtrQzMoWEiw_ZsNz-uZxs,4296
+pentinsula-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pentinsula-0.1.dist-info/top_level.txt,sha256=HbxUYzZps6X7AshDstSxVU9SAAzyKKT64bwVSL1MqHs,11
+pentinsula-0.1.dist-info/RECORD,,
