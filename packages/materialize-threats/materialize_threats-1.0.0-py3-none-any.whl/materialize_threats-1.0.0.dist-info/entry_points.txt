@@ -1,0 +1,3 @@
+[console_scripts]
+materialize_threats = materialize_threats.materialize:ThreatMaterializer.materialize
+
