@@ -1,0 +1,6 @@
+[console_scripts]
+patchbay = patchbay.__main__:main
+
+[gui_scripts]
+patchbay-ui = patchbay.__main__:main_gui
+
