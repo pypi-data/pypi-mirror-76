@@ -1,0 +1,13 @@
+dlp_mpi/__init__.py,sha256=0pKPz-V_Pw_2pwvEPF9fhDYfOUvXfK4ZIy7hcYxhVU0,83
+dlp_mpi/mpi.py,sha256=yJgYmSWFsWWUD7gfrMglqucI4e1m7HirWSbTApGn_WQ,3885
+dlp_mpi/testing.py,sha256=4Vf2KNNRmOTiKaypr0r7qpJSmTTBBqOvirfh4b3x7MA,476
+dlp_mpi/util.py,sha256=qrR0upkWARfhJ_Mx47x_bnRr8Y4KzFAt-ISJsvQ3WY4,1885
+dlp_mpi/callback/__init__.py,sha256=gW3lakjxFAH1s_mlR9-9Czo0tH8KBlL6EROlrhtRuCA,36
+dlp_mpi/callback/module_map_unordered.py,sha256=mVrkoEpu6FEfWgxYtLpj_gNAoZioa31GfELGARZXyqg,5242
+dlp_mpi/split/__init__.py,sha256=HWpkUZdChG4-XzUVKbD30HQtGDa_nPJ1_BXmlMALoKg,50
+dlp_mpi/split/managed.py,sha256=GqbZ4fuqAG5PxYGVbKcd4t6taefmn95zArVgiJ2luhk,13422
+dlp_mpi/split/round_robin.py,sha256=LrZ9FHq9rkuVGU0gFqCmGun0mXOxK64CC0QGHznmSm8,1486
+dlp_mpi-0.0.3.dist-info/METADATA,sha256=noEuhL4kC40_9jPqF5LBVS6o7aYgouzQKmppBq4XTUw,7058
+dlp_mpi-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dlp_mpi-0.0.3.dist-info/top_level.txt,sha256=EyRrnEGYUpf73d_ffBLG3ydlA1kk-MoxqzIwOA4SFGE,8
+dlp_mpi-0.0.3.dist-info/RECORD,,
