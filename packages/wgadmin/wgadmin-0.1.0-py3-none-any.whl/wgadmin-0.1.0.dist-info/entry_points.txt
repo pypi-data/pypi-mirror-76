@@ -1,0 +1,3 @@
+[console_scripts]
+wgadmin=wgadmin.main:main
+
