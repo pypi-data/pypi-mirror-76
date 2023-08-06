@@ -1,0 +1,7 @@
+spotipy
+youtube-dl
+eyeD3
+requests
+click
+ffmpeg-python
+ytmusicapi
