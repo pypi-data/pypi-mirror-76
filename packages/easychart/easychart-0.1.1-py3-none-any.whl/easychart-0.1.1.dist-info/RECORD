@@ -1,0 +1,13 @@
+easychart/__init__.py,sha256=nRzXGY7KS-Ts3pi2ylM5ksaXZaqigScDkdITqf7pj8o,2219
+easychart/config.json,sha256=7NQ96-zJ0ji-WxIgL7utvZUZhu7YrU-6nF2k8q69EVU,36
+easychart/encoders.py,sha256=LOo9QBUP_PklykMKT1kSJhIJ-yp62Ht47opztuor-50,1004
+easychart/ipynb.py,sha256=oCs7B_NJROo7rMqipoxHqHc6zRpoUhLgZQgGZTDLWy0,2127
+easychart/models.py,sha256=INP3gXSvVwZc3s5rxg63gIoP3kEku2UDGtg3Yi-ufXc,7233
+easychart/template.html,sha256=_UZEpf54I8_EZ7-TI9Pnm_TR8f9-jxFceDucvjK4ga8,1776
+easychart/datasets/__init__.py,sha256=hRwQ1P34cu0dY7taQsZ6E0DSOurEXmFa1hwse3wInF4,633
+easychart/datasets/olympics.csv,sha256=s1eNJ23802ZG-FXZfCtlbSxZ4P6rYovrxdEO1z9uhwU,3502257
+easychart-0.1.1.dist-info/LICENSE,sha256=b2LaPcObt1N8JDEkQrCYVbFxWEVTj_MqrNPpn5uEJ3s,1070
+easychart-0.1.1.dist-info/METADATA,sha256=3bAe650VR_NYbLdfQm7ZO9-OUrJe_euAfPLSQR-cPAk,648
+easychart-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+easychart-0.1.1.dist-info/top_level.txt,sha256=LDprK20CEBNAISEzvtHIqsHPWuj8zpbX5yT78qHsb_s,10
+easychart-0.1.1.dist-info/RECORD,,
