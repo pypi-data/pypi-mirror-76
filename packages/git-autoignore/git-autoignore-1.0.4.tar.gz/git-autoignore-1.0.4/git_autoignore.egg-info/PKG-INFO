@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: git-autoignore
+Version: 1.0.4
+Summary: Create gitignore template with lighten Speed
+Home-page: https://github.com/Imdeepmehta/git-autoignore
+Author: Imdeepmehta
+Author-email: itsdeepmehta25@gmail.com
+License: MIT
+Description: 
+        # git-autoignore
+        # Automatically create .gitignore file for you 
+        
+        ### INSTALLITION:
+        - pip3 install git-autoignore
+        
+        ### USAGES: 
+        - `git-autoignore <Programming Language>`
+          
+        ### EXAMPLE:
+        - `git-autoignore python` *for creating .gitignore file for python programming language*
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

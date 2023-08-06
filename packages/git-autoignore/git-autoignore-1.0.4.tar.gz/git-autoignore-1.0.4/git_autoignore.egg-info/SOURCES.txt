@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+git_autoignore.egg-info/PKG-INFO
+git_autoignore.egg-info/SOURCES.txt
+git_autoignore.egg-info/dependency_links.txt
+git_autoignore.egg-info/entry_points.txt
+git_autoignore.egg-info/requires.txt
+git_autoignore.egg-info/top_level.txt
+gitignore/__init__.py
+gitignore/__main__.py
+gitignore/ignore.py
