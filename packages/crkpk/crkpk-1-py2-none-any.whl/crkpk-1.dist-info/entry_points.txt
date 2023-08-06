@@ -1,0 +1,3 @@
+[console_scripts]
+crkpk = crkpk.__init__:haxxx
+
