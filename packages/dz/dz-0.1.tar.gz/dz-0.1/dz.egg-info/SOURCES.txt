@@ -1,0 +1,11 @@
+README.md
+setup.py
+dz/__init__.py
+dz/__main__.py
+dz/output.py
+dz.egg-info/PKG-INFO
+dz.egg-info/SOURCES.txt
+dz.egg-info/dependency_links.txt
+dz.egg-info/entry_points.txt
+dz.egg-info/requires.txt
+dz.egg-info/top_level.txt
