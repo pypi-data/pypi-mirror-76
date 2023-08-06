@@ -1,0 +1,9 @@
+sendmail/__init__.py,sha256=MKqdkWzibFqIbYUFQn-YDAVDAQ3LR23Lq6yaX4UZXB0,160
+sendmail/__main__.py,sha256=IB1Ii5c3pBnGIiyIoNwpn7q-fg4q7ekF3Jytft3pRVg,1103
+sendmail/sendmail.py,sha256=Oho_pHEvtvwgK4mbJeCS7MmS9vi-dRYzsTt7db-5_3o,4412
+climailsystem-0.dist-info/LICENSE,sha256=b8432kBm54jNvpxRLqWPmmzdU6xx4TniskPeU_nUQ_w,1069
+climailsystem-0.dist-info/METADATA,sha256=6tw8oI_Q4rue2o0YKsWhzkKo74G1Serz9A1Xx70RiVU,572
+climailsystem-0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+climailsystem-0.dist-info/entry_points.txt,sha256=uhAHEuHl2L3WgpyY6a3FnvVPRoILlNt-hF5pOhqKNCk,71
+climailsystem-0.dist-info/top_level.txt,sha256=NYyIhIPjxOFZIhjSaYiPuoGoUcJto00wjT1OZ0QQ-cY,9
+climailsystem-0.dist-info/RECORD,,

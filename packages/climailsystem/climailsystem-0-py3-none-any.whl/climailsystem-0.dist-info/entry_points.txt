@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        sendmail=sendmail.__main__:main
+    
