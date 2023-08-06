@@ -1,0 +1,9 @@
+seeder/__init__.py,sha256=J9IQKecmgE3z-dYl1GArJZydrNP59i8mRpfu3z80OA4,84
+seeder/cdr.py,sha256=GZ3Memx5cxe4S-fovn2zajq68KgeodPc6CRd8KM-_Pk,3144
+seeder/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+seeder/schemas/cdr-v4.json,sha256=man1s0Ur5-Sils0HIQUlrfEdXagrvg7AZYOorr_xq9U,11474
+seeder/seeder.py,sha256=6Q8lQwZsT1BLYa1Fab2kjzQZDkx5rlbAEVsqNShLn10,1975
+ceeder-0.0.1.dist-info/LICENSE,sha256=gaYogQdrmEzRLZ1iyulurNOxMuquSkRdOaI_IVl_Q7A,1074
+ceeder-0.0.1.dist-info/WHEEL,sha256=OL-EN-39HbzBiGlqqMt_l4r9-zX-74hoU51DNxxDqP4,88
+ceeder-0.0.1.dist-info/METADATA,sha256=Gc_XlxN-Ebo82rfBMZU-R22DYQrBXrxRDFVEjyp2wx0,1198
+ceeder-0.0.1.dist-info/RECORD,,
