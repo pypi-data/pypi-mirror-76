@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: lingu
+Version: 0.0.2
+Summary: Natural Language Processing library for Icelandic
+Home-page: https://www.lingu.is
+Author: Lingu ehf
+Author-email: lingu@lingu.is
+License: gplv3
+Keywords: nlp,icelandic,ocr
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Natural Language :: Icelandic
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Dist: reynir
+Requires-Dist: icegrams
+Requires-Dist: reynir-correct
+Requires-Dist: tokenizer
+Requires-Dist: nltk
+
+UNKNOWN
+
+
