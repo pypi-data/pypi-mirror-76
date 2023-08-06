@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: eds4jinja2
+Version: 0.1.20
+Summary: Embed the data source specifications in your JINJA templates directly, and enjoy the dynamic data contexts.
+Home-page: https://github.com/meaningfy-ws/eds4jinja2
+Author: Eugeniu Costetchi
+Author-email: costezki.eugen@gmail.com
+Maintainer: Eugeniu Costetchi
+Maintainer-email: costezki.eugen@gmail.com
+License: UNKNOWN
+Description: # eds4jinja2
+        Embedded Datasource Specification in Jinja2 templates
+        
+        ![test](https://github.com/meaningfy-ws/eds4jinja2/workflows/test/badge.svg)
+        ![Codecov](https://img.shields.io/codecov/c/github/meaningfy-ws/eds4jinja2)
+        ![Read the Docs](https://img.shields.io/readthedocs/eds4jinja2)
+        
+        ![PyPI](https://img.shields.io/pypi/v/eds4jinja2?color=teal&label=version)
+        ![PyPI - Status](https://img.shields.io/pypi/status/eds4jinja2)
+        ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/eds4jinja2)
+        ![PyPI - License](https://img.shields.io/pypi/l/eds4jinja2?color=green)
+        ![PyPI - Wheel](https://img.shields.io/pypi/wheel/eds4jinja2)
+        
+        Specify the data sources in your JINJA templates directly.
+        
+        ```jinja2
+        {% set content, error = from_file(path).fetch_tree() %} \n
+        content:  {{ content }}\n
+        error: {{ error }}\n
+        ```
+        
+        ```jinja2
+        {% set content, error =
+            from_endpoint(endpoint).with_query(query_string).fetch_tabular() %}
+        content:  {{ content }} \n
+        error: {{ error }} \n
+        ```
+        
+        # Installation
+        
+        ```shell script
+        pip install eds4jinja2
+        ```
+        
+        # Documentation
+        
+        [Read the docs here](https://eds4jinja2.readthedocs.io/en/latest/)  
+        
+Keywords: template,jinja,rdf,sparql,linked-data,data-source,dynamic-context
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
