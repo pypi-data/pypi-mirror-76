@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: mw2fcitx
+Version: 0.9.3
+Summary: Build fcitx5 libraries from MediaWiki sites
+Home-page: https://github.com/outloudvi/fcitx5-pinyin-moegirl
+Author: Outvi V
+Author-email: oss@outv.im
+License: Unlicense
+Description: # mw2fcitx
+        
+        Build fcitx5 libraries from MediaWiki sites.
+        
+        [![PyPI](https://img.shields.io/pypi/v/mw2fcitx)](https://pypi.org/project/mw2fcitx/)
+        [![PyPI - License](https://img.shields.io/pypi/l/mw2fcitx)](https://github.com/outloudvi/fcitx5-pinyin-moegirl/blob/master/LICENSE)
+        
+        ```sh
+        pip install mw2fcitx
+        # or if you want to just install for current user
+        pip install mw2fcitx --user
+        ```
+        
+        ## CLI Usage
+        
+        ```
+        mw2fcitx -c config_script.py
+        ```
+        
+        ## Configuration Script Format
+        
+        ```
+        
+        ```
+        
+        A
+        
+        ## Package usage
+        
+        ## License
+        
+        [The Unlicense](https://github.com/outloudvi/fcitx5-pinyin-moegirl/blob/master/LICENSE)
+        
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
