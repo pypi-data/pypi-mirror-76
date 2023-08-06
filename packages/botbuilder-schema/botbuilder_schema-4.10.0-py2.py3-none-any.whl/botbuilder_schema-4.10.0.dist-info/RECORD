@@ -1,0 +1,15 @@
+botbuilder/schema/__init__.py,sha256=f-rKeHhynJ27Adnj8CQZxAuQ9NdZjv7CeW7TTAmttyA,4161
+botbuilder/schema/_connector_client_enums.py,sha256=OEEASMRapEFRD_AvoD9E8iUY6g9VUGoTBKmni4soDns,2336
+botbuilder/schema/_models_py3.py,sha256=tHi-IHKnBT1ayUwbdneIl5ROAvyjTZTcHR-b_-F_PG0,85454
+botbuilder/schema/_sign_in_enums.py,sha256=eCd-57sq_35G48WhzBzJuWgWHVKCvUgQ2kL9HzPfxTI,533
+botbuilder/schema/callerid_constants.py,sha256=7wZqJdn-BGkG9gX8ubjETiD-9LphjFGhezeQ5uB4A6E,679
+botbuilder/schema/health_results.py,sha256=CO8gEMlT1D3YXxV83vnRzP6rmMPNxVKWiNiO37w-BKQ,975
+botbuilder/schema/healthcheck_response.py,sha256=abfKZ14mniTKty2XpRqWLwCSOlx0OmTuyx9sxFXqbX8,510
+botbuilder/schema/speech_constants.py,sha256=fTJ5m2NJTp1adjUkgFTh1zbOnT1jmZ-r-zcARDWqWQM,532
+botbuilder/schema/teams/__init__.py,sha256=KLJI1eAYItUBpXaX8ZmQMJ4SIx3A1EeyTcUgL63r9Ic,4678
+botbuilder/schema/teams/_models_py3.py,sha256=vt8GpiDCNSv6UI6SYRFLc70uRP5rgAKjscJC8XmEKks,63582
+botbuilder/schema/teams/additional_properties.py,sha256=HLqy6i_M9UL8TLxhM5cOZEtufVQHUTAIk6doc3jmyHU,786
+botbuilder_schema-4.10.0.dist-info/METADATA,sha256=lvuw223j7nxrmVGmKzFtaqJnhey9MBftFE4onbs_EVs,3694
+botbuilder_schema-4.10.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+botbuilder_schema-4.10.0.dist-info/top_level.txt,sha256=2p3tapzF5j-vDQrnQjnuJZvvXStR_qu8i9Tqq-0ThZg,11
+botbuilder_schema-4.10.0.dist-info/RECORD,,
