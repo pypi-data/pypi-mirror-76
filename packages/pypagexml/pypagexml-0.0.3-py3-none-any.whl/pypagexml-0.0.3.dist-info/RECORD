@@ -1,0 +1,13 @@
+pypagexml/__init__.py,sha256=IJmQqau1q8R1vylkbaogbZW93q-4MznCkjd0NIqjw5M,57
+pypagexml/core.py,sha256=c4Kl98H2noaoIpbDfYpwsxEdPqW6smg6uOQETQk-DI4,2147
+pypagexml/ds/__init__.py,sha256=Flu9sfYuwoN3oHUKM0m28Uk0AbqCJyzbbLl9p0II0J0,52
+pypagexml/ds/gdscommon.py,sha256=Wjlp0pdl875T6jaH-E-SNoBATYrsJAYB_8G8t_l2Js4,33353
+pypagexml/ds/generated.py,sha256=za2dX2TdgY2oYePcL7To_wtOGEclynZM7MswVmPnywA,602042
+pypagexml/ds/parse.py,sha256=NfgoOShEAkH4Eoh_7WMVAZgeNtx1bcU1dJ4Dq9gOUWk,6384
+pypagexml/ds/subclasses.py,sha256=8NyCP8hglorpG5oxr1FI4P-Y7pn7OepFDZq95xWdvFY,66891
+pypagexml/ds/util.py,sha256=zwdF6eoOwIuS0Y_5JNbZq10_gNSJlMdLoPtuPUChra8,108
+pypagexml-0.0.3.data/data/requirements.txt,sha256=9gANTviV_ZYfE1fvHNxpAgO4Ggb9jxmlSg43znWQADg,6
+pypagexml-0.0.3.dist-info/METADATA,sha256=h2ftiBQhgxhmkymb94IZWnO0jZgDbonGy9N3IYSO-oY,1163
+pypagexml-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pypagexml-0.0.3.dist-info/top_level.txt,sha256=7lioOhxW_NuFnsYWMEMpvpmkZPSfu_2VSTo8iw-h5EE,10
+pypagexml-0.0.3.dist-info/RECORD,,
