@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+python_zhmh.egg-info/PKG-INFO
+python_zhmh.egg-info/SOURCES.txt
+python_zhmh.egg-info/dependency_links.txt
+python_zhmh.egg-info/requires.txt
+python_zhmh.egg-info/top_level.txt
+pyzhmh/__init__.py
+pyzhmh/download.py
+pyzhmh/magic.py
+pyzhmh/rich.py

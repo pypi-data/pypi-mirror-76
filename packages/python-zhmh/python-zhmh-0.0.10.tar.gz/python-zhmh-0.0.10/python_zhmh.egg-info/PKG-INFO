@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: python-zhmh
+Version: 0.0.10
+Summary: Python Common Command
+Home-page: https://github.com/zhmhbest/python-zhmh
+Author: zhmh
+Author-email: zhmhbest@gmail.com
+License: MIT
+Description: # python-zhmh
+        
+        ## 进度条
+        
+        ```python
+        import time
+        from pyzhmh import RichPrint
+        
+        length = 100
+        for i in range(1, 1 + length):
+            RichPrint.progress_bar(i/length)
+            time.sleep(0.05)
+        ```
+        
+        ## 下载
+        
+        ```python
+        from pyzhmh import download_one_file
+        download_one_file('./521.jpg', {
+            'url': "https://dss1.bdstatic.com/kvoZeXSm1A5BphGlnYG/skin_zoom/521.jpg?2"
+        })
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
