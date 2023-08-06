@@ -1,0 +1,8 @@
+README.md
+setup.py
+CAMS_Regex_Keywords/CAMS_Keywords.py
+CAMS_Regex_Keywords/__init__.py
+CAMS_Regex_Keywords.egg-info/PKG-INFO
+CAMS_Regex_Keywords.egg-info/SOURCES.txt
+CAMS_Regex_Keywords.egg-info/dependency_links.txt
+CAMS_Regex_Keywords.egg-info/top_level.txt
