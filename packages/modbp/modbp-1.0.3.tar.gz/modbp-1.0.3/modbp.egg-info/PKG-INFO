@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: modbp
+Version: 1.0.3
+Summary: This is a community detection package that used a belief propagation approach to optimize modularity on multilayer networks.  Algorithm is implemented in c++ with python interface for convenience. 
+Home-page: UNKNOWN
+Author: William Weir
+Author-email: wweir@med.unc.edu
+License: GPLv3+
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Provides: modbp
