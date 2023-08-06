@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+easy_lambda/__init__.py
+easy_lambda/utils.py
+easy_lambda.egg-info/PKG-INFO
+easy_lambda.egg-info/SOURCES.txt
+easy_lambda.egg-info/dependency_links.txt
+easy_lambda.egg-info/requires.txt
+easy_lambda.egg-info/top_level.txt
+easy_lambda/create/README.md
+easy_lambda/create/app.py
+easy_lambda/create/requirements.txt
+easy_lambda/create/template.yaml
+easy_lambda/create/test.py
+easy_lambda/others/template.yaml
