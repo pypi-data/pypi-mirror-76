@@ -1,0 +1,17 @@
+README.md
+setup.py
+safe_pip_upgrade/__init__.py
+safe_pip_upgrade/config.py
+safe_pip_upgrade/pip_upgrade.py
+safe_pip_upgrade/pypi.py
+safe_pip_upgrade/requirements_file.py
+safe_pip_upgrade.egg-info/PKG-INFO
+safe_pip_upgrade.egg-info/SOURCES.txt
+safe_pip_upgrade.egg-info/dependency_links.txt
+safe_pip_upgrade.egg-info/entry_points.txt
+safe_pip_upgrade.egg-info/requires.txt
+safe_pip_upgrade.egg-info/top_level.txt
+safe_pip_upgrade/core/__init__.py
+safe_pip_upgrade/core/packages.py
+safe_pip_upgrade/core/upgrade.py
+safe_pip_upgrade/runners/compose.py

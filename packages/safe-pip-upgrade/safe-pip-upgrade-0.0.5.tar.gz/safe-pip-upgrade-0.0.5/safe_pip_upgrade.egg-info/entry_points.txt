@@ -1,0 +1,3 @@
+[console_scripts]
+pip-upgrade = safe_pip_upgrade.pip_upgrade:main
+
