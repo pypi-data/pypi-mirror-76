@@ -1,0 +1,7 @@
+README.md
+setup.py
+rpi_bad_power/__init__.py
+rpi_bad_power.egg-info/PKG-INFO
+rpi_bad_power.egg-info/SOURCES.txt
+rpi_bad_power.egg-info/dependency_links.txt
+rpi_bad_power.egg-info/top_level.txt
