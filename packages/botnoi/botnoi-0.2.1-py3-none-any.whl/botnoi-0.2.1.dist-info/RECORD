@@ -1,0 +1,13 @@
+botnoi/__init__.py,sha256=MVRKuDwaHUoGXL8iYrymzFk9SxnmeVb16g6NTKYGY6A,141
+botnoi/botnoiw2v_small.mod,sha256=8k5uNsXfG28cy2u2B3GGel0P1H4WmXWgPzy-UutIZpE,19018212
+botnoi/cv.py,sha256=NOcahx47r2EfhFHj2GnAlqfjSqlIJmKw3QfKjKGcMIY,709
+botnoi/getw2v.py,sha256=2N1k4fq7V5YlBCvfLyYRHJjufzLktFd0K63762usUZU,490
+botnoi/mobilenet.py,sha256=XApuM6ZpXz9_KL3fdV4VsrSuX7WtR_hk1fARnXDVCiE,1086
+botnoi/nlp.py,sha256=RChhQC5yEoS4ERetnVrRuJNjyz59oVEHHOBhF6N7f90,562
+botnoi/openapi.py,sha256=zXS6hUML_ouibea4Uq0nFAAIVsz__7m7nNYlAAlL5e8,3126
+botnoi/resnet50.py,sha256=VHVveyucwZyq3n3suXaHM9j6eo-cNM1N0ru-vvAT-qA,1064
+botnoi/scrape.py,sha256=g1mVv7-Ww_032HJ8NFnO9RaLfNXlPQQ1E9BSo_QHWnI,1311
+botnoi-0.2.1.dist-info/METADATA,sha256=sn6qW3HSZ9pjsHzYxpENiwx2OJt2vuiSc5x0rQ8B-5E,573
+botnoi-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+botnoi-0.2.1.dist-info/top_level.txt,sha256=qkoDdvUIouVOnbd6wNjEWsMe2xE9ACqGDdoTR4lYAbE,7
+botnoi-0.2.1.dist-info/RECORD,,
