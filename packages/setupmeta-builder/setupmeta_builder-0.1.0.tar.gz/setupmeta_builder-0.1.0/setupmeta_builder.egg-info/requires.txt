@@ -1,0 +1,7 @@
+fsoopify
+packaging
+pipfile
+poetry
+prettyprinter
+pyyaml
+toml
