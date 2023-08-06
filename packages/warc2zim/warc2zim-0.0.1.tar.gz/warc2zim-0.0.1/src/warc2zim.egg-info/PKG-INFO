@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: warc2zim
+Version: 0.0.1
+Summary: OpenZIM's WARC to ZIM file converter
+Home-page: https://github.com/openzim/warc2zim
+Author: openzim
+Author-email: reg@kiwix.org
+License: GPLv3+
+Description: UNKNOWN
+Keywords: openzim kiwix zim offline
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

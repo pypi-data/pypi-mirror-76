@@ -1,0 +1,7 @@
+setup.py
+src/warc2zim/__init__.py
+src/warc2zim.egg-info/PKG-INFO
+src/warc2zim.egg-info/SOURCES.txt
+src/warc2zim.egg-info/dependency_links.txt
+src/warc2zim.egg-info/top_level.txt
+src/warc2zim.egg-info/zip-safe
