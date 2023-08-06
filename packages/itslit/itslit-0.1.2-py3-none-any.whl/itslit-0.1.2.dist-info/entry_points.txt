@@ -1,0 +1,3 @@
+[console_scripts]
+itslit = itslit.cli:cli
+
