@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  herbie-sqs-consumer:
+    container_name: 'herbie-sqs-consumer'
+    build: .
+    volumes:
+      - '.:/data/www'
+    environment:
+      - 'AWS_ACCESS_KEY_ID=x'
+      - 'AWS_SECRET_ACCESS_KEY=x'
+      - 'AWS_SQS_SNS_REGION=local'
+      - 'AWS_SQS_SNS_ENDPOINT_URL=http://herbie-aws-sns-sqs:4100'
+    networks:
+      - 'sandbox_herbie-network'
+
+networks:
+  sandbox_herbie-network:
+    external: true

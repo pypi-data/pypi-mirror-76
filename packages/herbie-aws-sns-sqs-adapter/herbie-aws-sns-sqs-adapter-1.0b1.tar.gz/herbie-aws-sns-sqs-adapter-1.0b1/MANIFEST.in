@@ -1,0 +1,5 @@
+include LICENSE
+recursive-include example_consumer *.md
+recursive-include example_consumer *.py
+recursive-include example_consumer *.txt
+recursive-include example_consumer *.yml
