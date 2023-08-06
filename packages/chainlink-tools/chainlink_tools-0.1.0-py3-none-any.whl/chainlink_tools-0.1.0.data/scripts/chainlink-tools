@@ -1,0 +1,5 @@
+#!python
+
+from chainlink_tools import main
+
+main()
