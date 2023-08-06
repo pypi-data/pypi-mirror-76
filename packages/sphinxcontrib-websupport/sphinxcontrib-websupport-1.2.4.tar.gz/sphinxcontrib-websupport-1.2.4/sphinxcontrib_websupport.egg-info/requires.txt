@@ -1,0 +1,10 @@
+sphinxcontrib-serializinghtml
+
+[lint]
+flake8
+
+[test]
+pytest
+sqlalchemy
+whoosh
+Sphinx
