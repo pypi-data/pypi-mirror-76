@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: selenium-update
+Version: 0.0.0
+Summary: Automate Selenium webdriver dependency set up
+Home-page: https://github.com/Shail-Shouryya/selenium_update
+Author: Shail-Shouryya
+Author-email: yt.videos.list@gmail.com
+License: Apache License 2.0
+Project-URL: Bug Reports, https://github.com/Shail-Shouryya/selenium_update/issues
+Project-URL: PyPi Funding, https://donate.pypi.org
+Project-URL: Source, https://github.com/Shail-Shouryya/selenium_update
+Description: # selenium_update Python API
+        
+Keywords: YouTube videos URL scraping automation Selenium csv txt macos windows linux
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Free for non-commercial use
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Python: >=3.6.*, <4
+Description-Content-Type: text/markdown

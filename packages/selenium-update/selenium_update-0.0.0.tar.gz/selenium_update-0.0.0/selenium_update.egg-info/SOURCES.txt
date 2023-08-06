@@ -1,0 +1,7 @@
+README.md
+setup.py
+selenium_update.egg-info/PKG-INFO
+selenium_update.egg-info/SOURCES.txt
+selenium_update.egg-info/dependency_links.txt
+selenium_update.egg-info/requires.txt
+selenium_update.egg-info/top_level.txt
