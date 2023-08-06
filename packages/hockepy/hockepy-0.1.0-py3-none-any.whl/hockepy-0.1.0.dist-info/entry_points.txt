@@ -1,0 +1,3 @@
+[console_scripts]
+hockepy=hocke:run_hockepy
+
