@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+debug_toolbar_line_profiling/__init__.py
+debug_toolbar_line_profiling/panel.py
+debug_toolbar_line_profiling/signals.py
+django_debug_toolbar_line_profiling.egg-info/PKG-INFO
+django_debug_toolbar_line_profiling.egg-info/SOURCES.txt
+django_debug_toolbar_line_profiling.egg-info/dependency_links.txt
+django_debug_toolbar_line_profiling.egg-info/not-zip-safe
+django_debug_toolbar_line_profiling.egg-info/requires.txt
+django_debug_toolbar_line_profiling.egg-info/top_level.txt
