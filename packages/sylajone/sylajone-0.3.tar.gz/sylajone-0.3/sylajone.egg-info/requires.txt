@@ -1,0 +1,5 @@
+pyarabic>=0.6.2
+pickledb>=0.9.0
+libqutrub>=1.2.4.1
+naftawayh>=0.4
+qalsadi>=0.3.5
