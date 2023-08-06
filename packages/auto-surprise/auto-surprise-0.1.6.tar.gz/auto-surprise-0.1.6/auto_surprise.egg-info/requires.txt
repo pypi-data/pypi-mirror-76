@@ -1,0 +1,6 @@
+hyperopt
+lightgbm
+numpy
+scikit-learn==0.22.0
+scikit-surprise
+rich
