@@ -1,0 +1,9 @@
+README.md
+setup.py
+uchihapdf/__init__.py
+uchihapdf/pdf2image.py
+uchihapdf/pdf2text.py
+uchihapdf.egg-info/PKG-INFO
+uchihapdf.egg-info/SOURCES.txt
+uchihapdf.egg-info/dependency_links.txt
+uchihapdf.egg-info/top_level.txt
