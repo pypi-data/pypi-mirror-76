@@ -1,0 +1,12 @@
+srslyumi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+srslyumi/bamtag.py,sha256=aJRwK1448Dj3fUc5znrsz1KYoKnPEQtL0oGQ9hw2a44,2590
+srslyumi/cli.py,sha256=BIOF-ieoL5L_4ZbdLzpmmTqPojwFWIcsBN0at2SJHTU,7910
+srslyumi/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+srslyumi/tests/test_bamtag.py,sha256=w-eWB28GFiXaWLMa8GW3cwsqkYHh7nvGBI2CM7UIOPw,1956
+srslyumi/tests/test_cli.py,sha256=qTuVQMRkoV6RLcV1JexYgD8JN_6wkicdAUe2012l4Fg,7609
+srslyumi-0.3.dist-info/LICENSE,sha256=fluTC5idDxUFfvfUK-rw5jlhMnVlD_czwvoJpfRmigg,1073
+srslyumi-0.3.dist-info/METADATA,sha256=wYGHkn7bweyNT_U67U41KK9RQIa9-RGuUC-qGXIu8sY,4418
+srslyumi-0.3.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+srslyumi-0.3.dist-info/entry_points.txt,sha256=rNGHMg-aKGRBcgfR0oUWY5MyT1SUNTxWnY6ByfpXQZA,87
+srslyumi-0.3.dist-info/top_level.txt,sha256=riVQElzHErT2n9hs52yhkFp7NFv7WGGLyJqAI0vjeA4,9
+srslyumi-0.3.dist-info/RECORD,,
