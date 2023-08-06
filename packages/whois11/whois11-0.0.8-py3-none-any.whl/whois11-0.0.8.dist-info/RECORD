@@ -1,0 +1,10 @@
+whois11/__init__.py,sha256=PityPmHVEVb6g5IqCoT9L8O3PKXFWhs38aEummdGG6A,183
+whois11/__version__.py,sha256=GEeoDijUQGn6yshYDvSzgDgRpdSx-98z6I_ml7FufdY,46
+whois11/errors.py,sha256=EQgSGYpDXd2f0eTAqb9n8pKj5gJZxIFZKtyJnNSs8z4,83
+whois11/whois.py,sha256=sNWrKo40-JQItwakt2RDgH0gGon7JgHyr_y3yENmsQI,712
+whois11/whois_server.py,sha256=lFPv6DccHKm7auM572YotOE8vB5JEKpIoH8sA__99IQ,2121
+whois11-0.0.8.dist-info/LICENSE,sha256=fffBup5-iV9nbgCduwY1CNANpnZXjrJxXGyerMeP6VE,35810
+whois11-0.0.8.dist-info/METADATA,sha256=KEPUMs1swKdVgxWLiI327_eYSk1dJcqjAxKud9mZhSY,1240
+whois11-0.0.8.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+whois11-0.0.8.dist-info/top_level.txt,sha256=Gwe2oHJSY37sRsJ_dBjoFb1tgEsVr6GtNR33sbuxR2Q,8
+whois11-0.0.8.dist-info/RECORD,,

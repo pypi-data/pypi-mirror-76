@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: whois11
+Version: 0.0.8
+Summary: WHOIS client
+Home-page: UNKNOWN
+Author: whois11
+Author-email: whois11@sent.at
+Maintainer: whois11
+Maintainer-email: whois11@sent.at
+License: GPLv3
+Keywords: whois,whois11
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# Whois11
+"Whois11" is a whois client tool. --- made with Python.
+
+# Requirement
+* Python 3.5 --- Tested under [Anaconda](https://www.anaconda.com/distribution/) distribution.
+
+# Installation
+Install Whois11 with pip command.
+```bash
+pip install whois11
+```
+
+# Usage
+```python
+import whois11
+
+print(whois11.whois('example.com'))
+```
+
+# License
+
+* 	GNU General Public License v3.0
+
