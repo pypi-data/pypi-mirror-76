@@ -1,0 +1,13 @@
+README.md
+setup.py
+predictit_client/__init__.py
+predictit_client/client.py
+predictit_client/contract.py
+predictit_client/market.py
+predictit_client.egg-info/PKG-INFO
+predictit_client.egg-info/SOURCES.txt
+predictit_client.egg-info/dependency_links.txt
+predictit_client.egg-info/requires.txt
+predictit_client.egg-info/top_level.txt
+predictit_client/tests/__init__.py
+predictit_client/tests/test_client.py
