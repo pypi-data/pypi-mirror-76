@@ -1,0 +1,9 @@
+tf_train/__init__.py,sha256=PwjbCPswVw6XQSkC8V4lh_XZt6Xlo4-DX-mZzlZ2wAs,383
+tf_train/api.py,sha256=OODoPffC932nxrHAKCZgFw3hujDWZ4v_aZ2sl9w0Sds,1661
+tf_train/train_loop.py,sha256=VNPdEJ5EjCHU7QmaahnE2pXZxQJlohUPepSyMywDuPA,2933
+tf_train/utils.py,sha256=vLc-49S26YhsXLzQXsGM8yHL-wSZZP7vB3WhDL-AiZI,460
+tf_train-1.3.0.dist-info/LICENSE,sha256=P6gQMkHAXIh5BsegjHWminwkG-9oXpSSECnGXvPb_TI,1086
+tf_train-1.3.0.dist-info/METADATA,sha256=s0qsHVsODGUQO-uOext9U8THo4ydR-8-Gdyv6NLOPX8,991
+tf_train-1.3.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+tf_train-1.3.0.dist-info/top_level.txt,sha256=rPmLRv8LVGwHVO5bWfzb54jIqCo7f1y2U4z_7JZZMwQ,9
+tf_train-1.3.0.dist-info/RECORD,,
