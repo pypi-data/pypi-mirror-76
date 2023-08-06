@@ -1,0 +1,15 @@
+pyrfdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyrfdata/cell_generator.py,sha256=ee4d_WsWlx7TGLB5oyn8q2QOttVqaaxALp5NUO-JJwE,2466
+pyrfdata/file.py,sha256=cudgVKqe2vQlvxcMvwe-HpjIm6NhWUwNecqcAzr_EeI,4114
+pyrfdata/partition.py,sha256=KQL56U-9D6VBd1t7fbaj0CTxbYVzYi4L3uPyhaM0PCQ,295
+pyrfdata/request.py,sha256=OaC7TTQRcMxBMYXeZyBVd9SuOIgdkoyeuo00SyVICbQ,1264
+pyrfdata/run.py,sha256=zarGfmndJRTrVjQ7cw7BSB_ktzu-gdRQCV47Q97DruE,319
+pyrfdata/template.py,sha256=1uWKA32sQya9lU-nWpuAeAIDDnKMecbnUKt1aVOQvQU,1006
+pyrfdata/util.py,sha256=383B6caek5vS2mntGvyz-Lu2UXFOELnu9kYvK8pOM4o,300
+pyrfdata-0.0.3.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pyrfdata-0.0.3.dist-info/METADATA,sha256=6G7Q_cAJWCtvJHN9aIWn3axbT1pcZQe-kBNOJCpcKM4,987
+pyrfdata-0.0.3.dist-info/NOTICE,sha256=-6OveR0oI9S9rHL-mr5LG-ac7fgcRIEpvzcH8lJOB7Q,68
+pyrfdata-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyrfdata-0.0.3.dist-info/entry_points.txt,sha256=rmB3kelc0ffPzT5qYeyIAEBA8WslKiqHJN2G4WL5crE,48
+pyrfdata-0.0.3.dist-info/top_level.txt,sha256=kif6vshQqaJYS0JNWEzjDO9XljB9aSM_UkR1QNkWW0s,9
+pyrfdata-0.0.3.dist-info/RECORD,,
