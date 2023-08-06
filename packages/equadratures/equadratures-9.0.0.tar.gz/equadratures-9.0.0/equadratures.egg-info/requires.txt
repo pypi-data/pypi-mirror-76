@@ -1,0 +1,6 @@
+numpy
+scipy>=0.15.0
+matplotlib
+
+[cvxpy]
+cvxpy>=1.1
