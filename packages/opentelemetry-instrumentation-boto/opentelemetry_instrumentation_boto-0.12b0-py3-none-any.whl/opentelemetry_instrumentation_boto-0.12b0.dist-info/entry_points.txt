@@ -1,0 +1,3 @@
+[opentelemetry_instrumentor]
+django = opentelemetry.instrumentation.boto:BotoInstrumentor
+
