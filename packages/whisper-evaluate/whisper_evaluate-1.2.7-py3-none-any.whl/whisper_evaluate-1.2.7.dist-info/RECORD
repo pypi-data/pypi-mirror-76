@@ -1,0 +1,12 @@
+whisper_evaluate/__init__.py,sha256=z4xtuu-GV1alXQQYPP2Rdo_5BX_FDjxZdFuDlQB2okI,373
+whisper_evaluate/aio_query.py,sha256=TtzNONEnuFON35z8VSc0vCq2TlUucCytdZiKKnXbZ-M,3673
+whisper_evaluate/config.py,sha256=WC9mOOYRmBBVSqGXWRsGFsqEOo5ccPm80OMrR4dMzXA,339
+whisper_evaluate/netease_statistics.py,sha256=vwhwSmH3ph15gRdaw0A5Fmf_6h63e7Tmjhhja-4ilxo,8187
+whisper_evaluate/report.py,sha256=2sHxOcYuhMdB4vXd5hBrIsOoJ-LCxG-f9KQRw-aVEZ8,4429
+whisper_evaluate/statistics.py,sha256=1KqfS2e3fqeKT-Bdjz5uMn7xugqlSI5H8gb6HnRUcrU,2061
+whisper_evaluate/utils.py,sha256=TX1RX8sWlwP1SImRIRVjSG5f9eC0Bq1JALFgT422dPs,2500
+whisper_evaluate/whisper_statistics.py,sha256=ocKhDRaiUO_AsP3xRtwjQ0YKR6wloFmE05WSUAHpV0k,9226
+whisper_evaluate-1.2.7.dist-info/METADATA,sha256=KmxBasBIZt-KpV77d5yfXL4x82fEDkBltaqznENUneE,602
+whisper_evaluate-1.2.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+whisper_evaluate-1.2.7.dist-info/top_level.txt,sha256=dQxoPZUW-ZKqT6sXQyZh08AovM_TDVQLeDAiP02RIag,17
+whisper_evaluate-1.2.7.dist-info/RECORD,,
