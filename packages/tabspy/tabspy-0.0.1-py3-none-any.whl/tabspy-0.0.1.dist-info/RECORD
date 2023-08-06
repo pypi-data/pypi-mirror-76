@@ -1,0 +1,9 @@
+tabspy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tabspy/utils.py,sha256=jYmsVoo0I6zwUKF2CH24cnvlAMVmB9Xkl-YqEIDukf4,92
+tabspy/strategy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tabspy/strategy/strategy.py,sha256=Jqa0ji4CMZdyFPYtqW5GuizUn-5qhx5ziWovNECXrjM,181
+tabspy-0.0.1.dist-info/LICENSE.txt,sha256=DmAdvf3oAheYLju70vyhoeLvCxfoO8YKAURJqs148L8,1063
+tabspy-0.0.1.dist-info/METADATA,sha256=33aXeXLM_K7HjVlYMuT-bWUuj07kLozmAokln-JwEfs,719
+tabspy-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tabspy-0.0.1.dist-info/top_level.txt,sha256=RsQoCKqjjMZLRz1PJRciZ39nu1OJoDfAHG2q2fUcYhU,7
+tabspy-0.0.1.dist-info/RECORD,,
