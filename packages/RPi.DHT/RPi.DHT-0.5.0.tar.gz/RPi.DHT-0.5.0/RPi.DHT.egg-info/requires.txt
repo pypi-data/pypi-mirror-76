@@ -1,0 +1,2 @@
+Adafruit_Python_DHT
+RPi.Sensor>=0.5.3
