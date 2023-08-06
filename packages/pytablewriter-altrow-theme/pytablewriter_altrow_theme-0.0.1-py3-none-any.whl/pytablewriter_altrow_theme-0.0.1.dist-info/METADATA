@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: pytablewriter-altrow-theme
+Version: 0.0.1
+Summary: A pytablewriter plugin to provide a theme that colored rows alternatively.
+Home-page: https://github.com/thombashi/pytablewriter-altrow-theme
+Author: Tsuyoshi Hombashi
+Author-email: tsuyoshi.hombashi@gmail.com
+License: MIT License
+Project-URL: Source, https://github.com/thombashi/pytablewriter-altrow-theme
+Project-URL: Tracker, https://github.com/thombashi/pytablewriter-altrow-theme/issues
+Keywords: pytablewriter,plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+Requires-Dist: pytablewriter (<1,>=0.56.0)
+Requires-Dist: tcolorpy (<1,>=0.0.5)
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-discord (>=0.0.5) ; extra == 'test'
+
+.. contents:: **pytablewriter-altrow-theme**
+   :backlinks: top
+   :depth: 2
+
+
+Summary
+============================================
+.. image:: https://badge.fury.io/py/pytablewriter-altrow-theme.svg
+    :target: https://badge.fury.io/py/pytablewriter-altrow-theme
+    :alt: PyPI package version
+
+.. image:: https://img.shields.io/pypi/pyversions/pytablewriter-altrow-theme.svg
+    :target: https://pypi.org/project/pytablewriter-altrow-theme
+    :alt: Supported Python versions
+
+.. image:: https://img.shields.io/pypi/implementation/pytablewriter-altrow-theme.svg
+    :target: https://pypi.org/project/pytablewriter-altrow-theme
+    :alt: Supported Python implementations
+
+.. image:: https://github.com/thombashi/pytablewriter-altrow-theme/workflows/Tests/badge.svg
+    :target: https://github.com/thombashi/pytablewriter-altrow-theme/actions?query=workflow%3ATests
+    :alt: Linux/macOS/Windows CI status
+
+pytablewriter-altrow-theme is a `pytablewriter <https://github.com/thombashi/pytablewriter>`__ plugin to provide a theme that colored rows alternatively.
+
+
+Installation
+============================================
+::
+
+    pip install pytablewriter-altrow-theme
+
+Usage
+============================================
+
+:Sample Code:
+    .. code-block:: python
+
+        writer = TableWriterFactory.create_from_format_name("md")
+        writer.headers = ["INT", "STR"]
+        writer.value_matrix = [[1, "hoge"], [2, "foo"], [3, "bar"]]
+        writer.margin = 1
+
+        writer.set_theme("altrow")
+
+        writer.write_table()
+
+:Output:
+    .. figure:: https://cdn.jsdelivr.net/gh/thombashi/pytablewriter-altrow-theme@master/ss/ptw-altrow-theme_example_default.png
+       :scale: 100%
+       :alt: https://github.com/thombashi/pytablewriter-altrow-theme/blob/master/ss/ptw-altrow-theme_example_default.png
+
+
+:Sample Code:
+    .. code-block:: python
+
+        writer = TableWriterFactory.create_from_format_name("md")
+        writer.headers = ["INT", "STR"]
+        writer.value_matrix = [[1, "hoge"], [2, "foo"], [3, "bar"]]
+        writer.margin = 1
+
+        writer.set_theme("altrow", color="yellow")
+
+        writer.write_table()
+
+:Output:
+    .. figure:: https://cdn.jsdelivr.net/gh/thombashi/pytablewriter-altrow-theme@master/ss/ptw-altrow-theme_example_yellow.png
+       :scale: 100%
+       :alt: https://github.com/thombashi/pytablewriter-altrow-theme/blob/master/ss/ptw-altrow-theme_example_yellow.png
+
+
+Dependencies
+============================================
+- Python 3.5+
+- `Python package dependencies (automatically installed) <https://github.com/thombashi/pytablewriter-altrow-theme/network/dependencies>`__
+
+
+
