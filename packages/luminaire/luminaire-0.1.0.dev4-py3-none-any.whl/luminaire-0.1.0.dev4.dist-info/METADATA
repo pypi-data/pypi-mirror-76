@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: luminaire
+Version: 0.1.0.dev4
+Summary: Luminaire is a python package that provides ML driven solutions for monitoring time series data
+Home-page: UNKNOWN
+Author: Zillow Group A.I. team
+Author-email: luminaire-dev-oss@zillowgroup.com
+License: Apache License 2.0
+Keywords: AnomalyDetection AutoML Batch Streaming
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Requires-Dist: bayesian-changepoint-detection (==0.2.dev1)
+Requires-Dist: changepy (==0.3.1)
+Requires-Dist: hyperopt (==0.1.2)
+Requires-Dist: numpy (==1.17.0)
+Requires-Dist: pandas (==0.25.1)
+Requires-Dist: pykalman (==0.9.5)
+Requires-Dist: pyramid (==1.9.2)
+Requires-Dist: pyramid-arima (==0.6.2)
+Requires-Dist: scipy (==1.2.2)
+Requires-Dist: statsmodels (==0.10.1)
+Requires-Dist: scikit-learn (==0.19.1)
+
+Luminaire provides several anomaly detection and forecasting capabilities that incorporate correlational and seasonal patterns in the data over time as well as uncontrollable variations.
+
+
