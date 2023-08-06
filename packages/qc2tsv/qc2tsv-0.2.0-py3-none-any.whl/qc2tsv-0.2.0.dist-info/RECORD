@@ -1,0 +1,10 @@
+qc2tsv/__init__.py,sha256=sXgZSQwuIgTfaa7QVUP3628KALbnCf_GMInIL-4xvTU,50
+qc2tsv/__main__.py,sha256=hTtDmsJgdwzkOk8sFZqGBWmYWrhPdcK8Traax7BC-dA,62
+qc2tsv/cli.py,sha256=tyuNJwA9im5YybRpBKmGXY3CdIQqeyiQVLEGOaHMgaU,4957
+qc2tsv/qc2tsv.py,sha256=K3_iTTGulNf2tznpBHyqi0k_WI8Q7pYxj0PIp3RI7ow,4980
+qc2tsv-0.2.0.data/scripts/qc2tsv,sha256=S7byVYIrCM7yRiQdeLr-ZgTRNG_qNBjIoj2IRoYSkK0,261
+qc2tsv-0.2.0.dist-info/LICENSE,sha256=3ajhvmiBrjBhqYcpaP24W5WUJhPKpab3GL8YMVzDuFM,1067
+qc2tsv-0.2.0.dist-info/METADATA,sha256=Jg7mHbA3-No75Tc918JWYnBNzZ-D_rf6R-U9qrIGfQY,582
+qc2tsv-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+qc2tsv-0.2.0.dist-info/top_level.txt,sha256=r6Sg4iubspdq9lqGO0GaEljNjeQWnhiSrx1eJW0u5Co,7
+qc2tsv-0.2.0.dist-info/RECORD,,
