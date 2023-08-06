@@ -1,0 +1,10 @@
+setup.py
+pypi_test/__init__.py
+pypi_test/gfg.py
+vibhu4gfg_test_simojoe.egg-info/PKG-INFO
+vibhu4gfg_test_simojoe.egg-info/SOURCES.txt
+vibhu4gfg_test_simojoe.egg-info/dependency_links.txt
+vibhu4gfg_test_simojoe.egg-info/entry_points.txt
+vibhu4gfg_test_simojoe.egg-info/not-zip-safe
+vibhu4gfg_test_simojoe.egg-info/requires.txt
+vibhu4gfg_test_simojoe.egg-info/top_level.txt

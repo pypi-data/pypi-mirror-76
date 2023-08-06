@@ -1,0 +1,3 @@
+[console_scripts]
+gfg = pypi_test.gfg:main
+
