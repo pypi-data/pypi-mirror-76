@@ -1,0 +1,8 @@
+gdown==3.11.1
+requests==2.24.0
+tensorflow
+spacy==2.2.0
+pandas
+click
+transformers
+torch
