@@ -1,0 +1,16 @@
+srt
+keyboard
+numpy
+scipy
+aliyun-python-sdk-core
+alibabacloud-nls-java-sdk
+PyQt5
+audiotsm
+cos-python-sdk-v5
+tencentcloud-sdk-python
+oss2
+pyaudio
+auditok
+pymediainfo
+you-get
+youtube-dl
