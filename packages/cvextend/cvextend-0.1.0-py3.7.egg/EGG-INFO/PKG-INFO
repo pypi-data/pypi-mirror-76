@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cvextend
+Version: 0.1.0
+Summary: Tools to extend sklearn's cross-validation classes and functions
+Home-page: https://github.com/ldanov/pypkg_cvextend
+Author: Lyubomir Danov
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
