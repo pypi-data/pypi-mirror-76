@@ -1,0 +1,2 @@
+class NotAGitCommandException(Exception):
+    pass

@@ -1,0 +1,27 @@
+[tool]
+[tool.poetry]
+name = "git-networkx"
+version = "2.3.0"
+description = "Git graph to networkx"
+license = "MIT"
+keywords = ["git", "directed", "acyclic", "graph", "dag", "dot"]
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent"]
+homepage = "https://github.com/CircArgs/git-graph"
+authors = ["Nick Ouellet <nick@ouellet.dev>", "Henri-Olivier Duché <hoduche@yahoo.fr>", ]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"  # Compatible python versions must be declared here
+networkx = "^2.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+pytest-cov = "^2.4"
+black = {version = "^19.10b0", allow-prereleases = true}
+pylint = "^2.5.2"
+dephell = "^0.8.3"
+
+
+[tool.dephell.main]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "setuppy", path = "setup.py"}
