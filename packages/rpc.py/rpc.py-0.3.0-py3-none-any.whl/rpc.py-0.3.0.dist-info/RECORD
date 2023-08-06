@@ -1,0 +1,16 @@
+rpcpy/__init__.py,sha256=90JiDJItg4UBADOc7vclbyfMIfUSeq0ilAQmQDILKDc,48
+rpcpy/application.py,sha256=16ntdO0f_TATQGWmcouH8OLfLue97qHMDLSsN0FGDhA,8097
+rpcpy/asgi.py,sha256=Aeas2hN4ck7rjzNzV0TpHZavXp-WYlIWgKy-E4JvJHQ,7694
+rpcpy/client.py,sha256=1w3wDpLVZ4pTlPbqKpsK5Vz_fu4efFenIAkGhq-7Fog,6426
+rpcpy/datastructures.py,sha256=PWdiQXo4LKEmYWfhfskaRVSXAGujxhjubtGkg0muDaY,20331
+rpcpy/exceptions.py,sha256=74X3XebuI6KMp5cCNDqM5pmBQjrNbTCylVgw6nIfDuM,172
+rpcpy/serializers.py,sha256=HVTFOaisDzHhJkGrL-PhYjJ1YQyBcf_GjueaeZ5dSoc,1772
+rpcpy/types.py,sha256=mvOrTH2oetK-xamskI5IbGHtTSrmu80wqXmajyXlpWk,1083
+rpcpy/utils/__init__.py,sha256=RqEgGL4REOQNSVcibxKraPvBA5xjD-qcE5Vlox-BNXA,2861
+rpcpy/utils/openapi.py,sha256=OilsqROxKBI4P-tbyKECcamFd3jyC5uwESz6i1wGRuc,2622
+rpcpy/version.py,sha256=tRW0WyNYs51xFdb0g9Nfx09_rDwgG2H-v3nKgjzNQY8,63
+rpcpy/wsgi.py,sha256=wEH3xHXabwTIHZABt-Tb7HoGtVqSkK-vIM7EuuX7Qws,6445
+rpc.py-0.3.0.dist-info/LICENSE,sha256=MhC4fwl2kax5j09y25YsHSSEF31vHtu5Qhqy9KoLKfw,11341
+rpc.py-0.3.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+rpc.py-0.3.0.dist-info/METADATA,sha256=uL0Ln4PIv1foFPD8nZct90yKDkbfUjhu34PahpH4PFg,4566
+rpc.py-0.3.0.dist-info/RECORD,,
