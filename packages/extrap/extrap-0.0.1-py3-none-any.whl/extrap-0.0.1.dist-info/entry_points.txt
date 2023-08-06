@@ -1,0 +1,6 @@
+[console_scripts]
+extrap = extrap.extrap:main
+
+[gui_scripts]
+extrap-gui = extrap.extrapgui:main
+
