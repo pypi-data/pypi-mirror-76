@@ -1,0 +1,11 @@
+README.md
+setup.py
+pjscript.egg-info/PKG-INFO
+pjscript.egg-info/SOURCES.txt
+pjscript.egg-info/dependency_links.txt
+pjscript.egg-info/top_level.txt
+pyscript/__init__.py
+pyscript/__main__.py
+pyscript/interpreter.py
+test/__init__.py
+test/test_all.py
