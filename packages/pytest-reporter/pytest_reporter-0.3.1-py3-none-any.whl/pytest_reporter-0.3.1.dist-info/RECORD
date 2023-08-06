@@ -1,0 +1,9 @@
+pytest_reporter/__init__.py,sha256=L4XlxPctcY0IuhYww8evFJr730iUETPc10a8hqEEX4E,286
+pytest_reporter/hooks.py,sha256=2xHZavPWEj4MOUo5REqe84jIEmen9oESFHaxHFk_CrI,1264
+pytest_reporter/plugin.py,sha256=tOQApDIVSm9x-QVygoVJURw1tYULuyks4_WSlvK_Bhc,5766
+pytest_reporter-0.3.1.dist-info/LICENSE,sha256=X-2r_c2RkyQG7QclQtkF0_MoU5nhrwknqX3AMtwJzCU,1108
+pytest_reporter-0.3.1.dist-info/METADATA,sha256=GcX3pjTTqjihOKmWnG5OgOrcFoE5Ebu83u99nzQkwjs,5045
+pytest_reporter-0.3.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pytest_reporter-0.3.1.dist-info/entry_points.txt,sha256=-NjCmXnSBK3XdlFUFEowPxZmVn0O70O6uivzOU9Ynuw,46
+pytest_reporter-0.3.1.dist-info/top_level.txt,sha256=jUn-iAfa-V9q6PtEv5aJVgqu_2JrbMqsDWfVOZH1I58,16
+pytest_reporter-0.3.1.dist-info/RECORD,,
