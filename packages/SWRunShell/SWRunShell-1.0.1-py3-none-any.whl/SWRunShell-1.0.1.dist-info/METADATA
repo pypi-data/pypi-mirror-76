@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: SWRunShell
+Version: 1.0.1
+Summary: 进一步封装了subprocess，Python调用shell命令
+Home-page: https://github.com/shede333/SWRunShell
+Author: shede333
+Author-email: 333wshw@163.com
+License: UNKNOWN
+Keywords: sw shell command
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4
+Description-Content-Type: text/markdown
+Requires-Dist: SWTermColor (~=1.1)
+
+# SWRunShell
+
+> 进一步封装了subprocess，Python调用shell命令；  
+> 支持 Python2, Python3；
+
+## 安装 Install
+
+```
+
+pip3 install SWRunShell
+
+```
+
+# 使用 
+```
+from swrunshell import shell_command
+
+command = 'echo "hello, world!"'
+
+# 参数说明：
+# print_command: 是否将command 打印到终端，默认False
+# print_log: 是否打印shell命令执行结果,默认False
+# error_to_output: 是否把错误信息stderr重定向到标准输出stdout,默认True
+# print_error: 异常时，是否打印错误信息,默认True
+
+shell_command.call(command, print_command=False)
+shell_command.check_call(command)
+shell_command.check_output(command)
+
+```
+
+
