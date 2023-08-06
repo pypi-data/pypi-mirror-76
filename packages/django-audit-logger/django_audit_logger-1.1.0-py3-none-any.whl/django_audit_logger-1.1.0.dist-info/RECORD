@@ -1,0 +1,17 @@
+auditlogger/__init__.py,sha256=KkHRfGPNjM_ZrvK0I4kDKvOXMUZfUW_ti4FERT8Na7M,29
+auditlogger/admin.py,sha256=YqmPjbIG3GSbx9AczTEe9AuPWMGzJKACazx8m4jMfx0,79
+auditlogger/app_settings.py,sha256=MtZ_3NU-YQiLGDCdijpUyq1vUY10k7ljmzNDpJyuGRI,886
+auditlogger/apps.py,sha256=LabzYe1WGmOogX3vcEfX9fHd4ccZ5eqxa6bYXwDaqzw,272
+auditlogger/cloudwatch.py,sha256=jckZ-K5nCqKtncYcI6E0V4BfZC8BEIMClmAK2107FGc,3726
+auditlogger/middleware.py,sha256=B9u3JNoJOd_f0KKMb2Nz_6QJdF0kxxBSRWuOsXpXCfY,1173
+auditlogger/models.py,sha256=RBXzSvabXbBo3XX1cGMRbjbq-XKmE8iqcdy7AH3UHp4,285
+auditlogger/run_tests.py,sha256=4ynvhAHgE8Hr393V8nS3-27lmoWnYDtXvkOl4rG2228,4001
+auditlogger/signals.py,sha256=rNsUyhXC02drL6Q4xnCI4CvNpEhE6DBbUgfumJefwfI,5066
+auditlogger/tasks.py,sha256=xefS4xGZoYdl_PjkAzzRGopfM9Iz-CaDMQrVGHYY0-0,2611
+auditlogger/tests.py,sha256=kQReqpiWzW5b8DzDIHmPm9bhAJGXL5SmoENs1VjtWOQ,11805
+auditlogger/migrations/0001_initial.py,sha256=nS4VIkxHBKlwnRBQLmjOW_7W1XttlA16idlhFj7Aqzg,727
+auditlogger/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_audit_logger-1.1.0.dist-info/METADATA,sha256=zlG4o5WD7U-ycUCnRIKh5YgVZS7RLpQtKqYvnjCZHt0,4109
+django_audit_logger-1.1.0.dist-info/RECORD,,
+django_audit_logger-1.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+django_audit_logger-1.1.0.dist-info/top_level.txt,sha256=Bsuv3g_hVV3JKm_gtynd0TFhzu6y9Qd0kOyclkubvh0,12
