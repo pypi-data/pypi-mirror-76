@@ -1,0 +1,12 @@
+googling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+googling/calibration.py,sha256=JCkh6GUKh6pHBP-PAJjZMMdk7p8pf8NcKxdCyVJWl1s,2527
+googling/googling.py,sha256=VNNBiEzLdyEk5X7mQRF_I_jTMr6QhpfPfd_3qGDO1Lo,529
+googling/dist/__init__.py,sha256=MRAdW3msed1BkrZSuBgzdld3eS6q4u70jhc2z9T57rs,959
+googling/dist/calibration.py,sha256=JCkh6GUKh6pHBP-PAJjZMMdk7p8pf8NcKxdCyVJWl1s,2527
+googling/dist/googling.py,sha256=VNNBiEzLdyEk5X7mQRF_I_jTMr6QhpfPfd_3qGDO1Lo,529
+googling/dist/pytransform/__init__.py,sha256=bksJGVn5nIVTegN_YA-dY5CjK6hMmDdL0HQ28PK2kaA,12377
+googling/pytransform/__init__.py,sha256=bksJGVn5nIVTegN_YA-dY5CjK6hMmDdL0HQ28PK2kaA,12377
+googling-0.0.3.dist-info/METADATA,sha256=H0HRnaKeE5QSDyPvdNyFTNXrUhj7jse8j1e5l6AM7Ko,492
+googling-0.0.3.dist-info/RECORD,,
+googling-0.0.3.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+googling-0.0.3.dist-info/top_level.txt,sha256=dZkwM87AH2VOfkrHvNBrWK4h7pcZvdXtA9Z5gbRJBhk,9
