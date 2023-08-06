@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: django-fastadmin
+Version: 0.1.0
+Summary: django admin extensions.
+Home-page: https://github.com/zencore-cn/zencore-issues
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Description: # django-fastadmin
+        
+        django admin extensions.
+        
+        ## Install
+        
+        ```shell
+        pip install django-fastadmin
+        ```
+        
+        ## Installed Admin Extensions
+        
+        ### Admin extends
+        
+        - UuidFieldSearchableAdmin
+        - InlineBooleanFieldsAllowOnlyOneCheckedMixin
+        
+        ### Widgets
+        
+        ### Forms
+        
+        ### Filters
+        
+        ### Jquery Generic Plugins
+        
+        **Note:**
+        - `$ = django.jQuery`
+        - `$.fn.xxx` is jQuery object related util.
+        - `$.xxx` is simple util in jQuery namespace.
+        - All jquery plugin files are prefixed with `django-jquery-plugins/`.
+        - Add `admin/js/vendor/jquery/jquery.js` before you include these plugin files.
+        
+        | File | Plugin Name | Memo |
+        | :---- | :---- | :---- |
+        | jquery.utils.js | $.fn.classes | |
+        | jquery.cookie.js | $.cookie | |
+        | jquery.cookie.js | $.removeCookie | |
+        
+        
+        ## InlineBooleanFieldsAllowOnlyOneCheckedMixin Usage
+        
+        - Add this mixin to inline class, and put it before TabularInline.
+        - Add classes property
+            - Add class InlineBooleanFieldsAllowOnlyOneCheckedMixin.special_class_name
+            - Add class InlineBooleanFieldsAllowOnlyOneCheckedMixin.field_name_prefix + {field name},
+        - Example:
+            ```
+            from django.contrib import admin
+            from django_fastadmin.admin import InlineBooleanFieldsAllowOnlyOneCheckedMixin
+        
+            from .models import Book
+            from .models import Category
+        
+            class BookInline(InlineBooleanFieldsAllowOnlyOneCheckedMixin, admin.TabularInline):
+                model = Book
+                extra = 0
+                classes = [
+                    InlineBooleanFieldsAllowOnlyOneCheckedMixin.special_class_name,
+                    InlineBooleanFieldsAllowOnlyOneCheckedMixin.field_name_prefix + "is_best_seller",
+                    ]
+        
+        
+            class CategoryAdmin(admin.ModelAdmin):
+                inlines = [
+                    BookInline,
+                ]
+        
+            admin.site.register(Category, CategoryAdmin)
+            ```
+        
+        ## Bug report
+        
+        Please report any issues at https://github.com/zencore-cn/zencore-issues.
+        
+        ## Releases
+        
+        ### v0.1.1 2020/08/12
+        
+        - First release.
+        - Add UuidFieldSearchableAdmin.
+        - Add InlineBooleanFieldsAllowOnlyOneCheckedMixin.
+Keywords: django admin extentions
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
