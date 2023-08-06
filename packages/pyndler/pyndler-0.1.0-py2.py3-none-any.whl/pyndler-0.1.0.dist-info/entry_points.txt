@@ -1,0 +1,3 @@
+[console_scripts]
+pyndler = pyndler.cli:Pyndler.run
+
