@@ -1,0 +1,13 @@
+django_managerie/__init__.py,sha256=uAZxHAnjrysgLm0S9g-J4U_pt8-uTx0nTnwy1ktsFvE,62
+django_managerie/blacklist.py,sha256=n5VTMGZ3otkXMkVEZtVjfDXS5LyRLl8JneyeguIwjJ4,80
+django_managerie/commands.py,sha256=C9Bfa3QpvWD6CccNh_YzyrxMN7FQameEUO4V7P2qWfk,1955
+django_managerie/forms.py,sha256=YFGg7_NMvxIAG4-PZnyO6Zp6Alp_LB1dWoUrjPjSxpw,1538
+django_managerie/managerie.py,sha256=eZe8B5CiRka6Cvzb5DzaDNeDtl6JcGHe4oUWgv3CeSs,3182
+django_managerie/views.py,sha256=gwm11qrnCFRYpEA_OXD6wSfV9Avq-zgWht54JVp116M,3446
+django_managerie/templates/django_managerie/admin/command.html,sha256=zegtaKyeqfpfzy0g6ULqSRdXSlKXl15xoy5p4uIzz5M,1713
+django_managerie/templates/django_managerie/admin/list.html,sha256=IJoeCtaZ0MMv91YtC4kCtt_gEzUE276N7SG9nm0hsl8,602
+django_managerie-0.2.dist-info/LICENSE,sha256=DPkOn2ee85p53-9ejqbgC_D0T2furBXnCiFESySG5Tw,1070
+django_managerie-0.2.dist-info/METADATA,sha256=faPV8CO5OWpwJzUOfjHJyiPOZmQygzfTwtRxpXOQWBw,598
+django_managerie-0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+django_managerie-0.2.dist-info/top_level.txt,sha256=2s8ak2evJeY_2ewpwjBF24J2xy1F6C7AWWU5rggbYNo,17
+django_managerie-0.2.dist-info/RECORD,,
