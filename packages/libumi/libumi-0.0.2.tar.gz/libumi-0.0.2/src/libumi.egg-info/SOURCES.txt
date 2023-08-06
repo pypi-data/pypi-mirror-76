@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/libumi/__init__.py
+src/libumi/hello_world.py
+src/libumi/hello_world.pyi
+src/libumi/py.typed
+src/libumi.egg-info/PKG-INFO
+src/libumi.egg-info/SOURCES.txt
+src/libumi.egg-info/dependency_links.txt
+src/libumi.egg-info/not-zip-safe
+src/libumi.egg-info/top_level.txt

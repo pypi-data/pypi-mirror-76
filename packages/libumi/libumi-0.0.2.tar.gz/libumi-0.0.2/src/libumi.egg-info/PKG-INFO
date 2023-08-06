@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: libumi
+Version: 0.0.2
+Summary: libumi
+Home-page: https://github.com/umitop/libumi-python
+Author: UMI
+Author-email: dev@umi.top
+License: MIT
+Description: # libumi-python
+        
+        
+Keywords: UMI,libumi
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Typing :: Typed
+Requires-Python: !=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7
+Description-Content-Type: text/markdown
