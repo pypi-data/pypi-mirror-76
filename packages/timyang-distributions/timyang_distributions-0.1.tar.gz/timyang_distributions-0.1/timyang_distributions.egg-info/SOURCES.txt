@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+timyang_distributions/Binomialdistribution.py
+timyang_distributions/Gaussiandistribution.py
+timyang_distributions/Generaldistribution.py
+timyang_distributions/__init__.py
+timyang_distributions.egg-info/PKG-INFO
+timyang_distributions.egg-info/SOURCES.txt
+timyang_distributions.egg-info/dependency_links.txt
+timyang_distributions.egg-info/not-zip-safe
+timyang_distributions.egg-info/top_level.txt
