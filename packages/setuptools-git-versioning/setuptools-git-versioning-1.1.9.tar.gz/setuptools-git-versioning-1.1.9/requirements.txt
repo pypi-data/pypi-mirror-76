@@ -1,0 +1,11 @@
+flake8>=3.8;python_version>="3.5"
+setuptools>=49.6;python_version>="3.5"
+flake8>=2.6,<3.0;python_version=='3.4'
+flake8>=2.6,<3.0;python_version=='3.3'
+setuptools==39.2 ;python_version=='3.4'
+setuptools==39.2 ;python_version=='3.3'
+typing>=3.6,<3.7;python_version=='3.4'
+typing>=3.6,<3.7;python_version=='3.3'
+flake8>=3.8;python_version<'3'
+setuptools>=44.1;python_version<"3"
+typing>=3.7;python_version<"3"
