@@ -1,0 +1,3 @@
+[console_scripts]
+boil = boil.__main__:run
+
