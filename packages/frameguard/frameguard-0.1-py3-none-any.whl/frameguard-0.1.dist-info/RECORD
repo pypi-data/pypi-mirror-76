@@ -1,0 +1,9 @@
+frameguard/__init__.py,sha256=Lgf9keBX7aG_JEFt6UYSyiFKcm-BYGtmk9ohpQhYpyk,20
+frameguard/frameguard.py,sha256=GQ_PheKD7R2bQea7gTprHzF4xW2LiixkZgI6hHUbWAw,20843
+tests/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+tests/test_frameguard.py,sha256=9N4xtiWFqKmlqAwcGnREpM47YSOR7fOYhNfrXRPL4XM,4261
+frameguard-0.1.dist-info/LICENSE,sha256=9DbltUDvfG9g4QGI22FM2HbUfy7qNvw5KwXquNcCLG4,1069
+frameguard-0.1.dist-info/METADATA,sha256=bvgaRYAX6LbOmIblctWsg-zrD19QMRpdZ1wUtgNokhY,8199
+frameguard-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+frameguard-0.1.dist-info/top_level.txt,sha256=Be3XWgixkaJXSh9Xh_4Edm_84AHFu1yi2s9Tl46m7xM,17
+frameguard-0.1.dist-info/RECORD,,
