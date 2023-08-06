@@ -1,0 +1,84 @@
+CHANGES
+=======
+
+1.0.6
+-----
+
+* Fix custompath processing
+
+1.0.5
+-----
+
+* Release 1.0.5
+
+1.0.5.1
+-------
+
+* Allow custom config file path
+* Bump jpmcb/prow-github-actions from v1.0.0 to v1.1.0
+* Update actions/setup-python requirement to v2.1.1
+* Create dependabot.yml
+* Add Contributing link
+* Enhance checks for ifaces defined in files not named like ifcfg-
+* Upgrade pre-commit plugins
+* Rename labels file
+* Update stale GA
+* Apply pre-commit recommendations
+* added meaningful error message in case of network file does not exist
+* update on the script according to reviews
+* Update interface-onboot.sh
+* New plugin was improved for case interfaces that its state 'up' and doesn't have ONBOOT='yes' in its network-scripts file. Closes #535
+* Use version 1.0 for labeler
+* Use master branch
+* update labeler
+* Update .mergify.yml
+* Update .mergify.yml
+* Mergify: configuration update
+* Fix imports
+* Add Github action for precommit
+* Remove Codacy workflow
+* Mergify: configuration update
+* Set pip caching
+* Update stale configuration
+* Update badges
+* Try to fix GA
+* Report coveralls status
+* Add Codacy as GH Action
+* Fixing style errors
+* Add Import path
+* Adding .stickler.yml
+* Use Github PR
+* Add GH Actions
+* Extend variable name for flake8 errors
+* Fix EOL date
+* OSP16 lifecycle
+* Fix typo
+* Keep html for website synced
+* Allows to use --title to define report header and sets html title to sosreport name
+* Test 'main' to test more coverage
+* Add more tests to increase coverage
+* Add golang build and run support for plugins
+* Use filters with profiles
+* Use absolute path when running citellus to avoid issues if a plugin changes folder
+* Apply formatting
+* Update upstream plugins
+
+1.0.4
+-----
+
+* Bump version to 1.0.4
+
+1.0.3
+-----
+
+* Checks that Mpath devices are even, as usually odd means that there are missing paths
+* Check if system is virtual and has virtual-guest profile in use
+* Add extraplugintree to magui (for compatibility with citellus extraplugintree)
+* Minor fixes in docs
+* Fix URL for Contributing
+* Allow hooks to use extra options
+* Allows to specify extra plugin tree root for out-of-tree plugins
+* Update Citellus Logo
+* Handle read line by line to workaround invalid json
+* Use shfmt with pre-commit
+* Add beautysh to precommit
