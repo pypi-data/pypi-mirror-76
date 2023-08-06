@@ -1,0 +1,17 @@
+clients_scanner/__init__.py,sha256=-VGEqflNaVa1C8tfoQlW-3aq8lS9QToB0aqk0vEBbCo,80
+clients_scanner/clients_scanner.py,sha256=iurxe8Cg-0smm9q6IOgn3bGO6Fdgog4B3ugNA0FSgms,35224
+clients_scanner/images/day_mode.png,sha256=nbxMZmEOPEskSk3SLGP-E5KmmHF1vLLw-7B2fzYN3TM,477
+clients_scanner/images/laptop.png,sha256=SbUsUU8jXaJj0CVed4MJ6XlEIFeZYBNRqLO58IWU_Ms,373
+clients_scanner/images/night_mode.png,sha256=1RpNYLJxuY9mLsUwvKgRp3geWv3smkrt6D6ye2LJj2E,679
+clients_scanner/images/pc.png,sha256=tHd-NTrW-a4d4gij54l21K00fHPPxOz6F27vJoJ1T0I,285
+clients_scanner/images/phone.png,sha256=UhexHPrgO6owDBjL0CuVexdcLw1ASj5L80r0_8Osd_A,295
+clients_scanner/images/raspberry.png,sha256=T9goQPdC1vfzUXXB-pakrt0vJ_i0I-zK-dBTYx7KngY,1693
+clients_scanner/images/router.png,sha256=Ne-maOugMiMrOLMqxTU2NPpuYiI8X018SFESm6KTeng,437
+clients_scanner/images/sound_off.png,sha256=bqgdP5RXRF7Ysb5ScE7JoxwAWsYaFDXlFK0Io--fBYo,2756
+clients_scanner/images/sound_on.png,sha256=Uj1rgYTfFzLETGKpXL44ZVyd9GbuhCUdfxRbR3Kqd_I,2738
+clients_scanner/images/watch.png,sha256=Gjmrqb-uAeZdvbYpD3OUVjmpPHHd-ngT8jZ65VtjPPA,698
+clients_scanner-0.1.1.dist-info/LICENSE.txt,sha256=rlYFsNB3efhaAovsTrkLYqVwOJH99paUdKwAv1558Mk,1077
+clients_scanner-0.1.1.dist-info/METADATA,sha256=B0Svn-lDtstPBjjr062QoicM0bXnJQM3aJlc9qxAJY8,2552
+clients_scanner-0.1.1.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+clients_scanner-0.1.1.dist-info/top_level.txt,sha256=9swz6NVmykfhYJr8L5zEli4szfjirdu41oWjZIs4YdQ,16
+clients_scanner-0.1.1.dist-info/RECORD,,
