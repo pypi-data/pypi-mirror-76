@@ -1,0 +1,9 @@
+README.md
+setup.py
+OpenQueue/__init__.py
+OpenQueue.egg-info/PKG-INFO
+OpenQueue.egg-info/SOURCES.txt
+OpenQueue.egg-info/dependency_links.txt
+OpenQueue.egg-info/not-zip-safe
+OpenQueue.egg-info/requires.txt
+OpenQueue.egg-info/top_level.txt
