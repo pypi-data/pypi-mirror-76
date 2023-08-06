@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: hotpepper
+Version: 0.0.2
+Summary: useful utils
+Home-page: https://github.com/3x3x3/hotpepper
+Author: 3x3x3
+Author-email: ivmivm001@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
