@@ -1,0 +1,10 @@
+README.rst
+setup.py
+x_captcha.egg-info/PKG-INFO
+x_captcha.egg-info/SOURCES.txt
+x_captcha.egg-info/dependency_links.txt
+x_captcha.egg-info/not-zip-safe
+x_captcha.egg-info/requires.txt
+x_captcha.egg-info/top_level.txt
+xcaptcha/__init__.py
+xcaptcha/image.py
