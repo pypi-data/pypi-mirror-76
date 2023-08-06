@@ -1,0 +1,14 @@
+squerly/__init__.py,sha256=dcuqB-zvmWdas9L2Tsp1lI0QP4gOOt5_KwH5xrnpcWE,161
+squerly/boolean.py,sha256=P-RdYAp7jb8QFLGUzLUkHTNQM7GtYylspKjBr2dYcb8,2555
+squerly/query.py,sha256=0wimKA6imV5t7T_XRuys7h6z9hpPbhHvYbhScT32yBM,14283
+squerly/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+squerly/tests/test_find.py,sha256=q3zTp-dXRAE9T35vpTnbAg4Iy7imGCCikLjQowYLAT0,1145
+squerly/tests/test_keys.py,sha256=7Et1bP4GwsWEXgK-XrASk7iJNZ5CbefRv6UN_C5-PCk,634
+squerly/tests/test_query.py,sha256=o4E9AIzodvyzkQ2wEqPQN99EGf2vqiDuxTRofwWnjtw,1390
+squerly/tests/test_where.py,sha256=qgShInAwYSJxuU7a1wibPbsvhjQMjHNX_XRUcM4k3wc,1419
+squerly/tests/test_where_boolean.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+squerly-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+squerly-0.2.1.dist-info/METADATA,sha256=XHPLOFNlGHY2DV67gvvhnURXGkc4Y6EiyDSY5cZ-Cds,9031
+squerly-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+squerly-0.2.1.dist-info/top_level.txt,sha256=AgoI_YVa45P64lkh7E8QblxxDQkK9_MKkkY6wa9czV8,8
+squerly-0.2.1.dist-info/RECORD,,
