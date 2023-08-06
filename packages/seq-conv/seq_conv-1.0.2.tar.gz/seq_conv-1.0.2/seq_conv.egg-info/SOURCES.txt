@@ -1,0 +1,9 @@
+README.md
+setup.py
+seq_conv/__init__.py
+seq_conv/seq_conv.py
+seq_conv.egg-info/PKG-INFO
+seq_conv.egg-info/SOURCES.txt
+seq_conv.egg-info/dependency_links.txt
+seq_conv.egg-info/requires.txt
+seq_conv.egg-info/top_level.txt
