@@ -1,0 +1,14 @@
+README.md
+setup.py
+fefu_admission/__init__.py
+fefu_admission/cli.py
+fefu_admission/fefu.py
+fefu_admission/settings.py
+fefu_admission/university.py
+fefu_admission/utils.py
+fefu_admission.egg-info/PKG-INFO
+fefu_admission.egg-info/SOURCES.txt
+fefu_admission.egg-info/dependency_links.txt
+fefu_admission.egg-info/entry_points.txt
+fefu_admission.egg-info/requires.txt
+fefu_admission.egg-info/top_level.txt
