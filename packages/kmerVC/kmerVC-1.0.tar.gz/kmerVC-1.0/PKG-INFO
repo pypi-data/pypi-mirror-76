@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: kmerVC
+Version: 1.0
+Summary: Statistical variant calling software that utilizes genomic kmers.
+Home-page: https://github.com/ashuaibi7/kmerVC_pypi
+Author: Ji Research Group
+Author-email: genomics_ji@stanford.edu
+License: UNKNOWN
+Download-URL: https://github.com/ashuaibi7/kmerVC_pypi/archive/v1.0.tar.gz
+Description: UNKNOWN
+Keywords: v1.0
+Platform: UNKNOWN
