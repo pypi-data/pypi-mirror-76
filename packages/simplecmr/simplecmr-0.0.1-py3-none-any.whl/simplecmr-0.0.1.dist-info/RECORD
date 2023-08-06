@@ -1,0 +1,9 @@
+simplecmr/__init__.py,sha256=NhNsfuJhWwa5_T_gHS6UOSmwECYGVRq5fepb-tru-hU,62
+simplecmr/cli.py,sha256=FMQX3B1uKxoB1Bw0vPZr8o4e08ZtrGXl-lb4WrZkz_I,219
+simplecmr/query.py,sha256=KmzTKNst_h3bMhbZeAXgo4Ir482i0ly3_KT6gJR2T-g,4825
+simplecmr/result.py,sha256=MaikU27_NoV-7lXwk4THB-Vi-l1TJ6fZxtZJi2dq5iQ,6386
+simplecmr/utils.py,sha256=ikc6-GEEkbiK8ykomoDZKc1LkRBRG36vpxjbnYHG4LU,786
+simplecmr-0.0.1.dist-info/METADATA,sha256=T7CnJFOGln8tzf_PrJnLzdYMl1HAPzEcDybzCAd6VNI,2869
+simplecmr-0.0.1.dist-info/RECORD,,
+simplecmr-0.0.1.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+simplecmr-0.0.1.dist-info/top_level.txt,sha256=QiAsRYngCrGRyIYM1ZJYQixM9EONLkGDUTV5wpuzdJI,10
