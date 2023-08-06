@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyNginxcfg
+Version: 0.1
+Summary: A tool to handle nginx configuration
+Home-page: https://github.com/divad1196/pyNginx
+Author: Gallay David
+Author-email: davidtennis96@hotmail.com
+License: UNKNOWN
+Description: pyNginxcfg
+        ==========
+        
+        A tool to handle nginx configuration
+        
+        This is currently in dev.
+        
+        Installation
+        ------------
+        
+        .. code:: bash
+        
+            pip3 install pyNginxcfg
+        
+        Basic Run
+        ---------
+        
+        .. code:: bash
+        
+            ...
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
