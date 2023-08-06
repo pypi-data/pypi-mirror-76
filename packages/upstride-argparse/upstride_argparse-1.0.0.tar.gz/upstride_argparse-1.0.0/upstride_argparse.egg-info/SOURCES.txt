@@ -1,0 +1,9 @@
+README.md
+setup.py
+upstride_argparse/__init__.py
+upstride_argparse.egg-info/PKG-INFO
+upstride_argparse.egg-info/SOURCES.txt
+upstride_argparse.egg-info/dependency_links.txt
+upstride_argparse.egg-info/requires.txt
+upstride_argparse.egg-info/top_level.txt
+upstride_argparse/tests/__init__.py
