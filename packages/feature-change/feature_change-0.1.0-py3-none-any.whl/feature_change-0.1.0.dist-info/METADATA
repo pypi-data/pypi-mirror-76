@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: feature-change
+Version: 0.1.0
+Summary: Feature Change helps you check if a new function behaves like and older one
+License: MIT
+Author: Felipe 'Bidu' Rodrigues
+Author-email: felipe@felipevr.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8

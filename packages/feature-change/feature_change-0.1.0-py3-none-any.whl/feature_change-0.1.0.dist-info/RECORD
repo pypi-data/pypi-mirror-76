@@ -1,0 +1,5 @@
+feature_change/__init__.py,sha256=H3_qPJgesNRF2xrt8KMd4D3LkSbfsjxYZFiX53XnB5o,27
+feature_change/change.py,sha256=mU4QVZuIDymy_WzLsaXRvExJYPZG81wE0GAwFWxIlAw,750
+feature_change-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+feature_change-0.1.0.dist-info/METADATA,sha256=nxpbQI7LCu2-mA-F9a1AuD2Y8AyJDM7YZbV2wGEEhrw,449
+feature_change-0.1.0.dist-info/RECORD,,
