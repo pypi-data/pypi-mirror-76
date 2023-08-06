@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+feishu_plain_message/__init__.py
+feishu_plain_message/message.py
+feishu_plain_message/message_base.py
+feishu_plain_message.egg-info/PKG-INFO
+feishu_plain_message.egg-info/SOURCES.txt
+feishu_plain_message.egg-info/dependency_links.txt
+feishu_plain_message.egg-info/requires.txt
+feishu_plain_message.egg-info/top_level.txt
