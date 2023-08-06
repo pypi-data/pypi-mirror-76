@@ -1,0 +1,17 @@
+link_crab/__init__.py,sha256=uOEYpN6BJ5MrE0xr470N_iF6ETWhdB3e8L-sUs5rH7o,6070
+link_crab/__main__.py,sha256=p09Upnhu73YTOhUzArlL_I2Yzoq5lD8-VAqeWNRMtlA,68
+link_crab/csv_reader.py,sha256=z84aTYbwu473FPJX3elaUhIVRfsepbktz715-2Yl3Fg,694
+link_crab/exercise_url.py,sha256=Qj9uZ2eKIPPXGkm7aB3K69fEEeCc1HyUBfSXFU9flwk,1488
+link_crab/gather_links.py,sha256=mZJQyQQBuMTv8H-1pJCmO1Wuysv_fpUaupgKbakCuW8,2390
+link_crab/reporting.py,sha256=mD2ihjHJDpbLXETpl6nQtrZvX4Lp4yREb6uaNY-q3P4,1555
+link_crab/session_manager.py,sha256=ilIhCS5qYrZ_PTiueKwz-k7K_rKZk-zOkDjCEiNqOvQ,1306
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_app.py,sha256=PT_4Cqe_-n99QOTiRtthMuxo6eckyr_DC-a6kDEXSGo,8584
+tests/test_excercise_url.py,sha256=uaXcHcrXiXeJf5V_NAX6YO4QhAHRBMwvzB5FriySr-U,1124
+tests/test_gather_links.py,sha256=5SNY0ya37S1H4r6Mxh3OpahQQejG17K1DF5onEwRTkQ,1764
+tests/test_session_manager.py,sha256=-FBUn_jvJ3aOh20igRSwOUgjTERz_LvbgoLstRLT4q4,787
+link_crab-0.1.0.dist-info/LICENCE,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+link_crab-0.1.0.dist-info/METADATA,sha256=f989xSMCcLHLjAotMtofPAyqVlxY366K9QhfvBTxiXU,3714
+link_crab-0.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+link_crab-0.1.0.dist-info/top_level.txt,sha256=a41f5bfNC6g5l9xzzSOS4A1QiXMudJUxuXwR3W4-U48,16
+link_crab-0.1.0.dist-info/RECORD,,
