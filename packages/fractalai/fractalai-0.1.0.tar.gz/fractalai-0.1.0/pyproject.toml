@@ -1,0 +1,81 @@
+[tool.poetry]
+name = "fractalai"
+version = "0.1.0"
+description = "Integrated image classification and semantic segmentation package"
+authors = ["PrakashJay <vanapalli.prakash@fractal.ai>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "3.7.0"
+torch = "1.4.0"
+torchvision = "^0.5.0"
+pretrainedmodels = "^0.7.4"
+EasyDict = "^1.9"
+pandas = "^0.25.2"
+loguru = "^0.3.2"
+hyperdash = "^0.15.3"
+click = "^7.0"
+albumentations = "^0.4.1"
+opencv-python = "^4.1"
+scikit-learn = "^0.21.3"
+segmentation_models_pytorch = "^0.1.0"
+efficientnet_pytorch = "^0.6.3"
+pytorch-lightning = "^0.7.1"
+pycocotools = "^2.0"
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "^1.1"
+jupyter = "^1.0"
+ipykernel = "^5.1"
+ipython = "^7.8"
+pre-commit = "^2.1.1"
+flake8 = "^3.7.9"
+mypy = "^0.761"
+black = "^19.10b0"
+toml = "^0.10.0"
+isort = "^4.3.21"
+
+[tool.black]
+line_length = 120
+
+
+[tool.poetry.scripts]
+train = "fractalai.engine.trainer:main"
+infer_img = "fractalai.engine.infer:infer_img_click"             #sk
+infer_video = "fractalai.engine.infer:infer_video_click"
+infer_val_f1score = "fractalai.engine.infer:infer_val_f1score"      #sk
+infer_folder = "fractalai.engine.infer:infer_folder"            #sk
+
+## sanity checks
+make_model = "fractalai.engine.utils:make_model"
+seg_model_params = "fractalai.engine.utils:seg_model_params"
+check_transforms = "fractalai.datasets.agu:understand_transforms"
+check_dataset = "fractalai.datasets.dataset:run_dataset"
+vis_random_example = "fractalai.datasets.dataset:visualize_random_example"
+check_data_loader = "fractalai.datasets.dataloader:make_data_loader"
+check_csv = "fractalai.sanity:check_csv"
+check_metrics = "fractalai.utils.metrics:check_metrics"
+get_mean_std = "fractalai.datasets.dataset:get_mean_std"
+class_imbalance_plot = "fractalai.datasets.dataloader:class_imbalance_plot"
+json_to_csv = "fractalai.csv_utils:json_to_csv"     #sk
+
+
+## create
+make_csv_given_folders = "fractalai.csv_utils:make_csv_given_folders"
+make_folders_from_csv = "fractalai.engine.infer:make_folders_from_csv"    #sk
+
+## stats
+name_classes = "fractalai.csv_utils:get_classes"
+data_stat = "fractalai.visual:get_data_statistic"      #sk
+
+## Available Encoders
+avail_encoders = "fractalai.classifier.model:available_encoders"
+
+## Data
+extract_products_one_label = "fractalai.labelme2folder:make_extract_products_one_label"
+labelme_counter = "fractalai.labelme2folder:make_label_counter"
+
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
