@@ -1,0 +1,6 @@
+farsante/__init__.py,sha256=6nlp0Nh7hNdZblAhUb093Wzoc9m2DzJuTPCqc8KRjUw,83
+farsante/pandas_generators.py,sha256=J09LtJzbZUkI97l5HnnOBTq9iZGa_lohfdzqZLMYqgg,569
+farsante/pyspark_generators.py,sha256=ZjJIrQv-TaJLWy8714Vb6L74MYlwPxCByrQXCIegqjs,942
+farsante-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+farsante-0.1.0.dist-info/METADATA,sha256=Cfovezn7JVSw79a7XKJ4hZnAChxfOlI02iDhGc9H_DQ,448
+farsante-0.1.0.dist-info/RECORD,,
