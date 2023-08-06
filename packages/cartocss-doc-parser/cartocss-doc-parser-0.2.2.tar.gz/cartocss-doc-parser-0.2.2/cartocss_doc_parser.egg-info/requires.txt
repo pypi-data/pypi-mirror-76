@@ -1,0 +1,11 @@
+bs4
+lxml
+
+[dev]
+twine
+
+[test]
+pytest
+pytest-cov
+flake8
+tox
