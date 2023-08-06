@@ -1,0 +1,11 @@
+fwiffos/__init__.py,sha256=V5oZ2E7uLAWTBoKQ9V6_9p47hsylokgUAQRxdoimmDw,162
+fwiffos/core.py,sha256=h2325t39bhIQuJ92_kFdiq8lwrbpfH51lJ38XD_KHwo,383
+fwiffos/identity.py,sha256=tU5JciRcj-Gnn07RZyUXhRTE_ncmFPZXnoQRCY-xDKo,109
+fwiffos/log.py,sha256=OOToeRlFW1RMSNPoBdWEPJWpx5QoMc2QSpFfqi3Y2mI,280
+fwiffos/shell.py,sha256=A3wVIF21APttDgQnMQZ4IY2Xbc-H2HnDdlRF_y423fQ,64
+fwiffos/shell_capabilities.py,sha256=7ZwRQ-fFP1wKSUmSPTB-_MZ_mL0x5d2wCnRbrJ0orCA,657
+fwiffos-0.0.7.dist-info/LICENSE,sha256=czxsN40ud7nOYqsRYFnTIbg3lzMb_KGOGyRtIZPbmxE,1065
+fwiffos-0.0.7.dist-info/METADATA,sha256=83FX-1vxUqVSM1EG7Ga5Vrm3DO4xGa6O7UDOVUehzdw,778
+fwiffos-0.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fwiffos-0.0.7.dist-info/top_level.txt,sha256=DIIe-x3rfxpYgriGv7QIx5MN_-HwygPro2j2_pB1T1c,8
+fwiffos-0.0.7.dist-info/RECORD,,
