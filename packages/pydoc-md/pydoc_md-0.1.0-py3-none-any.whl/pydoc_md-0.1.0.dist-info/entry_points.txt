@@ -1,0 +1,3 @@
+[console_scripts]
+pydoc-md=pydoc_md.__main__:main
+
