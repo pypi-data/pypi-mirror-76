@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pyunique
+Version: 0.0.8
+Summary: help you get rid of duplicate files
+Home-page: https://veltzer.github.io/pyunique
+Author: Mark Veltzer
+Author-email: mark.veltzer@gmail.com
+Maintainer: Mark Veltzer
+Maintainer-email: mark.veltzer@gmail.com
+License: MIT
+Download-URL: https://github.com/veltzer/pyunique
+Description: ==========
+        *pyunique*
+        ==========
+        
+        .. image:: https://img.shields.io/pypi/v/pyunique
+        
+        .. image:: https://img.shields.io/github/license/veltzer/pyunique
+        
+        .. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+        
+        project website: https://veltzer.github.io/pyunique
+        
+        author: Mark Veltzer
+        
+        version: 0.0.8
+        
+        
+        
+Keywords: duplicates,remove,hash
+Platform: python3
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
