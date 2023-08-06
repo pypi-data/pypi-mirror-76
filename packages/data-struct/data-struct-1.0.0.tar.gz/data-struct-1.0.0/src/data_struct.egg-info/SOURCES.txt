@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/structLib.py
+src/data_struct.egg-info/PKG-INFO
+src/data_struct.egg-info/SOURCES.txt
+src/data_struct.egg-info/dependency_links.txt
+src/data_struct.egg-info/requires.txt
+src/data_struct.egg-info/top_level.txt
