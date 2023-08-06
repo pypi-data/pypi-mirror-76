@@ -1,0 +1,9 @@
+pyunit_ner/__init__.py,sha256=1bm-XTTwx3R6SpxKD5AkSeU5TvcMlb5TvvdXQggInKc,1081
+pyunit_ner/run_msra.py,sha256=dHCICYUiclpoMOAnKH_BADdStk0mI1d6UOuWCwcgACo,7649
+pyunit_ner/transformer_encoder.py,sha256=iQwqmyWivIfgMdbSdyPsnWlzjjeoI9ETf0bz2TQ6fcA,8793
+pyunit_ner/vocab.py,sha256=T46MdDaSv0zsEPZ0SChzFaqeGO1ZpUXtCiJlEYD-p5k,241679
+pyunit_ner-2020.8.12.dist-info/METADATA,sha256=PfEfbJX1UePQyzWUtAT4cfWkMlAV9SwMF1smdGT5Mlo,3290
+pyunit_ner-2020.8.12.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyunit_ner-2020.8.12.dist-info/top_level.txt,sha256=phtpPyyAKkdxJ0GzLgimzYxWBAHohDYp68NrbN6wbYc,11
+pyunit_ner-2020.8.12.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pyunit_ner-2020.8.12.dist-info/RECORD,,
