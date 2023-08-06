@@ -1,0 +1,1 @@
+certifi==2020.6.20chardet==3.0.4click==7.1.2colorama==0.4.3idna==2.10lxml==4.5.2requests==2.24.0tabulate==0.8.7urllib3==1.25.10
