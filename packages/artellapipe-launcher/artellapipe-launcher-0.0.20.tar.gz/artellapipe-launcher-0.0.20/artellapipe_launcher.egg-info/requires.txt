@@ -1,0 +1,28 @@
+Qt.py
+pathlib2
+requests==2.22.0
+packaging
+beautifulsoup4
+lxml
+pytest
+pytest-cov
+coveralls
+sphinx
+sphinx_rtd_theme
+python-json-logger
+sentry-sdk
+tpDcc-libs-python
+tpDcc-core
+tpDcc-libs-qt
+
+[:python_version <= "3.4"]
+pyinstaller==3.6
+
+[:python_version > "3.4"]
+pyinstaller==4.0
+
+[dev]
+wheel
+
+[test]
+pytest
