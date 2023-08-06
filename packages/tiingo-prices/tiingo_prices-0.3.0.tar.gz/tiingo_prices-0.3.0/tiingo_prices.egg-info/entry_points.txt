@@ -1,0 +1,3 @@
+[console_scripts]
+tiingo_prices = tiingo_prices.tiingo_prices:main
+
