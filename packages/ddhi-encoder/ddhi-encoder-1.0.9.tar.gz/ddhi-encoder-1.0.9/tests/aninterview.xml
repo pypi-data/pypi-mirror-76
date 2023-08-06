@@ -1,0 +1,68 @@
+<?xml-model href="ddhi.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Transcript of an Interview with a Narrator</title>
+      </titleStmt>
+      <publicationStmt>
+        <authority>
+          <orgName>Dartmouth Digital History Initiative</orgName>
+        </authority>
+        <date>
+          <!--  Date of publication, e.g. for citation purposes  -->
+        </date>
+      </publicationStmt>
+      <sourceDesc>
+        <recordingStmt>
+          <recording xml:id="primary_recording" type="audio" dur-iso="">
+            <!-- https://www.digi.com/resources/documentation/digidocs/90001437-13/reference/r_iso_8601_duration_format.htm -->
+            <media url="" mimeType="MIMEaudio/wav"/>
+          </recording>
+        </recordingStmt>
+        <bibl xml:id="primary_transcription">
+          <respStmt>
+            <persName>Mimi Eisenberg</persName>
+            <orgName>Wordcraft</orgName>
+            <resp ref="http://id.loc.gov/vocabulary/relators/trc.html">Transcriber</resp>
+          </respStmt>
+          <ref target="path_to_file">Primary transcription</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>The Dartmouth Vietnam Project</p>
+      </projectDesc>
+      <appInfo>
+        <application ident="DDHIEncoder" version="0.0.1">
+          <desc>Conversion from Word docx to TEI xml.</desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en-us">English</language>
+      </langUsage>
+      <particDesc>
+        <person xml:id="RINI"/>
+        <person xml:id="CARBONE"/>
+      </particDesc>
+      <settingDesc>
+        <setting>
+          <date when-iso=""/>
+          <locale/>
+        </setting>
+      </settingDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <u who="CARBONE">So this is Riley Carbone, and I’m at Rauner [Special Collections] Library at Dartmouth College in Hanover, New Hampshire, with Dr. [James M.] “Jim” Rini. This is the 17th of August 2016, just a bit after 1 p.m., and this is an interview for the Dartmouth Vietnam Project.</u>
+      <u who="RINI">Sure. I was born in Cleveland, Ohio. When I was about four, we moved to Shaker [Heights, Ohio]. Started in school at one of the public schools called Lomond [Elementary School], L-o-m-o-n-d, up through fourth grade. By that time, the Catholic church had built a school, and so I was transferred from the public school system to the Catholic school system for the fifth through eighth grades. Then after that, I went to a Catholic prep school called Gilmour, G-i-l-m-o-u-r, Academy and from there to Dartmouth College. Graduated in 1964. From there, to Dartmouth Medical School, now known as Geisel [School of Medicine], much to my angst, finishing with a bachelor of medical science in 1966, and then transferred to finish the last two years of medical school at Harvard [University], graduating in 1968.</u>
+      <u who="CARBONE">Wonderful. </u>
+      <u who="RINI">My dad is, or was, Martin August Rini. He was a lawyer, a trial lawyer, a litigator, highly respected in Cleveland. My mother was a homemaker. She didn’t go past high school, but she had a lot of great qualities, including organizational skills and a fantastic personality, where if the party was dull and she walked into a room, they’d be having a good time in 30 seconds. She was very talented in her ability to sing and had the lead in all the operettas and was talented in terms of decorating and putting together fashionable clothes.</u>
+      <u who="CARBONE">And did you have any siblings?</u>
+    </body>
+  </text>
+</TEI>

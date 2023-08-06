@@ -1,0 +1,7 @@
+docx2python
+lxml
+spacy
+
+[testing]
+pytest
+pytest-cov

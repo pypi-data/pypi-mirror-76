@@ -1,0 +1,16 @@
+attrs==19.3.0
+coverage==5.0.1
+# Editable Git install with no remote (ddhi-encoder==0.0.post0.dev2+gfbb5f62)
+-e /Users/cwulfman/ddhi-encoder/src
+docx2python==1.19
+lxml==4.4.2
+more-itertools==8.0.2
+packaging==19.2
+pluggy==0.13.1
+py==1.8.0
+pyparsing==2.4.5
+PyScaffold==3.2.3
+pytest==5.3.2
+pytest-cov==2.8.1
+six==1.13.0
+wcwidth==0.1.7
