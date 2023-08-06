@@ -1,0 +1,8 @@
+README.md
+setup.py
+Imager/__init__.py
+Imager.egg-info/PKG-INFO
+Imager.egg-info/SOURCES.txt
+Imager.egg-info/dependency_links.txt
+Imager.egg-info/requires.txt
+Imager.egg-info/top_level.txt
