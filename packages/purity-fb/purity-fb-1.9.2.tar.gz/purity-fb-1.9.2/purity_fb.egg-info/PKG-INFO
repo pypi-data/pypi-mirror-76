@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: purity-fb
+Version: 1.9.2
+Summary: Pure Storage FlashBlade REST 1.9 Python SDK
+Home-page: UNKNOWN
+Author-email: info@purestorage.com
+License: UNKNOWN
+Description:     Pure Storage FlashBlade REST 1.9 Python SDK. Compatible with REST API versions 1.0 - 1.9. Developed by [Pure Storage, Inc](http://www.purestorage.com/). Documentations can be found at [purity-fb.readthedocs.io](http://purity-fb.readthedocs.io/).
+            
+Keywords: Swagger,Purity//FB REST Client
+Platform: UNKNOWN
+Requires-Python: >=2.7, <3.7
