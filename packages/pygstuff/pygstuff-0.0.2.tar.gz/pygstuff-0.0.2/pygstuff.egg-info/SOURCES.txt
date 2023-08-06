@@ -1,0 +1,16 @@
+AltInstallation.md
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+pygstuff/__init__.py
+pygstuff/clock.py
+pygstuff/colors.py
+pygstuff/plot.py
+pygstuff/user.py
+pygstuff/window.py
+pygstuff.egg-info/PKG-INFO
+pygstuff.egg-info/SOURCES.txt
+pygstuff.egg-info/dependency_links.txt
+pygstuff.egg-info/requires.txt
+pygstuff.egg-info/top_level.txt
