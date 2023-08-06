@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: flask-fantasy
+Version: 0.4.2
+Summary: A lazy web-framework based on Flask
+Home-page: https://github.com/9nix00/fantasy
+Author: WANG WENPEI
+Author-email: stormxx@1024.engineer
+License: MIT
+Download-URL: https://github.com/9nix00/fantasy/archive/v0.4.2.tar.gz
+Keywords: fantasy,flask
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Description-Content-Type: text/markdown
+Requires-Dist: celery (==4.4.0)
+Requires-Dist: blinker (==1.4)
+Requires-Dist: raven (==6.10.0)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: redis (==3.3.11)
+Requires-Dist: webargs (==5.5.2)
+Requires-Dist: PyMySQL (==0.9.3)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: Flask (==1.1.1)
+Requires-Dist: Flask-SQLAlchemy (==2.4.1)
+Requires-Dist: flask-prometheus-metrics (==1.0.0)
+Requires-Dist: flask-migrate (==2.5.2)
+Requires-Dist: Flask-Admin (==1.5.5)
+Requires-Dist: flask-cors (==3.0.8)
+Requires-Dist: flask-babel (==1.0.0)
+Requires-Dist: SQLAlchemy-Utils (==0.36.1)
+
+# Fantasy
+
+![](https://secure.travis-ci.org/wangwenpei/fantasy.png?branch=master)
+![](https://codecov.io/github/wangwenpei/fantasy/coverage.svg?branch=master)
+
+A lazy web-framework based on  [Flask](http://flask.pocoo.org/).
+
+
+## Why use Fantasy
+
+[Flask](http://flask.pocoo.org/) is a **micro-service** style framework.
+It's awesome.
+
+But micro-service framework often cause another problem,
+that is make the code reusability not very well.
+
+So can we keep the micro-service architecture and also keep code reusability?
+
+that's why we create fantasy.
+
+
+Happy Coding with Flask tech-stack, and keep code reusability.
+
+
+
+## ChangeLog
+
+before v0.5.x, we don't plan submit a human-readable changelog.
+current is 0.3.x.
+
+and we don't use it in our production level project, 
+just for experiment project.
+
+

@@ -1,0 +1,3 @@
+[pytest11]
+pytest_fantasy = fantasy_pytest.fixtures
+
