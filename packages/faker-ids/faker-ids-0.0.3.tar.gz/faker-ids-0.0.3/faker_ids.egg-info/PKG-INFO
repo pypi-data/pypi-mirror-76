@@ -1,0 +1,41 @@
+Metadata-Version: 1.0
+Name: faker-ids
+Version: 0.0.3
+Summary: Fake id generator. Fetches upto 5 MILLION fake details like firstname, lastnam, emailid and mobile number.
+Home-page: UNKNOWN
+Author: Balaji Betadur
+Author-email: balajibetadur@gmail.com
+License: MIT
+Description: Hey There !!!
+        
+        This is the simple python package for generating fake id's. You can fetch upto 5 MILLION fake id's. The id generated contains 4 elements 'First Name', 'Last Name', 'Email Id' and 'Mobile Number'. This package provides indian id's.
+        
+        
+        Input:
+        
+        n: Number of required fake id's
+        
+        0 < n < 5000000
+        
+        
+        Output:
+        
+        List: List of Json objects which contain the details of the id i.e. first name, last name, email id and mobile number.
+        
+        
+        Installation:
+        
+        pip install faker-ids
+        
+        
+        Code: 
+        
+        import faker_ids
+        
+        print(faker_ids.get_ids(n))
+        
+        
+        
+        
+Keywords: fakeid,indians,indian fake ids,faker,fakes,fake ids,python,fake-ids python,fake indian ids python
+Platform: UNKNOWN

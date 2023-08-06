@@ -1,0 +1,10 @@
+License.txt
+MANIFEST.in
+readme.txt
+setup.py
+faker_ids/__init__.py
+faker_ids.egg-info/PKG-INFO
+faker_ids.egg-info/SOURCES.txt
+faker_ids.egg-info/dependency_links.txt
+faker_ids.egg-info/requires.txt
+faker_ids.egg-info/top_level.txt
