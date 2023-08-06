@@ -1,0 +1,9 @@
+kvuilder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kvuilder/command.py,sha256=yE9yUJC5tKEiUrVQeAvX4zdKyJTRw5OGLY9A4ReqLdU,2949
+kvuilder/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kvuilder-1.0.0.dist-info/LICENSE,sha256=3qvmJcBcNAkMPuyuS09Yx9evzZb0ItVr8WieafafjZg,1072
+kvuilder-1.0.0.dist-info/METADATA,sha256=cm1xSVFEB1xGUPiOCKl_gJ1T9TLkeN9ds6jjnl1p1BI,872
+kvuilder-1.0.0.dist-info/WHEEL,sha256=QNZmmMbQUQDSFNbbXyXHUMkgO-aoElXpPB6KCI2u8H8,110
+kvuilder-1.0.0.dist-info/entry_points.txt,sha256=9QrImogu8etoWmq1jCDWA5ShzZv0BxCzMEvTTmqVMP0,61
+kvuilder-1.0.0.dist-info/top_level.txt,sha256=Y2zhfPSp-MUGBuWtbUtbwVqB5_5uGyzT2RlgxUK33xI,9
+kvuilder-1.0.0.dist-info/RECORD,,
