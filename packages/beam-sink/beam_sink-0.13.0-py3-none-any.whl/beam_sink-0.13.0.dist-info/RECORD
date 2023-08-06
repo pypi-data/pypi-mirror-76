@@ -1,0 +1,12 @@
+beam_sink/__init__.py,sha256=rNPlxEBamELqX1seKZ9pKBd06dLTr4Dwm0pd6YbUxFU,154
+beam_sink/sinks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beam_sink/sinks/mysql.py,sha256=1yb09oIViIQsOghTCfSuqs8v7hKkaIji3w99jCCjipY,3861
+beam_sink/sinks/postgres.py,sha256=eitBlNfJE4R8SnbWknLtIqq9LxVHm3CSMzmdXMkpce4,3941
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_mysql.py,sha256=4hXcqNvJHrHLYhQd2eFS2ZKQBXEntTJAHVd4DfW7HxA,2454
+tests/test_postgres.py,sha256=qBWcZYojm3Y31UFJmEv65skCrPW1uG-zjkRV-Y76UZo,2421
+beam_sink-0.13.0.dist-info/LICENSE,sha256=KAOswrU_cZrFyb0WXZUZ7YvIxWAeO3qSCcbvGDIWdTo,1070
+beam_sink-0.13.0.dist-info/METADATA,sha256=CgADvw-MKwc-CXtyhCxgkfJF8dohmU0vWY_HX5WbFC4,434
+beam_sink-0.13.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+beam_sink-0.13.0.dist-info/top_level.txt,sha256=Wbhdiwm6UNtgSJ4joFn0p0t24YmYQjTaOiqg_NY9swU,16
+beam_sink-0.13.0.dist-info/RECORD,,
