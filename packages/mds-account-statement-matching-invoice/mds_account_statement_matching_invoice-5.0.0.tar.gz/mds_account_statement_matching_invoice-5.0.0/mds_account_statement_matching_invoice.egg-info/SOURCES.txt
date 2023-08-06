@@ -1,0 +1,16 @@
+README.rst
+setup.py
+./README.rst
+./__init__.py
+./statement.py
+./tryton.cfg
+./versiondep.txt
+./locale/de.po
+./locale/en.po
+mds_account_statement_matching_invoice.egg-info/PKG-INFO
+mds_account_statement_matching_invoice.egg-info/SOURCES.txt
+mds_account_statement_matching_invoice.egg-info/dependency_links.txt
+mds_account_statement_matching_invoice.egg-info/entry_points.txt
+mds_account_statement_matching_invoice.egg-info/not-zip-safe
+mds_account_statement_matching_invoice.egg-info/requires.txt
+mds_account_statement_matching_invoice.egg-info/top_level.txt
