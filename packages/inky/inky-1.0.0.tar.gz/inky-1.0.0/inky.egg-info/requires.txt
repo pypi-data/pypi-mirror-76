@@ -1,0 +1,6 @@
+numpy
+
+[rpi-gpio-output]
+RPi.GPIO
+smbus2
+spidev
