@@ -1,0 +1,16 @@
+kafkaconnect/__init__.py,sha256=SpDNk596ToTG4NgrmrwPTNh5uoykKfYZoJasMTTsCQw,468
+kafkaconnect/cli.py,sha256=2pWbdRsxJWqNCTpetbZJA186UXLBgb4qJlKzXro5fms,5472
+kafkaconnect/config.py,sha256=KF-0F9ztrX1ZV_rrYdZpHr4CpR4PjqXgBJSCPif6Nso,2651
+kafkaconnect/connect.py,sha256=Gybh3BWoJXJ14lowz3vNlrJO0XvMn9z_kvxG1lXWo-c,6032
+kafkaconnect/topics.py,sha256=WVhY3DtkpMqNieTx-dwdHJAdKswX7BaMgCU_AdFjtiY,2309
+kafkaconnect/influxdb_sink/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kafkaconnect/influxdb_sink/cli.py,sha256=qoD_I0vqtQsIFKPecMcTaZ6l3C-UrzAhICi75PWM5SQ,9739
+kafkaconnect/influxdb_sink/config.py,sha256=VMsQeutmQHS5jG8Ttz7-zxlupAe0kA15IIIReZfABT4,3214
+kafkaconnect/s3_sink/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kafkaconnect/s3_sink/cli.py,sha256=VuiDJKr9-IoLDblRbZ5WhBsz6U6O4CLX1cog1RWbUaU,9966
+kafkaconnect/s3_sink/config.py,sha256=Wc_-3x4UOcxu1YJ-c44mHYI7PUvsbjNDf_P-aGluGdU,3928
+kafkaconnect-0.8.0.dist-info/METADATA,sha256=U3ROQJQrBuTri5YW4YItHOIesVxoxxvCRH9KOHEILwA,3332
+kafkaconnect-0.8.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kafkaconnect-0.8.0.dist-info/entry_points.txt,sha256=b0Q2uB0-fMT_G19QwmDJJniCFQy4JX6Vu5RZ2el6G_8,56
+kafkaconnect-0.8.0.dist-info/top_level.txt,sha256=stMx5v3hruq13AD09RC3xwm5yspwU494OCYYYuMvMcc,13
+kafkaconnect-0.8.0.dist-info/RECORD,,
