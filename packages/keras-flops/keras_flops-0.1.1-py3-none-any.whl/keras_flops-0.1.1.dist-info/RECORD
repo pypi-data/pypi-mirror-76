@@ -1,0 +1,8 @@
+LICENSE,sha256=fv3ZjEmlkAxT4JGm2RD5MVJrKhcfG0Gqedwsrje0f1k,1068
+keras_flops/__init__.py,sha256=38kM0RkJA4WyWgKausTt2BjOxkZlZ1PYI3TBAfaLztM,41
+keras_flops/flops_calculation.py,sha256=QDIZleJDOzJWF7kLQMPInsrMu0MJZ3ctLmUGcpbwwvQ,1535
+keras_flops/flops_registory.py,sha256=mEBTWWs6JJfKD-0Jb5fBQnLjwTkv-ilH1vAduPs01Yc,1220
+keras_flops-0.1.1.dist-info/LICENSE,sha256=fv3ZjEmlkAxT4JGm2RD5MVJrKhcfG0Gqedwsrje0f1k,1068
+keras_flops-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+keras_flops-0.1.1.dist-info/METADATA,sha256=zhL8rc6cTQSJBLL13kypISsl1hf9qZTY8CJjNgiiTE8,2970
+keras_flops-0.1.1.dist-info/RECORD,,
