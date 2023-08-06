@@ -1,0 +1,15 @@
+README.rst
+setup.py
+mishkal/__init__.py
+mishkal/tashkeel.py
+mishkal/tashkeel_const.py
+mishkal/unknown_const.py
+mishkal/unknown_tashkeel.py
+mishkal/unkown.py
+mishkal/unkown_const.py
+mishkal/unkown_tashkeel.py
+mishkal.egg-info/PKG-INFO
+mishkal.egg-info/SOURCES.txt
+mishkal.egg-info/dependency_links.txt
+mishkal.egg-info/requires.txt
+mishkal.egg-info/top_level.txt
