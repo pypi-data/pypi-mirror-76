@@ -1,0 +1,10 @@
+simpletweetlib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpletweetlib/_auth.py,sha256=az137LHUi8tmYn7C58yySI49-Z33oyyqmzBPZVINSqs,435
+simpletweetlib/auth.py,sha256=Iz2ecz8JaDtQb-HQRERfSjOOzSh2vc04BK82BwxGN5Q,372
+simpletweetlib/profile.py,sha256=OZzHEJ_Ed1gJzFzwwsslE83-0RU-vLIOEUeAUB09KFc,715
+simpletweetlib/tweet.py,sha256=Da5e7fNsfllQCRizWwLOMnyL_yRfdh_y5oy10TlW4TM,761
+simpletweetlib-0.0.1.dist-info/LICENSE,sha256=DJ41SrIcxECTHNp3IKexaAKwBwgKlBHdfWEGorFlGRI,1070
+simpletweetlib-0.0.1.dist-info/METADATA,sha256=ip8M6sYt24F8YLAXjOw1h_gm5YrQX_jP-afwx11oMdM,1237
+simpletweetlib-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+simpletweetlib-0.0.1.dist-info/top_level.txt,sha256=OyV6hcUbfokPUIK859TiK-h5C4GDetZWKyWry241CaM,15
+simpletweetlib-0.0.1.dist-info/RECORD,,
