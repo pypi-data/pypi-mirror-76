@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: teams-logger
+Version: 0.1.1
+Summary: Microsoft Teams logging handler fot Python
+Author: Anes Foufa
+Author-email: anes.foufa@upply.com
+Requires-Python: >=3.5,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: requests (>=2.24.0,<3.0.0)
