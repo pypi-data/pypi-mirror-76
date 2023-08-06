@@ -1,0 +1,12 @@
+pyimagetest/__init__.py,sha256=eQ2g6vZaKlNCytB62psp6rLoovf2oNRsOoPD6RfWiWs,4203
+pyimagetest/_version.py,sha256=CEb4C8enWbSFELY7PVI854-EO6Glmo-1qS6BT4TpEwk,116
+pyimagetest/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyimagetest/backends/__init__.py,sha256=JgIG9pL5f4apIwk7AyZVifmEdPqfEkU7pupZdhH8chc,2327
+pyimagetest/backends/_imageio.py,sha256=vlzO8clUp1lBwrdM9EEEoxvhJ7alU9yZTtGTDBV5ALg,538
+pyimagetest/backends/_pil.py,sha256=MedZUDrZ_gd0ZKSArYWk2X4AENYzRE4uuK7-uUiZ3DE,694
+pyimagetest/backends/_torchvision.py,sha256=qww0rztNHiN47ewqkrxf8wIszfroRAMmpPbETE92tTY,670
+pyimagetest-0.3.0.dist-info/LICENSE,sha256=pwhRdCj1vNtybH3Rq7vCOdiKe7ISqqrOZGVIMPxcTUk,1520
+pyimagetest-0.3.0.dist-info/METADATA,sha256=gKjy4CyT9zr6lL7IJ8Z45ZOVJ2qLWNrNIeHF-CDN0G0,3294
+pyimagetest-0.3.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyimagetest-0.3.0.dist-info/top_level.txt,sha256=xBAlzGetgiiG0XPvx7kFz_4NbvNSoaUk8aMYdcNirPQ,12
+pyimagetest-0.3.0.dist-info/RECORD,,
