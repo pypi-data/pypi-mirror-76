@@ -1,0 +1,3 @@
+[console_scripts]
+pyrfdata = pyrfdata.run:main
+
