@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: certbot-dns-namesilo
+Version: 0.1.1
+Summary: Namesilo DNS Authenticator plugin for Certbot
+Home-page: https://github.com/mateste/certbot-dns-namesilo
+Author: Mateusz Stępień
+Author-email: mateusz@argc.pl
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+Requires-Dist: acme (>=0.31.0)
+Requires-Dist: certbot (>=1.1.0)
+Requires-Dist: mock
+Requires-Dist: setuptools
+Requires-Dist: zope.interface
+Requires-Dist: dns-lexicon (>=3.2.1)
+
+UNKNOWN
+
+

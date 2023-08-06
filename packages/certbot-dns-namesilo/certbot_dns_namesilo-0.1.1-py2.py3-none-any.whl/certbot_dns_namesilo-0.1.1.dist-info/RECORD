@@ -1,0 +1,9 @@
+certbot_dns_namesilo/__init__.py,sha256=iM_hpTPH0yaVlwh7BXsi_yjJ8UnOv5WzYp0I4TcQP00,3515
+certbot_dns_namesilo/_internal/__init__.py,sha256=QT_TOsuXJ95MaUnGu8Gn7aXbui3qNn3915Xj8_-7OiA,78
+certbot_dns_namesilo/_internal/dns_namesilo.py,sha256=neR25rbdjOyToRQ1O20HbMP-PDVwGv7l2IAcoZ7PUjY,2851
+certbot_dns_namesilo-0.1.1.dist-info/LICENSE.txt,sha256=LMXecVrlqXbwhvukkwiAyeQhkUFz_IURG_9RTUdXEj8,10786
+certbot_dns_namesilo-0.1.1.dist-info/METADATA,sha256=omujWHmuJ9bqxR6gWWekrOUsDs0roYkkLK9Yz-AdWzs,1430
+certbot_dns_namesilo-0.1.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+certbot_dns_namesilo-0.1.1.dist-info/entry_points.txt,sha256=1snl5JJEYF2s8ABKP6ZN8S2yBn3WC05_zatDups5i7c,92
+certbot_dns_namesilo-0.1.1.dist-info/top_level.txt,sha256=iZGVwr-xZQqbpbqI7T8DGv85LsOXKJewPTGuwvx9pdY,21
+certbot_dns_namesilo-0.1.1.dist-info/RECORD,,
