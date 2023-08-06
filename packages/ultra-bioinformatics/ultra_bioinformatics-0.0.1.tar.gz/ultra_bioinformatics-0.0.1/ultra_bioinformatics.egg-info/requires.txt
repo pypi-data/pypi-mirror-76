@@ -1,0 +1,5 @@
+parasail
+pysam
+dill
+gffutils
+edlib
