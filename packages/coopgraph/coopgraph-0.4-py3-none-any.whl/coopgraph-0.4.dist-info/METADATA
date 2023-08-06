@@ -1,0 +1,375 @@
+Metadata-Version: 2.1
+Name: coopgraph
+Version: 0.4
+Summary: Logical Graph Builder that can be used for various problems that can be modeled as a graph data structure
+Home-page: https://github.com/tylertjburns/coopgraph
+Author: tburns
+Author-email: tyler.tj.burns@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >3.5
+Description-Content-Type: text/markdown
+Requires-Dist: alabaster (==0.7.12)
+Requires-Dist: alpha-vantage (==2.1.3)
+Requires-Dist: altgraph (==0.17)
+Requires-Dist: anaconda-client (==1.7.2)
+Requires-Dist: anaconda-navigator (==1.9.7)
+Requires-Dist: anaconda-project (==0.8.3)
+Requires-Dist: appdirs (==1.4.3)
+Requires-Dist: arcade (==2.1.6)
+Requires-Dist: asn1crypto (==0.24.0)
+Requires-Dist: astroid (==2.2.5)
+Requires-Dist: astropy (==3.2.1)
+Requires-Dist: atomicwrites (==1.3.0)
+Requires-Dist: attrs (==19.1.0)
+Requires-Dist: Babel (==2.7.0)
+Requires-Dist: backcall (==0.1.0)
+Requires-Dist: backports.functools-lru-cache (==1.5)
+Requires-Dist: backports.os (==0.1.1)
+Requires-Dist: backports.shutil-get-terminal-size (==1.0.0)
+Requires-Dist: backports.tempfile (==1.0)
+Requires-Dist: backports.weakref (==1.0.post1)
+Requires-Dist: beautifulsoup4 (==4.8.0)
+Requires-Dist: bitarray (==1.0.1)
+Requires-Dist: bkcharts (==0.2)
+Requires-Dist: bleach (==3.1.5)
+Requires-Dist: bokeh (==1.3.4)
+Requires-Dist: boto (==2.49.0)
+Requires-Dist: Bottleneck (==1.2.1)
+Requires-Dist: certifi (==2020.4.5.1)
+Requires-Dist: cffi (==1.12.3)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: chart-studio (==1.0.0)
+Requires-Dist: Click (==7.0)
+Requires-Dist: cloudpickle (==1.2.1)
+Requires-Dist: clyent (==1.2.2)
+Requires-Dist: cmdandtestscaffold (==0.1)
+Requires-Dist: colorama (==0.4.1)
+Requires-Dist: colorlover (==0.3.0)
+Requires-Dist: comtypes (==1.1.7)
+Requires-Dist: conda (==4.7.11)
+Requires-Dist: conda-build (==3.18.8)
+Requires-Dist: conda-package-handling (==1.3.11)
+Requires-Dist: conda-verify (==3.4.2)
+Requires-Dist: config (==0.4.2)
+Requires-Dist: contextlib2 (==0.5.5)
+Requires-Dist: coopbugger (==0.1)
+Requires-Dist: coopgame (==0.5)
+Requires-Dist: coopstructs (==0.7)
+Requires-Dist: cryptography (==2.7)
+Requires-Dist: cufflinks (==0.17.0)
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: Cython (==0.29.13)
+Requires-Dist: cytoolz (==0.10.0)
+Requires-Dist: dash (==1.7.0)
+Requires-Dist: dash-bootstrap-components (==0.7.2)
+Requires-Dist: dash-core-components (==1.6.0)
+Requires-Dist: dash-html-components (==1.0.2)
+Requires-Dist: dash-renderer (==1.2.2)
+Requires-Dist: dash-table (==4.5.1)
+Requires-Dist: dask (==2.3.0)
+Requires-Dist: decorator (==4.4.0)
+Requires-Dist: defusedxml (==0.6.0)
+Requires-Dist: descartes (==1.1.0)
+Requires-Dist: distlib (==0.3.0)
+Requires-Dist: distributed (==2.3.2)
+Requires-Dist: docutils (==0.16)
+Requires-Dist: entrypoints (==0.3)
+Requires-Dist: et-xmlfile (==1.0.1)
+Requires-Dist: fastcache (==1.1.0)
+Requires-Dist: filelock (==3.0.12)
+Requires-Dist: flake8 (==3.7.9)
+Requires-Dist: Flask (==1.1.1)
+Requires-Dist: Flask-Compress (==1.4.0)
+Requires-Dist: fsspec (==0.4.0)
+Requires-Dist: future (==0.17.1)
+Requires-Dist: gevent (==1.4.0)
+Requires-Dist: glob2 (==0.7)
+Requires-Dist: greenlet (==0.4.15)
+Requires-Dist: h5py (==2.9.0)
+Requires-Dist: heapdict (==1.0.0)
+Requires-Dist: html5lib (==1.0.1)
+Requires-Dist: idna (==2.9)
+Requires-Dist: imageio (==2.5.0)
+Requires-Dist: imagesize (==1.1.0)
+Requires-Dist: importlib-metadata (==1.6.0)
+Requires-Dist: ipykernel (==5.1.2)
+Requires-Dist: ipython (==7.8.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: ipywidgets (==7.5.1)
+Requires-Dist: isort (==4.3.21)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: jdcal (==1.4.1)
+Requires-Dist: jedi (==0.15.1)
+Requires-Dist: Jinja2 (==2.10.1)
+Requires-Dist: joblib (==0.13.2)
+Requires-Dist: json5 (==0.8.5)
+Requires-Dist: jsonpickle (==1.2)
+Requires-Dist: jsonschema (==3.0.2)
+Requires-Dist: jupyter (==1.0.0)
+Requires-Dist: jupyter-client (==5.3.1)
+Requires-Dist: jupyter-console (==6.0.0)
+Requires-Dist: jupyter-core (==4.5.0)
+Requires-Dist: jupyterlab (==1.0.2)
+Requires-Dist: jupyterlab-server (==1.0.0)
+Requires-Dist: keyring (==21.2.1)
+Requires-Dist: kiwisolver (==1.1.0)
+Requires-Dist: lazy-object-proxy (==1.4.2)
+Requires-Dist: ledgerkeeper (==0.3)
+Requires-Dist: libarchive-c (==2.8)
+Requires-Dist: llvmlite (==0.29.0)
+Requires-Dist: locket (==0.2.0)
+Requires-Dist: lxml (==4.4.1)
+Requires-Dist: make-deb (==0.0.5)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: marshmallow (==3.0.3)
+Requires-Dist: matplotlib (==3.1.1)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: menuinst (==1.4.16)
+Requires-Dist: mistune (==0.8.4)
+Requires-Dist: mkl-fft (==1.0.14)
+Requires-Dist: mkl-random (==1.0.2)
+Requires-Dist: mkl-service (==2.3.0)
+Requires-Dist: mock (==3.0.5)
+Requires-Dist: mongoengine (==0.19.1)
+Requires-Dist: more-itertools (==7.2.0)
+Requires-Dist: mpmath (==1.1.0)
+Requires-Dist: msgpack (==0.6.1)
+Requires-Dist: multipledispatch (==0.6.0)
+Requires-Dist: mypy (==0.740)
+Requires-Dist: mypy-extensions (==0.4.3)
+Requires-Dist: mypy-lang (==0.5.0)
+Requires-Dist: navigator-updater (==0.2.1)
+Requires-Dist: nbconvert (==5.5.0)
+Requires-Dist: nbformat (==4.4.0)
+Requires-Dist: networkx (==2.3)
+Requires-Dist: nltk (==3.4.5)
+Requires-Dist: noise (==1.2.3)
+Requires-Dist: nose (==1.3.7)
+Requires-Dist: notebook (==6.0.0)
+Requires-Dist: numba (==0.44.1)
+Requires-Dist: numexpr (==2.7.0)
+Requires-Dist: numpy (==1.16.4)
+Requires-Dist: numpydoc (==0.9.1)
+Requires-Dist: observed (==0.5.3)
+Requires-Dist: olefile (==0.46)
+Requires-Dist: openpyxl (==2.6.2)
+Requires-Dist: packaging (==20.3)
+Requires-Dist: pandas (==0.25.1)
+Requires-Dist: pandocfilters (==1.4.2)
+Requires-Dist: parso (==0.5.1)
+Requires-Dist: partd (==1.0.0)
+Requires-Dist: path.py (==12.0.1)
+Requires-Dist: pathlib2 (==2.3.4)
+Requires-Dist: patsy (==0.5.1)
+Requires-Dist: PdbSublimeTextSupport (==0.2)
+Requires-Dist: pefile (==2019.4.18)
+Requires-Dist: pep8 (==1.7.1)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: pika (==1.1.0)
+Requires-Dist: Pillow (==6.1.0)
+Requires-Dist: pkginfo (==1.5.0.1)
+Requires-Dist: plotly (==4.3.0)
+Requires-Dist: pluggy (==0.12.0)
+Requires-Dist: ply (==3.11)
+Requires-Dist: prometheus-client (==0.7.1)
+Requires-Dist: prompt-toolkit (==2.0.9)
+Requires-Dist: psutil (==5.6.3)
+Requires-Dist: psycopg2 (==2.8.4)
+Requires-Dist: py (==1.8.0)
+Requires-Dist: py-moneyed (==0.8.0)
+Requires-Dist: pycodestyle (==2.5.0)
+Requires-Dist: pycosat (==0.6.3)
+Requires-Dist: pycparser (==2.19)
+Requires-Dist: pycrypto (==2.6.1)
+Requires-Dist: pycurl (==7.43.0.3)
+Requires-Dist: pyflakes (==2.1.1)
+Requires-Dist: pygal (==2.4.0)
+Requires-Dist: pygame (==1.9.6)
+Requires-Dist: pyglet (==1.4.6)
+Requires-Dist: pyglet-ffmpeg2 (==0.1.15)
+Requires-Dist: Pygments (==2.6.1)
+Requires-Dist: PyInstaller (==3.6)
+Requires-Dist: pylint (==2.3.1)
+Requires-Dist: pymongo (==3.10.1)
+Requires-Dist: pyodbc (==4.0.27)
+Requires-Dist: pyOpenSSL (==19.0.0)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: Pypubsub (==4.0.3)
+Requires-Dist: pypyodbc (==1.3.4)
+Requires-Dist: PyQt4 (==4.11.4)
+Requires-Dist: PyQt5 (==5.13.0)
+Requires-Dist: PyQt5-sip (==4.19.18)
+Requires-Dist: pyqt5-tools (==5.13.0.1.5)
+Requires-Dist: PyQtWebEngine (==5.13.0)
+Requires-Dist: pyreadline (==2.1)
+Requires-Dist: pyrsistent (==0.14.11)
+Requires-Dist: PySocks (==1.7.0)
+Requires-Dist: pytest (==5.0.1)
+Requires-Dist: pytest-arraydiff (==0.3)
+Requires-Dist: pytest-astropy (==0.5.0)
+Requires-Dist: pytest-doctestplus (==0.3.0)
+Requires-Dist: pytest-openfiles (==0.3.2)
+Requires-Dist: pytest-remotedata (==0.3.2)
+Requires-Dist: python-dateutil (==2.8.0)
+Requires-Dist: python-dotenv (==0.10.3)
+Requires-Dist: pytiled-parser (==0.9.0)
+Requires-Dist: pytz (==2019.2)
+Requires-Dist: PyWavelets (==1.0.3)
+Requires-Dist: pywin32 (==223)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: pywinpty (==0.5.5)
+Requires-Dist: PyYAML (==5.1.2)
+Requires-Dist: pyzmq (==18.1.0)
+Requires-Dist: QtAwesome (==0.5.7)
+Requires-Dist: qtconsole (==4.5.4)
+Requires-Dist: QtPy (==1.9.0)
+Requires-Dist: readme-renderer (==26.0)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: retrying (==1.3.3)
+Requires-Dist: rfc3986 (==1.4.0)
+Requires-Dist: rope (==0.14.0)
+Requires-Dist: ruamel-yaml (==0.15.46)
+Requires-Dist: runandcliscaffold (==0.2)
+Requires-Dist: scikit-image (==0.15.0)
+Requires-Dist: scikit-learn (==0.21.2)
+Requires-Dist: scipy (==1.3.1)
+Requires-Dist: seaborn (==0.9.0)
+Requires-Dist: Send2Trash (==1.5.0)
+Requires-Dist: Shapely (==1.6.4.post2)
+Requires-Dist: simplegeneric (==0.8.1)
+Requires-Dist: singledispatch (==3.4.0.3)
+Requires-Dist: six (==1.14.0)
+Requires-Dist: snowballstemmer (==1.9.0)
+Requires-Dist: sortedcollections (==1.1.2)
+Requires-Dist: sortedcontainers (==2.1.0)
+Requires-Dist: soupsieve (==1.9.2)
+Requires-Dist: Sphinx (==2.1.2)
+Requires-Dist: sphinxcontrib-applehelp (==1.0.1)
+Requires-Dist: sphinxcontrib-devhelp (==1.0.1)
+Requires-Dist: sphinxcontrib-htmlhelp (==1.0.2)
+Requires-Dist: sphinxcontrib-jsmath (==1.0.1)
+Requires-Dist: sphinxcontrib-qthelp (==1.0.2)
+Requires-Dist: sphinxcontrib-serializinghtml (==1.1.3)
+Requires-Dist: sphinxcontrib-websupport (==1.1.2)
+Requires-Dist: spyder (==3.3.6)
+Requires-Dist: spyder-kernels (==0.5.1)
+Requires-Dist: SQLAlchemy (==1.3.7)
+Requires-Dist: statsmodels (==0.10.1)
+Requires-Dist: sympy (==1.4)
+Requires-Dist: tables (==3.5.2)
+Requires-Dist: tabulate (==0.8.3)
+Requires-Dist: tblib (==1.4.0)
+Requires-Dist: terminado (==0.8.2)
+Requires-Dist: testpath (==0.4.2)
+Requires-Dist: toml (==0.10.0)
+Requires-Dist: toolz (==0.10.0)
+Requires-Dist: tornado (==6.0.3)
+Requires-Dist: tox (==3.14.3)
+Requires-Dist: tqdm (==4.45.0)
+Requires-Dist: traitlets (==4.3.2)
+Requires-Dist: twine (==3.1.1)
+Requires-Dist: typed-ast (==1.4.0)
+Requires-Dist: typing-extensions (==3.7.4.1)
+Requires-Dist: unicodecsv (==0.14.1)
+Requires-Dist: urllib3 (==1.25.9)
+Requires-Dist: virtualenv (==20.0.1)
+Requires-Dist: wcwidth (==0.1.7)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: Werkzeug (==0.15.5)
+Requires-Dist: widgetsnbextension (==3.5.1)
+Requires-Dist: win-inet-pton (==1.1.0)
+Requires-Dist: win-unicode-console (==0.5)
+Requires-Dist: wincertstore (==0.2)
+Requires-Dist: wrapt (==1.11.2)
+Requires-Dist: xlrd (==1.2.0)
+Requires-Dist: XlsxWriter (==1.1.8)
+Requires-Dist: xlwings (==0.15.8)
+Requires-Dist: xlwt (==1.3.0)
+Requires-Dist: zict (==1.0.0)
+Requires-Dist: zipp (==3.1.0)
+
+# coopgraph
+Logical Graph Builder that can be used for various problems that can be modeled as a graph data structure
+
+An Example:
+```
+from Graphs import Graph, Node
+from dataStructs import Vector2
+
+a = Node(name='A', pos=Vector2(0, 0))
+b = Node(name='B', pos=Vector2(3, 3))
+c = Node(name='C', pos=Vector2(2, 0))
+d = Node(name='D', pos=Vector2(2, 1))
+e = Node(name='E', pos=Vector2(3, 4))
+f = Node(name='F', pos=Vector2(5, 5))
+
+
+g = { a: [d],
+      b: [c],
+      c: [b, d, e],
+      d: [a, c],
+      e: [c, f],
+      f: []
+    }
+
+graph = Graph(g)
+```
+
+The graph structure can then be used to perform various graph-related analysis:
+
+Two find nodes that have no outbound connections 
+```
+print(graph.find_isolated_vertices())
+```
+
+To find the shortest path between two nodes
+```
+print(graph.astar(a, e))
+```
+
+Note that for astar calculation, edges can be enabled or disabled against one or more disablers. This is useful for implementing temporary criteria in:
+```
+edges_to_disable = [value for key, value in graph.edges()][:3]
+
+graph.disable_edges(edges_to_disable, "myDisabler")
+path = graph.astar(a, e)
+graph.disable_edges(edges_to_disable, "myDisabler")
+```
+
+you can also ignore disablers directly by passing a list of disabler names to the astar() method
+```
+edges_to_disable = [value for key, value in graph.edges()][:3]
+graph.disable_edges(edges_to_disable, "myIngoredDisabler")
+
+ignored = ["myIngoredDisabler"]
+path = graph.astar(a, e, ignored_disablers=ignored)
+```
+
+An astar() call can also include custom g and h functions that allow for better control of the astar algorithm
+```
+def g(node1 Node, node2: Node) -> float:
+    if node1.pos - node2.pos > 10:
+        return 1
+    else
+        return .5
+
+def h(node1 Node, node2: Node) -> float:
+    if node1.pos - node2.pos > 10:
+        return 100
+    else
+        return -100
+
+path = graph.astar(a, e, g_func=g, h_func=h)
+```
+
+
