@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: randopass
+Version: 0.1.3
+Summary: randopass: strong random English-word passphrases
+Home-page: https://github.com/mikewillems
+License: UNKNOWN
+Author: Mike Willems
+Author-email: mikewillems@users.noreply.github.com
+Classifier: License :: OSI Approved :: MIT License

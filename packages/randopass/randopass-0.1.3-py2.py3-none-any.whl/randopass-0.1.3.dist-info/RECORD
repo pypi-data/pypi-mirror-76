@@ -1,0 +1,10 @@
+randopass/__init__.py,sha256=QmXoafwZToaCYhxqWHyTsorZnKd5V9EQxX4DSy6S_yM,185
+randopass/__main__.py,sha256=6bsmLFnH_doeL5A4-6YqO4KyXp-yCLwP1k2j72S-rIM,148
+randopass/randopass.py,sha256=1e2XbffirFVA957M2qz_FnTN6rXvVZsH5O6JNZmcoiY,2087
+randopass/dictionaries/afrikaans.py,sha256=RbIsrUe23SiwKE3TaqrRtumOJ5fVTYupD5KTmM9vGxE,586737
+randopass/dictionaries/english.py,sha256=6To_JqLOqsqo5BeUYHYCT-lOm6EupPr6idaEa_Nw8O8,600872
+randopass/dictionaries/english_simple.py,sha256=1-OQMTDCy9L5RQ7zJsGPvAcDPXuo6o3Yvt_sNP3cBoY,27587
+randopass-0.1.3.dist-info/LICENSE,sha256=DLgVI4MtdTdhxRLVk52qcYB5lzr3BkAg8K0NnN1nRxM,1100
+randopass-0.1.3.dist-info/WHEEL,sha256=4vGQWMHJO3SOyvYcLHqr380W2n90FCfzkrP_YY3xjq8,99
+randopass-0.1.3.dist-info/METADATA,sha256=zz0j_hwLgcVGdeM3-bXZmxYiRRBOlSuqUwuou8g8G60,294
+randopass-0.1.3.dist-info/RECORD,,
