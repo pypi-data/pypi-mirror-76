@@ -1,0 +1,25 @@
+package:
+  name: napoleontoolbox
+  version: '2.5.0'
+
+
+providers:
+  bitmex:
+    type: REST
+    key: KEY
+    secret: SECRET
+  binance:
+    type: REST
+    key: KEY
+    secret: SECRET
+  dropbox:
+    key: HUGOINZIRILLO
+    secret: MESSAGE
+  bitfinex:
+    key: HUGOINZIRILLO
+    secret: MESSAGE
+  cryptocompare:
+    key: JEHOIAKIM
+    secret: MESSAGE
+
+
