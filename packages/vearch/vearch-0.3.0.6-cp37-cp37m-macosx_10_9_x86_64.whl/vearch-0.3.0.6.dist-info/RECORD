@@ -1,0 +1,13 @@
+vearch/__init__.py,sha256=2a8LZbbDzA7hKHYsjvFtn8i2MiR0n2_23iTsy2OI3dc,40888
+vearch/_swigvearch.cpython-37m-darwin.so,sha256=wN4t6YRooGJcPh4ZNbGOoCdqDG-izG5bmyDpPH7wBIM,623276
+vearch/swigvearch.py,sha256=naVABiJJ_AUPcCbmvtg9bFpQdIH2w-52yG25A8zy4iE,49942
+vearch/.dylibs/libc++.1.0.dylib,sha256=wLUCQ_S-Xos4zKWOH_NBheQOxN8ihyD8MiqKYq59Hog,795228
+vearch/.dylibs/libc++.1.dylib,sha256=IqHV5xD3eKOlOIlE2CzAl_mLR2N2PyrnY__xN8mZ_qc,795228
+vearch/.dylibs/libfaiss.dylib,sha256=p0Do71L_GdbGgwkkIDGC8kFUZls4wSqKL48G_LanqoM,1926932
+vearch/.dylibs/libgamma.0.1.dylib,sha256=vY1FmxsFEzMEvlF39b4fojZ0zXsjvBL1cypUKWwbr5Y,1039308
+vearch/.dylibs/libomp.dylib,sha256=xLax16GOZql0V2P7X2z8iHAjc4jp0Re4sFS3ezqhZL0,547340
+vearch-0.3.0.6.dist-info/LICENSE,sha256=TUKM8DvByv9bwN-_VkZ-GXRrbtjvoZw0cMTXpfrIgFM,558
+vearch-0.3.0.6.dist-info/METADATA,sha256=AyBNtj2IihjFbU2fBkXuIHK3pT5UpLhDVIAt-1v5BUo,663
+vearch-0.3.0.6.dist-info/RECORD,,
+vearch-0.3.0.6.dist-info/top_level.txt,sha256=Cwnx57t8ep3BkL_f3hgxGSYHOJa8nlPtf-upwHgvq80,7
+vearch-0.3.0.6.dist-info/WHEEL,sha256=ePSmKDYpHLRUYc6QuHiYMO-IoN8XmQMJmY2AHxzV4Bc,110
