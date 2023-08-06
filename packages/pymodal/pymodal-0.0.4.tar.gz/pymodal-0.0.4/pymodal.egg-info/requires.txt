@@ -1,0 +1,11 @@
+numpy>=1.18.1
+scipy>=1.4.1
+matplotlib>=3.1.3
+pandas>=1.0.1
+pyansys>=0.39
+
+[dev]
+pytest>=3.7
+pytest-cov>=2.10.0docutils>=0.16
+doc8>=0.8.0
+flake8>=3.7.9
