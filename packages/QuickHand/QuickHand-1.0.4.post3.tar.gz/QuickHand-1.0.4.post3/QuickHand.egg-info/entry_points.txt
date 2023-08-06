@@ -1,0 +1,4 @@
+[gui_scripts]
+QuickHand = QuickHand:main
+quickhand = QuickHand:main
+
