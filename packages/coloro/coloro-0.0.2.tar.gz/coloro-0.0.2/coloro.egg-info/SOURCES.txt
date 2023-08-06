@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+coloro/__init__.py
+coloro/main.py
+coloro.egg-info/PKG-INFO
+coloro.egg-info/SOURCES.txt
+coloro.egg-info/dependency_links.txt
+coloro.egg-info/entry_points.txt
+coloro.egg-info/requires.txt
+coloro.egg-info/top_level.txt
