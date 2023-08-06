@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: kutool
+Version: 0.0.1
+Summary: A set of tools that make coding more simpler for python.
+Home-page: https://github.com/liukecode/kutool.git
+Author: Liuke
+Author-email: 821711401@qq.com
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: # kutool
+        A set of tools that make coding more simpler for python.
+        
+Keywords: python,KuTool
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
