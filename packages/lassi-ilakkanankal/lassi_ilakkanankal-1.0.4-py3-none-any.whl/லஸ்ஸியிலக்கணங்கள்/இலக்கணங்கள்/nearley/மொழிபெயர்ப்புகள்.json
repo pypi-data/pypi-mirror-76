@@ -1,0 +1,87 @@
+{
+  "நீட்சி": {},
+  "பெயர்": {},
+  "பதிப்புகள்": {
+    "": [
+      "start : ( ruledef | directive ) +",
+      "directive : \"@\" NAME ( STRING | NAME ) \n         | \"@\" JS -> js_code",
+      "ruledef : NAME \"->\" expansions \n       | NAME REGEXP \"->\" expansions -> macro",
+      "expansions : expansion ( \"|\" expansion ) *",
+      "expansion : expr + js",
+      "?expr : item ( \":\" /[+*?]/ ) ?",
+      "?item : rule | string | regexp | null \n     | \"(\" expansions \")\"",
+      "rule : NAME",
+      "string : STRING",
+      "regexp : REGEXP",
+      "null : \"null\"",
+      "JS : /{%.*?%}/s",
+      "js : JS ?",
+      "COMMENT : /#[^\\n]*/",
+      "REGEXP : /\\[.*?\\]/",
+      "%import common . ESCAPED_STRING -> STRING",
+      "%import common . WS",
+      "%ignore WS",
+      "%ignore COMMENT"
+    ]
+  },
+  "விதிகள்": {
+    "start : ( ruledef | directive ) +": {
+      "பெயர்ப்பு": {}
+    },
+    "directive : \"@\" NAME ( STRING | NAME ) \n         | \"@\" JS -> js_code": {
+      "பெயர்ப்பு": {}
+    },
+    "ruledef : NAME \"->\" expansions \n       | NAME REGEXP \"->\" expansions -> macro": {
+      "பெயர்ப்பு": {}
+    },
+    "expansions : expansion ( \"|\" expansion ) *": {
+      "பெயர்ப்பு": {}
+    },
+    "expansion : expr + js": {
+      "பெயர்ப்பு": {}
+    },
+    "?expr : item ( \":\" /[+*?]/ ) ?": {
+      "பெயர்ப்பு": {}
+    },
+    "?item : rule | string | regexp | null \n     | \"(\" expansions \")\"": {
+      "பெயர்ப்பு": {}
+    },
+    "rule : NAME": {
+      "பெயர்ப்பு": {}
+    },
+    "string : STRING": {
+      "பெயர்ப்பு": {}
+    },
+    "regexp : REGEXP": {
+      "பெயர்ப்பு": {}
+    },
+    "null : \"null\"": {
+      "பெயர்ப்பு": {}
+    },
+    "JS : /{%.*?%}/s": {
+      "பெயர்ப்பு": {}
+    },
+    "js : JS ?": {
+      "பெயர்ப்பு": {}
+    },
+    "COMMENT : /#[^\\n]*/": {
+      "பெயர்ப்பு": {}
+    },
+    "REGEXP : /\\[.*?\\]/": {
+      "பெயர்ப்பு": {}
+    },
+    "%import common . ESCAPED_STRING -> STRING": {
+      "பெயர்ப்பு": {}
+    },
+    "%import common . WS": {
+      "பெயர்ப்பு": {}
+    },
+    "%ignore WS": {
+      "பெயர்ப்பு": {}
+    },
+    "%ignore COMMENT": {
+      "பெயர்ப்பு": {}
+    }
+  },
+  "மொழிபெயர்ப்பாளர்கள்": []
+}
