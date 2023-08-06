@@ -1,0 +1,3 @@
+[console_scripts]
+flaskdoc = flaskdoc.cli:flaskdoc
+
