@@ -1,0 +1,1968 @@
+[
+  {
+    "index": 0,
+    "vacs": "CAT",
+    "weight": 1,
+    "frequency": 1.0,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 3,
+    "composition": {
+      "ERR760647-11150": 1
+    },
+    "read_names": [
+      "ERR760647.11150"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 1,
+    "vacs": "TG",
+    "weight": 9,
+    "frequency": 1.0,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 2,
+    "composition": {
+      "ERR760647-19579": 1,
+      "ERR760647-17796": 1,
+      "ERR760647-15067": 1,
+      "ERR760647-22878": 1,
+      "ERR760647-14301": 1,
+      "ERR760647-7424": 1,
+      "ERR760647-24217": 1,
+      "ERR760647-22704": 1,
+      "ERR760647-17963": 1
+    },
+    "read_names": [
+      "ERR760647.19579",
+      "ERR760647.17796",
+      "ERR760647.15067",
+      "ERR760647.22878",
+      "ERR760647.14301",
+      "ERR760647.7424",
+      "ERR760647.24217",
+      "ERR760647.22704",
+      "ERR760647.17963"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 2,
+    "vacs": "TGAG",
+    "weight": 16,
+    "frequency": 0.15841584158415842,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-1562": 1,
+      "ERR760647-8120": 1,
+      "ERR760647-11801": 1,
+      "ERR760647-17080": 1,
+      "ERR760647-8690": 1,
+      "ERR760647-3544": 1,
+      "ERR760647-4425": 1,
+      "ERR760647-20161": 1,
+      "ERR760647-9898": 1,
+      "ERR760647-20228": 1,
+      "ERR760647-23336": 1,
+      "ERR760647-16346": 1,
+      "ERR760647-8588": 1,
+      "ERR760647-3602": 1,
+      "ERR760647-20224": 1,
+      "ERR760647-15007": 1
+    },
+    "read_names": [
+      "ERR760647.1562",
+      "ERR760647.8120",
+      "ERR760647.11801",
+      "ERR760647.17080",
+      "ERR760647.8690",
+      "ERR760647.3544",
+      "ERR760647.4425",
+      "ERR760647.20161",
+      "ERR760647.9898",
+      "ERR760647.20228",
+      "ERR760647.23336",
+      "ERR760647.16346",
+      "ERR760647.8588",
+      "ERR760647.3602",
+      "ERR760647.20224",
+      "ERR760647.15007"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 3,
+    "vacs": "TGAA",
+    "weight": 6,
+    "frequency": 0.0594059405940594,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-5899": 1,
+      "ERR760647-18521": 1,
+      "ERR760647-14221": 1,
+      "ERR760647-15183": 1,
+      "ERR760647-7636": 1,
+      "ERR760647-6966": 1
+    },
+    "read_names": [
+      "ERR760647.5899",
+      "ERR760647.18521",
+      "ERR760647.14221",
+      "ERR760647.15183",
+      "ERR760647.7636",
+      "ERR760647.6966"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 4,
+    "vacs": "TGGG",
+    "weight": 47,
+    "frequency": 0.46534653465346537,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-2320": 1,
+      "ERR760647-13157": 1,
+      "ERR760647-21189": 1,
+      "ERR760647-3790": 1,
+      "ERR760647-7503": 1,
+      "ERR760647-13321": 1,
+      "ERR760647-23949": 1,
+      "ERR760647-7646": 1,
+      "ERR760647-10988": 1,
+      "ERR760647-18333": 1,
+      "ERR760647-12528": 1,
+      "ERR760647-14886": 1,
+      "ERR760647-15722": 1,
+      "ERR760647-21638": 1,
+      "ERR760647-16194": 1,
+      "ERR760647-19124": 1,
+      "ERR760647-7621": 1,
+      "ERR760647-3920": 1,
+      "ERR760647-15214": 1,
+      "ERR760647-3667": 1,
+      "ERR760647-17020": 1,
+      "ERR760647-20465": 1,
+      "ERR760647-877": 1,
+      "ERR760647-10371": 1,
+      "ERR760647-12248": 1,
+      "ERR760647-23070": 1,
+      "ERR760647-17241": 1,
+      "ERR760647-17233": 1,
+      "ERR760647-4497": 1,
+      "ERR760647-11322": 1,
+      "ERR760647-8612": 1,
+      "ERR760647-22734": 1,
+      "ERR760647-1480": 1,
+      "ERR760647-4087": 1,
+      "ERR760647-1447": 1,
+      "ERR760647-10170": 1,
+      "ERR760647-15040": 1,
+      "ERR760647-12017": 1,
+      "ERR760647-8390": 1,
+      "ERR760647-7033": 1,
+      "ERR760647-12791": 1,
+      "ERR760647-9652": 1,
+      "ERR760647-6769": 1,
+      "ERR760647-10298": 1,
+      "ERR760647-13340": 1,
+      "ERR760647-8620": 1,
+      "ERR760647-21861": 1
+    },
+    "read_names": [
+      "ERR760647.2320",
+      "ERR760647.13157",
+      "ERR760647.21189",
+      "ERR760647.3790",
+      "ERR760647.7503",
+      "ERR760647.13321",
+      "ERR760647.23949",
+      "ERR760647.7646",
+      "ERR760647.10988",
+      "ERR760647.18333",
+      "ERR760647.12528",
+      "ERR760647.14886",
+      "ERR760647.15722",
+      "ERR760647.21638",
+      "ERR760647.16194",
+      "ERR760647.19124",
+      "ERR760647.7621",
+      "ERR760647.3920",
+      "ERR760647.15214",
+      "ERR760647.3667",
+      "ERR760647.17020",
+      "ERR760647.20465",
+      "ERR760647.877",
+      "ERR760647.10371",
+      "ERR760647.12248",
+      "ERR760647.23070",
+      "ERR760647.17241",
+      "ERR760647.17233",
+      "ERR760647.4497",
+      "ERR760647.11322",
+      "ERR760647.8612",
+      "ERR760647.22734",
+      "ERR760647.1480",
+      "ERR760647.4087",
+      "ERR760647.1447",
+      "ERR760647.10170",
+      "ERR760647.15040",
+      "ERR760647.12017",
+      "ERR760647.8390",
+      "ERR760647.7033",
+      "ERR760647.12791",
+      "ERR760647.9652",
+      "ERR760647.6769",
+      "ERR760647.10298",
+      "ERR760647.13340",
+      "ERR760647.8620",
+      "ERR760647.21861"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 5,
+    "vacs": "CAAG",
+    "weight": 11,
+    "frequency": 0.10891089108910891,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-13570": 1,
+      "ERR760647-16657": 1,
+      "ERR760647-9969": 1,
+      "ERR760647-20618": 1,
+      "ERR760647-2763": 1,
+      "ERR760647-12475": 1,
+      "ERR760647-8190": 1,
+      "ERR760647-20304": 1,
+      "ERR760647-12371": 1,
+      "ERR760647-19879": 1,
+      "ERR760647-14911": 1
+    },
+    "read_names": [
+      "ERR760647.13570",
+      "ERR760647.16657",
+      "ERR760647.9969",
+      "ERR760647.20618",
+      "ERR760647.2763",
+      "ERR760647.12475",
+      "ERR760647.8190",
+      "ERR760647.20304",
+      "ERR760647.12371",
+      "ERR760647.19879",
+      "ERR760647.14911"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 6,
+    "vacs": "CGGG",
+    "weight": 3,
+    "frequency": 0.0297029702970297,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-19028": 1,
+      "ERR760647-21991": 1,
+      "ERR760647-17373": 1
+    },
+    "read_names": [
+      "ERR760647.19028",
+      "ERR760647.21991",
+      "ERR760647.17373"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 7,
+    "vacs": "CGAG",
+    "weight": 10,
+    "frequency": 0.09900990099009901,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-18750": 1,
+      "ERR760647-21192": 1,
+      "ERR760647-16495": 1,
+      "ERR760647-17692": 1,
+      "ERR760647-3656": 1,
+      "ERR760647-21551": 1,
+      "ERR760647-18994": 1,
+      "ERR760647-23678": 1,
+      "ERR760647-4372": 1,
+      "ERR760647-9283": 1
+    },
+    "read_names": [
+      "ERR760647.18750",
+      "ERR760647.21192",
+      "ERR760647.16495",
+      "ERR760647.17692",
+      "ERR760647.3656",
+      "ERR760647.21551",
+      "ERR760647.18994",
+      "ERR760647.23678",
+      "ERR760647.4372",
+      "ERR760647.9283"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 8,
+    "vacs": "TAAG",
+    "weight": 4,
+    "frequency": 0.039603960396039604,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-7052": 1,
+      "ERR760647-9120": 1,
+      "ERR760647-22444": 1,
+      "ERR760647-7950": 1
+    },
+    "read_names": [
+      "ERR760647.7052",
+      "ERR760647.9120",
+      "ERR760647.22444",
+      "ERR760647.7950"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 9,
+    "vacs": "CAGG",
+    "weight": 1,
+    "frequency": 0.009900990099009901,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-5531": 1
+    },
+    "read_names": [
+      "ERR760647.5531"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 10,
+    "vacs": "TGGA",
+    "weight": 1,
+    "frequency": 0.009900990099009901,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-10150": 1
+    },
+    "read_names": [
+      "ERR760647.10150"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 11,
+    "vacs": "AGAG",
+    "weight": 1,
+    "frequency": 0.009900990099009901,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-19716": 1
+    },
+    "read_names": [
+      "ERR760647.19716"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 12,
+    "vacs": "GGAA",
+    "weight": 1,
+    "frequency": 0.009900990099009901,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-9233": 1
+    },
+    "read_names": [
+      "ERR760647.9233"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 13,
+    "vacs": "T",
+    "weight": 11,
+    "frequency": 0.9166666666666666,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 1,
+    "composition": {
+      "ERR760647-20756": 1,
+      "ERR760647-16068": 1,
+      "ERR760647-21488": 1,
+      "ERR760647-21403": 1,
+      "ERR760647-4803": 1,
+      "ERR760647-15808": 1,
+      "ERR760647-17404": 1,
+      "ERR760647-21511": 1,
+      "ERR760647-15448": 1,
+      "ERR760647-22815": 1,
+      "ERR760647-19014": 1
+    },
+    "read_names": [
+      "ERR760647.20756",
+      "ERR760647.16068",
+      "ERR760647.21488",
+      "ERR760647.21403",
+      "ERR760647.4803",
+      "ERR760647.15808",
+      "ERR760647.17404",
+      "ERR760647.21511",
+      "ERR760647.15448",
+      "ERR760647.22815",
+      "ERR760647.19014"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 14,
+    "vacs": "C",
+    "weight": 1,
+    "frequency": 0.08333333333333333,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 1,
+    "composition": {
+      "ERR760647-693": 1
+    },
+    "read_names": [
+      "ERR760647.693"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 15,
+    "vacs": "TGGGG",
+    "weight": 1,
+    "frequency": 0.5,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 5,
+    "composition": {
+      "ERR760647-2788": 1
+    },
+    "read_names": [
+      "ERR760647.2788"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 16,
+    "vacs": "TGGGA",
+    "weight": 1,
+    "frequency": 0.5,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 5,
+    "composition": {
+      "ERR760647-10927": 1
+    },
+    "read_names": [
+      "ERR760647.10927"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 17,
+    "vacs": "CAAGAC",
+    "weight": 1,
+    "frequency": 0.14285714285714285,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 6,
+    "composition": {
+      "ERR760647-986": 1
+    },
+    "read_names": [
+      "ERR760647.986"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 18,
+    "vacs": "TGGGAC",
+    "weight": 3,
+    "frequency": 0.42857142857142855,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 6,
+    "composition": {
+      "ERR760647-15700": 1,
+      "ERR760647-18535": 1,
+      "ERR760647-8132": 1
+    },
+    "read_names": [
+      "ERR760647.15700",
+      "ERR760647.18535",
+      "ERR760647.8132"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 19,
+    "vacs": "TGAGGC",
+    "weight": 1,
+    "frequency": 0.14285714285714285,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 6,
+    "composition": {
+      "ERR760647-12159": 1
+    },
+    "read_names": [
+      "ERR760647.12159"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 20,
+    "vacs": "TGAAAT",
+    "weight": 1,
+    "frequency": 0.14285714285714285,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 6,
+    "composition": {
+      "ERR760647-9569": 1
+    },
+    "read_names": [
+      "ERR760647.9569"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 21,
+    "vacs": "TGAGAC",
+    "weight": 1,
+    "frequency": 0.14285714285714285,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 6,
+    "composition": {
+      "ERR760647-15078": 1
+    },
+    "read_names": [
+      "ERR760647.15078"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 22,
+    "vacs": "TGAGACTAC",
+    "weight": 1,
+    "frequency": 0.14285714285714285,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-9167": 1
+    },
+    "read_names": [
+      "ERR760647.9167"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 23,
+    "vacs": "TGAAACTCT",
+    "weight": 1,
+    "frequency": 0.14285714285714285,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-9850": 1
+    },
+    "read_names": [
+      "ERR760647.9850"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 24,
+    "vacs": "TGAGATTCT",
+    "weight": 1,
+    "frequency": 0.14285714285714285,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-6179": 1
+    },
+    "read_names": [
+      "ERR760647.6179"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 25,
+    "vacs": "TGAGGCTCT",
+    "weight": 1,
+    "frequency": 0.14285714285714285,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-13212": 1
+    },
+    "read_names": [
+      "ERR760647.13212"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 26,
+    "vacs": "TGGGACTAC",
+    "weight": 1,
+    "frequency": 0.14285714285714285,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-2956": 1
+    },
+    "read_names": [
+      "ERR760647.2956"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 27,
+    "vacs": "TGAGACCCT",
+    "weight": 1,
+    "frequency": 0.14285714285714285,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-5047": 1
+    },
+    "read_names": [
+      "ERR760647.5047"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 28,
+    "vacs": "CGAGACTAC",
+    "weight": 1,
+    "frequency": 0.14285714285714285,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 0,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-8776": 1
+    },
+    "read_names": [
+      "ERR760647.8776"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 29,
+    "vacs": "A",
+    "weight": 1,
+    "frequency": 1.0,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 2,
+    "composition": {
+      "ERR760647-16201": 1
+    },
+    "read_names": [
+      "ERR760647.16201"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 30,
+    "vacs": "GGGACTC",
+    "weight": 4,
+    "frequency": 0.3076923076923077,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 8,
+    "composition": {
+      "ERR760647-2040": 1,
+      "ERR760647-11191": 1,
+      "ERR760647-7672": 1,
+      "ERR760647-14121": 1
+    },
+    "read_names": [
+      "ERR760647.2040",
+      "ERR760647.11191",
+      "ERR760647.7672",
+      "ERR760647.14121"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 31,
+    "vacs": "GAGACTC",
+    "weight": 2,
+    "frequency": 0.15384615384615385,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 8,
+    "composition": {
+      "ERR760647-10072": 1,
+      "ERR760647-2573": 1
+    },
+    "read_names": [
+      "ERR760647.10072",
+      "ERR760647.2573"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 32,
+    "vacs": "GAAACTC",
+    "weight": 1,
+    "frequency": 0.07692307692307693,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 8,
+    "composition": {
+      "ERR760647-6427": 1
+    },
+    "read_names": [
+      "ERR760647.6427"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 33,
+    "vacs": "GAAACCC",
+    "weight": 1,
+    "frequency": 0.07692307692307693,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 8,
+    "composition": {
+      "ERR760647-3901": 1
+    },
+    "read_names": [
+      "ERR760647.3901"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 34,
+    "vacs": "GAGACTA",
+    "weight": 1,
+    "frequency": 0.07692307692307693,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 8,
+    "composition": {
+      "ERR760647-11103": 1
+    },
+    "read_names": [
+      "ERR760647.11103"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 35,
+    "vacs": "AAGACTC",
+    "weight": 2,
+    "frequency": 0.15384615384615385,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 8,
+    "composition": {
+      "ERR760647-10219": 1,
+      "ERR760647-8378": 1
+    },
+    "read_names": [
+      "ERR760647.10219",
+      "ERR760647.8378"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 36,
+    "vacs": "GGGACTA",
+    "weight": 1,
+    "frequency": 0.07692307692307693,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 8,
+    "composition": {
+      "ERR760647-21806": 1
+    },
+    "read_names": [
+      "ERR760647.21806"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 37,
+    "vacs": "GAAGCTA",
+    "weight": 1,
+    "frequency": 0.07692307692307693,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 8,
+    "composition": {
+      "ERR760647-12997": 1
+    },
+    "read_names": [
+      "ERR760647.12997"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 38,
+    "vacs": "AAGACTAC",
+    "weight": 5,
+    "frequency": 0.1,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-3594": 1,
+      "ERR760647-3504": 1,
+      "ERR760647-12894": 1,
+      "ERR760647-10486": 1,
+      "ERR760647-10618": 1
+    },
+    "read_names": [
+      "ERR760647.3594",
+      "ERR760647.3504",
+      "ERR760647.12894",
+      "ERR760647.10486",
+      "ERR760647.10618"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 39,
+    "vacs": "GGGATTCT",
+    "weight": 1,
+    "frequency": 0.02,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-9557": 1
+    },
+    "read_names": [
+      "ERR760647.9557"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 40,
+    "vacs": "GAGACTAC",
+    "weight": 4,
+    "frequency": 0.08,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-8058": 1,
+      "ERR760647-1402": 1,
+      "ERR760647-5618": 1,
+      "ERR760647-6806": 1
+    },
+    "read_names": [
+      "ERR760647.8058",
+      "ERR760647.1402",
+      "ERR760647.5618",
+      "ERR760647.6806"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 41,
+    "vacs": "GGGACTAC",
+    "weight": 2,
+    "frequency": 0.04,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-12879": 1,
+      "ERR760647-9758": 1
+    },
+    "read_names": [
+      "ERR760647.12879",
+      "ERR760647.9758"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 42,
+    "vacs": "GAAACTCT",
+    "weight": 7,
+    "frequency": 0.14,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-4644": 1,
+      "ERR760647-9130": 1,
+      "ERR760647-18561": 1,
+      "ERR760647-9382": 1,
+      "ERR760647-12953": 1,
+      "ERR760647-4954": 1,
+      "ERR760647-2484": 1
+    },
+    "read_names": [
+      "ERR760647.4644",
+      "ERR760647.9130",
+      "ERR760647.18561",
+      "ERR760647.9382",
+      "ERR760647.12953",
+      "ERR760647.4954",
+      "ERR760647.2484"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 43,
+    "vacs": "GGGACTCT",
+    "weight": 11,
+    "frequency": 0.22,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-3026": 1,
+      "ERR760647-9978": 1,
+      "ERR760647-4148": 1,
+      "ERR760647-8430": 1,
+      "ERR760647-15816": 1,
+      "ERR760647-4074": 1,
+      "ERR760647-10023": 1,
+      "ERR760647-15052": 1,
+      "ERR760647-7357": 1,
+      "ERR760647-8950": 1,
+      "ERR760647-11117": 1
+    },
+    "read_names": [
+      "ERR760647.3026",
+      "ERR760647.9978",
+      "ERR760647.4148",
+      "ERR760647.8430",
+      "ERR760647.15816",
+      "ERR760647.4074",
+      "ERR760647.10023",
+      "ERR760647.15052",
+      "ERR760647.7357",
+      "ERR760647.8950",
+      "ERR760647.11117"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 44,
+    "vacs": "AAGACTCT",
+    "weight": 2,
+    "frequency": 0.04,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-9397": 1,
+      "ERR760647-6363": 1
+    },
+    "read_names": [
+      "ERR760647.9397",
+      "ERR760647.6363"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 45,
+    "vacs": "GAGACTCT",
+    "weight": 8,
+    "frequency": 0.16,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-13031": 1,
+      "ERR760647-7585": 1,
+      "ERR760647-7996": 1,
+      "ERR760647-17071": 1,
+      "ERR760647-10411": 1,
+      "ERR760647-18821": 1,
+      "ERR760647-2226": 1,
+      "ERR760647-3094": 1
+    },
+    "read_names": [
+      "ERR760647.13031",
+      "ERR760647.7585",
+      "ERR760647.7996",
+      "ERR760647.17071",
+      "ERR760647.10411",
+      "ERR760647.18821",
+      "ERR760647.2226",
+      "ERR760647.3094"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 46,
+    "vacs": "GGGGCCCT",
+    "weight": 1,
+    "frequency": 0.02,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-6900": 1
+    },
+    "read_names": [
+      "ERR760647.6900"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 47,
+    "vacs": "GGAACTCT",
+    "weight": 2,
+    "frequency": 0.04,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-8015": 1,
+      "ERR760647-6022": 1
+    },
+    "read_names": [
+      "ERR760647.8015",
+      "ERR760647.6022"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 48,
+    "vacs": "GAGAATCT",
+    "weight": 1,
+    "frequency": 0.02,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-6753": 1
+    },
+    "read_names": [
+      "ERR760647.6753"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 49,
+    "vacs": "GAGATCCT",
+    "weight": 1,
+    "frequency": 0.02,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-11338": 1
+    },
+    "read_names": [
+      "ERR760647.11338"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 50,
+    "vacs": "GGGACCCT",
+    "weight": 1,
+    "frequency": 0.02,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-7138": 1
+    },
+    "read_names": [
+      "ERR760647.7138"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 51,
+    "vacs": "GGGGCTCT",
+    "weight": 1,
+    "frequency": 0.02,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-15041": 1
+    },
+    "read_names": [
+      "ERR760647.15041"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 52,
+    "vacs": "GAGACTCC",
+    "weight": 1,
+    "frequency": 0.02,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-9514": 1
+    },
+    "read_names": [
+      "ERR760647.9514"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 53,
+    "vacs": "GAGGCTCT",
+    "weight": 1,
+    "frequency": 0.02,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-7375": 1
+    },
+    "read_names": [
+      "ERR760647.7375"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 54,
+    "vacs": "GGGACTCC",
+    "weight": 1,
+    "frequency": 0.02,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-6758": 1
+    },
+    "read_names": [
+      "ERR760647.6758"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 55,
+    "vacs": "AAG",
+    "weight": 3,
+    "frequency": 0.2727272727272727,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-16839": 1,
+      "ERR760647-15601": 1,
+      "ERR760647-21868": 1
+    },
+    "read_names": [
+      "ERR760647.16839",
+      "ERR760647.15601",
+      "ERR760647.21868"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 56,
+    "vacs": "GAG",
+    "weight": 4,
+    "frequency": 0.36363636363636365,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-20909": 1,
+      "ERR760647-17236": 1,
+      "ERR760647-3740": 1,
+      "ERR760647-18958": 1
+    },
+    "read_names": [
+      "ERR760647.20909",
+      "ERR760647.17236",
+      "ERR760647.3740",
+      "ERR760647.18958"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 57,
+    "vacs": "GAA",
+    "weight": 1,
+    "frequency": 0.09090909090909091,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-211": 1
+    },
+    "read_names": [
+      "ERR760647.211"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 58,
+    "vacs": "GGG",
+    "weight": 3,
+    "frequency": 0.2727272727272727,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-19019": 1,
+      "ERR760647-6692": 1,
+      "ERR760647-16843": 1
+    },
+    "read_names": [
+      "ERR760647.19019",
+      "ERR760647.6692",
+      "ERR760647.16843"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 59,
+    "vacs": "GGGAC",
+    "weight": 2,
+    "frequency": 0.2,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 6,
+    "composition": {
+      "ERR760647-14013": 1,
+      "ERR760647-8681": 1
+    },
+    "read_names": [
+      "ERR760647.14013",
+      "ERR760647.8681"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 60,
+    "vacs": "GAGAC",
+    "weight": 2,
+    "frequency": 0.2,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 6,
+    "composition": {
+      "ERR760647-15882": 1,
+      "ERR760647-15342": 1
+    },
+    "read_names": [
+      "ERR760647.15882",
+      "ERR760647.15342"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 61,
+    "vacs": "GAAAT",
+    "weight": 1,
+    "frequency": 0.1,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 6,
+    "composition": {
+      "ERR760647-16286": 1
+    },
+    "read_names": [
+      "ERR760647.16286"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 62,
+    "vacs": "AAGAC",
+    "weight": 2,
+    "frequency": 0.2,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 6,
+    "composition": {
+      "ERR760647-11553": 1,
+      "ERR760647-13386": 1
+    },
+    "read_names": [
+      "ERR760647.11553",
+      "ERR760647.13386"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 63,
+    "vacs": "GGGAT",
+    "weight": 2,
+    "frequency": 0.2,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 6,
+    "composition": {
+      "ERR760647-12944": 1,
+      "ERR760647-13250": 1
+    },
+    "read_names": [
+      "ERR760647.12944",
+      "ERR760647.13250"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 64,
+    "vacs": "GGGGC",
+    "weight": 1,
+    "frequency": 0.1,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 6,
+    "composition": {
+      "ERR760647-23175": 1
+    },
+    "read_names": [
+      "ERR760647.23175"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 65,
+    "vacs": "GGGA",
+    "weight": 1,
+    "frequency": 0.5,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 5,
+    "composition": {
+      "ERR760647-12663": 1
+    },
+    "read_names": [
+      "ERR760647.12663"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 66,
+    "vacs": "AAGA",
+    "weight": 1,
+    "frequency": 0.5,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 5,
+    "composition": {
+      "ERR760647-11100": 1
+    },
+    "read_names": [
+      "ERR760647.11100"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 67,
+    "vacs": "GGGACT",
+    "weight": 1,
+    "frequency": 1.0,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 1,
+    "cv_end": 7,
+    "composition": {
+      "ERR760647-5904": 1
+    },
+    "read_names": [
+      "ERR760647.5904"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 68,
+    "vacs": "AAACTC",
+    "weight": 1,
+    "frequency": 0.5,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 2,
+    "cv_end": 8,
+    "composition": {
+      "ERR760647-15017": 1
+    },
+    "read_names": [
+      "ERR760647.15017"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 69,
+    "vacs": "AGACTC",
+    "weight": 1,
+    "frequency": 0.5,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 2,
+    "cv_end": 8,
+    "composition": {
+      "ERR760647-15956": 1
+    },
+    "read_names": [
+      "ERR760647.15956"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 70,
+    "vacs": "GGACTCT",
+    "weight": 6,
+    "frequency": 0.375,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 2,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-6067": 1,
+      "ERR760647-3605": 1,
+      "ERR760647-17325": 1,
+      "ERR760647-6053": 1,
+      "ERR760647-11620": 1,
+      "ERR760647-9933": 1
+    },
+    "read_names": [
+      "ERR760647.6067",
+      "ERR760647.3605",
+      "ERR760647.17325",
+      "ERR760647.6053",
+      "ERR760647.11620",
+      "ERR760647.9933"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 71,
+    "vacs": "AGACTCT",
+    "weight": 7,
+    "frequency": 0.4375,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 2,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-6142": 1,
+      "ERR760647-5993": 1,
+      "ERR760647-13094": 1,
+      "ERR760647-12280": 1,
+      "ERR760647-8518": 1,
+      "ERR760647-8146": 1,
+      "ERR760647-8359": 1
+    },
+    "read_names": [
+      "ERR760647.6142",
+      "ERR760647.5993",
+      "ERR760647.13094",
+      "ERR760647.12280",
+      "ERR760647.8518",
+      "ERR760647.8146",
+      "ERR760647.8359"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 72,
+    "vacs": "AGATTCT",
+    "weight": 1,
+    "frequency": 0.0625,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 2,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-6796": 1
+    },
+    "read_names": [
+      "ERR760647.6796"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 73,
+    "vacs": "AGACCAT",
+    "weight": 1,
+    "frequency": 0.0625,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 2,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-3724": 1
+    },
+    "read_names": [
+      "ERR760647.3724"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 74,
+    "vacs": "GGACTAC",
+    "weight": 1,
+    "frequency": 0.0625,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 2,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-2118": 1
+    },
+    "read_names": [
+      "ERR760647.2118"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 75,
+    "vacs": "GG",
+    "weight": 1,
+    "frequency": 0.16666666666666666,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 2,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-4382": 1
+    },
+    "read_names": [
+      "ERR760647.4382"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 76,
+    "vacs": "AG",
+    "weight": 5,
+    "frequency": 0.8333333333333334,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 2,
+    "cv_end": 4,
+    "composition": {
+      "ERR760647-3007": 1,
+      "ERR760647-6860": 1,
+      "ERR760647-13032": 1,
+      "ERR760647-23927": 1,
+      "ERR760647-98": 1
+    },
+    "read_names": [
+      "ERR760647.3007",
+      "ERR760647.6860",
+      "ERR760647.13032",
+      "ERR760647.23927",
+      "ERR760647.98"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 77,
+    "vacs": "AGA",
+    "weight": 1,
+    "frequency": 1.0,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 2,
+    "cv_end": 5,
+    "composition": {
+      "ERR760647-2069": 1
+    },
+    "read_names": [
+      "ERR760647.2069"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 78,
+    "vacs": "AGAC",
+    "weight": 1,
+    "frequency": 1.0,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 2,
+    "cv_end": 6,
+    "composition": {
+      "ERR760647-3615": 1
+    },
+    "read_names": [
+      "ERR760647.3615"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 79,
+    "vacs": "AGATT",
+    "weight": 1,
+    "frequency": 1.0,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 2,
+    "cv_end": 7,
+    "composition": {
+      "ERR760647-8839": 1
+    },
+    "read_names": [
+      "ERR760647.8839"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 80,
+    "vacs": "GACTCC",
+    "weight": 1,
+    "frequency": 0.2,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 3,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-3501": 1
+    },
+    "read_names": [
+      "ERR760647.3501"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 81,
+    "vacs": "GAATCC",
+    "weight": 1,
+    "frequency": 0.2,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 3,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-21452": 1
+    },
+    "read_names": [
+      "ERR760647.21452"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 82,
+    "vacs": "GACTCT",
+    "weight": 2,
+    "frequency": 0.4,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 3,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-22237": 1,
+      "ERR760647-9321": 1
+    },
+    "read_names": [
+      "ERR760647.22237",
+      "ERR760647.9321"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 83,
+    "vacs": "AACTCT",
+    "weight": 1,
+    "frequency": 0.2,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 3,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-5045": 1
+    },
+    "read_names": [
+      "ERR760647.5045"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 84,
+    "vacs": "ACTCT",
+    "weight": 17,
+    "frequency": 0.5862068965517241,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 4,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-8133": 1,
+      "ERR760647-16464": 1,
+      "ERR760647-2045": 1,
+      "ERR760647-16481": 1,
+      "ERR760647-11595": 1,
+      "ERR760647-5965": 1,
+      "ERR760647-3732": 1,
+      "ERR760647-1486": 1,
+      "ERR760647-10964": 1,
+      "ERR760647-1627": 1,
+      "ERR760647-9644": 1,
+      "ERR760647-2743": 1,
+      "ERR760647-3011": 1,
+      "ERR760647-1314": 1,
+      "ERR760647-5001": 1,
+      "ERR760647-5041": 1,
+      "ERR760647-1637": 1
+    },
+    "read_names": [
+      "ERR760647.8133",
+      "ERR760647.16464",
+      "ERR760647.2045",
+      "ERR760647.16481",
+      "ERR760647.11595",
+      "ERR760647.5965",
+      "ERR760647.3732",
+      "ERR760647.1486",
+      "ERR760647.10964",
+      "ERR760647.1627",
+      "ERR760647.9644",
+      "ERR760647.2743",
+      "ERR760647.3011",
+      "ERR760647.1314",
+      "ERR760647.5001",
+      "ERR760647.5041",
+      "ERR760647.1637"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 85,
+    "vacs": "ACTAC",
+    "weight": 8,
+    "frequency": 0.27586206896551724,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 4,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-3377": 1,
+      "ERR760647-12394": 1,
+      "ERR760647-7784": 1,
+      "ERR760647-7064": 1,
+      "ERR760647-13631": 1,
+      "ERR760647-22278": 1,
+      "ERR760647-4156": 1,
+      "ERR760647-1503": 1
+    },
+    "read_names": [
+      "ERR760647.3377",
+      "ERR760647.12394",
+      "ERR760647.7784",
+      "ERR760647.7064",
+      "ERR760647.13631",
+      "ERR760647.22278",
+      "ERR760647.4156",
+      "ERR760647.1503"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 86,
+    "vacs": "ACCAT",
+    "weight": 2,
+    "frequency": 0.06896551724137931,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 4,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-20070": 1,
+      "ERR760647-21362": 1
+    },
+    "read_names": [
+      "ERR760647.20070",
+      "ERR760647.21362"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 87,
+    "vacs": "GCTCT",
+    "weight": 2,
+    "frequency": 0.06896551724137931,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 4,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-7373": 1,
+      "ERR760647-1595": 1
+    },
+    "read_names": [
+      "ERR760647.7373",
+      "ERR760647.1595"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 88,
+    "vacs": "CTCC",
+    "weight": 1,
+    "frequency": 1.0,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 5,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-1265": 1
+    },
+    "read_names": [
+      "ERR760647.1265"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 89,
+    "vacs": "TCT",
+    "weight": 1,
+    "frequency": 0.5,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 6,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-2028": 1
+    },
+    "read_names": [
+      "ERR760647.2028"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 90,
+    "vacs": "TAC",
+    "weight": 1,
+    "frequency": 0.5,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 6,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-1231": 1
+    },
+    "read_names": [
+      "ERR760647.1231"
+    ],
+    "discarded": false
+  },
+  {
+    "index": 91,
+    "vacs": "C",
+    "weight": 2,
+    "frequency": 1.0,
+    "ar": 0,
+    "ar_frequency": 0.0,
+    "cv_start": 8,
+    "cv_end": 9,
+    "composition": {
+      "ERR760647-6724": 1,
+      "ERR760647-1018": 1
+    },
+    "read_names": [
+      "ERR760647.6724",
+      "ERR760647.1018"
+    ],
+    "discarded": false
+  }
+]

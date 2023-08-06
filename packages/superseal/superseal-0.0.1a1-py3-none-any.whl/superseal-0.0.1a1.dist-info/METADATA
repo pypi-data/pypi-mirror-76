@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: superseal
+Version: 0.0.1a1
+Summary: Reference-guided viral quasipsecies reconstruction
+Home-page: https://github.com/stephenshank/superseal
+Author: Stephen D. Shank
+Author-email: sshank314@gmail.com
+Maintainer: Stephen D. Shank
+Maintainer-email: sshank314@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >3.6.6
+Requires-Dist: biopython (>=1.76)
+Requires-Dist: numpy (>=1.18.4)
+Requires-Dist: pandas (>=1.0.0)
+Requires-Dist: pysam (>=0.15.4)
+Requires-Dist: PyVCF (>=0.6.8)
+
+UNKNOWN
+
+
