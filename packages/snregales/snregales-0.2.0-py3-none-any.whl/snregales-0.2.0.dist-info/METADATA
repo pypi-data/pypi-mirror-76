@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: snregales
+Version: 0.2.0
+Summary: snregales python libraries
+Author: Sharlon Regales
+Author-email: sharlonregales+dev@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: docs
+Provides-Extra: lint
+Provides-Extra: local
+Provides-Extra: test
+Requires-Dist: flake8-isort (==3.0.0); extra == "local" or extra == "lint"
+Requires-Dist: isort (>=4.3.20,<5.0.0); extra == "local" or extra == "lint"
+Requires-Dist: pytest-cov (>=2.9.0,<3.0.0); extra == "local" or extra == "test"
+Requires-Dist: rstcheck (>=3.3.1,<4.0.0); extra == "local" or extra == "docs"
+Requires-Dist: sphinx_rtd_theme (>=0.5.0,<0.6.0); extra == "local" or extra == "docs"
