@@ -1,0 +1,13 @@
+easy_lambda/__init__.py,sha256=1LiCawPbHKMTW00QU7zp6yu2GeO7CpksY8V2Kf0NxM0,8889
+easy_lambda/utils.py,sha256=bEzeoRTB6rPV-NrEOqivz5XYidvJQvJ8VDWXyWVuru8,4108
+easy_lambda-0.0.2.data/data/create/README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_lambda-0.0.2.data/data/create/app.py,sha256=WnPnITeYfdnW0_eZV_I0PYCW1VRS12z_eiaZrZMphBE,1190
+easy_lambda-0.0.2.data/data/create/requirements.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+easy_lambda-0.0.2.data/data/create/template.yaml,sha256=6VVLuylI3au79Qj15nAOibO-SYWvH5GcdZi4qUvQMo0,53
+easy_lambda-0.0.2.data/data/create/test.py,sha256=kudveEPPbArb8yl1x6HBY1c-iQ1pFeojBH5rFhqkDlw,379
+easy_lambda-0.0.2.data/data/others/template.yaml,sha256=Mk8Yzut5nL7t-Ow4N-wk_no-6rF7ss-f77-NBXsJj3Y,453
+easy_lambda-0.0.2.dist-info/LICENSE,sha256=_fhc2r573F5vU6GB5anQVRH9NJ2gaz_O1JzWK2BTVpw,1091
+easy_lambda-0.0.2.dist-info/METADATA,sha256=mALfyb8kxOUdCMcr517j6cdAyqUHgF4IVaBCAYjCBgQ,519
+easy_lambda-0.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+easy_lambda-0.0.2.dist-info/top_level.txt,sha256=FDbdNH7nluXeNTC3omv4OxNTqCkEu8bUHF4LnWUaKV0,12
+easy_lambda-0.0.2.dist-info/RECORD,,
