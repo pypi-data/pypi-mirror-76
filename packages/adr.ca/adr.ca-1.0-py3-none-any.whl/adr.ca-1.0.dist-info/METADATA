@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: adr.ca
+Version: 1.0
+Summary: ADR is a python library to analyse aircraft conceptual designs. ADR has several tools that allows one to create different aircraft designs and analyse those from different points os view.
+Home-page: https://CeuAzul.github.io/ADR
+License: MIT
+Author: Rafael Araujo Lehmkuhl
+Author-email: rafael.lehmkuhl93@gmail.com
+Maintainer: Rafael Araujo Lehmkuhl
+Maintainer-email: rafael.lehmkuhl93@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: avlwrapper (>=0.2.1,<0.3.0)
+Requires-Dist: matplotlib (>=3.3.0,<4.0.0)
+Requires-Dist: numpy (>=1.19.1,<2.0.0)
+Requires-Dist: pandas (>=1.1.0,<2.0.0)
+Requires-Dist: scipy (>=1.5.2,<2.0.0)
+Project-URL: Repository, https://github.com/CeuAzul/ADR
+Description-Content-Type: text/markdown
+
+# ADR
+[![Build Status](https://travis-ci.com/CeuAzul/ADR.svg?branch=master)](https://travis-ci.com/CeuAzul/ADR)
+[![Coverage Status](https://coveralls.io/repos/github/CeuAzul/ADR/badge.svg)](https://coveralls.io/github/CeuAzul/ADR)
+
+
+Aircraft Design Resources aims to help engineers on conceptual design analysis, giving them the tools necessary to easily simulate different aircraft designs.
+
+## Installation
+### Regular usage
+```
+git clone https://github.com/CeuAzul/ADR.git
+cd ADR
+pip install setuptools
+pip install ./
+```
+
+### Development
+```
+git clone https://github.com/CeuAzul/ADR.git
+cd ADR
+pip install setuptools
+pip install -e ./
+```
+
+## Usage
+
+To run an analysis modify the inputs on *parameters.py* as needed and run *main.py*.
+
+### Contributors
+
+This project exists thanks to all the people who contribute.
+
+[![Contributors](https://contributors-img.web.app/image?repo=CeuAzul/ADR)](https://github.com/CeuAzul/ADR/graphs/contributors)
+
