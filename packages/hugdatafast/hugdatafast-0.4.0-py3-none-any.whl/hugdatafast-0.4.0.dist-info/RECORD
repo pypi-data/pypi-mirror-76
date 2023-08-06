@@ -1,0 +1,10 @@
+hugdatafast/__init__.py,sha256=3rVhRdEwRGlJrXeP-V9GB69cPMkkgRZlULWZqslB-b0,68
+hugdatafast/fastai.py,sha256=AaBamp9UNP-A8goVpwz1YDNlW0gdwS-3VPiY0biOzhg,23112
+hugdatafast/fastai_hugdata.py,sha256=7xs36N9VkETngP5MthwrmQBfSgAZXGeYKGMeNozqUOU,34462
+hugdatafast/huggingface.py,sha256=eWlv0hPKb_RpHLzaM67EH7sYBcCVL3YaMtNDOpy1Krc,32570
+hugdatafast/transform.py,sha256=qA8NNI5bCwCDohkUVdKYFgA0g7l2xJIg1TJRBKIJ_Rg,18941
+hugdatafast-0.4.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hugdatafast-0.4.0.dist-info/METADATA,sha256=NRV4feONrHALhDoBICAxZyAWv0-C8VHo2kdmUMdcPJE,1692
+hugdatafast-0.4.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hugdatafast-0.4.0.dist-info/top_level.txt,sha256=iyRIs-ITzKkylLWmu6jFrw0aUzcupHS58Jn06dpAmPg,12
+hugdatafast-0.4.0.dist-info/RECORD,,

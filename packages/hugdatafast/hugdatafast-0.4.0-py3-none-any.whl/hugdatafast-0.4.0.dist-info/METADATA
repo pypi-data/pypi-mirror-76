@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: hugdatafast
+Version: 0.4.0
+Summary: The elegant bridge between hugginface data and fastai2
+Home-page: https://github.com/richarddwang/hugdatafast
+Author: Richard Wang
+Author-email: richardyy1188@gmail.com
+License: Apache 2.0
+Keywords: nlp machine learning datasets metrics fastai huggingface
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: fastai2
+Requires-Dist: nlp
+
+# hugdatafast
+The elegant integration of huggingface/nlp and fastai2, and some handy data transformation for huggingface/nlp.
+
+🎓 ** Documentation ** : https://hugdatafast.readthedocs.io/en/latest/
+
+# Install
+`pip install hugdatafast`
+
+# Furture Plan
+- I will try to merge this library to fastai2 and huggingface/nlp respectively. But to not introduce bugs into the two great libraries and for fast development, I may try it after my personal project which hugdatafast is created for, is completed (few months later I think), to somewhat assure it is mature enough to be merged into two libraries.
+- The implemenatation of `ConcatTransform` works but might be too complexed to extend, so I may discuss with huggingface to see how to improve it, if I have time.
+- Currently, it is designed to work with the dataset part of huggingface/nlp, I may also integrate metric part of it.
+
