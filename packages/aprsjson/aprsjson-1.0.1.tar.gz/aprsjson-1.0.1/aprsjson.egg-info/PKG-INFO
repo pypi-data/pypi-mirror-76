@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: aprsjson
+Version: 1.0.1
+Summary: Module for parsing APRS packet as JSON
+Home-page: https://github.com/josefmtd/aprs-json
+Author: Josef Matondang
+Author-email: admin@josefmtd.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
