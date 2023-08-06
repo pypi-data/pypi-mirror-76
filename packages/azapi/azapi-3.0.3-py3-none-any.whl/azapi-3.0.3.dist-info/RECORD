@@ -1,0 +1,10 @@
+azapi/__init__.py,sha256=02yl3Pfe-YmmY3XbwtuPlpD1NX5qZnxVUqFZ-uvhtjo,268
+azapi/azapi.py,sha256=LFD5oCgz5nnVDH-mHbkZpW2Mm54M5uLrGDror8HZPpg,4970
+azapi/jaro.py,sha256=cpjB3pYnY3F2UlB_Cjx85tyw1MKdDxRJLr18YZTIzGw,1120
+azapi/requester.py,sha256=oC4MLNdxUFR7yU6e-SdRyeGIfe1sWn47QY5EaDaJl6M,5122
+azapi/tools.py,sha256=Uh4G2xIiq2jDuIdlufCtiz81ho9owOdoEWDRzHW-BVA,5755
+azapi-3.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+azapi-3.0.3.dist-info/METADATA,sha256=sruGetNSkpa4oAixZFgyBEzdEHtb5lCKddZLFigxOoI,3660
+azapi-3.0.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+azapi-3.0.3.dist-info/top_level.txt,sha256=dGiKjHj9_hq9CwamShRF44UINy7DGqNdCjSn3mnByt8,6
+azapi-3.0.3.dist-info/RECORD,,
