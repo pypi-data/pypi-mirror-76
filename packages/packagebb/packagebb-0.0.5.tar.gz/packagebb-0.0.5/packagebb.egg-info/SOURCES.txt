@@ -1,0 +1,12 @@
+License.txt
+MANIFEST.in
+readme.txt
+setup.py
+adding.egg-info/SOURCES.txt
+adding.egg-info/dependency_links.txt
+adding.egg-info/top_level.txt
+packagebb/__init__.py
+packagebb.egg-info/PKG-INFO
+packagebb.egg-info/SOURCES.txt
+packagebb.egg-info/dependency_links.txt
+packagebb.egg-info/top_level.txt
