@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: catsql
+Version: 0.4.8
+Summary: Display a quick view of sql databases (and make quick edits)
+Home-page: https://github.com/paulfitz/catsql
+Author: Paul Fitzpatrick
+Author-email: paulfitz@alum.mit.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: postgres
+Provides-Extra: mysql
