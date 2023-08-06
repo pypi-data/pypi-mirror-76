@@ -1,0 +1,9 @@
+README.md
+setup.py
+syborg.py
+syborg.egg-info/PKG-INFO
+syborg.egg-info/SOURCES.txt
+syborg.egg-info/dependency_links.txt
+syborg.egg-info/entry_points.txt
+syborg.egg-info/requires.txt
+syborg.egg-info/top_level.txt
