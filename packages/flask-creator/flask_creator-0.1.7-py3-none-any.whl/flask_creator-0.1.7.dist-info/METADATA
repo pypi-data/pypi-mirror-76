@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: flask-creator
+Version: 0.1.7
+Summary: A flask tool to quickly create and launch flask app
+Home-page: https://github.com/MOSvisio/flask-creator
+Author: Lucas SCHUTZ
+Author-email: lucas.schutz0954@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+# Installing
+
+Install and update with pip :
+pip3 install flask-creator
+
+# How to use 
+
+- create a new flask application :
+
+flask-creator create --app [name of your application]  
+
+
+- create a new simple html page :
+
+flask-creator create --page [name of your page]  
+
+
+
+- create requirements.txt file : 
+
+flask-creator generate --require
+
+
+
+- run your flask application (run this command from the folder containing setup.py):
+
+flask-creator run 
+
+
+
+- install the dependance defined in the setup.py file of your flask application (run this command from the folder containing setup.py):
+
+flask-creator install 
+
+
+
+
+# Warning 
+
+This is an early. 
+
+
