@@ -1,0 +1,12 @@
+govyn/__init__.py,sha256=Z1tRB8OoKnZqgkUEvS4hNj2csHru0PPXhSEDlgCSQUo,2007
+govyn/auth.py,sha256=ohVm3WWsi_EyUAnOqJF1e_AY84MWKSbxEBkDZHt5WbY,2075
+govyn/endpoint.py,sha256=jL3WZg8cJpOYWVHyvXruPG5Sq_zeIVOJzoeTbcNdV-A,1836
+govyn/errors.py,sha256=WQXapmeI4k3chL37yr-mMtpzOPXE4lcQne2px8nid2A,1236
+govyn/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+govyn/route_def.py,sha256=1vRyUMjCd84DZd9cOPTsWvMlGqwc-lqLDm230TKKnac,2068
+govyn/schemas.py,sha256=vlIT1ScBpj3NMutacOoC3C3ACpyaxr2_9lIAUpfml9k,2548
+govyn/swagger.py,sha256=J8GbekEujvK_4fAGTNQKe80otY3HpXy7hxSEFz6A_Ck,839
+govyn-0.1.10.dist-info/METADATA,sha256=6efPsunXYD6WsFH909_5b5tr0YQmwieYgQB1mZ8NQS8,2563
+govyn-0.1.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+govyn-0.1.10.dist-info/top_level.txt,sha256=jg3u-GyhNa4bqLvIU21kkz6zOZJgjXkBRKpXYQeMVxU,6
+govyn-0.1.10.dist-info/RECORD,,
