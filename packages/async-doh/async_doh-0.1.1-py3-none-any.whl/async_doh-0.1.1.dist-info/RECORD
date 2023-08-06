@@ -1,0 +1,7 @@
+async_doh/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+async_doh/client.py,sha256=wzoAL2D4Ba6aVuNB9eAu7WaHOvQTfgmQbFyhLuoz3Kc,2795
+async_doh/patch_resolver.py,sha256=i_yzBZuIMz2027uX6t4xk_hf9OOijJnQJtGSvnhDIvM,603
+async_doh/server.py,sha256=b2z7kyqvwBZMbzYlmXIHka1jN275dXvSaQRtsc7PxSg,2953
+async_doh-0.1.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+async_doh-0.1.1.dist-info/METADATA,sha256=Uiiyo-tV9aid1xIw6USXSzvsXBwjCGgbr6shzrGAvtk,1918
+async_doh-0.1.1.dist-info/RECORD,,
