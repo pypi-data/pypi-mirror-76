@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: django-crud-reactjs-fagsoft
+Version: 1.0.17
+Summary: A Django app create apps with reactjs
+Home-page: UNKNOWN
+Author: Fabio A Garcia S
+Author-email: fabio.garcia.sanchez@gmail.com
+License: PSF
+Description: file: README.rst
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django :: 3.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP

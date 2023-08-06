@@ -1,0 +1,19 @@
+include LICENSE
+include README.rst
+recursive-include fagsoft/users_extended/static *
+recursive-include fagsoft/users_extended/templates *
+recursive-include fagsoft/users_extended/docs *
+
+recursive-include fagsoft/permissions/static *
+recursive-include fagsoft/permissions/templates *
+recursive-include fagsoft/permissions/docs *
+
+recursive-include fagsoft/countries/static *
+recursive-include fagsoft/countries/templates *
+recursive-include fagsoft/countries/docs *
+
+recursive-include fagsoft/app_configurations/static *
+recursive-include fagsoft/app_configurations/templates *
+recursive-include fagsoft/app_configurations/docs *
+
+recursive-include fagsoft/utils *
