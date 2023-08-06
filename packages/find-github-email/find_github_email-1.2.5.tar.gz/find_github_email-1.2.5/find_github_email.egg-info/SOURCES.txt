@@ -1,0 +1,9 @@
+README.md
+setup.py
+find_github_email/__init__.py
+find_github_email/main.py
+find_github_email.egg-info/PKG-INFO
+find_github_email.egg-info/SOURCES.txt
+find_github_email.egg-info/dependency_links.txt
+find_github_email.egg-info/requires.txt
+find_github_email.egg-info/top_level.txt
