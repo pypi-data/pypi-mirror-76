@@ -1,0 +1,10 @@
+godale/__init__.py,sha256=xsh4dT8Rw2NTX2MeCav8tHlpypA5uKTSdRoaRP_oR6Y,109
+godale/_concurrent.py,sha256=trgzav4ZuVSbwhjzE3OPCRBmzkKbn6V6U60zvQyuDYQ,9012
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/run_tests.py,sha256=xiVRtVOZkXAWu93KPXwEJdH7DF4ws_HjTaxi7ppfpU4,967
+scripts/worker_func.py,sha256=OnnxwUU--RfEoy9Xkhq3wutNAJk07IB5fH-jFvftFr8,447
+godale-0.3.dist-info/LICENSE,sha256=0rVGKCqJViRXmvFT6lDKhK9XwkwZFxyTNUr-evvKCXE,1082
+godale-0.3.dist-info/METADATA,sha256=A-lZaIyUw_ZllodBEtY5cBJNfuFhOj1-3362zAxlM68,3568
+godale-0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+godale-0.3.dist-info/top_level.txt,sha256=nmbhxYFT9mm4GUGxWLwUzCr1cNNnSnBXexR_1UMshxU,15
+godale-0.3.dist-info/RECORD,,
