@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: cloud-products
+Version: 0.9.0
+Summary: A package for getting cloud product descriptions from the provider website.
+Home-page: https://github.com/dylanhogg/cloud-products
+Author: Dylan Hogg
+Author-email: dylanhogg@gmail.com
+License: UNKNOWN
+Description: # cloud-products 
+        
+        A package for getting cloud products and product descriptions from a cloud provider website.
+        
+        Currently supports AWS only, being the products listed at 
+        [https://aws.amazon.com/products](https://aws.amazon.com/products)
+        
+        Usage to get product descriptions as a list of lines:
+        ```
+        from crawler import aws
+        crawler = aws.AwsCrawler()
+        for product in crawler.get_products():
+            lines = crawler.get_product_text(product)
+        ```
+        
+        Usage to save product descriptions to files:
+        ```
+        from crawler import aws
+        crawler = aws.AwsCrawler()
+        for product in crawler.get_products():
+            crawler.save_product(product, output_path)
+        ```
+        
+        Usage to get matching product(s):
+        ```
+        from crawler import aws
+        crawler = aws.AwsCrawler()
+        sagemaker_products = crawler.get_products_matching("sagemaker")
+        sagemaker_description = crawler.get_product_text(sagemaker_products[0])
+        ```
+        
+        Cloud Products is distributed under the MIT license.
+        
+Keywords: aws,crawler
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
