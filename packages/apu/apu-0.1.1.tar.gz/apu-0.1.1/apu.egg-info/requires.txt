@@ -1,0 +1,10 @@
+
+[all]
+pytz
+GitPython
+
+[datetime]
+pytz
+
+[setup]
+GitPython
