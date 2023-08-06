@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+_version.py
+openvpn-auth-azure-ad
+setup.cfg
+setup.py
+openvpn/__init__.py
+openvpn_auth_azure_ad.egg-info/PKG-INFO
+openvpn_auth_azure_ad.egg-info/SOURCES.txt
+openvpn_auth_azure_ad.egg-info/dependency_links.txt
+openvpn_auth_azure_ad.egg-info/requires.txt
+openvpn_auth_azure_ad.egg-info/top_level.txt
+util/__init__.py
+util/errors.py
