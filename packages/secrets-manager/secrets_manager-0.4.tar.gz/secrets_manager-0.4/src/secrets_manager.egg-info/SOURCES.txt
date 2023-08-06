@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/secrets_manager/__init__.py
+src/secrets_manager/constants.py
+src/secrets_manager/exceptions.py
+src/secrets_manager/secrets_manager.py
+src/secrets_manager/warnings.py
+src/secrets_manager.egg-info/PKG-INFO
+src/secrets_manager.egg-info/not-zip-safe
