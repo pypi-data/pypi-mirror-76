@@ -1,0 +1,8 @@
+README.md
+setup.py
+csinscapp/__init__.py
+csinscapp.egg-info/PKG-INFO
+csinscapp.egg-info/SOURCES.txt
+csinscapp.egg-info/dependency_links.txt
+csinscapp.egg-info/requires.txt
+csinscapp.egg-info/top_level.txt
