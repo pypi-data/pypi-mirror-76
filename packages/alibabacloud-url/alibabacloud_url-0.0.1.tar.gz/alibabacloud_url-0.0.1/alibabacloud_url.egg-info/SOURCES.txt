@@ -1,0 +1,10 @@
+README.md
+setup.py
+alibabacloud_url/__init__.py
+alibabacloud_url/client.py
+alibabacloud_url/models.py
+alibabacloud_url.egg-info/PKG-INFO
+alibabacloud_url.egg-info/SOURCES.txt
+alibabacloud_url.egg-info/dependency_links.txt
+alibabacloud_url.egg-info/requires.txt
+alibabacloud_url.egg-info/top_level.txt
