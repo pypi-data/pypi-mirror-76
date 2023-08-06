@@ -1,0 +1,17 @@
+scientimate/PcorFFTFun.py,sha256=q4Md7iCYpObXNgl-ji_0DnSKqYL2MnsC98_kYe0Ar00,11013
+scientimate/PcorZerocrossingFun.py,sha256=yc0RMcj7IYFa5bWzBT-vYWIHmye9_hZYPts7R3y3fjU,12864
+scientimate/SeaSwellFun.py,sha256=e7pHx_e_znTncQ-kF5lbqVcMgYXhvLpqjEV-JpdD-wc,12980
+scientimate/WaveSpectraFun.py,sha256=MW5dZpokgwxmhz1cypvwOeoB_aCxXaLcCof-5ltcEHU,9570
+scientimate/WaveZerocrossingFun.py,sha256=1ihAbQwVgvpQ9XwjEYM2A3RBncd9yQUPWuMwefJDT5M,12037
+scientimate/__init__.py,sha256=Y-rcfuDLn4K9kJd3QfEtXv3u4BcshCjksPorcipYaDY,8865
+scientimate/downsamplex.py,sha256=siIvrNue25jjXYrEjb8LD-_ZjAUQiZwnZiZ3IXoV3TU,6663
+scientimate/interpxyz2grid.py,sha256=1YEiMUx8kqJBY5H7Vc2Gbyj7Zy7DwgIAH5hugbMKW7A,12282
+scientimate/oceanlyz.py,sha256=-7PVuJ9G3v4KpmtbGDErNrxpjD97LifS2q_UYoIiPb0,55192
+scientimate/replacemissing1d.py,sha256=drTfknlKtg94TammPluZWAkpdl78XlIKb954zEVSnhc,7512
+scientimate/replaceoutlier.py,sha256=l_vG46XoCOlA7016TdDoQbD6k_hX3kdCHexCwbM6iTE,7884
+scientimate/smoothsignal.py,sha256=fpa26JavLAy2fa3KzOmOQgmjEhSIN2RWLT9e6PEfYfU,5746
+scientimate-0.0.1.dist-info/License.txt,sha256=muVPNnzJ97t59bKSdS_uX8BryKkta74e5ECxsLbzEAY,1128
+scientimate-0.0.1.dist-info/METADATA,sha256=HYRaCEUAqHcA4wykILxwSw7bqsl8DaTveMpriC3H7Hs,3531
+scientimate-0.0.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+scientimate-0.0.1.dist-info/top_level.txt,sha256=i8fS9SXFW5Tg1lmrUpdZwNp6NJFM__D7rs-Zqx1QYGs,12
+scientimate-0.0.1.dist-info/RECORD,,
