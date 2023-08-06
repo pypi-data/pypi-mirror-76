@@ -1,0 +1,38 @@
+import os
+import sys
+
+
+class loading:
+    HEADER = "\033[95m"
+    OKBLUE = "\033[94m"
+    OKGREEN = "\033[92m"
+    WARNING = "\033[93m"
+    FAIL = "\033[91m"
+    ENDC = "\033[0m"
+    BOLD = "\033[1m"
+    UNDERLINE = "\033[4m"
+
+    def __init__(self, total, current=1, additional_text=None):
+        self.totals = total
+        self.current = current
+        if additional_text:
+            self.additional_text = additional_text
+        else:
+            self.additional_text = f"Compiling data"
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        if self.current < self.totals:
+            self.current += 1
+            print(self.__repr__(), sep=' ', end='', flush=True)
+        else:
+            print(f" :: {self.HEADER}Finished{self.ENDC}")
+
+    def __repr__(self):
+        complete = max(int((self.current / self.totals) * 33), 1)
+        left = (33 - complete)
+        cur_rep = f"[{self.OKGREEN}{''.join(['=' for _ in range(complete)])}{self.ENDC}"
+        left_rep = f"{self.FAIL}{''.join('-' for _ in range(left))}{self.ENDC}] "
+        return f" \r{self.additional_text}::{cur_rep + left_rep} {round(complete*(100/33), 1)}%"
