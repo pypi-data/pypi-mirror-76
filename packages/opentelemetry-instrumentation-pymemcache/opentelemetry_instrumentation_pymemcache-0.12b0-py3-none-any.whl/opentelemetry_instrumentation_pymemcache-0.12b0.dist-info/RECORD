@@ -1,0 +1,7 @@
+opentelemetry/instrumentation/pymemcache/__init__.py,sha256=6E2Wu0dDDQjpCmucbrDI-5gA0np0LcYz8LdYl8XLrvc,5832
+opentelemetry/instrumentation/pymemcache/version.py,sha256=PZZADxTUMbz8kTx9AruV_-DR818kDDswOE2lDOkkNts,608
+opentelemetry_instrumentation_pymemcache-0.12b0.dist-info/METADATA,sha256=-pEyzwg7Fb1TvPb1POErmFiWb32YKhVV-AcTm7w9TZk,1763
+opentelemetry_instrumentation_pymemcache-0.12b0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+opentelemetry_instrumentation_pymemcache-0.12b0.dist-info/entry_points.txt,sha256=ivq6mQsyN7ma0OkaDehxiuQOwg9fw5QkmgEjZls4-YU,107
+opentelemetry_instrumentation_pymemcache-0.12b0.dist-info/top_level.txt,sha256=5p97iTMneNm1LAKDalzEVpYhvPZsaqJZzdLuD_upSaQ,14
+opentelemetry_instrumentation_pymemcache-0.12b0.dist-info/RECORD,,
