@@ -1,0 +1,8 @@
+---
+icinga-service-group:
+  hosts:
+    icinga-host:
+
+api-service-group:
+  hosts:
+    gitlab-host:

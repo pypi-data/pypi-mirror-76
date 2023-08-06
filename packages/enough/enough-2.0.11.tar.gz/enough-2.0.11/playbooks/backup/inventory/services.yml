@@ -1,0 +1,8 @@
+---
+icinga-service-group:
+  hosts:
+    icinga-host:
+
+backup-service-group:
+  hosts:
+    bind-host:

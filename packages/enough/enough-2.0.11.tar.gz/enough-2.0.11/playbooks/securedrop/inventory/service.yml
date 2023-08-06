@@ -1,0 +1,9 @@
+---
+icinga-service-group:
+  hosts:
+    icinga-host:
+
+securedrop-service-group:
+  hosts:
+    securedrop-host:
+
