@@ -1,0 +1,1 @@
+masonite-dot>=0.0.5
