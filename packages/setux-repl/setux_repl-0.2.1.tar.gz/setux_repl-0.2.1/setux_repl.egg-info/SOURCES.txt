@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+setux/repl/__init__.py
+setux/repl/commands.py
+setux/repl/helps.py
+setux/repl/repl.py
+setux_repl.egg-info/PKG-INFO
+setux_repl.egg-info/SOURCES.txt
+setux_repl.egg-info/dependency_links.txt
+setux_repl.egg-info/top_level.txt
