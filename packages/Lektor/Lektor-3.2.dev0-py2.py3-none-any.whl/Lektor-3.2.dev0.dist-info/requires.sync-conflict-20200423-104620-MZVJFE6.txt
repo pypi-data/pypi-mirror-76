@@ -1,0 +1,28 @@
+Babel
+click>=6.0
+EXIFRead
+filetype
+Flask
+inifile
+Jinja2>=2.4
+mistune<2,>=0.7.0
+pip
+requests[security]
+setuptools
+watchdog
+
+[:python_version < "3.2.3"]
+functools32
+
+[:python_version < "3.4"]
+enum34
+
+[ipython]
+ipython
+
+[test]
+pylint
+pytest
+pytest-cov
+pytest-mock
+pytest-click
