@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: alveolus
+Version: 0.1.2
+Summary: Alveolus Docs,provides a very simple way, to create read the docs alike documentation for c++ projects.With the help of breathe and exhale it combines Doxygen and sphinx to enable tou to createcode documentation as well as custom documentation files
+Home-page: https://github.com/johnkozaris/alveolus
+Author: Ioannis Kozaris
+Author-email: ioanniskozaris@gmail.com
+License: MIT
+Keywords: documentation sphinx doxygen C++ docs
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Framework :: Sphinx
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: C++
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Software Development :: Documentation
+Requires-Python: ~=3.3
+Description-Content-Type: text/markdown
+Requires-Dist: sphinx
+Requires-Dist: breathe
+
+# Alveolus Documentation Package
+Alveolus is a small package that makes your C++ Documentation process easier. Using Breathe and Exhale you can combine 
+your C++ Code Documentation with your Custom API doxumentation written in simple .rst files .
+This projects relies heavily on Doxygen+Sphinx+Breathe+Exhale but makes the process of combining them nad using them 
+easier. Run alveolus-build in any c++ project and an index html with the ReadTheDocs theme will be created instantly
+## Using Alveolus
+There are 4 commands added to your path
+
+- alveolus-build
+- alveolus-create
+- alveolus-clean
+- alveolus-cli
+
+## Installation Instructions
+
+## Dependencies
+
+## Credit
+
+## License
+
+
