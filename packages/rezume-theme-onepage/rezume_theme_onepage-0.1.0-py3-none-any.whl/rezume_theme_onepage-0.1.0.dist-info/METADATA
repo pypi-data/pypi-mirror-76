@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: rezume-theme-onepage
+Version: 0.1.0
+Summary: A rezume theme port of jsonresume-theme-onepage
+Home-page: https://github.com/hkmshb/rezume-themes.git
+License: BSD-2-Clause
+Keywords: rezume,theme,rezume theme
+Author: Abdulhakeem Shaibu
+Author-email: hkmshb@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pybars3 (>=0.9.7,<0.10.0)
+Project-URL: Repository, https://github.com/hkmshb/rezume-themes.git
+Description-Content-Type: text/x-rst
+
+rezume-theme-onepage
+====================
+
+This is a Rezume theme port of ``jsonresume-theme-onepage`` which is a compact theme
+designed for printing.
+
