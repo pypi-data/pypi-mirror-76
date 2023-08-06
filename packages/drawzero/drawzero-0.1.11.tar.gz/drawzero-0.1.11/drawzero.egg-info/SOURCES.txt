@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+doc/hello_world.png
+doc/planet_animation.gif
+drawzero/__init__.py
+drawzero/__main__.py
+drawzero/drawzero.py
+drawzero/renderer.py
+drawzero/renderer_ejudge.py
+drawzero.egg-info/PKG-INFO
+drawzero.egg-info/SOURCES.txt
+drawzero.egg-info/dependency_links.txt
+drawzero.egg-info/entry_points.txt
+drawzero.egg-info/requires.txt
+drawzero.egg-info/top_level.txt
