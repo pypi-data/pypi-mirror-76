@@ -1,0 +1,15 @@
+setup.py
+BrawlMoon/__init__.py
+BrawlMoon/abilities.py
+BrawlMoon/basis.py
+BrawlMoon/brawler.py
+BrawlMoon/client.py
+BrawlMoon/club.py
+BrawlMoon/enums.py
+BrawlMoon/errors.py
+BrawlMoon/player.py
+BrawlMoon/resp.py
+BrawlMoon.egg-info/PKG-INFO
+BrawlMoon.egg-info/SOURCES.txt
+BrawlMoon.egg-info/dependency_links.txt
+BrawlMoon.egg-info/top_level.txt
