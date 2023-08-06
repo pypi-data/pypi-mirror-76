@@ -1,0 +1,14 @@
+texting/__init__.py,sha256=0vi9E4TXYN5EpzW_t3Z2FScydaI6sHxLpk3Kh4UTrkc,338
+texting/chars/__init__.py,sha256=b3iA2Wpka_OL67-dEEOG09HNusqYrRD1lcQlYTC7EWk,224
+texting/has_ansi/__init__.py,sha256=LrXAQMlFyJb6SxO89dRScgh_QusLVqlKX6QpkUEkQ-M,201
+texting/has_ansi/elements.py,sha256=irG4vAw2ZU08Pcm9n6sVirUxXzA5sVw1WtO1WalG3nQ,311
+texting/has_ansi/regs.py,sha256=Q0QYn0Llkb20vL_Xee_DJW4he8JVmg_nSP1LUmiuKX8,323
+texting/indexing/__init__.py,sha256=8iQIk44ajMli8t_Fl87X_FuBKVX-DXAxcXnjBRpQDMo,194
+texting/lange/__init__.py,sha256=ZJK2SpMgz0V5_j9iFeh2AAV-w2G8KxI4p_vy1rVz9oM,139
+texting/pad/__init__.py,sha256=8qcQEZHw193aBsBuEVaukztfC4-1Q71RUeVvcVVTB6Q,271
+texting/str_util/__init__.py,sha256=PEBSrTN94FZLuOcObgKX-P0q987Q7O1qwuA0SR-AXzo,2398
+texting/str_value/__init__.py,sha256=bJnWRIFd7EH87GDZ_RoqW_wHKSscm3X34G69ycoK1eI,1066
+texting/tap/__init__.py,sha256=OOQH34Ooj03wHJ9oHgqH-PkXgT9DoXWjPDIPxCXNLr8,1190
+texting-0.0.3.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+texting-0.0.3.dist-info/METADATA,sha256=VIkudkQP7CWTm27Vzvq_x4HUxU2Qe75hSVULv1gB-pc,935
+texting-0.0.3.dist-info/RECORD,,
