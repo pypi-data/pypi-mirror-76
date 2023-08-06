@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: readysignal
+Version: 0.3
+Summary: The API for readysignal.com
+Home-page: https://github.com/rxa-io/readysignal
+Author: Jess Brown
+Author-email: jess.brown@rxa.io
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests (~=2.24.0)
+Requires-Dist: pandas (~=1.0.1)
+
+# ReadySignal API - Python 3.6+
+This library is designed to be a wrapper for the ReadySignal API: http://app.readysignal.com
+
+Please direct all questions and/or recommendations to jess.brown@rxa.io.
+
+## Installation
+
+```shell script
+pip install readysignal
+```
+
+## Usage
+Your access token can be found on your "Manage Signal" page within the Output information.
+The signal id can be found either within the Output information or in the URL of the 
+"Manage Signal" page: https://staging.app.readysignal.com/signal/{signal_id}/manage.
+```python
+import readysignal as rs
+
+access_token = "your access token"
+signal_id = 0
+
+# list signals
+rs.list_signals(access_token)
+
+# get signal details
+rs.get_signal_details(access_token, signal_id)
+
+# get signal data as json
+rs.get_signal(access_token, signal_id)
+
+# get signal data as Pandas DataFrame
+rs.get_signal_pandas(access_token, signal_id)
+
+# send signal data to csv file
+file_name = "test_signal.csv"
+rs.signal_to_csv(access_token, signal_id, file_name)
+```
+
