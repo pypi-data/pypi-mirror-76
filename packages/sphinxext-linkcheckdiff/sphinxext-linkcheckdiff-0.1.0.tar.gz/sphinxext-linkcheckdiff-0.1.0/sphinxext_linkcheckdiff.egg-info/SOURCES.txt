@@ -1,0 +1,8 @@
+README.md
+setup.py
+sphinxext/linkcheckdiff.py
+sphinxext_linkcheckdiff.egg-info/PKG-INFO
+sphinxext_linkcheckdiff.egg-info/SOURCES.txt
+sphinxext_linkcheckdiff.egg-info/dependency_links.txt
+sphinxext_linkcheckdiff.egg-info/requires.txt
+sphinxext_linkcheckdiff.egg-info/top_level.txt
