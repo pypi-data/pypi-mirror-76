@@ -1,0 +1,15 @@
+README.md
+setup.py
+arraycontract/__init__.py
+arraycontract/common.py
+arraycontract/dtype_contract.py
+arraycontract/ndim_contract.py
+arraycontract/shape_contract.py
+arraycontract.egg-info/PKG-INFO
+arraycontract.egg-info/SOURCES.txt
+arraycontract.egg-info/dependency_links.txt
+arraycontract.egg-info/top_level.txt
+tests/__init__.py
+tests/test_dtype.py
+tests/test_ndim.py
+tests/test_shape.py
