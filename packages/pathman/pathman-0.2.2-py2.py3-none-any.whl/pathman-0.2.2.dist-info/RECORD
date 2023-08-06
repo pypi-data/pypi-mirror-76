@@ -1,0 +1,17 @@
+pathman/__init__.py,sha256=PEjXRJI2XbHwbi6eZx01fgnUDtkzrsEr0Vk91qm_8MA,46
+pathman/base.py,sha256=DpJNJw1WFBtbouUUcrOKuaOozEtGL4bNwJhPx5n7qwM,1989
+pathman/copy.py,sha256=sWLQiKOT3zp9ryYqhPXBsvocbq4Ai-rt8eNHcG4b-Is,3474
+pathman/exc.py,sha256=uAF5cvdu_qj5VN3FShhEH8X2Vn89gWBJjgAFlRMNB-I,324
+pathman/path.py,sha256=cKb1Dj5EbK1hodLvt4bIdT2NQIfCZpRR-XFLY3jgUCE,6751
+pathman/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pathman/utils.py,sha256=TroPaovzRFJPG7D8OOiTXm_gvsShk769zvFX5CW9pJw,451
+pathman/_impl/__init__.py,sha256=QRdmPcnD17A1nimGsIokeJPnBUWPsYa4qIa3m7-UfzY,120
+pathman/_impl/local.py,sha256=nX7ka_nkAqaEuYrc1sCjgblQYSe3PrvL2WPgLcpVLko,2753
+pathman/_impl/s3.py,sha256=MPIvwZ6vjjFV_24sUkCVI0p5i31wG6Qm8MdKn5LsHGI,4006
+tests/output/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pathman-0.2.2.dist-info/LICENSE,sha256=8PRMqUHwdMo44BAWr0shPZFq5Wfz2IP0Z7v_2SD1hw8,575
+pathman-0.2.2.dist-info/METADATA,sha256=pISrxOKHTzq_91_9MAu-7Jk8e1fYA9AyMbn4CZTABpE,342
+pathman-0.2.2.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+pathman-0.2.2.dist-info/top_level.txt,sha256=6BDXTze6lHPFNM_lf-pNZ-PoutyayZlqGQSYk9psFa8,14
+pathman-0.2.2.dist-info/RECORD,,
