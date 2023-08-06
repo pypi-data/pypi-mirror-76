@@ -1,0 +1,12 @@
+hydrodata/__init__.py,sha256=-fh1qzQYffEmNH7kNZ28XhOKaYcs6ut1sRsXr331tj4,476
+hydrodata/exceptions.py,sha256=eOscdfKtcPeqXUG5P_U7OA74tHkKnKuG14xowbY75_4,1475
+hydrodata/helpers.py,sha256=ZqHcQCu3Fp9k32j7mBgYScDW7mWFF5XBAEIGKG8ufkA,2493
+hydrodata/hydrodata.py,sha256=I24DjWGb0eeujZeHmweRGOlq6a9ToaBHvc_FNYEUnOg,20225
+hydrodata/plot.py,sha256=BZ8hZGA_LM9FgWxa9sC_Kvpv9ppx-18yR0Q5fQUQY20,7811
+hydrodata/print_versions.py,sha256=FSYvXmWbu_BtdhHNA_AZjeY5JiqECAuNlKoCCRcQYOI,5067
+hydrodata-0.7.0.dist-info/AUTHORS.rst,sha256=FAneYiHTTZuEAtX7AvBFFp5_QesoMSH0cUAt3tirVYQ,157
+hydrodata-0.7.0.dist-info/LICENSE,sha256=EM87NgYgabO0a_E-z2nmbsrxomXdI5BDCgmomVDvLsE,1096
+hydrodata-0.7.0.dist-info/METADATA,sha256=xZMoJLtq6UD8vAp2lIWsMsWE0DOz7BcqL14ICGsQgnk,8378
+hydrodata-0.7.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+hydrodata-0.7.0.dist-info/top_level.txt,sha256=_Islw3wrum1zGmH2bVW13Zt8lO2pGxeYK6naDBEK5gE,10
+hydrodata-0.7.0.dist-info/RECORD,,
