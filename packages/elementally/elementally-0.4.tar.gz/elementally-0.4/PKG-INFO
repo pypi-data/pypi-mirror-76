@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: elementally
+Version: 0.4
+Summary: Utility module for elementwise operations on basic Python sequence types
+Home-page: https://github.com/dem1995/elementally
+Author: David "Dawn" Estes McKnight
+Author-email: demcknig@ualberta.ca
+License: MIT/X11
+Description: # Elementally
+        ## Description
+        Python package with utility functions for element-wise operations on basic Python sequence objects.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
