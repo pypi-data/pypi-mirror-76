@@ -1,0 +1,6 @@
+torch>=1.0
+numba>=0.42.0
+numpy>=1.18.1
+
+[test]
+torchvision>=0.4
