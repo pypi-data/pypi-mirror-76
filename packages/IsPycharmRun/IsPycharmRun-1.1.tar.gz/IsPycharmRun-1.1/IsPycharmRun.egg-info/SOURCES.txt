@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+IsPycharmRun/IsPycharmRun.py
+IsPycharmRun/__init__.py
+IsPycharmRun.egg-info/PKG-INFO
+IsPycharmRun.egg-info/SOURCES.txt
+IsPycharmRun.egg-info/dependency_links.txt
+IsPycharmRun.egg-info/top_level.txt
