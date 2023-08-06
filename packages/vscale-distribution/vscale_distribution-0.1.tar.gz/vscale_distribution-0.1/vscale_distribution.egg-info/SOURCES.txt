@@ -1,0 +1,10 @@
+setup.py
+vscale_distribution/Binomialdistribution.py
+vscale_distribution/Gaussiandistribution.py
+vscale_distribution/Generaldistribution.py
+vscale_distribution/__init__.py
+vscale_distribution.egg-info/PKG-INFO
+vscale_distribution.egg-info/SOURCES.txt
+vscale_distribution.egg-info/dependency_links.txt
+vscale_distribution.egg-info/not-zip-safe
+vscale_distribution.egg-info/top_level.txt
