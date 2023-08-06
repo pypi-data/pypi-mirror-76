@@ -1,0 +1,7 @@
+pylibsythe/__init__.py,sha256=muCbz5ozL4a25TeP7QCrZT3p5AFshRMNoTVb0bC9axY,26
+pylibsythe/pylibsythe.pyd,sha256=Em7YTwkOQ8YJMfkwEpiIqmIBIdHzEGGuAWjzf38Kgxw,1455104
+pylibsythe/pylibsythe.pyi,sha256=eqGhn1VjXfFQxzmU2i8cAUa6XpooFY-zgJB8u-3qxgQ,8193
+pylibsythe-0.0.1.dist-info/METADATA,sha256=euYloBhA4H7KhtW1XnrSZZZx8PkiaVc3UbT0jaU_ZTE,635
+pylibsythe-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pylibsythe-0.0.1.dist-info/top_level.txt,sha256=llcjVDYOTJ-UxH-xi8kbJrfDsy2X__ivgXy1r4bJN6s,11
+pylibsythe-0.0.1.dist-info/RECORD,,
