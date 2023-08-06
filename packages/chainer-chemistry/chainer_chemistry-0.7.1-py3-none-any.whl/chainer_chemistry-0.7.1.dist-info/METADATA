@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: chainer-chemistry
+Version: 0.7.1
+Summary: Chainer Chemistry: A Library for Deep Learning in Biology      and Chemistry
+Home-page: http://chainer-chemistry.readthedocs.io/en/latest/index.html
+Author: Kosuke Nakago
+Author-email: nakago@preferred.jp
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: chainer (>=7.0.0)
+Requires-Dist: joblib
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: tqdm
+Requires-Dist: typing
+
+UNKNOWN
+
+
