@@ -1,0 +1,9 @@
+epispot/__init__.py,sha256=F8p1-7Kr1KrD4UXoltFOr4ha3_gmvqAy1qid7IT2UT8,446
+epispot/comps.py,sha256=ZkXfL1AVTeNB4CpSq_TIQdEIBANw3Kgixqbkf7hbZxg,26042
+epispot/models.py,sha256=gHXEk7rf-am-XtPziDlyFgIUqkdx53CL33FOzRQbLWE,6829
+epispot/plots.py,sha256=xXM4i2grg3tKowS5ZS0nZMdtiINIjk5ds5cd_jhjNh4,1616
+epispot-0.1.2b0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+epispot-0.1.2b0.dist-info/METADATA,sha256=70PJoj0dvijcFaA9wESRt76WqohjWp0XcniVkQg_1QU,1699
+epispot-0.1.2b0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+epispot-0.1.2b0.dist-info/top_level.txt,sha256=BG2UsdebjdQTLKWtSLjlTPs1qJGZ4IaHtqNYzTQnAfo,8
+epispot-0.1.2b0.dist-info/RECORD,,
