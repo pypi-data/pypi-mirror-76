@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: streamjsonparser
+Version: 1.2
+Summary: Stream Json Parser
+Home-page: https://github.com/andriylysenko/jsonstreamparser
+Author: Andrey Lysenko
+Author-email: andrey.lysenko@gmail.com
+License: UNKNOWN
+Description: # Json parser that parses large json text as a stream and notifies when the object you are interested in is created. 
+        For example if you subscribe for deeply nested object the event_handler function that you provide will be called every time once deeply nested object is parsed and transformed into python classes. 
+        Custom transformation can also be specified.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

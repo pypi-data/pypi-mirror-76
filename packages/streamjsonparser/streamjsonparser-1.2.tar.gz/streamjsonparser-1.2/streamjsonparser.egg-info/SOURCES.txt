@@ -1,0 +1,15 @@
+README.md
+setup.py
+decoder/__init__.py
+decoder/streamdecoder.py
+streamjsonparser.egg-info/PKG-INFO
+streamjsonparser.egg-info/SOURCES.txt
+streamjsonparser.egg-info/dependency_links.txt
+streamjsonparser.egg-info/not-zip-safe
+streamjsonparser.egg-info/top_level.txt
+test/__init__.py
+test/jsontokenizer.py
+test/streamdecoder.py
+tokenizer/__init__.py
+tokenizer/jsontokenizer.py
+utils/src/utils.cpp
