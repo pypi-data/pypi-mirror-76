@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+python -m lonny_pg_job.cli "$@"
