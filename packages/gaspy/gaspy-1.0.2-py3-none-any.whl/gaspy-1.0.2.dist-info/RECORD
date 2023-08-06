@@ -1,0 +1,12 @@
+gaspy/GumnutAssembler.py,sha256=ARnPUDLyDp0G_qPerjWGJLWnGiJi7mPcbI2k9VIXlLo,35531
+gaspy/GumnutExceptions.py,sha256=-mp5gk_MG8VTOCH4dk2YumbKNRw392vgFVinEy7burQ,2166
+gaspy/__init__.py,sha256=LZTFaiDdXahAtu6Prb5WEPk4QX_pfMd7zDoNQSzcGsI,23
+src/GumnutAssembler.py,sha256=IzGw8bGa3uSD6kBg3iyrKTgNW_PGfpKXh0Unxp-wJmY,35352
+src/GumnutExceptions.py,sha256=-mp5gk_MG8VTOCH4dk2YumbKNRw392vgFVinEy7burQ,2166
+src/__init__.py,sha256=ZhzQKWZ8RFrTIkj7z87B144DI95e8LMfA5w8NDWQDtg,23
+gaspy-1.0.2.dist-info/LICENSE,sha256=x8VI4o7GN3Exd5Nnym57qCdlpr1HZn124sHNefvS-dc,31945
+gaspy-1.0.2.dist-info/METADATA,sha256=AviYo22n1CepDAYRPrP9NKRHLktYz5ZqHnDnPRLrCM4,2228
+gaspy-1.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+gaspy-1.0.2.dist-info/entry_points.txt,sha256=FQ2uHjI7bfyd7b6DiQsjW_FOakkvnWMaDUzcT0SmoXM,54
+gaspy-1.0.2.dist-info/top_level.txt,sha256=oks24kOOFfVO5ZqkB44tU42X3A8uFsYQwvyPwrTKsS4,6
+gaspy-1.0.2.dist-info/RECORD,,
