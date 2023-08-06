@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: analogai
+Version: 0.0.1
+Summary: Easing the use of analog neural networks
+Home-page: https://github.com/pypa/sampleproject
+Author: Juan Cruz-Benito
+Author-email: juan.cruz@ibm.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# analogai
+
+Easing the use of analog neural networks.
+
+
