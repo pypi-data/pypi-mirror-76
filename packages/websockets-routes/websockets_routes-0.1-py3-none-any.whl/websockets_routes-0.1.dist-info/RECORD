@@ -1,0 +1,5 @@
+websockets_routes/__init__.py,sha256=6aJwNLVAnSIm6KayGFcyQ3UMYaXJwJinRbWaWVQsjFo,152
+websockets_routes/routers.py,sha256=piRG0h1W-64o4uNa6l-cV60vk1Y_XGbvBALn8nZXgM8,2186
+websockets_routes-0.1.dist-info/WHEEL,sha256=W0C0r2jfBMZdb75jfiTB1qBj15B4vwTGGZrLTh2uslc,81
+websockets_routes-0.1.dist-info/METADATA,sha256=ouVFrPNsXAwRcfskx7rBm9ZltKiQwd7i9wZIeeOtmhk,2879
+websockets_routes-0.1.dist-info/RECORD,,
