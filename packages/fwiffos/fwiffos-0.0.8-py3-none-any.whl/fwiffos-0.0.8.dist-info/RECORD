@@ -1,0 +1,15 @@
+fwiffos/cli/__init__.py,sha256=XSZQcOoSaibhsJgahaX5ZB2L5ju46fKrFyk_L7O7p5Q,60
+fwiffos/cli/fwiffish,sha256=QjgoeLWi6RU1l01JZLBgg9tWcHZ2SXmX0JUFLoeDcV0,146
+fwiffos/cli/test-lmdb.py,sha256=mbmOK3xAPaYg_biPxSmwkPRnC0thzELIvbb_0i9l5nI,60
+fwiffos/core/__init__.py,sha256=e79g-dvLaTVn3HC79J_aoDEdKu6Hzumqo2fc6QGLebw,176
+fwiffos/core/core.py,sha256=h2325t39bhIQuJ92_kFdiq8lwrbpfH51lJ38XD_KHwo,383
+fwiffos/core/identity.py,sha256=tU5JciRcj-Gnn07RZyUXhRTE_ncmFPZXnoQRCY-xDKo,109
+fwiffos/core/log.py,sha256=OOToeRlFW1RMSNPoBdWEPJWpx5QoMc2QSpFfqi3Y2mI,280
+fwiffos/core/shell.py,sha256=A3wVIF21APttDgQnMQZ4IY2Xbc-H2HnDdlRF_y423fQ,64
+fwiffos/core/shell_capabilities.py,sha256=7ZwRQ-fFP1wKSUmSPTB-_MZ_mL0x5d2wCnRbrJ0orCA,657
+fwiffos-0.0.8.data/scripts/fwiffish,sha256=owGGjIys4VS3tNVAUUs-SEy1Xouxy3QrakWRvc-ZqzI,132
+fwiffos-0.0.8.dist-info/LICENSE,sha256=czxsN40ud7nOYqsRYFnTIbg3lzMb_KGOGyRtIZPbmxE,1065
+fwiffos-0.0.8.dist-info/METADATA,sha256=tz11Z7i-cjPFogxWsL38NPUp7sgYbiLCl_4hgmM9_wM,842
+fwiffos-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fwiffos-0.0.8.dist-info/top_level.txt,sha256=DIIe-x3rfxpYgriGv7QIx5MN_-HwygPro2j2_pB1T1c,8
+fwiffos-0.0.8.dist-info/RECORD,,
