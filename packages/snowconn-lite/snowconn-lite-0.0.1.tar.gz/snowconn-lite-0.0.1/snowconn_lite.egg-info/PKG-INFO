@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: snowconn-lite
+Version: 0.0.1
+Summary: Python utilities for connection to the Snowflake data warehouse LITE
+Home-page: UNKNOWN
+Author: Manuel Garrido
+Author-email: UNKNOWN
+License: MIT License
+Description: Python utilities for connection to the Snowflake data warehouse LITE
+Platform: UNKNOWN

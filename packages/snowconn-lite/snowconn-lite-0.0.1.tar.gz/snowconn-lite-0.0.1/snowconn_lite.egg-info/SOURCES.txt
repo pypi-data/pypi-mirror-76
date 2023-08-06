@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+snowconn/__init__.py
+snowconn/connect.py
+snowconn_lite.egg-info/PKG-INFO
+snowconn_lite.egg-info/SOURCES.txt
+snowconn_lite.egg-info/dependency_links.txt
+snowconn_lite.egg-info/requires.txt
+snowconn_lite.egg-info/top_level.txt
