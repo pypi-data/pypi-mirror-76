@@ -1,0 +1,10 @@
+README.md
+setup.py
+rfiflag/__init__.py
+rfiflag/pulldb.py
+rfiflag/rfiflag.py
+rfiflag.egg-info/PKG-INFO
+rfiflag.egg-info/SOURCES.txt
+rfiflag.egg-info/dependency_links.txt
+rfiflag.egg-info/not-zip-safe
+rfiflag.egg-info/top_level.txt

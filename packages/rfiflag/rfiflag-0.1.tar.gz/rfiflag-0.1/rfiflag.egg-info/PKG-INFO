@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: rfiflag
+Version: 0.1
+Summary: Install package to create flag file(s) from RFI DB entries
+Home-page: https://gitlab.nrao.edu/bkirk/rfiflagger
+Author: brian
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
