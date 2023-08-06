@@ -1,0 +1,14 @@
+news_mining_db/__init__.py,sha256=YuNkUofueLegH4TW8Axtj6VpAtEoriLfO8FlRHhchxs,36
+news_mining_db/alembic.ini,sha256=Abn1D-y8h8HNeJzYbUe1PBa_bg88LuJmGMI-BBbCE3c,2017
+news_mining_db/alembic/env.py,sha256=4Z3alF0vK0gy-R9dZbK-4MHuByVKlLpL_YKr842xy3U,2138
+news_mining_db/commands/__init__.py,sha256=TONs_DnKHT0XW1iWK_SYN2y8czJaud6RXfyR6TLJnmc,955
+news_mining_db/migrations/46885c39f167_test.py,sha256=wjEbunRE-ieGlyeAE_cW8WiH7qTdL-DZnpxdKrg02rY,732
+news_mining_db/models/__init__.py,sha256=fngH_ODltgALuSrQxJ60GZoEY7mdtNB1Np5wA_jczSU,52
+news_mining_db/models/base_model.py,sha256=Ba-wt8p59bLmeUONkYSo5MhrkH-_HdT4zE1Y9MVGrSQ,83
+news_mining_db/models/site.py,sha256=OG083G0mrpVq47KvHt49jWI_cWRN1v5QJplxnMU8s1k,221
+news_mining_db-0.3.15.dist-info/LICENSE,sha256=cGss6hsHAq8krfofcwtVlXPXYHKH4xOPrvi4yHCGZzI,1075
+news_mining_db-0.3.15.dist-info/METADATA,sha256=XDngjV8Bh_eBzpWJXkeR0b5p8FA7eV2b7iFT9big5PQ,344
+news_mining_db-0.3.15.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+news_mining_db-0.3.15.dist-info/entry_points.txt,sha256=Sixg9MXJEmGwq-PYXB_s2MOBKIpKWWAjf5MqtOXudRg,109
+news_mining_db-0.3.15.dist-info/top_level.txt,sha256=-kmd4vGl3pWFDXH2tnZmp2-8qAKHj4MZr4GH6SjEOBI,15
+news_mining_db-0.3.15.dist-info/RECORD,,
