@@ -1,0 +1,8 @@
+README.md
+setup.py
+hideme/__init__.py
+hideme/proxy_collector.py
+hideme.egg-info/PKG-INFO
+hideme.egg-info/SOURCES.txt
+hideme.egg-info/dependency_links.txt
+hideme.egg-info/top_level.txt
