@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: fasta-manipulate-scripts
+Version: 1.0.0
+Summary: **What can this package do ?**
+function_1.py script is used to merge multiple line sequences in fasta files into one line sequence, and function_2.py script is used to count the number of different length sequences in the fasta file.
+
+Home-page: UNKNOWN
+Author: wison
+Author-email: 15527825168@163.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
