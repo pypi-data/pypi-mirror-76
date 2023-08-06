@@ -1,0 +1,6 @@
+acme>=0.31.0
+certbot>=1.1.0
+mock
+setuptools
+zope.interface
+dns-lexicon>=3.2.1

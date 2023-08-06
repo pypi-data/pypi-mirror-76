@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+setup.cfg
+setup.py
+certbot_dns_namesilo/__init__.py
+certbot_dns_namesilo.egg-info/PKG-INFO
+certbot_dns_namesilo.egg-info/SOURCES.txt
+certbot_dns_namesilo.egg-info/dependency_links.txt
+certbot_dns_namesilo.egg-info/entry_points.txt
+certbot_dns_namesilo.egg-info/requires.txt
+certbot_dns_namesilo.egg-info/top_level.txt
+certbot_dns_namesilo/_internal/__init__.py
+certbot_dns_namesilo/_internal/dns_namesilo.py
+tests/dns_namesilo_test.py

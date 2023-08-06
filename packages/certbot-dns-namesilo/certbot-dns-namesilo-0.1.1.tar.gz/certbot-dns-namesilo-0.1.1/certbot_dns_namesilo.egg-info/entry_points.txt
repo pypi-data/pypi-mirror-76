@@ -1,0 +1,3 @@
+[certbot.plugins]
+dns-namesilo = certbot_dns_namesilo._internal.dns_namesilo:Authenticator
+
