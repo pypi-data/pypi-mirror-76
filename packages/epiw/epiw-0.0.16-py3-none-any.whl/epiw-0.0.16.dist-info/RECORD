@@ -1,0 +1,9 @@
+epiw/__init__.py,sha256=8-eGpfbSD4OmGr8p6WC7BQIE8zX17AXUWoaKVuNE0Z0,4095
+epiw/grid.py,sha256=7YmbGFiX_jCV486nUdseq6SC3o_XcU8B8lT3r4XdMtg,3357
+epiw/locationinfo.py,sha256=hw2ISREy7l0NpG_ZZmBeApzvCnrP3YSt8HwP_Wrp_6U,1007
+epiw/test.py,sha256=38NKZJWXoaxfD9XzQa71oT0a6Z2J2EUydi6oMZcxzT4,972
+epiw/type.py,sha256=mfkVTFS7PThwYo1irs7Jd8a5aJIVcs3cy9I5Frx3csg,342
+epiw-0.0.16.dist-info/METADATA,sha256=VxYgrnf07yTZPW9JBpHno3vV5bUcsgQnWW3hmRkF5bk,702
+epiw-0.0.16.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+epiw-0.0.16.dist-info/top_level.txt,sha256=-SP8UcTBOnEpGuuaSvjkMxf-ksLpAxARPVlfIu8MaW0,5
+epiw-0.0.16.dist-info/RECORD,,
