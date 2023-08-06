@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pygitbucket
+Version: 2020.8.12
+Summary: This package enables you use the bitbucket REST-api using a simplified API
+Home-page: https://github.com/SimiCode/pygitbucket
+Author: Edison Abahurire
+Author-email: abahedison@gmail.com
