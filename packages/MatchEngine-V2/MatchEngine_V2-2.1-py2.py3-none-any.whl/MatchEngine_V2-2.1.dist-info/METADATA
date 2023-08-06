@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: MatchEngine-V2
+Version: 2.1
+Summary: Open source engine for matching cancer patients to precision medicine clinical trials (V2).
+Home-page: UNKNOWN
+Author: Eric Marriott, Ethan Siegel
+Author-email: esiegel@ds.dfci.harvard.edu
+License: UNKNOWN
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: bson (>=0.5.8)
+Requires-Dist: python-dateutil (>=2.8.0)
+Requires-Dist: PyYAML (>=5.1)
+Requires-Dist: Pandas (>=0.25.0)
+Requires-Dist: pymongo (>=3.8.0)
+Requires-Dist: networkx (>=2.3)
+Requires-Dist: motor (>=2.0.0)
+
+UNKNOWN
+
+
