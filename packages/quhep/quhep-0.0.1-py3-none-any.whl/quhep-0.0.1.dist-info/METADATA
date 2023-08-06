@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: quhep
+Version: 0.0.1
+Summary: Quantum Machine Learning Framework for High Energy Physics
+Home-page: https://github.com/chnzhangrui/quhep
+Author: Rui Zhang
+Author-email: rui.zhang@cern.ch
+License: MIT
+Download-URL: https://pypi.org/project/quhep/
+Keywords: Quantum Machine Learning,Tensorflow Quantum,Qiskit pyTorch
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Construct Quantum Neural Network using [Tensorflow-quantum](https://www.tensorflow.org/quantum/overview) or [Qiskit](https://qiskit.org/textbook/ch-machine-learning/machine-learning-qiskit-pytorch.html#quantumlayer)
+
+## 1. How to run
+- Checkout
+```
+pip install quhep
+```
+
+
+
+
