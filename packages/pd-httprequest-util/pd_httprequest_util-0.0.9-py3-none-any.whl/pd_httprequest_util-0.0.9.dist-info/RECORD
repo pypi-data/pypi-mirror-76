@@ -1,0 +1,13 @@
+pd_httprequest_util/__init__.py,sha256=VkqKNhCu7_SPtm2SJjQ7vIeLd6wBQJZl_t1N5uPUZuc,22
+pd_httprequest_util/connection/__init__.py,sha256=0zd71CLXpYALUC-GphLvlxLzndOX2I4gsnp5vpVMF1U,27
+pd_httprequest_util/connection/async_.py,sha256=iIQSdsuab-JydtwDgu1hw9PapUo1OwX1Lczkyd_W-8M,1971
+pd_httprequest_util/connection/main.py,sha256=gUVFgYYBY6FAyJ-ew0_nopgdd0-IIa2AympZMmPCJYU,253
+pd_httprequest_util/connection/sync_.py,sha256=gqMyY1gNre_7Bk4lS_dYPjvkdGTKjdeZRIL30bINIYw,1009
+pd_httprequest_util/request.py,sha256=FbXXlpm3lI7hFvAwT36LTN3YLiZklBuirtj_Rj5mUf0,6288
+pd_httprequest_util/request_manager.py,sha256=i9IZ0Xz6I08rkilU7h_e12FTX5dwQGehAPDGsBEtx-s,4222
+pd_httprequest_util/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pd_httprequest_util/utils/group_util.py,sha256=oqNGXA4ZK4-x-no-okYw3eY2FohkrmUNmxmw2kNLucU,979
+pd_httprequest_util/utils/log_util.py,sha256=igX5AKmJ7OVI_JiemDAPrYY2KXjjrHyGgynq0yWIrC4,652
+pd_httprequest_util-0.0.9.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+pd_httprequest_util-0.0.9.dist-info/METADATA,sha256=ijWVxvnWAGfC33imZzOruXeqvyU7bdfS7EK3haSnu5k,10558
+pd_httprequest_util-0.0.9.dist-info/RECORD,,
