@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: StringToInteger
+Version: 1.0.0
+Summary: Convert your string to integer
+Home-page: https://github.com/mytja/String-to-Integer-for-Python
+Author: MyTja Team
+Author-email: mamnju21@gmail.com
+License: UNKNOWN
+Description: # String-to-Integer-for-Python
+        
+        Example code:
+        ```
+        import StrToInt as sti
+        
+        sti1 = sti.StrToInt("1")
+        sti2 = sti.StrToInt("1132")
+        sti3 = sti.StrToInt("nine")
+        print(sti1)
+        print(sti2)
+        print(sti3)
+        ```
+        
+        Output:
+        ```
+        1
+        1132
+        9
+        ```
+        
+        Library can be used with Python 2 and 3
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.3,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*
+Description-Content-Type: text/markdown

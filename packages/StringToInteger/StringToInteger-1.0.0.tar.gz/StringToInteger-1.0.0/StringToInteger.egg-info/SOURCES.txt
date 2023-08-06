@@ -1,0 +1,8 @@
+README.md
+setup.py
+StringToInteger/StrToInt.py
+StringToInteger/__init__.py
+StringToInteger.egg-info/PKG-INFO
+StringToInteger.egg-info/SOURCES.txt
+StringToInteger.egg-info/dependency_links.txt
+StringToInteger.egg-info/top_level.txt
