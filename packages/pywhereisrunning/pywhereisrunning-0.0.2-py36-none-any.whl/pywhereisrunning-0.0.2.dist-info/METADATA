@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: pywhereisrunning
+Version: 0.0.2
+Summary: ('Where python script is running',)
+Home-page: https://github.com/atomse/pywhereisrunning
+Author: Sky Zhang
+Author-email: sky.atomse@gmail.com
+Maintainer: Sky Zhang
+Maintainer-email: sky.atomse@gmail.com
+License: MIT License
+Platform: Linux
+Platform: Darwin
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: POSIX
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: ==3.6.*
+Description-Content-Type: text/markdown
+Provides-Extra: curate
+Requires-Dist: graphviz ; extra == 'curate'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: numpydoc ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest (>=4.0) ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+
+# Pywhereisrunning
+[![Build Status](https://travis-ci.org/atomse/pywhereisrunning.svg?branch=master)](https://travis-ci.org/atomse/pywhereisrunning)
+
+To see where the python script is running when the script is running.
+
+Basically, it uses SIGUSR1 to send the signal to the python script, the script get the signal and 
+use the frame to display where the script is running.
+
+
+
+## Installation
+
+
+```bash
+pip install pywhereisrunning
+```
+
+
+
+## Usage
+
+
+Just
+
+```python
+import pywhereisrunning
+```
+to make the function available.
+
+
+when you're run the script, use 
+
+* `pywhereisrunning $(filename)`
+
+to show where the script is running.
+
+After the command, will show
+```bash
+  File "src/preprocess.py", line 50, in <module>
+    click_df,train_user,test_user=merge_files()
+  File "src/preprocess.py", line 36, in merge_files
+    click_df=click_df.fillna(-1)
+  File "/home/sky/.conda/envs/py3.6/lib/python3.6/site-packages/pandas/core/frame.py", line 4153, in fillna
+    downcast=downcast,
+  File "/home/sky/.conda/envs/py3.6/lib/python3.6/site-packages/pandas/core/generic.py", line 6237, in fillna
+    value=value, limit=limit, inplace=inplace, downcast=downcast
+```
+
+
+
+
+## TODOS
+
+
+[x] `pywhereisrunning + $(filename)`
+
+
