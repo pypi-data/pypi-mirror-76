@@ -1,0 +1,14 @@
+pyGoogleTranslate/__init__.py,sha256=yzEVz0xudGqyi7hns4ZWWIiz7nres2Be5HbuJ7XF5m0,22673
+pyGoogleTranslate/internal/__init__.py,sha256=G77BeXoIVH9LXmXLv05lpp5PIMrTAynnxE1kiuN_Ps0,250
+pyGoogleTranslate/internal/caching.py,sha256=QuvDfS0cVYv0dNwngk29swNWs26me-cC1uc7qUkCr5M,3032
+pyGoogleTranslate/internal/domain.py,sha256=Jj8yQobAnruv6uWM5xcs0Zy-VzbXngTo7dVzduwTiJg,1070
+pyGoogleTranslate/internal/google_translate_data.py,sha256=j5Z-oA2NXwQzkph_fX09dopsW4XlWP0EOinV41KxIiU,450946
+pyGoogleTranslate/internal/language_code.py,sha256=GVuvLE4OmFYCNekZ2x97JMuJbZ6bPsJ_ZahESC9dsYc,1167
+pyGoogleTranslate/internal/pyGoogleTranslate_pyppeteer.py,sha256=_wWfMaDAqog-VGxmL-vWuNyyrd0ZEP7TtvPIR-VCe28,18496
+pyGoogleTranslate/internal/project/alpha/text_to_speech.py,sha256=4rWNNpbTqk5idHf0zcCZsyYavJDnCpYQiQYWLtZJKUo,597
+pyGoogleTranslate/internal/translation_caches/translation_caches.animenosekai_caches,sha256=j8cbveJb81UWg9UV4u-tLFHw-clDszRHi3cTF4-IKNQ,800200
+pyGoogleTranslate-3.6.2.dist-info/LICENSE,sha256=wPPnH1lZ4X9oS50qYVXR3MvX4r-yZ_npM-4i05WAa_8,1069
+pyGoogleTranslate-3.6.2.dist-info/METADATA,sha256=_kdcZJFc4Q4O6nxJVMkRfFDbfrfOlF618dN377OB3vY,7826
+pyGoogleTranslate-3.6.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyGoogleTranslate-3.6.2.dist-info/top_level.txt,sha256=Ha0ajd7COWEU33xFA2j1muWA-aFwqPzP8VFqYAdEwVY,18
+pyGoogleTranslate-3.6.2.dist-info/RECORD,,
