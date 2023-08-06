@@ -1,0 +1,127 @@
+- job:
+    name: bifrost-base
+    parent: base
+    irrelevant-files:
+      - ^.*\.rst$
+      - ^bifrost/tests/.*$
+      - ^api-ref/.*$
+      - ^doc/.*$
+      - ^releasenotes/.*$
+      - ^setup.cfg$
+      - ^test-requirements.txt$
+      - ^tools/.*$
+      - ^tox.ini$
+    pre-run: playbooks/ci/pre.yaml
+    run: playbooks/ci/run.yaml
+    post-run: playbooks/ci/post.yaml
+    required-projects:
+      - openstack/bifrost
+      - openstack/diskimage-builder
+      - openstack/ironic
+      - openstack/ironic-inspector
+      - openstack/ironic-python-agent
+      - openstack/ironic-python-agent-builder
+      - openstack/requirements
+      - x/ironic-staging-drivers
+
+- job:
+    name: bifrost-integration
+    parent: bifrost-base
+
+- job:
+    name: bifrost-integration-dhcp
+    parent: bifrost-integration
+    timeout: 7200
+    vars:
+      use_dhcp: true
+      noauth_mode: true
+
+- job:
+    name: bifrost-integration-dhcp-ubuntu-bionic
+    parent: bifrost-integration-dhcp
+    nodeset: ubuntu-bionic
+
+- job:
+    name: bifrost-integration-dhcp-centos-8
+    parent: bifrost-integration-dhcp
+    nodeset: centos-8
+
+- job:
+    name: bifrost-integration-dibipa-debian
+    parent: bifrost-integration
+    timeout: 7200
+    vars:
+      build_image: true
+
+- job:
+    name: bifrost-integration-dibipa-debian-ubuntu-bionic
+    parent: bifrost-integration-dibipa-debian
+    nodeset: ubuntu-bionic
+
+- job:
+    name: bifrost-integration-dibipa-debian-centos-8
+    parent: bifrost-integration-dibipa-debian
+    nodeset: centos-8
+
+- job:
+    name: bifrost-integration-tinyipa
+    parent: bifrost-base
+    timeout: 3600
+    vars:
+      noauth_mode: false
+
+- job:
+    name: bifrost-integration-tinyipa-ubuntu-bionic
+    parent: bifrost-integration-tinyipa
+    nodeset: ubuntu-bionic
+
+- job:
+    name: bifrost-integration-tinyipa-keystone-ubuntu-bionic
+    parent: bifrost-integration-tinyipa
+    nodeset: ubuntu-bionic
+    required-projects:
+      - openstack/keystone
+    vars:
+      enable_keystone: true
+      test_driver: redfish
+
+- job:
+    name: bifrost-cli-ubuntu-bionic
+    parent: bifrost-integration-tinyipa-ubuntu-bionic
+    vars:
+      cli_test: true
+
+- job:
+    name: bifrost-integration-tinyipa-ubuntu-focal
+    parent: bifrost-integration-tinyipa
+    nodeset: ubuntu-focal
+
+- job:
+    name: bifrost-integration-tinyipa-centos-8
+    parent: bifrost-integration-tinyipa
+    nodeset: centos-8
+
+- job:
+    name: bifrost-integration-tinyipa-keystone-centos-8
+    parent: bifrost-integration-tinyipa
+    nodeset: centos-8
+    required-projects:
+      - openstack/keystone
+    vars:
+      enable_keystone: true
+      test_driver: redfish
+
+- job:
+    name: bifrost-integration-tinyipa-debian-buster
+    parent: bifrost-integration-tinyipa
+    nodeset: debian-buster
+
+- job:
+    name: bifrost-integration-tinyipa-opensuse-15
+    parent: bifrost-integration-tinyipa
+    nodeset: opensuse-15
+
+- job:
+    name: bifrost-integration-tinyipa-fedora-latest
+    parent: bifrost-integration-tinyipa
+    nodeset: fedora-latest

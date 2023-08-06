@@ -1,0 +1,15 @@
+---
+# defaults file for ironic-inspect-node
+noauth_mode: true
+inspection_wait_timeout: 1800
+inventory_dhcp: false
+inventory_dhcp_static_ip: true
+inventory_dns: false
+
+# Timeout for gathering facts.
+fact_gather_timeout: "{{ lookup('config', 'DEFAULT_GATHER_TIMEOUT', on_missing='skip') | default(omit, true) }}"
+
+# Ensure that Ansible is using python interpreter and dependencies inside the bifrost virtual environment
+enable_venv: true
+bifrost_venv_dir: "{{ lookup('env', 'VENV') or '/opt/stack/bifrost' }}"
+ansible_python_interpreter: "{{ bifrost_venv_dir + '/bin/python3' if enable_venv | bool else '/usr/bin/python3' }}"
