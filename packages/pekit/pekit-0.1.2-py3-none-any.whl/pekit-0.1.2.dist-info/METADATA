@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pekit
+Version: 0.1.2
+Summary: protein engineering kit
+Home-page: https://github.com/kyo46n/pekit/
+Author: Kyoshiro Nonaka
+Author-email: kyo46n@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: biopython
+Requires-Dist: xlrd
+
+# pekit: protein engineering kit
+A collection of petit programs for protein engineering.
+
+## setup
+#### activate environment (e.g. Anaconda)
+```
+$ conda create -n pekit
+$ conda activate pekit
+$ conda install pip
+```
+#### install
+```
+$ pip install pekit
+```
+#### test
+```
+$ python
+>>> from pekit import util
+>>> util.check_install()
+pekit was successfully installed.
+>>> quit()
+$
+```
+
+
