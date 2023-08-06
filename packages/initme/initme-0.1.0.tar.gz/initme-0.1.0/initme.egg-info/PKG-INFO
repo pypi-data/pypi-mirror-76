@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: initme
+Version: 0.1.0
+Summary: Create the __init__.py file in every single subdirectroy with a python folder
+Home-page: https://github.com/George3d6/initme
+Author: George Hosu
+Author-email: george@cerebralab.com
+License: MIT
+Download-URL: https://pypi.org/project/initme/
+Description: # Initme
+        
+        Utility to help setup python projects/libraries.
+        
+        ## Usages
+        
+        * Created an `__init__.py` file in every directory containing a python script. Examples: `python -m initme /path/to/my/project` or `cd /path/to/my/project && python -m initme`
+        
+        ## Install
+        
+        `pip install initme --user`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
