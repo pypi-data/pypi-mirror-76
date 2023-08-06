@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rezume-theme-onepage"
+version = "0.1.0"
+description = "A rezume theme port of jsonresume-theme-onepage"
+authors = ["Abdulhakeem Shaibu <hkmshb@gmail.com>"]
+license = "BSD-2-Clause"
+readme = "README.rst"
+repository = "https://github.com/hkmshb/rezume-themes.git"
+keywords = [ "rezume", "theme", "rezume theme" ]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pybars3 = "^0.9.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^2.10.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
