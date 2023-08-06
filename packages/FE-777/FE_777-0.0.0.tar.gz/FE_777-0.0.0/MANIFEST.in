@@ -1,0 +1,5 @@
+include FE_777/*.py
+include FE_777/*.so
+inclued MANIFEST.in
+inclued *.so    
+inclued *.py    

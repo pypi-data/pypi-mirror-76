@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+FE_777/FE_777.py
+FE_777.egg-info/PKG-INFO
+FE_777.egg-info/SOURCES.txt
+FE_777.egg-info/dependency_links.txt
+FE_777.egg-info/not-zip-safe
+FE_777.egg-info/top_level.txt
