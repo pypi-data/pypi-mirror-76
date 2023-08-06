@@ -1,0 +1,3 @@
+[console_scripts]
+slice-image = image_slicer.bin.slice:main
+
