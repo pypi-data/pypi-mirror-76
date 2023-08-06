@@ -1,0 +1,13 @@
+pd3f/__init__.py,sha256=HJfRjC1S68f46uHddBfnIrdyj45zHTWZmsHoqLRHr_g,199
+pd3f/dehyphen_wrapper.py,sha256=O0cc_B3LPXxTrW6k1Zo9BA2-j9QE-t_CnXOo9uPFTdM,1605
+pd3f/doc_info.py,sha256=T39kg_q83w9k8HYzgDArn42yQAd_FPqPt8Dc-1dW1Gs,8792
+pd3f/doc_output.py,sha256=UUtuwF9-MtNvGMcKId203v3QsiwVL9ohilfBa2oQL88,4687
+pd3f/export.py,sha256=Vc-t1oGOqQO1r9hKzfnq4E9GlhNsrLUizq2A6-BydQU,17568
+pd3f/geometry.py,sha256=_6I7-jeYB0hW9xcP8sRxdZvxh_Pq-jsv0jFVYC3IzVc,341
+pd3f/parsr_wrapper.py,sha256=CzTb5Syb0QkBLmdtcjduhlKBDzYsSpgOEZTc2f62xEA,3098
+pd3f/pd3fConfig.json,sha256=-ioE5mgOwQWfxPFtNypLBxdjiZy4PnTq-uDkcynayNo,1419
+pd3f/utils.py,sha256=38f_uwXJIrQq7cmzOdvLNucSDs84ui2RuiBEqmWc7JY,1116
+pd3f-0.1.0.dist-info/LICENSE,sha256=JzitQlOseAeoXworRH52qAzc9711CAo6NiEIwnmA-yQ,35104
+pd3f-0.1.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+pd3f-0.1.0.dist-info/METADATA,sha256=vmCl4lHXR2OELX4fJdSF2UtoytOHrwtUwfGjh8RnXLw,6741
+pd3f-0.1.0.dist-info/RECORD,,
