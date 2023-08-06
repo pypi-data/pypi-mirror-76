@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+libtorrent.vext
+setup.cfg
+setup.py
+vext.libtorrent.egg-info/PKG-INFO
+vext.libtorrent.egg-info/SOURCES.txt
+vext.libtorrent.egg-info/dependency_links.txt
+vext.libtorrent.egg-info/requires.txt
+vext.libtorrent.egg-info/top_level.txt
