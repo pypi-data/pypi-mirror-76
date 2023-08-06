@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+websharecli/__init__.py
+websharecli/api.py
+websharecli/cli.py
+websharecli/commands.py
+websharecli/config.py
+websharecli/data.py
+websharecli/util.py
+websharecli.egg-info/PKG-INFO
+websharecli.egg-info/SOURCES.txt
+websharecli.egg-info/dependency_links.txt
+websharecli.egg-info/entry_points.txt
+websharecli.egg-info/requires.txt
+websharecli.egg-info/top_level.txt

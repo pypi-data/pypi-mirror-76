@@ -1,0 +1,3 @@
+[console_scripts]
+webshare = websharecli.cli:main
+
