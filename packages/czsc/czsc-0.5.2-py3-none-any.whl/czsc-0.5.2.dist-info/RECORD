@@ -1,0 +1,10 @@
+czsc/__init__.py,sha256=yRqQUj9m7dAfOIAjBiPFJgYNfT5zVJKDNXBnXLbmbqw,206
+czsc/analyze.py,sha256=DuwUgPK6uZECeBNvK8D_IgQiDzvrAj1RDSf0f-E52Sc,27170
+czsc/signals.py,sha256=8VwjLaw6N25DZ5OuEVsIWZFCB16Aoc6JL9rlkrTTIe8,23286
+czsc/ta.py,sha256=6LN2_5PZWRtNZ663hylrL03bLWrhcuBnU6HYdK2GiOs,1853
+czsc/utils.py,sha256=6x16mJLmRpWWtBiw43Nl2RSPl4v3gIquGrZMKPo3kX8,17740
+czsc-0.5.2.dist-info/LICENSE,sha256=URwfrf8QNKC7D-8iBPMYzwBgSYOKyZTR6JV1bF8gHyU,1066
+czsc-0.5.2.dist-info/METADATA,sha256=qrIsr4CiZH1DSEti0RSwaPxP3QW-dTQK4PkDQq49Zw4,768
+czsc-0.5.2.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+czsc-0.5.2.dist-info/top_level.txt,sha256=lzKbEbEcELx1Umnbd_77x1PSOMlpiPcEJAjavSwurLI,5
+czsc-0.5.2.dist-info/RECORD,,
