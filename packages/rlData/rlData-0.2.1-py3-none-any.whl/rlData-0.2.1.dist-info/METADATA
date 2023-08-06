@@ -1,0 +1,1113 @@
+Metadata-Version: 2.1
+Name: rlData
+Version: 0.2.1
+Summary: 融量数据接口
+Home-page: UNKNOWN
+Author: joyle
+Author-email: joyle.zhang@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (>=0.24.2)
+
+融量数据API（rlData）
+--
+
+[toc]
+
+### 安装使用
+
+#### 安装
+
+```shell
+pip install rlData
+```
+
+#### 升级
+
+```shell
+pip install rlData --upgrade
+```
+
+#### 使用
+
+```python
+import rlData as rl
+```
+
+```shell
+[ root@local ~]$ python
+Python 3.7.3 (default, Apr 24 2019, 15:29:51) [MSC v.1915 64 bit (AMD64)] :: Anaconda, Inc. on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import rlData as rl
+>>> help(rl)
+...
+PACKAGE CONTENTS
+    basic
+    factor (package)
+    index
+    stock
+    utils (package)
+
+FUNCTIONS
+    login(username, password)
+...
+```
+
+```shell
+[ root@local ~]$ python
+Python 3.7.3 (default, Apr 24 2019, 15:29:51) [MSC v.1915 64 bit (AMD64)] :: Anaconda, Inc. on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import rlData as rl
+>>> rl.stock.trade_date()
+(200, '2020-08-06')
+>>> 
+```
+
+##### 修改服务器设置
+
+api设定了默认的服务器地址、端口、以及服务端版本号，在使用过程中，也可以通过以下指令临时更换设置: 
+
+```python
+rl.client(host='XX.XX.XX.XX',port=XX,apiVersion='v1')
+```
+
+或者通过设置环境变量来更换服务器地址:
+
+```shell
+export RLDATA_HOST=XX.XX.XX.XX
+export RLDATA_PORT=XXXX
+export RLDATA_VERSION=v1
+```
+
+##### 用户登录
+```python
+status, ret = rl.login(username,password)
+```
+- 参数:
+  - username: 用户名
+  - password: 用户口令
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回用户token信息，类型为dict({'access_token': ..., 'token_type': ...})。调用失败时，返回失败原因
+
+### 沪深股票
+
+#### 最近交易日
+```python
+status, ret = rl.stock.trade_date(exchange=None, date=None)
+```
+- 参数:
+  - exchange: 对应市场代码，默认为None，取上交所(001002)                
+    - '001002': 上海证券交易所                
+    - '001003': 深圳证券交易所                
+    - '001005': 银行间市场                
+    - '001008': 上海期货交易所                
+    - '001009': 中国金融期货交易所                
+    - '001010': 中国外汇交易市场                
+    - '001015': 上海黄金交易所                
+    - '001016': 大连商品交易所                
+    - '001017': 郑州商品交易所                
+    - '001022': 渤海商品交易所                
+    - '001025': 天津贵金属交易所                
+    - '002001': 香港证券交易所                
+    - '003002': 台湾证券交易所                
+    - '101001': 纽约证券交易所                
+    - '101002': 美国纳斯达克市场                
+    - '101003': 美国证券交易所                
+    - '101014': 纽约商业期货交易所                
+    - '101016': 洲际交易所                
+    - '101017': 芝加哥期货交易所                
+    - '104017': 东京证券交易所                
+    - '105001': 伦敦证券交易所（英国）                
+    - '105015': 法兰克福证交所（德国证交所）                
+    - '105030': 卢森堡证券交易所                
+    - '105061': 伦敦金属交易所                
+    - '106001': 澳大利亚证券交易所                
+    - '107032': 多伦多证券交易所
+  - date: 日期
+- 返回值:
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回交易日信息，类型为string。调用失败时，返回失败原因
+
+#### 交易日历表
+```python
+status, ret = rl.stock.trade_list(startdate, enddate=None, period="1d")
+```
+- 参数:
+  - startdate: 起始日期        
+  - enddate: 终止日期        
+  - period: 周期
+- 返回值：
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回交易日历列表，类型为list。调用失败时，返回失败原因
+
+#### 证券基本信息
+
+```python
+status, ret = rl.stock.basicinfo(stocks)
+```
+- 参数:
+  - stocks: 个股列表
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回证券基本信息，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+#### 证券日行情
+
+```python
+status, ret = rl.stock.daily_price(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数:
+  - fields: 衍生数据字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回行情数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+### 指数
+
+#### 指数列表
+
+```python
+status, ret = rl.index.list()
+```
+
+- 参数:
+  无
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回指数列表信息，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+#### 指数成分股
+
+```python
+status, ret = rl.index.component(isymbol, date=None)
+```
+
+- 参数:
+  - isymbol: 指数
+  - date: 日期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回指数成份股数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+#### 指数日行情
+
+```python
+status, ret = rl.index.daily_price(isymbol, fields=None,startdate=None,enddate=None,period=None)
+```
+- 参数:
+  - isymbol: 指数
+  - fields: 行情数据字段，None表示返回所有字段
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回行情数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+### 基础衍生
+
+#### 基础衍生数据列表
+
+```python
+status, ret = rl.basic.list()
+```
+- 参数
+  无
+
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回基础衍生数据列表，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+#### 通用查询接口
+
+```python
+status, ret = rl.basic.query(key,fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - key: 衍生数据组合key
+  - fields: 衍生数据字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 起始日期
+  - enddate: 终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回基础衍生数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+#### 个股资金流向
+
+```python
+status, ret = rl.basic.money_flow(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 衍生数据字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 起始日期
+  - enddate: 终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回基础衍生数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+#### 股票资金流向
+
+```python
+status, ret = rl.basic.cash_flow(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 衍生数据字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 起始日期
+  - enddate: 终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回基础衍生数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+#### 沪港通持股记录
+
+```python
+status, ret = rl.basic.shhkt_sharehold(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 衍生数据字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 起始日期
+  - enddate: 终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回基础衍生数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+#### 融资融券明细
+
+```python
+status, ret = rl.basic.margin_info(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 衍生数据字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 起始日期
+  - enddate: 终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回基础衍生数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+### 因子
+
+#### 因子原始值
+
+##### 因子数据列表
+
+```python
+status, ret = rl.factor.list()
+```
+- 参数
+  无
+
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回基础衍生数据列表，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 通用查询接口
+
+```python
+status, ret = rl.factor.query(key,fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - key: 因子组合key
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 起始日期
+  - enddate: 终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 基础衍生
+
+```python
+status, ret = rl.factor.basic_derivation(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 起始日期
+  - enddate: 终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+
+##### 估值因子
+
+```python
+status, ret = rl.factor.valuation_estimation(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 反转指标
+
+```python
+status, ret = rl.factor.reversal(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 情绪指标
+
+```python
+status, ret = rl.factor.sentiment(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 量能指标
+
+```python
+status, ret = rl.factor.power_volume(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 量价指标
+
+```python
+status, ret = rl.factor.price_volume(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 动量指标
+
+```python
+status, ret = rl.factor.momentum(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 收益风险
+
+```python
+status, ret = rl.factor.volatility_value(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 盈利预测
+
+```python
+status, ret = rl.factor.earning_expectation(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 偿债能力
+
+```python
+status, ret = rl.factor.solvency(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 营运能力
+
+```python
+status, ret = rl.factor.operation_capacity(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 资本结构
+
+```python
+status, ret = rl.factor.capital_structure(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 每股指标
+
+```python
+status, ret = rl.factor.per_share_indicators(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 收益质量
+
+```python
+status, ret = rl.factor.revenue_quality(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 现金流量
+
+```python
+status, ret = rl.factor.cash_flow(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 历史成长
+
+```python
+status, ret = rl.factor.historical_growth(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 盈利能力
+
+```python
+status, ret = rl.factor.earning(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+#### 标准化因子
+
+##### 因子数据列表
+
+```python
+status, ret = rl.factor.std.list()
+```
+- 参数
+  无
+
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回基础衍生数据列表，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 通用查询接口
+
+```python
+status, ret = rl.factor.std.query(key,fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - key: 因子组合key
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 起始日期
+  - enddate: 终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 基础衍生
+
+```python
+status, ret = rl.factor.std.basic_derivation(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 起始日期
+  - enddate: 终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+
+##### 估值因子
+
+```python
+status, ret = rl.factor.std.valuation_estimation(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 反转指标
+
+```python
+status, ret = rl.factor.std.reversal(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 情绪指标
+
+```python
+status, ret = rl.factor.std.sentiment(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 量能指标
+
+```python
+status, ret = rl.factor.std.power_volume(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 量价指标
+
+```python
+status, ret = rl.factor.std.price_volume(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 动量指标
+
+```python
+status, ret = rl.factor.std.momentum(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 收益风险
+
+```python
+status, ret = rl.factor.std.volatility_value(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 盈利预测
+
+```python
+status, ret = rl.factor.std.earning_expectation(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 偿债能力
+
+```python
+status, ret = rl.factor.std.solvency(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 营运能力
+
+```python
+status, ret = rl.factor.std.operation_capacity(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 资本结构
+
+```python
+status, ret = rl.factor.std.capital_structure(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 每股指标
+
+```python
+status, ret = rl.factor.std.per_share_indicators(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 收益质量
+
+```python
+status, ret = rl.factor.std.revenue_quality(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 现金流量
+
+```python
+status, ret = rl.factor.std.cash_flow(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 历史成长
+
+```python
+status, ret = rl.factor.std.historical_growth(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 盈利能力
+
+```python
+status, ret = rl.factor.std.earning(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+#### 收费因子(vip)
+
+##### 因子数据列表
+
+```python
+status, ret = rl.factor.vip.list()
+```
+- 参数
+  无
+
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回基础衍生数据列表，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 通用查询接口
+
+```python
+status, ret = rl.factor.vip.query(key,fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - key: 因子组合key
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 起始日期
+  - enddate: 终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 融量特色因子
+
+```python
+status, ret = rl.factor.vip.rl_characteristic(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 东兴因子
+
+```python
+status, ret = rl.factor.vip.dx_securities(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 天风因子
+
+```python
+status, ret = rl.factor.vip.tf_securities(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 收费因子
+
+```python
+status, ret = rl.factor.vip.inhouse(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+#### 标准化收费因子(vip)
+
+##### 因子数据列表
+
+```python
+status, ret = rl.factor.vip.std.list()
+```
+- 参数
+  无
+
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回基础衍生数据列表，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 通用查询接口
+
+```python
+status, ret = rl.factor.vip.std.query(key,fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - key: 因子组合key
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 起始日期
+  - enddate: 终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 融量特色因子
+
+```python
+status, ret = rl.factor.vip.std.rl_characteristic(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 东兴因子
+
+```python
+status, ret = rl.factor.vip.std.dx_securities(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 天风因子
+
+```python
+status, ret = rl.factor.vip.std.tf_securities(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+##### 收费因子
+
+```python
+status, ret = rl.factor.vip.std.inhouse(fields=None,isymbol=None,stocks=None,startdate=None,enddate=None,period=None)
+```
+- 参数
+  - fields: 因子数据返回字段，None表示返回所有字段
+  - isymbol: 基准指数
+  - stocks: 个股列表
+  - startdate: 行情起始日期
+  - enddate: 行情终止日期
+  - period: 周期
+- 返回值
+  - status: 接口调用状态，200表示成功，其他失败
+  - ret: 调用成功时，返回因子数据，类型为pandas.DataFrame。调用失败时，返回失败原因
+
+
+
