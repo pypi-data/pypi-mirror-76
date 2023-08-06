@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: stemtokenizer
+Version: 0.1
+Summary: Adding stemming functionality to Sklearn text vectorizers.
+Home-page: UNKNOWN
+Author: Michael Cortes
+Author-email: michaelgcortes@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
+
