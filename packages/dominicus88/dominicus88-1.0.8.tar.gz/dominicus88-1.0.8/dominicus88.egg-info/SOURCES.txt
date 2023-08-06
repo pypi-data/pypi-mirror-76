@@ -1,0 +1,10 @@
+README.md
+setup.py
+dominicus88.egg-info/PKG-INFO
+dominicus88.egg-info/SOURCES.txt
+dominicus88.egg-info/dependency_links.txt
+dominicus88.egg-info/requires.txt
+dominicus88.egg-info/top_level.txt
+notioncalendarsync-dominic/__init__.py
+notioncalendarsync-dominic/google_calendar.py
+notioncalendarsync-dominic/notion_api.py
