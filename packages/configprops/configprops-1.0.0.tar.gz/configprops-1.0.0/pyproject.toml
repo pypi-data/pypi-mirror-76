@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "configprops"
+version = "1.0.0"
+description = "A configuration base class to be extended with list of KEYS (same prefix) that could be overridden by environment variables."
+license = "MIT"
+authors = ["Xu Yijun <xuyijun@gmail.com>"]
+readme = "README.rst"
+repository = "https://github.com/tommyxu/configprops"
+classifiers=[
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+termcolor = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+twine = "^3.2.0"
+mypy = "^0.782"
+pylint = "^2.5.3"
+ipython = "^7.17.0"
+yapf = "^0.30.0"
+pytest = "^6.0.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

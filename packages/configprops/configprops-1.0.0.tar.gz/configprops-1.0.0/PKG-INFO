@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: configprops
+Version: 1.0.0
+Summary: A configuration base class to be extended with list of KEYS (same prefix) that could be overridden by environment variables.
+Home-page: https://github.com/tommyxu/configprops
+License: MIT
+Author: Xu Yijun
+Author-email: xuyijun@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://github.com/tommyxu/configprops
+Description-Content-Type: text/x-rst
+
+# configprops
+
+## Introduction
+
+This packages defines a set of KEYS (sharing prefix) as configuration keys. Allow overriding from environment variables.
+
+## Examples
+
+Examples follows soon.
+
