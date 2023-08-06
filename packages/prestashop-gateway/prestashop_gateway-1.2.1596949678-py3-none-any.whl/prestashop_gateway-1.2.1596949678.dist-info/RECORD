@@ -1,0 +1,9 @@
+prestashop_gateway/__init__.py,sha256=7X8bXMDSPcEZhJrSGvt96nO01eHynhV74WEQWd9TvyQ,114
+prestashop_gateway/connection.py,sha256=ZU-M3SbOXYJ4-hwnHdJ7GvLjHL-VjblLrmTTuVEPpy4,11985
+prestashop_gateway/error.py,sha256=UxBxA-vC_gdp0yX1qMkI_MCaW9ZNNUfq82j8ZtgeO2c,33
+prestashop_gateway/exception.py,sha256=7lYBJe0M0_CxbO3_8Q5_JkpTMZbZzqPdB8J1bWd4Q90,816
+prestashop_gateway-1.2.1596949678.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prestashop_gateway-1.2.1596949678.dist-info/METADATA,sha256=DesfEfaP_dLe61k6kiwWx_0o6WtvaTl3A6q7qDfShRk,1383
+prestashop_gateway-1.2.1596949678.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+prestashop_gateway-1.2.1596949678.dist-info/top_level.txt,sha256=vo5jjZvzLf9prUIcn1rUjuUXvddcqj_pjUckYL5-M60,19
+prestashop_gateway-1.2.1596949678.dist-info/RECORD,,
