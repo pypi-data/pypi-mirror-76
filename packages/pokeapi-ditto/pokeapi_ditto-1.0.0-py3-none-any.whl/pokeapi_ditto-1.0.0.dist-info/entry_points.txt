@@ -1,0 +1,3 @@
+[console_scripts]
+ditto=pokeapi_ditto.main:main
+
