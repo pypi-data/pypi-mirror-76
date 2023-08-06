@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: domain_model
+Version: 0.3
+Summary: Persisting objects.
+Home-page: https://github.com/CuriBio/domain-model
+Author: Curi Bio
+Author-email: contact@curibio.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
