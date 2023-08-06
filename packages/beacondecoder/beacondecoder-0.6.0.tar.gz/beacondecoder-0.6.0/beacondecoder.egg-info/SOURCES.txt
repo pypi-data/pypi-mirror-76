@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+beacondecoder/__init__.py
+beacondecoder/decoder.py
+beacondecoder.egg-info/PKG-INFO
+beacondecoder.egg-info/SOURCES.txt
+beacondecoder.egg-info/dependency_links.txt
+beacondecoder.egg-info/top_level.txt
