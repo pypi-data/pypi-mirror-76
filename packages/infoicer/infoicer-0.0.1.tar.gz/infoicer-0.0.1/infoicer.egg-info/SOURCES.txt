@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+infoicer/__init__.py
+infoicer/infoicer.py
+infoicer/util.py
+infoicer.egg-info/PKG-INFO
+infoicer.egg-info/SOURCES.txt
+infoicer.egg-info/dependency_links.txt
+infoicer.egg-info/top_level.txt
