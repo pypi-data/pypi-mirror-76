@@ -1,0 +1,3 @@
+[console_scripts]
+tc = typing_copilot.cli:cli
+
