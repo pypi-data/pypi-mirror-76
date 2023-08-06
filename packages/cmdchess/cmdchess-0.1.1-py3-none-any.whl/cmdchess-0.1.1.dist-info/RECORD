@@ -1,0 +1,12 @@
+cmdchess/__init__.py,sha256=q08Xyr6kfAEDQP3RXUTDzUIgCKXdNz8xAdfS_ngvNis,394
+cmdchess/board.py,sha256=AUug9bBInPZ95pJYOq8IxetcuVJVbROYzxOtoMI_9uQ,4861
+cmdchess/config.py,sha256=vH7iEQMApQZGG7Xl7jG2Px0VTwVLSWQGwnwnNuAcICY,3026
+cmdchess/game.py,sha256=cRuShc_OexIrEzoOrE5mjGO2jrFgar8MHLD7nkGy-BE,1333
+cmdchess/piece.py,sha256=VMlCVGLPmAN-CY1rrXeZ3Vm9fuBBCUTQkNbBz_ZCHl4,8370
+cmdchess/variant.py,sha256=9uTVnrS7fgwwbWq7OBROn_MvnsGTpBp8qB6_9tKrhTQ,4412
+cmdchess-0.1.1.dist-info/LICENSE,sha256=HwdrZnScc9DWRdHmY3oErqDWTywvOhA5Zn3JmVuSCGs,1091
+cmdchess-0.1.1.dist-info/METADATA,sha256=4dU09m9lTD2oaeQVllinb_ohUvdz4il8sgpn2okaQMU,1723
+cmdchess-0.1.1.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+cmdchess-0.1.1.dist-info/entry_points.txt,sha256=3xVCrDtx2rpzD_jHCBpG1Nx245zCxj48Nu9uSh8o3Q0,49
+cmdchess-0.1.1.dist-info/top_level.txt,sha256=gJ4ipMYPdo8l1av37ofe2jFQbdlb_Cu7ZqcRrVMsqiE,9
+cmdchess-0.1.1.dist-info/RECORD,,
