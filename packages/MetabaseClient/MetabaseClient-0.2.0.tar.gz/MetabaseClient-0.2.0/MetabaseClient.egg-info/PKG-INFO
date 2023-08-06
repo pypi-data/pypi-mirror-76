@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: MetabaseClient
+Version: 0.2.0
+Summary: Metabase python wrapper is built upon Metabase restful API to help its users in extending features and adding more capability.
+Home-page: https://github.com/vangiex/metabaseclient
+Author: Rahul Rathi
+Author-email: VanGiex.RR@Gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/vangiex/metabaseclient/issues
+Project-URL: Documentation, https://github.com/vangiex/metabaseclient/wiki
+Project-URL: Source Code, https://github.com/vangiex/metabaseclient
+Description: Metabase Client
+        ========================
+        
+        A python wrapper for metabse api
+        
+        --------------
+        
+        Index
+        
+        - Installation
+        - Basic Usage
+        
+        ---------------
+        
+        Installation
+        
+        ``pip install MetabaseClient``
+        
+        
+        ------------------
+        
+        Basic Usage
+        
+        - import py package
+        
+            import MetabaseClient as MC
+        
+        - init client
+        
+            client = MC.Client(url,username,password)
+        
+        - Stored Queries or Cards
+        
+            client.card().get()
+        
+        - Stored dashboard
+        
+            client.dashboard().get()
+        
+        - Get Utils
+        
+            client.utils()
+        
+        ---------------------
+        
+        Full Documentation : https://github.com/vangiex/metabaseclient/wiki
+        
+        
+        
+        
+        
+Keywords: metabase,,metabase-api,metabase-client,metabase client,metabase python api
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Description-Content-Type: text/x-rst
