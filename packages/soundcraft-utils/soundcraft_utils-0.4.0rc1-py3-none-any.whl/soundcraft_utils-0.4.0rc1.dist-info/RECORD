@@ -1,0 +1,16 @@
+soundcraft/__init__.py,sha256=y8lw9ndIAvCz2JppG-BZeiUH64Vy2ZnWAoKBBtQYaYI,1135
+soundcraft/cli.py,sha256=fNbyTO85-5tzhS-9KczU4_6hUzupBLj3ZeWibvI2L-k,4228
+soundcraft/dbus.py,sha256=QewsiKMhWHRuOZ9bvcphpjEcBBB8OYE7MVikvheVWdE,15228
+soundcraft/gui.py,sha256=ziCOPDPucO9_hguJuQMkqBZfK7zwMseNmaF8jAR-HYs,10092
+soundcraft/notepad.py,sha256=KI1U4OBZI6u2YMSR3aRhBayv04wxaEHMy3R85bXuBO0,6974
+soundcraft/data/dbus-1/system-services/soundcraft.utils.notepad.service,sha256=5ECX0i6E1W4H5O4JHmDDnPVMkDR0tvcZi6KTn7sfzOQ,64
+soundcraft/data/dbus-1/system.d/soundcraft-utils.conf,sha256=rMkgd4aBUmG5UKBKYY760PAPEwZvyihHfGSwjJBM6hY,373
+soundcraft/data/xdg/soundcraft-utils.desktop,sha256=aVRLLfohnLWuiua5wocOL14KCUA8eEyO0x5s3pACsa8,248
+soundcraft/data/xdg/soundcraft-utils.png,sha256=OftzCEBh53Z3YOekucDAHKX7_pEdn1ugdtQtFs3-TOQ,7799
+soundcraft/data/xdg/soundcraft-utils.svg,sha256=3Hv8h1od5WjPfLTBPNEeLOpatVNYYHdShTDchG0xkuo,8591
+soundcraft_utils-0.4.0rc1.dist-info/LICENSE,sha256=C9dKbSVSRr9XF4KqBvs_0EOcX9bPYvlAt8xMRBkSago,1088
+soundcraft_utils-0.4.0rc1.dist-info/METADATA,sha256=3ate8ombuNdlgkmfgUaVFQZqbfzNe22FONt2EnRfBp0,3776
+soundcraft_utils-0.4.0rc1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+soundcraft_utils-0.4.0rc1.dist-info/entry_points.txt,sha256=nlAh7hNnni6fgA8UlJ75TfvpLaaj0ROkZx9kov9WxDU,155
+soundcraft_utils-0.4.0rc1.dist-info/top_level.txt,sha256=Rnu5niRyOOYTHqBHLrKyWWrWdJB3Qb8_IqaUB8s9oYw,11
+soundcraft_utils-0.4.0rc1.dist-info/RECORD,,
