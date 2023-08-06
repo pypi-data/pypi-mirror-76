@@ -1,0 +1,7 @@
+integrationbabel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+integrationbabel/database_writer.py,sha256=YWR--6l9-jx1r5iHwor5ESRTBZI1TFcs_csdfNDxGJI,3047
+integrationbabel/receiver.py,sha256=aj8-uo20186wOXfvWGQmTgDg-8U-u5HOFZUCqcoa4EM,928
+integrationbabel-0.6.dist-info/METADATA,sha256=krkfXOUMkLFEpCvLbJqTX-jEtv9BUnRRqdlfRppR5OE,465
+integrationbabel-0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+integrationbabel-0.6.dist-info/top_level.txt,sha256=6OVU9zlDYCVhPsxLvCCGIvrlrt9V0N8RJb3n26bp2Ng,17
+integrationbabel-0.6.dist-info/RECORD,,
