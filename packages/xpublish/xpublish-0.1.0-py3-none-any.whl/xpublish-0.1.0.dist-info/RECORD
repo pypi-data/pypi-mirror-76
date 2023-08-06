@@ -1,0 +1,17 @@
+xpublish/__init__.py,sha256=bLDK-uCNdEYnMnyXsOlQAOPSEBNwfdFGenK3kJV1qkE,277
+xpublish/dependencies.py,sha256=Dg6dt4gM6JRRncMi7K88wixBmGMDaAyLeAWrbDzmKg4,2468
+xpublish/rest.py,sha256=oTiZM4E3DI3JXhSyXBqRcAiJey4134ce9GPp-qV0-aw,7992
+xpublish/routers/__init__.py,sha256=c8AuOl4lyFpoK5wf7Fy3bid9Ap0qMuF36QxOl64ufAw,121
+xpublish/routers/base.py,sha256=_CtMCbQKwD18Wbp8fHyPLYzg7ogfvaxgFzmEadd82Dw,1452
+xpublish/routers/common.py,sha256=PkgZ8gtXJDBX5ZYJReWGTEDmdZIkp-LHQw2-WYzZ8KU,1116
+xpublish/routers/zarr.py,sha256=dvhRa0V1gwDLBT0HEND4mFwA8GP8C0YkiqN58egI5Fk,2740
+xpublish/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xpublish/utils/api.py,sha256=x12AVWWOe0wknjZzIOM2tOItlkxKQU4nqf84phMyIxs,3747
+xpublish/utils/cache.py,sha256=VKjUdtIMizaZZiNBqnDW6dn9fhx2v_3yOjp81C0B41I,272
+xpublish/utils/info.py,sha256=R5cQnc3LNJS2kc-oYN9_71iss3C8be_LMxgCMhm_VuM,2135
+xpublish/utils/zarr.py,sha256=pstTUW8RVKu5ov_K1xDUZyNJGXytpFcil_GNpk7L9ck,5812
+xpublish-0.1.0.dist-info/LICENSE,sha256=Cqs6ILOHujuI5n-sHLiu1QPy1ZIO0zqKBR2yxWfqoRc,1067
+xpublish-0.1.0.dist-info/METADATA,sha256=YMboLlI-q1TKJWRSOygGCDZbI_VEyZhWmNxa8ZfMmF8,3235
+xpublish-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+xpublish-0.1.0.dist-info/top_level.txt,sha256=LsiLNN3wZiQ39MmqhIQeXgYriZgw7dvA7xquO0aw-wM,9
+xpublish-0.1.0.dist-info/RECORD,,
