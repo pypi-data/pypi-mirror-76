@@ -1,0 +1,12 @@
+gsbl/__init__.py,sha256=Pzhx1USEwt040ZPGBS7GP_DvMZudX0WXgvDIala-8ow,112
+gsbl/__main__.py,sha256=Hs6FOh0wX6Av-Qcv5oO8hzBu6eusN6kVTIY-3Bqnp3o,1076
+gsbl/generator.py,sha256=X0a2plyhoCil7Alk1BTxk1OYrWchSQy-aVVWB08jGrg,7265
+gsbl/main_cli.py,sha256=OJRNqX3iAqHARIhfkGfTXT_Nlg6RxIFGtMvX4K06C8o,1038
+gsbl/media/audio.wav,sha256=Fa4hKeoNpzFhTPP38gg9aZuoexZvdPa--nM0q9B0S7Q,2743616
+gsbl/media/stick_bug.mp4,sha256=jmLSibKmMBbRYnnGiYfpNPy3ct41eFBk4BFbmG14Lbw,1256367
+get_stick_bugged_lol-0.0.1.dist-info/LICENSE,sha256=zjWZiqRlVJ-nTC3UeIDa7Ij7jJ_qIGsIKD2a35s9Mqs,1074
+get_stick_bugged_lol-0.0.1.dist-info/METADATA,sha256=9MnzTgTVb9MbffWdPC13l6l_pGUs9zQeJg50aqI51H4,2221
+get_stick_bugged_lol-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+get_stick_bugged_lol-0.0.1.dist-info/entry_points.txt,sha256=ZRIk3GAgtpfqBFJ1BiYcDiRAWXYwLqY3KIWSDsCC8kk,45
+get_stick_bugged_lol-0.0.1.dist-info/top_level.txt,sha256=ECGo5EbLNmqFYS5LkQm0DVXU9xn62v_GVJE8q1gzn48,5
+get_stick_bugged_lol-0.0.1.dist-info/RECORD,,
