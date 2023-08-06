@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: scannetwork
+Version: 0.0.1
+Summary: just a scannetwork test
+Home-page: http://blog.xiaoqying.com
+Author: ying
+Author-email: 1074020480@qq.com
+License: MIT License
+Keywords: simple,scannetwork
+Platform: UNKNOWN
+Requires-Dist: python-nmap
+
+UNKNOWN
+
+
