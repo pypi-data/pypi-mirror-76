@@ -1,0 +1,16 @@
+dhwani/__init__.py,sha256=5B2WBljn8gmgq6zVOA1EhjNI9qwgX7PXJOgCnlSvQ_s,72
+dhwani/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dhwani/core/converter.py,sha256=cMzMyAvUOCIfwm9wG3mCFKVI9awNswHp5fZe31VWygk,1640
+dhwani/core/core_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dhwani/core/core_utils/converter_utils.py,sha256=DNJIdVsBBRIP7RPv2ycRWyLfBI-zUNRg6X4x92sM5Kw,1182
+dhwani/mappings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dhwani/mappings/eng_hin.yaml,sha256=6vy2Sglp3a1H34ONKBAa8ItLnQjvITwJeZgEjsBiebY,3772
+dhwani/mappings/eng_kan.yaml,sha256=svdQ3q20qwGd_FY4toUHvzu1tAjOjDQkAGMA4bVrnLs,2614
+dhwani/mappings/eng_tam.yaml,sha256=k4_usAbuA2pZjLLDk5YIwiIYYY4E5ctPq8godEkwX9c,2076
+dhwani/mappings/supported_conversions.yaml,sha256=Q1d7fp-7Po0cyiZrULM7mhb5CVOEUZVDDQzS1g4jcKA,143
+dhwani/mappings/utils.py,sha256=Pw6LYN2PnEm110u8KMrS0DSFO4lhYveEDfFXgwTu-PM,2993
+dhwani-0.0.3.dev1.dist-info/LICENSE,sha256=FRh5JV1LKfrxws-ydBqRKLcJa_SwUQGBw3N5iU7VxY0,11338
+dhwani-0.0.3.dev1.dist-info/METADATA,sha256=W7PHK13LPhdzcTNKngMCiBJkml-SRi-Kg6wdaM4dk3M,1372
+dhwani-0.0.3.dev1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dhwani-0.0.3.dev1.dist-info/top_level.txt,sha256=xXnTWey4Evg_C2Rw4kJEUESVHsan9vHE-ZkjEwf7m_o,7
+dhwani-0.0.3.dev1.dist-info/RECORD,,
