@@ -1,0 +1,3 @@
+[console_scripts]
+arxiv-connector=arxiv_connections.cli:main
+

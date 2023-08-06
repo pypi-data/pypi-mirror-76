@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: arxiv-connections
+Version: 0.1.1
+Summary: python package used to visualize academics and find related people
+Author: Roy Rinberg
+Author-email: royrinberg@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: arxiv (>=0.5.3,<0.6.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: matplotlib (>=3.3.0,<4.0.0)
+Requires-Dist: nb_black (>=1.0.7,<2.0.0)
+Requires-Dist: networkx (>=2.4,<3.0)
+Requires-Dist: pandas (>=1.1.0,<2.0.0)
+Requires-Dist: plotly (>=4.9.0,<5.0.0)
+Requires-Dist: wheel (>=0.34.2,<0.35.0)
