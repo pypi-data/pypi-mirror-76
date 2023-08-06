@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mskit
+Version: 0.3.3
+Summary: A tool-kit for MS data processing
+Home-page: https://github.com/gureann/MSKit
+Author: Lou R.
+Author-email: lourh@shanghaitech.edu.cn
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Development Status :: 2 - Pre-Alpha
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: requests
+Requires-Dist: matplotlib
+
+
+# MSKit
+
+A tool-kit for MS data processing
+
+This package has no maintenance, no doc, and the functions or APIs may be changed.
+
+
