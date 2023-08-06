@@ -1,0 +1,14 @@
+toxopy/__init__.py,sha256=4NCJdbEjJqgeDuaTMBPGzFEcOOku3MZVxGb2JhwAl_A,375
+toxopy/calculate_vars.py,sha256=394wTyqYfP1PjpcpYa2ocpq8DTvRXqysXMUD7Zv7r54,1969
+toxopy/csv2h5.py,sha256=OcEZKCxP6Lxdvna-BMy7EVpgyzpJvoOv24yiWDdflQY,702
+toxopy/ffconcat.py,sha256=EYb86oFX19GbDoTxsW_vvcJBl4KTJruDhv4RjKYSJg8,1243
+toxopy/ffsync.py,sha256=0TU-vw4BRXuh-dhn1vH7zv3nhd_BJ-EKNNOPXE80yk8,1530
+toxopy/find_distance.py,sha256=tmQh_mqcxOFabGOm97ha74yAUQr5UFaShPWjS2Zqsic,1205
+toxopy/improve_dlc_csv.py,sha256=k72N9wsijx0-Gv69ORkOMja3C7wcvKc5C_txHB_dD1w,1826
+toxopy/improve_dlc_output.py,sha256=TydYRtCAmWQWcCCrovSaOPVTmmcS8pOu2dk0u5DJaFU,6559
+toxopy/lazytrim.py,sha256=yZJTh90Nj2Cbf2NXvVkvaXCjoDTPeBOkpPgapJqGZkI,873
+toxopy/version.py,sha256=g__c3PgfeE2Ofsx6X0D5dIrrrMP5wFpjOoT7YkV2vDc,46
+toxopy-0.0.9.3.dist-info/LICENSE,sha256=xq8eY-NNV4tcdZT2t1XAvkNFzkNEvZQwnacoz0ukjhA,1073
+toxopy-0.0.9.3.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+toxopy-0.0.9.3.dist-info/METADATA,sha256=BdZV_24l30bflJMFWxFZl3x1w6yVotVp2vGM3ycI1dE,384
+toxopy-0.0.9.3.dist-info/RECORD,,
