@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: aiohttp_rest_api_redoc
+Version: 0.2.0
+Summary: RESTful API servers with aiohttp - forked to use redoc instead of swagger
+Home-page: https://github.com/oplik0/aiohttp_rest_api/tree/redoc
+Author: Andrey Korchak
+Author-email: me@akorchak.software
+License: MIT
+Description: # aiohttp_rest_api
+        
+        RESTful API servers with aiohttp. Forked to use ReDoc instead of Swagger
+        
+        **aiohttp_rest_api** is an extension for aiohttp that adds support for quickly
+        building REST APIs. It automates the creation of REST endpoints, supports APIs
+        versioning and openapi docstrings.
+        
+        ```bash
+        pip install aiohttp-rest-api
+        ```
+        
+        Documentation: [https://aiohttp-rest-api.readthedocs.io/](https://aiohttp-rest-api.readthedocs.io/)
+        
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Framework :: AsyncIO
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Provides-Extra: docs
