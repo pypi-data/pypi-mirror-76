@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: conv_visualiser
+Version: 0.1
+Summary: Functions to visualize intermediate activations and features of a CNN
+Home-page: https://github.com/rshah240/conv_visualiser
+Author: Rachit Shah
+Author-email: rshah240@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
