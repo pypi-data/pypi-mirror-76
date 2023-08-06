@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/pyrfdata.egg-info/PKG-INFO
+src/pyrfdata.egg-info/SOURCES.txt
+src/pyrfdata.egg-info/dependency_links.txt
+src/pyrfdata.egg-info/entry_points.txt
+src/pyrfdata.egg-info/top_level.txt
