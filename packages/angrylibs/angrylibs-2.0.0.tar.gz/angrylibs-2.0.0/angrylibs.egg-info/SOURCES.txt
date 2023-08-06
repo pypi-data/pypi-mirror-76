@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+angrylibs/__init__.py
+angrylibs/helpers.py
+angrylibs/words.json
+angrylibs.egg-info/PKG-INFO
+angrylibs.egg-info/SOURCES.txt
+angrylibs.egg-info/dependency_links.txt
+angrylibs.egg-info/entry_points.txt
+angrylibs.egg-info/not-zip-safe
+angrylibs.egg-info/requires.txt
+angrylibs.egg-info/top_level.txt
+angrylibs/stories/going_for_a_hike.story.txt
+angrylibs/stories/letter_from_camp.story.txt
+angrylibs/stories/mr_snowman.story.txt
+angrylibs/stories/school_nurse.story.txt
