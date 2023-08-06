@@ -1,0 +1,141 @@
+1.	Introduction
+
+The ReMAP SDK has been created in the context of the ReMAP project inside the WP2, it enables the models created in ReMAP WP5 to use the data coming from the airlines. Only using this SDK the models will be able to has access to this data and the metadata describing the data sources created by the airline staff.
+This document and the design of the ReMAP SDK has been developed from the requirements collected in the document ReMAP “Datasets for WP5” describing the operations that algorithms within the ReMAP project need to interact with the data.
+The ReMAP SDK has been developed for python and can be found on the python repository PyPI.
+
+2	SDK Requirements
+
+The ReMAP SDK is writen in python and designed to work inside the ReMAP platform to have access to the data and metadata, it can be used outside this environment, but the files needed for it to work must be provided and the folders structure recreated.
+
+3	SDK Description
+
+The ReMAP SDK has been developed in python following the requirements found for WP5, it can be found on the pip repository for python in the url https://pypi.org/project/remapSDK/. The SDK has a folder structure to content the python code for the SDK python code to test and some data to perform the tests, these files are just for testing purposes and the data within this files does not come from any real aircraft component.
+
+3.1.	SDK Structure
+
+The ReMAP SDK contains the following folder structure:
+ sdk
+
+    |- remapSDK
+    
+    |- __init__.py              #packaging file
+
+    |- remapSDK.py              #python code
+
+    |- data   
+                      #data folder
+    |    |- dataset.csv          #data file in csv format
+
+    |    |- metadata.json        #metadata file in json format
+
+
+    |- tests
+
+    |    |- __init__.py              #packaging file
+
+    |    |- test_remapSDK.py    #testing code
+
+    |- LICENSE                  #File describing the license for the module
+
+    |- README.MD                #Description and usage of the module
+
+    |- requirements.txt         #File containing the dependences of the modules
+
+    |- setup.py                 #Python packaging information for the module
+
+The SDK download from pip is a reduced version of this floder structure, the most important elements are the python files containing the code of the SDK.
+The files __init__.py are packaging requirements for python modules. 
+The tests folder contains the python code to test the SDK by simulating the ReMAP environment, it is necessary to copy the data and metadata files to the correct folder which can not be recreated in the SDK structure but are provided by the ReMAP platform environment to the SDK.
+
+3.2.	SDK Data
+
+The ReMAP SDK needs data to work, it expects to found two files:
+
+•	Dataset.csv: This file is the expected output from the dataset created on the ReMAP platform over a datasource created containing the information from the selected components and parameters in CSV format.
+CSV Format
+The data is provided in a csv file comma separated, organized by columns (one for parameter) and rows (one for timestamp). If there is parameter with no information for a timestamp the cell will be empty.
+The first row is a header including the parameters name, the others represent the data ordered by timestamp.
+The first column is reserved for the timestamp and the next ones will be the parameters in the order indicated by the airline staff.
+ 
+
+•	Metadata.json: contains the metadata information for datasource where the info comes from, components, parameters, tail number of the aircraft. The information in this file will be retrieved using the SDK methods.
+in the ReMAP platform these data files are automatically passed to the SDK through the environment, for testing purposes the SDK expects to find these data files under the /app/ directory, you need to recreate this directory and place the data files there in order to make the SDK work.
+
+3.3.	SDK Methods
+
+As part of the security control, the models only can access the data using the functions of the ReMAP SDK. The SDK provides the methods needed to get any information related to the data set and the dataset itself.
+
+    sdk.getStartTime () : timestamp  Returns the first timestamp for the dataset
+
+    sdk.getEndTime (): timestamp  Returns the last timestamp for the dataset
+
+    sdk.getTailNumber () : string  Returns the aircraft’s tail number for the dataset 
+
+
+    sdk.getParamPartNumber (ParamName) : string  Returns the part number for the parameter passed to the function
+
+    sdk.getMetadata () : metadata []  Returns the JSON containing the metadata for the model
+
+    sdk.getReplacements () : replacement [] Returns the list of the replacements including parameter, part number and replacement date, if someone occurs.
+
+    sdk.getDataset () : Returns the route to the dataset file. Useful to retrieve the file and access directly to the information inside it.
+
+    sdk. sendOutput(rulUnit, rulValue, probabilityOfFailure, ConfidenceInterval) : Send the output of the model to the ReMAP platform to be stored, Returns the output sent with the mongo id of the database. This function expects the following parameters:
+        o	rulUnit: unit of the output eg. Flight cycles, flight hours
+        o	rulValue: the value of the rul output with unit above, eg. 400
+        o	probabilityOfFailure: the probability of failure for the component
+        o	ConfidenceInterval: interval confidence percentage
+
+
+
+4  SDK Installation
+
+The ReMAP SDK has been developed in python, it’s has been packaged as a python module and uploaded to PYPI (Python Pakage Index) to make it publicly available. It can be found in: https://pypi.org/project/remapSDK/. It’s highly recommended to install always the latest version in the repository.
+To install and use the ReMAP SDK you need some prerequisites:
+-	Python 2.7
+-	Pip
+
+The SDK has been developed with python 2.7, it will only work for python scripts compatible with version.
+Pip is a python Package magament tool, that helps to install and manage python modules, you can use a different one if you like. 
+Once you have this two softwares installed go to your console and type:
+>> pip install 'remapSDK'
+
+To upgrade the latest version of the module:
+>>pip install --upgrade PackageName
+
+Once the module is installed with pip, you can start using it in your python script in you IDE.
+For more information about python modules installation visit: https://packaging.python.org/tutorials/installing-packages/
+
+5	SDK Usage
+
+Once you have installed python and the ReMAP SDK and recreated the data directory in the environment, you can start creating your python script and using the SDK module to access the aircraft data.
+•	To use the Remap SDK it needs to be imported in your script, 
+from remapSDK import remapSDK
+
+the remapSDK is the module to be imported from the remapSDK Folder. If the module has been installed with pip you don’t need to change this import line, if you have moved or change the name of the folder containing the module, you will need to update this line.
+
+•	Create and SDK instance:
+The SDK is a python class and needs to be instatiated to be configured properly:
+remapSdk=remapSDK.Sdk()
+
+Once you have created an instance of the sdk class you can start using the methods in the sdk.
+This is an example of using the sdk methods:
+
+start=remapSdk.getStartTime()
+print(start)
+
+end_date=remapSdk.getEndTime()
+print(end_date)
+
+tailno=remapSdk.getTailNumber()
+print(tailno)
+
+partNo=remapSdk.getParamPartNumber("param1")
+print(partNo)
+
+partNo=remapSdk.getMetadata()
+print(partNo)
+
+partNo=remapSdk.getReplacements()
+print(partNo)
