@@ -1,0 +1,1 @@
+SWTermColor~=1.1
