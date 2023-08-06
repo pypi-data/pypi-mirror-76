@@ -1,0 +1,11 @@
+README.rst
+setup.py
+ellipsinator/__init__.py
+ellipsinator/basic.py
+ellipsinator/fit_ellipse_fitzgibon.py
+ellipsinator/fit_ellipse_halir.py
+ellipsinator.egg-info/PKG-INFO
+ellipsinator.egg-info/SOURCES.txt
+ellipsinator.egg-info/dependency_links.txt
+ellipsinator.egg-info/requires.txt
+ellipsinator.egg-info/top_level.txt
