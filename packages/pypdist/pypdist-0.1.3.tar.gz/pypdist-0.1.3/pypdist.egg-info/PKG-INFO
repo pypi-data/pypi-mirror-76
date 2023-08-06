@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pypdist
+Version: 0.1.3
+Summary: Model data using univariate distributions
+Home-page: UNKNOWN
+Author: David Pinto
+Author-email: davidengaut@gmail.com
+License: UNKNOWN
+Description: pypdist: Python Package for Univariate Probability Distributions
+        ================================================================
+        
+        > This packages aims to model data according to common univariate probability distributions.
+        
+        So far, it includes:
+        
+        - Gaussian distribtuion: `pypdist.Gaussian`.
+        - Binomial distribution: `pypdist.Binomial`.
+        
+        ## Installation
+        
+        ```
+        pip install pypdist
+        ```
+        
+        ## Examples
+        
+        ### Gaussian Distribution
+        
+        ```python
+        from pypdist import Gaussian
+        
+        gauss = Gaussian(0, 1)
+        print(gauss)
+        ```
+        
+        ### Binomial Distribution
+        
+        ```python
+        from pypdist import Binomial
+        
+        binom = Binomial(0, 1)
+        print(binom)
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
