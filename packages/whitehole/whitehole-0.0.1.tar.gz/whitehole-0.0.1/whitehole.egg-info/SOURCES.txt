@@ -1,0 +1,9 @@
+README.md
+setup.py
+whitehole/__init__.py
+whitehole/decryptor.py
+whitehole.egg-info/PKG-INFO
+whitehole.egg-info/SOURCES.txt
+whitehole.egg-info/dependency_links.txt
+whitehole.egg-info/requires.txt
+whitehole.egg-info/top_level.txt

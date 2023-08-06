@@ -1,0 +1,6 @@
+pandas
+numpy
+csv
+re
+xarray
+dateutil
