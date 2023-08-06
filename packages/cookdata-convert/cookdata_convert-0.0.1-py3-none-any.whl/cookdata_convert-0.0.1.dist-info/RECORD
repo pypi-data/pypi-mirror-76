@@ -1,0 +1,10 @@
+cookdata_convert/__init__.py,sha256=kn2W4oIyoLfs6lnJ7h8l3aX91fF2fFl-GKV5cE4saIE,411
+cookdata_convert/__main__.py,sha256=m7C-7Xd252a_m5AXISy7alKcaRVkKNQm7mwZn9iTE0I,821
+cookdata_convert/cookDataToSbyml.py,sha256=WTGqtLW0EOba8yotkbg4XQEJnkAWUSe0VW0Rtbq89e4,2011
+cookdata_convert/cookDataToYml.py,sha256=ifZiDbsp0af0NxFt4yCWaA_Xzc8_XEB2d9bRTThv7jQ,1896
+cookdata_convert/data/lookups.json,sha256=FC-6PnyVXWID9lA3l3gMPHmagXiZFvcwzM_wsn5SUuc,406578
+cookdata_convert-0.0.1.dist-info/METADATA,sha256=jWLZWAef3gLeePTNZL6PBfoHYN3_GIW2dsTh1K7cAnA,576
+cookdata_convert-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+cookdata_convert-0.0.1.dist-info/entry_points.txt,sha256=qQw2fySI929sxdYn_XhMxE6RyVsNSpbw_G0UjFAtkEA,131
+cookdata_convert-0.0.1.dist-info/top_level.txt,sha256=O56lt5Y1XGlH2gkFsaVJlUj12lkDsCKhF9vDgkOf5Ds,17
+cookdata_convert-0.0.1.dist-info/RECORD,,
