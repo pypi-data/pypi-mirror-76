@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: azkv
+Version: 0.1.0rc4
+Summary: CLI client for the Azure Key Vault data plane
+Home-page: https://github.com/undp/azkv
+License: MIT
+Keywords: azure,CLI,key vault
+Author: Oleksiy Kuzmenko
+Author-email: oleksiy.kuzmenko@undp.org
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Systems Administration
+Provides-Extra: code-format
+Provides-Extra: code-lint
+Provides-Extra: docs
+Provides-Extra: test
+Requires-Dist: azure-common (>=1.1.25,<2.0.0)
+Requires-Dist: azure-identity (>=1.3.1,<1.4.0)
+Requires-Dist: azure-keyvault-secrets (>=4.2.0,<5.0.0)
+Requires-Dist: black (>=19.10b0,<20.0); extra == "code-format"
+Requires-Dist: blacken-docs (>=1.7,<2.0); extra == "code-format"
+Requires-Dist: cement (>=3.0.4,<4.0.0)
+Requires-Dist: colorlog (>=4.2.1,<5.0.0)
+Requires-Dist: flake8 (>=3.8,<4.0); extra == "code-lint"
+Requires-Dist: flake8-bandit (>=2.1,<3.0); extra == "code-lint"
+Requires-Dist: flake8-blind-except (>=0.1,<0.2); extra == "code-lint"
+Requires-Dist: flake8-bugbear (>=20.1,<21.0); extra == "code-lint"
+Requires-Dist: flake8-builtins (>=1.5,<2.0); extra == "code-lint"
+Requires-Dist: flake8-docstrings (>=1.5,<2.0); extra == "code-lint"
+Requires-Dist: flake8-import-order (>=0.18,<0.19); extra == "code-lint"
+Requires-Dist: flake8-logging-format (>=0.6,<0.7); extra == "code-lint"
+Requires-Dist: flake8-mypy (>=17.8,<18.0); extra == "code-lint"
+Requires-Dist: jinja2 (>=2.11.2,<3.0.0)
+Requires-Dist: pep8-naming (>=0.8,<0.9); extra == "code-lint"
+Requires-Dist: pygments (>=2.6,<3.0); extra == "code-lint"
+Requires-Dist: pytest (>=6.0,<7.0); extra == "test"
+Requires-Dist: pytest-benchmark[aspect] (>=3.2,<4.0); extra == "test"
+Requires-Dist: pytest-cov (>=2.10,<3.0); extra == "test"
+Requires-Dist: pytest-instafail (>=0.4,<0.5); extra == "test"
+Requires-Dist: pytest-lazy-fixture (>=0.6,<0.7); extra == "test"
+Requires-Dist: pytest-random-order (>=1.0,<2.0); extra == "test"
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
+Requires-Dist: recommonmark (>=0.6.0,<0.7.0); extra == "docs"
+Requires-Dist: sphinx (>=3.1,<4.0); extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints (>=1.11,<2.0); extra == "docs"
+Requires-Dist: sphinx-rtd-theme (>=0.5,<0.6); extra == "docs"
+Requires-Dist: typing (>=3.7.4,<4.0.0)
+Project-URL: Documentation, https://pykv.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/undp/azkv
+Project-URL: issues, https://github.com/undp/azkv/issues
+Description-Content-Type: text/markdown
+
+# AzKV
+
+[![Python 3.6+](https://img.shields.io/badge/Python-3.6+-blue.svg)][PythonRef] [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)][BlackRef] [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)][MITRef]
+
+[PythonRef]: https://docs.python.org/3.6/
+[BlackRef]: https://github.com/ambv/black
+[MITRef]: https://opensource.org/licenses/MIT
+
+`azkv` is a CLI client for the Azure Key Vault data plane.
+
+## Getting Started
+
+### Installing
+
+TBD
+
+### Requirements
+
+* Python >= 3.6
+
+## Built using
+
+* [Cement][CementRef] - CLI application framework
+
+[CementRef]: https://builtoncement.com/
+
+## Versioning
+
+We use [Semantic Versioning Specification][SemVer] as a version numbering convention.
+
+[SemVer]: http://semver.org/
+
+## Release History
+
+For the available versions, see the [tags on this repository][RepoTags]. Specific changes for each version are documented in [CHANGELOG.md][ChangelogRef].
+
+Also, conventions for `git commit` messages are documented in [CONTRIBUTING.md][ContribRef].
+
+[RepoTags]: https://github.com/undp/azkv/tags
+[ChangelogRef]: CHANGELOG.md
+[ContribRef]: CONTRIBUTING.md
+
+## Authors
+
+* **Oleksiy Kuzmenko** - [OK-UNDP@GitHub][OK-UNDP@GitHub] - *Initial design and implementation*
+
+[OK-UNDP@GitHub]: https://github.com/OK-UNDP
+
+## Acknowledgments
+
+* Hat tip to all individuals shaping design of this project by sharing their knowledge in articles, blogs and forums.
+
+## License
+
+Unless otherwise stated, all authors (see commit logs) release their work under the [MIT License][MITRef]. See [LICENSE.md][LicenseRef] for details.
+
+[LicenseRef]: LICENSE.md
+
+## Contributing
+
+There are plenty of ways you could contribute to this project. Feel free to:
+
+* submit bug reports and feature requests
+* outline, fix and expand documentation
+* peer-review bug reports and pull requests
+* implement new features or fix bugs
+
+See [CONTRIBUTING.md][ContribRef] for details on code formatting, linting and testing frameworks used by this project.
+
