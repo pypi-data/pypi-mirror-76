@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: cd-utils-logger
+Version: 1.0.0
+Summary: Utilitário para Log
+Home-page: https://github.com/herculanocm/cd-utils-logger
+Author: Herculano Cunha
+Author-email: herculanocm@outlook.com
+License: MIT
+Download-URL: https://github.com/herculanocm/cd-utils-logger/archive/master.zip
+Description: UNKNOWN
+Keywords: tools utils logger
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
