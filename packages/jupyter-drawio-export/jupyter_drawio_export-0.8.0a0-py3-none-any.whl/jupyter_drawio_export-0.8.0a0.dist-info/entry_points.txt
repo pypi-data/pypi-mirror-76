@@ -1,0 +1,3 @@
+[console_scripts]
+jupyter-drawio-export = jupyter_drawio_export.app:main
+

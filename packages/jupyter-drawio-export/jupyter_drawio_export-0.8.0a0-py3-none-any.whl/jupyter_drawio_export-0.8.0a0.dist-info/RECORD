@@ -1,0 +1,17 @@
+jupyter_drawio_export/__init__.py,sha256=FJmG5xhSXgiPZsvGCVWt_1TEA6jHZwKoyDMhDlUmpOM,900
+jupyter_drawio_export/_version.py,sha256=PQtZy-hfqZjvKPhRTrjTcvZrz-SRqxvD2V5fi-Zynk8,659
+jupyter_drawio_export/app.py,sha256=vLN64CgGc-SHRqwM0jvrQn37qih4FFkxxwvcAvrn8UI,1439
+jupyter_drawio_export/handlers.py,sha256=6oWu9pUd3Af6kwnzzbbMyvk0OKytQWGCWOnkEoDEzGc,1492
+jupyter_drawio_export/manager.py,sha256=QLv0acXTOwGCpXR9nlgFQHI9POeImU4jPCVHOZ7kc30,6187
+jupyter_drawio_export/serverextension.py,sha256=emI79vaKd8QkrvhhGhcOCaU6ekn9nUyQYfYQES8XU3A,1112
+jupyter_drawio_export/vendor/draw-image-export2/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jupyter_drawio_export/vendor/draw-image-export2/README.md,sha256=P_MQi_aAYzTGvywZD-fnUqFzHqLoReBH1bkXMMxO6CM,4777
+jupyter_drawio_export/vendor/draw-image-export2/app.json,sha256=PVt46gYQkvrthLSjMlYJF1blEvluGV5OQTasEFcAnRc,784
+jupyter_drawio_export/vendor/draw-image-export2/export.js,sha256=e0j9Nwm58SNTXc2cHoFS_1EUPTXzO596nhXlIaC0bjU,20248
+jupyter_drawio_export/vendor/draw-image-export2/package.json,sha256=iO7oLqnDN-oIqNAfRi2fN-qNcjF9XMGUxJHzLp6hI-Q,649
+jupyter_drawio_export-0.8.0a0.dist-info/LICENSE.txt,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+jupyter_drawio_export-0.8.0a0.dist-info/METADATA,sha256=fSeKYsOEhhkZgdiFPkfMVedva_k-Niw4jZRpbU0tgJM,1110
+jupyter_drawio_export-0.8.0a0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+jupyter_drawio_export-0.8.0a0.dist-info/entry_points.txt,sha256=hzXhfTXbqWhvkbImWjz82OcfL2e29knnYzr_elXo6GY,74
+jupyter_drawio_export-0.8.0a0.dist-info/top_level.txt,sha256=LEHzcMbWnlvLdjnk1mnVnKxz6KgM2ZJvX1AFvrcffp0,22
+jupyter_drawio_export-0.8.0a0.dist-info/RECORD,,
