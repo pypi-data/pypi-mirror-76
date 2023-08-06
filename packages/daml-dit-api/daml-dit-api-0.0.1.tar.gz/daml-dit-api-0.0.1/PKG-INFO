@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: daml-dit-api
+Version: 0.0.1
+Summary: DABL Integrations API Package
+Author: Team DABL
+Author-email: no-mail@digitalasset.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: develop
+Requires-Dist: aiohttp
+Requires-Dist: dacite
+Requires-Dist: dazl
