@@ -1,0 +1,7 @@
+slurm_jupyter-1.0.4.data/scripts/config-slurm-jupyter.sh,sha256=IDSHc_zZKJUkWWvt88HFk1K_utsEvDQo-N5tsxFzKac,642
+slurm_jupyter-1.0.4.data/scripts/slurm-jupyter.py,sha256=3BmF8jzguCu_JEfUzLAKlFGa-8j01O6yvF4T5-mYfVo,20992
+slurm_jupyter-1.0.4.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+slurm_jupyter-1.0.4.dist-info/METADATA,sha256=larxm3pljXK3dxexquKNjh26vaYGdwtU9eqb7fyTtDg,6053
+slurm_jupyter-1.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+slurm_jupyter-1.0.4.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+slurm_jupyter-1.0.4.dist-info/RECORD,,
