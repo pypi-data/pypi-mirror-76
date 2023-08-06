@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: yogurt
+Version: 0.0.2
+Summary: A package to simplify the imteraction with smart contract
+Home-page: https://github.com/DanielTongAwesome/yogurt
+Author: Zitian(Daniel) Tong
+Author-email: danieltongubc@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5.6
+Description-Content-Type: text/markdown
+
+**Status:** Developing (expect bug fixes and minor updates)
+
+# yogurt
+
+A python package designed for simplify the interaction with smart contract, similar to yogurt, simple and healthy.
+
+[Link_To_PYPI](https://pypi.org/project/yogurt/0.0.1/)
+
+
