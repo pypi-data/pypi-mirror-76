@@ -1,0 +1,15 @@
+gitmine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitmine/constants.py,sha256=IgBFXuJnMpk0lUop3ZOGRM3oUpbNG9xqTp5g1PJu2l4,280
+gitmine/gitmine.py,sha256=42NoS5FY4UI5QfT85Xzy42QA6zp2MYTPqE-62CpKVeY,3545
+gitmine/logging.conf,sha256=VWDAOoKPceP46ceapbCkSDHhOpHde8axrr0QUBd_48E,421
+gitmine/utils.py,sha256=yl6rTZAyImO5VBIz0kMHaB6QCbVIr51S_IxLfOIu4Bg,1477
+gitmine/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gitmine/commands/config.py,sha256=wTNZ_ZU355NeFgV0OAAXyvMNz-uML6B8IVl26OLT9mI,5403
+gitmine/commands/get.py,sha256=ypXqw2G8AU0SRuULbtli1F-EIgIiBD6IteAaa-fdDik,6192
+gitmine/commands/go.py,sha256=FiAukxW785YcEqmU6o0fwksUEJDy01NnRoFDS8m-QCA,417
+gitmine-0.0.8.dist-info/LICENSE,sha256=A1LX979nu-V8F2ZE48o8hOiVkaoZV3aq546pAHFS8vo,1085
+gitmine-0.0.8.dist-info/METADATA,sha256=RTbQbuhnHJCybh3tpsjOuxCDuNzYwp6bZhk8gRv_uQ8,2533
+gitmine-0.0.8.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gitmine-0.0.8.dist-info/entry_points.txt,sha256=ZmmlTN_7iffhbGURkNV0uU-ilIfdZjlub7Ca5iLc6z8,50
+gitmine-0.0.8.dist-info/top_level.txt,sha256=uAQDgyBd0zCmrdZO3lqZjAkddWIE8yp0B6Dj3xaxMAo,8
+gitmine-0.0.8.dist-info/RECORD,,
