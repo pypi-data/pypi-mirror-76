@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: ngocbien-analysis
+Version: 0.1
+Summary: An ecosystem for data analysis
+Home-page: https://github.com/ngocbien
+Author: Nguyen Ngoc Bien
+Author-email: ngocbien.nguyen.vn@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7.*
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.16.6)
+Requires-Dist: scikit-learn (>=0.20.4)
+Requires-Dist: scipy (>=0.19.0)
+Requires-Dist: pandas (>=0.24.2)
+Requires-Dist: matplotlib (>=2.2.5)
+
+This is a tool for dataviz
+```python
+from ngocbien_analysis import DistributionPlot
+plot = DistributionPlot(data1, data2).plot2data()
+```
+You have params to turn like that:
+```python
+from ngocbien_analysis import DistributionPlot
+plot = DistributionPlot(data1, data2, nmax=9, label=['data1', 'data2'], is_save=True).plot2data()
+```
+where
+nmax is the num of subplots in a figure, label is the legend of data, is_save is to save data in a direction.
+
+
