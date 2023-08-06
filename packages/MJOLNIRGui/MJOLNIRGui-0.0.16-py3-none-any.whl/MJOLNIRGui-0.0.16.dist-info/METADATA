@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: MJOLNIRGui
+Version: 0.0.16
+Summary: Neutron Scattering software suite.
+Home-page: UNKNOWN
+Author: Jakob Lass and Henrik Jacobsen
+Author-email: 
+License: MPL-2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.5
+Requires-Dist: pip (>=20)
+Requires-Dist: sip (>=5.3)
+Requires-Dist: PyQt5-sip
+Requires-Dist: PyQt5
+Requires-Dist: fbs
+Requires-Dist: MJOLNIR
+Requires-Dist: ufit
+
+MJOLNIRTesting
+==============
+
+Testing
+
+

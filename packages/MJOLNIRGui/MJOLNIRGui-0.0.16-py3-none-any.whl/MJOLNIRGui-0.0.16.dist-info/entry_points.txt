@@ -1,0 +1,3 @@
+[console_scripts]
+MJOLNIRGui = MJOLNIRGui.main:main
+
