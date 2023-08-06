@@ -1,0 +1,51 @@
+{
+  "நீட்சி": {},
+  "பெயர்": {},
+  "பதிப்புகள்": {
+    "": [
+      "?start : value",
+      "?value : object \n      | array \n      | string \n      | SIGNED_NUMBER -> number \n      | \"true\" -> true \n      | \"false\" -> false \n      | \"null\" -> null",
+      "array : \"[\" [ value ( \",\" value ) * ] \"]\"",
+      "object : \"{\" [ pair ( \",\" pair ) * ] \"}\"",
+      "pair : string \":\" value",
+      "string : ESCAPED_STRING",
+      "%import common . ESCAPED_STRING",
+      "%import common . SIGNED_NUMBER",
+      "%import common . WS",
+      "%ignore WS"
+    ]
+  },
+  "விதிகள்": {
+    "?start : value": {
+      "பெயர்ப்பு": {}
+    },
+    "?value : object \n      | array \n      | string \n      | SIGNED_NUMBER -> number \n      | \"true\" -> true \n      | \"false\" -> false \n      | \"null\" -> null": {
+      "பெயர்ப்பு": {}
+    },
+    "array : \"[\" [ value ( \",\" value ) * ] \"]\"": {
+      "பெயர்ப்பு": {}
+    },
+    "object : \"{\" [ pair ( \",\" pair ) * ] \"}\"": {
+      "பெயர்ப்பு": {}
+    },
+    "pair : string \":\" value": {
+      "பெயர்ப்பு": {}
+    },
+    "string : ESCAPED_STRING": {
+      "பெயர்ப்பு": {}
+    },
+    "%import common . ESCAPED_STRING": {
+      "பெயர்ப்பு": {}
+    },
+    "%import common . SIGNED_NUMBER": {
+      "பெயர்ப்பு": {}
+    },
+    "%import common . WS": {
+      "பெயர்ப்பு": {}
+    },
+    "%ignore WS": {
+      "பெயர்ப்பு": {}
+    }
+  },
+  "மொழிபெயர்ப்பாளர்கள்": []
+}
