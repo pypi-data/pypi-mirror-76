@@ -1,0 +1,11 @@
+airtableio/__init__.py,sha256=QDZeEkk6ZQrQH0nxFfqu5oc43zyDtdEstRVsOpSYcZ4,175
+airtableio/airtable.py,sha256=o41kA9Jbpy1p0ZktbvBnOT9VanclZrP4kPENwCT0OeY,4668
+airtableio/api.py,sha256=_VIk_557pYr_wM6_7TZe7eFY76doYRKXYIrQaRCPVBs,3507
+airtableio/client.py,sha256=cqyGK2eUUWdS3l5SX3E3QkNxM7v8o-1V6PNZTa3glSk,4590
+airtableio/exceptions.py,sha256=i8g3rB-rpwKnt6uKFmA-wV8IQt5GqJkeFGq2wx-q5Y8,423
+airtableio/helpers.py,sha256=deQmUzS3kB2zFERfEFaVguou78kfw-Sby5oAyrzTEo4,10347
+airtableio-0.1.1.dist-info/LICENSE,sha256=9O64XQ6l7t7XcfNI-xNYylEN582wcriBCCDWT8IBCSg,1073
+airtableio-0.1.1.dist-info/METADATA,sha256=7OPYbuhRiyoREyYX_iQmdlr0_pe8huKjsQdgTHl7M7M,1109
+airtableio-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+airtableio-0.1.1.dist-info/top_level.txt,sha256=oowsiAcjXg7YH1akkFEQObpOcVD122jk5TZiXzUFoME,11
+airtableio-0.1.1.dist-info/RECORD,,
