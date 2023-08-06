@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: igeEffekseer
+Version: 0.0.2
+Summary: C++ extension Effekseer for 3D and 2D games.
+Home-page: https://indigames.net/
+Author: Indigames
+Author-email: dev@indigames.net
+License: MIT
+Keywords: Effekseer 3D game Indigames
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Games/Entertainment
+Description-Content-Type: text/markdown
+
+# igeEffekseer
+
+C++ extension Effekseer for 3D and 2D games.
+
+### Before running this tutorial, you have to install igeEffekseer
+	[pip install igeEffekseer]
+
+
+### The Editor
+Get from link : https://effekseer.github.io/en/download.html
+
+### Tutorial
+https://github.com/indigames/pyxieTutorials/tree/dev/igeEffekseer
+
+### Support
+
+- Effeck : .efk
+- Texture : .pyxi
+
