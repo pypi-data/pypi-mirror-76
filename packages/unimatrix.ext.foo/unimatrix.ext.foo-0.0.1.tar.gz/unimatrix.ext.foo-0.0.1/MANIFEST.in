@@ -1,0 +1,2 @@
+include unimatrix/ext/foo/VERSION
+include unimatrix/ext/foo/package.json
