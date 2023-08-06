@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: text-template
+Version: 1.0.1
+Summary: Very simple text templating view for Python
+License: MIT
+Author: Sarcoma
+Author-email: sarcoma@live.co.uk
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: ansi-colours (==0.2.3)
+Requires-Dist: codecov (==2.0.15)
+Requires-Dist: coverage (==4.5.1)
+Requires-Dist: importlib_resources (>=3.0.0,<4.0.0)
