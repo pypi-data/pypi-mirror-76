@@ -1,0 +1,4 @@
+QuickCut
+QuickCut/assets
+QuickCut/languages
+QuickCut/misc
