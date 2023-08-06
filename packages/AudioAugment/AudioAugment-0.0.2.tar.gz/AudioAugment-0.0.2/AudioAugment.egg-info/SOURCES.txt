@@ -1,0 +1,9 @@
+README.md
+setup.py
+AudioAugment.egg-info/PKG-INFO
+AudioAugment.egg-info/SOURCES.txt
+AudioAugment.egg-info/dependency_links.txt
+AudioAugment.egg-info/requires.txt
+AudioAugment.egg-info/top_level.txt
+tools/__init__.py
+tools/audio_augment.py
