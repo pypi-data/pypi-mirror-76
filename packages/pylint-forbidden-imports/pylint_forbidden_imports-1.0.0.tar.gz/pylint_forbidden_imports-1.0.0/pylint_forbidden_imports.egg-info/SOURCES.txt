@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+pylint_forbidden_imports/__init__.py
+pylint_forbidden_imports/encapsulated_modules.py
+pylint_forbidden_imports/forbidden_imports.py
+pylint_forbidden_imports/modules.py
+pylint_forbidden_imports.egg-info/PKG-INFO
+pylint_forbidden_imports.egg-info/SOURCES.txt
+pylint_forbidden_imports.egg-info/dependency_links.txt
+pylint_forbidden_imports.egg-info/requires.txt
+pylint_forbidden_imports.egg-info/top_level.txt
