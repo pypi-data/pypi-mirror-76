@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: multiscale-statistical-analysis
+Version: 0.5.0
+Summary: Multiscale regression analysis software, which uses multiscale area data exported from MountainsMap®.
+Home-page: UNKNOWN
+Author: Matthew Spofford, Nathaniel Rutkowski
+Author-email: mespofford@wpi.edu
+License: MIT
+Description: [![PyPI version shields.io](https://img.shields.io/pypi/v/multiscale-statistical-analysis.svg)](https://pypi.org/project/multiscale-statistical-analysis/)
+        [![PyPI license](https://img.shields.io/pypi/l/multiscale-statistical-analysis.svg)](https://pypi.org/project/multiscale-statistical-analysis/)
+        # Multiscale-Statistical-Analysis
+        ## About
+        This is a standalone multiscale analysis software developed by [Nathaniel Rutkowski](https://github.com/nrutkowski1).
+        It uses length-scale, area-scale, or area-complexity data exported from MountainsMapÂ®, developed by [Digital Surf](https://www.digitalsurf.com/).
+        The application can then be used to run multiscale regression or discrimination on the exported surface data using F-tests, T-Tests, or ANOVA analysis.
+        ## Documentation
+        A list of dependencies will need to be installed in order to use the application (all of these can be installed using [pip](https://pypi.org/project/pip/)). These can be found [here](https://github.com/MatthewSpofford/Multiscale-Statistical-Analysis/blob/master/requirements.txt), and installed using this command: `pip install -r requirements.txt`. In order to then run the tool, use `python main.py`.
+        
+        More information on how to use the application can be found [here](https://github.com/MatthewSpofford/Multiscale-Statistical-Analysis/blob/master/Multiscale%20Statistical%20Analysis%20Manual.pdf).
+        ## Similar Projects
+        In order to integrate directly with the MountainsMapÂ® software, a similar addon application was being worked on. However, this project has been abandoned as a result of limitations with MountainsMapÂ®. The project can be found [here](https://github.com/MatthewSpofford/Mountains-Statistical-Addons).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Framework :: Setuptools Plugin
+Classifier: Framework :: Matplotlib
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
