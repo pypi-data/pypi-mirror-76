@@ -1,0 +1,24 @@
+from setuptools import setup
+
+setup(
+    name='BetterLoader',
+    version='0.1.0',    
+    description='A better PyTorch dataloader',
+    url='https://github.com/BinItAI/BetterLoader',
+    author='BinIt Inc',
+    author_email='',
+    license='MIT',
+    download_url="https://github.com/BinItAI/BetterLoader/archive/0.1.0.tar.gz",
+    packages=['betterloader'],
+    install_requires=['future==0.18.2', 'numpy==1.19.1', 'Pillow==7.2.0', 'torch==1.6.0', 'torchvision==0.7.0'],
+
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+        'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: MIT License',  
+        'Operating System :: POSIX :: Linux',
+        'Operating System :: MacOS :: MacOS X',
+        'Operating System :: Microsoft :: Windows :: Windows 10',
+        'Programming Language :: Python :: 3.7',
+    ],
+)
