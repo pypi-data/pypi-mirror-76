@@ -1,0 +1,8 @@
+README.md
+setup.py
+llamapy/__init__.py
+llamapy/llamapy.py
+llamapy.egg-info/PKG-INFO
+llamapy.egg-info/SOURCES.txt
+llamapy.egg-info/dependency_links.txt
+llamapy.egg-info/top_level.txt
