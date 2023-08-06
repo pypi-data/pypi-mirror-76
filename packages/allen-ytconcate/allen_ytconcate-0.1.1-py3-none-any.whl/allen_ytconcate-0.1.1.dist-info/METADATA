@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: allen-ytconcate
+Version: 0.1.1
+Summary: My short description for my project.
+Home-page: https://github.com/me/myproject
+Author: Awesome Soul
+Author-email: learn.to.code.tw2@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: moviepy
+Requires-Dist: python-dotenv
+Requires-Dist: pytube3
+Requires-Dist: urllib3
+Requires-Dist: requests
+
+
+"# yt-concate" 
+
+
