@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: remo-python
+Version: 0.1.7
+Summary: Remo python library
+Home-page: https://github.com/rediscovery-io/remo-python
+Author: Rediscovery.io
+Author-email: hello@remo.ai
+License: LICENSE.txt
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
