@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rest-tracker
+Version: 0.0.1
+Summary: Django app to easily track and store views request and responses
+Home-page: https://www.github.com/tannerburns/rest_tracker
+Author: Tanner Burns
+Author-email: tjburns102@gmail.com
+License: UNKNOWN
+Description: # REST_Tracker
+        
+            Django app to easily track and store views request and responses
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
