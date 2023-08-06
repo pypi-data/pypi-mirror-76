@@ -1,0 +1,9 @@
+pip
+packaging
+fastai2>=0.0.28
+ipywidgets
+nbdev>=0.2.38
+azure-cognitiveservices-search-imagesearch
+sentencepiece
+
+[dev]
