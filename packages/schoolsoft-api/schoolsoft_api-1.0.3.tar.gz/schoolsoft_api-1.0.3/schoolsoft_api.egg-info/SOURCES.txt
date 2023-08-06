@@ -1,0 +1,10 @@
+README.md
+setup.py
+schoolsoft_api/__init__.py
+schoolsoft_api/__version__.py
+schoolsoft_api/schoolsoft_api.py
+schoolsoft_api.egg-info/PKG-INFO
+schoolsoft_api.egg-info/SOURCES.txt
+schoolsoft_api.egg-info/dependency_links.txt
+schoolsoft_api.egg-info/requires.txt
+schoolsoft_api.egg-info/top_level.txt
