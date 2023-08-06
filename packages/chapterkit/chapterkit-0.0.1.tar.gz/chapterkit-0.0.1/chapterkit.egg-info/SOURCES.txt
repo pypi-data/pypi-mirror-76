@@ -1,0 +1,12 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+chapterkit.egg-info/PKG-INFO
+chapterkit.egg-info/SOURCES.txt
+chapterkit.egg-info/dependency_links.txt
+chapterkit.egg-info/entry_points.txt
+chapterkit.egg-info/not-zip-safe
+chapterkit.egg-info/top_level.txt
