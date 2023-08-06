@@ -1,0 +1,26 @@
+Metadata-Version: 1.2
+Name: YamlBase
+Version: 0.0.3
+Summary: YamlBase: simple yaml config based VCS for database
+Home-page: https://docs.pytest.org/en/latest/
+Author: Maxim Yurchenko
+License: MIT
+Project-URL: Source, https://github.com/mv-yurchenko/YBase
+Project-URL: Tracker, https://github.com/mv-yurchenko/YBase/issues
+Description: UNKNOWN
+Keywords: Database,VCS
+Platform: linux
+Platform: Development Status :: 3 - Aplha
+Platform: Intended Audience :: Developers
+Platform: License :: OSI Approved :: MIT License
+Platform: Operating System :: MacOS :: MacOS X
+Platform: Operating System :: Microsoft :: Windows
+Platform: Programming Language :: Python :: 3
+Platform: Programming Language :: Python :: 3 :: Only
+Platform: Programming Language :: Python :: 3.7
+Platform: Programming Language :: Python :: 3.8
+Platform: Programming Language :: Python :: 3.9
+Platform: Topic :: Software Development :: Libraries
+Platform: Topic :: Software Development :: DataBase
+Platform: Topic :: Utilities
+Requires-Python: >=3.7
