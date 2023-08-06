@@ -1,0 +1,64 @@
+Metadata-Version: 1.1
+Name: hbcapi
+Version: 0.2.0
+Summary: The official hydrogenbotsclub api wrapper
+Home-page: https://api.hydrogenbots.club
+Author: hydrogenbotsclub
+Author-email: hydrogen.studio.llc@gmail.com
+License: MIT
+Download-URL: https://github.com/hydrogen-studio/hbcapi-py/archive/0.2.0.tar.gz
+Description: hbcapi
+        ======
+        
+        Description
+        -----------
+        
+        This is the official api wrapper for hydrogenbots.club
+        
+        importing and defining
+        ======================
+        
+        import
+        ------
+        
+        ``pip install hbcapi``
+        
+        define the library in your code
+        -------------------------------
+        
+        .. code:: py
+        
+           import hbcapi
+        
+           HBC = hbcapi.access("auth_token")
+        
+        Methods
+        =======
+        
+        poststats
+        ---------
+        
+        post the servercount for your bot
+        
+        .. code:: py
+        
+           print(HBC.poststats(guild, shard)) #guild - the guildcount of the bot shard-the shard count of the bot, print the response
+        
+        voters
+        ------
+        
+        get an array of all of the voters that have voted for your bot
+        
+        .. code:: py
+        
+           print(HBC.poststats()) #print the response
+Keywords: hydrogenbotsclub,discord,club,hydrogen,hydrogenstudio
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
