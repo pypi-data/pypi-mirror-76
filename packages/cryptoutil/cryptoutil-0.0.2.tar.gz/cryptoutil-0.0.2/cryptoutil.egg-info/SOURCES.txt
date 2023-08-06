@@ -1,0 +1,8 @@
+README.md
+setup.py
+cryptoutil/__init__.py
+cryptoutil.egg-info/PKG-INFO
+cryptoutil.egg-info/SOURCES.txt
+cryptoutil.egg-info/dependency_links.txt
+cryptoutil.egg-info/requires.txt
+cryptoutil.egg-info/top_level.txt
