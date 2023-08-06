@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: quick-trade
+Version: 2.1.7
+Summary: Trading system for stocks, forex and others
+Home-page: https://github.com/VladKochetov007/quick_trade
+Author: Vlad Kochetov
+Author-email: vladyslavdrrragonkoch@gmail.com
+License: cc-by-sa-4.0
+Download-URL: https://github.com/VladKochetov007/quick_trade/archive/v2.1.7.tar.gz
+Description: Please, view page on github.
+Keywords: technical analysis,python3,trading
+Platform: UNKNOWN
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
