@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: airtableio
+Version: 0.1.1
+Summary: Async wrapper for airtable.
+Home-page: https://github.com/uleague/airtableio
+Author: Evgenii Petrovich
+Author-email: parapheen6@gmail.com
+License: MIT
+Description: 
+        **Async API wrapper for Airtable.**
+        =====================
+        Powered by aiohttp.
+        https://airtable.com/
+        
+        **Simple Usage**
+        
+        ```python 
+        
+        from airtableio import Airtable
+        import asyncio
+        
+        TOKEN = ""
+        APP_ID = ""
+        
+        my_airtable = Airtable(TOKEN, APP_ID)
+        
+        
+        async def call():
+            result = await my_airtable.get_records("Table")
+            print(result)
+        
+        if __name__ == "__main__":
+            loop = asyncio.get_event_loop()
+            loop.create_task(call())
+        
+            loop.run_forever()
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
