@@ -1,0 +1,9 @@
+README.md
+setup.py
+people_finder/__init__.py
+people_finder/recognition.py
+people_finder.egg-info/PKG-INFO
+people_finder.egg-info/SOURCES.txt
+people_finder.egg-info/dependency_links.txt
+people_finder.egg-info/requires.txt
+people_finder.egg-info/top_level.txt

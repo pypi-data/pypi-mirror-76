@@ -1,0 +1,1 @@
+from people_finder.recognition import Recognition
