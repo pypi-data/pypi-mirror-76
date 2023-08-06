@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+__pkginfo__.py
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+coverage_pyver_pragma/__init__.py
+coverage_pyver_pragma/py.typed
+coverage_pyver_pragma.egg-info/PKG-INFO
+coverage_pyver_pragma.egg-info/SOURCES.txt
+coverage_pyver_pragma.egg-info/dependency_links.txt
+coverage_pyver_pragma.egg-info/not-zip-safe
+coverage_pyver_pragma.egg-info/requires.txt
+coverage_pyver_pragma.egg-info/top_level.txt
