@@ -1,0 +1,17 @@
+cruft/__init__.py,sha256=ZljoyZCMtSiw6sbdfXpEWv6AKYrpx24fAvkZ7Yn2x08,366
+cruft/__main__.py,sha256=Wc-PVVihOwr8uyZX9UJO3AZa9HvP-fp8v3W8m-5oj6Y,52
+cruft/_cli.py,sha256=bZ7ETlADYs9ozM05ncspAd_qC4wnk2BXu-F-Bz18Y90,7358
+cruft/_commands/__init__.py,sha256=slSjVm2_xfKts-vp2DJ5Jg-F5pCWzwnzHPQ1RGI43Go,208
+cruft/_commands/check.py,sha256=Cp_L5ccITc2_u8ahgkDm5vOZJzA94dYHaJSRz48XR8Q,1243
+cruft/_commands/create.py,sha256=Af9AyGPLq5LJj6Rdj2QfpYYXfC0YqCmbaAcc5HMKbhI,2160
+cruft/_commands/link.py,sha256=NybT5EUb82X4HvsgCbaIyPBNMZiXO1u-CxyJu4qlnMo,2227
+cruft/_commands/update.py,sha256=w-Bb2ZV5JxcePhwEiS9yf9l0gU5QJixvCxay9KXSa50,11254
+cruft/_commands/utils.py,sha256=F-fOuMEvbjvjaWn8fOhCpOZMOj7A8mAYba0IzxDkwXM,4226
+cruft/_logo.py,sha256=r9yCvnxlYLuqEq5mXFOb926w1QBUU6GuxuYDxmp73MM,853
+cruft/_version.py,sha256=CpK8IH_dCUAwg9tqv7zm9FxbBFkxCnED1JUiRe7cftU,22
+cruft/exceptions.py,sha256=z7i1W7X3-nxH2R1LevEXc_KvGpurSGNjCUtANI4CpbU,1755
+cruft-2.3.0.dist-info/entry_points.txt,sha256=30somCJ0wXKlxjsjlpN2t8ThnwslHEcmLMTbCl8LNrI,40
+cruft-2.3.0.dist-info/LICENSE,sha256=3VxfRA8Mg4xyUHzL9rhmli2b0DSoF7x6-qoVEMtFXPc,1089
+cruft-2.3.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+cruft-2.3.0.dist-info/METADATA,sha256=bN9E9db8K5yBSIYowPNz8kaEJJdwetU5J0PdPTpsYhA,8867
+cruft-2.3.0.dist-info/RECORD,,
