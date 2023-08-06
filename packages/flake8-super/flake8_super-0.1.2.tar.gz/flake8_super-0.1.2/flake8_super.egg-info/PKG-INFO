@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: flake8-super
+Version: 0.1.2
+Summary: Python 3 super() check for flake8
+Home-page: https://github.com/meanmail/flake8-super
+Author: meanmail
+Author-email: example@example.com
+License: MIT
+Description: # flake8-super
+        Python 3 super() check for flake8
+        
+        # Installation
+        
+        ```bash
+        pip install flake8-super
+        ```
+        
+        # Configuration
+        
+        No configuration required
+        
+        
+        # Example
+        
+        ```python3
+        #  Error
+        class SomeClass:
+            def __init__(self):
+                super(SomeClass, self).__init__()  # SPR100 Use `super()` instead of `super(__class__, self)`
+        
+        
+        # Good
+        class SomeClass:
+            def __init__(self):
+                super().__init__()
+        
+        ```
+        
+        
+        # Error codes
+        
+        |code|description|
+        |---|---|
+        |SPR100|Use `super()` instead of `super(__class__, self)`|
+        
+        
+        # Links
+        
+        https://github.com/meanmail/flake8-super
+        
+        https://meanmail.dev/
+        
+Platform: UNKNOWN
+Classifier: Framework :: Flake8
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Description-Content-Type: text/markdown

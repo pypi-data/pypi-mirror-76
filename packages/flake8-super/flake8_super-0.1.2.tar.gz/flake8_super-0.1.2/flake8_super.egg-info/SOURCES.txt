@@ -1,0 +1,10 @@
+README.md
+setup.py
+flake8_super/__init__.py
+flake8_super/plugin.py
+flake8_super.egg-info/PKG-INFO
+flake8_super.egg-info/SOURCES.txt
+flake8_super.egg-info/dependency_links.txt
+flake8_super.egg-info/entry_points.txt
+flake8_super.egg-info/requires.txt
+flake8_super.egg-info/top_level.txt
