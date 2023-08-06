@@ -1,0 +1,14 @@
+django_agent_trust/__init__.py,sha256=W4Gr3CWe6pZWPkIfrb7YchsU0RJyZn0ewDTKRNXvUYo,2201
+django_agent_trust/admin.py,sha256=Axn_BHywkaD-anghGEjfo-BDe2UdPVpqo121zPa_hDw,105
+django_agent_trust/conf.py,sha256=mj3qYJj1YjEHcDldGzgg1UHubsaVyQrVUIHMBuKMMXA,1703
+django_agent_trust/context_processors.py,sha256=U1-asg2F3ZjZYUR3ysSvInqNy2lLes-hIdjz0k6Gsw8,203
+django_agent_trust/decorators.py,sha256=Tx_XTaySekaJRb65_2xSQVu0uXwFfPky_StcvdaYlbY,1116
+django_agent_trust/middleware.py,sha256=ABQIoRer-6SvUUvsj0Wj6fhPUDjtsPb7dw7o0iIWzWE,4553
+django_agent_trust/models.py,sha256=TYB_h6KSGqHtDd8P5kjrStNrbLVmFx4IbcumDC-Rehk,5443
+django_agent_trust/migrations/0001_initial.py,sha256=4kVTsU2Y5JCNc2xlmK8vBvf6WQ-l-G2slswacnSaJuw,1138
+django_agent_trust/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_agent_trust-1.0.0.dist-info/LICENSE,sha256=XIaVntRjig2E50e_ZuaHAZfBExD8cQ2dI4hFnLBAOW0,1297
+django_agent_trust-1.0.0.dist-info/METADATA,sha256=Zbtwvg1qNllTzVsVNiJsSEzi-kE1HnFG63waLVJEKPk,2513
+django_agent_trust-1.0.0.dist-info/WHEEL,sha256=QNZmmMbQUQDSFNbbXyXHUMkgO-aoElXpPB6KCI2u8H8,110
+django_agent_trust-1.0.0.dist-info/top_level.txt,sha256=6NcFOAKKrsQrKYQ6xKwHXRiEGymMEoyzEURMiUvJWVQ,19
+django_agent_trust-1.0.0.dist-info/RECORD,,
