@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+MQLAlchemy.egg-info/PKG-INFO
+MQLAlchemy.egg-info/SOURCES.txt
+MQLAlchemy.egg-info/dependency_links.txt
+MQLAlchemy.egg-info/not-zip-safe
+MQLAlchemy.egg-info/requires.txt
+MQLAlchemy.egg-info/top_level.txt
+mqlalchemy/AUTHORS
+mqlalchemy/LICENSE
+mqlalchemy/__init__.py
+mqlalchemy/utils.py
+tests/__init__.py
+tests/models.py
