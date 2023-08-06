@@ -1,0 +1,4 @@
+include README.MD LICENSE MANIFEST.in HISTORY.md
+recursive-include demo *
+recursive-include docs *
+recursive-include tests *
