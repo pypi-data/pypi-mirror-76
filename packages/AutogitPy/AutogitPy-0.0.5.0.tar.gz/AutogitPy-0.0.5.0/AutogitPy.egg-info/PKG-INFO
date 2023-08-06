@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: AutogitPy
+Version: 0.0.5.0
+Summary: A package which automates the process of git
+Home-page: https://sites.google.com/view/docs-autogitpy/home
+Author: Saran,Abhilash,Abhiraman,Tarun
+Author-email: unofficialcredentials@gmail.com
+License: MIT
+Description: ### Right now the cloning,push and pull of repositories into your github ,which is being done manually and involves repetitive typing of the same command. 
+        - In order to save  time and repetitiveness we have created a library which involves the following.
+         1. Automated cloning of repositories.
+         2. Automated push and pull into the  repositories
+         3. Automated deletion of folders. 
+         ### for documentation:click on HomePage
+Keywords: configuration core yaml ini json environment
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
