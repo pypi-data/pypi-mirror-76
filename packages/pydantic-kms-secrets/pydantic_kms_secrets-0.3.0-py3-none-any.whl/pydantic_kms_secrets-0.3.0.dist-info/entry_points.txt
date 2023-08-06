@@ -1,0 +1,3 @@
+[console_scripts]
+pks = pydantic_kms_secrets.cli:main
+
