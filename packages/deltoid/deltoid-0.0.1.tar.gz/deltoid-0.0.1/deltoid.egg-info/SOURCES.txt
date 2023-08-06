@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+deltoid.egg-info/PKG-INFO
+deltoid.egg-info/SOURCES.txt
+deltoid.egg-info/dependency_links.txt
+deltoid.egg-info/top_level.txt
