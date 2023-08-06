@@ -1,0 +1,9 @@
+scrypt==0.8.13
+appdirs==1.4.3
+graphenelib==1.1.18
+prettytable
+events
+pyyaml
+pycryptodome==3.8.1
+click
+treelib
