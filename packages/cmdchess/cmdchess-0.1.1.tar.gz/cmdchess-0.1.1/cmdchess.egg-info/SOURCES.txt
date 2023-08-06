@@ -1,0 +1,13 @@
+README.rst
+setup.py
+cmdchess/__init__.py
+cmdchess/board.py
+cmdchess/config.py
+cmdchess/game.py
+cmdchess/piece.py
+cmdchess/variant.py
+cmdchess.egg-info/PKG-INFO
+cmdchess.egg-info/SOURCES.txt
+cmdchess.egg-info/dependency_links.txt
+cmdchess.egg-info/entry_points.txt
+cmdchess.egg-info/top_level.txt
