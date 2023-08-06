@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: urnote
+Version: 0.3
+Summary: A program that utilizes spaced repetition to review your notes written in Markdown
+Home-page: https://github.com/urnote/urnote
+Author: Jeffrey
+Author-email: Jeffrey.S.Teo@gmail.com
+License: GPL-3.0
+Keywords: markdown,notebook,note,spaced repetition
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: ~=3.3
+Requires-Dist: sqlalchemy
+Requires-Dist: colorama
+
+UNKNOWN
+
+
