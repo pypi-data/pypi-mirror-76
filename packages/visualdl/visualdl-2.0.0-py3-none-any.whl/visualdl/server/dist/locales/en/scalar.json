@@ -1,0 +1,19 @@
+{
+    "download-image": "Download image",
+    "ignore-outliers": "Ignore outliers in chart scaling",
+    "maximize": "Maximize",
+    "minimize": "Minimize",
+    "restore": "Selection restore",
+    "smoothed": "Smoothed",
+    "smoothing": "Smoothing",
+    "toggle-log-axis": "Logarithmic axis",
+    "tooltip-sorting": "Tooltip Sorting",
+    "tooltip-sorting-value": {
+        "ascending": "Ascending",
+        "default": "Default",
+        "descending": "Descending",
+        "nearest": "Nearest"
+    },
+    "value": "Value",
+    "x-axis": "X-Axis"
+}
