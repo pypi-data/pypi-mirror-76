@@ -1,0 +1,3 @@
+[console_scripts]
+pyunique = pyunique.endpoints.main:main
+
