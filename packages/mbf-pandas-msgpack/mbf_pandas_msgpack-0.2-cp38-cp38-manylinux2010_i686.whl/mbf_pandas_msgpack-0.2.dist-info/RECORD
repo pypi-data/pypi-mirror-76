@@ -1,0 +1,14 @@
+mbf_pandas_msgpack/__init__.py,sha256=ewRLRA7zTVDAX9Mq_P0QMvYchp0A9h9pyy_oeF18HNE,713
+mbf_pandas_msgpack/_move.cpython-38-i386-linux-gnu.so,sha256=o8b2BYxqZ0MKvvusm3d7h1Xcxds6cnp-V-ypHfmuXZU,33716
+mbf_pandas_msgpack/packers.py,sha256=jQvlD9ma5XLLJhvLNN1Vfic88rdRyG_dryydRouR5aM,25601
+mbf_pandas_msgpack/_version.py,sha256=Lgf9keBX7aG_JEFt6UYSyiFKcm-BYGtmk9ohpQhYpyk,20
+mbf_pandas_msgpack/msgpack/_packer.cpython-38-i386-linux-gnu.so,sha256=o-sqF4xH0bmCGmZgbqK72WCViXrQfedSp6AEldhkRQk,538368
+mbf_pandas_msgpack/msgpack/__init__.py,sha256=V6sWhwHsUbQm0mYzivTBk1YWGgZyY3Y3sFo2Jb95mlc,1154
+mbf_pandas_msgpack/msgpack/exceptions.py,sha256=dZWm1HSUintMEwZ89VgJPZjZGokzKvM0f9pdB44Jh68,505
+mbf_pandas_msgpack/msgpack/_version.py,sha256=QXoo6iFXPa7HetqR8eOrP1u3Z8qNt3S3zl_GyDwCT6Y,20
+mbf_pandas_msgpack/msgpack/_unpacker.cpython-38-i386-linux-gnu.so,sha256=DDWA8hTAr9DhoZY3ZPtpwy62BIVdO5JH698_UCQ0sqw,549448
+mbf_pandas_msgpack-0.2.dist-info/top_level.txt,sha256=2wOMmAEB9RB0c0dkXofOyHbJeixK-7SdovVqMzrLRKM,19
+mbf_pandas_msgpack-0.2.dist-info/LICENSE.md,sha256=GdeiZYtWrq2E9HPFfv-q4V2flgVIxiaQgsYon7M2DUo,3777
+mbf_pandas_msgpack-0.2.dist-info/WHEEL,sha256=5sVZizCrL6V6GTSlz2gB1j2D7vS_LJeGqIpb1NNiG2o,109
+mbf_pandas_msgpack-0.2.dist-info/RECORD,,
+mbf_pandas_msgpack-0.2.dist-info/METADATA,sha256=7fyKv0CM3Ok6TVgMkayxadR2FhFKhidNeu33BHDfK40,2182
