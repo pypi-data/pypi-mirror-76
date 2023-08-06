@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: aug_img
+Version: 0.1.2
+Summary: package test use a simple image precessing example
+Home-page: UNKNOWN
+Author: chloejay
+Author-email: ji.jie@edhec.com
+License: MIT
+Description: img processor for augmentation and resizing, to expand image variety before start DL phase.
+        
+Platform: UNKNOWN
