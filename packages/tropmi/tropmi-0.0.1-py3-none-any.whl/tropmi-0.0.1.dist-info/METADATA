@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tropmi
+Version: 0.0.1
+Summary: adding numbers
+Home-page: https://github.com/Pushkar-Singh-14/
+Author: human bean
+Author-email: santaclawsers@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+human beans
+===============
+Documents
+-------------
+python
+''' def add(a, b):
+		return a + b
+'''
+
