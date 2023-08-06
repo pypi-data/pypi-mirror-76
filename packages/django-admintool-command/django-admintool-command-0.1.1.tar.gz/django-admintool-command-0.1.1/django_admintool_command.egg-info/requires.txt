@@ -1,0 +1,6 @@
+django
+django-compat
+django-admin-tools
+
+[dev]
+flake8
