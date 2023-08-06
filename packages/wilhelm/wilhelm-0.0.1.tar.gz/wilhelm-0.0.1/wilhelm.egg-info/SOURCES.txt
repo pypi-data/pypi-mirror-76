@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+wilhelm.egg-info/PKG-INFO
+wilhelm.egg-info/SOURCES.txt
+wilhelm.egg-info/dependency_links.txt
+wilhelm.egg-info/top_level.txt

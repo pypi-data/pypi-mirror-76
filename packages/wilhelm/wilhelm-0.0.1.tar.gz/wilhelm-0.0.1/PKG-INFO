@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: wilhelm
+Version: 0.0.1
+Summary: My wilhelm package
+Home-page: https://wilhelm.com
+Author: wilhelm
+Author-email: wilhelm@wilhelm.com
+License: MIT License
+Description: UNKNOWN
+Keywords: wilhelm
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
