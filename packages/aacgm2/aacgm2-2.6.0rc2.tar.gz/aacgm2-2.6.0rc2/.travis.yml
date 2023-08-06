@@ -1,0 +1,117 @@
+dist: xenial
+language: python
+env:
+  global:
+    LD_PRELOAD=/lib/x86_64-linux-gnu/libSegFault.so
+matrix:
+  include:
+    - python: 3.8
+      env: TOXENV=check
+    - python: 3.8
+      env: TOXENV=docs
+    - python: 2.7
+      env: TOXENV=2.7,extension-coveralls,coveralls
+    - python: 2.7
+      env: TOXENV=2.7-nocover
+    - python: 3.4
+      env: TOXENV=3.4,extension-coveralls,coveralls
+    - python: 3.4
+      env: TOXENV=3.4-nocover
+    - python: 3.5
+      env: TOXENV=3.5,extension-coveralls,coveralls
+    - python: 3.5
+      env: TOXENV=3.5-nocover
+    - python: 3.6
+      env: TOXENV=3.6,extension-coveralls,coveralls
+    - python: 3.6
+      env: TOXENV=3.6-nocover
+    - python: 3.7
+      env: TOXENV=3.7,extension-coveralls,coveralls
+    - python: 3.7
+      env: TOXENV=3.7-nocover
+    - python: 3.8
+      env: TOXENV=3.8,extension-coveralls,coveralls
+    - python: 3.8
+      env: TOXENV=3.8-nocover
+    - os: osx
+      osx_image: xcode12
+      language: shell
+      env: TOXENV=check
+      before_deploy:
+        - python3 -m venv venv
+        - source venv/bin/activate
+        - which pip python pip3 python3
+        - pip install -U cibuildwheel==1.5.5
+        - CIBW_SKIP="pp*" cibuildwheel --output-dir dist
+        - ls -alF dist/
+      before_install:
+        - python --version
+        - uname -a
+  allow_failures:
+    - env: "TOXENV=check"
+    - env: "TOXENV=docs"
+before_install:
+  - python --version
+  - uname -a
+  - lsb_release -a
+install:
+  - pip install tox
+  - pip install codecov
+  - virtualenv --version
+  - easy_install --version
+  - pip --version
+  - tox --version
+  - codecov --version
+script:
+  - tox -v
+after_failure:
+  - more .tox/log/* | cat
+  - more .tox/*/log/* | cat
+after_success:
+  - codecov
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+before_deploy:
+  # Builds wheels only with Python 3.7
+  # cibuildwheel version and manylinux images to build Py34 wheels
+  # alternative image sha256:
+  # quay.io/pypa/manylinux1_i686@sha256:6616c1a4a93798214e86e964379cd2ee8163fe62af0751da2e8c682809d7c96c
+  # quay.io/pypa/manylinux1_x86_64@sha256:e90db28d26e5558faa8d58ccd2e67d516ca83f793327df0ba48968a77485eb08
+  - |
+    pip install cibuildwheel==0.12.0
+    export CIBW_BUILD="cp34-*"
+    export CIBW_MANYLINUX1_I686_IMAGE="quay.io/pypa/manylinux1_i686:2020-01-31-d8fa357"
+    export CIBW_MANYLINUX1_X86_64_IMAGE="quay.io/pypa/manylinux1_x86_64:2020-01-31-d8fa357"
+    cibuildwheel --output-dir dist
+    unset CIBW_BUILD CIBW_MANYLINUX1_I686_IMAGE CIBW_MANYLINUX1_X86_64_IMAGE
+    pip install -U cibuildwheel==1.5.5
+    cibuildwheel --output-dir dist
+    ls -alF dist/
+deploy:
+  - provider: pypi
+    edge: true
+    server: https://test.pypi.org/legacy/
+    user: __token__
+    password:
+      secure: "XSyr5NqoYbXt97yYVbbYZdCWpRYcChteojBtxer/+pOh8+XTSFRNcjOB4NKlPFOYV9D9a+WV2bZh3Hg97rmu+xKWogtYAncOKL40L6R/TzMS0eb9d5eVAfSPYkyL29ddxE6bVh8nJybOHqhoAAV7dEeGBYabmB3fiedF0oNjGXv9/E3/LdN4GUNVA6z074o696IzS8SwbB4gdLmfBHksAYTzrFXq+BUXs827z7aTr/oIMjt8h3JmI6RDy29ApfgerOTLPRo9c6m714y4ycPtqGQiSxLuT338iVr4qkilmebi82r0Ax0LWz6rR0E0I7Zf5NL1jlsPo64/8BN9ga7Fs6/tnbAJHhEdoKqGBoQx4t4COxVbtlbAb8DJWxfdexQLoWEwWBvpCjSTW2+LN6tn2y6OIv5yp7gpUdKxhT3vsvfmDboR1gIpGdE9V0Rl18fn3kyYoonsIH7WbuIBHlYT/fvUlNlPuJQ3938OoLNTPVyRmnxFUzuBK+cxf5yp00rZ3iGaPnMbQkQal1aRrGyMj1e7owVnQH8FmjfPUEd5S6bjufs+IMtm5GpJVir0AzsfpdO/eMSSQtnNsXY2c8raBcD5GTEd7/0RBFaiQnKmnREL95sZW3KeF0T6zUajB5FxncD7l0vYKXF0ZPgTODtRoO9ISFVijTkcYLzGLyztiwc="
+    skip_existing: true
+    on:
+      repo: st-bender/aacgmv2
+      branch:
+        - master
+      tags: false
+      condition: $TOXENV == "check"
+  - provider: pypi
+    edge: true
+    user: __token__
+    password:
+      secure: "fbCSp+/t3uvzfJSlcJRWxrPXaWkAms3ujQxSnk10zG7noRNzPUY01tGZgZOmZnYNXNHhtNmA8XQN0MJTdzXMoWcKFCW84b+2WgjVC1yHuzA8C53quww2LIPqgWjsf7dn8Tlj6tfVOtz5P3iR4vxw35BJYwM24auUYH2tKAC7ppxPRGYqLLOVcNU3DaDss6g2LS84Fxu3GmVGN3slOfhqJ4fBNZgBW8eK+453BxZIpmLAFfVH8Mn9gTDmpYr+utw1XwGfD7YLXmr+LLPgMKphvomwDLXKdJ9FZ8GBnFXbQN0+17zsaKqnrDfbvB/WQoI9QsHb+5X+CqJzV/ycGe651ERajHeTwdYeCGJ5tz1SrtrBK8vfapOoy1dtJCbXjWn24JHKdGlLmUzfPEPMNxoOqh8bDiWIdf3NZjGDiI+SnYDT+VGem80irBCPkDE7CKumiptLfUbgEuJkcNv4G0m2mLR7xDmEEGW45r1Ph3KtS3sOOZf6rEQEwW2DW7586XRvpvJyFwLSisufxXfyuxmfcyFOCqwlBGQRQZrdvKwanIXLx74Qlg3uHoqKlw1BP5sjYjgpjd9hhqGQZkUTmqyisd2ejLQTg3Mi0IDgfsrHtjPhkw8snf/j3UBKOvECv5uJ3OB6/iU/90Zc3ZIlXbgITg4B3CdvpO8laAaaOcE3W/Y="
+    skip_existing: true
+    on:
+      repo: st-bender/aacgmv2
+      branch:
+        - master
+      tags: true
+      condition: $TOXENV == "check"
