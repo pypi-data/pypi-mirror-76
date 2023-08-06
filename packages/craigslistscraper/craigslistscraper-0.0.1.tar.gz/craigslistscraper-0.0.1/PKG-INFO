@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: craigslistscraper
+Version: 0.0.1
+Summary: Webscraper for Craigslist
+Home-page: https://github.com/ryanirl/CraigslistScraper
+Author: Ryan Peters
+Author-email: ryanirl@icloud.com
+License: UNKNOWN
+Download-URL: https://github.com/ryanirl/CraigslistScraper/archive/v0.0.1-pre-alpha.tar.gz
+Project-URL: Source, https://github.com/ryanirl/CraigslistScraper
+Description: # CraigslistScraper
+        Craigslist Scraper is a web scraper for craigslist, allows users to define searches then pulls all ads and ad data from a search and places it neatly inside of a json file.
+        
+Keywords: web scraper,python,data,development
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
