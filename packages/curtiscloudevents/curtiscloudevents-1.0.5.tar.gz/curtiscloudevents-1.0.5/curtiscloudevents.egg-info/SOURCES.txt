@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+cloudevents/__init__.py
+curtiscloudevents.egg-info/PKG-INFO
+curtiscloudevents.egg-info/SOURCES.txt
+curtiscloudevents.egg-info/dependency_links.txt
+curtiscloudevents.egg-info/top_level.txt
