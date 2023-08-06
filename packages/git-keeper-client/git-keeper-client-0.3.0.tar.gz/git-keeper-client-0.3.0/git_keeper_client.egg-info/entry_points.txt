@@ -1,0 +1,3 @@
+[console_scripts]
+gkeep = gkeepclient.gkeep:main
+
