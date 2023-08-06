@@ -1,0 +1,3 @@
+[console_scripts]
+gtl2via = gtl2via.__main__:main
+
