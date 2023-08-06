@@ -1,0 +1,8 @@
+schedule_manager/__init__.py,sha256=vFmSEbts8HFvBUvRx8ntozNaGeAT6xH9kZlL3YeMpFQ,269
+schedule_manager/exceptions.py,sha256=m7awLQ5rlPoOxyKNafeYXW6kjIwWYBZTr_LFIrfywW8,387
+schedule_manager/manager.py,sha256=O9xjimd9lQIDR1SCQh3Sj8O6ZawN-0uScJ38KhPkD7E,50129
+schedule_manager-0.1.1.dist-info/LICENSE,sha256=DICGiUz3zFHMST-cATZ3tbC5q7rapz8QDoORXJWIoN4,1090
+schedule_manager-0.1.1.dist-info/METADATA,sha256=cnlOdQUtnlPzOtR8USYRkHEIoMEk6DrCy0Hnkfz2N3w,2253
+schedule_manager-0.1.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+schedule_manager-0.1.1.dist-info/top_level.txt,sha256=dB1AHjVOodWLm7fy-IMvfO-ltSf55KlNA2CK20C40yM,17
+schedule_manager-0.1.1.dist-info/RECORD,,
