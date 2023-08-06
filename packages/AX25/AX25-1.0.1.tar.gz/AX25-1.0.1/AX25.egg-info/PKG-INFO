@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: AX25
+Version: 1.0.1
+Summary: Simple python extension to create packet socket and datagram socket for AX.25
+Home-page: http://github.com/josefmtd/ax25
+Author: Josef Matondang
+Author-email: admin@josefmtd.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
