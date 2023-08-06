@@ -1,0 +1,41 @@
+Metadata-Version: 1.2
+Name: wafcli
+Version: 0.0.2
+Summary: 腾讯T-Sec Web应用防火墙命令行工具
+Home-page: https://cloud.tencent.com/product/waf
+Author: HuangJacky
+Maintainer-email: HuangJacky@163.com
+License: MIT
+Description: # 鑵捐疶-Sec Web搴旂敤闃茬伀澧欏懡浠よ屽伐鍏
+        ## 瀹夎
+        ```bash
+        pip install wafcli
+        ```
+        ## 閰嶇疆
+        鍦ㄧ敤鎴风洰褰曚笅闈㈠垱寤轰竴涓猔.waf`鐨勭洰褰,鐩褰曢噷闈㈡柊寤轰竴涓猔waf.json`鐨勯厤缃鏂囦欢
+        ### linux
+        ~/.waf/waf.json
+        
+        ### windows
+        c:\Users\xxxx\.waf\waf.json
+        
+        ### 閰嶇疆椤
+        - secret_id
+        - secret_key
+        - region
+        - edition (sparta-waf, clb-waf, cdn-waf)
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
