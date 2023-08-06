@@ -1,0 +1,3 @@
+[console_scripts]
+ing-ynab = ing_ynab.cli:main
+
