@@ -1,0 +1,7 @@
+requests
+click
+pyyaml
+markdown2
+jinja2
+pygments
+Pillow
