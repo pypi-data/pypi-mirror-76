@@ -1,0 +1,5 @@
+numpy
+Dijkstar
+scikit-image
+tkintertable
+Cython
