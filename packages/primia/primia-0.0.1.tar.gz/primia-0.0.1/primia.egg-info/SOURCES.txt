@@ -1,0 +1,6 @@
+README.md
+setup.py
+primia.egg-info/PKG-INFO
+primia.egg-info/SOURCES.txt
+primia.egg-info/dependency_links.txt
+primia.egg-info/top_level.txt
