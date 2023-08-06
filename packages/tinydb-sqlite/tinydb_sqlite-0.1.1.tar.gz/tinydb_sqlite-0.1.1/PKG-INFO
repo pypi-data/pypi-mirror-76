@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: tinydb-sqlite
+Version: 0.1.1
+Summary: 
+License: MIT
+Author: Cologler
+Author-email: skyoflw@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: tinydb (>=4.1.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# tinydb_sqlite
+
+## Usage
+
+``` py
+from tinydb import TinyDb
+from tinydb_sqlite import SQLiteStorage
+
+with TinyDB(storage=SQLiteStorage, connection='db.sqlite') as db:
+    ...
+```
+
