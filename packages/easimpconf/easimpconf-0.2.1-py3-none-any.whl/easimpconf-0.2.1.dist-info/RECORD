@@ -1,0 +1,11 @@
+easimpconf/VERSION,sha256=cQFcl5zLD8igvnygroMEarBFzcLI-qCfsvD35ED5tKY,6
+easimpconf/__init__.py,sha256=62WLohx4ceoUf1tLk1QWJYymPzLKGXir6lveeUTwFuM,7807
+easimpconf/_config.py,sha256=-R4QSmy6ZPzquaM2HhuZaStAJfa4JgnQI0acdYSfkiM,7425
+easimpconf/_errors.py,sha256=7p36o7Nmscw4mDJeiAS9_a8uhx2Gcuja60t_XVBxhAQ,525
+easimpconf/_spec.py,sha256=AKeYWpm5UzNgRfcO9NVyTZoW_x35FYb1gyGE8cQHDtg,5702
+easimpconf/_utils.py,sha256=_CdN__JeuqUtLXBAINHy1nSU4lWj-uaApqzcJDh0NV0,4855
+easimpconf-0.2.1.dist-info/LICENSE.txt,sha256=l9gFQHt_seVb9SHz45kw9M9tZkfQmlIjkG_vcO8r1KM,1535
+easimpconf-0.2.1.dist-info/METADATA,sha256=rPH__nF43ESHew3L4bhmxTkHbsDAMulKeMPL31Z-44M,1404
+easimpconf-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+easimpconf-0.2.1.dist-info/top_level.txt,sha256=qrYGgzpdBuA6Rnp72R9278Z8uxd_vLDkRDS0lJTwQNg,11
+easimpconf-0.2.1.dist-info/RECORD,,
