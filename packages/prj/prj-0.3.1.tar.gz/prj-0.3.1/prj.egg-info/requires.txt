@@ -1,0 +1,4 @@
+PyYAML>=3.10
+
+[:platform_system == "Windows"]
+pywin32<225,>=222

@@ -1,0 +1,15 @@
+README.md
+setup.py
+prj/__init__.py
+prj/deprecated.py
+prj/management.py
+prj/pathfuncs.py
+prj/pathvar.py
+prj/prj.py
+prj/settings.py
+prj.egg-info/PKG-INFO
+prj.egg-info/SOURCES.txt
+prj.egg-info/dependency_links.txt
+prj.egg-info/requires.txt
+prj.egg-info/top_level.txt
+test/test_management.py
