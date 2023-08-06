@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: idem-grains
+Version: 1
+Summary: Identify and detect the correct idem-[platorm] reqs for your system and install them
+Home-page: https://gitlab.com/akm0d/idem-grains
+Author: Tyler Johnson
+Author-email: tjohnson@saltstack.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: pop (>=13)
+Requires-Dist: grainsv2 (>=9)
+Requires-Dist: idem-bsd ; "BSD" in sys_platform
+Requires-Dist: idem-solaris ; "sunos" in sys_platform
+Requires-Dist: idem-aix ; os_name == "AIX"
+Requires-Dist: idem-darwin ; sys_platform == "darwin"
+Requires-Dist: idem-linux ; sys_platform == "linux"
+Requires-Dist: idem-windows ; sys_platform == "win32"
+
+===========
+IDEM-GRAINS
+===========
+
+Meta package for installing idem-aix, idem-bsd, idem-darwin, idem-linux, idem-solaris, or idem-windows based on your OS
+
+
