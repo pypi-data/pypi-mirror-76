@@ -1,0 +1,3 @@
+[console_scripts]
+docker-ops.py = docker_ops.factory:run_from_cli
+
