@@ -1,0 +1,12 @@
+django_date_extensions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_date_extensions/fields.py,sha256=V0qRU9wIzcXZGX1p0_c4au8W4G_2zgqajS5NDucxyws,9129
+django_date_extensions/models.py,sha256=dKkg8C2CJqDvGrW2liX9v6q0fxDrQUJSV7j1vKYtg8Q,56
+django_date_extensions/settings.py,sha256=FUcsC5Ll_FMRr5faHOPzJyYeav8bt7ekSf3XMrGTv6Q,1412
+django_date_extensions/tests.py,sha256=jaWyV-7RU6ttBzVwub-F-dvTvC2OUg9x34Sft5vHU-8,7220
+django_date_extensions/widgets.py,sha256=x09RA6FssMW3pqlcqQWt8Cd18XjjEiW7Te8ElHuX-9E,474
+django_date_extensions-3.1.dist-info/DESCRIPTION.rst,sha256=4qe8KoHcaVmRPe9_fxNJtxgUcgq3tfu89hLDbYMt7IM,1759
+django_date_extensions-3.1.dist-info/METADATA,sha256=C3vz_JIGI07xvr00TcuoQBL1Cx7J-XPeHnupRrySnTM,2590
+django_date_extensions-3.1.dist-info/RECORD,,
+django_date_extensions-3.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+django_date_extensions-3.1.dist-info/metadata.json,sha256=GdGO_KqFCgLBW__flnB0zcX6sa36bsE83DcQeYAdnsU,958
+django_date_extensions-3.1.dist-info/top_level.txt,sha256=udM_7FIClxfInT5FLKyDbUjRe4lDzMceCi-Aoj7aux8,23
