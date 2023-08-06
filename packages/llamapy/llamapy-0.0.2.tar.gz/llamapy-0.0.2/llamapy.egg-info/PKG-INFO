@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: llamapy
+Version: 0.0.2
+Summary: A package to make interfacing between Airpy and Google Sheets easier
+Home-page: https://git.musta.ch/alex-shannon/llamapy
+Author: Alex Shannon
+Author-email: alex.shannon@airbnb.com
+License: UNKNOWN
+Description: ## Llamapy
+        This is a simple library designed to make interfacing between Airpy and Google Sheets easier.<br><br>
+        #### Setup & dependencies:
+        To interface with Google Sheets, you must have a registered API key. The best walkthrough of how to get one with your Airbnb account lives [here](https://airbnb.quip.com/VzPyADPpFCUK/From-Airflow-DAG-to-Google-sheets) (you only need to follow through the 'Create Google APIs account' section and can ignore the rest). When you get your credentials, you will need to put them in a filepath called **credentials/credentials.json** from your base folder.<br>
+        **[gspread](https://gspread.readthedocs.io/en/latest/index.html)** is the only non-standard dependancy required for this library to function. Installation instructions can be found in the link. Other dependancies are **datetime**, **numpy**, and **pandas**. Additionally, **[Airpy](https://git.musta.ch/airbnb/airpy)** is strongly recommended for querying purposes. <br><br>
+        #### Using the package:
+        <em>Spreadsheet(name, email)</em> creates a spreadsheet object and shares it with specified Airbnb email accounts. If the spreadsheet you wish to work on already exists, you can go to the spreadsheet and share it with the **client_email** in your **credentials.json** file - you are then able to reference it by name. If the spreadsheet does not exist, you can put in any name and the emails of those you'd like to share the file with (including your own!), and the spreadsheet will be created. <br>
+        Example:
+        
+            import llamapy as lp
+            
+            sh = lp.Spreadsheet('Test', 'alex.shannon@airbnb.com')       # creates a spreadsheet and shares it with your email
+            sh.show_worksheets()                                         # prints a list of associated worksheets in the spreadsheet
+            sh.share_with('brian.chesky123@airbnb.com')                  # shares the spreadsheet with additional parties
+            
+        <em>Worksheet(Spreadsheet, title, df, blank_sheet=False, row_offset=3, col_offset=1, title_text='', title_color='rausch', header_text_color='white', header_background_color='kazan', border_color='hof', text_color='hof', font_style='Proxima Nova')</em> creates a worksheet associated with a given spreadsheet. It pushes a pandas dataframe to this worksheet, and performs general formatting to the sheet that can be specified when calling the function, all of which should be fairly self-explanatory. Special Airbnb colors that can be referenced are mapped to the original (and far superior) brand colors - rausch, kazan, hackberry, beach, hof, white.<br>
+        Example:
+        
+            import airpy as ap
+            
+            # create 2 arbitrary dataframes, one from a query, and one with a basic python operation applied
+            df_1 = ap.presto.query("SELECT * FROM metrics.experiences_main__foundation WHERE ds = 2020-08-01 LIMIT 50")
+            df_2 = df1.describe()
+            
+            ws_1 = lp.Worksheet(sh, 'exp_list', df_1, title_text='Sample of Experiences', font_style='Poppins')
+            ws_2 = lp.Worksheet(sh, 'Summary of Experiences', df_2, eader_background_color='hof', header_text_color='beach')
+            
+        <em>get_lp(days_ago=1)</em> returns a string formatted as 'YYYY-MM-DD' for the specified number of days ago; this is meant to be a short hack to replace magic functions in Presto. Note that sometimes tables are 2+ days behind, and this function may need to be adjusted. It is encouraged to check the outputs of the query aren't missing any data before pushing them. <br><br>
+        
+        <em>convert_lps(presto_query)</em> also designed to make transitioning from Presto easier, this replaces any magic functions in a query with '{lp}', allowing you to copy and paste presto queries in their original form without worrying about replacing any text (making it easier to edit seemlessly between python & Superset). <br>
+        Example:
+            
+            query = '''
+                SELECT *
+                
+                FROM core_experiences_dashboards.dim_experience_success
+                
+                WHERE ds = '{{ presto.latest_partition('core_experiences_dashboards.dim_experience_success') }}'
+            '''
+            
+            latest_partition = get_lp(1)
+            query = convert_lps(query)
+            df = ap.presto.query(query.format(lp=latest_partition))
+            df.head()
+            
+        This library is very much a work in progress. If you have any suggestions or find any bugs, please email <em>alex.shannon@airbnb.com</em>. Any feedback is much appreciated!
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
