@@ -1,0 +1,10 @@
+soccer_data_api/__init__.py,sha256=coNOnQozqLx8cGgYkjhiwrY6fQHhErJyoU5GzxhDuX0,58
+soccer_data_api/config.py,sha256=Fh93M2CKQenpcIe40AjIQt9QX7HhOSQQLccy03xsCn0,322
+soccer_data_api/get_soccer_data.py,sha256=dDoXHVN_kwfGnL054Keggx7OKjWksJxzGtmk0wWzWLo,5499
+soccer_data_api/response_types.py,sha256=TEDznZIRQvItOJ9m3qBLlCyAdXIWYw_Z9OL4otbPfeo,2229
+soccer_data_api/soccer_data_api.py,sha256=BmH7WFwbBsG3EKLhmO08CTYGEZDaYh8HU14jWHm92A4,3668
+soccer_data_api-0.4.5.dist-info/LICENSE,sha256=NUjXOqr5ybXBMlOrj_JI50TgR2vmzLIjbpuHdIhXop4,1053
+soccer_data_api-0.4.5.dist-info/METADATA,sha256=CVHwSLudEvBrdPK6uRBg1CGjHyQAN9wfa1sIr-PYBbw,1061
+soccer_data_api-0.4.5.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+soccer_data_api-0.4.5.dist-info/top_level.txt,sha256=MsNHEOmnqaaKB7CoXz1j8c6epoOIrYRFPSk9gRungQE,16
+soccer_data_api-0.4.5.dist-info/RECORD,,
