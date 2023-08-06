@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+.github/workflows/publish.yml
+twine_verify_upload/__init__.py
+twine_verify_upload/command.py
+twine_verify_upload.egg-info/PKG-INFO
+twine_verify_upload.egg-info/SOURCES.txt
+twine_verify_upload.egg-info/dependency_links.txt
+twine_verify_upload.egg-info/entry_points.txt
+twine_verify_upload.egg-info/requires.txt
+twine_verify_upload.egg-info/top_level.txt
