@@ -1,0 +1,11 @@
+README.md
+setup.py
+tabspy/__init__.py
+tabspy/utils.py
+tabspy.egg-info/PKG-INFO
+tabspy.egg-info/SOURCES.txt
+tabspy.egg-info/dependency_links.txt
+tabspy.egg-info/requires.txt
+tabspy.egg-info/top_level.txt
+tabspy/strategy/__init__.py
+tabspy/strategy/strategy.py
