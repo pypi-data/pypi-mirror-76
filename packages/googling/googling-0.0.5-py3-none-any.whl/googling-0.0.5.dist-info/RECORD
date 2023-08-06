@@ -1,0 +1,14 @@
+googling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+googling/calibration.py,sha256=gLoTjp_GAFL4uS0_tnvNW9PagDPyzia9uYF5arKdCSo,228
+googling/googling.py,sha256=VNNBiEzLdyEk5X7mQRF_I_jTMr6QhpfPfd_3qGDO1Lo,529
+googling/googling_test.py,sha256=VNNBiEzLdyEk5X7mQRF_I_jTMr6QhpfPfd_3qGDO1Lo,529
+googling/dist/__init__.py,sha256=Mp4DDxDqWRiygYZv1ABvY87k23xQj6btjhlb-Bx_98c,959
+googling/dist/calibration.py,sha256=0KqbsKI6cF_NFDcrcvHnJfEEyLCXAY_xJot6ttjKoAE,2467
+googling/dist/googling.py,sha256=VNNBiEzLdyEk5X7mQRF_I_jTMr6QhpfPfd_3qGDO1Lo,529
+googling/dist/googling_test.py,sha256=hZ8bvbt-V-wlgqMyXqEzoRGFdFs7F14le3MI5CQE4Ok,17078
+googling/dist/pytransform/__init__.py,sha256=bksJGVn5nIVTegN_YA-dY5CjK6hMmDdL0HQ28PK2kaA,12377
+googling/pytransform/__init__.py,sha256=bksJGVn5nIVTegN_YA-dY5CjK6hMmDdL0HQ28PK2kaA,12377
+googling-0.0.5.dist-info/METADATA,sha256=bYV9OtxPa0AVUvk_2_gWKskcbA2xctF2rGD2I3Ml8HM,492
+googling-0.0.5.dist-info/RECORD,,
+googling-0.0.5.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+googling-0.0.5.dist-info/top_level.txt,sha256=dZkwM87AH2VOfkrHvNBrWK4h7pcZvdXtA9Z5gbRJBhk,9
