@@ -1,0 +1,7 @@
+microconventions>=0.1.0
+redis
+fakeredis
+numpy
+pathlib
+requests
+getjson
