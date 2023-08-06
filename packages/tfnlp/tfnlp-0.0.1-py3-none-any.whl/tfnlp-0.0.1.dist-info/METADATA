@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tfnlp
+Version: 0.0.1
+Summary: An easy-to-use wrapper NLP library for the TensorFlow Models library.
+Home-page: https://github.com/dzlab/tfnlp
+Author: dzlab
+Author-email: dzlabs@outlook.com
+License: Apache-2.0
+Keywords: nlp bert tensorflow deep learning
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (==2.3.0)
+Requires-Dist: tf-models-official (==2.3.0)
+Provides-Extra: test
+
+# TF NLP
+
+
