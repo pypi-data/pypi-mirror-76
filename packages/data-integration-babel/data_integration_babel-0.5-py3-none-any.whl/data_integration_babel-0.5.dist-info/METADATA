@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: data-integration-babel
+Version: 0.5
+Summary: data_integration_babel
+Home-page: UNKNOWN
+Author: weis
+Author-email: shaowei@funstory.ai
+License: MIT
+Keywords: data_integration_babel
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pymysql (==0.10.0)
+Requires-Dist: kafka-python (==2.0.1)
+
+UNKNOWN
+
+
