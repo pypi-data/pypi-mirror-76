@@ -1,0 +1,4 @@
+click
+sphinx-click
+future
+configparser
