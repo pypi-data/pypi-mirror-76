@@ -1,0 +1,17 @@
+README.md
+setup.py
+lingu/__init__.py
+lingu/main.py
+lingu.egg-info/PKG-INFO
+lingu.egg-info/SOURCES.txt
+lingu.egg-info/dependency_links.txt
+lingu.egg-info/requires.txt
+lingu.egg-info/top_level.txt
+lingu.egg-info/zip-safe
+lingu/correctors/__init__.py
+lingu/correctors/reynir.py
+lingu/correctors/text.py
+lingu/ocr/__init__.py
+lingu/ocr/ngrams.py
+lingu/ocr/postprocessing.py
+lingu/ocr/reynir.py
