@@ -1,0 +1,12 @@
+selectolax/parser.pxd,sha256=HLS6-b6tZSgp9WvHjmJW5uN88v6E9HVBSvzNb9oIZUA,23932
+selectolax/__init__.py,sha256=zA155ofkyoilxp9g673JIoi7peFLTdp-pGGQY-Sbo9Y,110
+selectolax/parser.c,sha256=V-p5A_WP-H6CZt8CU457MzVklTOoHzuzFAhUjHSETTc,1025194
+selectolax/parser.cpython-37m-i386-linux-gnu.so,sha256=Bwc8Yv9fFNpDKMvDnOAfO7ljYnjE9OZ4D_gev7zREes,4957748
+selectolax/node.pxi,sha256=P0y0ztDjP2k5CX5kBHNRoAXezDyeUbhiY5-KzJBJ248,24826
+selectolax/parser.pyx,sha256=o1A47xgfG5jA9gxK6-5V4-hK2Yw-HnfBBSBUKOqNbvk,8072
+selectolax/selector.pxi,sha256=wcHJAhR_Bmaqh90XwFP72TQ_iKs5Pe7HRlM4rrVcxiQ,2328
+selectolax-0.2.7.dist-info/LICENSE,sha256=O3G1wjFuMmVSi42qtxjf2qcLOOIn9pMYnRBou0C970k,1078
+selectolax-0.2.7.dist-info/top_level.txt,sha256=e5MuEM2PrQzoDlWetkFli9uXSlxa_ktW5jJEihhaI1c,11
+selectolax-0.2.7.dist-info/WHEEL,sha256=8J3yEBKxNSkiCTCD5jA_VkHRD22o0XE5C8WwrwvCsik,110
+selectolax-0.2.7.dist-info/RECORD,,
+selectolax-0.2.7.dist-info/METADATA,sha256=T4i8MVcrxg5TSm3z6yKo8TO6z728YvhCn7EViJLfx2c,2887
