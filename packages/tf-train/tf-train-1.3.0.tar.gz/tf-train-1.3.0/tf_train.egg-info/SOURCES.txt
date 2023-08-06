@@ -1,0 +1,12 @@
+README.md
+setup.py
+tf_train/__init__.py
+tf_train/api.py
+tf_train/train_loop.py
+tf_train/utils.py
+tf_train.egg-info/PKG-INFO
+tf_train.egg-info/SOURCES.txt
+tf_train.egg-info/dependency_links.txt
+tf_train.egg-info/not-zip-safe
+tf_train.egg-info/requires.txt
+tf_train.egg-info/top_level.txt
