@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dataclass-serializer
+Version: 1.3.2
+Summary: Dataclass serializer supports nested instances.
+Home-page: https://github.com/yoshiso/dataclass_serializer.git
+Author: Sho Yoshida
+Author-email: nya060@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+
+UNKNOWN
+
+
