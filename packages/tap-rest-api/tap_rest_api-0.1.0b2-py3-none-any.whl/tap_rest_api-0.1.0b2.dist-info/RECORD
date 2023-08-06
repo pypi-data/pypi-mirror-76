@@ -1,0 +1,13 @@
+tap_rest_api/__init__.py,sha256=MQ-JopmRZ0VTHGP52ohw6NeoVAhxkvkdgFvDjW5Ub5A,5493
+tap_rest_api/default_spec.json,sha256=GhkN3UxK44qmStmDA9SG-kUQk9jeaXM8DsaGVGFucGE,5142
+tap_rest_api/helper.py,sha256=J73YlTiMIyXqpE9bhwGXuOTi5YVUH1xHD8Dz6S8xtvM,10710
+tap_rest_api/json2schema.py,sha256=tS_qHrAWwJAvtflVauA-xWiZw4CoL5zm5zYZwdS3gvk,7455
+tap_rest_api/schema.py,sha256=ldYdBAnnXIl4zWxQNY48uBTRdIHkadR4W9bXmM-tBgY,3939
+tap_rest_api/sync.py,sha256=mYgi3wddgY1qIRN-foPcXtVTLV40b8_ogCUGf3UmrHc,9520
+tap_rest_api-0.1.0b2.dist-info/AUTHORS.md,sha256=tKhbmJpDiF6FCyGK0jGbM7sYF7JOnEWhKjcP8pgYnvk,153
+tap_rest_api-0.1.0b2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tap_rest_api-0.1.0b2.dist-info/METADATA,sha256=JlTNz_Y36DcFd6Z39vrrVnFB-BOk229lfgGo5qaxWUo,8655
+tap_rest_api-0.1.0b2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tap_rest_api-0.1.0b2.dist-info/entry_points.txt,sha256=jPOSGT8oPy6Ji6DuZXeY8Z3TVKVSDBeNCLA9K0M_fqs,62
+tap_rest_api-0.1.0b2.dist-info/top_level.txt,sha256=a0FIuzrqjjdoDLv_NgNpnwq_ggdH-b-_bmmGO1CycdU,13
+tap_rest_api-0.1.0b2.dist-info/RECORD,,
