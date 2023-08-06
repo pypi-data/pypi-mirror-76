@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: ToMiddleChinese
+Version: 0.1.0
+Summary: 中古漢語自動標註工具 Middle Chinese Pronunciation Automatic Labeling Tool
+Home-page: https://github.com/nk2028/ToMiddleChinese
+Author: Ngiox Khyen 2028 Project
+Author-email: support@mail.nk2028.shn.hk
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/nk2028/ToMiddleChinese/issues
+Project-URL: Source, https://github.com/nk2028/ToMiddleChinese
+Description: # ToMiddleChinese
+        
+        Install:
+        
+        ```sh
+        $ pip install ToMiddleChinese
+        ```
+        
+        Usage:
+        
+        ```python
+        >>> import ToMiddleChinese
+        >>> ToMiddleChinese.get_unt('一天')
+        '一(ʔit˥)天(tʰen˦)'
+        ```
+        
+        Functions:
+        
+        - `ToMiddleChinese.get_qimyonhmieuzsjyt_list`
+        - `ToMiddleChinese.get_kyonh_list` (Koxyonh Romanization)
+        - `ToMiddleChinese.get_unt_list` (unt’s Reading Pronunciation of _Qieyun_)
+        - `ToMiddleChinese.get_qimyonhmieuzsjyt`
+        - `ToMiddleChinese.get_kyonh`
+        - `ToMiddleChinese.get_unt`
+        
+Keywords: chinese cantonese nlp natural-language-processing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Natural Language :: Cantonese
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
