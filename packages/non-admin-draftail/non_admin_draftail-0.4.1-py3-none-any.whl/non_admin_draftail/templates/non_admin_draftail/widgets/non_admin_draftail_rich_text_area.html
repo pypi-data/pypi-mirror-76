@@ -1,0 +1,6 @@
+{% include 'django/forms/widgets/input.html' %}
+<script>
+window.addEventListener('DOMContentLoaded', (e) => {
+  window.draftail.initEditor('#{{ widget.attrs.id|escapejs }}', {{ widget.options_json|safe }}, document.currentScript);
+});
+</script>
