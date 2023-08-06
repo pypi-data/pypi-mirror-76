@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: artify
+Version: 1.1.1
+Summary: Upload to Nexus, Upload files to hooks, Modify version number, Sync to GitLab type repository
+Home-page: https://github.com/stewiejnr
+Author: Stewartium
+Author-email: stewartium1@gmail.com
+License: MIT
+Description: ======
+        # Artify
+        ======
+        Upload to Nexus, Upload files to hooks, Modify version number, Sync to GitLab type repository
+        
+        Installation
+        ============
+        You can download and install the latest version of this software from the Python package index (PyPI) as follows::
+        
+            pip install --upgrade artify
+        
+        Usage
+        =====
+        # python -m artify --help
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
