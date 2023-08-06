@@ -1,0 +1,6 @@
+setup.py
+My_chat_client.egg-info/PKG-INFO
+My_chat_client.egg-info/SOURCES.txt
+My_chat_client.egg-info/dependency_links.txt
+My_chat_client.egg-info/requires.txt
+My_chat_client.egg-info/top_level.txt
