@@ -1,0 +1,9 @@
+README.md
+setup.py
+petit/__init__.py
+petit/util.py
+petit.egg-info/PKG-INFO
+petit.egg-info/SOURCES.txt
+petit.egg-info/dependency_links.txt
+petit.egg-info/requires.txt
+petit.egg-info/top_level.txt
