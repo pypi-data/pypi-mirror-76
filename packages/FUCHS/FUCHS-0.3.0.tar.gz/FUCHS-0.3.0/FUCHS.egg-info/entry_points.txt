@@ -1,0 +1,3 @@
+[console_scripts]
+FUCHS = FUCHS:main
+
