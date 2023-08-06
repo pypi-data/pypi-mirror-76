@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pycudacov
+Version: 0.0.27
+Summary: A PyCuda Covariance Matrix Implementation
+Home-page: https://github.com/Ivanrs297/pycuda-covariance-matrix
+Author: Ivan Reyes
+Author-email: ivanrs297@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
+
