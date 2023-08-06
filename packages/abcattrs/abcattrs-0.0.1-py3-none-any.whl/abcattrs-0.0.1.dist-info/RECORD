@@ -1,0 +1,10 @@
+abcattrs/__init__.py,sha256=4mLXRZAp5dDtgFvf5VrvAHmOZTev2-tYUW3pif2xtZU,317
+abcattrs/abcattrs.py,sha256=0VHSRjq3XQtW_m3FoWzEk7fnBYUZ3LNHvFEoshQbajg,2894
+abcattrs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_decorator.py,sha256=iVL2hMuHOb2hxmaG-gX7398bOUhYVaBeIjkL0VA8oLc,2592
+abcattrs-0.0.1.dist-info/LICENSE,sha256=LttrFN5QAirF_DrUnJAIDVXyxb8bgZ03HtaCHVz-Nfo,1070
+abcattrs-0.0.1.dist-info/METADATA,sha256=DMre0U-hElPLlMRdY-fogfgkdA8qDt8wS8RkGiHoDAo,1571
+abcattrs-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+abcattrs-0.0.1.dist-info/top_level.txt,sha256=0-0hbGFxHKDbdeLZrwg314GN0xvoCl5Cc49CKFNtRzE,15
+abcattrs-0.0.1.dist-info/RECORD,,
