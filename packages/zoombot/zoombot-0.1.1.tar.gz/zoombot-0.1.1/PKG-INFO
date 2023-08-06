@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: zoombot
+Version: 0.1.1
+Summary: Python wrapper for Zoom Chatbot API
+Home-page: https://github.com/tomgrin10/zoombot
+License: MIT
+Keywords: zoom,chat,bot
+Author: Tom
+Author-email: tomgrin10@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiohttp (>=3.6.2,<4.0.0)
+Requires-Dist: starlette (>=0.13.8,<0.14.0)
+Requires-Dist: uvicorn (>=0.11.8,<0.12.0)
+Project-URL: Repository, https://github.com/tomgrin10/zoombot
+Description-Content-Type: text/markdown
+
+# zoombot
+Python wrapper for Zoom Chatbot API
+
+### Usage
+```python
+from zoombot.core import Bot, Message
+
+
+class MyBot(Bot):
+    async def on_message(self, message: Message):
+        await message.reply('Shlomo', "AAAAAAAAAAA")
+
+
+if __name__ == "__main__":
+    bot = MyBot(
+        client_id="CLIENT_ID",
+        client_secret="CLIENT_SECRET",
+        bot_jid="BOT_JID",
+        verification_token="VERIFICATION_TOKEN",
+    )
+
+    bot.run()
+```
+
