@@ -1,0 +1,14 @@
+libvcs/__about__.py,sha256=Osp742EXZ3fq47mXe2LhxUCjxtRAHHvOjIDxh-QbdyQ,441
+libvcs/__init__.py,sha256=a2PmyRUa_5EGI2bc0Kh6tSAqvaBHlQeqFNTAsQSL9zQ,432
+libvcs/_compat.py,sha256=EI_L2hb_3KL1TKK3SkWAPc1NLMVam2QUkpyV-05wW44,1684
+libvcs/base.py,sha256=IBOeuerRpL2eRMO9_vq_6Yn4T9JBU1EQJFH3TiveODM,4454
+libvcs/exc.py,sha256=Qbmuljcq2JHzV2rfX3Y6bzxOQe8r3acY2pxuZKQB7ts,1493
+libvcs/git.py,sha256=9kXGtViWCikGxrH0XCtLMEt00Qgs4ICzs8UNAjO9EZs,15289
+libvcs/hg.py,sha256=c59X9cgfa2CLJ2lAAwzGmemteTScxr4ppoOmV2Sdm5E,1226
+libvcs/shortcuts.py,sha256=xBkIPwpekNvg-f9LghAyCjbzQNype1t_vh4aAkFYOrA,2514
+libvcs/svn.py,sha256=LiuZ6Xhgx3hFhl36t0sdTskAjEJ-Q9fegdza79nBez8,5184
+libvcs/util.py,sha256=HfD3RPWIlVCVTzCHslLAu99DR6VOu3feNLKNQqr16J4,5825
+libvcs-0.5.0a2.dist-info/LICENSE,sha256=O7UfKI2nOG3wIeDwOIVEQH9aoOFRXbZiEPTGi2PIqZI,1081
+libvcs-0.5.0a2.dist-info/WHEEL,sha256=OL-EN-39HbzBiGlqqMt_l4r9-zX-74hoU51DNxxDqP4,88
+libvcs-0.5.0a2.dist-info/METADATA,sha256=V_ACxVgclI1Douy4zcyrvrZCCbGO09opo30WdlXuS6M,4516
+libvcs-0.5.0a2.dist-info/RECORD,,
