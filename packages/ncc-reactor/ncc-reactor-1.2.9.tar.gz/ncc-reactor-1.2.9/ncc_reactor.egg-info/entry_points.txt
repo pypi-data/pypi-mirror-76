@@ -1,0 +1,3 @@
+[console_scripts]
+reactor = reactor.__main__:main
+

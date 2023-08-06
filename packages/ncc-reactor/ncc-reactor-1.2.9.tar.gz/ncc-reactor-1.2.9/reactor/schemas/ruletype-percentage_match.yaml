@@ -1,0 +1,15 @@
+---
+$schema: http://json-schema.org/draft-07/schema#
+definitions: {}
+
+title: Percentage Match
+type: object
+required: [match_bucket_filter]
+
+oneOf:
+- required: [max_percentage]
+- required: [min_percentage]
+
+properties:
+  type: {enum: [percentage_match, PercentageMatchRule]}
+...
