@@ -1,0 +1,8 @@
+mongo_aggregation/MongoAggregation.py,sha256=sOwfVrO2RA-R5VMu_RGD0muG9YnJooBfspMNIh-Ign4,23722
+mongo_aggregation/MongoMatchFilter.py,sha256=EJZIy-XtNOHwSPX4bnLAFDzGbAfvD3c86hrk1RkE7CM,2345
+mongo_aggregation/__init__.py,sha256=TA06FHR4lCbvwRJbojVzxcO84ItVzenoZejgBXNQ7xg,93
+mongo_aggregation/patterns.py,sha256=2N_wi2l3WeFa7gInPSlskEkYk4ppoZVPaYUqZYCL_ao,8682
+mongo_aggregation-1.0.0.dist-info/METADATA,sha256=0mef1ZuBhyX9NYVs-OTryAF5SoOyJJyL68PTf-nhFSM,1710
+mongo_aggregation-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mongo_aggregation-1.0.0.dist-info/top_level.txt,sha256=UFlVyBrQLns6CizjlbfS7DWRJixaddUyJ_5lGvrT2LM,18
+mongo_aggregation-1.0.0.dist-info/RECORD,,
