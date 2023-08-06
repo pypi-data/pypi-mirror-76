@@ -1,0 +1,12 @@
+evonik/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evonik/test/crudl/__init__.py,sha256=cjFrdMnFvEmIehoaS9zRjufwwlXelGEl8IvHshgKwJw,106
+evonik/test/crudl/component.py,sha256=fyhUpt62mJd2cz6PvRVprqP5QY5uU4tXJXiH6_0TRa8,3205
+evonik/test/crudl/endpoint.py,sha256=S0zx8gg9Y03xDMKEPyZhBiUxRkI9IZydkRtpKVxSnzI,792
+evonik/test/crudl/instance.py,sha256=9F_1r3W1QMCQ_fV7Il5QTWpGMzavTnstONHctk9-k14,1067
+evonik/test/crudl/test_all.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evonik/test/crudl/tests.py,sha256=Z80TO92UGjrknvhceExmEGDo8_JKEenDZ0RE18ut1hc,4599
+evonik_test_crudl-0.0.2.dist-info/LICENSE,sha256=9cDa3icKhNHiECCxUgvuJYmw7e4mhm4oBqVRJDSp5z4,1082
+evonik_test_crudl-0.0.2.dist-info/METADATA,sha256=qb7L5FvzKiBWDjlgl6UbJBqTeEIfOFh6dB4vtYjl4yM,1862
+evonik_test_crudl-0.0.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+evonik_test_crudl-0.0.2.dist-info/top_level.txt,sha256=fJis3spPIMESfEKhD48hcj5omxdyGTwoaFxf8QyV35M,7
+evonik_test_crudl-0.0.2.dist-info/RECORD,,
