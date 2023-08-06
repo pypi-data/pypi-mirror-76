@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Hextech
+Version: 0.0.1
+Summary: A Python framework for accessing League of Legends esports data
+Home-page: https://github.com/bujustin/hextech
+Author: bujustin
+Author-email: bujustin@gmail.com
+License: UNKNOWN
+Description: # Hextech
+        
+        A Python framework for accessing League of Legends esports data. Uses data from Leaguepedia (lol.gamepedia.com).
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
