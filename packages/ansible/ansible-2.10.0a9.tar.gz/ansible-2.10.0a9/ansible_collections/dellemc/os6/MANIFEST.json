@@ -1,0 +1,37 @@
+{
+ "collection_info": {
+  "description": "Ansible Network Collection for Dell EMC OS6", 
+  "repository": "https://github.com/ansible-collections/dellemc.os6", 
+  "tags": [
+   "dell", 
+   "dellemc", 
+   "os6", 
+   "emc", 
+   "networking"
+  ], 
+  "dependencies": {
+   "ansible.netcommon": ">=1.0.0"
+  }, 
+  "authors": [
+   "Komal Patil <Komal_uttamrao_Patil@dell.com>", 
+   "Senthil Ganesan Ganesan <Senthil_Kumar_Ganesa@Dell.com>"
+  ], 
+  "issues": "https://github.com/ansible-collections/dellemc.os6/issues", 
+  "name": "os6", 
+  "license": [], 
+  "documentation": "https://github.com/ansible-collections/dellemc.os6/tree/master/docs", 
+  "namespace": "dellemc", 
+  "version": "1.0.1", 
+  "readme": "README.md", 
+  "license_file": "LICENSE", 
+  "homepage": "https://github.com/ansible-collections/dellemc.os6"
+ }, 
+ "file_manifest_file": {
+  "format": 1, 
+  "ftype": "file", 
+  "chksum_sha256": "2e07f6285efddb9ab4b2ac7de33515112006c21c3ec41fe44baf624b89312943", 
+  "name": "FILES.json", 
+  "chksum_type": "sha256"
+ }, 
+ "format": 1
+}

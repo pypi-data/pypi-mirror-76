@@ -1,0 +1,35 @@
+{
+ "collection_info": {
+  "namespace": "cisco",
+  "name": "iosxr",
+  "version": "1.0.4",
+  "authors": [
+   "Ansible Network Community (ansible-network)"
+  ],
+  "readme": "README.md",
+  "tags": [
+   "cisco",
+   "iosxr",
+   "networking",
+   "netconf"
+  ],
+  "description": null,
+  "license": [],
+  "license_file": "LICENSE",
+  "dependencies": {
+   "ansible.netcommon": "*"
+  },
+  "repository": "https://github.com/ansible-collections/cisco.iosxr",
+  "documentation": null,
+  "homepage": null,
+  "issues": null
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "4540125b46cd6a3287deb01997cbec1bed7d3b61f0b9e7875fe4e645904d3acd",
+  "format": 1
+ },
+ "format": 1
+}

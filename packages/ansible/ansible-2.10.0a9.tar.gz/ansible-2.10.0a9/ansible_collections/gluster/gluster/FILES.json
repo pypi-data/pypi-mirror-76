@@ -1,0 +1,61 @@
+{
+ "files": [
+  {
+   "format": 1, 
+   "ftype": "dir", 
+   "chksum_sha256": null, 
+   "name": ".", 
+   "chksum_type": null
+  }, 
+  {
+   "ftype": "file", 
+   "chksum_sha256": "7c1005c8d73756176722a960ec08a00d787257f8d05421d001eb2cfc62ace4de", 
+   "name": "README.md", 
+   "chksum_type": "sha256", 
+   "format": 1
+  }, 
+  {
+   "ftype": "dir", 
+   "chksum_sha256": null, 
+   "name": "plugins", 
+   "chksum_type": null, 
+   "format": 1
+  }, 
+  {
+   "ftype": "dir", 
+   "chksum_sha256": null, 
+   "name": "plugins/modules", 
+   "chksum_type": null, 
+   "format": 1
+  }, 
+  {
+   "ftype": "file", 
+   "chksum_sha256": "6a95f1fb2187d911c863ef8954b269bbde87b549e56551c599191107285b4ad1", 
+   "name": "plugins/modules/gluster_heal_info.py", 
+   "chksum_type": "sha256", 
+   "format": 1
+  }, 
+  {
+   "ftype": "file", 
+   "chksum_sha256": "b9463a115ec9be4f9f4303c24f9fd7f519fa9b81b1c3c10a53e8047d1fff3b02", 
+   "name": "plugins/modules/geo_rep.py", 
+   "chksum_type": "sha256", 
+   "format": 1
+  }, 
+  {
+   "ftype": "file", 
+   "chksum_sha256": "7be2a4bf213ea4796c1e1cd8fbda5ba925eb74d190d389e82a9b0bdacf13e47b", 
+   "name": "plugins/modules/gluster_peer.py", 
+   "chksum_type": "sha256", 
+   "format": 1
+  }, 
+  {
+   "ftype": "file", 
+   "chksum_sha256": "51fd9d410591728a9d3e26b59e940832362f956347e761ced25408d8a523354d", 
+   "name": "plugins/modules/gluster_volume.py", 
+   "chksum_type": "sha256", 
+   "format": 1
+  }
+ ], 
+ "format": 1
+}

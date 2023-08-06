@@ -1,0 +1,30 @@
+{
+ "collection_info": {
+  "namespace": "skydive",
+  "name": "skydive",
+  "version": "0.0.1-dev7",
+  "authors": [
+   "Ansible Network Community (ansible-network)"
+  ],
+  "readme": "README.md",
+  "tags": [],
+  "description": null,
+  "license": [],
+  "license_file": "LICENSE",
+  "dependencies": {
+   "ansible.netcommon": "*"
+  },
+  "repository": "https://github.com/ansible-collections/skydive",
+  "documentation": null,
+  "homepage": null,
+  "issues": null
+ },
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "ftype": "file",
+  "chksum_type": "sha256",
+  "chksum_sha256": "cd161fc62f843081a2e2a135bcdfd80b45e6345f3fc8b131f6c5d6d059f5ed77",
+  "format": 1
+ },
+ "format": 1
+}

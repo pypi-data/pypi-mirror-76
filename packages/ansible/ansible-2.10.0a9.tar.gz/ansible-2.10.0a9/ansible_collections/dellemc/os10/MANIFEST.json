@@ -1,0 +1,38 @@
+{
+ "file_manifest_file": {
+  "name": "FILES.json",
+  "format": 1,
+  "chksum_type": "sha256",
+  "ftype": "file",
+  "chksum_sha256": "852b36de7a54583faa03d8fa69d30a6293659d3222308c25f7640193b2a8222a"
+ },
+ "format": 1,
+ "collection_info": {
+  "repository": "https://github.com/ansible-collections/dellemc.os10",
+  "version": "1.0.0",
+  "issues": "https://github.com/ansible-collections/dellemc.os10/issues",
+  "homepage": "https://github.com/ansible-collections/dellemc.os10",
+  "license": [],
+  "dependencies": {
+   "ansible.netcommon": ">=1.0.0"
+  },
+  "name": "os10",
+  "tags": [
+   "dell",
+   "dellemc",
+   "os10",
+   "emc",
+   "networking"
+  ],
+  "authors": [
+   "Parameswaran Krishnamurthy <Parameswaran_Krishna@Dell.com>",
+   "Senthil Ganesan Ganesan <Senthil_Kumar_Ganesa@Dell.com>",
+   "Shreeja R <Shreeja_R@Dell.com>"
+  ],
+  "namespace": "dellemc",
+  "license_file": "LICENSE",
+  "description": "Ansible Network Collection for Dell EMC SmartFabric OS10",
+  "readme": "README.md",
+  "documentation": "https://github.com/ansible-collections/dellemc.os10/tree/master/docs"
+ }
+}

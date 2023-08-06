@@ -1,0 +1,94 @@
+- name: Test API
+  hosts: fortimanager01
+  gather_facts: no
+  connection: httpapi
+  collections:
+    - fortinet.fortimanager
+  vars:
+    ansible_httpapi_use_ssl: True
+    ansible_httpapi_validate_certs: False
+    ansible_httpapi_port: 443
+    script_name: demoscript
+  tasks:
+    - name: create the script
+      fmgr_dvmdb_script:
+         workspace_locking_adom: global
+         workspace_locking_timeout: 300
+         method: set
+         url_params:
+            adom: none
+         params:
+            - data:
+                - name: "{{ script_name }}"
+                  desc: 'created via ansible'
+                  type: 'cli'
+                  filter_ostype: 'unknown'
+                  content: |
+                            config firewall policy
+                              edit 1
+                                set name foopolicy
+                              next
+                            end
+      ignore_errors: True
+
+    - name: create another script
+      fmgr_dvmdb_script:
+         workspace_locking_adom: root
+         workspace_locking_timeout: 300
+         method: set
+         url_params:
+            adom: none
+         params:
+            - data:
+                - name: "{{ script_name }}"
+                  desc: 'created via ansible'
+                  type: 'cli'
+                  filter_ostype: 'unknown'
+                  content: |
+                            config firewall policy
+                              edit 1
+                                set name foopolicy
+                              next
+                            end
+      ignore_errors: True
+
+    - name: create another script 1
+      fmgr_dvmdb_script:
+         workspace_locking_adom: root
+         workspace_locking_timeout: 300
+         method: set
+         url_params:
+            adom: none
+         params:
+            - data:
+                - name: "{{ script_name }}"
+                  desc: 'created via ansible'
+                  type: 'cli'
+                  filter_ostype: 'unknown'
+                  content: |
+                            config firewall policy
+                              edit 1
+                                set name foopolicy
+                              next
+                            end
+      ignore_errors: true
+
+    - name: create another script 1
+      fmgr_dvmdb_script:
+         workspace_locking_adom: root
+         workspace_locking_timeout: 300
+         method: set
+         url_params:
+            adom: none
+         params:
+            - data:
+                - name: "{{ script_name }}"
+                  desc: 'created via ansible'
+                  type: 'cli'
+                  filter_ostype: 'unknown'
+                  content: |
+                            config firewall policy
+                              edit 1
+                                set name foopolicy
+                              next
+                            end

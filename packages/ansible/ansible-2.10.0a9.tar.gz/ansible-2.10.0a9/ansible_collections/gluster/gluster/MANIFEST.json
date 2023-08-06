@@ -1,0 +1,30 @@
+{
+ "collection_info": {
+  "description": "your collection description", 
+  "repository": "http://example.com/repository", 
+  "tags": [], 
+  "dependencies": {}, 
+  "authors": [
+   "your name <example@domain.com>"
+  ], 
+  "issues": "http://example.com/issue/tracker", 
+  "name": "gluster", 
+  "license": [
+   "GPL-2.0-or-later"
+  ], 
+  "documentation": "http://docs.example.com", 
+  "namespace": "gluster", 
+  "version": "1.0.0", 
+  "readme": "README.md", 
+  "license_file": null, 
+  "homepage": "http://example.com"
+ }, 
+ "file_manifest_file": {
+  "format": 1, 
+  "ftype": "file", 
+  "chksum_sha256": "a2b60dac85be5abde89b4b6aedc2552401d27fb377eeead52c307a4a317f18b8", 
+  "name": "FILES.json", 
+  "chksum_type": "sha256"
+ }, 
+ "format": 1
+}
