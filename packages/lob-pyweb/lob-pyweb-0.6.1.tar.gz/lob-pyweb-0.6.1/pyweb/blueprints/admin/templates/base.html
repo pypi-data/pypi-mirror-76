@@ -1,0 +1,42 @@
+{% extends "bootstrap.html" %}
+
+{% block scripts %}
+    {{super()}}
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+
+    var csrftoken = $('meta[name=csrf-token]').attr('content');
+
+    $.ajaxSetup({
+        beforeSend: function(xhr, settings) {
+            if (!/^(GET|HEAD|OPTIONS|TRACE)$/i.test(settings.type)) {
+                xhr.setRequestHeader("X-CSRFToken", csrftoken)
+            }
+        }
+    });
+{% endblock %}
+
+{% block fullmenu %}
+    <div class="navbar-header">
+        <a class="navbar-brand" href="{{ url_for("admin.index") }}">
+            <img src="/assets/img/logo.png" width="30" height="30" alt="">
+        </a>
+    </div>
+
+    <ul class="navbar-nav mr-auto">
+        <a class="nav-item nav-link" href="{{ url_for('whoosh.search', fmt="html") }}">Search</a>
+    </ul>
+
+    <ul class="nav navbar-nav ml-auto navbar-right">
+        <li class="nav-item">
+            {% if version %}
+                <a class="nav-link" target="_blank">
+                    Version: {{ version }}
+                </a>
+            {% endif %}
+        </li>
+    </ul>
+{% endblock %}
+

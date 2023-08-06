@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+    {{super()}}
+    <script type="text/javascript" src="{{ url_for('.static', filename = 'whoosh.js' ) }}"></script>
+
+    <script>
+        $(function() {
+            $.ajax({
+                type: 'GET',
+                url: 'json',
+                dataType: "json",
+
+                success: function (response) {
+                    whoosh.table("#table", response);
+                }
+            })
+        })
+    </script>
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid" style="margin-top:80px">
+        <table id="table" class="table table-striped table-bordered" cellspacing="0" width="100%"></table>
+    </div>
+{% endblock %}
