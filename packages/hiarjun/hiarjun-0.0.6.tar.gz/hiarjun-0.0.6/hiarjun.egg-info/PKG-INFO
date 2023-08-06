@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: hiarjun
+Version: 0.0.6
+Summary: A package that prints Hi n times
+Home-page: https://github.com/arjundandagi/hiarjun
+Author: Arjun Dandagi
+Author-email: dandagi.arjun95@gmail.com
+License: UNKNOWN
+Description: # SayHi 
+        
+        ### A python package that prints Hi n times
+        
+        
+        usage: 
+        
+        ```
+        $ pip install hiarjun 
+        $
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
