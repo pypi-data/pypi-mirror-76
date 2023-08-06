@@ -1,0 +1,7 @@
+.tox
+.vscode
+.eggs
+dist
+venv
+sethealth.egg-info
+build
