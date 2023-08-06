@@ -1,0 +1,15 @@
+codesnap-0.0.5.dist-info/LICENSE,sha256=WYmcYJG1QFgu1hfo7qrEkZ3Jhcz8NUWe6XUraZvlIFs,10172
+codesnap-0.0.5.dist-info/top_level.txt,sha256=1ehdabosMkRL_X6DpSfO7hyIuExT1BZoXYsjNhsEB1o,9
+codesnap-0.0.5.dist-info/WHEEL,sha256=fgEDqTvJ7t6Dks7wJIP8MuGNJfT7rZstMDs3LUSwCl8,112
+codesnap-0.0.5.dist-info/RECORD,,
+codesnap-0.0.5.dist-info/METADATA,sha256=1_GnQwK9HeAE9G67NlK0cHciuUErVQx-PcE1yC3iigA,7745
+codesnap-0.0.5.dist-info/NOTICE,sha256=Nia11_L5XLJ2jt3cS-XBQ69y4QHAKwJlUjiQNb05uOs,549
+codesnap/codesnap.py,sha256=TaJR1ZzPv0LWPSz-5vCKlinBnnIIe2olEIIhvkZRn4s,1026
+codesnap/__init__.py,sha256=mImAOdmkIia4WYr2QzCYCA8c-3CGc09fpzoulSMaENw,281
+codesnap/htmlconverter.py,sha256=q12gZduiARFPbXVr1paIsyYA9tohYs9ekM4pDUTYIDo,1751
+codesnap/snaptree.py,sha256=w8emmBCWsBNIf-EmU-2lBWDF9jggsGyjggDfnDorjpM,3433
+codesnap/__main__.py,sha256=vtwLKQP0kwko9Z3xt3rBXuObAoZsiLT7L2EDoYf8doo,901
+codesnap/tracer.py,sha256=l3XC8IURy6PwuutRsgsIGleSYJTM46Fc6PJ-F6FzvEY,3807
+codesnap/snaptrace.cpython-37m-x86_64-linux-gnu.so,sha256=QkmmXg_1q0tRoxAnjhyNx3oVy2wYepRhNled1AwZuvA,43744
+codesnap/html/trace_viewer_full.html,sha256=vXtLrb_CVSWgjVNRtIIbuPb4M3b4j0r4xCiZ2QSGhRo,2597070
+codesnap/html/trace_viewer_embedder.html,sha256=ozGbb5BV6X5q_npY2sAWNUTAJkL8F_UWRIk8d3lteyc,3513
