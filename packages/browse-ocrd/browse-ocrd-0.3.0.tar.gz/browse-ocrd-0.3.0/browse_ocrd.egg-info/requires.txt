@@ -1,0 +1,9 @@
+ocrd
+Pillow
+numpy
+opencv-python-headless
+PyGObject
+python-magic
+wheel
+setuptools
+lxml
