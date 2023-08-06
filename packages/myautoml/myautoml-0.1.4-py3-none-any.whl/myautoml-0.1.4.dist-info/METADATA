@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: myautoml
+Version: 0.1.4
+Summary: myautoml is a package which provides a framework to automate machine learning
+Home-page: https://github.com/myautoml/myautoml
+Author: Erik Jan de Vries
+Author-email: erikjandevries@users.noreply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: joblib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: scikit-learn
+Provides-Extra: all
+Requires-Dist: shap ; extra == 'all'
+Requires-Dist: hyperopt ; extra == 'all'
+Requires-Dist: mlflow ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: seaborn ; extra == 'all'
+Provides-Extra: evaluation
+Requires-Dist: shap ; extra == 'evaluation'
+Provides-Extra: optimisation
+Requires-Dist: hyperopt ; extra == 'optimisation'
+Provides-Extra: tracking
+Requires-Dist: mlflow ; extra == 'tracking'
+Provides-Extra: visualisation
+Requires-Dist: matplotlib ; extra == 'visualisation'
+Requires-Dist: seaborn ; extra == 'visualisation'
+
+# MyAutoML
+
+MyAutoML is a project that aims to help data scientists become more efficient, by providing:
+
+- Cookiecutter templates
+- Example scripts (based on the Cookiecutter templates)
+- A Python package with functions to perform common tasks
+- A programming framework to automate as much as possible of the repetitive
+  work a data scientist is likely to encounter.
+
+### Getting started
+
+Install MyAutoML using `pip`:
+```shell script
+pip install myautoml
+```
+
+Import the Python package:
+```python
+import myautoml as maml
+print(maml.__version__)
+```
+
+Further documentation is under development.
+For now, have a look at the example `scripts`.
+
+
+### Cookiecutters
+
+To use the Cookiecutter templates:
+```shell script
+cookiecutter https://github.com/myautoml/myautoml.git --directory="cookiecutter/binary_classifier"
+```
+
+
