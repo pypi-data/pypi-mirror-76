@@ -1,0 +1,10 @@
+mypy_boto3_frauddetector/__init__.py,sha256=yAhpF2O28tvMK01Qw8LdTXUDhj8F4PpHuEstm0ZcsdU,503
+mypy_boto3_frauddetector/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_frauddetector/client.py,sha256=pGjB0TVrpmdwkl9wrLH7EEu3Dz2FyE3I85Nc8CqqvXc,20778
+mypy_boto3_frauddetector/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_frauddetector/type_defs.py,sha256=w0n1KfW4k_ZgY_gmlAlz6wUTJm0KyEj8wyTpAouJXjA,14521
+mypy_boto3_frauddetector/version.py,sha256=Q3RaLZ4vIwrUt3znWw9u2SJb_WQkjl6lf-Nz-7eH9to,57
+mypy_boto3_frauddetector-1.14.40.0.dist-info/METADATA,sha256=TVuNH84LqlMoEdA7zufmBYZdraEQrYGcSTnYrmWKaiE,4393
+mypy_boto3_frauddetector-1.14.40.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mypy_boto3_frauddetector-1.14.40.0.dist-info/top_level.txt,sha256=BJDVVIBavEQdgAcvtwINcifUCwsGjBO-AjLrinuJCCw,25
+mypy_boto3_frauddetector-1.14.40.0.dist-info/RECORD,,
