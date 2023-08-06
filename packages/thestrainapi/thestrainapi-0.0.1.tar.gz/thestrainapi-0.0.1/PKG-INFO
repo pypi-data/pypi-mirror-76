@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: thestrainapi
+Version: 0.0.1
+Summary: Search Cannabis Strains
+Home-page: https://github.com/AgeOfMarcus/thestrainapi
+Author: AgeOfMarcus
+Author-email: marcus@marcusweinberger.com
+License: UNKNOWN
+Description: # thestrainapi
+        
+        API wrapper for http://strains.evanbusse.com/
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

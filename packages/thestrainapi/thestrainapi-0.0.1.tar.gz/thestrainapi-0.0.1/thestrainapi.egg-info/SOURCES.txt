@@ -1,0 +1,9 @@
+README.md
+setup.py
+thestrainapi/__init__.py
+thestrainapi.egg-info/PKG-INFO
+thestrainapi.egg-info/SOURCES.txt
+thestrainapi.egg-info/dependency_links.txt
+thestrainapi.egg-info/not-zip-safe
+thestrainapi.egg-info/requires.txt
+thestrainapi.egg-info/top_level.txt
