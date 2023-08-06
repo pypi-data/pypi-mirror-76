@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: jupyter-drawio-export
+Version: 0.8.0a0
+Summary: PDF export for Drawio diagrams in Jupyter Notebook and JupyterLab
+Home-page: https://github.com/deathbeds/jupyterlab-drawio
+Author: jupyterlab-drawio Contributors
+Author-email: ripxl@example.com
+License: Apache-2.0
+Description: # jupyter-drawio-export
+        
+        > PDF export of [drawio](https://www.diagrams.net) diagrams for Jupyter.
+        
+        See the [project repo](https://github.com/deathbeds/jupyterlab-drawio) for more information.
+        
+        ## Open Source
+        
+        This work is licensed under the [Apache 2.0](./LICENSE.txt).
+        
+        The vendored code from [@jgraph/draw-image-export2](https://github.com/jgraph/draw-image-export2) is also licensed under the [Apache-2.0](./vendor/draw-image-export2/LICENSE) License.
+        
+Platform: UNKNOWN
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
