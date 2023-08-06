@@ -1,0 +1,11 @@
+qrshare/__init__.py,sha256=ELSSrdRwDjnu7cb1BTSBi--_8age6N_MUbzfhX7zMqo,79
+qrshare/__main__.py,sha256=lyFsh6JVCQsI-qHa9wTm9vl-GiWN6YFDB_I2RDXgCHk,411
+qrshare/cli.py,sha256=lyFsh6JVCQsI-qHa9wTm9vl-GiWN6YFDB_I2RDXgCHk,411
+qrshare/network.py,sha256=T8VnplyG1Bf9iSIwgUGxkXRFC_PXGCoT1MX1xVBiQGo,2377
+qrshare/qr.py,sha256=tDkEoExZq3zbmHLSjEtgd6oXf1LA40LYaES2AOwLkrg,295
+qrshare-0.1.3.dist-info/LICENSE,sha256=MTYF-6xpRekyTUglRweWtbfbwBL1I_3Bgfbm_SNOuI8,11525
+qrshare-0.1.3.dist-info/METADATA,sha256=L_WBPQzswNRxFTKkBBDOh6W0Dsm_DThj7QS8WIUf50M,1069
+qrshare-0.1.3.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+qrshare-0.1.3.dist-info/entry_points.txt,sha256=aryGsR7wW_GP8J3wbzcz_vuX3CzsB2FzWIOlUHmnM1s,52
+qrshare-0.1.3.dist-info/top_level.txt,sha256=UREx0coKvpaV0AOZ1_caGBgMStFBwNG2lE1b1VcwC-I,8
+qrshare-0.1.3.dist-info/RECORD,,
