@@ -1,0 +1,12 @@
+README.md
+setup.py
+django_role_router.egg-info/PKG-INFO
+django_role_router.egg-info/SOURCES.txt
+django_role_router.egg-info/dependency_links.txt
+django_role_router.egg-info/requires.txt
+django_role_router.egg-info/top_level.txt
+jhvar/__init__.py
+jhvar/django/__init__.py
+jhvar/django/urls/__init__.py
+jhvar/django/urls/middleware/__init__.py
+jhvar/django/utils/__init__.py
