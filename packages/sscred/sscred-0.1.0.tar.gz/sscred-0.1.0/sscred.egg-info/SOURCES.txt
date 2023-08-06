@@ -1,0 +1,15 @@
+README.md
+setup.py
+sscred/__init__.py
+sscred/acl.py
+sscred/blind_pedersen.py
+sscred/blind_signature.py
+sscred/commitment.py
+sscred/config.py
+sscred/pack.py
+sscred.egg-info/PKG-INFO
+sscred.egg-info/SOURCES.txt
+sscred.egg-info/dependency_links.txt
+sscred.egg-info/requires.txt
+sscred.egg-info/top_level.txt
+test/test_sscred.py
