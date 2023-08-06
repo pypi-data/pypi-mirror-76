@@ -1,0 +1,7 @@
+include README.rst
+include LICENSE
+include MANIFEST.in
+include setup.py
+recursive-include raspi_mc *.py
+recursive-include init.d *
+recursive-include bin *
