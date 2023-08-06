@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: petite
+Version: 0.1.0
+Summary: GUI of Petit
+Home-page: https://github.com/kyo46n/petite/
+Author: Kyoshiro Nonaka
+Author-email: kyo46n@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: biopython
+Requires-Dist: xlrd
+
+# Petite
+Petit GUI ver.
+
