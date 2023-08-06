@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: rti
+Version: 0.0.4
+Summary: Pacote para integração do Request Tracker RT no PyPI
+Home-page: https://github.com/infopontes/rti
+Author: Marcelo Pontes Rodrigues
+Author-email: infopontes@gmail.com
+License: MIT License
+Description: ==============================================
+         RTIntegration - Python interface to Request Tracker API REST 2.0
+        ==============================================
+        
+        Python implementation of REST API described here: https://rt-wiki.bestpractical.com/wiki/REST
+        
+        **Note:** Please note that starting with the major release of v0.0.1, this library requires a Python version >= 3.5.
+        
+        REQUIREMENTS
+        ============
+        
+        This module uses following Python modules:
+        
+        - requests (http://docs.python-requests.org/)
+        
+        INSTALLATION
+        ============
+        
+        Install the package using::
+        
+          pip install rti
+        
+        
+        LICENCE
+        =======
+        
+        This module is distributed under the terms of ... Copy of the GNU
+        General Public License is distributed along with this module.
+        
+        USAGE
+        =====
+        
+        An example is worth a thousand words::
+        
+            >>> import rti
+           
+        
+        Get the last important updates from a specific queue that have been updated recently::
+        
+            >>> import rti
+        
+        		
+        
+        OFFICIAL SITE
+        =============
+        
+        Project site and issue tracking:
+            https://github.com/infopontes/rti
+        
+        Git repository:
+            git://github.com/infopontes/rti
+Keywords: Pacote
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
