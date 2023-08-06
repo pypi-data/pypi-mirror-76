@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: snowflake-sqlalchemy-lite
+Version: 0.0.1
+Summary: Snowflake SQLAlchemy Dialect LITE!
+Home-page: UNKNOWN
+Author: Manuel Garrido
+License: Apache License, Version 2.0
+Description: Snowflake SQLAlchemy Dialect LITE!
+Platform: UNKNOWN
+Requires-Python: >=3.5
