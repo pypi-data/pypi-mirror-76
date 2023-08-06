@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: sphinx-comments
+Version: 0.0.1
+Summary: Add comments and annotation to your documentation.
+Home-page: https://github.com/executablebooks/sphinx-comments
+Author: Executable Book Project
+License: MIT License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: sphinx (>=1.8)
+Provides-Extra: code_style
+Requires-Dist: flake8 (<3.8.0,>=3.7.0) ; extra == 'code_style'
+Requires-Dist: black ; extra == 'code_style'
+Requires-Dist: pre-commit (==1.17.0) ; extra == 'code_style'
+Provides-Extra: sphinx
+Requires-Dist: sphinx (>=2) ; extra == 'sphinx'
+Requires-Dist: sphinx-book-theme ; extra == 'sphinx'
+Requires-Dist: myst-parser ; extra == 'sphinx'
+Provides-Extra: testing
+Requires-Dist: beautifulsoup4 ; extra == 'testing'
+Requires-Dist: myst-parser ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-regressions ; extra == 'testing'
+Requires-Dist: sphinx (>=2) ; extra == 'testing'
+Requires-Dist: sphinx-book-theme ; extra == 'testing'
+
+# sphinx-comments
+
+[![PyPI](https://img.shields.io/pypi/v/sphinx-comments.svg)](https://pypi.org/project/sphinx_comments/) | [![Documentation](https://readthedocs.org/projects/sphinx-comments/badge/?version=latest)](https://sphinx-comments.readthedocs.io/en/latest/?badge=latest)
+
+A small sphinx extension to add a "copy" button to code blocks.
+
+See [the sphinx-comments documentation](https://sphinx-comments.readthedocs.io/en/latest/) for more details!
+
+![](doc/_static/copybutton.gif)
+
+## Installation
+
+You can install `sphinx-comments` with `pip`:
+
+```
+pip install sphinx-comments
+```
+
+## Usage
+
+In your `conf.py` configuration file, add `sphinx_comments` to your extensions list.
+E.g.:
+
+```
+extensions = [
+    ...
+    'sphinx_comments'
+    ...
+]
+```
+
+When you build your site, your code blocks should now have little copy buttons to their
+right. Clicking the button will copy the code inside!
+
+## Customization
+
+If you'd like to customize the look of the copy buttons, you can over-write any of the
+CSS rules specified in the sphinx-comments CSS file ([link](sphinx_comments/_static/copybutton.css))
+
+
