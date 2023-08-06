@@ -1,0 +1,11 @@
+canrevan/__init__.py,sha256=_NknOUMJ-99bar5YOH2851bbCpYtIxjwePUBz102dgQ,1851
+canrevan/__main__.py,sha256=kfII_jQkVnTQ-GDiuKiOJ4cy5mlZ639aYUGHGDTQfU0,61
+canrevan/crawling.py,sha256=--V0o0opQb3NRuZFyCejkn0ApxnQcitx-MYL3wL_gOs,8967
+canrevan/ext.py,sha256=8W9Z4KEFuenuYyGsqOgb-xe0cSAVQjArW4ExhyF4Xv8,4758
+canrevan/utils.py,sha256=1mjW3hhAs3g3aG78MoES-6F_z6j_o-F7Z3kRJ86lKno,2710
+canrevan-2.2.0.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+canrevan-2.2.0.dist-info/METADATA,sha256=HmtZJDRf7ACz0vjnD_U7Ne5U_dehRxTfnwsV3Z24ASo,5798
+canrevan-2.2.0.dist-info/WHEEL,sha256=YNlcxLoRZfMqjEfLMA4_N5GPCL0Yw1E8c7zrDjEU0Bk,92
+canrevan-2.2.0.dist-info/entry_points.txt,sha256=wOSkcjs_ye_UmEP3X-q1e1myX5G7f4bKMl0fQyDP31E,45
+canrevan-2.2.0.dist-info/top_level.txt,sha256=ZnbI6BgZP1drHwQHgn_2mUxIQYb-28U73Z_k72M1N5g,9
+canrevan-2.2.0.dist-info/RECORD,,
