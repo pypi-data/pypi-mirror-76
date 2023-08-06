@@ -1,0 +1,361 @@
+#!python
+#
+# Copyright 2018 Rick Chang <chchang915@gmail.com>
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+#     http://www.apache.org/licenses/LICENSE-2.0
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+from __future__ import print_function
+import sys, os, subprocess, shutil, time, argparse, re, shlex, itertools, collections
+
+try:
+    from configparser import ConfigParser
+except ImportError:
+    from ConfigParser import SafeConfigParser as ConfigParser
+
+RED    = "\x1b[31m"
+GREEN  = "\x1b[32m"
+YELLOW = "\x1b[33m"
+NONE   = "\x1b[0m"
+
+CONFIG = {
+    'config_path': '~/.csmgr.config',
+    'project_list': '.csmgr.project',
+    'suffixes': '.c .h .js .cpp .py .scss .css .java',
+    'out_list': 'cscope.files',
+    'meta_files': 'cscope.in.out cscope.out cscope.po.out tags',
+    'exclude_dirs': '.git node_modules',
+    'exec_cmds': 'cscope -bqk -i $out_list && ctags -L $out_list',
+    'max_display': 20,
+    'delim': "-" * 80,
+    'delim_end': '=' * 80,
+}
+
+def Log(s, endPat=None):
+    print(s, end=endPat)
+    sys.stdout.flush()
+
+def Loge(s):
+    Log(RED + s + NONE)
+
+def Logm(s, endPat=None):
+    Log(GREEN + s + NONE, endPat)
+
+def Logw(s):
+    Log(YELLOW + s + NONE)
+
+def Logv(s, verbose):
+    if verbose:
+        Log(s)
+
+class FakeSection(object):
+    SECTION = 'fake section'
+    def __init__(self, f, name):
+        self.f = f
+        self.first = True
+        self.sectionName = "[%s]\n" % name
+
+    def readline(self):
+        if self.first:
+            self.first = False
+            return self.sectionName
+        return self.f.readline()
+
+    def __iter__(self):
+        if self.first:
+            self.first = False
+            yield self.sectionName
+        line = self.f.readline()
+        while line:
+            yield line
+            line = self.f.readline()
+
+class FileListMgr:
+    def __init__(self, init_list, exclude_dirs, max_display, suffixes):
+        self.list_count = collections.Counter(init_list)
+        self.exclude_dirs = exclude_dirs
+        self.max_display = max_display
+        self.suffixes = suffixes
+        self.addCount = 0
+        self.rmCount = 0
+        self.showCount = 0
+
+    def IsExclude(self, path):
+        for exclude_dir in self.exclude_dirs:
+            if path.startswith(exclude_dir):
+                return True
+        return False
+
+    def SearchAndUpdate(self, pathes):
+        self.showCount = 0
+        for path in pathes:
+            if os.path.isfile(path):
+                self.FilterFile(path, False)
+            elif os.path.isdir(path):
+                self.FilterDir(path)
+
+        for key, val in self.list_count.items():
+            if val == 1:
+                self.Show('Remove %s' % key)
+                self.rmCount += 1
+ 
+    def GetFileList(self):
+        cur_list = []
+        for key, val in self.list_count.items():
+            if val != 1:
+                cur_list.append(key)
+        return sorted(cur_list)
+
+    def Show(self, s):
+        if self.showCount > self.max_display:
+            return
+        Log('%s' % '...' if self.showCount == self.max_display else s)
+        self.showCount += 1
+
+    def FilterFile(self, path, suffixCheck=True):
+        if os.path.islink(path):
+            return
+
+        if suffixCheck and not path.endswith(tuple(self.suffixes)):
+            return
+
+        list_count = self.list_count
+        if path in list_count:
+            if list_count[path]:
+                list_count[path] = 0
+            return
+
+        self.Show('Add %s' % path)
+        list_count[path] = 0
+        self.addCount += 1
+
+    def FilterDir(self, folder):
+        for i, (path, dirs, files) in enumerate(os.walk(folder)):
+            for f in files:
+                if self.IsExclude(os.path.relpath(path, folder)):
+                    continue;
+                full_path = os.path.join(path, f)
+                self.FilterFile(os.path.relpath(full_path))
+
+def TaskDecorator(start_msg=None, end_msg='[done]'):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            Log(CONFIG['delim_end'])
+            if start_msg:
+                Log(start_msg)
+                Log(CONFIG['delim'])
+            start_time = time.time()
+            ret = func(*args, **kwargs)
+            elapsed_time = time.time() - start_time
+            Log("%s (%ss)" % (end_msg, round(elapsed_time, 3)))
+            return ret
+        return wrapper
+    return decorator
+
+def ReadConfig(config, fp):
+    if hasattr(config, 'read_file'):
+        config.read_file(fp)
+    else:
+        config.readfp(fp)
+
+def InitConfig(path, silent=True):
+    config_file = os.path.expanduser(path)
+    if not os.path.isfile(config_file):
+        if not silent:
+            Loge("Can't find config file '%s'" % config_file)
+        return False
+
+    Log("Use config file: %s" % config_file)
+    config = ConfigParser()
+    ReadConfig(config, FakeSection(open(config_file), FakeSection.SECTION))
+
+    for key in CONFIG:
+        if not config.has_option(FakeSection.SECTION, key):
+            continue
+        val = config.get(FakeSection.SECTION, key)
+        CONFIG[key] = val
+    return True
+
+def SetConfig(opts):
+    if opts.config_file and not InitConfig(opts.config_file, False):
+        sys.exit(1)
+    config = vars(opts)
+    for key, val in CONFIG.items():
+        if key in config and config[key] is not None:
+            continue
+        if key in ['suffixes', 'meta_files', 'exclude_dirs']:
+            val = re.split('\s+', val)
+        elif key in ['max_display']:
+            val = int(val)
+        elif key in ['exec_cmds']:
+            val = val.split('&&')
+        config[key] = val
+
+    config['exclude_dirs'] = list(map(lambda x: x.rstrip('/'), config['exclude_dirs']))
+    return opts
+
+def DeleteMeta(opts):
+    if opts.dry_run:
+        Log('(dryrun) Remove %s' % ' '.join(opts.meta_files))
+        return 0
+    
+    Log('Remove %s' % ' '.join(opts.meta_files))
+    for f in opts.meta_files:
+        try:
+            os.remove(f)
+        except:
+            pass
+    return 0
+
+@TaskDecorator()
+def Run(opts, cmd):
+    Log('Run %s ...' % cmd)
+    Log(opts.delim)
+
+    if not cmd:
+        return
+    if opts.dry_run:
+        Log('(dryrun) %s' % cmd)
+        return
+    try:
+        return subprocess.call(tuple(shlex.split(cmd)))
+    except Exception as e:
+        Loge("Run cmd '%s' fail. (%s)" % (cmd, e))
+        return 1
+
+def UpdateTag(opts, regen=False):
+    if regen:
+        DeleteMeta(opts)
+    for cmd in opts.exec_cmds:
+        cmd = cmd.replace('$out_list', opts.out_list).strip()
+        Run(opts, cmd)
+    return 0
+
+def SaveFileList(opts, filename, filelist):
+    with open(filename, 'w') as f:
+        for path in filelist:
+            f.write(path + "\n")
+
+def GetProjectPath(path):
+    rel_path = os.path.relpath(path)
+    if rel_path == '.':
+        return './'
+    return rel_path if rel_path[0] == '.' else './' + rel_path
+
+def GetProjectList(opts):
+    if not os.path.isfile(opts.project_list):
+        Logw("Can't find project list (%s)" % opts.project_list)
+    pathes = LoadFileList(opts.project_list)
+    if opts.update:
+        return pathes
+
+    for path in opts.path:
+        if not os.path.exists(path):
+            Loge("'" + path + "' not exited.")
+            sys.exit(1)
+
+    valid_pathes = set([GetProjectPath(path) for path in opts.path])
+    for path1 in pathes:
+        for path2 in list(valid_pathes):
+            if os.path.isfile(path2):
+                continue
+            if path2.startswith(path1):
+                Logw('Redundent path %s (under %s)' % (path2, path1))
+                valid_pathes.remove(path2)
+
+    for path in valid_pathes:
+        Log('%sAdded path \'%s\' to project list' % ('(dryrun) ' if opts.dry_run else '', path))
+    if not valid_pathes:
+        Logw('Pathes already exists in project list (%s).' % opts.project_list)
+        sys.exit(1)
+
+    new_list = sorted(itertools.chain(pathes, valid_pathes))
+    if not opts.dry_run:
+        SaveFileList(opts, opts.project_list, new_list)
+    return new_list
+
+@TaskDecorator('Checking file list ...')
+def UpdateFileList(opts, project_list):
+    fileMgr = FileListMgr(LoadFileList(opts.out_list), opts.exclude_dirs, opts.max_display, opts.suffixes)
+
+    fileMgr.SearchAndUpdate(project_list)
+    if fileMgr.addCount:
+        Logm('%sAdded %d files to %s' % ('(dryrun) ' if opts.dry_run else '', fileMgr.addCount, opts.out_list))
+    if fileMgr.rmCount:
+        Logm('%sRemoved %d files from %s' % ('(dryrun) ' if opts.dry_run else '', fileMgr.rmCount, opts.out_list))
+    if fileMgr.rmCount == 0 and fileMgr.addCount == 0 and not opts.update:
+        Log('Nothing to update.')
+        return False
+    file_list = fileMgr.GetFileList()
+    if not file_list:
+        Logw('Can\'t find any file')
+    if not opts.dry_run:
+        SaveFileList(opts, opts.out_list, file_list)
+    return file_list
+
+def LoadFileList(name):
+    if not os.path.isfile(name):
+        return []
+    with open(name, 'r') as f:
+        return f.read().splitlines()
+
+def ParseArguments(argv):
+    parser = argparse.ArgumentParser()
+    parser.add_argument('path', nargs='*', default=None,
+                        help = 'add path to project list (%s) and run commands for tag generation if %s is changed ex. dir/, file.c' % (CONFIG['project_list'], CONFIG['out_list']))
+    parser.add_argument('-u', '--update', action='store_true', default=False,
+                        help='Update %s if necessary and run commands for tag generation' % CONFIG['out_list'])
+    parser.add_argument('-f', '--force', action='store_true', default=False,
+                        help='delete meta data and run commands for tag generation')
+    parser.add_argument('-s', '--suffixes', nargs='+', default=None,
+                        help='assign suffixes filter (default: %s)' % CONFIG['suffixes'])
+    parser.add_argument('-c', '--config-file', type=str,
+                        help='assign config file (default: %s)' % CONFIG['config_path'])
+    parser.add_argument('-o', '--out-list', type=str,
+                        help='assign the name of output list file (default: %s)' % CONFIG['out_list'])
+    parser.add_argument('-m', '--meta-files', nargs='+', default=None,
+                        help='assign meta data files (default: %s)' % CONFIG['meta_files'])
+    parser.add_argument('-e', '--exclude-dirs', nargs='+', default=None,
+                        help='assign exclude dirs (default: %s)' % CONFIG['exclude_dirs'])
+    parser.add_argument('-d', '--delete-meta', action='store_true', default=False,
+                        help='delete all meta data')
+    parser.add_argument('--dry-run', action='store_true', default=False,
+                        help='show what would be done')
+    parser.add_argument('--max-display', type=int,
+                        help='assign how many paths will be shown in the log')
+    parser.add_argument('-x', '--exec-cmds', nargs='+', default=None,
+                        help='assign commands for tag generation. $out_list will be replaced by list file name (check -o for details). (default: %s)' % CONFIG['exec_cmds'])
+    parser.add_argument('--verbose', action='store_true', default=False,
+                        help='show more logs')
+    parser.add_argument('-v', '--version', action='version', version='1.1.2')
+
+    opts = SetConfig(parser.parse_args(argv[1:]))
+    Logv(opts, opts.verbose)
+    return opts, parser
+
+def main(argv):
+    InitConfig(CONFIG['config_path'])
+
+    opts, parser = ParseArguments(argv)
+    if opts.delete_meta:
+        return DeleteMeta(opts)
+    if opts.force:
+        return UpdateTag(opts, True)
+    if not bool(opts.update) ^ bool(opts.path):
+        parser.print_help()
+        return 1
+    if UpdateFileList(opts, GetProjectList(opts)):
+        return UpdateTag(opts)
+    return 0
+
+if __name__ == '__main__':
+    sys.exit(main(sys.argv))
+
