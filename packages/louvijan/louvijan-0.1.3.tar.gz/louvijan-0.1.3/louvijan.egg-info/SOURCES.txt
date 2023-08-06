@@ -1,0 +1,15 @@
+README.md
+setup.py
+louvijan/__init__.py
+louvijan/pipe.py
+louvijan.egg-info/PKG-INFO
+louvijan.egg-info/SOURCES.txt
+louvijan.egg-info/dependency_links.txt
+louvijan.egg-info/top_level.txt
+louvijan/manager/__init__.py
+louvijan/manager/base.py
+louvijan/manager/config.py
+louvijan/manager/execution.py
+louvijan/manager/log.py
+louvijan/manager/mail.py
+louvijan/manager/remote.py
