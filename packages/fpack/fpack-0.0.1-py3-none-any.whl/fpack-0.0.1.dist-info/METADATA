@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: fpack
+Version: 0.0.1
+Summary: fpack is a simple message (de)seriealizer in pure python
+Home-page: https://github.com/frankurcrazy/fpack
+Author: Frank Chang
+Author-email: frank@csie.io
+License: BSD
+Keywords: serializer,unserializer,packer,unpacker
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# fpack
+
+***fpack*** is a simple message (de)serializer created for fun and educational purpose.
+fpack hasn't been widely deployed, and neither has it been fully tested. So use it at your own risk.
+
+## Requirements
+ - python >= 3.7
+
+## Installation
+### Install with pip
+```bash
+pip install fpack
+```
+
+### Download latest version from git
+```bash
+git clone https://github.com/frankurcrazy/fpack
+cd fpack && python setup.py install
+```
+
+## License
+BSD
+
+
