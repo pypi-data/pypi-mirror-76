@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+jupyter_pytest.py
+setup.cfg
+setup.py
+jupyter_pytest_2.egg-info/PKG-INFO
+jupyter_pytest_2.egg-info/SOURCES.txt
+jupyter_pytest_2.egg-info/dependency_links.txt
+jupyter_pytest_2.egg-info/entry_points.txt
+jupyter_pytest_2.egg-info/requires.txt
+jupyter_pytest_2.egg-info/top_level.txt

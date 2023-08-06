@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: jupyter-pytest-2
+Version: 1.0
+Summary: Write and run pytest tests inside a notebook! Why? Because you can!
+Home-page: https://github.com/sashgorokhov/jupyter-pytest-2
+Author: sashgorokhov
+Author-email: sashgorokhov@gmail.com
+License: MIT License
+Download-URL: https://github.com/sashgorokhov/jupyter-pytest-2/archive/master.zip
+Description: UNKNOWN
+Keywords: pytest,ipython,jupyter,testing
+Platform: UNKNOWN
+Classifier: Framework :: Pytest
+Classifier: Framework :: Jupyter
+Classifier: Framework :: IPython
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Testing
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
