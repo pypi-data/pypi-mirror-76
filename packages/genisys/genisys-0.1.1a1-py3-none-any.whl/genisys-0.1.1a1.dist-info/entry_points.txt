@@ -1,0 +1,7 @@
+[console_scripts]
+genisys=genisys.console:genisys_cli
+
+[genisys.cli]
+create=genisys.console.create:create_cli
+init=genisys.console.init:init_cli
+
