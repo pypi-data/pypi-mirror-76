@@ -1,0 +1,4 @@
+.eggs/
+*_cache*
+*cache_*
+.vscode/*
