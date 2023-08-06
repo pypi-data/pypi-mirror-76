@@ -1,0 +1,10 @@
+README.rst
+setup.py
+bin/margo
+margo/__init__.py
+margo/margo.py
+margo.egg-info/PKG-INFO
+margo.egg-info/SOURCES.txt
+margo.egg-info/dependency_links.txt
+margo.egg-info/requires.txt
+margo.egg-info/top_level.txt
