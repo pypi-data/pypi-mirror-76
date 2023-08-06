@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+satoshi/__init__.py
+satoshi/bitcoin_art.txt
+satoshi.egg-info/PKG-INFO
+satoshi.egg-info/SOURCES.txt
+satoshi.egg-info/dependency_links.txt
+satoshi.egg-info/requires.txt
+satoshi.egg-info/top_level.txt
+satoshi/__pycache__/__init__.cpython-37.pyc
