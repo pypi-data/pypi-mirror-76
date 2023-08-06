@@ -1,0 +1,161 @@
+# GDMix Workflow
+GDMix-workflow is a workflow generation toolkit to orchestrate training jobs for [GDMix](https://github.com/linkedin), a framework to train non-linear fixed effect and random effect models. By providing a [GDMix config](gdmix_config.md), GDMix-workflow can run training jobs on single node, or generate a YAML file that can run training job distributedly on Kubernetes cluster with Kubeflow Pipeline deployed.
+
+## Configuration
+GDMix-workflow supports two modes, single_node and distributed. For single_node mode, user will need to install the [gdmix-workflow](https://pypi.org/project/gdmix-workflow/) package and spark, GDMix-workflow will run jobs on the node. For distributed mode, GDMix-workflow generates a YAML file that can be deployed to Kubernetes cluster, we'll explain more about distributed mode in later section.
+Once the `gdmix-workflow` package is installed, user can call
+```
+python -m gdmixworkflow.main
+```
+plus following parameters:
+  - --config_path: path to gdmix config. Required.
+  - --mode: distributed or single_node. Required.
+  - --jar_path: local path to the gdmix-data jar for GDMix processing intermediate data. Required by single_node mode only.
+  - --workflow_name: name for the generated zip file to upload to Kubeflow Pipeline. Required by distributed mode only.
+  - --namespace: Kubernetes namespace. Required by distributed mode only.
+  - --secret_name: secret name to access storage. Required by distributed mode only.
+  - --image: image used to launch gdmix jobs on Kubernetes. Required by distributed mode only.
+  - --service_account: service account to launch spark job. Required by distributed mode only.
+
+## Run GDMix workflow on Kubernetes for distributed training
+GDMix's distributed training is based on [Kubernetes](https://kubernetes.io/docs/home/), and leverages Kubernetes services [Kubeflow](https://www.kubeflow.org/docs/started/getting-started/) and [spark-on-k8s-operator](https://github.com/GoogleCloudPlatform/spark-on-k8s-operator) to run TensorFlow and Spark job distributedly on Kubernetes, respectively, and [Kubeflow Pipeline](https://www.kubeflow.org/docs/pipelines/overview/pipelines-overview/) to orchestrate jobs. Besides that, a centralized storage is needed for storing training data and syncing up checkpoints. User can use
+[Kubernetes-HDFS](https://github.com/apache-spark-on-k8s/kubernetes-HDFS/tree/master/charts) or [NFS](https://www.kubeflow.org/docs/other-guides/kubeflow-on-multinode-cluster/#background-on-kubernetes-storage) as centralized storage.
+
+### Create a Kubernetes cluster, deploy required services
+To run GDMix in distributed mode, user needs to create a Kubernetes cluster, and deploy following services:
+
+- [Kubeflow tf-operator](https://www.kubeflow.org/docs/components/training/tftraining/#deploy-kubeflow)
+- [spark-on-k8s-operator](https://github.com/GoogleCloudPlatform/spark-on-k8s-operator#installation)
+- [Kubeflow Pipeline](https://www.kubeflow.org/docs/pipelines/installation/overview/)
+- [NFS Server Provisioner](https://github.com/helm/charts/tree/master/stable/nfs-server-provisioner)
+
+### Generate task YAML file and upload to Kubeflow Pipeline UI
+When the Kubernetes cluster and services are ready, with the provided GDMix config, GDMix-workflow can generate task YAML file that consists of launchers for each distributed TensorFlow or Spark job. User needs to upload it to Kubeflow Pipeline UI and click button to start training.
+
+## Run the MovieLens example
+In this section we'll introduce how to train fixed effect and random effect models using GDMix for MovieLens data.
+Please download and preprocess moveLens data to meet GDMix's need using the provided script [download_process_movieLens_data.py](../scripts/download_process_movieLens_data.py). We'll also need a GDMix config, a reference can be found at [lr-single-node-movieLens.config](test/resources/lr-single-node-movieLens.config).
+
+### Run on single node
+The easiest way to run the example is using a pre-built docker container:
+```
+docker run --name gdmix -it linkedin/gdmix bash
+python -m gdmixworkflow.main --config_path=lr-single-node-movieLens.config --jar_path gdmix-data-all_2.11-0.1.0.jar
+```
+To train on your machine, user will need to install `gdmix-workflow` package and spark, and download the `gdmix-data` jar to process intermediate data.
+
+#### Install gdmix-workflow
+```
+pip install gdmix-workflow
+```
+
+#### Install Spark
+We don't support PySpark yet, need to install spark. We show
+how to install spark 2.4.6 on CentOS/RHEL 7.x below, other system can be
+installed similarly.
+```
+yum  install -y java-1.8.0-openjdk
+export JAVA_HOME=/etc/alternatives/jre
+spark_version=2.4.6
+spark_pkg=spark-${spark_version}-bin-hadoop2.7
+wget https://downloads.apache.org/spark/spark-${spark_version}/${spark_pkg}.tgz
+mkdir /opt/spark
+tar -xf ${spark_pkg}.tgz && \
+    mv ${spark_pkg}/jars /opt/spark && \
+    mv ${spark_pkg}/bin /opt/spark && \
+    mv ${spark_pkg}/sbin /opt/spark && \
+    mv ${spark_pkg}/kubernetes/dockerfiles/spark/entrypoint.sh /opt/ && \
+    mv ${spark_pkg}/examples /opt/spark && \
+    mv ${spark_pkg}/kubernetes/tests /opt/spark && \
+    mv ${spark_pkg}/data /opt/spark && \
+    chmod +x /opt/*.sh && \
+    rm -rf spark-*
+export SPARK_HOME=/opt/spark
+export PATH=/opt/spark/bin:$PATH
+export SPARK_CLASSPATH=$SPARK_CLASSPATH:/opt/spark/jars/
+```
+
+#### Download gdmix-data jar
+```
+wget https://linkedin.bintray.com/maven/com/linkedin/gdmix/gdmix-data-all_2.11/0.1.0/gdmix-data-all_2.11-0.1.0.jar
+
+```
+
+#### Download and preprocessing movieLens data
+Run the script [download_process_movieLens_data.py](../scripts/download_process_movieLens_data.py) to download and save preprocessed data to directory `movieLens`. `--dest_path` can be used to save the result to a different path.
+```
+python download_process_movieLens_data.py
+```
+
+#### Start GDMix model training
+Download the GDMix config [lr-single-node-movieLens.config](test/resources/lr-single-node-movieLens.config)., start training with following command:
+```
+python -m gdmixworkflow.main --config_path lr-single-node-movieLens.config --jar_path gdmix-data-all_2.11-0.1.0.jar
+```
+
+#### Result
+The result directory(from the `output_dir` field in GDMix config) is shown at the end of the training if it succeeds:
+```
+------------------------
+GDMix training is finished, results are saved to lr-training.
+```
+The directory `lr-training` has following structure. The fixed effect and random effect model are save to subdirectory `global` and `per-user`. In each subdirectory, `metric` and `model` directory save the metric from the validation dataset and the trained generalized linear model(s), respectively, the rest are intermediate data.
+```
+lr-training/
+|-- global
+|   |-- metric
+|   |   `-- evalSummary.json
+|   |-- models
+|   |   `-- global_model.avro
+|   |-- train_scores
+|   |   `-- part-00000.avro
+|   `-- validation_scores
+|       `-- part-00000.avro
+`-- per-user
+    |-- metric
+    |   `-- evalSummary.json
+    |-- models
+    |   `-- part-00000.avro
+    |-- partition
+    |   |-- metadata
+    |   |   `-- tensor_metadata.json
+    |   |-- partitionList.txt
+    |   |-- trainingData
+    |   |   ...
+    |   `-- validationData
+    |       ...
+    |-- train_scores
+    |   `-- partitionId=0
+    |       `-- part-00000-active.avro
+    `-- validation_scores
+        `-- partitionId=0
+            `-- part-00000.avro
+```
+
+### Run on Kubernetes
+To run on Kubernetes, user will need to copy the processed movieLens data to the centralized storage, modify the input path fields such as `train_data_path`,  `validation_data_path`, `feature_file` and `metadata_file` of the GDMix config for distributed training [lr-distributed-movieLens.config](test/resources/lr-distributed-movieLens.config).
+
+If using the provided image `linkedin/gdmix:gdmix:0.1`, which has the `gdmix-workflow` package and spark installed, user can mount the processed movieLens data from the centralized storage to path `/workspace/notebook/movieLens` for each worker then no change is needed for the GDMix config [lr-distributed-movieLens.config](test/resources/lr-distributed-movieLens.config).
+
+
+#### Generate YAML file
+User will need to install `GDMix-worklfow` in order to generate the YAML file:
+```
+pip install gdmix-workflow
+```
+Then generate the YAML file with following command. Parameters such as `namespace`, `secret_name` and `service_account` relate to your Kubernetes cluster setting and deployments.
+```
+python -m gdmixworkflow.main --config_path lr-distributed-movieLens.config --mode=distributed --workflow_name=movieLens --namespace=default --secret_name default --image linkedin/gdmix:gdmix:0.1 --service_account account
+```
+A zip file named `movieLens.zip` is generated and ready to be uploaded to Kubeflow Pipeline.
+
+#### Upload to Kubeflow Pipeline
+If the Kubeflow Pipeline is successfully deployed, use can forward pipeline UI to local, following command forward to local port 9980:
+```
+kubectl -n default port-forward svc/ml-pipeline-ui 9980:80
+```
+Type `localhost:9980` in browser to view the Kubeflow Pipeline UI, upload the produced YAML file `movieLens.zip`(click button `Upload pipeline`), and then click button `Create run` to start the training.
+A snapshot of the workflow is shown below.
+
+![](../figures/gdmix-kubeflow-pipeline.png)
+*GDMix Distributed Training on Kubeflow Pipeline*
