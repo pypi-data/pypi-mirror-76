@@ -1,0 +1,8 @@
+README.md
+setup.py
+hivemind/__init__.py
+hivemind.egg-info/PKG-INFO
+hivemind.egg-info/SOURCES.txt
+hivemind.egg-info/dependency_links.txt
+hivemind.egg-info/requires.txt
+hivemind.egg-info/top_level.txt
