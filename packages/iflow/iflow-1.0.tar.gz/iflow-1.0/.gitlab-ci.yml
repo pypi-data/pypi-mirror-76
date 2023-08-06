@@ -1,0 +1,45 @@
+image: "python:3.7"
+
+variables:
+    PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+    paths:
+        - .cache/pip
+        - venv/
+
+before_script:
+    - python --version
+    - pip install -U pip
+    - pip install virtualenv
+    - virtualenv venv
+    - source venv/bin/activate
+    - pip install ".[test]" .
+    - pip install pylint
+
+stages:
+    - Static Analysis
+    - Test
+    - deploy
+
+pylint:
+    stage: Static Analysis
+    allow_failure: true
+    script:
+        - pylint iflow/*
+
+unit_test:
+    stage: Test
+    script:
+        - pytest
+
+pages:
+    stage: deploy
+    script:
+        - pip install -U sphinx
+        - sphinx-build -b html docs public
+    artifacts:
+        paths:
+            - public
+    only:
+        - master

@@ -1,0 +1,16 @@
+*.pyc
+*.pdf
+Status*
+Process*
+*.png
+Run.dat
+Sherpa*
+.ipynb_checkpoints
+dist
+build
+makelibs
+models
+*.txt
+*.nb
+pi/
+notebooks/
