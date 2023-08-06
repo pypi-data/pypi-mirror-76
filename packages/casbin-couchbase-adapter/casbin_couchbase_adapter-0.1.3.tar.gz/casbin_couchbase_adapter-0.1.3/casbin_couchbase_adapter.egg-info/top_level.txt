@@ -1,0 +1,1 @@
+casbin_couchbase_adapter

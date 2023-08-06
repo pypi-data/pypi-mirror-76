@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+casbin_couchbase_adapter/__init__.py
+casbin_couchbase_adapter/adapter.py
+casbin_couchbase_adapter.egg-info/PKG-INFO
+casbin_couchbase_adapter.egg-info/SOURCES.txt
+casbin_couchbase_adapter.egg-info/dependency_links.txt
+casbin_couchbase_adapter.egg-info/requires.txt
+casbin_couchbase_adapter.egg-info/top_level.txt
