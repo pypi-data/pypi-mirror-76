@@ -1,0 +1,2 @@
+six
+RouterOS-api==0.17.0

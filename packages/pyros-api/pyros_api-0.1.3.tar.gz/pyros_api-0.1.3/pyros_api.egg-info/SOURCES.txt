@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+pyros_api/__init__.py
+pyros_api/routeros.py
+pyros_api.egg-info/PKG-INFO
+pyros_api.egg-info/SOURCES.txt
+pyros_api.egg-info/dependency_links.txt
+pyros_api.egg-info/requires.txt
+pyros_api.egg-info/top_level.txt
