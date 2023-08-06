@@ -1,0 +1,9 @@
+RPi.DHT-0.5.0.data/scripts/raspi-dht,sha256=zjrAeUKIzJmu07kGTnnUQKrN4E3xwy_Jkr4AnFMiBI0,231
+raspi_dht/__init__.py,sha256=MxVYe4MFgVyX_Eea7MjEASjTcvxK8f6fhrRpOzo0DY4,238
+raspi_dht/dht.py,sha256=G3xOD1zIC3Ihf3ZCmTscFmeI5EoOgD97QM7wUt_nPBc,3554
+raspi_dht/main.py,sha256=XNDzLqedGVO6OdLySkzhdZmvEe8MKQi4AzWddi0hmWU,1810
+RPi.DHT-0.5.0.dist-info/LICENSE,sha256=h79pg8LQPOzWo2zug2Iz_-0TQawZ1MChOAao1-0YDEI,1083
+RPi.DHT-0.5.0.dist-info/METADATA,sha256=o7P9XoRCobWpur2YOkwBGKHo1_U5CorRDeVEdzps2vA,4315
+RPi.DHT-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+RPi.DHT-0.5.0.dist-info/top_level.txt,sha256=Ngc7dgGsxeJiVRMSHOcTK2WWy18uDkww5I1DvrF2kCc,10
+RPi.DHT-0.5.0.dist-info/RECORD,,

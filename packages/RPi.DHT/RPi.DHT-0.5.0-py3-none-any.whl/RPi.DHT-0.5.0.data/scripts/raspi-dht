@@ -1,0 +1,11 @@
+#!python
+
+# This will work when installed in site-packages on a 
+# target system where the runner script is in /usr/bin
+#
+# So, you don't need anything special - no fancy path tricks.
+
+import raspi_dht.main
+
+raspi_dht.main.main()
+
