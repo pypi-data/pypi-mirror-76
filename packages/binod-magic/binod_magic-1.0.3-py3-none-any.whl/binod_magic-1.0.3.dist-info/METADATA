@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: binod-magic
+Version: 1.0.3
+Summary: changes desktop background
+Home-page: https://github.com/tanmay1217/binod-magic
+Author: Tanmay Parashar
+Author-email: parashart98@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+#binod
+changes desktop background
+
+
+
+
+##License
+Â© 2020 Tanmay Parashar
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
+
