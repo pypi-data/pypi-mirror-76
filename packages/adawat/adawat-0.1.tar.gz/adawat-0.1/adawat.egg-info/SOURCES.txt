@@ -1,0 +1,15 @@
+MANIFEST.in
+README.rst
+setup.py
+adawat/__init__.py
+adawat/adaat.py
+adawat/affix_const.py
+adawat/generate.py
+adawat/latex.py
+adawat/myrepr.py
+adawat/randtext.py
+adawat.egg-info/PKG-INFO
+adawat.egg-info/SOURCES.txt
+adawat.egg-info/dependency_links.txt
+adawat.egg-info/requires.txt
+adawat.egg-info/top_level.txt

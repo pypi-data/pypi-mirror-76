@@ -1,0 +1,8 @@
+asmai>=0.1
+mishkal>=0.3
+naftawayh>=0.4
+pyarabic>=0.6.8
+qalsadi>=0.3.6
+repr>=0.3.1
+sylajone>=0.2
+tashaphyne>=0.3.4.1
