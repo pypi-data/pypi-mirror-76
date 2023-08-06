@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pd3/proto/study.proto
+pd3_plot/Graph.py
+pd3_plot/Plotter.py
+pd3_plot/__init__.py
+pd3_plot.egg-info/PKG-INFO
+pd3_plot.egg-info/SOURCES.txt
+pd3_plot.egg-info/dependency_links.txt
+pd3_plot.egg-info/requires.txt
+pd3_plot.egg-info/top_level.txt

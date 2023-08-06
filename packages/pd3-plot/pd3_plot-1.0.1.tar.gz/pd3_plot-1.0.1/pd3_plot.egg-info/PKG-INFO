@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: pd3-plot
+Version: 1.0.1
+Summary: pd3_plot is a utility for visulizing simulations from pd3.
+Home-page: https://github.com/cemel-jhu/pd3_plot
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/cemel-jhu/pd3_plot/tags
+Description: UNKNOWN
+Keywords: pd3 discrete dislocation dynamics ddd
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Intended Audience :: Science/Research
