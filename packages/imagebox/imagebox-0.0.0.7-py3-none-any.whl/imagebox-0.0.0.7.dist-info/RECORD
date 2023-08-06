@@ -1,0 +1,12 @@
+imagebox/__init__.py,sha256=2k_ZeqU7FvqZMFqGm-EYRiV98uxUxmiy5wXygvIobPU,13
+imagebox/config.py,sha256=IZb8QKqv_GlV0Za85tr3uv_rzHMWHE95ryGjfZnVQDQ,656
+imagebox/handler.py,sha256=PTsZP8E3P_0uOcV6Hr2sfXvWKlNaFJ_20JGCzYxZIDU,18270
+imagebox/indices.py,sha256=Ed_ACwl6XlqOBeW659d1r8qR0tdZDfnXMRpJM08w3HA,5411
+imagebox/io.py,sha256=IL4OIp9XiZvasLFTQwPTu4Dx9bSAXmF0ONLjC2XGXLo,5374
+imagebox/processor.py,sha256=rW6e_rWNXypVbJUAIJs4W44Dh5ILUVgLzT3uDMugGrA,8817
+imagebox/utils.py,sha256=eXVC8eHtYJPDw6RrwEgthPUVQvCjYkBzrfJm5Ua0PuE,2499
+imagebox-0.0.0.7.dist-info/METADATA,sha256=fWsVbnxfd6mDagNm_xPSeZM1i2DcIBW2UH6BXP936AQ,402
+imagebox-0.0.0.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+imagebox-0.0.0.7.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+imagebox-0.0.0.7.dist-info/top_level.txt,sha256=f9fDWGkO5DlpUzdjo7ikCNltAdA_xF2dbX4h87pVq9U,9
+imagebox-0.0.0.7.dist-info/RECORD,,
