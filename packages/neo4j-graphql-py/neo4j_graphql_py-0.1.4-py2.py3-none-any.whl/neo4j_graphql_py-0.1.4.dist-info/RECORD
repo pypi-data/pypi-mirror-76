@@ -1,0 +1,10 @@
+neo4j_graphql_py/__init__.py,sha256=TOuXtLUeWAIM08U4ddiZGjEXiMJs3BiIQw8TUCJjKls,262
+neo4j_graphql_py/augment_schema.py,sha256=ckTr2f-GOElknGRUH2Ch4-6V3HRnM4djVTBhUIoEY5g,7213
+neo4j_graphql_py/main.py,sha256=X0abK9jwwSl2LCwxPYu-6tXKskknWzseI_mVDNwmZKY,6614
+neo4j_graphql_py/selections.py,sha256=lJ2c9sXonvS6CY16tlQlTBE8sLTnwfSOc6DKkZ3ul8E,3907
+neo4j_graphql_py/utils.py,sha256=pr0U8E0HqarwoU0Es0xx30qeonjK9_rKOtAIXnlcfeI,6323
+neo4j_graphql_py-0.1.4.dist-info/LICENSE,sha256=CDIyOawpxszzAPL3QR1j8pft7O4htU2S1pJz60b3X7c,566
+neo4j_graphql_py-0.1.4.dist-info/METADATA,sha256=uKTGIqE00iF_v3SVdAAGzEj5MhTA9kEJh60sjxDXEZo,7693
+neo4j_graphql_py-0.1.4.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+neo4j_graphql_py-0.1.4.dist-info/top_level.txt,sha256=tOuR9TsXTCRLCFqjg3twUkK-WYOr7rYNbzdCK8_dGBo,17
+neo4j_graphql_py-0.1.4.dist-info/RECORD,,
