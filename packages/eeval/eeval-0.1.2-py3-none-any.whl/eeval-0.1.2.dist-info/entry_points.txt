@@ -1,0 +1,3 @@
+[console_scripts]
+eeval = eeval.__main__:run_cli
+
