@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: cachein
+Version: 0.3
+Summary: Lazy caching, delegation, and more
+Home-page: https://gitlab.com/hrharkins/python-cachein
+Author: Rich Harkins
+Author-email: rich.harkins@gmail.com
+License: UNKNOWN
+Description: # Cachein
+        
+        Lazy members, methods, and more.
+        
+        # Install
+        
+        $ pip install cachein
+        
+        # Contributing / development
+        
+        See CONTRIBUTING.md
+        
+        # Documentation
+        
+        See [documentation here](http://glcdn.githack.com/hrharkins/python-cachein/raw/0.3/docs/html/cachein/index.html)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
