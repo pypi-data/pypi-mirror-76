@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: pywren_ibm_cloud
+Version: 1.7.2
+Summary: Run many jobs over IBM Cloud
+Home-page: https://github.com/pywren/pywren-ibm-cloud
+Author: Gil Vernik
+Author-email: gilv@il.ibm.com
+License: UNKNOWN
+Description: PyWren lets you transparently run your Python functions on IBM Cloud
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
