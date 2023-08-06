@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: data-druid
+Version: 0.1.4
+Summary: Structured data objects using Python
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Requires-Dist: loguru
+Requires-Dist: pytest
+Requires-Dist: pytest-sugar
+
+# SD (structured_data)
+SD is a package that I have created for the purposes of storing data 
+structures that I have created for projects that may be needed again.
+
