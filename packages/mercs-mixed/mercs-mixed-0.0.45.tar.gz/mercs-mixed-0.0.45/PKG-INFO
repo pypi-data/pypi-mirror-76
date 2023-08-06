@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: mercs-mixed
+Version: 0.0.45
+Summary: MERCS: Multi-Directional Ensembles of Regression and Classification treeS
+Home-page: https://github.com/systemallica/mercs
+License: MIT
+Author: Andrés Reverón Molina
+Author-email: andres@reveronmolina.me
+Requires-Python: >=3.8.0,<4.0.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: catboost (>=0.24,<0.25)
+Requires-Dist: dask[delayed] (>=2.23.0,<3.0.0)
+Requires-Dist: decision-tree-morfist (>=0.3.3,<0.4.0)
+Requires-Dist: ipython (>=7.17.0,<8.0.0)
+Requires-Dist: joblib (>=0.16.0,<0.17.0)
+Requires-Dist: lightgbm (>=2.3.1,<3.0.0)
+Requires-Dist: networkx (>=2.4,<3.0)
+Requires-Dist: numpy (>=1.19.1,<2.0.0)
+Requires-Dist: pydot (>=1.4.1,<2.0.0)
+Requires-Dist: scikit-learn (>=0.23.2,<0.24.0)
+Requires-Dist: shap (>=0.35.0,<0.36.0)
+Project-URL: Repository, https://github.com/systemallica/mercs
+Description-Content-Type: text/markdown
+
+# MERCS
+
+MERCS stands for **multi-directional ensembles of classification and regression trees**. It is a novel ML-paradigm under active development at the [DTAI-lab at KU Leuven](https://dtai.cs.kuleuven.be/).
+
+## Installation
+
+Easy via pip:
+
+```
+pip install mercs-mixed
+```
+
+## Website
+
+Cf. [https://systemallica.github.io/mercs/](https://systemallica.github.io/mercs/)
+
+## Tutorials
+
+Cf. the quickstart section of the website, [https://systemallica.github.io/mercs/quickstart](https://systemallica.github.io/mercs/quickstart).
+
+## Code
+
+MERCS is fully open-source cf. our [github-repository](https://github.com/systemallica/mercs/)
+
+## Publications
+
+MERCS is an active research project, hence we periodically publish our findings;
+
+### MERCS: Multi-Directional Ensembles of Regression and Classification Trees
+
+**Abstract**
+*Learning a function f(X) that predicts Y from X is the archetypal Machine Learning (ML) problem. Typically, both sets of attributes (i.e., X,Y) have to be known before a model can be trained. When this is not the case, or when functions f(X) that predict Y from X are needed for varying X and Y, this may introduce significant overhead (separate learning runs for each function). In this paper, we explore the possibility of omitting the specification of X and Y at training time altogether, by learning a multi-directional, or versatile model, which will allow prediction of any Y from any X. Specifically, we introduce a decision tree-based paradigm that generalizes the well-known Random Forests approach to allow for multi-directionality. The result of these efforts is a novel method called MERCS: Multi-directional Ensembles of Regression and Classification treeS. Experiments show the viability of the approach.*
+
+**Authors**
+Elia Van Wolputte, Evgeniya Korneva, Hendrik Blockeel
+
+**Open Access**
+A pdf version can be found at [AAAI-publications](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/viewFile/16875/16735)
+
+## People
+
+People involved in this project:
+
+* [Elia Van Wolputte](https://eliavw.github.io/)
+* Evgeniya Korneva
+* [Prof. Hendrik Blockeel](https://people.cs.kuleuven.be/~hendrik.blockeel/)
+* [Andrés Reverón Molina](https://andres.reveronmolina.me)
+
