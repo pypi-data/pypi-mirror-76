@@ -1,0 +1,3 @@
+[console_scripts]
+load-m3u8 = load_m3u8.__main__:main
+
