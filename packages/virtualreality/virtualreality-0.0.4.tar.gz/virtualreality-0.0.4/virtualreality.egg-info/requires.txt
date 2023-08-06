@@ -1,0 +1,12 @@
+keyboard
+opencv-python
+numpy
+pykalman
+pyserial
+docopt
+pyrr
+scipy
+displayarray
+
+[image]
+imutils
