@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: ennikkai
+Version: 1.2.3
+Summary: எண் மொழிபெயர்ப்பு
+Home-page: https://ennikkai.readthedocs.io
+Author: ஜூலீஎன் ஜான் மலர் (Julien Jean Malard)
+Author-email: julien.malard@mail.mcgill.ca
+License: GNU GPL 3
+Download-URL: https://github.com/julienmalard/ennikkai
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: Tamil
