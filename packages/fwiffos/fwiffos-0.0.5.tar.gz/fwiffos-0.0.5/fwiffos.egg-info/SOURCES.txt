@@ -1,0 +1,12 @@
+README.md
+setup.py
+fwiffos/__init__.py
+fwiffos/arithmetic.py
+fwiffos/core.py
+fwiffos/identity.py
+fwiffos/log.py
+fwiffos/shell.py
+fwiffos.egg-info/PKG-INFO
+fwiffos.egg-info/SOURCES.txt
+fwiffos.egg-info/dependency_links.txt
+fwiffos.egg-info/top_level.txt
