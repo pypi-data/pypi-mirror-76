@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: applied-maths-adi10hero
+Version: 0.0.1
+Summary: Calculates Higher Order Crossings of a signal
+Home-page: https://github.com/ADI10HERO/pyHOC
+Author: Aditya Srivastava
+Author-email: adityasrivastava301199@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pyHOC
+Calculates higher order crossings of a signal, referred from the paper "Discrimination analysis of discontinuous breath sounds using higher-order crossings" authored by  L. J. Hadjileontiadis
+
+
