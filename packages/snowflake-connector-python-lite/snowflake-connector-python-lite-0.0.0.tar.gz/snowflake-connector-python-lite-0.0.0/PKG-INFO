@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: snowflake-connector-python-lite
+Version: 0.0.0
+Summary: Snowflake Connector for python LITE!
+Home-page: UNKNOWN
+Author: Manuel Garrido
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
