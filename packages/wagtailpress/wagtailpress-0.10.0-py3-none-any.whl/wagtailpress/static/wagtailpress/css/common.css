@@ -1,0 +1,32 @@
+.tags {
+    display: flex;
+}
+
+.tags .tags_label {
+    margin-right: 7px;
+}
+
+.tags ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin-top: 0px;
+}
+
+.tags li {
+    margin-right: 5px;
+}
+
+.tag {
+    padding: 3px 5px;
+    border-radius: 7px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+.tag a {
+    color: white;
+    text-decoration: none;
+    margin-left: 3px;
+}

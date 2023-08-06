@@ -1,0 +1,173 @@
+
+/* Basic elements */
+
+.button {
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    padding: 7px;
+    
+}
+
+a.button {
+    text-decoration: none;
+    color: white;
+}
+
+.card {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+}
+
+.card-img-top {
+    border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.cart-footer {
+    padding: 20px;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+/* Index intro */
+
+.index_header .intro {
+    margin-bottom: 50px;
+}
+
+/* Index main part */
+
+.main {
+
+}
+
+.main .index_content {
+
+}
+
+.main aside {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main aside div.tags {
+    display: flex;
+}
+
+.main aside div.tags .tags_label {
+    margin-bottom: 10px;
+}
+
+.main aside div.feeds .feeds_label {
+    margin-bottom: 20px;
+}
+
+.main aside div.feeds .feeds_label a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Articles */
+
+article {
+    margin-bottom: 50px;
+}
+
+/* Articles header and title */
+
+
+article .header_image {
+    margin-bottom: 0px;
+}
+
+article .header_image img {
+    width: 100%;
+    height: auto;
+}
+
+article h3 {
+    
+}
+
+
+/* Articles meta data */
+
+article .meta {
+    display: flex;
+}
+
+article .meta > div {
+    margin-right: 30px
+}
+
+article .authors_list {
+    display: flex;
+}
+
+article .authors_list ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+}
+
+article .authors_list li {
+    margin-left: 5px;;
+}
+
+article .authors_list li:after {
+    content: ",";
+}
+
+/* Articles intro */
+
+article .intro {
+    margin-bottom: 35px;
+}
+
+article .authors_list li:last-of-type:after {
+    content: "";
+}
+
+article .read_more {
+    color: #007bff;
+}
+
+/* Index footer */
+
+.index_footer ul.pagination {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    width: max-content;
+}
+
+.index_footer ul.pagination li.page-item {
+    padding: 7px 10px;
+    border-right: 1px solid rgba(0,0,0,.125);
+}
+
+.index_footer ul.pagination li.page-item:last-of-type {
+    border-right: none;
+}
+
+.index_footer ul.pagination li.page-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.index_footer ul.pagination li.page-item.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.index_footer ul.pagination li.page-item.active a {
+    background-color: #007bff;
+    color: white;
+}

@@ -1,0 +1,15 @@
+.image_text_overlay {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.image_text_overlay img {
+    width: 100%;
+    height: auto;
+}
+
+.image_text_overlay .text_overlay {
+    position: absolute;
+    font-size: 32px;
+}
