@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mw2fcitx
+Version: 0.9.1
+Summary: Build fcitx5 libraries from MediaWiki sites
+Home-page: https://github.com/outloudvi/fcitx5-pinyin-moegirl
+Author: Outvi V
+Author-email: oss@outv.im
+License: Unlicense
+Description: ## mw2fcitx (WIP)
+        
+        It's still not completed, but it's functional actually. See [test_moegirl.py](https://github.com/outloudvi/fcitx5-pinyin-moegirl/blob/v2/tests/test_moegirl.py) for basic usages.
+        
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: Public Domain
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
