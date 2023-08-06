@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: cflow
+Version: 0.1.0
+Summary: A client to submit opm/flow simulations to the cloud
+Home-page: UNKNOWN
+Author: Joakim Hove
+Author-email: joakim.hove@opm-op.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+The cflow project is a client for doing opm/flow simulations on the opm-op flow simulation cluster
+
+
