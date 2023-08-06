@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: ihela-python-client
+Version: 0.0.4
+Summary: A Python high level client for accessing iHela APIs.
+Home-page: https://github.com/ubuviz/ihela-pyhton-client
+Author: UbuViz
+Author-email: info@ubuviz.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/x-rst
+
+iHela Client
+============
+
+This repository provides a Python client for iHela platform.
+
+Get started
+-----------
+
+1. Install the package with ``pip install ihela-python-client``
+2. import the package for using the provided functions to communicate with the iHela API. The `redirect_uri` must be registered with the client created by iHela both for test and production.
+3. Init a bill and redirect the client to the bill url.
+4. Verify after if a bill has been paid.
+
+Visit the github ( https://github.com/ubuviz/ihela-pyhton-client ) page for more details.
+
