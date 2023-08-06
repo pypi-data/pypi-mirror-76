@@ -1,0 +1,9 @@
+README.md
+setup.py
+fproperty/__init__.py
+fproperty/_version.py
+fproperty/api.py
+fproperty.egg-info/PKG-INFO
+fproperty.egg-info/SOURCES.txt
+fproperty.egg-info/dependency_links.txt
+fproperty.egg-info/top_level.txt
