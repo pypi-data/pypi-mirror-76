@@ -1,0 +1,13 @@
+CHANGELOG.md,sha256=FcRivBdOeXLUfPVqo9OIl1aX-QxawBHGYZqfVi4QNgE,452
+LICENSE.txt,sha256=uMBa_GIQfrTKOt5qSy6geDf2tVoSJz7TuL9AMZ6FvQM,578
+README.md,sha256=60YMYlo1Df3XaCM37j4OIfh1OqcJ3GXcP5Ju630hZWM,3213
+typeddfs/__init__.py,sha256=k5b8IM1fPDjwcKzB0oOVWoD2hPQqcu6R-Ux9WqMbRCI,5047
+typeddfs/base_dfs.py,sha256=zLsiXC4qCp2lUXL5gJphN8d_uaA9TWuX20GhRAvWLCs,11631
+typeddfs/example.csv,sha256=7Bb4DOkFhUj9yR9xDxIpOe6Qb78TqS3soZ9ueOqqprc,24
+typeddfs/example.py,sha256=29TbLKhVUtPu5RUagGCV98R-hBabwGfKOz52PFbLglM,732
+typeddfs/typed_dfs.py,sha256=O6fB5sF75CXqiHcXxwZKKInnH8Hn-rBl_76CkYOAS0s,7275
+typeddfs/untyped_dfs.py,sha256=y5Cl74DGFHVQe83QxBVa61RJAP0Ax0gW_nLIcYIcnkk,1604
+typeddfs-0.2.1.dist-info/LICENSE.txt,sha256=uMBa_GIQfrTKOt5qSy6geDf2tVoSJz7TuL9AMZ6FvQM,578
+typeddfs-0.2.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+typeddfs-0.2.1.dist-info/METADATA,sha256=Ap9UdlX7hLmm0-j0oetfiTJTdmexVxmeejWQY2zXuv4,4794
+typeddfs-0.2.1.dist-info/RECORD,,
