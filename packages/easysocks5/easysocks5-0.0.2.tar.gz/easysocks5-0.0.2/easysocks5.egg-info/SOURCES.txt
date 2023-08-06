@@ -1,0 +1,10 @@
+README.md
+setup.py
+easysocks5/__init__.py
+easysocks5/remote.py
+easysocks5/server.py
+easysocks5/socks5.py
+easysocks5.egg-info/PKG-INFO
+easysocks5.egg-info/SOURCES.txt
+easysocks5.egg-info/dependency_links.txt
+easysocks5.egg-info/top_level.txt
