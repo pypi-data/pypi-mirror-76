@@ -1,0 +1,15 @@
+mobilitydb_sqlalchemy/__init__.py,sha256=1NS1gQn6GebUiRJZZgLGAn4ac8DJZgtr0KK05SruUN8,175
+mobilitydb_sqlalchemy/comparator.py,sha256=KLiuiT9rY9FPFqCuxEQ-ZX6jdx0xVKTP3MwsEsqwEew,11689
+mobilitydb_sqlalchemy/types/TBaseGeomPoint.py,sha256=DnlcZ-kkjg1jpU2T0q6L54LD1DPBDt6JKrUbBaWcAiE,2886
+mobilitydb_sqlalchemy/types/TBaseType.py,sha256=2oME8hdLxM579rUUYDCQ_znZrINxUID-Pu5xY-rydV0,2528
+mobilitydb_sqlalchemy/types/TBool.py,sha256=5CO_WWQXWtN1r13MPeH8Mf15m-FrtGaolMa58JKtCsM,646
+mobilitydb_sqlalchemy/types/TFloat.py,sha256=B5mD7qk6guHdoEPMm4zAGcf3HOA1IZLEjRta7a3LL3o,697
+mobilitydb_sqlalchemy/types/TGeogPoint.py,sha256=NDgbraee1JKIld3cBdEk_xjh3NC4zDLTqhOYMf1gl5s,135
+mobilitydb_sqlalchemy/types/TGeomPoint.py,sha256=HIhOdvV6o3VMQK7s-lh_8Jkt6CrILB-XJrPvvUrS6Bs,135
+mobilitydb_sqlalchemy/types/TInt.py,sha256=ONm6SpVlkW8-4K6v6pi_2VGtXhBjaEK4fMWqQ3xLgVo,636
+mobilitydb_sqlalchemy/types/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mobilitydb_sqlalchemy/utils.py,sha256=XNEdrw5Bcc49qC5UqpCO8ohNhkKaramuge9WpwbeJtc,227
+mobilitydb_sqlalchemy-0.3.dist-info/LICENSE.txt,sha256=g6cpflIAs74gWq0K7STFRp1m2vY6FRKq_yCdwZfd6ng,1076
+mobilitydb_sqlalchemy-0.3.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+mobilitydb_sqlalchemy-0.3.dist-info/METADATA,sha256=ccPJTUQ7OZSOPVwgLlW5nUbwFAHTkVSyaRP38stLu_4,6097
+mobilitydb_sqlalchemy-0.3.dist-info/RECORD,,
