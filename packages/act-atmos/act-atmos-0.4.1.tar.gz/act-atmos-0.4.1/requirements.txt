@@ -1,0 +1,15 @@
+# List required packages in this file, one per line.
+cartopy
+pyproj
+pandas
+matplotlib
+numpy
+scipy
+xarray
+astral>=2.2
+dask
+distributed
+pint
+boto3
+requests
+six
