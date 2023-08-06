@@ -1,0 +1,8 @@
+tartiflette_request_sa_session/__init__.py,sha256=-Jxog81_9dhI2APQV4xAffUeVsXEUShGwe0TIJFS118,96
+tartiflette_request_sa_session/database.py,sha256=6hjjAx5iclCtx41v03s41pahrEB85YU87UwmRZ_aQrk,1457
+tartiflette_request_sa_session/request_context_hooks.py,sha256=ywll943sQ6OjVn5QI0oyBdmDVQf_SmR095rAntgsANQ,562
+tartiflette_request_sqlalchemy_session-0.9.0.dist-info/LICENSE,sha256=lxDseyoJ3JyNRlCWAqiJDAFOuwPUgKF69Wtxi6N78w0,1068
+tartiflette_request_sqlalchemy_session-0.9.0.dist-info/METADATA,sha256=10el_QnDAuBd8RPvOMEVL4j3_ewtUpUaJK5WGBWMiBg,3964
+tartiflette_request_sqlalchemy_session-0.9.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tartiflette_request_sqlalchemy_session-0.9.0.dist-info/top_level.txt,sha256=fhF7keh9kmvL9ay5jA7ZyaqC9SMRaSyQ21hPp45SjLU,31
+tartiflette_request_sqlalchemy_session-0.9.0.dist-info/RECORD,,
