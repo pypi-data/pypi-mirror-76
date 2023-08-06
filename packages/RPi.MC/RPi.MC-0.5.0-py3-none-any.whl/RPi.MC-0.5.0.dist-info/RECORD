@@ -1,0 +1,12 @@
+RPi.MC-0.5.0.data/scripts/raspi-mc,sha256=YgMq2MrJLz0WFxV7b2ulUMpTqUXmfbmIMJK5GFPFuBU,390
+raspi_mc/__init__.py,sha256=8jsn2aKYSH01QXXBj1hfcDcp_HoIkyaqluSbgYNa81I,233
+raspi_mc/magnetic_contact.py,sha256=uGTqGZ-rd4mtYBK0YTMtht9jkvt2gGeWfJl1CyfaL8A,1495
+raspi_mc/main.py,sha256=Fg7QWgoSodP_6w_lRM6DTt3pn6ysYQ0SdWgz3AZPQnA,1283
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_all.py,sha256=cc8lnhJL_BdzJqw5aQUclqVBdTHOvoue6ErBcWH7x10,298
+test/test_mc_object.py,sha256=B_8XY62cjbjfhGmKBpO7kWy1N07EEPyICLjcHjMbIaQ,604
+RPi.MC-0.5.0.dist-info/LICENSE,sha256=TvdsYOw0G2DQKjiNkOG_9_mdRnJTZpopgLfu5Nkw7IA,1082
+RPi.MC-0.5.0.dist-info/METADATA,sha256=dCS4p--vSvIkJ3pwtvk-5wWP2tNWlYklxaxAGzCm8k4,4043
+RPi.MC-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+RPi.MC-0.5.0.dist-info/top_level.txt,sha256=VYsQ8hmH_IF0po2OvV7XaKXQG5poJc4M4_7guey7WSc,14
+RPi.MC-0.5.0.dist-info/RECORD,,
