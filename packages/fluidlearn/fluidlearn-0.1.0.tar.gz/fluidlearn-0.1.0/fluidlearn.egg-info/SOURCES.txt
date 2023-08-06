@@ -1,0 +1,11 @@
+README.md
+setup.py
+fluidlearn/__init__.py
+fluidlearn/dataprocess.py
+fluidlearn/fluidlearn.py
+fluidlearn/fluidmodels.py
+fluidlearn/losses.py
+fluidlearn.egg-info/PKG-INFO
+fluidlearn.egg-info/SOURCES.txt
+fluidlearn.egg-info/dependency_links.txt
+fluidlearn.egg-info/top_level.txt
