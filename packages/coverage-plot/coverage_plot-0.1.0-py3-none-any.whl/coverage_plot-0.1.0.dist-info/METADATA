@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: coverage-plot
+Version: 0.1.0
+Summary: Library to plot Python code coverage results
+Home-page: https://github.com/imankulov/coverage-plot
+License: MIT
+Author: Roman Imankulov
+Author-email: roman.imankulov@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: attrs (>=19.3.0,<20.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: pandas (>=1.0.5,<2.0.0)
+Requires-Dist: plotly (>=4.8.2,<5.0.0)
+Requires-Dist: pydriller (>=1.15.2,<2.0.0)
+Project-URL: Repository, https://github.com/imankulov/coverage-plot
+Description-Content-Type: text/markdown
+
+# Coverage Plot
+
+A library and a script to plot Python code coverage results.
+
+## Getting Started
+
+Run the tests for your project with the test coverage, and convert the coverage results to a JSON or XML format. As a result, you shoud find a coverage.json or coverage.xml file in your current working directory.
+
+```
+coverage run pytest
+coverage xml  # or coverage json
+```
+
+Install the package.
+
+```
+pip install coverage-plot
+```
+
+Run the coverage visualization. The script opens the browser with the visualization-results.
+
+```
+coverage-plot coverage.xml
+```
+

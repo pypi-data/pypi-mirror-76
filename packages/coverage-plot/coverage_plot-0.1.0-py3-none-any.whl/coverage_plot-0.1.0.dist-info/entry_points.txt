@@ -1,0 +1,3 @@
+[console_scripts]
+coverage-plot=coverage_plot.cli:coverage_plot
+
