@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: async-doh
+Version: 0.1.0
+Summary: DNS over HTTPS based on aiohttp and async_dns
+Home-page: https://github.com/gera2ld/async-doh
+License: MIT
+Keywords: async,dns,asyncio,doh
+Author: Gerald
+Author-email: gera2ld@live.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: aiohttp (>=3.6.2,<4.0.0)
+Requires-Dist: async_dns (>=1.0.11,<2.0.0)
+Project-URL: Repository, https://github.com/gera2ld/async-doh
+Description-Content-Type: text/markdown
+
+# async-doh
+
+[![PyPI](https://img.shields.io/pypi/v/async-doh.svg)]()
+
+DNS over HTTPS based on aiohttp and [async_dns](https://github.com/gera2ld/async_dns).
+
+## Installation
+
+```sh
+$ pip install async-doh
+```
+
+## Usage
+
+### Client
+
+```py
+import asyncio
+from async_doh.client import query
+
+async def main():
+    result = await query('https://1.1.1.1/dns-query', 'www.google.com', 'A')
+    print('query:', result)
+    result = await query_json('https://1.1.1.1/dns-query', 'www.google.com', 'A')
+    print('query_json:', result)
+
+asyncio.run(main())
+```
+
+### Server
+
+```py
+from aiohttp import web
+from async_doh.server import application
+
+web.run(application)
+```
+
+Now you have `http://localhost:8080/dns-query` as an endpoint.
+
