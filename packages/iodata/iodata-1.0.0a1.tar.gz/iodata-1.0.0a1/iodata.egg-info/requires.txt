@@ -1,0 +1,7 @@
+numpy>=1.0
+cython>=0.24.1
+scipy
+attrs>=19.1.0
+
+[:python_version < "3.7"]
+importlib_resources
