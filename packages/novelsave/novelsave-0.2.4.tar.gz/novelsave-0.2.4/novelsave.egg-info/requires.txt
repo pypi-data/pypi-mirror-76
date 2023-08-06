@@ -1,0 +1,6 @@
+tinydb
+yattag
+tqdm
+ebooklib
+requests
+webnovelbot
