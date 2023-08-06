@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: chosendata
+Version: 1.0.1
+Summary: a data and model tools
+Home-page: http://www.chosen-data.com/
+Author: chosendata
+Author-email: jiuxindata@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: xlrd
+Requires-Dist: xlutils
+
+UNKNOWN
+
+
