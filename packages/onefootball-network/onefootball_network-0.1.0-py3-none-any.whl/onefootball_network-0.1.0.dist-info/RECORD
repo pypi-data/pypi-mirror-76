@@ -1,0 +1,10 @@
+onefootball_network/__init__.py,sha256=Cv5X3033hJ5flYQ4KDkYf-LKTSZ1HCwsYi5FrrOJzHw,267
+onefootball_network/client.py,sha256=5sv6WcxFN0olOUVsVChtTAYjOnhtJIZRJ0LyTjw_7jY,5210
+onefootball_network/models.py,sha256=ty1RbyzDZ8907v27gml2jvUqki7sH4X27JP4q2U5i3A,5635
+tests/__init__.py,sha256=1qA74Xcgo5nYGUC3gjJwQN8mZouj__Da8l47i50FVAA,54
+tests/test_client.py,sha256=6xobNdrKOlAPxBX9HSM64TkzMoP9YL9HkV0931eqbUc,2824
+tests/test_models.py,sha256=JPutsU8hZ2Kg8TnVg5wLwGuLayz6FOg-CT3aSnPeApI,1440
+onefootball_network-0.1.0.dist-info/METADATA,sha256=OxpYwUVd9mxIZAH_PwnoesYQQURVT9ivKSkMgGz0XaI,1316
+onefootball_network-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+onefootball_network-0.1.0.dist-info/top_level.txt,sha256=HyMsi9O0VACpKrs2CAQpPEXCvqK2Z71srY1x4CJ-oyo,26
+onefootball_network-0.1.0.dist-info/RECORD,,
