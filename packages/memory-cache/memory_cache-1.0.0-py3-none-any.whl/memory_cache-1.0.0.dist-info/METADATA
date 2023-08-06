@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: memory-cache
+Version: 1.0.0
+Summary: It is a package that simply stores and uses a cache in memory.
+Home-page: https://github.com/da-huin/memory_cache
+Author: JunYeong Park
+Author-email: dahuin000@gmail.com
+License: MIT
+Download-URL: https://github.com/da-huin/memory_cache/archive/master.zip
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+Please refer to the https://github.com/da-huin/memory_cache
+
+
