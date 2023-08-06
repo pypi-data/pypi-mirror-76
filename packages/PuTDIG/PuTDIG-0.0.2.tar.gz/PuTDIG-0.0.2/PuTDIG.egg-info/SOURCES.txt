@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+PuTDIG.egg-info/PKG-INFO
+PuTDIG.egg-info/SOURCES.txt
+PuTDIG.egg-info/dependency_links.txt
+PuTDIG.egg-info/entry_points.txt
+PuTDIG.egg-info/not-zip-safe
+PuTDIG.egg-info/requires.txt
+PuTDIG.egg-info/top_level.txt
+putdig_server/__init__.py
+putdig_server/server.py
+putdig_server/dist/edit.html
+putdig_server/dist/index.html
+putdig_server/dist/static/edit.js
+putdig_server/dist/static/index.js

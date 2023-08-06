@@ -1,0 +1,3 @@
+[console_scripts]
+putdig = putdig_server.server:main
+
