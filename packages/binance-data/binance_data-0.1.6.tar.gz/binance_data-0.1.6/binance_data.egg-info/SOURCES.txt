@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+binance_data/__init__.py
+binance_data/client.py
+binance_data.egg-info/PKG-INFO
+binance_data.egg-info/SOURCES.txt
+binance_data.egg-info/dependency_links.txt
+binance_data.egg-info/requires.txt
+binance_data.egg-info/top_level.txt
