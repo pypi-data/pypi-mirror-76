@@ -1,0 +1,3 @@
+[console_scripts]
+rtspbrute = rtspbrute.__main__:main
+
