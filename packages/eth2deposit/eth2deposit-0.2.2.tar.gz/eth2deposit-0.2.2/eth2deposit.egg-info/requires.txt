@@ -1,0 +1,5 @@
+click==7.0
+eth-typing==2.2.1
+pycryptodome==3.9.7
+py-ecc==4.0.0
+ssz==0.2.3
