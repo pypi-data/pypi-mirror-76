@@ -1,0 +1,9 @@
+README.md
+setup.py
+VetriPdf.egg-info/PKG-INFO
+VetriPdf.egg-info/SOURCES.txt
+VetriPdf.egg-info/dependency_links.txt
+VetriPdf.egg-info/top_level.txt
+ourpdf/__init__.py
+ourpdf/pdf2image.py
+ourpdf/pdf2text.py
