@@ -1,0 +1,11 @@
+#! /usr/bin/env python3
+
+# SPDX-FileCopyrightText: 2020 Alchemy-Meister
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+from pkg_resources import DistributionNotFound, get_distribution
+
+__author__ = 'Alchemy-Meister'
+__license__ = 'GPL-3.0-or-later'
+__version__ = '0.1.0'
