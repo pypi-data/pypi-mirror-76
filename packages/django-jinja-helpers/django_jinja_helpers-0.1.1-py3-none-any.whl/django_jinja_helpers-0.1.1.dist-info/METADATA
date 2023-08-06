@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: django-jinja-helpers
+Version: 0.1.1
+Summary: Helpers for using django-jinja
+Home-page: https://github.com/enricobarzetti/django_jinja_helpers
+Author: Enrico Barzetti
+Author-email: enricobarzetti@gmail.com
+License: The MIT License
+Keywords: django
+Platform: OS Independent
+Requires-Dist: django (>=2.0)
+Requires-Dist: django-crispy-forms (>=1.7.2)
+Requires-Dist: django-jinja (>=2.5.0)
+Requires-Dist: django-webpack-loader (>=0.7.0)
+
+Django Jinja Helpers
+====================
+
+Helpers for using django-jinja (https://github.com/niwinz/django-jinja) with
+
+- django-crisp-forms
+- django-webpack-loader
+
+Installation
+------------
+
+To get the latest stable release from PyPi
+
+.. code-block:: bash
+
+    pip install django_jinja_helpers
+
+Install the app
+
+.. code-block:: python
+
+    INSTALLED_APPS = (
+        ...,
+        'django_jinja_helpers',
+    )
+
+Usage
+-----
+
+Call ``render_bundle()`` in your template
+
+.. code-block:: html
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        {{ render_bundle('styles', 'css') }}
+      </head>
+
+      <body>
+      </body>
+    </html>
+
+Call ``crispy()`` in your template
+
+.. code-block:: html
+
+    <div class="container">
+      {{ crispy(form) }}
+    </div>
+
+
