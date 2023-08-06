@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: forismatic
+Version: 0.1.1
+Summary: A simple API wrapper for the forismatic.com API.
+Home-page: https://github.com/ihumanbeing/forismatic.py
+Author: Adam Baird
+Author-email: adamjohnbaird321@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/forismatic.py/
+Keywords: Forismatic,ForismaticPy,Forismatic.py
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+A simple API wrapper for the forismatic.com API.
+
+# Installation
+
+## Install with Pip (Recommended)
+
+```bash
+pip install forismatic.py
+```
+
+## Install from source 
+
+```bash
+git clone https://github.com/ihumanbeing/forismatic.py.git
+cd forismatic.py
+python setup.py install
+```
+
+# Updates
+
+## 0.1.1
+Fix problem preventing the module from being installed
+
