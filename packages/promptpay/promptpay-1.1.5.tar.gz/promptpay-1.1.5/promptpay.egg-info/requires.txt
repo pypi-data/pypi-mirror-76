@@ -1,0 +1,3 @@
+qrcode
+crc16
+Pillow
