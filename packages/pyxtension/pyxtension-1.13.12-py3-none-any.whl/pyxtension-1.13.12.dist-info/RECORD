@@ -1,0 +1,10 @@
+pyxtension/Json.py,sha256=vgyu7XTVI1a36k42jLo2zCmFxij9nEZVtNOlSsgrj5U,15371
+pyxtension/__init__.py,sha256=6r6vK28AV44jKL8pHhkdGchN8Z5q8IBG_Y2EVWgDKiU,691
+pyxtension/fileutils.py,sha256=-3OsxWBSU_gQt7x8N9dLjDqWRYsyt63AR_YK4tYPolM,11404
+pyxtension/racelib.py,sha256=vjKTMeraC1E_PUy7NcHqWhxAKY_5y_fxz6_57LDR7hk,2250
+pyxtension/streams.py,sha256=298SMFkXa04Iejt29Jm87Ln40BxJMg6Zgik0OFuVxfk,54172
+pyxtension-1.13.12.dist-info/LICENSE,sha256=qz_jTTxi4zSAFaTdASiwml2iAk0UZ6R4MRADNzwYo_A,18387
+pyxtension-1.13.12.dist-info/METADATA,sha256=QIpILFvbpoDGUvyCZmbiUyUBGosZPyRmuK9u3cH9UgU,15798
+pyxtension-1.13.12.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pyxtension-1.13.12.dist-info/top_level.txt,sha256=wEW423Tnz4ikjYol7udkFtAXi7Kmns-TPB74OJ0m6gY,11
+pyxtension-1.13.12.dist-info/RECORD,,
