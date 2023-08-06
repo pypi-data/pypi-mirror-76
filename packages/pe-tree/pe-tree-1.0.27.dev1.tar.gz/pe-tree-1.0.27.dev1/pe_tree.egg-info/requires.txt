@@ -1,0 +1,8 @@
+pefile
+requests
+cryptography
+configparser
+asn1crypto
+scandir
+pyqt5
+capstone

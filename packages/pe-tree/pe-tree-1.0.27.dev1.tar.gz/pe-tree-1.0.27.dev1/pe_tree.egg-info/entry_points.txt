@@ -1,0 +1,3 @@
+[console_scripts]
+pe-tree = pe_tree.__main__:main
+
