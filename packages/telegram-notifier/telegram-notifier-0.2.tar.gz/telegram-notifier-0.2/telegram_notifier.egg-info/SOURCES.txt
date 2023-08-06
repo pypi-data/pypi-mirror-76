@@ -1,0 +1,10 @@
+README.md
+setup.py
+telegram_notifier/__init__.py
+telegram_notifier/telegram_notifier.py
+telegram_notifier.egg-info/PKG-INFO
+telegram_notifier.egg-info/SOURCES.txt
+telegram_notifier.egg-info/dependency_links.txt
+telegram_notifier.egg-info/not-zip-safe
+telegram_notifier.egg-info/requires.txt
+telegram_notifier.egg-info/top_level.txt
