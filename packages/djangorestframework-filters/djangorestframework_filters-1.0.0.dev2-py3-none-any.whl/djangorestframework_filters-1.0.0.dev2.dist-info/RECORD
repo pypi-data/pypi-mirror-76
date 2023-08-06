@@ -1,0 +1,15 @@
+rest_framework_filters/__init__.py,sha256=disOhl02_AIpD1pG-J7tUKW5D84ab5GQAw8rdN4SzjI,72
+rest_framework_filters/backends.py,sha256=ijn0ET8z81wGw-RI80uTdXy7K-50Dm_uYbv9PdHtDcI,3497
+rest_framework_filters/complex_ops.py,sha256=PifppUsTD51gqo6Kic1tkDmLALitaVlioGR5Ex8z3p8,3569
+rest_framework_filters/filters.py,sha256=L6rz4VSFRUUSnbHnOIffSKBJj4WLZfG7X9ZxQn-bXXE,5802
+rest_framework_filters/filterset.py,sha256=eHy7LdW1q1cVypueB1S3KYCBmwzFn2Tj0A17bH9EaEo,14719
+rest_framework_filters/utils.py,sha256=WysXsQfIVKZOkk4MckcaSZex0L_hP5NISm5uSnzl-cg,2210
+rest_framework_filters/templates/rest_framework_filters/crispy_form.html,sha256=npspRrShWfwuzCYBqQsLo8h14W2Y7ITknsY7ciYrB4k,457
+rest_framework_filters/templates/rest_framework_filters/form.html,sha256=7DJ-EHmJI8dOwRWBgkH3m1H6b-QwR82MccLG08rzQps,461
+rest_framework_filters/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_framework_filters/templatetags/rest_framework_filters.py,sha256=LtuP6qy1erRRgoYzK00cJuqvjulCeLVZqFATRXOEluc,183
+djangorestframework_filters-1.0.0.dev2.dist-info/LICENSE,sha256=1aRT8OdsgvftHj1vTzsXhpjPow0Qeh85hDMtqLUhrB0,1141
+djangorestframework_filters-1.0.0.dev2.dist-info/METADATA,sha256=WvtunWCgTEjYdFtkdmG09wJrixuOKzL9ttnXnORVuTE,24620
+djangorestframework_filters-1.0.0.dev2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+djangorestframework_filters-1.0.0.dev2.dist-info/top_level.txt,sha256=_wL2tpfKzianQVKNJLRGr1Mus6aCfQ_wdVUnlBf4BfA,23
+djangorestframework_filters-1.0.0.dev2.dist-info/RECORD,,
