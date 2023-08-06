@@ -1,0 +1,13 @@
+fastapi_caching/__init__.py,sha256=usw3f7JhErcXPKum2_pOU730wKyKAllgXkbAh_oe4Ww,94
+fastapi_caching/backends.py,sha256=kqXqQgrGenmNDP6NOiKvkDoHJGsNBk0dNK5G-CqbyNk,7804
+fastapi_caching/constants.py,sha256=W5cgHakx0uwSPpxzShZIOoDqigQizwmeXn0bHFTId04,41
+fastapi_caching/dependencies.py,sha256=2oLUnJMs-GBKX33Tto6-Q81VD2tNrXxS4vmcjHTJJIg,1719
+fastapi_caching/hashers.py,sha256=XYObq5GBAgJLN-CPBxOf8GQf7kTDmS2Q_E6pFWAg2fU,2056
+fastapi_caching/manager.py,sha256=JbfMlO7rK6x01PJoMm33Nvn4hacKCZ00Fwm01gnAk5o,1198
+fastapi_caching/objects.py,sha256=ZU7l2V6IPTEBxZVrWZXunBwhtGXBSqfESJVA9X1n7iA,2345
+fastapi_caching/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_caching/raw.py,sha256=yMM2cRhRCtslzNOaAw38h2P1BQwZu6d6E_gJzPNQ7oU,320
+fastapi_caching-0.1.0.dist-info/METADATA,sha256=6U-jY-ur1cDFNsHSGLyoHlo_yzgmUvGg01HHm9Wn5V0,2425
+fastapi_caching-0.1.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+fastapi_caching-0.1.0.dist-info/top_level.txt,sha256=zjz4TNlwGj_Ao_FbCklfv8hKu8Y_08tHNeddFcai82U,16
+fastapi_caching-0.1.0.dist-info/RECORD,,
