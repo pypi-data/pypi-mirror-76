@@ -1,0 +1,13 @@
+vrcpy/__init__.py,sha256=ruS2gF-uZgoWTla_qPUuan6sbXshJsarKj32qHx6pdQ,163
+vrcpy/_hardtyping.py,sha256=M3HkyCS85tLgXxn29IKDhk0X_k3xZzv2Y0GWEqVseN4,122
+vrcpy/aobjects.py,sha256=bPmxehcEvRGV-qUtbB_1aurvvqlm1d-qTRW_L1i7IYI,7564
+vrcpy/client.py,sha256=CWuqwK61S04cGFnVih5tqQtoDd28hQ7E6WrQyKqIJAk,19753
+vrcpy/errors.py,sha256=5SltsTipzpyZak4qeeBSspRqxLzKKHVaq5hrJniz34Y,1307
+vrcpy/objects.py,sha256=GT3akJpxGJQifTXWccGWAaV32dJ4iUSdvQAgwlTCo-0,16322
+vrcpy/request.py,sha256=lSLVqE5cPVJI8hwGW2tjWvyDQhCJCdiRqeHHLTqK3cc,9196
+vrcpy/types.py,sha256=lNDB3--pTPGE9Bm4Tojbc9UJUpoKqE1qk7P9rpaH9Qc,1680
+vrcpy/wss.py,sha256=2ytir3i5S71ouhv-fgwixbS9xNdJJxRNPoePLOWVt4A,8796
+vrcpy-0.7.6.dist-info/METADATA,sha256=WiE0FHpN_vrPLAmzR2gnXUad3jpC6kZIVzTKlS-0OgM,1447
+vrcpy-0.7.6.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+vrcpy-0.7.6.dist-info/top_level.txt,sha256=nvdZvyPacg4Y-URJjcRPaAo-RNF6X2uyeNzgnBZK3NA,6
+vrcpy-0.7.6.dist-info/RECORD,,
