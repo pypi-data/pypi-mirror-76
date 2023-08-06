@@ -1,0 +1,12 @@
+pgesmd_self_access/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgesmd_self_access/api.py,sha256=uN7y4FGqVfrDamOo1dnS2TM_Q6Aj2-DUU5vOfmwoNIg,16565
+pgesmd_self_access/helpers.py,sha256=eCKfYvCyj7x15BmkrmDEPtr3y9aBHI2TkJzW0YA_kPU,6242
+pgesmd_self_access/pgesmd.py,sha256=10EuOeu51LxhOIcBXYoVbXlBST17al3fcupNsi5_Z_E,1596
+pgesmd_self_access/server.py,sha256=pEXjA9U6hU7hgrlu9J59lkp793Pws3zOVUW8tEK7YOE,2715
+pgesmd_self_access/test_api.py,sha256=SIahqObb-RZQF0dte2v41DA9eZ_2ifVYhNCkRMAf8lo,2754
+pgesmd_self_access/test_helpers.py,sha256=6spA3wcUZPCKdoO1BrUXA-xMbWq81U3BE03D2wN89Gk,2727
+pgesmd_self_access-0.0.6.dist-info/LICENSE,sha256=SDM9Kf0OECEAZnonUOMumB7M_Mfz0428mENRGy77Hrk,1075
+pgesmd_self_access-0.0.6.dist-info/METADATA,sha256=IRY6UxTh-mLfEC2h4RDepG3g3RFCi_fJ2TZ201VImB8,3417
+pgesmd_self_access-0.0.6.dist-info/WHEEL,sha256=YNlcxLoRZfMqjEfLMA4_N5GPCL0Yw1E8c7zrDjEU0Bk,92
+pgesmd_self_access-0.0.6.dist-info/top_level.txt,sha256=RflJuyRWrFNYtpzQOVlaIwo1k69puxYKADOIz5C3Lx0,19
+pgesmd_self_access-0.0.6.dist-info/RECORD,,
