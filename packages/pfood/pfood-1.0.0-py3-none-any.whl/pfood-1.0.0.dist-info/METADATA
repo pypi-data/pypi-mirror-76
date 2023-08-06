@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pfood
+Version: 1.0.0
+Summary: Persian Food suggestion cli program
+Home-page: https://github.com/SamadiPour/pfood-package
+Author: SamadiPour
+Author-email: samadipoor2@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Description-Content-Type: text/markdown
+
+# غذاها
+این ریپازیتوری پاسخی برای سؤال چی درست کنم است
+
+

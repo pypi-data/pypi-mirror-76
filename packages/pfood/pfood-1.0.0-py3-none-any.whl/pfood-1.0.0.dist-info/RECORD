@@ -1,0 +1,11 @@
+list.txt,sha256=gvVEqvimoDzWv29LQHCsG3dJr-ZBZ7fxZMqK-jrtemA,2343
+pfood/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pfood/__main__.py,sha256=icAD7S05-dxvk3Gew1B6whQ1G__wH_Sv45MWNtKfgoA,1017
+pfood/meta.py,sha256=_dwjAuHrMAyyiWvELVZV-zR5WeCfHSEFZhJzJSgiCpI,199
+pfood/pfood_main.py,sha256=ly7LsZfgNXzOWMHt3iu_U0-gk2xqUiVnnShsRz7Vj8k,609
+pfood-1.0.0.dist-info/LICENSE,sha256=td8iu96ORClwdNrIfwXmNuTLn2DRrwF-fTC5TMqzXco,1068
+pfood-1.0.0.dist-info/METADATA,sha256=OV7rsvPh_3axIpRn05FBR6K_bv4rQeZsNjopMl1caKs,561
+pfood-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pfood-1.0.0.dist-info/entry_points.txt,sha256=Ffy6zRoz4oDDAmT8NsTbMogBteu1rgQmtI0YTD0aqmU,47
+pfood-1.0.0.dist-info/top_level.txt,sha256=n0InMrrbIWC6SobMzsWecIz2Bk_spea4kXdXlkwt_bc,6
+pfood-1.0.0.dist-info/RECORD,,

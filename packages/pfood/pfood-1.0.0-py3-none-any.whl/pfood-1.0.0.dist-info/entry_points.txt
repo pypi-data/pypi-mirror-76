@@ -1,0 +1,3 @@
+[console_scripts]
+pfood = pfood.__main__:main
+
