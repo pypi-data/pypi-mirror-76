@@ -1,0 +1,176 @@
+- job:
+    name: ironic-python-agent-build-image-base
+    parent: publish-openstack-artifacts
+    pre-run: playbooks/ironic-python-agent-build-image/pre.yaml
+    run: playbooks/ironic-python-agent-build-image/run.yaml
+    post-run: playbooks/ironic-python-agent-build-image/post.yaml
+    timeout: 1800
+    required-projects:
+      - openstack/requirements
+      - openstack/ironic-python-agent
+      - openstack/ironic-python-agent-builder
+    vars:
+      ipa_raw_dir: '{{ ansible_user_dir }}/src/opendev.org/openstack/ironic-python-agent/UPLOAD_RAW'
+      ipa_tar_dir: '{{ ansible_user_dir }}/src/opendev.org/openstack/ironic-python-agent/UPLOAD_TAR'
+
+- job:
+    name: ironic-python-agent-build-image-tinyipa
+    parent: ironic-python-agent-build-image-base
+    nodeset: ubuntu-focal
+    vars:
+      image_type: 'tinyipa'
+
+- job:
+    name: ironic-python-agent-build-image-dib-centos7
+    parent: ironic-python-agent-build-image-base
+    override-branch: stable/train
+    required-projects:
+      - openstack/diskimage-builder
+    vars:
+      image_type: 'dib'
+      image_distro: 'centos7'
+
+- job:
+    name: ironic-python-agent-build-image-dib-centos8
+    parent: ironic-python-agent-build-image-base
+    required-projects:
+      - openstack/diskimage-builder
+    vars:
+      image_type: 'dib'
+      image_distro: 'centos-minimal'
+      image_release: 8
+
+- job:
+    name: ironic-python-agent-check-image-base
+    parent: base
+    pre-run: playbooks/ironic-python-agent-build-image/pre.yaml
+    run: playbooks/ironic-python-agent-build-image/run.yaml
+    timeout: 1800
+    required-projects:
+      - openstack/requirements
+      - openstack/ironic-python-agent
+      - openstack/ironic-python-agent-builder
+    irrelevant-files:
+      - ^.*\.rst$
+      - ^doc/.*$
+      - ^releasenotes/.*$
+      - ^setup.cfg$
+      - ^test-requirements.txt$
+      - ^tools/.*$
+      - ^tox.ini$
+    vars:
+      ipa_raw_dir: '{{ ansible_user_dir }}/src/opendev.org/openstack/ironic-python-agent/UPLOAD_RAW'
+      ipa_tar_dir: '{{ ansible_user_dir }}/src/opendev.org/openstack/ironic-python-agent/UPLOAD_TAR'
+
+- job:
+    name: ironic-python-agent-check-image-tinyipa
+    parent: ironic-python-agent-check-image-base
+    nodeset: ubuntu-focal
+    vars:
+      image_type: 'tinyipa'
+
+- job:
+    name: ironic-python-agent-check-image-dib-centos7
+    parent: ironic-python-agent-check-image-base
+    override-branch: stable/train
+    required-projects:
+      - openstack/diskimage-builder
+    vars:
+      image_type: 'dib'
+      image_distro: 'centos7'
+
+- job:
+    name: ironic-python-agent-check-image-dib-centos7-python3
+    parent: ironic-python-agent-check-image-base
+    required-projects:
+      - openstack/diskimage-builder
+    vars:
+      image_type: 'dib'
+      image_distro: 'centos7'
+
+- job:
+    name: ironic-python-agent-check-image-dib-centos8
+    parent: ironic-python-agent-check-image-base
+    required-projects:
+      - openstack/diskimage-builder
+    vars:
+      image_type: 'dib'
+      image_distro: 'centos-minimal'
+      image_release: 8
+
+- job:
+    name: ironic-python-agent-check-image-dib-fedora
+    parent: ironic-python-agent-check-image-base
+    required-projects:
+      - openstack/diskimage-builder
+    vars:
+      image_type: 'dib'
+      image_distro: 'fedora'
+
+- job:
+    name: ironic-python-agent-check-image-dib-debian
+    parent: ironic-python-agent-check-image-base
+    required-projects:
+      - openstack/diskimage-builder
+    vars:
+      image_type: 'dib'
+      image_distro: 'debian'
+
+- job:
+    name: ironic-python-agent-check-image-dib-ubuntu
+    parent: ironic-python-agent-check-image-base
+    required-projects:
+      - openstack/diskimage-builder
+    vars:
+      image_type: 'dib'
+      image_distro: 'ubuntu'
+
+- project:
+    templates:
+      - publish-openstack-docs-pti
+      - check-requirements
+      - release-notes-jobs-python3
+    check:
+      jobs:
+        - openstack-tox-pep8
+        - ironic-standalone-ipa-src
+        - ipa-tempest-partition-bios-ipmi-direct-tinyipa-src
+        - ipa-tempest-partition-bios-ipmi-iscsi-tinyipa-src
+        - ipa-tempest-wholedisk-bios-ipmi-direct-tinyipa-src
+        - ipa-tempest-wholedisk-bios-ipmi-iscsi-tinyipa-src
+        - ironic-python-agent-check-image-tinyipa
+        - ironic-python-agent-check-image-dib-centos8
+        - ironic-python-agent-check-image-dib-centos7
+        # Non-voting jobs
+        - ironic-python-agent-check-image-dib-centos7-python3:
+            voting: false
+        - ironic-python-agent-check-image-dib-fedora:
+            voting: false
+        - ironic-python-agent-check-image-dib-debian:
+            voting: false
+        - ironic-python-agent-check-image-dib-ubuntu:
+            voting: false
+        - ipa-tempest-wholedisk-bios-ipmi-direct-dib-src:
+            voting: false
+        - ipa-tempest-partition-bios-ipmi-iscsi-dib-src:
+            voting: false
+        - ipa-tempest-ironic-inspector-src:
+            voting: false
+        - tripleo-buildimage-ironic-python-agent-centos-8:
+            voting: false
+    gate:
+      jobs:
+        - openstack-tox-pep8
+        - ironic-standalone-ipa-src
+        - ipa-tempest-partition-bios-ipmi-direct-tinyipa-src
+        - ipa-tempest-partition-bios-ipmi-iscsi-tinyipa-src
+        - ipa-tempest-wholedisk-bios-ipmi-direct-tinyipa-src
+        - ipa-tempest-wholedisk-bios-ipmi-iscsi-tinyipa-src
+        - ironic-python-agent-check-image-tinyipa
+        - ironic-python-agent-check-image-dib-centos8
+        - ironic-python-agent-check-image-dib-centos7
+    post:
+      jobs:
+        - publish-openstack-python-branch-tarball
+        - ironic-python-agent-build-image-tinyipa
+        - ironic-python-agent-build-image-dib-centos8
