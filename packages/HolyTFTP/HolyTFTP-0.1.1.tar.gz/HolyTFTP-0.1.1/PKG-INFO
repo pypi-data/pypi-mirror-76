@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: HolyTFTP
+Version: 0.1.1
+Summary: A TFTP server with GUI
+Home-page: https://github.com/zengfanfan/HolyTFTP
+Author: Zeng Fanfan
+Author-email: zengfanfan2019@gmail.com
+License: LGPLv3.0
+Description: UNKNOWN
+Keywords: HolyTFTP,holy,tftp,server
+Platform: UNKNOWN
+Requires-Python: >=3.5
