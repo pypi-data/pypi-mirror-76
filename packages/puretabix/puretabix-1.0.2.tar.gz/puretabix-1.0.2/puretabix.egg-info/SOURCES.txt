@@ -1,0 +1,8 @@
+README.md
+setup.py
+puretabix/__init__.py
+puretabix.egg-info/PKG-INFO
+puretabix.egg-info/SOURCES.txt
+puretabix.egg-info/dependency_links.txt
+puretabix.egg-info/requires.txt
+puretabix.egg-info/top_level.txt
