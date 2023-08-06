@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: tiktok-bot
+Version: 0.6.4
+Summary: Tik Tok API
+Home-page: https://github.com/sudoguy/tiktok_bot/
+License: MIT
+Keywords: tiktok,bot,api,wrapper,tiktokbot
+Author: Evgeny Kemerov
+Author-email: eskemerov@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: httpx (>=0.7.4,<0.8.0)
+Requires-Dist: loguru (>=0.3.2,<0.4.0)
+Requires-Dist: pydantic (>=0.32.2,<0.33.0)
+Requires-Dist: tqdm (>=4.38.0,<5.0.0)
+Requires-Dist: typing-extensions (>=3.7.4,<4.0.0)
+Project-URL: Repository, https://github.com/sudoguy/tiktok_bot/
+Description-Content-Type: text/markdown
+
+# This project is no longer under development.
+# A NEW project is being developed here: [sudoguy/tiktokpy](https://github.com/sudoguy/tiktokpy/)
+
+---
+
+<h1 align="center" style="font-size: 3rem;">
+tiktok-bot
+</h1>
+<p align="center">
+ <em>The most intelligent TikTok bot for Python.</em></p>
+
+<p align="center">
+<a href="https://travis-ci.org/sudoguy/tiktok_bot">
+    <img src="https://travis-ci.org/sudoguy/tiktok_bot.svg?branch=master" alt="Build Status">
+</a>
+<a href="https://pepy.tech/project/tiktok-bot">
+    <img src="https://pepy.tech/badge/tiktok-bot" alt="Downloads">
+</a>
+<a href="https://pypi.org/project/tiktok-bot/">
+    <img src="https://badge.fury.io/py/tiktok-bot.svg" alt="Package version">
+</a>
+</p>
+
+
+**Note**: *This project should be considered as an **"alpha"** release.*
+
+---
+
+## Quickstart
+
+```python
+from tiktok_bot import TikTokBot
+
+bot = TikTokBot()
+
+# getting your feed (list of posts)
+my_feed = bot.list_for_you_feed(count=25)
+
+popular_posts = [post for post in my_feed if post.statistics.play_count > 1_000_000]
+
+# extract video urls without watermark (every post has helpers)
+urls = [post.video_url_without_watermark for post in popular_posts]
+
+# searching videos by hashtag name
+posts = bot.search_posts_by_hashtag("cat", count=50)
+```
+
+## Installation
+
+Install with pip:
+
+```shell
+pip install tiktok-bot
+```
+
+tiktok-bot requires Python 3.6+
+
