@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+simple_slack_bot/__init__.py
+simple_slack_bot/simple_slack_bot.py
+simple_slack_bot/slack_request.py
+simple_slack_bot.egg-info/PKG-INFO
+simple_slack_bot.egg-info/SOURCES.txt
+simple_slack_bot.egg-info/dependency_links.txt
+simple_slack_bot.egg-info/requires.txt
+simple_slack_bot.egg-info/top_level.txt

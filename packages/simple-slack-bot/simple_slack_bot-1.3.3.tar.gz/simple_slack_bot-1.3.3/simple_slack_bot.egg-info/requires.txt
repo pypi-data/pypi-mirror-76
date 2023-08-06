@@ -1,0 +1,4 @@
+pyyaml
+slacker==0.14.0
+slacksocket!=0.8,<=0.9,>=0.7
+websocket-client==0.48
