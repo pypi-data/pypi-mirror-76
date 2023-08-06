@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: wterm
+Version: 0.0.3
+Summary: Lightweight terminal colors and logging interface
+Home-page: https://github.com/Spriithy/wterm/
+Author: Spriithy
+License: gpl-3.0
+Keywords: terminal,console,logging,colors
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# wterm
+
+Lightweight terminal colors and logging interface.
+
+
