@@ -1,0 +1,14 @@
+pmlb/__init__.py,sha256=2VS7He6V2YQ11tlS8tuUNxH59GGVwRPft2ffHWoXN8g,1484
+pmlb/_version.py,sha256=v9SU3Mu4QIqmWA9QbUWt0DkmE0asCh4UhZaMtwSyfeY,1322
+pmlb/dataset_lists.py,sha256=tsDjOqM_0LqDqymwFI89lwPZn3s3XypTcYK2iZV8WMk,7371
+pmlb/pmlb.py,sha256=o7ryQuBD-bi0slZ5IcO7Kbqbp3zntLLoI1y8Pa0NrHI,6170
+pmlb/profiling.py,sha256=ULsDYqCpO3v16-se80c8EbS47clmXAkXlztiad1l93c,1745
+pmlb/update_dataset_readmes.py,sha256=4b6lNVhQE3m4_9kKmMRFwRC7vw-u1yo6_HQjpsWyF0M,3555
+pmlb/write_datasets_summary.py,sha256=0JvEMlPNNja1qyvrI7qGiwhLQtEc48ngfSIogPwdAE8,3281
+pmlb/write_metadata.py,sha256=8mmEDnmtzohPc4PHXzUgPg1YaA_N3OQVJOfC9DdtCbg,9928
+pmlb-1.0.dist-info/LICENSE,sha256=mNaY6eTXtRyH1HBjwJwHq5OOutgwrrMZM2FGjpMxrwk,1079
+pmlb-1.0.dist-info/METADATA,sha256=rWnU4O0q39ldsGDVdmgsNCLmSukNrebZD43BbpTcXjI,1382
+pmlb-1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+pmlb-1.0.dist-info/top_level.txt,sha256=Frj-tix5ikvox0HSP-Wqr2WkzwJOVOz9SIT-HqmnPGQ,5
+pmlb-1.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pmlb-1.0.dist-info/RECORD,,
