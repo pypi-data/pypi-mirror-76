@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-23 23:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: apps.py:7
+msgid "WagtailPress"
+msgstr ""
+
+#: blocks.py:21
+msgid "Header level"
+msgstr ""
+
+#: blocks.py:24 blocks.py:38
+msgid "Text"
+msgstr ""
+
+#: blocks.py:35
+msgid "Image"
+msgstr ""
+
+#: blocks.py:43
+msgid "Black"
+msgstr ""
+
+#: blocks.py:44
+msgid "White"
+msgstr ""
+
+#: blocks.py:45
+msgid "Red"
+msgstr ""
+
+#: blocks.py:46
+msgid "Blue"
+msgstr ""
+
+#: blocks.py:47
+msgid "Green"
+msgstr ""
+
+#: blocks.py:49
+msgid "Text color"
+msgstr ""
+
+#: blocks.py:55
+msgid "Centered"
+msgstr ""
+
+#: blocks.py:62
+msgid "Top Left"
+msgstr ""
+
+#: blocks.py:69
+msgid "Top Right"
+msgstr ""
+
+#: blocks.py:76
+msgid "Bottom Left"
+msgstr ""
+
+#: blocks.py:83
+msgid "Bottom Right"
+msgstr ""
+
+#: blocks.py:91
+msgid "Image with text overlay"
+msgstr ""
+
+#: blocks.py:97
+msgid "Description"
+msgstr ""
+
+#: blocks.py:100
+msgid "URL"
+msgstr ""
+
+#: blocks.py:119
+msgid "Link"
+msgstr ""
+
+#: models.py:55
+msgid "Publication date"
+msgstr ""
+
+#: models.py:56
+msgid "Only for visitor display"
+msgstr ""
+
+#: models.py:61 templates/wagtailpress/blog_article_page.html:38
+#: templates/wagtailpress/blog_index_page.html:99
+msgid "Tags"
+msgstr ""
+
+#: models.py:64 models.py:152
+msgid "Introduction"
+msgstr ""
+
+#: models.py:71
+msgid "header image"
+msgstr ""
+
+#: models.py:88
+msgid "content"
+msgstr ""
+
+#: models.py:94
+msgid "Authors"
+msgstr ""
+
+#: models.py:99
+msgid "Article informations"
+msgstr ""
+
+#: models.py:106
+msgid "Blog article"
+msgstr ""
+
+#: models.py:107
+msgid "Blog articles"
+msgstr ""
+
+#: models.py:130
+msgid "Person page"
+msgstr ""
+
+#: models.py:138
+msgid "Blog article author"
+msgstr ""
+
+#: models.py:139
+msgid "Blog article authors"
+msgstr ""
+
+#: models.py:161 models.py:162
+msgid "Blog index"
+msgstr ""
+
+#: templates/wagtailpress/blog_article_page.html:27
+#: templates/wagtailpress/blog_index_page.html:67
+msgid "By"
+msgstr ""
+
+#: templates/wagtailpress/blog_article_page.html:49
+#: templates/wagtailpress/blog_index_page.html:110
+msgid "No tags"
+msgstr ""
+
+#: templates/wagtailpress/blog_article_page.html:65
+msgid "About the author(s)"
+msgstr ""
+
+#: templates/wagtailpress/blog_article_page.html:94
+msgid "Return to"
+msgstr ""
+
+#: templates/wagtailpress/blog_index_page.html:22
+msgid "Article corresiponding to tag:"
+msgstr ""
+
+#: templates/wagtailpress/blog_index_page.html:40
+msgid "Latest articles"
+msgstr ""
+
+#: templates/wagtailpress/blog_index_page.html:58
+msgid "Read More"
+msgstr ""
+
+#: templates/wagtailpress/blog_index_page.html:91
+msgid "RSS Feed"
+msgstr ""
+
+#: templates/wagtailpress/blog_index_page.html:92
+msgid "of"
+msgstr ""
+
+#: templates/wagtailpress/blog_index_page.html:125
+msgid "Previous"
+msgstr ""
+
+#: templates/wagtailpress/blog_index_page.html:141
+msgid "Next"
+msgstr ""

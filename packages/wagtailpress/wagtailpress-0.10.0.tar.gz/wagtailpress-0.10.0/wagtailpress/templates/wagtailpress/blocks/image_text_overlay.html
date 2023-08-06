@@ -1,0 +1,11 @@
+{% load wagtailimages_tags %}
+{% load wagtailcore_tags %}
+{% load static from staticfiles %}
+
+<link href="{% static 'wagtailpress/css/blocks/image_text_overlay.css' %}" rel="stylesheet"/>
+<div class="image_text_overlay">
+    <img src="{{ value.image.file.url }}" alt="{{ value.text }}" />
+    <span style="color:{{ value.text_color }}; {{ value.text_position }}" class="text_overlay">{{ value.text }}</span>
+</div>
+
+

@@ -1,0 +1,100 @@
+{% extends "base.html" %}
+
+{% load i18n static wagtailcore_tags wagtailimages_tags %}
+{% load wagtailroutablepage_tags %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'wagtailpress/css/article.css' %}" type="text/css"/>
+    <link rel="stylesheet" href="{% static 'wagtailpress/css/common.css' %}" type="text/css"/>
+{% endblock %}
+
+{% block body_class %}template-blogarticlepage{% endblock %}
+
+{% block content %}
+    <article class="blog">
+
+        <div class="article_header">
+            
+            {% if page.header_image %}
+                <div class="header_image">
+                    {% image page.header_image fill-1024x300 %}
+                </div>
+            {% endif %}
+            <h1>{{ page.title }}</h1>
+            <div class="meta">
+                <div class="date">{{ page.date }}</div>
+                <div class="authors_list">
+                    <div>{% blocktrans %}By{% endblocktrans %}</div>
+                    <ul>
+                        {% for article_author in page.authors.all %}
+                            {% with author=article_author.author %}
+                                <li>{{ author.name }}</li>
+                            {% endwith %}   
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="tags">
+                    <div class="tags_label">
+                        {% blocktrans %}Tags{% endblocktrans %}:
+                    </div>
+                    <ul>
+                        {% for tag in page.tags.all %}
+                            <li>
+                                <a class="tag" href="{% routablepageurl page.index "articles_tagged_as" tag %}">
+                                    {{ tag }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                        {% if not page.tags.all %}
+                            <li>{% blocktrans %}No tags{% endblocktrans %}</li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        
+        <div class="article_content">
+            {% include_block page.content %}
+        </div>
+
+        <div class="article_footer">
+            
+            <div class="authors_details">
+                <h2>
+                    {% blocktrans %}About the author(s){% endblocktrans %}
+                </h2>
+                <ul>
+                    {% for article_author in page.authors.all %}
+                        {% with author=article_author.author %}
+                            <li>
+                                {% if author.picture %}
+                                    <div class="picture">
+                                        {% image author.picture fill-255x255 %}
+                                    </div>
+                                {% endif %}
+                                <div class="details">
+                                    <h3 class="name">
+                                        <a href="{{ author.url }}">{{ author.name }}</a>
+                                    </h3>
+                                    {% if author.intro %}
+                                        <div class="intro">
+                                            {{ author.intro }}
+                                        </div>
+                                    {% endif %}
+                                </div>
+                            </li>
+                        {% endwith %}   
+                    {% endfor %}
+                </ul>
+            </div>
+            
+            <p class="return_link">
+                <a href="{{ page.get_parent.url }}">
+                    {% blocktrans %}Return to{% endblocktrans %} {{ page.get_parent.title }}
+                </a>
+            </p>
+
+        </div>
+    </article>
+{% endblock %}

@@ -1,0 +1,169 @@
+/* Header and title */
+
+article.blog .header_image {
+    margin-bottom: 50px;
+}
+
+article.blog h1 {
+    
+}
+
+
+/* Meta data */
+
+article.blog .meta {
+    border-top: 1px solid #ddd;
+    padding-top: 16px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+article.blog .meta > div {
+    margin-right: 30px
+}
+
+article.blog .authors_list {
+    display: flex;
+}
+
+article.blog .authors_list ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin: 0;
+}
+
+article.blog .authors_list li {
+    margin-left: 5px;;
+}
+
+article.blog .authors_list li:after {
+    content: ",";
+}
+
+article.blog .authors_list li:last-of-type:after {
+    content: "";
+}
+
+/* Article content */
+
+article.blog .article_content {
+    margin-bottom: 50px;
+}
+
+article.blog .article_content .block-paragraph {
+    margin-bottom: 30px;
+}
+
+article.blog .article_content .responsive-object {
+    padding-bottom: 0 !important;
+    padding-top: 20px;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+article.blog .article_content blockquote {
+    word-wrap: break-word;
+    line-height: 140%;
+    padding: 2% 2.5%;
+    background: #eee;
+    border: 1px solid #ddd;
+}
+
+/* Authors details*/
+
+article.blog .authors_details {
+    
+}
+
+article.blog .authors_details ul {
+    list-style: none;
+    min-height: 100px;
+    padding: 30px 25px 30px 20px;
+    background: #26272B;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+article.blog .authors_details li {
+    display: flex;
+}
+
+article.blog .authors_details .picture img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 4px;
+    background: #444;
+}
+
+article.blog .authors_details .details {
+    margin-left: 20px;
+    color: white;
+}
+
+article.blog .authors_details .details h3 {
+    margin-top: 5px;
+}
+
+article.blog .authors_details li {
+    margin-bottom: 30px;
+}
+
+article.blog .authors_details li:last-of-type {
+    margin-bottom: 0;
+}
+
+article.blog .authors_details ul a {
+    color: white;
+    text-decoration: none;
+}
+
+article.blog .authors_details ul a:hover {
+    text-decoration: underline;
+}
+
+
+/* Return link */
+
+article.blog .return_link a {
+    color: black;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+
+@media only screen and (max-width: 750px) {
+
+    article.blog .header_image {
+        margin-bottom: 20px;
+    }
+
+    article.blog .header_image img {
+        width: 100%;
+        height: auto;
+    }
+    
+    article.blog .meta {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    article.blog .meta > div {
+        margin-bottom: 20px;
+    }
+
+    article.blog .content .responsive-object {
+        width: 100%;
+        height: auto;
+    }
+
+    article.blog .content .responsive-object iframe {
+        width: 100%;
+        height: auto;
+    }
+}
