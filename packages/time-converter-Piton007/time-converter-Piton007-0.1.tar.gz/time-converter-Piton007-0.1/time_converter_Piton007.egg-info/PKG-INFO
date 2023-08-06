@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: time-converter-Piton007
+Version: 0.1
+Summary: Time converter
+Home-page: https://github.com/Piton007/time-converter
+Author: Piton007
+Author-email: josemowa45321@gmail.com
+License: UNKNOWN
+Description: # Timer Converter MS
+        This package converts easily various time formats to miliseconds
+        
+        ## Examples
+        ```python
+        calculateMilis("10s") return 10000
+        calculateMilis("1m") return 60000
+        calculateMilis("1h")  return 3600000
+        ```
+        You can run the tests using python __init__.py
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
