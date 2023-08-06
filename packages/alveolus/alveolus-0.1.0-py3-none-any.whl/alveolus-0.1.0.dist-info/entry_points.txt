@@ -1,0 +1,6 @@
+[console_scripts]
+alveolus-build = alveolus.main:build
+alveolus-clean = alveolus.main:clean
+alveolus-cli = alveolus.main:main
+alveolus-create = alveolus.main:create
+
