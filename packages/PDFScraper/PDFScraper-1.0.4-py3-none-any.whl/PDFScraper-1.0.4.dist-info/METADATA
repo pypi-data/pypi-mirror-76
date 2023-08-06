@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: PDFScraper
+Version: 1.0.4
+Summary: PDF text and table search
+Home-page: https://github.com/erikkastelec/PDFScraper
+Author: Erik Kastelec
+Author-email: erikkastelec@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: camelot-py (==0.8.2)
+Requires-Dist: cffi (==1.14.1)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: cryptography (==3.0)
+Requires-Dist: distro (==1.5.0)
+Requires-Dist: et-xmlfile (==1.0.1)
+Requires-Dist: fuzzywuzzy (==0.18.0)
+Requires-Dist: iso-639 (==0.4.5)
+Requires-Dist: jdcal (==1.4.1)
+Requires-Dist: langdetect (==1.0.8)
+Requires-Dist: numpy (==1.19.1)
+Requires-Dist: opencv-python (==4.3.0.36)
+Requires-Dist: openpyxl (==3.0.4)
+Requires-Dist: pandas (==1.1.0)
+Requires-Dist: pdf2image (==1.13.1)
+Requires-Dist: pdfminer-six (==20200726)
+Requires-Dist: pdfminer.six (==20200726)
+Requires-Dist: pillow (==7.2.0)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: pypdf2 (==1.26.0)
+Requires-Dist: pytesseract (==0.3.4)
+Requires-Dist: python-dateutil (==2.8.1)
+Requires-Dist: python-levenshtein (==0.12.0)
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: sortedcontainers (==2.2.2)
+Requires-Dist: tabula-py (==2.1.1)
+Requires-Dist: wand (==0.6.2)
+Requires-Dist: yattag (==1.14.0)
+Requires-Dist: chardet (==3.0.4) ; python_version > "3.0"
+
+# PDFScraper
+CLI program for searching text and tables inside of PDF documents and displaying results in HTML. It combines [Pdfminer.six](https://github.com/pdfminer/pdfminer.six), [Camelot](https://github.com/camelot-dev/camelot) and [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) in a single program, which is simple to use.
+
+# How to install
+### Using pip
+
+After installing the dependencies you can simply use pip to install PDFScraper:
+
+<pre>
+$ pip install PDFScraper
+</pre>
+
+
