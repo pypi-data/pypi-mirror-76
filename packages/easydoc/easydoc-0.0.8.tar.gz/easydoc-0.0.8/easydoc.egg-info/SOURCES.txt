@@ -1,0 +1,13 @@
+README.md
+setup.py
+easydoc/LICENSE
+easydoc/README.md
+easydoc/__init__.py
+easydoc/excel.py
+easydoc/pdf.py
+easydoc/word.py
+easydoc.egg-info/PKG-INFO
+easydoc.egg-info/SOURCES.txt
+easydoc.egg-info/dependency_links.txt
+easydoc.egg-info/requires.txt
+easydoc.egg-info/top_level.txt

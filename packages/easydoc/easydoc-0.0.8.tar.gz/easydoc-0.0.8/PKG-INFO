@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: easydoc
+Version: 0.0.8
+Summary: Make data operation easier!
+Home-page: https://github.com/YouAreOnlyOne
+Author: Frank YCJ
+Author-email: 1320259466@qq.com
+License: Apache 2.0 license
+Project-URL: Bug Tracker, https://github.com/YouAreOnlyOne/FastFrameJar/issues
+Project-URL: Documentation, https://github.com/YouAreOnlyOne/FastFrameJar
+Project-URL: Source Code, https://github.com/YouAreOnlyOne/FastFrameJar
+Description: 
+        easydoc:
+        
+        1. EasyExcel for import and export of excel;
+        
+        2. EasyWord for import and export of word;
+        
+        3. EasyPdf for import and export of pdf;
+        
+        4. obtain fields for models, multithreading for large amounts of data, etc;
+        
+        5. More functions are waiting for you to use.
+        
+        How to use?
+        
+        Please click here.
+        
+        
+        
+        
+        More
+        
+        We are working hard to perfect...
+Keywords: excel word pdf import export
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*
+Description-Content-Type: text/markdown
