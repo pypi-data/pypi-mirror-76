@@ -1,0 +1,6 @@
+[console_scripts]
+apply-multiarch-hints = lintian_brush.multiarch_hints:main
+debianize = lintian_brush.debianize:main
+guess-upstream-metadata = lintian_brush.upstream_metadata.__main__:main
+lintian-brush = lintian_brush.__main__:main
+

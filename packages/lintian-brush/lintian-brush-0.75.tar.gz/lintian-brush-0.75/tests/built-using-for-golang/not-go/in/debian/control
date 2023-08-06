@@ -1,0 +1,8 @@
+Source: blah
+Architecture: any
+
+Package: blah
+Architecture: all
+Built-Using: ${misc:Built-Using}
+Description: blah
+ blah

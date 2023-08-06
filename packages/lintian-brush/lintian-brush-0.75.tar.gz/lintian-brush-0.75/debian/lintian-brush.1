@@ -1,0 +1,72 @@
+.TH LINTIAN-BRUSH "1" "October 2018" "lintian-brush 0.1" "User Commands"
+.SH NAME
+lintian-brush \- automatically fix lintian issues
+.SH SYNOPSIS
+lintian\-brush [\-h] [\-\-no\-update\-changelog] [\-\-version] [\-\-list-fixers] [\-\-list-tags\] [\-\-diff\] [TAGS [TAGS ...]]
+.SH DESCRIPTION
+lintian-brush automatically applies a set of fixes for common lintian issues,
+adds the relevant changelog entries and commits the changes to the local
+version control system.
+.PP
+The tool's philosophy is to fix any issues for which it knows a correct fix,
+and to back off if it does not.
+.IP
+.SS "positional arguments:"
+.TP
+TAGS
+Lintian tag for which to apply fixer.
+.SS "optional arguments:"
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+show this help message and exit
+.TP
+\fB\-\-no\-update\-changelog\fR
+Whether to update the changelog.
+.TP
+\fB\-\-version\fR
+show program's version number and exit
+.TP
+\fB\-\-list\-fixers\fR
+List available fixers.
+.TP
+\fB\-\-list\-tags\fR
+List lintian tags for which fixers are available.
+.TP
+\fB\-\-fixers\-dir\fR DIRECTORY
+Override the fixers directory.
+.TP
+\fB\-\-diff\fR
+After running all fixers, display the changes made as a single unified diff.
+.TP
+\fB\-\-modern\fR
+Use features that require packages that are not yet available in Debian stable.
+.TP
+\fB\-\-identity\fR
+Print the identity (name and e\-mailaddress) that lintian-brush will use when committing changes, and exit.
+.TP
+\fB\-\-disable\-net\-access\fR
+Do not attempt to use the network to e.g. retrieve additional package metadata from hosting sites, or to check whether a homepage is also available over HTTPS.
+.TP
+\fB\-\-dry\-run\fR
+Run fixers but do not actually make changes to the repository. Useful in particular in combination with \-\-diff.
+.IP
+Note that this currently will create a temporary clone of the repository, which may be slow for large repositories.
+.TP
+\fB\-\-verbose\fR
+Print list of fixers that was run and print tracebacks for failed fixers.
+.TP
+\fB\-\-uncertain\fR
+Make changes with lower certain than normal. This will potentially fix more
+issues, but is more likely to get things wrong. If changes with lower certainty were made,
+lintian-brush will let you know in its output.
+.SH EXAMPLES
+.IP "\fB$ lintian-brush\fR --list-tags"
+List all lintian tags for which fixers are available.
+.IP "\fB$ lintian-brush\fR"
+Run all fixers in the current Debian package.
+.SH "SEE ALSO"
+\&\fIlintian-brush.conf\fR\|(5)
+\&\fIapply-multiarch-hints\fR\|(1)
+\&\fIlintian\fR\|(1)
+.SH AUTHORS
+Jelmer Vernooij <jelmer@debian.org>

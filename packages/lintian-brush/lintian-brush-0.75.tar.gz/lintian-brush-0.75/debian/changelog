@@ -1,0 +1,1049 @@
+lintian-brush (0.75) unstable; urgency=medium
+
+  * Fix anongit.kde.org URLs to use https:.
+  * debian-rules-sets-dpkg-architecture-variable: Rather than including
+    /usr/share/dpkg/architecture.mk, change to soft assignment type by
+    default.
+  * Add fixer public-upsteam-key-binary.
+  * Add fixer for upstream-metadata-not-yaml-mapping.
+  * Probe for gitlab URLs.
+  * Only remove overrides if asyncpg is available to contact UDD.
+    fixers/unused-override.py
+  * debian-watch-file-is-missing: Cope with the fact that a python
+    package may not be on pypi.
+  * Avoid inserting extra /git/ when converting savannah Git URLs from
+    http to https.
+  * Scan lowercase readme files as well, when looking for upstream
+    metadata.
+  * package-uses-deprecated-debhelper-compat-version: when
+    './configure' is a directory, don't attempt to scan it.
+  * Stop suggesting cgit.kde.org and anongit.kde.org URLs in
+    debian/upstream/metadata; they've been replaced by invent.kde.org.
+  * Update tag names to match changes in lintian:
+   + Rename no-maintainer-field and package-has-no-description to
+     required-field
+   + Rename no-section-field, no-section-field-for-source and
+     no-priority-field to recommended-field
+   + Rename rules-requires-root-missing to silent-on-rules-requiring-root
+  * Fix handling of multiple targets in Makefile rules.
+  * upstream-metadata-invalid: Fix duplicate fields in
+    debian/upstream/metadata.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 09 Aug 2020 13:39:19 +0000
+
+lintian-brush (0.74) unstable; urgency=medium
+
+  * Fix regression: allow fixers without declared certainty.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 21 Jul 2020 01:02:35 +0000
+
+lintian-brush (0.73) unstable; urgency=medium
+
+  * Fix handling of interrupted lines.
+  * Group arguments in help output.
+  * Add fixer for rules-requires-root-missing. Thanks, Guilhem.
+    Closes: #965934
+  * Add --uncertain option which makes changes with lower certainty.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 21 Jul 2020 00:50:12 +0000
+
+lintian-brush (0.72) unstable; urgency=medium
+
+  * Handle accidental scm: location strings in repository browse tags in
+    pom.xml files.
+  * Add missing dependency on bs4.
+  * Depend on debmutate for most editing functionality.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 17 Jul 2020 01:25:23 +0000
+
+lintian-brush (0.71) unstable; urgency=medium
+
+  * When dropping get-orig-source target, also update .PHONY.
+  * Remove .PHONY when removing a component from it leaves it empty.
+  * Add support for reading upstream metadata from pom.xml.
+  * Convert private VCS URLs to public URLs, e.g. on salsa or GitHub.
+  * maintainer-script-without-set-e: Improve spacing.
+  * uses-debhelper-compat-file: support debhelper dependencies in Build-
+    Depends-Indep or Build-Depends-Arch.
+  * When removing duplicate lines from a changelog, also drop any
+    sections that may be left empty.
+  * Properly update changelog entries without trailer.
+  * When removing debug symbol migration commands, be more aggressive
+    cleaning up commands.
+  * Add Changes-By in commit message. Related to #946801
+  * Add basic fixer for generating copyright files using decopy, not run
+    by default.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 30 Jun 2020 17:34:59 +0000
+
+lintian-brush (0.70) unstable; urgency=medium
+
+  * systemd-service-file-pidfile-refers-to-var-run: Also update other
+    references to pid file.
+  * built-using-field-on-arch-all-package: Only fix for golang packages
+    for now.
+  * Drop use of pkginfo and just use email.message to parse PKG-INFO
+    files.
+  * Add support for retrieving upstream metadata from Cargo.toml.
+  * license-file-listed-in-debian-copyright: Properly remove Files
+    entries with just newlines.
+  * Update to follow renames of tags in lintian 2.80.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 08 Jun 2020 22:43:10 +0000
+
+lintian-brush (0.69) unstable; urgency=medium
+
+  * debian-changelog-line-too-long: Only claim lintian tags were fixed
+    when fixing long lines in the last changelog entry.
+  * Only scan for 'DO NOT EDIT' in the header of control files. Closes:
+    #961601
+  * Fix handling of version increases when the existin version ends in
+    something that is not a digit.
+  * Handle MemoryError from fixers, rather than letting them crash all
+    of lintian-brush. Closes: #961810
+  * Add really basic package-has-no-description fixer. Certainty for
+    this fixer is set to 'possible', so it is not run by default.
+  * Add fixer for no-section-field and no-section-field-for-source.
+  * Add fixer for no-maintainer-field.
+  * Add fixer for no-priority-field.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 31 May 2020 00:23:09 +0000
+
+lintian-brush (0.68) unstable; urgency=medium
+
+  * missing-build-dependency-for-dh_-command: Support checking Build-
+    Depends-Indep and Build-Depends-Arch.
+  * Properly break lines when adding changelog entries.
+  * Improve detection of Gbp-Dch style packages, and output reasoning.
+  * Only remove 'Team Upload.' lines in open changelog entries.
+  * Print out both committer and changelog identity in --identity.
+  * Cache the multi-arch hints in apply-multiarch-hints.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 25 May 2020 21:45:25 +0000
+
+lintian-brush (0.67) unstable; urgency=medium
+
+  * Fix regression when adding a new stanza to an existing changelog
+    entry with a single author and more than one bullet point.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 24 May 2020 22:32:10 +0000
+
+lintian-brush (0.66) unstable; urgency=medium
+
+  * Directly edit debian/changelog rather than calling out to dch:
+   + Allows adding more details in changelog entries.
+   + In apply-multiarch-hints, actually list what changes were made.
+   + Possibly addresses #960853.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 24 May 2020 18:28:35 +0000
+
+lintian-brush (0.65) unstable; urgency=medium
+
+  * Explicitly set vendor when running tests; fixes tests running on
+    Ubuntu. Closes: #960832
+  * Don't just strip whitespace from license paragraphs in copyright-
+    refers-to-symlink-license.
+  * Improve detection of packages that use gbp-dch by also scanning
+    their history for behaviour around gbp dch.
+  * Update standards version to 4.5.0, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 24 May 2020 01:26:26 +0000
+
+lintian-brush (0.64) unstable; urgency=medium
+
+  [ Jelmer Vernooĳ ]
+  * Only check GitHub repository for moved repository info if it is set.
+
+  [ Sandro Knauß ]
+  * Add fixer for license-file-listed-in-debian-copyright.
+
+  [ Jelmer Vernooĳ ]
+  * Read dh commands from the lintian files.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 16 May 2020 14:33:36 +0000
+
+lintian-brush (0.63) unstable; urgency=medium
+
+  * Clean up unnecessary 'dh_missing --fail-missing' when upgrading to
+    debhelper 13. Closes: #959823
+  * Add document start when adding new YAML files. Closes: #958413
+  * Check Debian bugs when correcting Close => Closes.
+  * debian-changelog-file-contains-obsolete-user-emacs-settings: Only
+    remove add-log-mailing-address, not mode lines.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 06 May 2020 20:09:03 +0000
+
+lintian-brush (0.62) unstable; urgency=medium
+
+  [ Jelmer Vernooij ]
+  * Bump maximum debhelper compat version in sid to 13. Closes: #958775
+  * Handle old style freedesktop git URLs with /git/ prefix.
+  * Don't remove name/contact from upstream metadata if different from
+    copyright. Closes: #948948
+  * Extract Git repository URLs from debian/watch in git mode.
+  * Add fixer for uses-deprecated-adttmp.
+  * Downgrade the certainty for some upstream URLs, unless they can be
+    verified in some way.
+
+  [ Niels Thykier ]
+  * Migrate tmpfile to tmpfiles when upgrading to compat 13.
+
+  [ Jelmer Vernooĳ ]
+  * debian-changelog-line-too-long: Be careful about joining lines that
+    aren't too long in entries that do have long lines. Closes: #959496
+  * debian-source-options-has-custom-compression-settings: Don't break
+    on empty debian/source/options files.
+  * Add fixer for binary-control-field-duplicates-source.
+  * Process overrides in unused-license-paragraph-in-dep5-copyright.
+  * debian-rules-uses-unnecessary-dh-argument: Deal with argument
+    negation on the % target.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 05 May 2020 22:16:19 +0000
+
+lintian-brush (0.61) unstable; urgency=medium
+
+  * Fix a bug incorrectly removing used license stanzas with license
+    exceptions in debian/copyright.
+  * Report when the upstream-metadata-missing-repository and upstream-
+    metadata-missing-bug-tracking tags are fixed.
+  * Add fixer for upstream-metadata-in-native-source.
+  * Preserve @cdbs@ in debian/control.in in cdbs packages.
+  * Add support for updating to Standards-Version 4.5.0 in some cases.
+  * Don't create watch files for native packages.
+  * Add support for parsing upstream metadata from cabal files.
+  * Try to identify upstream repositories that have moved.
+    Closes: #955453
+  * debian-watch-file-uses-deprecated-githubredir: Don't remove watch
+    files with just empty comments. Closes: #958678
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 24 Apr 2020 23:04:27 +0000
+
+lintian-brush (0.60) unstable; urgency=medium
+
+  * missing-build-dependency-for-dh_-command: Don't break on empty
+    lines. Closes: #953392
+  * Fix bug in detection of secure versions of Vcs-* URLs. Closes:
+    #954034
+  * Fix a corner case removing items from --with arguments.
+  * In verbose mode, report when the fixer script made changes but they
+    were not high enough certainty.
+  * debian/watch: Strip leading spaces in version > 3.
+  * Add gitlab.labs.nic.cz to list of GitLab hosting sites.
+  * missing-build-dependency-for-dh_-command: Don't add unnecessary
+    build deps.
+  * List git.openstack.org as known hosting site.
+  * Scan debian/rules for hints of upstream repository URL.
+  * Support finding upstream KDE repositories.
+  * Some improvements to creating of watch files from GitHub projects.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 04 Apr 2020 17:11:01 +0000
+
+lintian-brush (0.59) unstable; urgency=medium
+
+  * unused-license-paragraph-in-dep5-copyright: downgrade certainty when
+    license is mentioned elsewhere.
+  * Look for custom patches directory in debian/rules.
+  * Document the --dry-run option in lintian-brush(1). Closes: #953161
+  * lintian-brush.conf.5: Clarify syntax of compat-release, location of
+    file. Closes: #953164
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 07 Mar 2020 14:31:37 +0000
+
+lintian-brush (0.58) unstable; urgency=medium
+
+  * Add override for autotools-pkg-config-macro-not-cross-compilation-
+    safe, which correctly (but intentionally) gets triggered for our
+    test.
+  * Improve handling of long lines in debian/changelog, especially when
+    dealing with subitems.
+  * Ignore rather than print tracebacks when mandatory fields in
+    debian/control are missing.
+  * When generating watch files for pypi, check package details against
+    the API.
+  * Strip related comments when removing options from
+    debian/source/options.
+  * Keep copies of the BSD license inlined, but rename BSD => BSD-3-
+    clause (per the spec).
+  * Don't remove patch files that are present but not mentioned in
+    series unless --opinionated is specified.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 14 Feb 2020 02:35:54 +0000
+
+lintian-brush (0.57) unstable; urgency=medium
+
+  * Add fixer for debian-changelog-line-too-long.
+  * Add fixer for misspelling-in-bug-closes.
+  * Add some initial code for cleaning up unused lintian overrides.
+  * Drop the no-dh-sequencer fixer.
+  * Drop unnecessary --with=systemd if debhelper 10 is in use. Closes:
+    #949818
+  * Add fixer for unused-override. Closes: #932528
+  * Properly parse exceptions in license synopsis.
+  * Add fixer for autotools-pkg-config-macro-not-cross-compilation-safe.
+  * Ship a renamed-tags.json file, since the upstream file has
+    disappeared. Closes: #950321
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 31 Jan 2020 11:29:12 +0000
+
+lintian-brush (0.56) unstable; urgency=medium
+
+  [ Jelmer Vernooĳ ]
+  * Attempt to keep preferred order of fields in YAML files.
+  * Don't write debian/upstream/metadata when just setting name. Closes:
+    #948276
+  * debian/upstream/metadata: Insert new entries alphabetically. Closes:
+    #948155
+  * Try harder to avoid rewriting YAML files.
+
+  [ Sven Joachim ]
+  * Fix Vcs-{Git,Browser} fields.
+
+  [ Jelmer Vernooĳ ]
+  * Add fixer for missing-build-dependency-for-dh_-command.
+  * Add fixer for missing-build-dependency-for-dh-addon.
+  * s/licence/license/g
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 11 Jan 2020 22:21:59 +0000
+
+lintian-brush (0.55) unstable; urgency=medium
+
+  * Fix verification of Bug-Submit URLs for github.com.
+  * Fix handling of non-default encodings in debian/patches.
+  * Use dh $@ sequencer.
+  * Change the commit message style so the footer is short, human-readable
+    and parseable. Closes: #946803
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 06 Jan 2020 13:46:10 +0000
+
+lintian-brush (0.54) unstable; urgency=medium
+
+  * Fix accidental removal of dh overrides with just conditions.
+  * Disable the skip-systemd-native-flag-missing-pre-depends fixer for now,
+    since it is too naive.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 03 Jan 2020 17:43:21 +0000
+
+lintian-brush (0.53) unstable; urgency=medium
+
+  [ Jelmer Vernooĳ ]
+  * Be a bit quieter when unable to contact udd.
+  * Filter out duplicate lines in the last last changelog entry.
+  * Add manpage for guess-upstream-metadata(1).
+  * Cope with non-UTF8 R DESCRIPTION files.
+  * Only mention whether changelog will be updated once per run.
+
+  [ Topi Miettinen ]
+  * Add fixer and test for systemd-service-file-shutdown-problems.
+
+  [ Jelmer Vernooĳ ]
+  * Refactor systemd support.
+  * Add fixer for systemd-service-alias-without-extension.
+  * Add fixer for systemd-service-file-refers-to-obsolete-bindto.
+  * Add fixer for systemd-service-file-refers-to-obsolete-target.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 01 Jan 2020 21:10:22 +0000
+
+lintian-brush (0.52) unstable; urgency=medium
+
+  * Fix regression recognizing versioned common license files.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 30 Dec 2019 02:19:37 +0000
+
+lintian-brush (0.51) unstable; urgency=medium
+
+  * Add fixers for:
+     copyright-refers-to-symlink-license,
+     copyright-refers-to-versionless-license-file.
+  * Add fixers for:
+     copyright-should-refer-to-common-license-file-for-gpl,
+     copyright-should-refer-to-common-license-file-for-gfdl,
+     copyright-should-refer-to-common-license-file-for-lgpl,
+     copyright-file-contains-full-apache-2-license,
+     copyright-file-contains-full-gfdl-license,
+     copyright-file-contains-full-gpl-license.
+  * Add fixer for desktop-entry-contains-encoding-key.
+  * Add fixers for desktop-entry-file-has-crs and executable-desktop-
+    file.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 30 Dec 2019 01:20:52 +0000
+
+lintian-brush (0.50) unstable; urgency=medium
+
+  * Add fixer for copyright-does-not-refer-to-common-license-file.
+  * Add fixer for copyright-should-refer-to-common-license-file-for-
+    apache-2.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 29 Dec 2019 22:12:34 +0000
+
+lintian-brush (0.49) unstable; urgency=medium
+
+  [ Jelmer Vernooĳ ]
+  * Add support for upgrading from standards version 4.1.4 -> 4.1.5.
+  * Determine secure and browser URLs from Savannah Git URLs; thanks to
+    Romain Francoise for the report.
+  * Include trailing '.git' in salsa VCS URLs.
+  * Guess bug database from forwarded field in debian patches.
+  * Add fixer for no-dh-sequencer.
+  * Ship a guess-upstream-metadata binary.
+
+  [ Colin Watson ]
+  * unnecessary-team-upload: Fix typo in changelog message.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 29 Dec 2019 17:16:42 +0000
+
+lintian-brush (0.48) unstable; urgency=medium
+
+  * For esthetic reasons, keep Description as the last field in binary
+    package stanzas.
+  * Handle commented out patches in patch-file-present-but-not-mentioned-
+    in-series.
+  * Add fixer for skip-systemd-native-flag-missing-pre-depends.
+  * Reintroduce fixer for removal of empty patches, but hide behind --
+    opinionated.
+  * Add fixer for invalid-standards-version.
+  * Add fixer for declares-possibly-conflicting-debhelper-compat-
+    versions.
+  * Add fixer for debug-symbol-migration-possibly-complete.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 15 Dec 2019 17:20:33 +0000
+
+lintian-brush (0.47) unstable; urgency=medium
+
+  * Add apply-multiarch-hints script.
+  * Add --opinionated option. Closes: #942604
+  * useless-autoreconf-build-depends: Depend on debhelper (>= 10~)
+    rather than (>= 10). Closes: #946743
+  * Don't remove expired keys from upstream signing key. Closes: #946407
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 15 Dec 2019 14:50:44 +0000
+
+lintian-brush (0.46) unstable; urgency=medium
+
+  * Downgrade certainty of init.d-script-needs-depends-on-lsb-base fixer
+    because of false positives, effectively disabling it. Partially addresses
+    #946398
+  * Don't drop autoreconf if we can't upgrade debhelper beyond 9.
+  * Prevent unnecessary includes of /usr/share/dpkg/architecture.mk.
+    Closes: #946414
+  * Add a --exclude flag.
+  * Attempt to preserve YAML directives in debian/upstream/metadata, if
+    present. See #946413
+  * Disable setting of the Screenshots field in debian/upstream/metadata
+    to individual files; it seems likely these will get stale and become
+    a source of toil.
+  * Don't keep debian/upstream/metadata files with just the Archive
+    field set.
+  * Add fixer for debian-rules-missing-recommended-target.
+  * possible-missing-colon-in-closes: Cope with phrases like 'partially
+    closes'.
+  * Fix handling of empty Build-Depends in build-depends-on-{build-
+    essential,obsolete-package}.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 12 Dec 2019 23:54:23 +0000
+
+lintian-brush (0.45) unstable; urgency=medium
+
+  * Improve plural vs singular in commit messages and changelog
+    messages.
+  * Support whitespace before conditionals in makefiles.
+  * Support options in debian/patches/series.
+  * Drop the empty-debian-patches-series file, which has proved
+    controversial.
+  * Double-check bug numbers when adding missing colons in closes:
+    stanzas. Closes: #946338
+  * Don't update changelog if there are only gbp-dch entries in the
+    current changelog entry. Closes: #946339
+  * Fixup outdated freedesktop.org repository URLs.
+  * Use canonical and secure repository URIs in
+    debian/upstream/metadata.
+  * Downgrade certainty of e-mail addresses in configure-reported bug
+    submit addresses.
+  * Fix reporting of fixed tag out-of-date-copyright-format-uri. Thanks,
+    Mattia Rizzolo.
+  * When vcswatch only has an updated Vcs-Git URL but not a Vcs-Browser
+    field, automatically attempt to determine Vcs-Browser URL.
+  * Don't update URLs in comments in watch files. Closes: #946254
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 08 Dec 2019 14:18:27 +0000
+
+lintian-brush (0.44) unstable; urgency=medium
+
+  * Cope with continuations at the end of debian/rules files.
+  * Add fixer for debian-rules-not-executable.
+  * Add (for now) hidden --compat-release option.
+  * Don't strip comments when minimizing upstream keys. Closes: #942719
+  * Report lintian tag fixed for tab-in-licence-text.
+  * Add fixer for wrong-section-according-to-package-name.
+  * Look for [dch] section in gbp.conf when guessing whether to update
+    changelog.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 05 Dec 2019 03:22:22 +0000
+
+lintian-brush (0.43) unstable; urgency=medium
+
+  * Add fixer for font-package-not-multi-arch-foreign.
+  * Actually install lintian-brush.conf(5) manpage.
+  * Don't drop unnecessary overrides unless making other changes.
+  * Disable credentials prompting when probing VCS URLs. Closes: #942648
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 28 Nov 2019 08:43:50 +0000
+
+lintian-brush (0.41) unstable; urgency=medium
+
+  * Probe Homepage URL for VCS attributes.
+  * Fix finding of upstream repository for SourceForge projects.
+  * Pick up GitHub issues locations from README.
+  * Don't leave behind backup files when comparing uscan watch files.
+  * dh-quilt-addon-but-quilt-source-format: only drop quilt if package
+    is on the 3.0 (quilt) format.
+  * Add lintian-brush.conf(5) manpage.
+  * Add an update-changelog variable.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 27 Nov 2019 04:36:35 +0000
+
+lintian-brush (0.40) unstable; urgency=medium
+
+  * Fix stripping the last argument to --with.
+  * Set somewhat more aggressive timeout for HTTP requests.
+  * Properly cope with trailing commas when adding dependencies.
+  * Replace spaces with dashes in license ids, for all SPDX license
+    names. Closes: #942722
+  * Update standards version to 4.4.1, no changes needed.
+  * Remove unnecessary 'git' usernames from salsa and github URLs.
+  * Fix including branch names for GitHub URLs.
+  * Don't remove Built-Using variables that are unrelated to go.
+  * Support more complex alioth URLs.
+  * Support updating non-trivial debhelper dependencies.
+  * init.d-script-needs-depends-on-lsb-base: don't add lsb-base
+    dependency if one already exists.
+  * Migrate python_distutils arguments to pybuild.
+  * Fix debhelper argument order when upgrading to debhelper 12.
+  * Don't attempt to upgrade to debhelper X when already on X.
+  * Make sure dpkg architecture flags are not included after custom
+    assignments.
+  * patch-file-present-but-not-mentioned-in-series: Don't remove files
+    that start with 'README'.
+  * Don't upgrade beyond debhelper 10 when configure doesn't provide --
+    runstatedir and autoreconf is explicitly disabled.
+  * Properly handle empty lines when updating makefiles.
+  * Fixup extra : in the netloc part of git URLs.
+  * upstream-metadata-file-is-missing: Don't drop Name and Copyright
+    from debian/upstream/metadata if debian/copyright is not machine-
+    readable.
+  * Eliminate unnecessary overrides in debian/rules. Closes: #944530
+  * upstream-metadata-file: Attempt to set Bug-Database and Bug-Submit.
+  * Put dh_missing calls into their own rule. Closes: #944531
+  * Support parsing continuation lines in makefiles. Closes: #942594
+  * Properly migrate --fail-missing on default dh rule.
+  * Replace unicode line breaks in debian/copyright with standard ones.
+  * Properly report when fixing uses-debhelper-compat-file.
+  * Handle conditionals in makefiles. Closes: #945370
+  * Add fixer for debian-rules-contains-unnecessary-get-orig-source-
+    target.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 24 Nov 2019 03:02:52 +0000
+
+lintian-brush (0.38) unstable; urgency=medium
+
+  * Add missing dependency on libdebhelper-perl for autopkgtest.
+  * Add support for bumping to standards version 4.4.1.
+  * Support replacing deprecated --same-arch with --arch.
+  * copyright-continued-lines-with-space: allow copyright file to be
+    missing.
+  * Fix test_changelog reproducibility.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 19 Oct 2019 15:21:53 +0000
+
+lintian-brush (0.37) unstable; urgency=medium
+
+  * package-uses-deprecated-debhelper-compat-version: Add
+    --buildsystem=pybuild when upgrading Python packages to debhelper 12.
+  * Add various more aliases for salsa team names.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 18 Oct 2019 17:34:35 +0000
+
+lintian-brush (0.36) unstable; urgency=medium
+
+  * debian-control-has-unusual-field-spacing: don't update files with
+    unknown template types.
+  * Support parsing some more format salsa URLs.
+  * Add pkg-sugar, pkg-phototools, pkg-netmeasure, pkg-hamradio, pkg-sass
+    alias.
+  * Ignore broken package.xml files.
+  * copyright-continued-lines-with-space: Ignore missing copyright
+    files.
+  * debian-control-has-obsolete-dbg-package: support cdbs if dbg package
+    is added with debhelper.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 15 Oct 2019 09:34:25 +0000
+
+lintian-brush (0.35) unstable; urgency=medium
+
+  * Fix handling of dictionaries for the 'repository' field in META.yml.
+  * debian-control-has-obsolete-dbg-package: Don't bump debhelper
+    version unless there are -dbg packages.
+  * Add fixer debhelper-compat-wrong-field.
+  * Support updating templated debian/control files that use cdbs
+    template.
+  * Cope with warnings from dch that require confirmation. Closes:
+    #941767
+  * unused-build-dependency-on-cdbs: Don't error out if there is no
+    Build-Depends field.
+  * debian-rules-uses-unnecessary-dh-argument: Cope with non-debhelper
+    packages.
+  * Cope with comments in debian/compat.
+  * maintainer-also-in-uploaders: Support removing only item in the
+    list.
+  * Add build-dependency on devscripts, for dch tests.
+  * debian-watch-file-is-missing: fall back to running setup with
+    python2 if python3 does not work.
+  * Add fixer copyright-continued-lines-with-space.
+  * Ignore symlinks when updating service files.
+  * debian-control-has-obsolete-dbg-package: support --dbg-package
+    arguments in dh lines.
+  * out-of-date-standards-version: don't update standards version if
+    none is set.
+  * package.json: bugs field can be a dict.
+  * upstream-metadata: Don't fail when META.yml file fails to parse.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 12 Oct 2019 19:59:21 +0000
+
+lintian-brush (0.34) unstable; urgency=medium
+
+  * Add support for renamed tag: rules-requires-root-implicitly -> rules-
+    requires-root-missing.
+  * unused-license-paragraph-in-dep5-copyright: Ignore
+    NotMatchineReadableError.
+  * vcs-field-bitrotted: don't include URLs that vcswatch reports as
+    errorring.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 04 Oct 2019 02:02:36 +0000
+
+lintian-brush (0.33) unstable; urgency=medium
+
+  * Support multi-line git commands in README files.
+  * Fix existing repository URLs in debian/upstream/metadata.
+  * Add basic bash completion support. Closes: #939132
+  * Set Rules-Requires-Root field.
+  * Add basic zsh completion support.
+  * Add fixer for older-source-format.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 04 Oct 2019 00:43:58 +0000
+
+lintian-brush (0.32) unstable; urgency=medium
+
+  * Add flag to disable interaction with external services.
+  * Don't print error messages when unable to update non-machine-
+    readable copyright files.
+  * Support postgresql debian/control.in templates.
+  * Add fixer for init.d-script-needs-depends-on-lsb-base.
+  * Add fixer for unused-license-paragraph-in-dep5-copyright.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 30 Sep 2019 00:03:44 +0000
+
+lintian-brush (0.31) unstable; urgency=medium
+
+  * debian-rules-sets-dpkg-architecture-variable: actually drop variable
+    when include is already present.
+  * debian-changelog-has-wrong-day-of-week: Properly ignore unparseable
+    dates.
+  * Preserve ordering when replacing a debhelper dependency with a
+    debhelper-compat one. Closes: #939077
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 29 Sep 2019 14:31:49 +0000
+
+lintian-brush (0.30) unstable; urgency=medium
+
+  * Show tree status when there are pending changes and --verbose is on.
+  * Don't complain about generated files unless there is a change that
+    can be made to a file.
+  * Support updating generated GNOME control files.
+  * Add basic support for optional debian/lintian-brush.conf
+    configuration file in packages.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 29 Sep 2019 01:20:39 +0000
+
+lintian-brush (0.29) unstable; urgency=medium
+
+  * Fix support for newer versions of Breezy.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 21 Sep 2019 20:28:15 +0000
+
+lintian-brush (0.28) unstable; urgency=medium
+
+  * Add fixer for obsolete-runtime-tests-restriction.
+  * Add fixer for debian-changelog-has-wrong-day-of-week.
+  * Seperately report when fixers can't preserve formatting.
+  * field-name-typo-in-dep5-copyright: Fix preservation of fields when
+    the only change is in the case.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 02 Sep 2019 02:34:58 +0000
+
+lintian-brush (0.27) unstable; urgency=medium
+
+  * Add fixer for package-contains-linda-overrides.
+  * Add fixer for excessive-priority-for-library-package.
+  * Add fixer for debian-rules-sets-dpkg-architecture-variable.
+  * Add fixers for missing-built-using-field-for-golang-package and
+    built-using-field-on-arch-all-package.
+  * Add fixer for debian-control-has-unusual-field-spacing.
+  * Support running in packages that are not at the repository root.
+  * Print an error message if a fixer could not be found. Closes:
+    #939131
+  * Update standards version, no changes needed.
+  * Set debhelper-compat version in Build-Depends.
+  * Don't create upstream metadata files for native packages.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 01 Sep 2019 22:44:21 +0000
+
+lintian-brush (0.26) unstable; urgency=medium
+
+  * quilt-series-but-no-build-dep: only add quilt dependency if one does
+    not yet exist.
+  * vcs-field-bitrotted: do not add duplicate -b arguments.
+  * Ignore empty watch files, rather than printing an error.
+  * configure parser: Ignore invalid encoding characters in lines that
+    are ignored anyway.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 25 Aug 2019 22:13:26 +0000
+
+lintian-brush (0.25) unstable; urgency=medium
+
+  * Support pear 2.1 packages.
+  * Support labels in the URLS field in DESCRIPTION files.
+  * Improve guessing of repository URLs from GitLab URLs.
+  * Use fake times for GPG operations, to make the testsuite runs
+    reproducible.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 24 Aug 2019 14:24:56 +0000
+
+lintian-brush (0.24) unstable; urgency=medium
+
+  * Add fixer for quilt-series-but-no-build-dep.
+  * Add fixer for unused-build-dependency-on-cdbs.
+  * Add fixer for debian-rules-uses-unnecessary-dh-argument.
+  * Rather than setting Name/Contact fields in debian/upstream/metadata,
+    set them in debian/copyright.
+  * Remove obsolete Name/Contacts fields from debian/upstream/metadata,
+    at least for now. See https://lists.debian.org/debian-
+    devel/2019/08/msg00408.html for background.
+  * Ignore empty variables when parsing configure file.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 22 Aug 2019 19:50:48 +0000
+
+lintian-brush (0.23) unstable; urgency=medium
+
+  * In debian-source-options-has-custom-compression-settings.py, don't
+    crash on options that are not key/value.
+  * Add fixer for comma-separated-files-in-dep5-copyright.
+  * Disable strict parsing of copyright file.
+  * Support reading upstream metadata from configure.
+  * Add fixer for libmodule-build-perl-needs-to-be-in-build-depend.
+  * Add fixer for space-in-std-shortname-in-dep5-copyright.
+  * Add support for reading R DESCRIPTION files.
+  * Add fixer for no-homepage-field.
+  * Add fixer for debian-tests-empty-control.
+  * Add fixer for homepage-in-binary-package.
+  * Fix Git URLs with the branch name in the URL rather than with -b
+    argument.
+  * Add fixer for maintainer-also-in-uploaders.
+  * Ignore comments in debian/source/options.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 19 Aug 2019 08:45:13 +0000
+
+lintian-brush (0.22) unstable; urgency=medium
+
+  * Ignore github URLs with just a single paths component when looking
+    for repo URLs.
+  * Support upgrading from --no-restart-on-upgrade
+  * Fix guessing from launchpad URLs.
+  * Add fixer for debian-watch-file-uses-deprecated-githubredir.
+  * Don't attempt to upgrade cdbs packages to anything over debhelper
+    10.
+  * Don't complain about reformatting issues if no changes have been
+    made.
+  * Support removing upstart conffiles as part of upgrade to debhelper
+    11.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 13 Aug 2019 20:38:35 +0000
+
+lintian-brush (0.21) unstable; urgency=medium
+
+  * Use vcswatch-like regex to find salsa.debian.org.
+  * Support suggesting Vcs-* URLs based on vcswatch.
+  * Avoid adding unnecessary spacing when removing first dependency from
+    a control field.
+  * Don't print confusing warning message about directories under
+    debian/patches/.
+  * Add fixer for vcs-field-bitrotted.
+  * Add fixer for vcs-field-not-canonical.
+  * Add fixer for vcs-field-mismatch.
+  * debhelper-tools-from-autotools-dev-are-deprecated: Don't bump
+    debhelper version when not removing autotools-dev usage.
+  * Sort paths so that directories get added before the files they
+    contain (on VCSes where it matters).
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 10 Aug 2019 13:06:04 +0000
+
+lintian-brush (0.20) unstable; urgency=medium
+
+  * Fix lintian-brush when pyinotify is not installed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 03 Aug 2019 20:28:30 +0000
+
+lintian-brush (0.19) unstable; urgency=medium
+
+  * Run python fixers in-process, to avoid Python interpreter and module
+    loading overhead. This provides a ~30% performance improvement for
+    some packages.
+  * Add fixer for debhelper-tools-from-autotools-dev-are-deprecated.
+  * Set User-Agent when sending HTTP requests.
+  * Add fixer for vcs-obsolete-in-debian-infrastructure.
+  * Check that the tree is clean before running fixers, rather than
+    before each fixer.
+  * Use inotify (where available) to track changes to the tree as all fixers
+    are processed. This significantly speeds up runs on
+    large repositories. Closes: #933777
+  * Don't add both debhelper-compat and debhelper build-depends.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 03 Aug 2019 20:22:35 +0000
+
+lintian-brush (0.18) unstable; urgency=medium
+
+  * Fix copyright fields before parsing with python-debian.
+  * Add fixer for dh-clean-k-is-deprecated.
+  * Handle missing bugtracker/web subkey for META.json files.
+  * Upgrade debian/rules in some cases when updating to debhelper 12.
+  * Don't remove debian/patches/README.
+  * Use the 'Source' field in copyright files when looking for possible
+    upstream repositories.
+  * Don't worry about preserving all formatting for YAML files; comments
+    and indentation are already preserved.
+  * Allow stripping trailing whitespace from debian/copyright when modifying
+    it.
+  * Don't make homepage-field-uses-insecure-uri fixer fail when it can't
+    access homepage over HTTPS. Closes: #933682
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 25 Jul 2019 22:05:12 +0000
+
+lintian-brush (0.17) unstable; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Support policy version bumps from 4.3.0 to 4.4.0. Closes: #932314
+
+  [ Jelmer Vernooĳ ]
+  * Guess (with low certainty) repositories from README.
+  * Add support for reading upstream metadata from META.json.
+  * Add support for reading upstream metadata from META.yml files.
+  * Add support for reading upstream metadata from DOAP files.
+  * Add (hidden) --allow-reformatting flag.
+  * Add support for Repository-Browse.
+  * upstream-metadata-file-is-missing: Derive Repository-Browse from
+    Repository when possible.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 24 Jul 2019 22:12:00 +0000
+
+lintian-brush (0.16) unstable; urgency=medium
+
+  * Don't export expired signatures; these may still be useful, and
+    excluding them will break the tests in the future.
+  * Migrate debian/compat files to debhelper-compat build-depends for
+    debhelper >= 11.
+  * dep5-file-paragraph-references-header-paragraph: Don't print an
+    error message when the copyright file does not use DEP5.
+  * Add fixer debian-watch-file-is-missing.
+  * Add a (hidden) --minimum-certainty option.
+  * Add experimental fixer for upstream-metadata-file-is-missing.
+  * Also check homepage field to guess at upstream repository.
+  * Upload to unstable.
+
+  [ Dmitry Bogatov ]
+  * Add fixer for patch-file-present-but-not-mentioned-in-series.
+    Closes: #928811
+  * Try to replace 'http:' with 'https:' in debian/watch by validating
+    using the uscan report. Closes: #928810
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 23 Feb 2019 03:45:54 +0000
+
+lintian-brush (0.15) experimental; urgency=medium
+
+  * Add fixer for field-name-typo-in-dep5-copyright.
+  * Add fixer for invalid-short-name-in-dep5-copyright.
+  * Add fixer for dep5-file-paragraph-references-header-paragraph.
+  * Add fixer for old-fsf-address-in-copyright-file.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 19 Feb 2019 02:11:38 +0000
+
+lintian-brush (0.14) experimental; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Add a fixer for out-of-date-standards-version. Closes: #921971
+
+  [ Jelmer Vernooĳ ]
+  * Extend out-of-date-standards-version fixer to only change
+    the standards version when the upgrade is known to not
+    introduce policy violations.
+  * Add fixer for debian-changelog-file-contains-obsolete-user-emacs-
+    settings.
+  * Add a fixer for renamed-tag.
+  * Fix my e-mail address in debian/copyright.
+  * Report fixer duration when --verbose is specified.
+  * Hide Python class names in verbose output.
+  * Add fixer that removes empty debian/source/options files (no
+    matching Lintian tag).
+  * Add fixer that removes empty debian/patches/series (no matching
+    lintian tag).
+  * Support updating debhelper-compat version in packages that use the
+    debhelper-compat relation in Build-Depends.
+  * Add fixer for maintainer-script-without-set-e.
+  * Add fixer for debian-pycompat-is-obsolete.
+  * Add fixer for public-upstream-keys-in-multiple-locations.
+  * Add fixer for orphaned-package-should-not-have-uploaders.
+  * Add fixer for build-depends-on-build-essential.
+  * Add fixer for possible-missing-colon-in-closes.
+  * Add fixer for debian-tests-control-autodep8-is-obsolete and debian-
+    tests-control-and-control-autodep8. Closes: #917563
+  * Avoid creating commit for already minimal key. Closes: #922541
+  * Add fixer for global-files-wildcard-not-first-paragraph-in-dep5-
+    copyright.
+  * Add fixer for obsolete-field-in-dep5-copyright.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 16 Feb 2019 15:11:25 +0000
+
+lintian-brush (0.13.1) unstable; urgency=medium
+
+  * Avoid creating commit for already minimal key. Closes: #922541
+  * Don't export expired signatures; these may still be useful, and
+    excluding them will break the tests in the future.
+    Fixes reproducible builds.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 16 Feb 2019 15:11:25 +0000
+
+lintian-brush (0.13) unstable; urgency=medium
+
+  [ Dmitry Bogatov ]
+  * Don't display error when debian/compat is missing. Closes: #921972
+
+  [ Jelmer Vernooĳ ]
+  * Allow fixers to provide an empty description when there are no
+    changes.
+  * Add fixer script for debian-source-options-has-custom-compression-
+    settings.
+  * Add build-depends-on-obsolete-package fixer. Currently just deals
+    with dh-systemd => debhelper upgrades.
+  * Bump standards version to 4.3.0 (no changes).
+  * public-upstream-key-not-minimal: Export public PGP keys as armored
+    text.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 12 Feb 2019 22:11:32 +0000
+
+lintian-brush (0.12) unstable; urgency=medium
+
+  * Add --identity flag that shows user identity.
+  * Fall back to breezy identity and gecos field if no git identity is
+    set. Closes: #921241
+  * Make gpg more quiet when manipulating keyring files.
+  * Require new Breezy with improved handling of submodule references
+    in .git files. Closes: #921240
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 07 Feb 2019 05:56:14 +0000
+
+lintian-brush (0.11) unstable; urgency=medium
+
+  [ Jeroen Dekkers ]
+  * Add dependency on devscripts. Closes: #919217
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 19 Jan 2019 19:11:40 +0000
+
+lintian-brush (0.10) unstable; urgency=medium
+
+  * Add a (inefficient) --dry-run option. Closes: #915977
+  * Add --update-changelog option to force updating of changelog.
+  * Add support for systemd-service-file-pidfile-refers-to-var-run.
+    Closes: #917565
+  * Don't use functionality that is not available in stable by default;
+    add a --modern flag to enable use of unstable-only functionality
+    (such as debhelper compat levels).
+  * Bump debhelper from old 11 to 12.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 15 Dec 2018 17:18:50 +0000
+
+lintian-brush (0.9) unstable; urgency=medium
+
+  * Add CI configuration for Salsa.
+  * Add fixer for unnecessary-team-upload.
+  * Don't attempt to remove python*-*-dbg packages; they include _d.so
+    files that are not in -dbgsym packages.
+  * Don't traceback when no .git directory is found.
+  * Add fixer for public-upstream-key-not-minimal.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 04 Dec 2018 23:12:14 +0000
+
+lintian-brush (0.7) unstable; urgency=medium
+
+  * Add fixer for package-needs-versioned-debhelper-build-depends.
+  * Add fixer for package-uses-deprecated-debhelper-compat-version.
+  * Add support for fixing debhelper-but-no-misc-depends.
+  * Add a --diff option.
+  * Don't consider an empty directory to be a pending change in a git
+    repository. Closes: #914038
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 20 Nov 2018 11:44:04 +0000
+
+lintian-brush (0.6) unstable; urgency=medium
+
+  * useless-autoreconf-build-depends: Actually require changes, don't
+    just update debhelper build-depends.
+  * Add support for a certainty tag in fixer output.
+  * Fix compatibility with newer versions of Dulwich.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 05 Nov 2018 19:31:02 +0000
+
+lintian-brush (0.5) unstable; urgency=medium
+
+  * Bump debhelper version to 11.
+  * Hide tracebacks by default, but report list of failed fixers.
+  * Use secure copyright file specification URI.
+  * Bump to standards version 4.2.1
+  * file-contains-trailing-whitespace: Also trim empty lines from the
+    ends of files.
+  * Trim trailing whitespace.
+  * debian/control: Tweak long description a bit.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 03 Nov 2018 16:50:03 +0000
+
+lintian-brush (0.4) unstable; urgency=medium
+
+  * (Build-)Depend at least on a version of python3-breezy that has some
+    common Git issues fixed.
+  * Add support for fixing useless-autoreconf-build-depends.
+  * Add support for removing obsolete pyversions files.
+  * Upload to unstable.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 01 Nov 2018 00:50:34 +0000
+
+lintian-brush (0.3) experimental; urgency=medium
+
+  * Fix entry point for main script.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 30 Oct 2018 19:58:41 +0000
+
+lintian-brush (0.2) experimental; urgency=medium
+
+  * d/docs: Ship documentation files.
+  * d/control: Add .git suffix to Vcs-Git field.
+  * lintian-brush: Reduce chattiness when no changes are being made.
+  * lintian-brush: Add --verbose option.
+  * lintian-brush: Fix running of specific fixers.
+  * d/control: Add missing dependency on python3-dulwich. Closes: #912219
+  * lintian-brush: Obey git global and per-tree committer settings.
+  * lintian-brush: Rather than stripping comments, refuse to edit control
+    files where formatting can not be preserved.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 30 Oct 2018 00:43:15 +0000
+
+lintian-brush (0.1) experimental; urgency=medium
+
+  * Initial release. (Closes: #911016)
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 13 Oct 2018 11:21:39 +0100

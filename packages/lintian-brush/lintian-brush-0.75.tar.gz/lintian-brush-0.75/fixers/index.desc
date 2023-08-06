@@ -1,0 +1,416 @@
+# This file contains the list of available fixers, as well as a list of tags
+# that each of them (might) fix.
+
+# Note that the order of this file is significant. Fixers mentioned earlier in
+# this file will always be run before later fixers.
+
+# file-contains-trailing-whitrspace and obsolete-field-in-dep5-copyright are
+# processed first, since they make it for other fixers to change the file
+# while preserving formatting.
+
+Fix-Script: file-contains-trailing-whitespace.sh
+Lintian-Tags: trailing-whitespace
+
+# Copyright related fixers. Fix format URL before semantic fixes.
+Fix-Script: insecure-copyright-format-uri.sh
+Lintian-Tags: insecure-copyright-format-uri
+
+Fix-Script: unversioned-copyright-format-uri.py
+Lintian-Tags: unversioned-copyright-format-uri
+
+Fix-Script: debian-control-has-unusual-field-spacing.py
+Lintian-Tags: debian-control-has-unusual-field-spacing
+
+Fix-Script: rules-not-executable.py
+
+Fix-Script: copyright-has-crs.sh
+Lintian-Tags: copyright-has-crs
+
+Fix-Script: copyright-continued-lines-with-space.py
+Lintian-Tags: tab-in-license-text
+
+Fix-Script: no-copyright-file.py
+Lintian-Tags: no-copyright-file
+
+Fix-Script: desktop-entry-file-has-crs.sh
+Lintian-Tags: desktop-entry-file-has-crs
+
+Fix-Script: executable-desktop-file.sh
+Lintian-Tags: executable-desktop-file
+
+Fix-Script: package-has-no-description.py
+Lintian-Tags: required-field
+
+Fix-Script: empty-debian-tests-control.py
+Lintian-Tags: empty-debian-tests-control
+
+Fix-Script: out-of-date-copyright-format-uri.sh
+Lintian-Tags: out-of-date-copyright-format-uri
+
+Fix-Script: obsolete-field-in-dep5-copyright.py
+Lintian-Tags: obsolete-field-in-dep5-copyright
+
+Fix-Script: comma-separated-files-in-dep5-copyright.py
+Lintian-Tags: comma-separated-files-in-dep5-copyright
+
+Fix-Script: common-license.py
+Lintian-Tags:
+  copyright-does-not-refer-to-common-license-file,
+  copyright-not-using-common-license-for-apache2,
+  copyright-not-using-common-license-for-gpl,
+  copyright-not-using-common-license-for-gfdl,
+  copyright-not-using-common-license-for-lgpl,
+  copyright-file-contains-full-apache-2-license,
+  copyright-file-contains-full-gfdl-license,
+  copyright-file-contains-full-gpl-license
+
+Fix-Script: ancient-python-version-field.py
+Lintian-Tags: ancient-python-version-field
+
+Fix-Script: build-depends-on-build-essential.py
+Lintian-Tags: build-depends-on-build-essential
+
+Fix-Script: build-depends-on-obsolete-package.py
+Lintian-Tags: build-depends-on-obsolete-package
+
+Fix-Script: control-file-with-CRLF-EOLs.sh
+Lintian-Tags: carriage-return-line-feed
+
+Fix-Script: debhelper-but-no-misc-depends.py
+Lintian-Tags: debhelper-but-no-misc-depends
+
+Fix-Script: debhelper-tools-from-autotools-dev-are-deprecated.py
+Lintian-Tags: debhelper-tools-from-autotools-dev-are-deprecated
+
+Fix-Script: debian-changelog-line-too-long.py
+Lintian-Tags: debian-changelog-line-too-long
+
+Fix-Script: debian-changelog-file-contains-obsolete-user-emacs-settings.sh
+Lintian-Tags: debian-changelog-file-contains-obsolete-user-emacs-settings
+
+Fix-Script: changelog-has-duplicate-line.py
+
+Fix-Script: debian-control-has-empty-field.py
+Lintian-Tags: debian-control-has-empty-field
+
+Fix-Script: debian-control-has-obsolete-dbg-package.py
+Lintian-Tags: debian-control-has-obsolete-dbg-package
+
+Fix-Script: debian-pycompat-is-obsolete.sh
+Lintian-Tags: debian-pycompat-is-obsolete
+
+Fix-Script: debian-pyversions-is-obsolete.py
+Lintian-Tags: debian-pyversions-is-obsolete
+
+Fix-Script: debian-rules-should-not-use-pwd.py
+Lintian-Tags: debian-rules-calls-pwd
+
+Fix-Script: debian-source-options-has-custom-compression-settings.py
+Lintian-Tags: custom-compression-in-debian-source-options
+
+Fix-Script: debian-tests-control-autodep8-is-obsolete.py
+Lintian-Tags:
+  debian-tests-control-autodep8-is-obsolete,
+  debian-tests-control-and-control-autodep8
+
+Fix-Script: debian-upstream-obsolete-path.sh
+Lintian-Tags: debian-upstream-obsolete-path
+
+Fix-Script: debian-watch-uses-insecure-uri.py
+Lintian-Tags: debian-watch-uses-insecure-uri
+
+Fix-Script: dep5-file-paragraph-references-header-paragraph.py
+Lintian-Tags: dep5-file-paragraph-references-header-paragraph
+
+Fix-Script: dh-clean-k-is-deprecated.py
+Lintian-Tags: dh-clean-k-is-deprecated
+
+Fix-Script: empty-debian-source-options.py
+
+Fix-Script: empty-debian-patches-series.py
+
+Fix-Script: homepage-in-binary-package.py
+Lintian-Tags: homepage-in-binary-package
+
+Fix-Script: homepage-field-uses-insecure-uri.py
+Lintian-Tags: homepage-field-uses-insecure-uri
+
+Fix-Script: libmodule-build-perl-needs-to-be-in-build-depends.py
+Lintian-Tags: libmodule-build-perl-needs-to-be-in-build-depends
+
+Fix-Script: maintainer-script-without-set-e.py
+Lintian-Tags: maintainer-script-without-set-e
+
+Fix-Script: dm-upload-allowed.py
+Lintian-Tags:
+  malformed-dm-upload-allowed,
+  dm-upload-allowed-is-obsolete
+
+Fix-Script: init.d-script-needs-depends-on-lsb-base.py
+Lintian-Tags: init.d-script-needs-depends-on-lsb-base
+
+Fix-Script: maintainer-also-in-uploaders.py
+Lintian-Tags: maintainer-also-in-uploaders
+
+Fix-Script: source-format.py
+Lintian-Tags:
+  older-source-format,
+  missing-debian-source-format
+
+# Intentionally after source-format, so that we upgrade to 3.0 (quilt) first,
+# and then drop the quilt extension.
+Fix-Script: dh-quilt-addon-but-quilt-source-format.py
+Lintian-Tags: dh-quilt-addon-but-quilt-source-format
+
+Fix-Script: missing-build-dependency-for-dh_-command.py
+Lintian-Tags:
+  missing-build-dependency-for-dh_-command,
+  missing-build-dependency-for-dh-addon
+
+Fix-Script: missing-vcs-browser-field.py
+Lintian-Tags: missing-vcs-browser-field
+
+Fix-Script: no-homepage-field.py
+Lintian-Tags: no-homepage-field
+
+Fix-Script: orphaned-package-should-not-have-uploaders.py
+Lintian-Tags: uploaders-in-orphan
+
+Fix-Script: declares-possibly-conflicting-debhelper-compat-versions.py
+Lintian-Tags: declares-possibly-conflicting-debhelper-compat-versions
+
+Fix-Script: debhelper-compat-wrong-field.py
+
+Fix-Script: package-needs-versioned-debhelper-build-depends.py
+Lintian-Tags:
+  package-needs-versioned-debhelper-build-depends,
+  package-lacks-versioned-build-depends-on-debhelper
+
+Fix-Script: package-uses-deprecated-source-override-location.sh
+Lintian-Tags: old-source-override-location
+
+Fix-Script: package-uses-deprecated-debhelper-compat-version.py
+Lintian-Tags:
+  package-uses-deprecated-debhelper-compat-version,
+  package-uses-old-debhelper-compat-version
+
+Fix-Script: uses-debhelper-compat-file.py
+Lintian-Tags: uses-debhelper-compat-file
+
+# Temporarily disabled, since this triggers unnecessarily
+# (e.g. for nfdump). TODO(jelmer): Add bug #
+# Fix-Script: skip-systemd-native-flag-missing-pre-depends.py
+# Lintian-Tags: skip-systemd-native-flag-missing-pre-depends
+
+Fix-Script: patch-file-present-but-not-mentioned-in-series.py
+Lintian-Tags: patch-file-present-but-not-mentioned-in-series
+
+Fix-Script: possible-missing-colon-in-closes.py
+Lintian-Tags:
+  possible-missing-colon-in-closes,
+  misspelled-closes-bug
+
+Fix-Script: priority-extra-is-replaced-by-priority-optional.py
+Lintian-Tags: priority-extra-is-replaced-by-priority-optional
+
+Fix-Script: public-upstream-key-not-minimal.py
+Lintian-Tags: public-upstream-key-not-minimal
+
+Fix-Script: public-upstream-keys-in-multiple-locations.sh
+Lintian-Tags: public-upstream-keys-in-multiple-locations
+
+Fix-Script: public-upstream-key-binary.sh
+
+Fix-Script: quilt-series-without-trailing-newline.sh
+Lintian-Tags: quilt-series-without-trailing-newline
+
+Fix-Script: renamed-tag.py
+Lintian-Tags: renamed-tag
+
+Fix-Script: space-in-std-shortname-in-dep5-copyright.py
+Lintian-Tags: space-in-std-shortname-in-dep5-copyright
+
+Fix-Script: systemd-service-file-pidfile-refers-to-var-run.py
+Lintian-Tags: systemd-service-file-refers-to-var-run
+
+Fix-Script: systemd-service-file-shutdown-problems.py
+Lintian-Tags: systemd-service-file-shutdown-problems
+
+Fix-Script: systemd-service-alias-without-extension.py
+Lintian-Tags: systemd-service-alias-without-extension
+
+Fix-Script: systemd-service-file-refers-to-obsolete-bindto.py
+Lintian-Tags: systemd-service-file-refers-to-obsolete-bindto
+
+Fix-Script: systemd-service-file-refers-to-obsolete-target.py
+Lintian-Tags: systemd-service-file-refers-to-obsolete-target
+
+Fix-Script: transitional-package-should-be-oldlibs-optional.py
+Lintian-Tags: transitional-package-not-oldlibs-optional
+
+Fix-Script: unnecessary-team-upload.py
+Lintian-Tags: unnecessary-team-upload
+
+Fix-Script: unnecessary-testsuite-autopkgtest-field.py
+Lintian-Tags: unnecessary-testsuite-autopkgtest-field
+
+Fix-Script: upstream-metadata-invalid.py
+Lintian-Tags:
+  upstream-metadata-yaml-invalid,
+  upstream-metadata-not-yaml-mapping
+
+Fix-Script: copyright-missing-upstream-info.py
+
+Fix-Script: upstream-metadata-file.py
+Lintian-Tags:
+  upstream-metadata-file-is-missing,
+  upstream-metadata-missing-bug-tracking,
+  upstream-metadata-missing-repository
+
+Fix-Script: debian-watch-file-is-missing.py
+Lintian-Tags: debian-watch-file-is-missing
+
+Fix-Script: useless-autoreconf-build-depends.py
+Lintian-Tags: useless-autoreconf-build-depends
+
+Fix-Script: vcs-field-uses-insecure-uri.py
+Lintian-Tags: vcs-field-uses-insecure-uri
+
+Fix-Script: vcs-field-uses-not-recommended-uri-format.py
+Lintian-Tags: vcs-field-uses-not-recommended-uri-format
+
+Fix-Script: wrong-debian-qa-group-name.py
+Lintian-Tags: wrong-debian-qa-group-name
+
+Fix-Script: xc-package-type-in-debian-control.sh
+Lintian-Tags: xc-package-type-in-debian-control
+
+Fix-Script: xs-testsuite-field-in-debian-control.sh
+Lintian-Tags: xs-testsuite-field-in-debian-control
+
+Fix-Script: xs-vcs-field-in-debian-control.py
+Lintian-Tags: xs-vcs-field-in-debian-control
+
+Fix-Script: old-fsf-address-in-copyright-file.sh
+Lintian-Tags: old-fsf-address-in-copyright-file
+
+Fix-Script: field-name-typo-in-dep5-copyright.py
+Lintian-Tags: field-name-typo-in-dep5-copyright
+
+Fix-Script: license-file-listed-in-debian-copyright.py
+Lintian-Tags: license-file-listed-in-debian-copyright
+
+Fix-Script: unused-license-paragraph-in-dep5-copyright.py
+Lintian-Tags: unused-license-paragraph-in-dep5-copyright
+
+Fix-Script: global-files-wildcard-not-first-paragraph-in-dep5-copyright.py
+Lintian-Tags: global-files-wildcard-not-first-paragraph-in-dep5-copyright
+
+Fix-Script: invalid-short-name-in-dep5-copyright.py
+Lintian-Tags: invalid-short-name-in-dep5-copyright
+
+Fix-Script: copyright-refers-to-symlink-license.py
+Lintian-Tags:
+  copyright-refers-to-symlink-license,
+  copyright-refers-to-versionless-license-file
+
+Fix-Script: vcs-field-bitrotted.py
+Lintian-Tags:
+  vcs-obsolete-in-debian-infrastructure,
+  vcs-field-bitrotted
+
+Fix-Script: vcs-field-mismatch.py
+Lintian-Tags: vcs-field-mismatch
+
+Fix-Script: vcs-field-not-canonical.py
+Lintian-Tags: vcs-field-not-canonical
+
+Fix-Script: vcs-broken-uri.py
+
+Fix-Script: debian-watch-file-uses-deprecated-githubredir.py
+Lintian-Tags: debian-watch-file-uses-deprecated-githubredir
+
+Fix-Script: quilt-series-but-no-build-dep.py
+Lintian-Tags: quilt-series-but-no-build-dep
+
+Fix-Script: unused-build-dependency-on-cdbs.py
+Lintian-Tags: unused-build-dependency-on-cdbs
+
+Fix-Script: debian-rules-uses-unnecessary-dh-argument.py
+Lintian-Tags: debian-rules-uses-unnecessary-dh-argument
+
+Fix-Script: upstream-metadata-has-obsolete-field.py
+
+Fix-Script: package-contains-linda-override.py
+Lintian-Tags: package-contains-linda-override
+
+Fix-Script: excessive-priority-for-library-package.py
+Lintian-Tags: excessive-priority-for-library-package
+
+Fix-Script: debian-rules-sets-dpkg-architecture-variable.py
+Lintian-Tags: debian-rules-sets-dpkg-architecture-variable
+
+Fix-Script: built-using-for-golang.py
+Lintian-Tags:
+  missing-built-using-field-for-golang-package,
+  built-using-field-on-arch-all-package
+
+Fix-Script: obsolete-runtime-tests-restriction.py
+Lintian-Tags: obsolete-runtime-tests-restriction
+
+Fix-Script: debian-changelog-has-wrong-day-of-week.py
+Lintian-Tags: debian-changelog-has-wrong-day-of-week
+
+Fix-Script: debian-rules-contains-unnecessary-get-orig-source-target.py
+Lintian-Tags: debian-rules-contains-unnecessary-get-orig-source-target
+
+Fix-Script: font-package-not-multi-arch-foreign.py
+Lintian-Tags: font-package-not-multi-arch-foreign
+
+Fix-Script: debian-rules-not-executable.py
+Lintian-Tags: debian-rules-not-executable
+
+Fix-Script: no-priority-field.py
+Lintian-Tags: recommended-field
+
+Fix-Script: no-section-field.py
+Lintian-Tags: recommended-field
+
+Fix-Script: no-maintainer-field.py
+Lintian-Tags: required-field
+
+Fix-Script: wrong-section-according-to-package-name.py
+Lintian-Tags: wrong-section-according-to-package-name
+
+Fix-Script: debian-rules-missing-recommended-target.py
+Lintian-Tags: debian-rules-missing-recommended-target
+
+Fix-Script: debug-symbol-migration-possibly-complete.py
+Lintian-Tags: debug-symbol-migration-possibly-complete
+
+Fix-Script: desktop-entry-contains-encoding-key.py
+Lintian-Tags: desktop-entry-contains-encoding-key
+
+Fix-Script: invalid-standards-version.py
+Lintian-Tags: invalid-standards-version
+
+Fix-Script: out-of-date-standards-version.py
+Lintian-Tags: out-of-date-standards-version
+
+Fix-Script: autotools-pkg-config-macro-not-cross-compilation-safe.py
+Lintian-Tags: autotools-pkg-config-macro-not-cross-compilation-safe
+
+Fix-Script: unused-override.py
+Lintian-Tags: unused-override
+
+Fix-Script: upstream-metadata-in-native-source.py
+Lintian-Tags: upstream-metadata-in-native-source
+
+Fix-Script: uses-deprecated-adttmp.py
+Lintian-Tags: uses-deprecated-adttmp
+
+Fix-Script: binary-control-field-duplicates-source.py
+Lintian-Tags: binary-control-field-duplicates-source
+
+Fix-Script: rules-requires-root-missing.py
+Lintian-Tags: silent-on-rules-requiring-root

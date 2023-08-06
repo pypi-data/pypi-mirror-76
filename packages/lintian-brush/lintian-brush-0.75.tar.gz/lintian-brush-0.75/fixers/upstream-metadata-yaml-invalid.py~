@@ -1,0 +1,40 @@
+#!/usr/bin/python3
+
+from lintian_brush.fixer import report_result
+
+import sys
+
+try:
+
+    with open('debian/upstream/metadata', 'rb') as f:
+        contents = f.read()
+except FileNotFoundError:
+    sys.exit(0)
+
+
+from ruamel.yaml import YAML  # noqa: E402
+from ruamel.yaml.reader import ReaderError  # noqa: E402
+
+yaml = YAML()
+
+try:
+    data = yaml.load(contents)
+except ReaderError:
+    pass
+else:
+    raise ValueError(data['Archive'])
+    sys.exit(0)
+
+import json  # noqa: E402
+# Maybe it's JSON?
+try:
+    data = json.loads(contents)
+except json.JSONDecodeError:
+    pass
+else:
+    with open('debian/upstream/metadata', 'wb') as f:
+        yaml.dump(data, f)
+        report_result(
+            'Convert debian/upstream/metadata from JSON to YAML.',
+            fixed_lintian_tags=['upstream-metadata-yaml-invalid'])
+        sys.exit(0)
