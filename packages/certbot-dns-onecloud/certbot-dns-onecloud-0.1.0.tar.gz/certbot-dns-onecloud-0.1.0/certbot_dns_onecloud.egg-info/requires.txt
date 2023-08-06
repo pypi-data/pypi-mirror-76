@@ -1,0 +1,13 @@
+acme>=0.15.0
+certbot>=0.15.0
+
+[dev]
+coverage
+flake8
+mock==3.*,>=3.0.5
+pep8-naming
+pylama
+pylama-pylint
+pytest==4.*,>=4.0.0
+pytest-cov
+responses
