@@ -1,0 +1,8 @@
+README.md
+setup.py
+upride/Upride.py
+upride/__init__.py
+upride_pkg_linssenste.egg-info/PKG-INFO
+upride_pkg_linssenste.egg-info/SOURCES.txt
+upride_pkg_linssenste.egg-info/dependency_links.txt
+upride_pkg_linssenste.egg-info/top_level.txt
