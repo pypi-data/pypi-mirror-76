@@ -1,0 +1,5 @@
+setup.py
+TranScope.egg-info/PKG-INFO
+TranScope.egg-info/SOURCES.txt
+TranScope.egg-info/dependency_links.txt
+TranScope.egg-info/top_level.txt
