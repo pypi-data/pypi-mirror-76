@@ -1,0 +1,3 @@
+pyvuejs
+pyvuejs/core
+pyvuejs/static
