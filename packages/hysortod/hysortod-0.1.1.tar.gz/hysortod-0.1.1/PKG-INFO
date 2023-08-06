@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: hysortod
+Version: 0.1.1
+Summary: Neighborhood-based outlier detection with sorted hypercubes
+Home-page: https://github.com/eug/hysortod.py
+Author: Eugenio Cabral
+Author-email: eugfcl@gmail.com
+License: Apache 2.0
+Download-URL: https://github.com/eug/hysortod.py/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: outlier,detection
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
