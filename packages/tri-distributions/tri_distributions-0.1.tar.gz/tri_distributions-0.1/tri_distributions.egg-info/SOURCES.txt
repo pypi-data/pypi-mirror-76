@@ -1,0 +1,10 @@
+setup.py
+tri_distributions/Binomialdistribution.py
+tri_distributions/Gaussiandistribution.py
+tri_distributions/Generaldistribution.py
+tri_distributions/__init__.py
+tri_distributions.egg-info/PKG-INFO
+tri_distributions.egg-info/SOURCES.txt
+tri_distributions.egg-info/dependency_links.txt
+tri_distributions.egg-info/not-zip-safe
+tri_distributions.egg-info/top_level.txt
