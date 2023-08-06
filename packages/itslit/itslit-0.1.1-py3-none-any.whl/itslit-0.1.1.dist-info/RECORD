@@ -1,0 +1,10 @@
+itslit/__init__.py,sha256=904RRKd7gwYjHgIRFIDN0RLPRR3q_JCNqO8dy_zZYZg,62
+itslit/__version__.py,sha256=cxpJ1Fy2lBn0UQnytgtUiwpKubD0sXa6JitY7cfcK1k,754
+itslit/cli.py,sha256=Njp7FyOn9PH3M4wmS9gZAwsNcxoRbhku0v0f5vnmZiM,375
+itslit/data/lightning_talks,sha256=ahQQeZG9evOSTP2dFyqfTkHeJrI17zgtoib4KyJJMDQ,25916
+itslit-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+itslit-0.1.1.dist-info/METADATA,sha256=MaJQ61HeNIitno0QB3Sf-XiKVs3ySD8kTcvfm32Zo-Y,746
+itslit-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+itslit-0.1.1.dist-info/entry_points.txt,sha256=qKqJyCDZY_mZuTrtVND8CzAprmpvMXq7eVhA82JOeFk,43
+itslit-0.1.1.dist-info/top_level.txt,sha256=Ig3MYCtHioXNQ2iQkd0MkOMHjxhVGdQCgV1ehb6kRMs,7
+itslit-0.1.1.dist-info/RECORD,,
