@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+lint_it/__init__.py
+lint_it/linter.py
+lintit.egg-info/PKG-INFO
+lintit.egg-info/SOURCES.txt
+lintit.egg-info/dependency_links.txt
+lintit.egg-info/entry_points.txt
+lintit.egg-info/top_level.txt
+tests/__init__.py
+tests/test_lint_it.py

@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "lint-it"
+version = "0.0.1"
+description = ""
+authors = ["Everton <evertontomalok123@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "==3.6"
+click = "==7.1.2"
+flake8 = "==3.8.3"
+black = "==19.10b0"
+isort = "==5.0.9"
+mypy = "==0.782"
+autoflake = "==1.3.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
