@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: approzium
+Version: 0.2.0a0
+Summary: Approzium SDK provides Approzium database authentiation for Python
+Home-page: https://github.com/cyralinc/approzium
+License: Apache-2.0
+Author: Cyral
+Author-email: security@cyral.org
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: sqllibs
+Provides-Extra: tracing
+Requires-Dist: asyncpg (>=0.20.1,<0.21.0); extra == "sqllibs"
+Requires-Dist: boto3 (>=1.14.10,<2.0.0)
+Requires-Dist: ec2-metadata (>=2.2.0,<3.0.0); extra == "tracing"
+Requires-Dist: grpcio (>=1.30.0,<2.0.0)
+Requires-Dist: grpcio-tools (>=1.30.0,<2.0.0)
+Requires-Dist: mysql-connector-python (>=8.0.20,<9.0.0); extra == "sqllibs"
+Requires-Dist: opentelemetry-ext-jaeger (>=0.10b0,<0.11); extra == "tracing"
+Requires-Dist: opentelemetry-ext-psycopg2 (>=0.10b0,<0.11); extra == "tracing"
+Requires-Dist: psycopg2 (>=2.8.5,<3.0.0); extra == "sqllibs"
+Requires-Dist: pymysql (>=0.9.3,<0.10.0); extra == "sqllibs"
