@@ -1,0 +1,11 @@
+README.rst
+setup.py
+awstriggers/__init__.py
+awstriggers/cloudwatchtriggers.py
+awstriggers/exceptions.py
+awstriggers/s3triggers.py
+awstriggers/sqstriggers.py
+awstriggers.egg-info/PKG-INFO
+awstriggers.egg-info/SOURCES.txt
+awstriggers.egg-info/dependency_links.txt
+awstriggers.egg-info/top_level.txt
