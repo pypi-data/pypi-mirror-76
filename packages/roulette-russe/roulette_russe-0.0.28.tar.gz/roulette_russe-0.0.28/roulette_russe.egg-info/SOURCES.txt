@@ -1,0 +1,13 @@
+README.md
+setup.py
+roulette_russe/RouletteRusse.py
+roulette_russe/Scraper.py
+roulette_russe/__init__.py
+roulette_russe.egg-info/PKG-INFO
+roulette_russe.egg-info/SOURCES.txt
+roulette_russe.egg-info/dependency_links.txt
+roulette_russe.egg-info/requires.txt
+roulette_russe.egg-info/top_level.txt
+scrapers/Choosemycompany.py
+scrapers/TwitterScraper.py
+scrapers/__init__.py
