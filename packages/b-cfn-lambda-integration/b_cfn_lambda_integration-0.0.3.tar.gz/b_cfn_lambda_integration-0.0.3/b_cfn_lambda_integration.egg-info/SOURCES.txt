@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+b_cfn_lambda_integration/__init__.py
+b_cfn_lambda_integration/lambda_integration.py
+b_cfn_lambda_integration.egg-info/PKG-INFO
+b_cfn_lambda_integration.egg-info/SOURCES.txt
+b_cfn_lambda_integration.egg-info/dependency_links.txt
+b_cfn_lambda_integration.egg-info/requires.txt
+b_cfn_lambda_integration.egg-info/top_level.txt
