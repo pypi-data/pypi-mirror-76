@@ -1,0 +1,14 @@
+jira<3,>=2
+pygithub<2,>=1.43.7
+
+[dev]
+black<20,>=19.3b0
+flake8
+pytest<6,>=5.0.1
+pytest-cov<3,>=2.7.1
+tox<4,>=3.13.2
+
+[docs]
+sphinx<3,>2
+sphinx_rtd_theme
+stsci_rtd_theme

@@ -1,0 +1,3 @@
+[console_scripts]
+jirahub = jirahub.command_line:main
+

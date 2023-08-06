@@ -1,0 +1,4 @@
+graft jirahub
+global-exclude *.py[cod] __pycache__ *.so
+include README.rst
+include LICENSE.rst
