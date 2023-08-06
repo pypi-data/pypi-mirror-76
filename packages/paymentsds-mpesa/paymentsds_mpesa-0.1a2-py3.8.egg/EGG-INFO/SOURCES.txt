@@ -1,0 +1,6 @@
+README.md
+setup.py
+paymentsds_mpesa.egg-info/PKG-INFO
+paymentsds_mpesa.egg-info/SOURCES.txt
+paymentsds_mpesa.egg-info/dependency_links.txt
+paymentsds_mpesa.egg-info/top_level.txt
