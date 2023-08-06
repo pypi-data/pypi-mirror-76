@@ -1,0 +1,15 @@
+command
+ph_data_clean
+ph_lmd
+phcli
+phconfig
+phcontainer
+phcontext
+phdagjobs
+phdagspec
+pherrs
+phexceptions
+phlogs
+phmetadata
+phs3
+phspec
