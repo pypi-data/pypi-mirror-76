@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: ipleak
+Version: 0.1.1
+Summary: Python Tool to check your VPN.
+Home-page: https://github.com/ProfileID/ipleak
+Author: profileid
+Author-email: profileid@protonmail.com
+License: MIT
+Description: # IP Leak
+        
+        ![tests](https://github.com/ProfileID/ipleak/workflows/tests/badge.svg)
+        [![PyPI package](https://img.shields.io/pypi/v/ipleak)](https://pypi.python.org/pypi/ipleak/)
+        [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ipleak.svg)](https://pypi.python.org/pypi/ipleak/)
+        [![PyPI license](https://img.shields.io/pypi/l/ipleak.svg)](https://pypi.python.org/pypi/ipleak/)
+        
+        Python Tool to check if your VPN Provider is good. Uses ipleak.net
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
