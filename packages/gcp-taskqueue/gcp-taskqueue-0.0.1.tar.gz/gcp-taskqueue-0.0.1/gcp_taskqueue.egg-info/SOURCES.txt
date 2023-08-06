@@ -1,0 +1,10 @@
+README.md
+gcp-taskqueue-setup.py
+setup.cfg
+setup.py
+gcp_taskqueue/__init__.py
+gcp_taskqueue.egg-info/PKG-INFO
+gcp_taskqueue.egg-info/SOURCES.txt
+gcp_taskqueue.egg-info/dependency_links.txt
+gcp_taskqueue.egg-info/requires.txt
+gcp_taskqueue.egg-info/top_level.txt
