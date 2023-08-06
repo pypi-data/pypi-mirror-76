@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+RC522_Python/__init__.py
+RC522_Python/rfid.py
+RC522_Python/util.py
+RC522_Python.egg-info/PKG-INFO
+RC522_Python.egg-info/SOURCES.txt
+RC522_Python.egg-info/dependency_links.txt
+RC522_Python.egg-info/requires.txt
+RC522_Python.egg-info/top_level.txt

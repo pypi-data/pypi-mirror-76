@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: RC522-Python
+Version: 1.0.0
+Summary: Raspberry Pi Python library for SPI RFID RC522 module.
+Home-page: https://github.com/STEMinds/RC522-Python
+Author: STEMinds
+Author-email: contact@steminds.com
+License: GNU Lesser General Public License v3.0
+Download-URL: https://github.com/STEMinds/RC522-Python/archive/1.0.0.tar.gz
+Description: Raspberry Pi Python library for SPI RFID RC522 module.
+Keywords: python,raspberry-pi,RC522,RFID,NFC,SPI
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
