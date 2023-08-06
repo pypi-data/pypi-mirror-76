@@ -1,0 +1,8 @@
+README.md
+setup.py
+quick_queue/__init__.py
+quick_queue/quick_queue.py
+quick_queue.egg-info/PKG-INFO
+quick_queue.egg-info/SOURCES.txt
+quick_queue.egg-info/dependency_links.txt
+quick_queue.egg-info/top_level.txt
