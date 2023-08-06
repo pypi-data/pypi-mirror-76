@@ -1,0 +1,4 @@
+requests==2.24.0
+avro-python3==1.10.0
+fastavro==0.24.0
+kafka-python==2.0.1
