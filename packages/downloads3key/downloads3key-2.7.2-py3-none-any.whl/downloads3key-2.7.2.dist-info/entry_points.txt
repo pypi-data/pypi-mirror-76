@@ -1,0 +1,3 @@
+[console_scripts]
+downloads3key = downloads3key.__main__:main
+
