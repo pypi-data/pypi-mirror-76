@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: namebase
+Version: 0.0.4
+Summary: Python Client to interact with the Namebase API
+Home-page: https://github.com/v1xingyue/namebase-py
+Author: v1xingyue
+Author-email: qixingyue@126.com
+License: UNKNOWN
+Description: # namebase-py
+        
+        ## Easy Install
+        
+        ```shell
+        pip install namebase
+        ```
+        
+        ## Name API
+        
+        ## Exchange API
+        
+        ## Other
+        
+        
+        
+Keywords: namebase,handshake
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
