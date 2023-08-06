@@ -1,0 +1,4 @@
+numpy
+faiss-cpu-noavx2
+flask
+flask-restful
