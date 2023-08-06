@@ -1,0 +1,10 @@
+README.md
+setup.py
+Kickbase_API.egg-info/PKG-INFO
+Kickbase_API.egg-info/SOURCES.txt
+Kickbase_API.egg-info/dependency_links.txt
+Kickbase_API.egg-info/requires.txt
+Kickbase_API.egg-info/top_level.txt
+kickbase_api/__init__.py
+kickbase_api/exceptions.py
+kickbase_api/kickbase.py
