@@ -1,0 +1,87 @@
+#!/bin/bash
+
+type _comp_filter &> /dev/null || return
+type _comp_contains &> /dev/null || return
+type _comp_remove_list &> /dev/null || return
+type _comp_filter_shorts &> /dev/null || return
+
+function _ccm() {
+
+    local cur prev words cword cline attack_modes not_complete byte_pos block_pos
+
+    _init_completion || return
+
+    cline="${COMP_LINE}"
+    COMPREPLY=()
+
+    byte_pos="--start-byte --end-byte"
+    block_pos="--start-block --end-block"
+    attack_modes="--aimed-flip --bit-flip --padding --shuffle --full-shuffle"
+    not_complete="--aimed-flip --start-block --start-byte --end-block --end-byte --min-byte --max-byte --help -h --block"
+
+    # complete supported block sizes
+	if [[ "$prev" == "--block-size" ]]; then
+		opts="8 16"
+        mapfile -t COMPREPLY < <(compgen -W "${opts}" -- "${cur}") 
+        return 0
+
+    # when we are in the second arg of --aimed-flip, complete nothing
+    elif [[ ${words[$((cword - 2))]} == "--aimed-flip" ]]; then
+        return 0
+
+    # complete possible encodings
+	elif [[ "$prev" == "--encoding" ]]; then
+		opts="b64 hex"
+        mapfile -t COMPREPLY < <(compgen -W "${opts}" -- "${cur}") 
+        return 0
+
+	# when an options requires a non guessable argument, complete nothing
+	elif _comp_contains "$not_complete" "$prev"; then
+		return 0
+
+    elif _comp_contains "$cline" "--aimed-flip --bit-flip --max-byte --min-byte $byte_pos"; then
+        opts="$byte_pos $block_pos --aimed-flip --bit-flip"
+
+        if _comp_contains "$cline" "--bit-flip --max-byte --min-byte"; then
+            _comp_remove_list "opts" "--aimed-flip";
+            opts="$opts --max-byte --min-byte --bit-flip"
+        fi
+
+        if _comp_contains "$cline" "--end-byte"; then
+            _comp_remove_list "opts" "--end-block"
+        elif _comp_contains "$cline" "--end-block"; then
+            _comp_remove_list "opts" "--end-byte"
+        fi
+
+        if _comp_contains "$cline" "--start-byte"; then
+            _comp_remove_list "opts" "--start-block"
+        elif _comp_contains "$cline" "--start-block"; then
+            _comp_remove_list "opts" "--start-byte"
+        fi
+
+    elif _comp_contains "$cline" "--shuffle"; then
+        opts="$block_pos --keep --block"
+
+    elif _comp_contains "$cline" "--full-shuffle"; then
+        opts="$block_pos"
+
+    elif _comp_contains "$cline" "--padding"; then
+        opts=""
+
+	else 
+        opts=$(_parse_help "$1")
+	fi
+
+    if _comp_contains "$cline" "$attack_modes"; then
+        _comp_remove_list "opts" "$attack_modes";
+    fi
+
+    opts="$opts --block-size -h --help"
+    _comp_filter "opts" "--block"
+    _comp_filter_shorts "opts"
+
+	mapfile -t COMPREPLY < <(compgen -W "${opts}" -- "${cur}") 
+	return 0
+}
+
+complete -F _ccm ccm
