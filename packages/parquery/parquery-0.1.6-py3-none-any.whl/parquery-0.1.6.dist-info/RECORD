@@ -1,0 +1,12 @@
+parquery/__init__.py,sha256=Ug-nfd_UxZtfgySB0ezdrwMexgKtCxsKXgPrg6DTv_0,201
+parquery/aggregate.py,sha256=B3gelJLZmgiyoyX1VSf9HOn9GA7lwKw-T57tJwcKJlI,6707
+parquery/transport.py,sha256=2id5H7Ls-rSoHP1GaF71Vje9Ephvt8iTCzOClQ0JfXw,586
+parquery/write.py,sha256=ujqlOzCgzF922lbMHSQong1fHjxxame0VBU84gBpLzU,1745
+parquery/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parquery/tests/test_parquery.py,sha256=mgieq77DawKcFCP-ewCKp3XD4pmy1uFNh4wkKOVtC4I,27839
+parquery-0.1.6.dist-info/LICENSE,sha256=UDsJglaU8jE1uAPxg5IFSw0p87vbbi4TNaCpNU273Nc,1069
+parquery-0.1.6.dist-info/METADATA,sha256=GikzV4b3N2s7udSySrtWs5Q247WCbOPh2EIu4iMDqio,1536
+parquery-0.1.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+parquery-0.1.6.dist-info/top_level.txt,sha256=LFTGboNtlSht3yfpMUjEtklILa9BDvo2iulvJBd-z2w,9
+parquery-0.1.6.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+parquery-0.1.6.dist-info/RECORD,,
