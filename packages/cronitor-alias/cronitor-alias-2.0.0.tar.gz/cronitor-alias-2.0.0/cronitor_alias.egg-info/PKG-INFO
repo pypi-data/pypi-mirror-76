@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cronitor-alias
+Version: 2.0.0
+Summary: Python wrapper for Cronitor's Monitor and Ping APIs.
+Home-page: https://github.com/cronitorio/cronitor-python
+Author: aflanagan
+Author-email: UNKNOWN
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
