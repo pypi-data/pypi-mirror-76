@@ -1,0 +1,1 @@
+from mmmbhs.stat import mean,median,mode
