@@ -1,0 +1,13 @@
+sjfmt_vendor/black.py,sha256=0yS7_cTZGxUlcRqetreDiHPuST4vL6aQQaaGvYRUttg,225169
+sjfmt_vendor/blackd.py,sha256=bqt80gKqBw9lZg4rYKicgqAEjfpnShkmSDtWFHLEvR8,7881
+straitjacket/__init__.py,sha256=Xq6h2Q3FbitDkeA8oWk5v2EY-aK-Q6t7WMSHNriKBqw,254
+straitjacket/__main__.py,sha256=u0b8TiSOHOMqKtwN_Y6XA9YgANxFBEdatLZiUJuBkA0,311
+straitjacket/sjfmt.py,sha256=3LQ5JstUAqIv5koWUXJoHG-ajP1po8L94czzc4CEicM,19240
+straitjacket/sjfmtd.py,sha256=CwA3MudrXsx3g1Xl0u7PGAGy3scf8UCTRn-NYRSTW9M,515
+straitjacket-202008.1014.dist-info/LICENSE,sha256=Zr7SZydIfcCTi_pQ_YwQ17Jyavs92j3nvHcl1d2NfyA,1122
+straitjacket-202008.1014.dist-info/METADATA,sha256=Hflsg_qUSd3WSB0Hk2udLO3NDZuCH8NDG8I5d9XL34Y,8273
+straitjacket-202008.1014.dist-info/WHEEL,sha256=kT4VOuO3SOoDM1ZRyQlvq4Hv2DZS-pqeZ2-IHEQncU8,131
+straitjacket-202008.1014.dist-info/entry_points.txt,sha256=CpL0s7pTX0ZCKlKcNnMwdfWhtPusy8_ygi03lgLXLlk,109
+straitjacket-202008.1014.dist-info/top_level.txt,sha256=2AEZ8_tzHFkOM3KIt5bR8Gna3_aF3aNt8S6E6Z2xNU8,26
+straitjacket-202008.1014.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+straitjacket-202008.1014.dist-info/RECORD,,
