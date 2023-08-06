@@ -1,0 +1,106 @@
+start: primary_expression
+
+primary_expression: "this"
+    | identifier_reference
+    | literal
+    | array_literal
+    | object_literal
+    | function_expression
+    | class_expression
+    | generator_expression
+    | async_function_expression
+    | async_generator_expression
+    | regular_expression_literal
+    | template_literal
+    | cover_parenthesized_expression_and_arrow_parameter_list
+
+identifier_reference: identifier
+    | "yield"
+    | "await"
+
+identifier_reference_yield: identifier
+    | "await"
+
+identifier_reference_await: identifier
+    | "yield"
+
+object_literal: "{" [property_definition_list [","] ] "}"
+
+object_literal_yield: "{" [property_definition_list_yield [","] ] "}"
+
+object_literal_await: "{" [property_definition_list_await [","] ] "}"
+
+generator_expression: "function" "*" [binding_identifier_yield] "(" formal_parameters_yield ")" "{" generator_body "}"
+
+async_generator_expression: "async" "function" "*" [binding_identifier] "(" formal_parameters ")" "{" async_generator_body "}"
+
+regular_expression_literal: "/" regular_expression_body "/" [regular_expression_flags]
+
+regular_expression_body: regular_expression_first_char [regular_expression_chars]
+
+
+
+
+binding_identifier: identifier
+    | "yield"
+    |  "await"
+
+binding_identifier_yield: identifier
+    | "yield"
+    |  "await"
+
+binding_identifier_await: identifier
+    | "yield"
+    |  "await"
+
+label_identifier: identifier
+    | "yield"
+    | "await"
+
+label_identifier_yield: identifier
+    | "await"
+
+label_identifier_await: identifier
+    | "yield"
+
+identifier: identifier_name
+
+identifier_name: NAME
+
+NAME: /[a-zA-Z_]\w*/
+
+STRING_LITERAL: /("(?!"").*?(?<!\\)(\\\\)*?"|'(?!'').*?(?<!\\)(\\\\)*?')/i
+
+HEX_DIGITS: /[0-9a-fA-f]+/
+HEX_INTEGER_LITERAL: "0x"i HEX_DIGITS
+
+OCTAL_DIGITS: /[0-7]+/
+OCTAL_INTEGER_LITERAL: "0o"i OCTAL_DIGITS
+
+
+BINARY_DIGITS: /[0-1]+/
+BINARY_INTEGER_LITERAL: "0b"i BINARY_DIGITS
+
+SIGNED_INTEGER: ("+" | "-")? DECIMAL_DIGITS
+EXPONENT_INDICATOR: /e/i
+EXPONENT_PART: EXPONENT_INDICATOR SIGNED_INTEGER
+NON_ZERO_DIGIT: /[1-9]/i
+DECIMAL_DIGITS: /[0-9]+/i
+DECIMAL_INTEGER_LITERAL: "0"
+    | NON_ZERO_DIGIT [DECIMAL_DIGITS]
+DECIMAL_LITERAL: DECIMAL_INTEGER_LITERAL "." [DECIMAL_DIGITS] [EXPONENT_PART]
+    | "." DECIMAL_DIGITS [EXPONENT_PART]
+    | DECIMAL_INTEGER_LITERAL [EXPONENT_PART]
+BIG_INT_LITERAL_SUFFIX: "n"
+NONDECIMAL_INTEGER_LITERAL: BINARY_INTEGER_LITERAL | OCTAL_INTEGER_LITERAL | HEX_INTEGER_LITERAL
+DECIMAL_BIG_INTEGER_LITERAL: "0" BIG_INT_LITERAL_SUFFIX
+    | NON_ZERO_DIGIT [DECIMAL_DIGITS] BIG_INT_LITERAL_SUFFIX
+NUMERIC_LITERAL: DECIMAL_LITERAL
+    | DECIMAL_BIG_INTEGER_LITERAL
+    | NONDECIMAL_INTEGER_LITERAL
+    | NONDECIMAL_INTEGER_LITERAL BIG_INT_LITERAL_SUFFIX
+BOOLEAN_LITERAL: "bool"
+NULL_LITERAL: "null"
+
+
+%ignore /[\u0009\u000B\u000C\u0020\u00A0\uFEFF\p{Zs}]+/ // WS
