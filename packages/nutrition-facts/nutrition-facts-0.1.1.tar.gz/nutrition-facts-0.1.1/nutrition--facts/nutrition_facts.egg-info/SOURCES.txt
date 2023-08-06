@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dist/nutrition-facts-0.0.1.tar.gz
+dist/nutrition-facts-0.1.1.tar.gz
+dist/nutrition_facts-0.0.1-py3-none-any.whl
+dist/nutrition_facts-0.0.1.tar.gz
+nutrition--facts/nutrition_facts.egg-info/PKG-INFO
+nutrition--facts/nutrition_facts.egg-info/SOURCES.txt
+nutrition--facts/nutrition_facts.egg-info/dependency_links.txt
+nutrition--facts/nutrition_facts.egg-info/top_level.txt
