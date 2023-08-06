@@ -1,0 +1,6 @@
+pytablewriter<1,>=0.56.0
+tcolorpy<1,>=0.0.5
+
+[test]
+pytest
+pytest-discord>=0.0.5
