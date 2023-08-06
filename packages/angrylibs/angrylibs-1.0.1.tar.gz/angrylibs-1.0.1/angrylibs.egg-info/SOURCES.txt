@@ -1,0 +1,11 @@
+README.md
+setup.py
+angrylibs/__init__.py
+angrylibs/helpers.py
+angrylibs.egg-info/PKG-INFO
+angrylibs.egg-info/SOURCES.txt
+angrylibs.egg-info/dependency_links.txt
+angrylibs.egg-info/entry_points.txt
+angrylibs.egg-info/not-zip-safe
+angrylibs.egg-info/requires.txt
+angrylibs.egg-info/top_level.txt
