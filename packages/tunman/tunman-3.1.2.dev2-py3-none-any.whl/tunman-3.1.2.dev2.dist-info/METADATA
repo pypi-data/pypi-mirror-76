@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: tunman
+Version: 3.1.2.dev2
+Summary: Tunnel Manager. A supervisor for SSH tunnels, provides easy configuration, monitoring, flexibility, restarting
+Home-page: https://github.com/riotkit-org/reverse-networking
+Author: RiotKit Collective
+Author-email: marek_andrzejczak@riseup.net
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Utilities
+Classifier: Topic :: System :: Systems Administration
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8
+Requires-Dist: attrs (==19.3.0)
+Requires-Dist: bcrypt (==3.2.0)
+Requires-Dist: bleach (==3.1.5)
+Requires-Dist: certifi (==2020.6.20)
+Requires-Dist: cffi (==1.14.2)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: cryptography (==3.0)
+Requires-Dist: docutils (==0.16)
+Requires-Dist: idna (==2.10)
+Requires-Dist: jinja2 (==2.11.2)
+Requires-Dist: jsonschema (==3.2.0)
+Requires-Dist: keyring (==21.3.0)
+Requires-Dist: markupsafe (==2.0.0a1)
+Requires-Dist: packaging (==20.4)
+Requires-Dist: paramiko (==2.7.1)
+Requires-Dist: pbr (==5.4.5)
+Requires-Dist: pkginfo (==1.5.0.1)
+Requires-Dist: psutil (==5.7.2)
+Requires-Dist: pycparser (==2.20)
+Requires-Dist: pygments (==2.6.1)
+Requires-Dist: pynacl (==1.4.0)
+Requires-Dist: pyparsing (==3.0.0a2)
+Requires-Dist: pyrsistent (==0.16.0)
+Requires-Dist: python-dotenv (==0.13.0)
+Requires-Dist: pyyaml (==5.3.1)
+Requires-Dist: readme-renderer (==26.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: rkd-python (==2.1.3)
+Requires-Dist: rkd (==2.1.3)
+Requires-Dist: rkt-ciutils (==3.0.3)
+Requires-Dist: rkt-utils (==3.0.3)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: tabulate (==0.8.7)
+Requires-Dist: tornado (==6.0.4)
+Requires-Dist: tqdm (==4.48.2)
+Requires-Dist: twine (==3.1.1)
+Requires-Dist: urllib3 (==1.25.10)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.1.0)
+Requires-Dist: importlib-metadata (==1.7.0) ; (python_version < '3.8')
+Requires-Dist: jeepney (==0.4.3) ; (sys_platform == 'linux')
+Requires-Dist: secretstorage (==3.1.2) ; (sys_platform == 'linux')
+
+TunMan
+
+
+
