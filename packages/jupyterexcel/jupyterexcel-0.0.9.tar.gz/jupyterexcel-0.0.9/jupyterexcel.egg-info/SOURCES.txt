@@ -1,0 +1,9 @@
+README.md
+setup.py
+jupyterexcel/__init__.py
+jupyterexcel/server_extension.py
+jupyterexcel/utils.py
+jupyterexcel.egg-info/PKG-INFO
+jupyterexcel.egg-info/SOURCES.txt
+jupyterexcel.egg-info/dependency_links.txt
+jupyterexcel.egg-info/top_level.txt
