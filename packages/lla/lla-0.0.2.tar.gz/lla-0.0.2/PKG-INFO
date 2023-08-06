@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: lla
+Version: 0.0.2
+Summary: A program to help build, maintain, and release PEP 517-compliant projects.
+Home-page: https://github.com/duckinator/lla
+Author: Ellen Marie Dash
+Author-email: me@duckie.co
+License: MIT
+Description: # ???
+        
+        Interpreter for a basic logic language, inspired by two-element boolean algebra.
+        
+        ## Demo
+        
+        Here's a quick demo, based on the example that prompted its creation:
+        
+            >>> from lla.interpreter import Interpreter
+            >>> variables = {
+            ...     'ssh': True,
+            ...     'website_up': True,
+            ...     'search_up': False,
+            ...     'elasticsearch.http': False,
+            ...     'elasticsearch.process': True,
+            ... }
+            >>> interpreter = Interpreter(variables)
+            >>> interpreter.run('ssh & website_up')
+            True
+            >>> interpreter.run('ssh & website_up & search_up')
+            False
+            >>> interpreter.run('!search_up & !elasticsearch.http & elasticsearch.process')
+            True
+            >>> interpreter.run('undefined_variable')
+            Traceback (most recent call last):
+                ...
+            lla.interpreter.UndefinedVariableException: Undefined variable: undefined_variable
+        
+        ## Overview
+        
+        Here's the gist of it:
+        
+        1. All variables are booleans.
+        2. You can't define variables, just pass the interpreter predefined values.
+           a. Or pass the `Interpreter` instance a `dict`, because those are mutable.
+        3. Only fully-resolvable statements are supported.
+           a. Anything else raises a Python exception.
+        4. You provide the interpreter a single statement and it gets simplified to a single boolean value, which is then return.
+        
+        
+        ## Dependencies
+        
+        In theory, this is all you need is Python 3.6+.
+        
+        ## Contributing
+        
+        Bug reports and pull requests are welcome on GitHub at https://github.com/duckinator/snektrace.
+        
+        The code for snektrace is available under the [MIT License](http://opensource.org/licenses/MIT).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: testing
