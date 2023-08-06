@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+Py2Opt/helper.py
+Py2Opt/routefinder.py
+Py2Opt/solver.py
+Py2Opt/test_distance.py
+py2opt.egg-info/PKG-INFO
+py2opt.egg-info/SOURCES.txt
+py2opt.egg-info/dependency_links.txt
+py2opt.egg-info/entry_points.txt
+py2opt.egg-info/top_level.txt
