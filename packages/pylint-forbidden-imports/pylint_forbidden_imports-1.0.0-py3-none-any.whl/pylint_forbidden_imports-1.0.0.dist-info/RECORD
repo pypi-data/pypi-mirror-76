@@ -1,0 +1,9 @@
+pylint_forbidden_imports/__init__.py,sha256=twnciRXusFqMDryc2BEq-kTLQhCvmWXMdsvk0X0fS-4,428
+pylint_forbidden_imports/encapsulated_modules.py,sha256=-fqlwceyTK2sP4GI6OEYhuP3a8OkJzLD064G2C_7_rg,5204
+pylint_forbidden_imports/forbidden_imports.py,sha256=-eHtnCZ4cufYRtAoIFaoAjVzn4cK58cMSR4PS2xhry0,4197
+pylint_forbidden_imports/modules.py,sha256=hnJTZB5k0_3VzLoBeO7ZRAWbmGQBxgxhvtOVpKydQKU,1495
+pylint_forbidden_imports-1.0.0.dist-info/LICENSE,sha256=2lEKtGMD3Zqn1TJ1LKjUfrir69W7G5PoPicAs0UdKLs,1077
+pylint_forbidden_imports-1.0.0.dist-info/METADATA,sha256=LMxacLvk045FuJKq55L1uXBlI_V8jNKMAlLIjiMoJHc,2622
+pylint_forbidden_imports-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pylint_forbidden_imports-1.0.0.dist-info/top_level.txt,sha256=7xnhXPxIIkpssV14tNqIz6oBVDi2e42PSKDTxiXfO8Y,25
+pylint_forbidden_imports-1.0.0.dist-info/RECORD,,
