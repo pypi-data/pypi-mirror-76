@@ -1,0 +1,11 @@
+schema_checker/__init__.py,sha256=tRFuTmrJVGfUYklAZWixR5vR17m_Eu5PPFNo0RAUHu0,167
+schema_checker/extras.py,sha256=xJaWKtrNOaJhRsu3a1usKcaOqlra6rLQCGX9VNXGl2Y,1118
+schema_checker/jschema.py,sha256=VCBDbh7zFqfzt0GhH_3vXkRcNcc5rqcmEX3VydFbNLQ,7385
+tests/__init__.py,sha256=UPpA-Qi47tbj8QLT3dFj9kvFRTv67kpdmvjPUrKyR1o,117
+tests/extras.py,sha256=cNT_7caMPmSaR4jP-VmCHjzYWy0qP944SOhlmlMkGXQ,3239
+tests/jschema.py,sha256=Sd6yhSGJLgGv3Y0c8QhV77Iiubaoy4BvsWE4fYGbQ5Y,11339
+schema_checker-1.1.0.dist-info/LICENSE,sha256=dtWvw2I_dyMGJa0treLnMckacSZdRDyvP6cId2c0uLs,1063
+schema_checker-1.1.0.dist-info/METADATA,sha256=ZlxGNGMYp5gbT3axrxznvVOlqRsgD_kfYH4_WH0EdA8,4704
+schema_checker-1.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+schema_checker-1.1.0.dist-info/top_level.txt,sha256=pzhGPWCrKeVZhjUFsWb8s2j2b8htluPmyqeG-vUBbSk,21
+schema_checker-1.1.0.dist-info/RECORD,,
