@@ -1,0 +1,5 @@
+__title__ = 'pyutil'
+__version__ = '5.2.1'
+__author__ = 'Thomas Schmelzer'
+__license__ = 'MIT'
+__copyright__ = 'Copyright 2020 by Thomas Schmelzer'
