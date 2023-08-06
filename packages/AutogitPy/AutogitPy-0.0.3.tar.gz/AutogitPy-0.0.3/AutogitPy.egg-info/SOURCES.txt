@@ -1,0 +1,7 @@
+README.md
+setup.py
+AutogitPy/__init__.py
+AutogitPy.egg-info/PKG-INFO
+AutogitPy.egg-info/SOURCES.txt
+AutogitPy.egg-info/dependency_links.txt
+AutogitPy.egg-info/top_level.txt
