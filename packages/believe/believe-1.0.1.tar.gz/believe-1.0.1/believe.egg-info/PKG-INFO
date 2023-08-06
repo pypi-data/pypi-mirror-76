@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: believe
+Version: 1.0.1
+Summary: A easy to use validator for json content
+Home-page: https://github.com/pkyosx/believe
+Author: Seth Wang
+Author-email: pkyosx@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: json,validate,validator
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
