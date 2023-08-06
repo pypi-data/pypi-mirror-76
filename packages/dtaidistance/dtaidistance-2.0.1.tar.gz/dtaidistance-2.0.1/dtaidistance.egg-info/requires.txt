@@ -1,0 +1,7 @@
+cython
+
+[numpy]
+numpy
+
+[vis]
+matplotlib
