@@ -1,0 +1,6 @@
+Setup.py
+setup.py
+aoussarpdf.egg-info/PKG-INFO
+aoussarpdf.egg-info/SOURCES.txt
+aoussarpdf.egg-info/dependency_links.txt
+aoussarpdf.egg-info/top_level.txt
