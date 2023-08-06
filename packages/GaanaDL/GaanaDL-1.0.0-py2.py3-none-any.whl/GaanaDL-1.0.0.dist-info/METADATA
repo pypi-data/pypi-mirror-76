@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: GaanaDL
+Version: 1.0.0
+Summary: Gaana Downloader
+Home-page: https://github.com/adityastic/gaanadl
+Author: Aditya Gupta
+Author-email: adityaofficialgupta@gmail.com
+License: mit
+Project-URL: Documentation, https://github.com/adityastic/gaanadl
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown; charset=UTF-8
+Requires-Dist: requests
+Requires-Dist: pycryptodome
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+# Gaana.com Downloader CLI
+
+![Python CI](https://github.com/adityastic/gaanadl/workflows/Python%20CI/badge.svg)
+
+## Pre-Requisites
+
+1. [FFMpeg](https://ffmpeg.org)
+2. [Python](https://www.python.org)
+
+## Installing gaanadl
+
+1. `git clone https://github.com/adityastic/gaandadl` to your desired location.
+2. Run `python setup.py install` to install the cli.
+
+## Setup Environment
+
+1. `git clone https://github.com/adityastic/gaandadl` to your desired location.
+2. [setup a virtual environment](https://docs.python.org/3/tutorial/venv.html) [Optional]
+3. `python setup.py develop` to configure and start developing.
+
+## License
+
+This project is Free and Open Source software. The project is licensed under the [MIT](LICENSE.txt).
+
+
