@@ -1,0 +1,3 @@
+[console_scripts]
+latex_render = latex_render.__main__:run
+
