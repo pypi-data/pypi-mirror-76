@@ -1,0 +1,10 @@
+lingualytics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lingualytics/learner.py,sha256=5gjKL51fZ4n5eb98gan694m-GHIiESP0rdVUoNNoJxM,14097
+lingualytics/preprocessing.py,sha256=f-WheZx3ArLPTYX_XElaugOJKwutQoBezzejRoJpjpQ,487
+lingualytics/representation.py,sha256=O5GNqLaXt_y8M1MUHFDeSz7I_hheczNbIQfTuecdFcw,375
+lingualytics/stopwords.py,sha256=3Am6xLhjIFLTg5dDWEGWRIAwb0Zfp6h6CY3YWXZ67yY,12220
+lingualytics-0.1.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+lingualytics-0.1.1.dist-info/METADATA,sha256=jQPvv3UMhIJ9RJ08h8WqIZL67r2a_6dMVvm0QLULF1E,476
+lingualytics-0.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+lingualytics-0.1.1.dist-info/top_level.txt,sha256=raL-twMGhSpZcmxoG9KGetD-kykoQMlPtZr9ChBKS_Y,13
+lingualytics-0.1.1.dist-info/RECORD,,
