@@ -1,0 +1,10 @@
+README
+README.md
+setup.py
+asql/main.py
+asql.egg-info/PKG-INFO
+asql.egg-info/SOURCES.txt
+asql.egg-info/dependency_links.txt
+asql.egg-info/entry_points.txt
+asql.egg-info/requires.txt
+asql.egg-info/top_level.txt
