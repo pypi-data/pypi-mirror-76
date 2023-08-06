@@ -1,0 +1,3 @@
+[console_scripts]
+fefu_admission = fefu_admission.cli:cli
+
