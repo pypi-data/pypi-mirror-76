@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pyconfigmanager
+Version: 0.2.7a0
+Summary: A simple config manager to load configuration file from outside of project
+Home-page: https://github.com/hassanazam/pyconfigmanager
+Author: MHA
+Author-email: hassanazam@live.com
+License: MIT
+Download-URL: https://github.com/HassanAzam/pyconfigmanager/archive/v0.2.7-alpha.tar.gz
+Description: For package details, installation and usage, See documentation at `Github
+        <https://github.com/HassanAzam/pyconfigmanager/>`_.
+Keywords: python config manager,config management,python config
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

@@ -1,0 +1,10 @@
+pyconfigmanager
+setup.cfg
+setup.py
+pyconfigmanager/__init__.py
+pyconfigmanager/config_manager.py
+pyconfigmanager/config_manager_factory.py
+pyconfigmanager.egg-info/PKG-INFO
+pyconfigmanager.egg-info/SOURCES.txt
+pyconfigmanager.egg-info/dependency_links.txt
+pyconfigmanager.egg-info/top_level.txt
