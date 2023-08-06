@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        course_parser=course_parser.scripts.cli:main
+    
