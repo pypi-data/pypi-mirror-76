@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/django_highcharts_series.py
+src/django_highcharts_series.egg-info/PKG-INFO
+src/django_highcharts_series.egg-info/SOURCES.txt
+src/django_highcharts_series.egg-info/dependency_links.txt
+src/django_highcharts_series.egg-info/top_level.txt
