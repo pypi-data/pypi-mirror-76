@@ -1,0 +1,9 @@
+
+[build]
+setuptools
+wheel
+twine
+
+[docs]
+coverage
+Sphinx

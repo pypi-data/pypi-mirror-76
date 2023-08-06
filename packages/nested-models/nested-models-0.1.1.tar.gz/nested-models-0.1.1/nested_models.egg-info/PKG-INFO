@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: nested-models
+Version: 0.1.1
+Summary: Simple Model objects that can be validated and serialized/deserialized into various formats.
+Home-page: https://github.com/renderbox/django-permafrost/
+Author: Grant Viklund
+Author-email: renderbox@gmail.com
+License: MIT license
+Description: # nested-models
+        
+        Nested models are serializeable objects that can be converted to various formats like JSON and YAML while providing functionality such as serialization/deserialization, cleaning, validation and  defaults values.
+        
+        It also utilizes a Schema format that can restrict the fields that are serialized by the object.
+        
+        Classes can be extended to add extra functionality and an encoder is provided that can be used with Django's JSON fields.
+        
+        It also supports nesting Models inside of Models.
+        
+        ## Goal
+        
+        The goal is to provide a basic object that can be sereialized/deserialized into various formats supported by Python.
+        
+Keywords: serialization,json,yaml
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Provides-Extra: build
+Provides-Extra: docs

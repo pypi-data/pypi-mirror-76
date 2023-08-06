@@ -1,0 +1,10 @@
+README.md
+setup.py
+nested_models.egg-info/PKG-INFO
+nested_models.egg-info/SOURCES.txt
+nested_models.egg-info/dependency_links.txt
+nested_models.egg-info/requires.txt
+nested_models.egg-info/top_level.txt
+nestedmodels/__init__.py
+nestedmodels/encoder.py
+nestedmodels/models.py
