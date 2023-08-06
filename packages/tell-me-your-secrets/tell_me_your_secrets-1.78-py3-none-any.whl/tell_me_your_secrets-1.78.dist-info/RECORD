@@ -1,0 +1,16 @@
+Test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Test/get_me_your_hosts.py,sha256=2eLzd7AO2a18_7Ykt0Sq_BtRF_7xtK1SboQeSlzrAP4,8499
+Test/test_regex_signature.py,sha256=bo5sXT8tGaH0AI5JnBmWHrgVl4_M8vQbVJLPyPFr6LY,3592
+Test/test_simple_match.py,sha256=7RRqK3-FLv3bOUcYZupscN-H1cc5oAIKecF3Y2NJv0Y,2466
+tell_me_your_secrets/__init__.py,sha256=Mv-oSJdev4-jbcm2oVgmzgtDpIpOkwr1QpAdSHLhyy0,37
+tell_me_your_secrets/__main__.py,sha256=MZPfJvhRq1L7b0ZB6EooH4b-TSKLQWtfHv_hqfwv0js,13673
+tell_me_your_secrets/config.yml,sha256=XNMs7pKU-RMO5rHtGvfKt3oLviT2ATh1Szh2kQG9Szo,13130
+tell_me_your_secrets/defaults.py,sha256=lc1ISboxab41ni4PCzM5KS5o_Vc-ouP3rkIKsxwX6og,3879
+tell_me_your_secrets/logger.py,sha256=3a5yaYE____mnDRmSmLioQMS6KtHH80J9uUNW2XedUg,410
+tell_me_your_secrets/utils.py,sha256=3hFy99wDkPCOrxMOUmVwTWbcnyBaeXOmYR5re9NuJJQ,824
+tell_me_your_secrets-1.78.dist-info/LICENSE.txt,sha256=YikFLy0c9oXPF9W-o91QY0WqRPsLPVeqNKkBsyIveeA,1062
+tell_me_your_secrets-1.78.dist-info/METADATA,sha256=UerVv92NWrt711kCQu3Y2Zk5mjRyAjqCD3XTbaLIj70,6861
+tell_me_your_secrets-1.78.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tell_me_your_secrets-1.78.dist-info/entry_points.txt,sha256=zXOguZpKv5laM-vqf4GlZZIMRghmzfJ1x4zS24JLCE0,84
+tell_me_your_secrets-1.78.dist-info/top_level.txt,sha256=cHx2gDs6vf071BfgB51qKw3YBAyR5yzbADSDUMRZJv0,26
+tell_me_your_secrets-1.78.dist-info/RECORD,,
