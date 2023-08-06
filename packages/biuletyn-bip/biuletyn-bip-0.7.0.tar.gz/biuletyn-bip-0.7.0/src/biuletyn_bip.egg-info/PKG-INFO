@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: biuletyn-bip
+Version: 0.7.0
+Summary: Polish BIP (Biuletyn Informacji Publicznej) as Flask application
+Home-page: https://github.com/zgoda/bip
+Author: Jarek Zgoda
+Author-email: jarek.zgoda@gmail.com
+License: GPLv3
+Project-URL: Documentation, https://bip.readthedocs.io/
+Project-URL: Source, https://github.com/zgoda/bip
+Project-URL: Issues, https://github.com/zgoda/bip/issues
+Description: Biuletyn Informacji Publicznej
+        ==============================
+        
+        Flask application that implements Polish BIP baseline (`Bulletin of Public Information <https://en.wikipedia.org/wiki/Biuletyn_Informacji_Publicznej>`_) according to Polish law requirements.
+        
+        Aplikacja Flask implementująca podstawowy Biuletyn Informacji Publicznej (BIP) zgodnie z polskimi wymogami prawnymi.
+        
+        Links / łącza
+        -------------
+        
+        * `Releases / wydania <https://pypi.org/project/biuletyn-bip/>`_
+        * `Tests / testy <https://github.com/zgoda/bip/actions?query=workflow%3ATests>`_
+        * `Coverage / pokrycie testami <https://coveralls.io/github/zgoda/bip>`_
+        * `Docs / dokumentacja <https://bip.readthedocs.io/pl/latest>`_
+        * `Code quality report / raport z jakości kodu <https://deepsource.io/gh/zgoda/bip>`_
+        
+        License
+        -------
+        
+        This application is provided under the terms of GNU General Public License, version 3. See file LICENSE in top level directory.
+        
+        Copyright: (c) 2019, Jarek Zgoda
+        
+        This application includes 3rd party code, see `documentation <https://bip.readthedocs.io/pl/latest/thirdparty.html>`_ for more details (in Polish).
+        
+Keywords: bip public information bulletin
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: Polish
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Content Management System
+Requires-Python: ~=3.7
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Provides-Extra: test
+Provides-Extra: docs

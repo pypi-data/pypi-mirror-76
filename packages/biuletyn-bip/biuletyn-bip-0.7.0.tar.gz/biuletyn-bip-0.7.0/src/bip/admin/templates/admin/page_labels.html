@@ -1,0 +1,53 @@
+{% extends "admin/base.html" %}
+
+{% from "macros/navigation.html" import breadcrumbs %}
+
+{% block headpagetitle %}Etykiety strony {{ page.title }}{% endblock %}
+
+{% block content %}
+<h2>Etykiety strony {{ page.title }}</h2>
+{% if page_labels %}
+<form method="POST" action="{{ request.path }}">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  <input type="hidden" name="op" value="remove">
+  <table class="table table-borderless">
+    {% for pl in page_labels %}
+    <tr>
+      <td>{{ pl.label.name }}</td>
+      <td><input type="checkbox" name="label" value="{{ pl.pk }}"/></td>
+    </tr>
+    {% endfor %}
+  </table>
+  <p><button class="btn btn-primary" type="submit">Usuń wybrane</button></p>
+</form>
+{% else %}
+<p>Nie ma żadnych etykiet.</p>
+{% endif %}
+{% if available_labels %}
+<h3>Dostępne etykiety</h3>
+<form method="POST" action="{{ request.path }}">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+  <input type="hidden" name="op" value="add">
+  <table class="table table-borderless">
+    {% for label in available_labels %}
+    <tr>
+      <td>{{ label.name }}</td>
+      <td><input type="checkbox" name="label" value="{{ label.pk }}"/></td>
+    </tr>
+    {% endfor %}
+  </table>
+  <p><button class="btn btn-primary" type="submit">Dodaj wybrane</button></p>
+</form>
+{% else %}
+{% if page_labels %}
+<p>Strona wykorzystuje wszystkie dostępne etykiety.</p>
+{% else %}
+<p>Nie ma żadnych etykiet.</p>
+{% endif %}
+{% endif %}
+{% endblock %}
+
+{% block breadcrumbs %}
+{% set pages = [(url_for('admin.home'), 'Początek'), (url_for('admin.page_list'), 'Lista stron'), (url_for('admin.page_detail', page_pk=page.pk), page.title), (request.path, 'Etykiety')] %}
+{{ breadcrumbs(pages) }}
+{% endblock %}
