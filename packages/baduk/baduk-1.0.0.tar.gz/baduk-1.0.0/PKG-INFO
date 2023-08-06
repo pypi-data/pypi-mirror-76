@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: baduk
+Version: 1.0.0
+Summary: Python Baduk Game
+License: MIT
+Author: Sarcoma
+Author-email: sarcoma@live.co.uk
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ansi-colours (==0.2.6)
+Requires-Dist: terminal-table (==0.3.1)
+Requires-Dist: text-template (==0.1.4)
