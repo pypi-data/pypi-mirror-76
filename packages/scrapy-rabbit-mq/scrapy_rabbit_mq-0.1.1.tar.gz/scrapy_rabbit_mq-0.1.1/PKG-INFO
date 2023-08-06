@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: scrapy_rabbit_mq
+Version: 0.1.1
+Summary: RabbitMQ Publisher for Scrapy and feed message from Rabbit MQ
+Home-page: https://github.com/JoeyRead/scrapy_rabbit_mq
+Author: Abrar Khan
+Author-email: abrar.nitk@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: scrapy_rabbit_mq
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
