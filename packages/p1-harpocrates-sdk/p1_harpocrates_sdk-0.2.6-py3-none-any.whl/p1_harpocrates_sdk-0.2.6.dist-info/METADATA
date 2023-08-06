@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: p1-harpocrates-sdk
+Version: 0.2.6
+Summary: p1 sdk of python
+Home-page: http://www.privacyone.co/
+Author: Jing Chen
+Author-email: jing.chen@privacyone.co
+License: privacy one commercial licensing
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests
+Requires-Dist: cryptography
+Requires-Dist: cacheout
+Requires-Dist: protobuf
+
+UNKNOWN
+
+
