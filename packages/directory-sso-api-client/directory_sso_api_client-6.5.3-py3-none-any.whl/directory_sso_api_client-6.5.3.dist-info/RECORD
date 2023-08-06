@@ -1,0 +1,12 @@
+directory_sso_api_client/__init__.py,sha256=ZqY4mCItPQr_YUFEG5HuKQ6wfsL06MUT6fAhliPOlBc,89
+directory_sso_api_client/backends.py,sha256=BZ4PuR2ZrxIeI9cCLdtUHMW0PW3CUNwqm_T4wfeXPpI,1975
+directory_sso_api_client/client.py,sha256=hryAI09GPT6xtZBIusBsU38BcnqqfNVkQZWyEp4OWU0,890
+directory_sso_api_client/middleware.py,sha256=OGidgL-vw9dyjG1IjQiIyVEcwtwAOV2ikYpkRblywiw,454
+directory_sso_api_client/models.py,sha256=t8gD-8SqubbJugnI13ddF6jbzZsEQvh-mQnI4fRuHxA,967
+directory_sso_api_client/testapiclient.py,sha256=wPjuu4Psm9-AFQFmmNiPvJAWdYM3eTIK9bCUSszToHo,1128
+directory_sso_api_client/user.py,sha256=I0X7pqTHYbd4wuWi91xB15pCyWi9CZip7yxFE5QTtug,5047
+directory_sso_api_client-6.5.3.dist-info/LICENSE,sha256=y-ArErAQz98OorLek2xntwEp9bo3ZcqfQMtAIcjBdvQ,1091
+directory_sso_api_client-6.5.3.dist-info/METADATA,sha256=Gwo_VIw9Nz6_VxUhNKHFVU_8iL1TuJro_uQS2QnRlX4,4511
+directory_sso_api_client-6.5.3.dist-info/WHEEL,sha256=YNlcxLoRZfMqjEfLMA4_N5GPCL0Yw1E8c7zrDjEU0Bk,92
+directory_sso_api_client-6.5.3.dist-info/top_level.txt,sha256=ctlxm_U43nCbxD69iYv-O5DI5b0YqkVCljjoLnmQnV0,25
+directory_sso_api_client-6.5.3.dist-info/RECORD,,
