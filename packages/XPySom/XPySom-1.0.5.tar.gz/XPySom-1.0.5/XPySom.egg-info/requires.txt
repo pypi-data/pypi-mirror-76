@@ -1,0 +1,16 @@
+numpy
+
+[cuda100]
+cupy-cuda100
+
+[cuda101]
+cupy-cuda101
+
+[cuda102]
+cupy-cuda102
+
+[cuda90]
+cupy-cuda90
+
+[cuda92]
+cupy-cuda92
