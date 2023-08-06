@@ -1,0 +1,24 @@
+[build-system]
+requires = ["poetry>=1.0.0",]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+version = "0.0.1"
+name = "japanese-addresses"
+authors = [ "wakame <hotwater1367@gmail.com>",]
+description = ""
+readme = "README.md"
+license = "MIT"
+homepage = ""
+repository = "https://github.com/wakamezake/japanese-addresses.git"
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+dataclasses = {version = "^0.7", python = ">=3.6, <3.7"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
+pandas = "^1.1.0"
+
+[tool.black]
+line-length = 79

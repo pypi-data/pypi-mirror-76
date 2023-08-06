@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: japanese-addresses
+Version: 0.0.1
+Summary: 
+Home-page: https://github.com/wakamezake/japanese-addresses.git
+License: MIT
+Author: wakame
+Author-email: hotwater1367@gmail.com
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: dataclasses (>=0.7,<0.8); python_version >= "3.6" and python_version < "3.7"
+Project-URL: Repository, https://github.com/wakamezake/japanese-addresses.git
+Description-Content-Type: text/markdown
+
+# japanese-addresses
+
+[![Python package](https://github.com/wakamezake/japanese-addresses/workflows/Python%20package/badge.svg?branch=master)](https://github.com/wakamezake/japanese-addresses/actions?query=workflow%3A%22Python+package%22)
+[![codecov](https://codecov.io/gh/wakamezake/japanese-addresses/branch/master/graph/badge.svg)](https://codecov.io/gh/wakamezake/japanese-addresses)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/wakamezake/japanese-addresses/master)
+
+Parsing Japan addresses to prefectures and cities.
+
+## Installation
+
+```
+pip install git+https://github.com/wakamezake/japanese-addresses.git
+```
+
+## Examples
+
+```python
+from japanese_addresses import separate_address
+
+parsed_address = separate_address('宮城県仙台市泉区市名坂字東裏97-1')
+
+print(parsed_address)
+"""
+ParsedAddress(prefecture='宮城県', city='')
+"""
+```
+
+## Testing
+
+```
+pip install poetry
+poetry install
+poetry run pytest
+```
+
