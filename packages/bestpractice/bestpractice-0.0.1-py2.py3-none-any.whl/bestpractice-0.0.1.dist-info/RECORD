@@ -1,0 +1,12 @@
+bestpractice/__init__.py,sha256=6syVxAyjdSd1jqNzqech2hEsIR23OztE_i8O2H2tdWU,151
+bestpractice/__main__.py,sha256=9NeUvCP9Rlt7Qf4JYGydg-hFoKz82wugr4OjA0LDNzE,84
+bestpractice/bestpractice.py,sha256=0Ung6ZYv89e6e9MkR2ABKL__IXafrgBHXTX9FLjVjfY,1178
+bestpractice/logx/__init__.py,sha256=RRERDGHv8vbRgjpTtn8F_w7H2ICqDjbSbrshVmxrp3M,101
+bestpractice/logx/colored_handler.py,sha256=K081uqHrvb221Z0iQg2UZcUSJJcm3ccp3CINX_Ej538,750
+bestpractice/logx/logging.yaml,sha256=5s_CafAjvPwwkbO0bU3tT_JLrv64MqLZEoC10Jh1-yA,651
+bestpractice/logx/setup_logging.py,sha256=YjJljZtW7fnpsVavGTudr4n7yKYJodrXxjZPozupXwM,851
+bestpractice-0.0.1.dist-info/METADATA,sha256=g4www9EraqzqNX9TRcgjxVkUbatSTItN7V19Uu4JJdI,2581
+bestpractice-0.0.1.dist-info/WHEEL,sha256=_wJFdOYk7i3xxT8ElOkUJvOdOvfNGbR9g-bf6UQT6sU,110
+bestpractice-0.0.1.dist-info/entry_points.txt,sha256=gTs7kEeJQtzdRRkBBVYF-F5DQoIeT4tv0BkytrWMDfk,59
+bestpractice-0.0.1.dist-info/top_level.txt,sha256=L6My0LgBK7lm2XTxbE8rI2SA2kAzAOR2bDRblGUk_7k,13
+bestpractice-0.0.1.dist-info/RECORD,,
