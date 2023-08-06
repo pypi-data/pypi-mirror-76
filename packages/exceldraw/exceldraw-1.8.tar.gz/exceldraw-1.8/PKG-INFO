@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: exceldraw
+Version: 1.8
+Summary: Upload any image and get image drawn on Excel
+Home-page: https://github.com/jojo96/exceldraw
+Author: Ujjayanta
+Author-email: ujjayanta.bhaumik.18@ucl.ac.uk
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
