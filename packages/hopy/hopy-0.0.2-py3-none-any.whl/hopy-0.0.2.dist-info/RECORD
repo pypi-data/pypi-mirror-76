@@ -1,0 +1,10 @@
+hopy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hopy/const.py,sha256=usXLhW4dVvHlmaq10T9DBsqFTFLMFL500jlUAZE1Zng,3139
+hopy/evaluator.py,sha256=UGGAj9d_83xJPQVsNrinKttVgcAFHQFnLs3y_eBQ0ZQ,1435
+hopy/lexer.py,sha256=CU4sbVAoXZRNpbmEucE-xdhp9Qjnu9f72_uK8CxScwc,3637
+hopy/parser.py,sha256=g_NzFQ8zKObCy2uvyyhtdd-49ejWGCqyEasxq0FTITI,7008
+hopy-0.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hopy-0.0.2.dist-info/METADATA,sha256=zLaTCC8dyKPzDRSk3aeCs9B-xMPh7WAE-q-lfUKPLIc,1541
+hopy-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+hopy-0.0.2.dist-info/top_level.txt,sha256=0c4r0PgHx_hHfRAFzNQGmdQ4tudY8m1_KJUraLsBakY,5
+hopy-0.0.2.dist-info/RECORD,,
