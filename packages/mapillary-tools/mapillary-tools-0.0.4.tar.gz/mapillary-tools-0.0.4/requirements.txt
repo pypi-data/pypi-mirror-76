@@ -1,0 +1,4 @@
+piexif
+requests
+tqdm
+urllib3
