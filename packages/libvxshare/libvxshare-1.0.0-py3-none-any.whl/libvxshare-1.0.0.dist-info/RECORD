@@ -1,0 +1,9 @@
+libvxshare/__init__.py,sha256=lAru-G747A3uhpgHk4DvxNIfRcLcPc1sHfchcyDURbI,1233
+libvxshare/apiv2.py,sha256=GOhMa7fM0xHS-Kql6ExfVb5O9CaeGbW5ge_F4X9xQCg,7119
+libvxshare/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libvxshare/tests/test_apiv2.py,sha256=J8eSU8Dl9KOywws0EbCHeIaNXF01VnYEZ-zWHN5Lso0,7616
+libvxshare-1.0.0.dist-info/LICENSE,sha256=wq58_eL-4ptHSd819gv6asHbxiuIabE0FH40PYcVAIg,1069
+libvxshare-1.0.0.dist-info/METADATA,sha256=DhT0JGvmd_R_PD2sMdgBA3X-rcG2liXHQWLPCJ0MZOM,1668
+libvxshare-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+libvxshare-1.0.0.dist-info/top_level.txt,sha256=9dVl8n9O435byx6lBtnMemYIBKljDCmonJ86kvIhVVc,11
+libvxshare-1.0.0.dist-info/RECORD,,

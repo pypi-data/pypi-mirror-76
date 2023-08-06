@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: libvxshare
+Version: 1.0.0
+Summary: Unofficial VirusShare API Wrapper
+Home-page: https://github.com/chapinb/libvxshare
+Author: Chapin Bryce
+Author-email: python@chapinb.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Natural Language :: English
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Security
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+Requires-Dist: requests (~=2.24.0)
+
+# LibVXShare
+
+An unofficial API wrapper for VirusShare.com
+
+[![Build Status](https://travis-ci.org/chapinb/libvxshare.svg?branch=master)](https://travis-ci.org/chapinb/libvxshare) 
+[![Coverage Status](https://coveralls.io/repos/github/chapinb/libvxshare/badge.svg?branch=master)](https://coveralls.io/github/chapinb/libvxshare?branch=master) 
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+
+## Documentation
+
+* Module documentation: https://chapinb.com/libvxshare
+* Official documentation: https://virusshare.com/apiv2_reference
+
+
