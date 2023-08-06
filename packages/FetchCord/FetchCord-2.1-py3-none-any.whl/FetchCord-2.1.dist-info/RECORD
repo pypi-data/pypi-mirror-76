@@ -1,0 +1,13 @@
+fetch_cord/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fetch_cord/__main__.py,sha256=0Y36y_FP9PjA2q4WOtGeNkglFIjXJNBmVlRsXVignfE,46
+fetch_cord/args.py,sha256=SVOEzEYUKH6dDY5o3YEmIkATbS-MW2wUY2n1HUHXq3I,1191
+fetch_cord/bash.py,sha256=nqrd-X24wNQoP78BqpNgYJAyiDhGzM3rcil-IY_Ge0E,444
+fetch_cord/out.py,sha256=tnLAJK8vb7naWnJlR9_ydzdthiRq3ES1cjYbrpzN9W0,6670
+fetch_cord/run_rpc.py,sha256=AMTQACZW67W46IyDDlkPE-k_USYNgSfNDzdy2p7yAWA,4834
+fetch_cord/testing.py,sha256=Cm2Rp2k0pX20AjQ6svE5pRpoAZFSONzTE4cYBW3Q_5c,10289
+FetchCord-2.1.dist-info/LICENSE,sha256=TZcntdBEcH1uaN5O7QLQBkyTC-FPdO5J2PTizKg8jaA,1069
+FetchCord-2.1.dist-info/METADATA,sha256=DPtYEnWW_7RrI18mJ0t-Nb-vS312l99Gpetv1K-FECY,3982
+FetchCord-2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+FetchCord-2.1.dist-info/entry_points.txt,sha256=gEtj2gl_BPqIahVc4Yo6TdmylLikW0uWzBC62P2ZMWA,55
+FetchCord-2.1.dist-info/top_level.txt,sha256=I7Ij1Hg1ijdVjJlzoAYuML1P73XQVM-nvtaaVLpNiis,11
+FetchCord-2.1.dist-info/RECORD,,
