@@ -1,0 +1,9 @@
+alcom/__init__.py,sha256=5GblYyMbk8JySosj59Rvi2uzLqfP-DAs77ikwTafXT4,21
+alcom/aligner.py,sha256=63YEf9tw4uElCnW0-6Gry0xjT3RBG4zkNJpwwLsFxko,7012
+alcom/filemanager.py,sha256=kWqgAuGxxUaGqC0X058HKZ4xeKFdWEZBx8OxiOr91y8,871
+alcom/run.py,sha256=WXkPHWCV9LeXGX2Ti4YJQucEQYHjC9cn8QnA-yPx_0c,860
+alcom-1.2.0.dist-info/METADATA,sha256=w2VqBBFgAAwG2ZPFUTqxVmaEXyTu4mXTBsfnQQwAtVc,298
+alcom-1.2.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+alcom-1.2.0.dist-info/entry_points.txt,sha256=JzyoEUqCJlaK98E_sjAyM-BrBKRKHo8dBhGasNVUhh4,42
+alcom-1.2.0.dist-info/top_level.txt,sha256=8KauAjYVT3Umk6_lWIwyC5wpRz0xBx6zHx_3gLTN8ds,6
+alcom-1.2.0.dist-info/RECORD,,

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: alcom
+Version: 1.2.0
+Summary: UNKNOWN
+Home-page: https://github.com/YoungMeatBoy/alcom.git
+Author: Miasnenko Dmitry
+Author-email: cl0wzed.exe@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pathlib
+Requires-Dist: argparse
+Requires-Dist: accessify
+
+UNKNOWN
+
+
