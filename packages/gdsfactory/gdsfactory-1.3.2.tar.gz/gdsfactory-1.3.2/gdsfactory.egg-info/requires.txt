@@ -1,0 +1,17 @@
+click
+gitpython
+gdspy
+omegaconf
+jsondiff
+klayout
+numpy
+pandas
+phidl
+picwriter
+pyqtree
+qrcode
+rectpack
+scipy
+shapely
+pytest-regressions
+networkx
