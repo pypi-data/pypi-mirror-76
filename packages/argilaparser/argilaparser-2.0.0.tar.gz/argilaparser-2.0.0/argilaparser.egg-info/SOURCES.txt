@@ -1,0 +1,8 @@
+README.md
+setup.py
+argila/__init__.py
+argila/exceptions.py
+argilaparser.egg-info/PKG-INFO
+argilaparser.egg-info/SOURCES.txt
+argilaparser.egg-info/dependency_links.txt
+argilaparser.egg-info/top_level.txt
