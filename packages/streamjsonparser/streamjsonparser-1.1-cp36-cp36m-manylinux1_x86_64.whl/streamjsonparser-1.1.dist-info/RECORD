@@ -1,0 +1,13 @@
+stream_json_parser_utils.cpython-36m-x86_64-linux-gnu.so,sha256=8Bt-UA8uedKctkhgwpnMJskKADfJam8BSJ09UmK00KI,72912
+streamjsonparser-1.1.dist-info/RECORD,,
+streamjsonparser-1.1.dist-info/LICENSE,sha256=xCs5ywcMLkMC-TvTeDkUMLmDVEBNtjCVCqz5NAo3SJY,1073
+streamjsonparser-1.1.dist-info/METADATA,sha256=KL4kttlAV686oiiODeP70gPuWB18v6XYMJbsHnKxGK0,605
+streamjsonparser-1.1.dist-info/WHEEL,sha256=sls3I4AwOjcUUS0eD_jeWVVjbWXRb5AM-U3YAwvxhss,109
+streamjsonparser-1.1.dist-info/top_level.txt,sha256=QTliHXM61PXsz3V8gyyD7tXx3vpPTVR6GXBWewmFdq4,48
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/jsontokenizer.py,sha256=iaFcxjGuLDtTkRqnBBfkEgumcMi39QPSH5r4OCzFfiw,12934
+test/streamdecoder.py,sha256=Ab-Y1DpZ22YxtUaCN9--rt8GcmcbYg4qaskyBY3DrBY,16998
+decoder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+decoder/streamdecoder.py,sha256=DYkZx6zNft5_8dNJwqUbBcVJgI7tZjWdgUskNr8BKoc,6570
+tokenizer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tokenizer/jsontokenizer.py,sha256=6wjC7j3NQaYZ9eDirJfsJI5o04bMwpf8dFRhATNV5-E,2250
