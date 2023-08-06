@@ -1,0 +1,66 @@
+Metadata-Version: 1.1
+Name: serverPKI
+Version: 0.9.11
+Summary: PKI for internet server infrastructure
+Home-page: https://serverpki.readthedocs.io
+Author: Axel Rau
+Author-email: Axel.Rau@Chaos1.DE
+License: GPLv3
+Description: 
+        serverPKI is a tool to issue and distribute SSL certificates for internet
+        servers. Distribution to target hosts and reloading of server configuration
+        is done via ssh/sftp. Configuration and cert/key data is stored in a relational
+        database.
+        
+        serverPKI includes support for
+        
+        - local CA
+        - LetsEncrypt CA (supports only acme v2 api, see https://letsencrypt.org/docs)
+        - FreeBSD service jails via ssh access to host
+        - publishing of DANE RR in DNS, using BIND 9 and TLSA key rollover (see RFC 6698)
+        - controlling DNS zone info for LetsEncrypt challenges und TLSA RR via dynamic
+          DNS updates (recommended) or via zone files.
+        - unattended operation via cronjob
+        - extensive logging
+        - alerting via mail
+         
+        Required packages:
+            PostgreSQL
+        
+        Required Python3 packages:
+        
+            configobj>=5.0.6,
+            cryptography>=2.9.2,
+            automatoes>=0.9.5,
+            dnspython>=1.16.0,
+            py-postgresql>=1.2.1,
+            paramiko>=2.4.2,
+            prettytable>=0.7.2,
+            iso8601
+        
+        To install the development version, ``pip install -e
+        git+https://github.com/mc3/serverPKI/#egg=serverPKI``.
+        
+        Additional requirements for testing:
+        
+            pytest>=5.4.3      
+            pytest-console-scripts>=0.2.0      
+            pytest-cov>=2.10.0     
+            pytest-pycharm>=0.6.0      
+            pytest-runner>=5.2        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Internet
+Classifier: Topic :: Security :: Cryptography
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Natural Language :: English

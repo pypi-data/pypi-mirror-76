@@ -1,0 +1,8 @@
+automatoes>=0.9.5
+configobj>=5.0.6
+cryptography>=2.9.2
+dnspython>=1.16.0
+py-postgresql>=1.2.1
+paramiko>=2.4.2
+prettytable>=0.7.2
+iso8601
