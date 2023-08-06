@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: BibleHubScrapper
+Version: 0.0.1
+Summary: A module to scrape biblehub.com, also cli app
+Home-page: https://github.com/joshpetit/BibleHubScrapper
+Author: Joshua Petitma
+Author-email: joshuapetitma@yahoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# BibleHubScrapper
+A python module to retrieve single verses from biblehub.com. Also includes commandline arguments.
+
+## Commandline
+To retrieve all of the currently available information on a reference, use the a tag:
+
+`biblehub -a [Reference]`
+
+To only retrieve specific information pass in the corresponding tag:
+```
+biblehub -c [Reference] # Retrieves the reference and the cross-references
+biblehub -t [Reference] # Retrieves the reference and the Treasury of Scripture
+biblehub -l [Reference] # Retrieves the reference and the lexicon
+```
+Arguments can be stacked with one hyphen such as:
+```
+biblehub -cl [Reference] # Retrieves the reference, cross-references, and lexicon
+```
+## Query Usage
+```
+from BibleHubScrapper import query
+
+bible_hub_query = query('Genesis 1:1')
+print(bible_hub_query.text) # In the beginning...
+```
+You can choose not to query certain fields by indicating in the parameters
+for example:
+` query('Genesis 1:1', get_lexicons=False) `
+
+## Useful fields
+```
+print(bible_hub_query.passage) # Genesis 1:1
+print(bible_hub_query.version) # NIV (default)
+print(bible_hub_query.lexicons) # Text, Hebrew words, translit, strong, and English defintions
+print(bible_hub_query.crfs) # Cross References
+print(bible_hub_query.tos) # Treasury of Scripture
+```
+there is also a `bible_hub_query.print_lexicons` method that may prove useful
+
+## CLI
+
+
+## Todo
+- Possibly support multiple verses
+- Add the text for verses in cross-references
+- Possibly make vim plugin
+- Consider fetching commentaries, or a specific one
+
+
