@@ -1,0 +1,10 @@
+README.md
+setup.py
+cloudwatch_logging/CloudwatchLogging.py
+cloudwatch_logging/__init__.py
+cloudwatch_logging.egg-info/PKG-INFO
+cloudwatch_logging.egg-info/SOURCES.txt
+cloudwatch_logging.egg-info/dependency_links.txt
+cloudwatch_logging.egg-info/top_level.txt
+tests/__init__.py
+tests/test_cloudwatch_logging.py
