@@ -1,0 +1,29 @@
+Metadata-Version: 1.1
+Name: checkidcreator
+Version: 0.0.3
+Summary: A program to generate a random id of any length greater than 1 with a check digit.
+Home-page: UNKNOWN
+Author: Pratham Aggarwal
+Author-email: me@prathamaggarwal.com
+License: MIT
+Description: Use this library to create an id of any length with a check digit in it. The id will be returned as a string.
+        
+        Developed by Pratham Aggarwal.
+        
+        CHANGE LOG
+        ===========
+        
+        Version 0.0.1 (13 August 2020)
+        - First Release
+        
+        Version 0.0.2 (13 August 2020)
+        - Bug Fixes
+        
+        Version 0.0.3 (17 August 2020)
+        - Added custom modulo parameter
+Keywords: id generator,check id,id creator
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

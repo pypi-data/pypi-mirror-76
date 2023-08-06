@@ -1,0 +1,11 @@
+CHANGE LOG
+===========
+
+Version 0.0.1 (13 August 2020)
+- First Release
+
+Version 0.0.2 (13 August 2020)
+- Bug Fixes
+
+Version 0.0.3 (17 August 2020)
+- Added custom modulo parameter

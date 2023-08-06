@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+checkidcreator/__init__.py
+checkidcreator.egg-info/PKG-INFO
+checkidcreator.egg-info/SOURCES.txt
+checkidcreator.egg-info/dependency_links.txt
+checkidcreator.egg-info/top_level.txt
