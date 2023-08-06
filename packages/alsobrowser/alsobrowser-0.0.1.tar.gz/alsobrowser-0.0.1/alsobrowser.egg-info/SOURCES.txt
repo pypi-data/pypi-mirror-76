@@ -1,0 +1,5 @@
+setup.py
+alsobrowser.egg-info/PKG-INFO
+alsobrowser.egg-info/SOURCES.txt
+alsobrowser.egg-info/dependency_links.txt
+alsobrowser.egg-info/top_level.txt
