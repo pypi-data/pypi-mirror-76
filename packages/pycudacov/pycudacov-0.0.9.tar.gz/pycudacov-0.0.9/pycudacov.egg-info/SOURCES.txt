@@ -1,0 +1,7 @@
+README.md
+setup.py
+pycudacov/__init__.py
+pycudacov.egg-info/PKG-INFO
+pycudacov.egg-info/SOURCES.txt
+pycudacov.egg-info/dependency_links.txt
+pycudacov.egg-info/top_level.txt
