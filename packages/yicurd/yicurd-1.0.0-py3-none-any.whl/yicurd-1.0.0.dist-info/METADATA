@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: yicurd
+Version: 1.0.0
+Summary: db operations
+Home-page: https://github.com/yimian/curd
+License: MIT
+Keywords: db operations
+Platform: UNKNOWN
+Provides-Extra: cassandra
+Requires-Dist: cassandra-driver (==3.11.0) ; extra == 'cassandra'
+Provides-Extra: hbase
+Requires-Dist: phoenixdb (==0.7) ; extra == 'hbase'
+Provides-Extra: mysql
+Requires-Dist: PyMySQL (==0.7.11) ; extra == 'mysql'
+
+UNKNOWN
+
+
