@@ -1,0 +1,12 @@
+README.md
+setup.py
+alcom/__init__.py
+alcom/aligner.py
+alcom/filemanager.py
+alcom/run.py
+alcom.egg-info/PKG-INFO
+alcom.egg-info/SOURCES.txt
+alcom.egg-info/dependency_links.txt
+alcom.egg-info/entry_points.txt
+alcom.egg-info/requires.txt
+alcom.egg-info/top_level.txt
