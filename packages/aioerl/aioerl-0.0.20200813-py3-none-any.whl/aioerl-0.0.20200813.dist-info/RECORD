@@ -1,0 +1,9 @@
+aioerl/__init__.py,sha256=Z5qCSdH-W3uyRIvX_2FVZfHVQT5KJYTwIc1M9p6nbjo,245
+aioerl/main.py,sha256=FR4eHM0O8s8U1DGoBwVktrbGBhOpu2wGQQwirjrem2Q,6740
+aioerl/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aioerl/tests/test_aioerl.py,sha256=ECdKcug1RiopcOcuizUjA8nGOoshG50ao4dvzebivgQ,3945
+aioerl/utils.py,sha256=5MRhePIFvfuG8sQSgrEOM6eLZkv-OjPfDXkrGg2anCk,65
+aioerl-0.0.20200813.dist-info/LICENSE,sha256=xhtZn8bX0Z7MmMhWM0g2p-wNonZ7kZeXu24-PAIhuRc,35065
+aioerl-0.0.20200813.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+aioerl-0.0.20200813.dist-info/METADATA,sha256=_lmFgCpY_jdeD2bwxeQ9au4_E-rSzKPpF7plB7xbS40,2514
+aioerl-0.0.20200813.dist-info/RECORD,,
