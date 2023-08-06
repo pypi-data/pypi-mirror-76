@@ -1,0 +1,12 @@
+README.md
+setup.py
+uniplot/__init__.py
+uniplot/getch.py
+uniplot/pixel_matrix.py
+uniplot/plot_elements.py
+uniplot/uniplot.py
+uniplot.egg-info/PKG-INFO
+uniplot.egg-info/SOURCES.txt
+uniplot.egg-info/dependency_links.txt
+uniplot.egg-info/requires.txt
+uniplot.egg-info/top_level.txt
