@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+botnoi/__init__.py
+botnoi/botnoiapi.py
+botnoi.egg-info/PKG-INFO
+botnoi.egg-info/SOURCES.txt
+botnoi.egg-info/dependency_links.txt
+botnoi.egg-info/top_level.txt
