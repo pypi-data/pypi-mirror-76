@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ordered-hash-set
+Version: 0.0.2
+Summary: Set that maintains insertion order
+Home-page: https://https://github.com/buyalsky/ordered-hash-set
+Author: Burak Dursunlar
+Author-email: burak.dursunlar@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: OS Independent
+
+ordered-hash-set
+
+ordered-hash-set is data structure that stores immutable unique elements.
+Unlike built-in set in python, it is also keeps the insertion order.
+
+
