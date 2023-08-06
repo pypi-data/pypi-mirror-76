@@ -1,0 +1,8 @@
+Change Log
+==========
+
+0.0.4 (12/08/2020)
+-------------------
+- adaugarea in modulul Utility.py functia pentru extragerea str dintr-o variabila text, incadrata in tra vlorile indicate
+    ex:
+        print(extract_str(<Text>, <From>, <Until>)) # until default '/'

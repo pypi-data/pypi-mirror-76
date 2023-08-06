@@ -1,0 +1,25 @@
+Metadata-Version: 1.1
+Name: UNA-Support
+Version: 0.0.4
+Summary: UNA support modules
+Home-page: UNKNOWN
+Author: Gaidarji Nicolae
+Author-email: nicolaegaidarji@gmail.com
+License: MIT
+Description: This is UNA support modules
+        
+        Change Log
+        ==========
+        
+        0.0.4 (12/08/2020)
+        -------------------
+        - adaugarea in modulul Utility.py functia pentru extragerea str dintr-o variabila text, incadrata in tra vlorile indicate
+            ex:
+                print(extract_str(<Text>, <From>, <Until>)) # until default '/'
+Keywords: UNA
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
