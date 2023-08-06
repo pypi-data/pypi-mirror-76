@@ -1,0 +1,12 @@
+papersurfer/bibtex.py,sha256=o2FIX77gjygXuLIV0KQKi9tD3xTNUbEObZHvZq04nFM,373
+papersurfer/doi.py,sha256=V5hh1zN8uepALpCol86NblV18TNsX3V6uINiW42QMGk,2574
+papersurfer/dtos.py,sha256=DRmCH1JGX4cRaDIBZGXMgLJ_sOXqnr8Mi_Y_MJkySP4,435
+papersurfer/exceptions.py,sha256=DjVvfvh0Li8XPTeV8Xwflc2p_hACrDse67vp1S2xYyw,90
+papersurfer/mattermost.py,sha256=osL7TbQEUw47YJcyk_7KAlq5huXt6YZn_Awv7efis3g,3551
+papersurfer/papersurfer.py,sha256=yghmFxxOMyX6wA2CDzq2-GgEvXPEhILc1Aelctxz0_4,16364
+papersurfer/ui_elements.py,sha256=NuGqcKkekIZ60qqC33fhYjZRz9muR4cJbsNCLj_DQbA,1125
+papersurfer-0.7.0.dist-info/METADATA,sha256=8qLOgWY-OS2ZfrihsNlBmh5A-xLKAQjWMvg4tB-dmL8,600
+papersurfer-0.7.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+papersurfer-0.7.0.dist-info/entry_points.txt,sha256=sOF3lMJXDHoCqOTS6EaKjz_m2YzODRnb-x4b1zTXnGI,62
+papersurfer-0.7.0.dist-info/top_level.txt,sha256=Sm4kucqrzffPcf5_VbIzn_MGELhCWqoXFBz7C4udEpI,12
+papersurfer-0.7.0.dist-info/RECORD,,
