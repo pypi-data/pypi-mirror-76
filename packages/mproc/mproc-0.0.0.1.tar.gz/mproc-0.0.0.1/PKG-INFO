@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: mproc
+Version: 0.0.0.1
+Summary: Python Multiprocessing helpers
+Home-page: https://github.com/brookisme/mproc
+Author: Brookie Guzder-Williams
+Author-email: brook.williams@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/brookisme/mproc/tarball/0.1
+Description: UNKNOWN
+Keywords: Multiprocessing,Pool,Threadpool
+Platform: UNKNOWN
