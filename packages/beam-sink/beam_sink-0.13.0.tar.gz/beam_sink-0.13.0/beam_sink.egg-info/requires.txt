@@ -1,0 +1,5 @@
+apache-beam
+mysql-connector-python
+pydantic
+psycopg2-binary
+httplib2>=0.18.0
