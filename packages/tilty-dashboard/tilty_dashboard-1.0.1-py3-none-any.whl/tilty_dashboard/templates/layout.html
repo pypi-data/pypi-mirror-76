@@ -1,0 +1,117 @@
+{% extends "bootstrap/base.html" %}
+
+{% block head %}
+{{ super() }}
+    <style>
+      body { background-color:#555888; font-family:sans-serif; color:#fff; text-align:center }
+      code { display:inline-block; max-width:600px;  padding:80px 0 0; line-height:1.5; font-family:monospace; color:#ccc }
+      #footer {
+      	width: 960px;
+      	height: 50px;
+      	margin: 0 auto;
+      	padding: 0px 0 15px 0;
+      	border-top: 1px solid #292929;
+      }
+      #footer p {
+      	margin: 0;
+      	padding-top: 20px;
+      	line-height: normal;
+      	text-transform: uppercase;
+      	text-align: center;
+      	color: #444444;
+      }
+      #footer a {
+      	color: #444444;
+      }
+      .preview-textfield{
+        position: relative;
+        top: -165px;
+        left: 0;
+        right: 0;
+      }
+      .preview-datafield{
+        position: relative;
+        top: -75px;
+        left: 0;
+        right: 0;
+        font-size: 1.8em;
+        font-color: black;
+      }
+      .canvas {
+        display: inline-block;
+      }
+      .container {
+        width: 100%;
+      }
+      h1 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.3/gh-fork-ribbon.min.css" />
+    <script src="//bernii.github.io/gauge.js/dist/gauge.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+    <script type="text/javascript" charset="utf-8">
+      $(document).ready(function(){
+          var socket = io.connect('http://' + document.domain + ':' + location.port + '/');
+          var start_time;
+          window.setInterval(function() {
+              start_time = (new Date).getTime();
+              socket.emit('refresh');
+          }, 2000);
+          var gauges = {}
+          socket.on('refresh', function(msg) {
+            for (data in msg.data) {
+              var gaugeData = [
+                `<div id="${msg.data[data].mac}" class="canvas">`,
+                `	<canvas id="${msg.data[data].mac}-canvas-preview"></canvas>`,
+                `	<div id="${msg.data[data].mac}-preview-textfield" class="preview-textfield"></div>`,
+                `	<div id="${msg.data[data].mac}-preview-datafield" class="preview-datafield"></div>`,
+                '</div>',
+              ].join("\n");
+              if(
+                $('#container').find(`[id*="${msg.data[data].mac}"]`).length == 0
+              ) {
+                $('#container').append(gaugeData);
+                var target = document.getElementById(`${msg.data[data].mac}-canvas-preview`);
+                var gauge = new Gauge(target).setOptions({
+                  angle: 0, // The span of the gauge arc
+                  lineWidth: 0.34, // The line thickness
+                  radiusScale: 1, // Relative radius
+                  pointer: { //disable
+                    length: 0,
+                    strokeWidth: 0,
+                  },
+                  colorStart: msg.data[data].color,
+                  highDpiSupport: true,
+                });
+                gauge.maxValue = 1.08; // set max gauge value
+                gauge.setMinValue(1.00);  // Prefer setter over gauge.minValue = 0
+                gauges[msg.data[data].mac] = gauge
+              }
+
+              gauges[msg.data[data].mac].set(msg.data[data].gravity); // set actual value
+              document.getElementById(`${msg.data[data].mac}-preview-textfield`).innerHTML = msg.data[data].color + '(' + msg.data[data].mac + ')';
+              document.getElementById(`${msg.data[data].mac}-preview-datafield`).innerHTML = msg.data[data].gravity + '(' + msg.data[data].temp + '&deg;)';
+            };
+          });
+      });
+    </script>
+{% endblock %}
+
+{% block body %}
+
+<a class="github-fork-ribbon" href="https://github.com/myoung34/tilty-dashboard" data-ribbon="Fork me on GitHub" title="Fork me on GitHub">Fork me on GitHub</a>
+
+<!-- Build a custom look here that all pages can inherit. -->
+<div class="row">
+  <div class="col-md-12">
+    {% block content %}
+    {% endblock %}
+  </div>
+</div>
+<div id="footer">
+	<p>Copyright 2020&#169; <a href="https://marcyoung.us">Marc Young</a></p>
+</div>
+{% endblock %}
