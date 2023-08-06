@@ -1,0 +1,15 @@
+chemlg/__init__.py,sha256=_JHj91EU9bgak1nclQ4_6zGBN1S6awXDp9ZE2BLkR6k,63
+chemlg/feasibility.py,sha256=TOib32aL_kFky1rU-PsKF2LmoUxb6DclGUPAXKDJBGk,3465
+chemlg/libgen.py,sha256=pWfxWEHmyNQRKCpHRVHZxALDz96x4CQjkMf5y225lf0,79394
+chemlg/notebooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chemlg/notebooks/main.py,sha256=_AKXclM9gahp5lYjXsiYLOwuA84uREx0Z3nuH9Cs6tE,34527
+chemlg/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chemlg/templates/building_blocks.dat,sha256=Of91eHIgM4N3xuG9Lmfsy8wmGBEoIRmPyv0dm6k5YJU,1630
+chemlg/templates/config.dat,sha256=UYRHF0SEUk7pnmECkqBG_oeYeaO8xplSNcpfNoB_-RE,1099
+chemlg/templates/genetic_algorithm_config.dat,sha256=n7fB4R023IFjjPZ1AYbPAFPQlXTDwfK-yPuDkTBL5TA,237
+chemlg-0.9.data/scripts/chemlgshell,sha256=8-FfEC8DYfCHg9_v4FciDIspSBSYDjzh5byQZWCsdWM,3114
+chemlg-0.9.dist-info/LICENSE,sha256=srW9pRMJopPA11fAKNDvnl3yyiRyLUuHEcO7ffyMKcs,1540
+chemlg-0.9.dist-info/METADATA,sha256=2G4FZr72T0tFaZKGgw5zKnMkROSyAllnT3-MIcKOwPE,1347
+chemlg-0.9.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+chemlg-0.9.dist-info/top_level.txt,sha256=fPwJzWwdS1abbL2Y6IO-LVd7QGUmUGVFFX6cve3hHhw,7
+chemlg-0.9.dist-info/RECORD,,

@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: chemlg
+Version: 0.9
+Summary: ChemLG is a smart and massive parallel molecular library generator for  chemical and materials sciences.
+Home-page: UNKNOWN
+Author: Mohammad Atif Faiz Afzal, Gaurav Vishwakarma, Johannes Hachmann
+Author-email: m27@buffalo.edu, gvishwak@buffalo.edu, hachmann@buffalo.edu
+License: BSD-3C
+Project-URL: Source, https://github.com/hachmannlab/chemlg
+Project-URL: url, https://hachmannlab.github.io/chemlg/
+Keywords: Library Generator,Molecular Library,Materials Science,Drug Discovery
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: future
+Requires-Dist: six
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinxcontrib-napoleon ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: numpydoc ; extra == 'docs'
+Requires-Dist: nbsphinx ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+Requires-Dist: pytest-pep8 ; extra == 'tests'
+Requires-Dist: tox ; extra == 'tests'
+
+UNKNOWN
+
+
