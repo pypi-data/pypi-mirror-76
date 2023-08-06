@@ -1,0 +1,10 @@
+README.md
+setup.py
+SZlabeler/__init__.py
+SZlabeler/catalog.py
+SZlabeler/label_classifier.py
+SZlabeler/tokenizer.py
+SZlabeler.egg-info/PKG-INFO
+SZlabeler.egg-info/SOURCES.txt
+SZlabeler.egg-info/dependency_links.txt
+SZlabeler.egg-info/top_level.txt
