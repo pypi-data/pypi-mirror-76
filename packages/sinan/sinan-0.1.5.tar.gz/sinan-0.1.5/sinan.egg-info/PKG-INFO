@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: sinan
+Version: 0.1.5
+Summary: A datetime/numberic parser for chinese text
+Home-page: https://github.com/yiyujianghu/sinan
+Author: yiyujianghu
+Author-email: dongjunyou@126.com
+License: MIT
+Description: UNKNOWN
+Keywords: NLP,NER
+Platform: any
