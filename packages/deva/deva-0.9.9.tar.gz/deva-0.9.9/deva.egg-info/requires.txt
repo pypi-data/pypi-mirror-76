@@ -1,0 +1,16 @@
+toolz
+zict
+jieba
+six
+requests
+pandas
+pandas-compat
+dill
+Whoosh
+SQLAlchemy
+tornado
+easyquotation
+pampy
+pymaybe
+requests-html
+aioredis
