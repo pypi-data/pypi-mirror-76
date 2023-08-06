@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: omniCLIP-test
+Version: 0.1a0
+Summary: Test of the omniCLIP project
+Home-page: https://github.com/simojoe/omniCLIP
+Author: Philipp Boss
+Author-email: joel.simoneau@mdc-berlin.de
+License: UNKNOWN
+Description: This is a long description
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
