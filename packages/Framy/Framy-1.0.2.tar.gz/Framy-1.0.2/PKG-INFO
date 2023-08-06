@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Framy
+Version: 1.0.2
+Summary: simple web framework
+Home-page: UNKNOWN
+Author: a276me
+Author-email: 2230061@ncpachina.org
+License: MIT
+Description: #Framy  
+        ##A simple web framework
+        
+        This is a low level mirco webframe work that you can use. 
+        For documentation please see a276me.cn/docs.  
+        Github page: ***
+        
+        #### Reasons why Framy is awesome
+        
+        - You can directly control low-end sockets
+        - It is a low level framework that anyone can add to or edit
+        
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

@@ -1,0 +1,9 @@
+README.md
+setup.py
+Framy/info.py
+Framy/startProject.py
+Framy/Framy.egg-info/PKG-INFO
+Framy/Framy.egg-info/SOURCES.txt
+Framy/Framy.egg-info/dependency_links.txt
+Framy/Framy.egg-info/requires.txt
+Framy/Framy.egg-info/top_level.txt
