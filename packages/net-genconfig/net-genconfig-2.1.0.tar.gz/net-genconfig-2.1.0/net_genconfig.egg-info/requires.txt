@@ -1,0 +1,5 @@
+deepops
+jinja2
+netaddr
+net-inventorylib
+pyyaml
