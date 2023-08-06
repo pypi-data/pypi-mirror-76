@@ -1,0 +1,16 @@
+setuptools_rust/__init__.py,sha256=5GvFu4XGeMUGbPa32zLCaVrlFJd6PBC66rWRe6ysc3o,436
+setuptools_rust/build.py,sha256=d859GC-KpdVZ0shYGg_ePHEtiA7iqt0rt0pImYngMYo,11765
+setuptools_rust/check.py,sha256=qetK-FAU82qXfzsdBj0Mw3xZ1gC6iYm1wm-oJr4W2NQ,3668
+setuptools_rust/clean.py,sha256=857_kp8j7H2DLq7OdEHovVmiA0YKt-cwD5IYLz6J4y8,1016
+setuptools_rust/extension.py,sha256=7qWPGzLxm4T1HbM09gLc1XAQcpW6DNm4dzvVtmLbM_Y,5362
+setuptools_rust/setuptools_ext.py,sha256=zUqniUUb5VSTxi0KzQO8uVynBqg1m9FQCYwqcjp6Or8,4635
+setuptools_rust/test.py,sha256=HEPSCoqHGNt1dY-khXsIjDDgK3KYdGZuiLjAG9oyj4w,2978
+setuptools_rust/tomlgen.py,sha256=otEZo-04U8omH1txhj8R5Xc1Ppu-fovPwYMKZYl3wm8,9443
+setuptools_rust/utils.py,sha256=wsXMPmNlWA6DRqjnKWXPVI0XHDgRuWGH5VWWCjWZcyg,1917
+setuptools_rust-0.11.2b0.dist-info/LICENSE,sha256=sgZowVkFgrOIKFQFDM-9t67h9xof_p6sxMWusIoUFhs,1089
+setuptools_rust-0.11.2b0.dist-info/METADATA,sha256=FtEQWCBz4I2w3a0ZXAM9I_ibtcLHr9IJJ9NVtsUOlj0,8238
+setuptools_rust-0.11.2b0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+setuptools_rust-0.11.2b0.dist-info/entry_points.txt,sha256=Wh-rrk--XNrGA_DkIlF7DTXup1QMAZY2hpKvEicfGfA,323
+setuptools_rust-0.11.2b0.dist-info/top_level.txt,sha256=RYQTZe1Inj7xtPdAhMoEtiVlpeYSjNCr6HmDNsNwt3U,16
+setuptools_rust-0.11.2b0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+setuptools_rust-0.11.2b0.dist-info/RECORD,,
