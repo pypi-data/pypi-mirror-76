@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: spirent-testpack-framework
+Version: 1.0
+Summary: Spirent Testpack Framework
+Home-page: https://github.com/Spirent/SDWAN-Functional-Test-Suite
+Maintainer: Spirent Testpack Development Team
+Maintainer-email: testpack@spirent.com
+License: UNKNOWN
+Description: See https://github.com/Spirent/SDWAN-Functional-Test-Suite
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: iOS
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Benchmark
+Classifier: Topic :: Software Development :: Testing :: Traffic Generation

@@ -1,0 +1,26 @@
+testcase:
+  id: samples.bgp.001
+  name: 'BGP Stability'
+  description: 'BGP Stability'
+  objective: 'Test BGP routes stability'
+  run_info:
+    equipment:
+      - type: pga
+        count: 2
+      - type: router
+        count: 1
+    duration: 300
+    timeout: 600
+    testbed: test_framework/samples/testbed_templates/stc_portlist_bgp_routes_stability.yaml
+    script_module: test_framework.samples.bgp_routes_stability
+    script_class: BgpRoutesStability
+    procedure: '1. Apply configuration 2. Check port link is up 3. Start capture on port 2 …'
+    environment: 'stable and unstable BGP ports'
+    initial_config: 'One raw streamblock with encapsulation EthII/FCoE ...'
+    expected_results: 'Route stability'
+  verified_defects: ['xxxx']
+  owner:
+    name: 'Vasu Sankaran'
+  test_type: [acceptance]
+  dut_target: [router]
+  test_suites: [smoke]

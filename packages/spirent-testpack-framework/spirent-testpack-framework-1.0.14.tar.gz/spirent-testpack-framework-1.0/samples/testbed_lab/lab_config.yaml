@@ -1,0 +1,119 @@
+############
+# Labservers
+############
+spirent_lab_server_1:
+  ipv4: &ls_1 10.28.237.147
+spirent_lab_server_2:
+  ipv4: &ls_2 10.28.239.147
+############
+# STC
+############
+stc_1:
+  ipv4: &chassis_1 10.6.2.218
+stc_2:
+  ipv4: &chassis_2 10.109.41.66
+############
+# DUTs
+############
+router_1: &rtr_1
+  hostname: CO7609
+  os: iosxe
+  type: iosxe
+  username: admin
+  password: admin
+  enable: spirent
+  connections:
+    protocol: telnet
+    ipv4: 10.6.2.190
+router_2: &rtr_2
+  hostname: "SystemTest-VCF"
+  os: junos
+  type: junos
+  username: root
+  password: spirent
+  connections:
+    protocol: ssh
+    ipv4: 10.109.41.11
+############
+# Testbeds #
+############
+2stc_1router_type01_testbed01:
+  lab_server: *ls_1
+  stc:
+    port1:
+      chassis: *chassis_1
+      slot: 11
+      port: 1
+      ipv4: "30.0.1.2/24"
+      gateway: "30.0.1.1"
+      stc_config:
+        phy: EthernetCopper
+    port2:
+      chassis: *chassis_1
+      slot: 11
+      port: 2
+      ipv4: "30.0.2.2/24"
+      gateway: "30.0.2.1"
+      bgp:
+        as_num: 123
+        dut_as_num: 123
+        use_gateway_as_dut: true
+      stc_config:
+        phy: EthernetCopper
+  dut1:
+    <<: *rtr_1
+    dut1_to_stc_port1:
+      port: "GigabitEthernet8/1"
+      type: "GigabitEthernet 8/1"
+    dut1_to_stc_port2:
+      port: "GigabitEthernet8/2"
+      type: "GigabitEthernet 8/2"
+2stc_1router_type01_testbed02:
+  lab_server: *ls_2
+  stc:
+    port1:
+      chassis: *chassis_2
+      slot: 5
+      port: 1
+      ipv4: "30.0.1.2/24"
+      gateway: "30.0.1.1"
+      stc_config:
+        phy: EthernetFiber
+    port2:
+      chassis: *chassis_2
+      slot: 5
+      port: 2
+      ipv4: "30.0.2.2/24"
+      gateway: "30.0.2.1"
+      bgp:
+        as_num: 123
+        dut_as_num: 123
+        use_gateway_as_dut: true
+      stc_config:
+        phy: EthernetFiber
+  dut1:
+    <<: *rtr_2
+    dut1_to_stc_port1:
+      port: "ge-2/0/0"
+      type: "ge-2/0/0"
+    dut1_to_stc_port2:
+      port: "ge-2/0/1"
+      type: "ge-2/0/1"
+stc_portlist_bgp_routes_testbed01:
+  lab_server: *ls_1
+  stc_bgp_stable:
+    as_start: 123
+    as_step: 2
+    chassis_ports:
+      - chassis: *chassis_1
+        ports: ['11/11', '11/12']
+      - chassis: *chassis_2
+        ports: ['11/9']
+  stc_bgp_unstable:
+    as_start: 256
+    as_step: 1
+    chassis_ports:
+      - chassis: *chassis_1
+        ports: ['11/9']
+      - chassis: *chassis_2
+        ports: ['6/11', '6/12']

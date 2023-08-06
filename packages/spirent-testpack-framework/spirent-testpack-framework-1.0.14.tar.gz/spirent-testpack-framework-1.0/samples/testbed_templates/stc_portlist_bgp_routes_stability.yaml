@@ -1,0 +1,24 @@
+testbed:
+  name: sample_testbed
+  servers:
+    spirent_lab:
+      type: stc_lab_server
+      address: {{ lab_server }}
+devices:
+  stc_bgp_stable:
+    os: spirent
+    type: stc_portlist
+    connections: {}
+    custom:
+      as_start: {{ stc_bgp_stable.as_start }}
+      as_step: {{ stc_bgp_stable.as_step }}
+      chassis_ports: {{ stc_bgp_stable.chassis_ports }}
+  stc_bgp_unstable:
+    os: spirent
+    type: stc_portlist
+    connections: {}
+    custom:
+      as_start: {{ stc_bgp_unstable.as_start }}
+      as_step: {{ stc_bgp_unstable.as_step }}
+      chassis_ports: {{ stc_bgp_unstable.chassis_ports }}
+topology:

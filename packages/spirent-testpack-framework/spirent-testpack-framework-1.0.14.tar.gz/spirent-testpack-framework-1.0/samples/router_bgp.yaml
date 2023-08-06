@@ -1,0 +1,26 @@
+testcase:
+  id: samples.router.002
+  name: 'Router basic BGP'
+  description: 'Basic BGP test'
+  objective: 'Test basic BGP functionality'
+  run_info:
+    equipment:
+      - type: pga
+        count: 2
+      - type: router
+        count: 1
+    duration: 300
+    timeout: 600
+    testbed: test_framework/samples/testbed_templates/2stc_1router_type01.yaml
+    script_module: test_framework.samples.router_bgp
+    script_class: BasicBgp
+    procedure: '1. Apply configuration 2. Check port link is up 3. Start capture on port 2 …'
+    environment: '2 ports connected through router, port1 transmitting, port2 receiving port'
+    initial_config: 'One raw streamblock with encapsulation EthII/FCoE ...'
+    expected_results: 'Total number of captured packets=5067568, no frame loss'
+  verified_defects: ['xxxx']
+  owner:
+    name: 'Brooks Hickman'
+  test_type: [acceptance]
+  dut_target: [router]
+  test_suites: [smoke]

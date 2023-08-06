@@ -1,0 +1,7 @@
+include LICENSE
+include NOTICES
+include script/*.json
+include script/*.robot
+recursive-include testbase *
+recursive-include samples *
+recursive-include genie_ext *
