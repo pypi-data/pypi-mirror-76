@@ -1,0 +1,10 @@
+CHANGES.md
+MANIFEST.in
+README.md
+setup.py
+oneimage/__init__.py
+oneimage.egg-info/PKG-INFO
+oneimage.egg-info/SOURCES.txt
+oneimage.egg-info/dependency_links.txt
+oneimage.egg-info/not-zip-safe
+oneimage.egg-info/top_level.txt
