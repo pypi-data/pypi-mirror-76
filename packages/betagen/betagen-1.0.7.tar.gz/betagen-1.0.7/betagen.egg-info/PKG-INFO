@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: betagen
+Version: 1.0.7
+Summary: A coloir scheme generator based off Michael Betancourts famous colors
+Home-page: https://github.com/grburgessp/betagen
+Author: J. Michael Burgess
+Author-email: jmichaelburgess@gmail.com
+License: GPL3
+Project-URL: Bug Tracker, https://github.com/grburgessp/betagen/issues
+Project-URL: Source Code, https://github.com/grburgessp/betagen
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Physics
+Description-Content-Type: text/markdown
