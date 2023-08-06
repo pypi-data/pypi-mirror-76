@@ -1,0 +1,11 @@
+README.md
+setup.py
+barcelonalib/__init__.py
+barcelonalib/main.py
+barcelonalib/testlib.py
+barcelonalib.egg-info/PKG-INFO
+barcelonalib.egg-info/SOURCES.txt
+barcelonalib.egg-info/dependency_links.txt
+barcelonalib.egg-info/not-zip-safe
+barcelonalib.egg-info/requires.txt
+barcelonalib.egg-info/top_level.txt
