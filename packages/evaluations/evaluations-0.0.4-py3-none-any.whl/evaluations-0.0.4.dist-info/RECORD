@@ -1,0 +1,14 @@
+evaluations/__init__.py,sha256=5ov_32Cx_y_EXbu7Fh3PgfGmsXjdEUOpvSqsDzfoR-Y,137
+evaluations/classification/__init__.py,sha256=7wrLOVpntw3s2-ouCT5x6arIXZDREyfyacs2IHEX7ng,203
+evaluations/classification/accuracy.py,sha256=M4nKl8RyOGvON3SLgTZH_yA4TVlu-MqjQKhLQ9GN9Pg,699
+evaluations/classification/confusion_matrix.py,sha256=HALu3fOpP0dHj5VracgwMh3LGr_ajBIfVGzmfD-FmWc,1201
+evaluations/kaggle_2020/__init__.py,sha256=SM2ZIwvMjuNut9tiCohCrlH44ol2FZwcDe2MTP4icGk,368
+evaluations/kaggle_2020/global_average_precision.py,sha256=ujNdFg3jIBBuuipaZuI-GvtKwXnxoCOaSZRLZGBKJoQ,2157
+evaluations/kaggle_2020/row_wise_micro_averaged_f1.py,sha256=m4T1vgQOTCE6qNTPNZLWosJD77LKBU32kpCznAvPAuM,2350
+evaluations/text_extraction/__init__.py,sha256=Ux6TBArP2BDC5O1trPMnS056-KvZfkCSdqD4rFp2ggg,255
+evaluations/text_extraction/jaccard_word_level.py,sha256=uRR49xFsQUdtwT71LExcutlaC0Aq9cM3EU0eZVrbNr0,1935
+evaluations-0.0.4.dist-info/LICENSE,sha256=TA6F8Zxhe53pePY5zcbLvShS6I3tEzuQLp7K7GsdAh4,1094
+evaluations-0.0.4.dist-info/METADATA,sha256=oEk8BO7pCvVCtiUvG2wCkS5X0H28FHL8oaRwCv8FpUY,1506
+evaluations-0.0.4.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+evaluations-0.0.4.dist-info/top_level.txt,sha256=i1O5JOA0Vb-J185976K3qNOg8ZAlFMMHzv3j3LiyYGU,12
+evaluations-0.0.4.dist-info/RECORD,,
