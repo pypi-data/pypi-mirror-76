@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: ml-rapids
+Version: 0.0.1.5
+Summary: Incremental learning written in C++ exposed in Python
+Home-page: https://github.com/JozefStefanInstitute/ml-rapids
+Author: Klemen Kenda
+Author-email: klemen.kenda@ijs.si
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: scikit-learn
+
+# ml-rapids: Incremental learning written in C++ exposed in Python
+
+`ml-rapids` implements incremental learning methods in C++ and exposes them via SWIG in Python. Installation can be achieved simply with `pip install ml_rapids`. You can test your installation with running Python:
+```python
+# testing ml-rapids
+import ml_rapids
+ml_rapids.test()
+```
+
+Further documentation is available here:
+* [Users' Manual](https://github.com/JozefStefanInstitute/ml-rapids/blob/master/docs/MANUAL.md)
+
+## Implemented incremental learning methods
+
+* Classification
+    * Majority Class
+    * Naive Bayes
+    * Logistic Regression
+    * Perceptron
+    * VFDT (Very Fast Decision Trees) aka Hoeffding Trees
+    * HAT (Hoeffding Adaptive Trees)
+    * Bagging
+* Regression
+    * /
+
+All the methods implement [`sklearn`](https://scikit-learn.org/) incremantal learner interface (includes `fit`, `partial_fit` and `predict` methods).
+
+
+## Future plans
+Streaming random forest on top of Hoeffding trees will be implemented.
+The library will be exposed via also via `npm` packages.
+
+
+## Development
+Development notes can be read [here](https://github.com/JozefStefanInstitute/ml-rapdis/docs/DEV.md).
+
+Python deployment notes can be read [here](https://github.com/JozefStefanInstitute/ml-rapdis/docs/PYPI-DEPLOY.md).   
+
+## Acknowledgements
+`ml-rapids` is developed by AILab at Jozef Stefan Institute.
+
+This repository is based strongly on [streamDM-cpp](https://github.com/huawei-noah/streamDM-Cpp).
+
+Project has received funding from European Union's Horizon 2020 Research and Innovation Programme under the Grant Agreement [776115](http://www.perceptivesentinel.eu/) (PerceptiveSentinel).
+
+
