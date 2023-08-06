@@ -1,0 +1,4 @@
+future
+pyngrok>=4.1.10
+python-dotenv
+flask
