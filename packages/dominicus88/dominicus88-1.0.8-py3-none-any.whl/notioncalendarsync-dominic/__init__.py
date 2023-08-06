@@ -1,0 +1,7 @@
+from .google_calendar import GoogleCalendar
+from .notion_api import Notion
+from notioncalendarsync import Notion
+
+
+
+Notion(token_v2="be91ccf5d30fd1bfbae2ed99803a99b1b5d9e4ede055b41e34a8b4e49586f783ba3eedfcaa3d5aea397cf9cdc787a2ee6d4802e3dff7d17b6c60f408beded6bc5fd5c6c75957a60ee82306250085").add_events_to_google_calendar('https://www.notion.so/pplink/70ec5b5022224a11950acbb63dd96692?v=0bc2a497051442bcbe4d3ff104675f22',timezone='Asia/Tokyo')
