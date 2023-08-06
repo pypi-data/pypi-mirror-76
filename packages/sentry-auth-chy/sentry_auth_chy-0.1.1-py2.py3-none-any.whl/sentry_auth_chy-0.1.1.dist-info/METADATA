@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: sentry-auth-chy
+Version: 0.1.1
+Summary: Chy authentication provider for Sentry
+Home-page: https://www.getsentry.com
+Author: lisipeng
+Author-email: 77629296@qq.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
+Requires-Dist: sentry (>=7.0.0)
+Provides-Extra: tests
+Requires-Dist: flake8 (<2.1,>=2.0) ; extra == 'tests'
+
+sentry-auth-chy
+==================
+
+:copyright: (c) 2016 Functional Software, Inc
+
+
