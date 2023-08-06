@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: itslit
+Version: 0.1.0
+Summary: Watch a random conference lightning talk in a browser near you.
+Home-page: https://github.com/vinayak-mehta/itslit
+Author: Vinayak Mehta
+Author-email: vmehta94@gmail.com
+License: Apache 2.0
+Description: # itslit
+        
+        A cookiecutter for command-line tools!
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
