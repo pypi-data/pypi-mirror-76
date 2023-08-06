@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: pybigcommerce
+Version: 0.1.0
+Summary: Using Python to connect Bigcommerce API
+Home-page: https://github.com/JamessenLiu/pybigcommerce
+Author: Jamessen.Liu
+Author-email: liumaosen121@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: bigcommerce,api
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
