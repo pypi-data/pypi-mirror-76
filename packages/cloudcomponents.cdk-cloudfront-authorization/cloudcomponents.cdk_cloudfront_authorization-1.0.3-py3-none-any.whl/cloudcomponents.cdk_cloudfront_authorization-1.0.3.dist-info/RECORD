@@ -1,0 +1,8 @@
+cloudcomponents/cdk_cloudfront_authorization/__init__.py,sha256=4fR8f6GKozbj8kfMRDNOsfzTwW5VZnNlbIU9b2LccaI,71410
+cloudcomponents/cdk_cloudfront_authorization/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cloudcomponents/cdk_cloudfront_authorization/_jsii/__init__.py,sha256=fcAzuVgLrS-SMnTEnU2QA8LjwhIxGMSXqW0QDcn_RUQ,808
+cloudcomponents/cdk_cloudfront_authorization/_jsii/cdk-cloudfront-authorization@1.0.3.jsii.tgz,sha256=dNRl2Ltnt8_lbEO99qYVM4sb_JUO56P0DfveBkdoksk,926483
+cloudcomponents.cdk_cloudfront_authorization-1.0.3.dist-info/METADATA,sha256=yA1_aXQGyQHbbiQWOwjUSEHkmlOLJcTtCo7KqU8hpsU,8084
+cloudcomponents.cdk_cloudfront_authorization-1.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cloudcomponents.cdk_cloudfront_authorization-1.0.3.dist-info/top_level.txt,sha256=B4EWas985OPzDPLZgw2jcOsscXpuQJyowJnB5pl9rpQ,16
+cloudcomponents.cdk_cloudfront_authorization-1.0.3.dist-info/RECORD,,
