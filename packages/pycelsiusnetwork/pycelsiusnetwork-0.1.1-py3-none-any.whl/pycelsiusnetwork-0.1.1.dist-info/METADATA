@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pycelsiusnetwork
+Version: 0.1.1
+Summary: Unofficial Python Wrapper for the Celcius Network API
+Home-page: https://github.com/eitchtee/pyCelsiusNetwork
+Author: Herculino Trotta Neto
+Author-email: herculinotrotta@gmail.com
+License: MIT
+Keywords: Celsius Netowrk,api,wrapper
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# pyCelsiusNetwork
+Unofficial Python Wrapper for the Celcius Network API
+
