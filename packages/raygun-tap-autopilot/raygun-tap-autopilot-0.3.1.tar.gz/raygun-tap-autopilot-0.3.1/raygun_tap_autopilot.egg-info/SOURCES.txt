@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+raygun_tap_autopilot.egg-info/PKG-INFO
+raygun_tap_autopilot.egg-info/SOURCES.txt
+raygun_tap_autopilot.egg-info/dependency_links.txt
+raygun_tap_autopilot.egg-info/entry_points.txt
+raygun_tap_autopilot.egg-info/requires.txt
+raygun_tap_autopilot.egg-info/top_level.txt
+tap_autopilot/__init__.py
+tap_autopilot/schemas/contacts.json
+tap_autopilot/schemas/lists.json
+tap_autopilot/schemas/lists_contacts.json
+tap_autopilot/schemas/smart_segments.json
+tap_autopilot/schemas/smart_segments_contacts.json
