@@ -1,0 +1,49 @@
+Metadata-Version: 1.1
+Name: wagtail-fakenews
+Version: 0.1
+Summary: Create fake Wagtail pages
+Home-page: https://github.com/tomdyson/wagtail-fakenews
+Author: Tom Dyson
+Author-email: tom+wagtailfakenews@torchbox.com
+License: MIT
+Description-Content-Type: text/markdown
+Description: # Wagtail Fake News
+        
+        Create fake news for testing.
+        
+        ## Installation
+        
+        1. `pip install git+git://github.com/tomdyson/wagtail-fakenews.git#egg=wagtail-fakenews`
+        2. Add `fakenews` to `INSTALLED_APPS`
+        3. `./manage.py migrate fakenews`
+        
+        ## Usage
+        
+        Create a fake news index page in the Wagtail admin. Fake news items will be created as children of this page. If you have multiple fake news index pages, only the first one will be used. If there are no fake news index pages, `make_fake_items` will try to create one as a child of the first home page.
+        
+        ```bash
+        # delete existing fake pages and images, create 50 new pages and images
+        ./manage.py make_fake_items 50
+        # delete existing fake pages
+        ./manage.py make_fake_items 0
+        # keep existing fake pages and images, create 10 new pages and images
+        ./manage.py make_fake_items --keep_pages --keep_images 10
+        ```
+        
+        ## TODO
+        
+         - [x] REST API
+         - [x] Simple page template
+         - [x] Streamfield?
+         - [ ] Publish to PyPi
+Keywords: development
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Wagtail
+Classifier: Framework :: Wagtail :: 2
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
