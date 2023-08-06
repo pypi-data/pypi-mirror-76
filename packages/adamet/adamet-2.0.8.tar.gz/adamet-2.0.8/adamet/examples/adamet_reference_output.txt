@@ -1,0 +1,19 @@
+# Reference expected output of adamet_example.py.
+# adamet package file adamet_2018-05-04.zip
+# Python 3.6 using NumPy 1.14, Matplotlib 2.2
+###############################################################################
+
+In [1]: %run -i "adamet_example.py"
+adamet: 10.0 % done; 36.0 % accepted
+adamet: 20.0 % done; 35.6 % accepted
+adamet: 30.0 % done; 35.2 % accepted
+adamet: 40.0 % done; 35.5 % accepted
+adamet: 50.0 % done; 35.4 % accepted
+adamet: 60.0 % done; 35.8 % accepted
+adamet: 70.0 % done; 36.1 % accepted
+adamet: 80.0 % done; 36.0 % accepted
+adamet: 90.0 % done; 35.7 % accepted
+adamet: 100.0 % done; 35.6 % accepted
+adamet: done. Total time 12.99 seconds
+a = 9.82 +/- 0.38
+b = -0.86 +/- 0.14
