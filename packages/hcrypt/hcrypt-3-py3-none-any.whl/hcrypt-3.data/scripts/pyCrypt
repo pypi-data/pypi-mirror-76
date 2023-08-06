@@ -1,0 +1,59 @@
+#!python
+
+import argparse
+import getpass
+import hcrypt
+from sys import exit
+from os.path import isfile
+
+maxPassLen = 32
+bufferSize = 64 * 1024
+parser = argparse.ArgumentParser(description=("Encrypt and Decrypt files using AES 256"))
+parser.add_argument("filename", type=str, help="Encrypt/Decrypt file")
+parser.add_argument("-o", "--out", type=str, default=None, help="Output file")
+parser.add_argument("-p", "--password", type=str, default=None, help="Input Password")
+groupED = parser.add_mutually_exclusive_group(required=True)
+groupED.add_argument("-e", "--encrypt", help="encrypt file", action="store_true")
+groupED.add_argument("-d", "--decrypt", help="decrypt file", action="store_true")
+args = parser.parse_args()
+if not isfile(args.filename):
+    exit("Error: Source File '" + args.filename + "' not found.")
+if not args.password:
+    passw = str(getpass.getpass("Input Password : "))
+else:
+    passw = args.password
+if args.encrypt:
+    if len(passw) > maxPassLen:
+        exit("Error: Password is too long !")
+    if not((len(passw) > 7) and any(c.islower() for c in passw)
+            and any(c.isupper() for c in passw)
+            and any(c.isdigit() for c in passw)
+            and any(not(c.isalnum()) for c in passw)):
+            print("Warning: Password seems weak !")
+    if not args.password:
+        passwConf = str(getpass.getpass("Confirm Password : "))
+        if passw != passwConf:
+            exit("Error: Passwords do not match !")
+    if args.out is not None:
+        ofname = args.out
+    else:
+        ofname = args.filename+".htr"
+    try:
+        hcrypt.encryptFile(args.filename, ofname, passw, bufferSize)
+    except IOError as ex:
+        exit(ex)
+    except ValueError as ex:
+        exit(ex)
+elif args.decrypt:
+    if args.out is not None:
+        ofname = args.out
+    elif args.filename.endswith(".htr"):
+        ofname = args.filename[:-4]
+    else:
+        exit("Error: Input File with .htr Format !")
+    try:
+        hcrypt.decryptFile(args.filename, ofname, passw, bufferSize)
+    except IOError as ex:
+        exit(ex)
+    except ValueError as ex:
+        exit(ex)

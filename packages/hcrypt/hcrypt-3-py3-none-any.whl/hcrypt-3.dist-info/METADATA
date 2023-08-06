@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: hcrypt
+Version: 3
+Summary: Encrypt and Decrypt files using AES 256
+Home-page: https://github.com/htr-tech
+Author: HTR-TECH
+Author-email: unknown@email.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography
+
+# HCRYPT
+### Encrypt and Decrypt files using AES 256
+
+### [~] Installation :
+
+* `apt-get install python2 python python3-pip -y`
+* `pip3 install hcrypt`
+
+#### Run : pyCrypt [-h] [-e | -d] [-o OUTPUT] [-p PASSWORD] file
+
+### Find Me On : 
+
+* Facebook	:	[CLICK HERE](https://www.facebook.com/tahmid.rayat.official)
+* Github	:	[CLICK HERE](https://www.github.com/htr-tech)
+* Instagram	:	[CLICK HERE](https://www.instagram.com/tahmid.rayat)
+* Telegram	:	[CLICK HERE](https://t.me/htrtech)
+* Messenger	:	[CLICK HERE](https://m.me/tahmid.rayat.official)
+* Twitter	:	[CLICK HERE](https://www.twitter.com/tahmidrayat)
+
+
+## License
+
+Copyright © 2020 Tahmid Rayat
+#### [!] Only For Personal Use [!]
+
+
