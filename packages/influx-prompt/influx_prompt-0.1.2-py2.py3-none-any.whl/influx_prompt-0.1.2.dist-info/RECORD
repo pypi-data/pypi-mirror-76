@@ -1,0 +1,14 @@
+influx_prompt/__init__.py,sha256=mdp2CftfqYbdKtP-eWv1z7rAUycYv6X1ntXSMUf8Kss,22
+influx_prompt/compat.py,sha256=au4gctPUKlG0JWKdiBCfZ7nEebOL0MY2i_Hvx3EwVG0,120
+influx_prompt/completer.py,sha256=Rm7t5h8SVlaTxHmth73ZO8BTR-kFnflPsVXeGEaefBA,650
+influx_prompt/completion.py,sha256=RiLYP7oE_kGsPT5jgXPxB5uGPvDWv4hGMfpKtsTbh84,1693
+influx_prompt/extra_command.py,sha256=cvt-IWe2odW_t9Y5aefmgPlvPmzsmuFTsc4NSmRRPtg,421
+influx_prompt/influx_client.py,sha256=9tU_eVYDMNW2_vZUEmGGZPgY-I0Nui7pSf-35MTDC9k,4213
+influx_prompt/main.py,sha256=DZW8szuxWdwBbKMT3kviM7rI0sDR_r-ROi6A4VqY8K4,6529
+influx_prompt/tabular.py,sha256=w53hjyivgduy4qPmDWeH5iQg4sz0vwoKQl90ToeJxP0,3027
+influx_prompt-0.1.2.dist-info/LICENSE,sha256=e3CIKavTvZA165DaVau8U1VHHq8_Zsv7H0ZCizNPL2M,1071
+influx_prompt-0.1.2.dist-info/METADATA,sha256=eN0ug9ikGEjAsiRnfnPL43qheeJ3Fz4qc6GNtblgEbM,3067
+influx_prompt-0.1.2.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+influx_prompt-0.1.2.dist-info/entry_points.txt,sha256=V6hNHRJpfD6EFz969Wdxuq5ccWAVnrmDHSSyiWYi_rM,58
+influx_prompt-0.1.2.dist-info/top_level.txt,sha256=iQ7gWpLd0FbDmL44s3XRXY9_KDYN01i2T0OUkP9BlJE,14
+influx_prompt-0.1.2.dist-info/RECORD,,
