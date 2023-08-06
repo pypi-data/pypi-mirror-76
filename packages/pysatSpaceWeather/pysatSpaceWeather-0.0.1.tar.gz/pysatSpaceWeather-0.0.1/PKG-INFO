@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: pysatSpaceWeather
+Version: 0.0.1
+Summary: 'pysat support for Space Weather Indices'
+Home-page: https://github.com/pysat/pysatSpaceWeather
+Author: Jeff Klenzing
+Author-email: jeffrey.klenzing@nasa.gov
+License: UNKNOWN
+Description: # pysatSpaceWeather: pysat support for Space Weather Indices
+        [![Build Status](https://travis-ci.org/pysat/pysatSpaceWeather.svg?branch=main)](https://travis-ci.org/pysat/pysatSpaceWeather)
+        [![Coverage Status](https://coveralls.io/repos/github/pysat/pysatSpaceWeather/badge.svg?branch=main)](https://coveralls.io/github/pysat/pysatSpaceWeather?branch=main)
+        
+        # Installation
+        
+        Currently, the main way to get pysatSpaceWeather is through github.
+        
+        ```
+        git clone https://github.com/pysat/pysatSpaceWeather.git
+        ```
+        
+        Change directories into the repository folder and run the setup.py file.  For
+        a local install use the "--user" flag after "install".
+        
+        ```
+        cd pysatSpaceWeather/
+        python setup.py install
+        ```
+        
+        Note: pre-1.0.0 version
+        ------------------
+        pysatSpaceWeather is currently in an initial development phase.  Much of the API is being built off of the upcoming pysat 3.0.0 software in order to streamline the usage and test coverage.  This version of pysat is planned for release later this year.  Currently, you can access the develop version of this through github:
+        ```
+        git clone https://github.com/pysat/pysat.git
+        cd pysat
+        git checkout develop-3
+        python setup.py install
+        ```
+        It should be noted that this is a working branch and is subject to change.
+        
+        # Using with pysat
+        
+        The instrument modules are portable and designed to be run like any pysat instrument.
+        
+        ```
+        import pysat
+        from pysatSpaceWeather.instruments import sw_dst
+        
+        dst = pysat.Instrument(inst_module=sw_dst)
+        ```
+        Another way to use the instruments in an external repository is to register the instruments.  This only needs to be done the first time you load an instrument.  Afterward, pysat will identify them using the `platform` and `name` keywords.
+        
+        ```
+        import pysat
+        
+        pysat.utils.registry.register('pysatSpaceWeather.instruments.sw_dst')
+        dst = pysat.Instrument('sw', 'dst')
+        ```
+        
+Keywords: pysat,ionosphere
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+
+[options]
+python_requires = >= 3.5
+setup_requires =
+setuptools >= 38.6
+pip >= 10
+include_package_data = True
+zip_safe = False
+packages = find:
+install_requires =
+netCDF4
+requests
+numpy
+pandas
+xarray
+pysat
