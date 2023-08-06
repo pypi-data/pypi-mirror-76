@@ -1,0 +1,3 @@
+[console_scripts]
+itachi = itachi.__main__:run
+
