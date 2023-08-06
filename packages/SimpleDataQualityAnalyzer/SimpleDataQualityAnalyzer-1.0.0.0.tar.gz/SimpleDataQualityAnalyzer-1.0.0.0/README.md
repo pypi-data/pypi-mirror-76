@@ -1,0 +1,72 @@
+# SimpleDataQualityAnalyzer
+
+## Usage
+This python package allowes you to generate an html report with basic summary statistics for a CSV dataset. To make this happen you need to provide the path to a CSV file as well as the path to the HTML file that represents the destination path where the report will be stored. In addition you need to specify *AnalyzeOptions* which define how the CSV needs to be interpreted. The following example is based on a tennis ATP dataset that can be found here: https://raw.githubusercontent.com/JeffSackmann/tennis_atp/master/atp_matches_qual_chall_2019.csv. The code to produce a *SimpleDataQualityAnalyzer* HTML report for this dataset looks like the following:
+
+```python
+from SimpleDataQualityAnalyzer.DomainObjects.AnalyzeOptions import AnalyzeOptions
+from SimpleDataQualityAnalyzer.Services.Analyzer import Analyzer
+
+
+srcFile = r"C:\temp\ATP\atp_matches_qual_chall_2019.csv"
+expFile = r"C:\temp\ATP\atp_matches_report.html"
+options = AnalyzeOptions()
+options.delimiter = ","
+options.ignoreEmptyLines = True
+options.emptyStringIsNull = True
+analyzer = Analyzer(srcFile, options)
+analyzer.generateReport(expFile)
+```
+
+## Configuration
+The *SimpleDataQualityAnalyzer.DomainObjects.AnalyzeOptions* object has the following configuraiton options:
+
+| Property          | Default       | Description                               |
+| ----------------- | ------------- | ----------------------------------------- |
+| delimiter         | ,             | The character that separates the columns  |
+| ignoreEmptyLines  | True          | If emtpy lines shall be ignored           |
+| emptyStringIsNull | True          | If emtpy string values shall be null      |
+| placeholderNull   | ["", " "]     | String that represent null values         |
+| placeholderTrue   | ["Y", "y"]    | String values that represent true         |
+| placeholderFalse  | ["N", "n"]    | String values that represent false        |
+
+At the moment a dataset needs to have the header (column names) in the first row of the data. The *AnalyzeOptions* will be extended in the next version of the package.
+
+## HTML Report
+The generated HTML report consists of three main parts that provide information about the dataset that was analyzed.
+
+### Part 1 - File Overview
+![alt text](/Images/report-part-1.png "HTML Report Part 1 - File Overview")
+This part contains the main information about the dataset that was scanned like:
+1. The name of the dataset (if not provided it will be derived from the file name)
+2. The location of the source dataset that has been analyzed
+3. The date and time information when the report was generated
+4. The number of records (lines) found in the dataset
+
+### Part 2 - Dataset Overview
+![alt text](/Images/report-part-2.png "HTML Report Part 2 - Dataset Overview")
+The second part of the report contains a table that provides information about each column found in the file which are:
+1. The position of the column within the dataset
+2. The name derived from the first line in the CSV file (header)
+3. The infered datatype
+4. The number of Non-Null values
+5. The number of Null values
+6. The number of Unique values
+7. The number of Distinct values
+8. The Min value (depends on the datatype)
+8. The Median value (depends on the datatype)
+8. The Max value (depends on the datatype)
+The table is searchable and sortable and when you click on a row in the table it updates the 3rd part of the report that contains the specific detail information about the column of the dataset selected.
+
+### Part 3 - Column Details (Basic)
+![alt text](/Images/report-part-3-basic.png "HTML Report Part 3 - Column Details (Basic)")
+The third part provides detail information about the column that was seledcted in the second report part. The first row shows counts values. It consists of a bar chart that shows the counts in the four value categories *Null*, *Duplicate*, *Non-Unique* and *Unique*. On the right hand side of the chart is a table that describes the category hierarchy in detail.
+
+The second row shows statics values. The first table shows the *Min*, *Median* and *Max* value of the selected column with it's frequency. The second table shows the *Min*, *Median*, *Avg* and *Max* length of the values in the corresponding column (depends on datatype).
+
+### Part 3 - Column Details (Frequency)
+![alt text](/Images/report-part-3-frequency.png "HTML Report Part 3 - Column Details (Frequency)")
+In the tab *Frequency* you'll find a complete frequency table with all values within the selected column of the dataset and it's frequency absolute and in percent.
+
+# Contact
+If you have feedback about the package, feature requests or if you have discovered bugs please don't hesitate to share them with me: https://gitlab.com/debugair/simpledataqualityanalyzer

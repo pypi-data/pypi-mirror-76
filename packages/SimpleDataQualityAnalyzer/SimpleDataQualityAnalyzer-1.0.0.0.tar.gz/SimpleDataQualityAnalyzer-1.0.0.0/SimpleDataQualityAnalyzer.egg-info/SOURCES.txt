@@ -1,0 +1,15 @@
+README.md
+setup.py
+SimpleDataQualityAnalyzer/__init__.py
+SimpleDataQualityAnalyzer.egg-info/PKG-INFO
+SimpleDataQualityAnalyzer.egg-info/SOURCES.txt
+SimpleDataQualityAnalyzer.egg-info/dependency_links.txt
+SimpleDataQualityAnalyzer.egg-info/top_level.txt
+SimpleDataQualityAnalyzer/DomainObjects/AnalyzeOptions.py
+SimpleDataQualityAnalyzer/DomainObjects/Column.py
+SimpleDataQualityAnalyzer/DomainObjects/Report.py
+SimpleDataQualityAnalyzer/DomainObjects/__init__.py
+SimpleDataQualityAnalyzer/Services/Analyzer.py
+SimpleDataQualityAnalyzer/Services/__init__.py
+SimpleDataQualityAnalyzer/Services/Templates/functions.js
+SimpleDataQualityAnalyzer/Services/Templates/template.html
