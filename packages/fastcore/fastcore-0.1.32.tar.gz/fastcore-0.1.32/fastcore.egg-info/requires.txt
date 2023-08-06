@@ -1,0 +1,11 @@
+pip
+packaging
+numpy
+dataclasses
+
+[dev]
+nbdev>=0.2.20
+matplotlib
+pillow
+torch
+pandas
