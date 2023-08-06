@@ -1,0 +1,3 @@
+include smorfinder/bin/hmmscan
+include smorfinder/bin/hmmsearch
+include smorfinder/bin/prodigal

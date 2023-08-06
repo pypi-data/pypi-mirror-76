@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: smorfinder
+Version: 0.0.3.dev0
+Summary: A command line tool to identify and annotate small proteins in genomes and metagenomes.
+Home-page: https://github.com/bhattlab/SmORFinder
+Author: Matt Durrant
+Author-email: mdurrant@stanford.edu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
