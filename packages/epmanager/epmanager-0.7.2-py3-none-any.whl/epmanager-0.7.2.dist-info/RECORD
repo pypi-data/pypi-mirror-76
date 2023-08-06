@@ -1,0 +1,11 @@
+epmanager/__init__.py,sha256=rgWiy1xXkkzoZjPP7xBcEJ8-_Dbbv32_QDnHc9A6QXY,74
+epmanager/discovery.py,sha256=pR1Y7MjTQUk291BlCp656XB2T5ueRCtLIVGoYTiI2uY,2104
+epmanager/dispatcher.py,sha256=xhXCkbvSlN0IQYIXBBtD9hvqdqFwqhoKZHuV8d-y4xI,6343
+epmanager/examples.py,sha256=TKleDVSXU-YfQrJeZW_zxtPjh-QHHRK9NRjbXsDZtdk,4042
+epmanager/main.py,sha256=dnotinCq_TzHZgRZNZA1aqOiAKIgm85K5ufujcWdvUk,1696
+epmanager/parser.py,sha256=z_8fN4ZvL9JpWDmbAd-TxIHIAPlmu87iltiNZKfxSTU,6762
+epmanager-0.7.2.dist-info/entry_points.txt,sha256=iBgBdn2_WoAUBQ2Aq_O9AuCZrdD1vPv4GQxh2h8HmYk,928
+epmanager-0.7.2.dist-info/LICENSE,sha256=kEr70uQ_OxmMyEzAuBgbsoya8izToXMjgF5ZSz7H7aA,1079
+epmanager-0.7.2.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+epmanager-0.7.2.dist-info/METADATA,sha256=uBDhBaPsla-KFKLJNdhiW2VcsNEK7JoBwpYpewcbXZo,17981
+epmanager-0.7.2.dist-info/RECORD,,

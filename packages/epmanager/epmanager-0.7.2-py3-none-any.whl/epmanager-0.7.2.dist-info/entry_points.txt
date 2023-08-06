@@ -1,0 +1,17 @@
+[console_scripts]
+epmanager-custom-parser=epmanager.examples:custom_parser.invoke
+epmanager-defaults=epmanager.examples:defaults.invoke
+epmanager-doc-example-1=epmanager.examples:doc_example_1.invoke
+epmanager-doc-example-2=epmanager.examples:doc_example_2.invoke
+epmanager-doc-example-3=epmanager.examples:doc_example_3.invoke
+epmanager-doc-example-4=epmanager.examples:doc_example_4.invoke
+epmanager-empty=epmanager.examples:empty.invoke
+epmanager-example=epmanager.examples:example.invoke
+epmanager-hard=epmanager.examples:hard.invoke
+epmanager-inverse-flag=epmanager.examples:inverse_flag.invoke
+epmanager-positional-by-keyword=epmanager.examples:positional_by_keyword.invoke
+epmanager-renamed-1=epmanager.examples:tricky_1.invoke
+epmanager-un-documented=epmanager.examples:un_documented.invoke
+epmanager-update-metadata=epmanager.discovery:write_all.invoke
+epmanager-wrapper=epmanager.discovery:make_wrapper_script.invoke
+
