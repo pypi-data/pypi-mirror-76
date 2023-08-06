@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: flow_sdk_utils
+Version: 1.0.0
+Summary: Python utils for HahnPRO Flow-SDK
+Home-page: https://gitlab.com/tklingenhoefer/flow-sdk-utils
+Author: Timo Klingenhöfer
+Author-email: tk@hahnpro.com
+License: MIT
+Description: support package for the HahnPRO Flow-SDK
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
