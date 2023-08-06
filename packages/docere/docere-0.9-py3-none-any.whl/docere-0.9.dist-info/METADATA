@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: docere
+Version: 0.9
+Summary: Tools for publishing analyses as a static site
+Home-page: https://github.com/harterrt/docere.git
+Author: Ryan Harter
+Author-email: harterrt@mozilla.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: jinja2
+Requires-Dist: click
+Provides-Extra: testing
+Requires-Dist: coverage ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-timeout ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+
+UNKNOWN
+
+
