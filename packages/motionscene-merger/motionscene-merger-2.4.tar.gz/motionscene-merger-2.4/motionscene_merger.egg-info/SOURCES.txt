@@ -1,0 +1,10 @@
+README.md
+setup.py
+motionscene_merger/__init__.py
+motionscene_merger/scenemerge.py
+motionscene_merger.egg-info/PKG-INFO
+motionscene_merger.egg-info/SOURCES.txt
+motionscene_merger.egg-info/dependency_links.txt
+motionscene_merger.egg-info/entry_points.txt
+motionscene_merger.egg-info/top_level.txt
+test/test_scenemerge.py
