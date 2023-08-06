@@ -1,0 +1,6 @@
+README.md
+setup.py
+dummy_package_dalmo.egg-info/PKG-INFO
+dummy_package_dalmo.egg-info/SOURCES.txt
+dummy_package_dalmo.egg-info/dependency_links.txt
+dummy_package_dalmo.egg-info/top_level.txt
