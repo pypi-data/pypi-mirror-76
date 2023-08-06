@@ -1,0 +1,9 @@
+setup.py
+udbworker/__init__.py
+udbworker/errors.py
+udbworker/types.py
+udbworker.egg-info/PKG-INFO
+udbworker.egg-info/SOURCES.txt
+udbworker.egg-info/dependency_links.txt
+udbworker.egg-info/not-zip-safe
+udbworker.egg-info/top_level.txt
