@@ -1,0 +1,2 @@
+autobahn==19.11.1
+websockets==8.1
