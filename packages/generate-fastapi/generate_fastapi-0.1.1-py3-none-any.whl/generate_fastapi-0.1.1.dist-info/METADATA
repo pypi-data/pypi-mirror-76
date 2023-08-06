@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: generate-fastapi
+Version: 0.1.1
+Summary: REST API for generate_fastapi
+Home-page: https://github.com/nymann/generate-fastapi
+Maintainer: Kristian Nymann Jakobsen
+Maintainer-email: kristian@nymann.dev
+License: GPL v3
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: sql-column-parser
+Requires-Dist: typer
+Requires-Dist: mako
+Requires-Dist: requests
+Requires-Dist: git-python
+Provides-Extra: dev
+Requires-Dist: wemake-python-styleguide ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: dlint ; extra == 'dev'
+Requires-Dist: nitpick ; extra == 'dev'
+Requires-Dist: cohesion ; extra == 'dev'
+Requires-Dist: pyformat ; extra == 'dev'
+
+# Generate FastAPI
+*A code generation tool for FastAPI*
+
+![Codecov](https://img.shields.io/codecov/c/gh/nymann/fastapi-code-generator)
+![GitHub contributors](https://img.shields.io/github/contributors/nymann/fastapi-code-generator)
+
+Uses [nymann/fastapi-template](https://github.com/nymann/fastapi-template) as a
+base template.
+
+Generates route(s) given an SQL migration file or JSON (see [examples](examples)).
+
+```
+$ generate_fastapi --help 
+Usage: generate_fastapi [OPTIONS] FILE
+
+Arguments:
+  FILE  Path to a SQL upgrade migration or a JSON file  [required]
+
+Options:
+  --target-directory TEXT         Path to the target directory  [default: .]
+  --project-name TEXT             Your project name fx. 'my_program'
+                                  [required]
+
+  --from_repo TEXT
+  --install-completion [bash|zsh|fish|powershell|pwsh]
+                                  Install completion for the specified shell.
+  --show-completion [bash|zsh|fish|powershell|pwsh]
+                                  Show completion for the specified shell, to
+                                  copy it or customize the installation.
+
+  --help                          Show this message and exit.
+```
+
+
