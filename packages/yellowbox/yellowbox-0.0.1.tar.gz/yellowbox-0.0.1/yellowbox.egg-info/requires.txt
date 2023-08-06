@@ -1,0 +1,12 @@
+
+[kafka]
+kafka-python
+
+[rabbit]
+pika
+
+[redis]
+redis
+
+[testing]
+pytest

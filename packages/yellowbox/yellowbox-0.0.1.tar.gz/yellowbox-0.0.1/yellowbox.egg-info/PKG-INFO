@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: yellowbox
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/biocatchltd/yellowbox
+Author: biocatch ltd
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: docker
+Requires: yaspin
+Provides-Extra: testing
+Provides-Extra: rabbit
+Provides-Extra: kafka
+Provides-Extra: redis
