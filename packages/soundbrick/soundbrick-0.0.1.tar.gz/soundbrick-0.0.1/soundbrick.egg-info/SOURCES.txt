@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+soundbrick.egg-info/PKG-INFO
+soundbrick.egg-info/SOURCES.txt
+soundbrick.egg-info/dependency_links.txt
+soundbrick.egg-info/top_level.txt
