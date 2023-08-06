@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pymaya
+Version: 0.1.0
+Summary: Python client to interact with maya.tase.co.il
+Home-page: https://github.com/BenSterenson/pymaya
+Author: Ben Sterenson
+Author-email: bensterenson@gmail.com
+License: UNKNOWN
+Description: # pymaya intract with https://maya.tase.co.il/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

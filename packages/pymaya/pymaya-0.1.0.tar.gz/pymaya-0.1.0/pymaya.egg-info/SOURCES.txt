@@ -1,0 +1,14 @@
+README.md
+setup.py
+pymaya/__init__.py
+pymaya/exceptions.py
+pymaya/maya.py
+pymaya/utils.py
+pymaya.egg-info/PKG-INFO
+pymaya.egg-info/SOURCES.txt
+pymaya.egg-info/dependency_links.txt
+pymaya.egg-info/requires.txt
+pymaya.egg-info/top_level.txt
+pymaya/request_classes/__init__.py
+pymaya/request_classes/maya_base_request.py
+pymaya/request_classes/maya_historical_request.py
