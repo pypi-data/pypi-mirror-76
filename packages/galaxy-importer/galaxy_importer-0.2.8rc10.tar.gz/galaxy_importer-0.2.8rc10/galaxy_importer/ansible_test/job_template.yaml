@@ -1,0 +1,28 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {job_name}
+  labels:
+    app: automation-hub
+spec:
+  activeDeadlineSeconds: {job_timeout}
+  backoffLimit: 0
+  template:
+    spec:
+      automountServiceAccountToken: false
+      containers:
+      - name: {job_name}
+        # TODO(awcrosby): Change to SHA tag after merging /docker changes and building
+        image: quay.io/cloudservices/automation-hub-ansible-test:latest
+        resources:
+          requests:
+            cpu: {cpu_request}
+            memory: {memory_request}
+          limits:
+            cpu: {cpu_limit}
+            memory: {memory_limit}
+        env:
+        - name: ARCHIVE_URL
+          value: {archive_url}
+      restartPolicy: Never
+      imagePullPolicy: IfNotPresent
