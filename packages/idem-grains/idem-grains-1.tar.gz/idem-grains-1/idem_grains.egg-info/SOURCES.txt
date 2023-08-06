@@ -1,0 +1,8 @@
+README.rst
+pyproject.toml
+setup.py
+idem_grains.egg-info/PKG-INFO
+idem_grains.egg-info/SOURCES.txt
+idem_grains.egg-info/dependency_links.txt
+idem_grains.egg-info/requires.txt
+idem_grains.egg-info/top_level.txt
