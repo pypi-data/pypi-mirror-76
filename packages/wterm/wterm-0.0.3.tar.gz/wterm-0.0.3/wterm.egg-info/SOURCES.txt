@@ -1,0 +1,9 @@
+README.md
+setup.py
+wterm/__init__.py
+wterm/console.py
+wterm/logging.py
+wterm.egg-info/PKG-INFO
+wterm.egg-info/SOURCES.txt
+wterm.egg-info/dependency_links.txt
+wterm.egg-info/top_level.txt
