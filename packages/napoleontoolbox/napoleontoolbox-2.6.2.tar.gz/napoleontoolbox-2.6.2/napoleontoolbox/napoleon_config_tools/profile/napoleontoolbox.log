@@ -1,0 +1,2 @@
+ERROR      2020-08-10 01:58:24,394 | module : <string> | line : 1 | method : <module> | Profile value should be string typed
+NoneType: None

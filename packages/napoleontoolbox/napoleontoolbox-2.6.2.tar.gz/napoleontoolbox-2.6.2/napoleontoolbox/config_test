@@ -1,0 +1,16 @@
+package:
+  name: napoleontoolbox
+  version:
+
+
+providers:
+  bitmex:
+    type: REST
+    key: 1235
+    secret: 4567
+  binance:
+    type: REST
+    key: 1235
+    secret: 4567
+
+
