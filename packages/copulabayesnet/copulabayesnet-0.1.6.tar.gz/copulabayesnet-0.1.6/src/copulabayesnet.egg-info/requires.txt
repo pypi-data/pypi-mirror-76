@@ -1,0 +1,9 @@
+numpy>=1.16.0
+pycopula
+scipy
+sklearn
+statsmodels
+matplotlib
+scikit-gof
+hydroeval
+easygui
