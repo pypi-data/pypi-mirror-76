@@ -1,0 +1,177 @@
+# controls which steps to do when starting main.py
+process:
+  scraping: False
+  dataPreparation: False
+  modelTrainingLIWC: False
+  derivePersonalities: True
+  modelTrainingGloVe: True
+
+scraping:
+  # number of seconds to stream tweet data
+  timer: 14400  # 180
+  # max follower number for eligible users
+  # 0 = no limit
+  user_max_followers: 10000
+  # at least x followers for eligible users
+  user_min_followers: 10
+  # minimum tweet number for eligible users (incl. retweets)
+  # 0 = no limit
+  users_min_tweet_no: 400
+
+  # the number of users to select followers from
+  # the API is limited to 15 calls per 15 minutes
+  sampling_follower: 45  # 15
+
+  # how many eligible users should be (randomly) included
+  # from the location scraping
+  sampling_location_users: 200 # 100
+
+  # total sample size of users we try to achieve
+  # must be greater or equal to sampling_location_users
+  total_sample_size: 1100
+
+  # determines if files are written during the process or read
+  # helps to recreate steps with the same data
+  scrapingByLoc:
+    writeFile: False
+    readFile: True
+
+  followerSelect:
+    writeFile: False
+    readFile: True
+
+  userSelect:
+    writeFile: False
+    readFile: True
+
+  # determines if the location of followers should be validated or not
+  validateLocation: True
+
+preparationProcess:
+  printStatistics: False
+
+  # list of countries (subset of countries defined under twitter)
+  # for these countries we will get profiles from ibm
+  # e.g. USA (or NONE, if nothing should be retrieved)
+  countriesIBM:
+    - USA
+
+  # determines if files are written during the process or read
+  # helps to recreate steps with the same data
+  condenseTweets:
+    writeFile: False
+    readFile: True
+
+  getIBMprofile:
+    writeFile: False
+    readFile: True
+  
+  # for LIWC we always write the files if read is false
+  # since it's a separate program
+  liwc:
+    writeFile: False
+    readFile: True
+    # relative path for LIWC results 
+    path: 'data/liwcInput/'
+    # will be prefixed with country name
+    # e.g.: USAliwcResult.csv
+    fileName: 'liwcResult.csv'
+
+modelTraining:
+  # defines which target labels should be used in model training process
+  # could be e.g. extended to use facets as well
+  # labels need to exist in Profile
+  labelsGlobalList:
+    - big5_openness
+    - big5_conscientiousness
+    - big5_extraversion
+    - big5_agreeableness
+    - big5_neuroticism
+  # print details about training scores etc
+  printDetailResults: True
+  # binary files
+  writePickleFiles: False
+  readPickleFiles: False
+  # ONNX model
+  writeONNXModel: False
+  readONNXModel: True
+  # csv files after liwc prediction
+  writeFile: False
+  readFile: True
+
+  # binary files for glove
+  writePickleFilesG: False
+  readPickleFilesG: False
+  # ONNX model for glove
+  writeONNXModelG: False
+  readONNXModelG: False # TODO CHANGE
+
+  # calculated glove features can be exported
+  # or read; if read is False, features are calculated
+  # on the fly
+  writeFeatureFile: False
+  readFeatureFile: True
+
+  # file or data base file for glove data
+  # only relevant if features are not loaded from file
+  # data/glove/glove.db for data base
+  # data/glove/glove_vectors.txt for plain text file
+  glove_path: 'data/glove/glove_vectors.txt'
+  # if path points to data base file set to True
+  # otherwise False
+  glove_database: False
+
+twitter:
+
+  # max tweets per user used for mining
+  # (3200 is a max limit given by Twitter)
+  # lower limits might be useful due to API rate limits
+  # this is the number of tweets excluding retweets
+  user_max_tweet_no:  250 # 200
+
+  # if True prints a message, when Twitter's API limits are reached
+  wait_on_rate_limit_notify: True
+
+  # remove line breaks from tweet text
+  # csv files look odd when they contain new line characters
+  # if set to true tweet texts will be cleaned of those
+  remove_new_line: True
+
+  # ignore retweets, since they are not written by the user
+  ignore_retweets: True
+
+  # relevant additional tweet attributes
+  # (used while retrieving tweets)
+  # id_str, created_at, user_id, isRetweet and text are always included
+  add_attributes:
+    - lang
+    - is_quote_status
+
+  # for filtering tweets based on location
+  # coordinates are needed
+  # we want to get tweets from multiple locations
+  # (USA and Germany), hence we provide multiple countiries
+  coordinates:
+    USA:
+      name: 'USA' # should match Google Places API result
+      lang: 'en'
+      langThreshold: 0.8
+      otherLangThreshold: 0.05
+      northeast: # state Maine, USA
+        lat: 47.459833
+        lng: -66.885417
+      southwest: # state California, USA
+        lat: 32.528832
+        lng: -124.482003
+    Germany:
+      name: 'Germany'
+      lang: 'de'
+      langThreshold: 0.8
+      otherLangThreshold: 0.05
+      northeast: # Mecklenburg-Vorpommern according to Google API
+        lat: 54.6847005
+        lng: 14.4122569
+      southwest: # Baden-Württemberg according to Google API
+        lat: 47.5323664
+        lng: 7.511756799999999
+
