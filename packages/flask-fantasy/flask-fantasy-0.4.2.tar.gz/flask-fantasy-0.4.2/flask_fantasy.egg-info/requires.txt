@@ -1,0 +1,16 @@
+celery==4.4.0
+blinker==1.4
+raven==6.10.0
+requests==2.22.0
+redis==3.3.11
+webargs==5.5.2
+PyMySQL==0.9.3
+python-dateutil==2.8.1
+Flask==1.1.1
+Flask-SQLAlchemy==2.4.1
+flask-prometheus-metrics==1.0.0
+flask-migrate==2.5.2
+Flask-Admin==1.5.5
+flask-cors==3.0.8
+flask-babel==1.0.0
+SQLAlchemy-Utils==0.36.1
