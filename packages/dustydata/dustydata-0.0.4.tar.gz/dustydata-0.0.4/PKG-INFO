@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: dustydata
+Version: 0.0.4
+Summary: UNKNOWN
+Home-page: https://github.com/dustin-py/Packages/tree/master/dustydata
+Author: Dustin Stringer
+Author-email: dustinstri92@gmail.com
+License: UNKNOWN
+Description: # dustydata
+        
+        This is data science package I made for
+        school.
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
