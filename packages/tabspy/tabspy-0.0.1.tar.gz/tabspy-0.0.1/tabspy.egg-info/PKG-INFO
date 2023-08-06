@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: tabspy
+Version: 0.0.1
+Summary: TABSPY by SB
+Home-page: UNKNOWN
+Author: tabspy
+License: The MIT License (MIT)
+Description: #tabspy
+        
+        this is the documentation for tabspy package
+        
+        ## Installation:
+        ```
+        pip install tabspy
+        ```
+        
+        ## Usage
+        Code:
+        ```
+        import tabspy.utils as ut
+        import tabspy.strategy.strategy as st
+        
+        a = ut.welcome()
+        b = st.Strategy()
+        b.welcome()
+        ```
+        Output:
+        ```
+        Welcome TABSPY : tabspy >> ta >> utils
+        Welcome None : tabspy >> ta >> strategy
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
