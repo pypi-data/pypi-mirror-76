@@ -1,0 +1,3 @@
+[console_scripts]
+m2cli=mako2cli.cli:main
+
