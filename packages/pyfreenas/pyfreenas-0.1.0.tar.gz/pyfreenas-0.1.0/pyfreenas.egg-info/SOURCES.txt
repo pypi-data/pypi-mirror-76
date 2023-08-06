@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyfreenas/__init__.py
+pyfreenas/disk.py
+pyfreenas/virtualmachine.py
+pyfreenas/websockets_custom.py
+pyfreenas.egg-info/PKG-INFO
+pyfreenas.egg-info/SOURCES.txt
+pyfreenas.egg-info/dependency_links.txt
+pyfreenas.egg-info/requires.txt
+pyfreenas.egg-info/top_level.txt
