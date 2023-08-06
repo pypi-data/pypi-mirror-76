@@ -1,0 +1,10 @@
+setup.py
+kapoor_dist/Binomialdistribution.py
+kapoor_dist/Gaussiandistribution.py
+kapoor_dist/Generaldistribution.py
+kapoor_dist/__init__.py
+kapoor_dist.egg-info/PKG-INFO
+kapoor_dist.egg-info/SOURCES.txt
+kapoor_dist.egg-info/dependency_links.txt
+kapoor_dist.egg-info/not-zip-safe
+kapoor_dist.egg-info/top_level.txt
