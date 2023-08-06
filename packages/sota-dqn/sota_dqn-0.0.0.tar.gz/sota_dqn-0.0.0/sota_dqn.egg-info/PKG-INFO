@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: sota-dqn
+Version: 0.0.0
+Summary: State of the art opinionanted DQN training and inference
+Home-page: https://github.com/lukewood/sota-dqn
+Author: Luke Wood
+Author-email: lukewoodcs@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
