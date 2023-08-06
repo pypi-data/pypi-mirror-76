@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: DetectBinod
+Version: 0.0.1
+Summary: Detect Binod In Files
+Home-page: UNKNOWN
+Author: Akshay Pawar
+Author-email: akshupatil665@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: PyPDF2
+Requires-Dist: xlrd
+Requires-Dist: python-docx
+
+Everyone heard of 'Binod' nowadays, it just went viral  So, Let's detect This spam from work files like pdf, docx, txt and xslx files ; Let's remove बीनोडता from Files:
+
+
