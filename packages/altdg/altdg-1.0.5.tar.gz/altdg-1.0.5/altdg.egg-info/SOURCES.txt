@@ -1,0 +1,10 @@
+README.md
+setup.py
+altdg/__init__.py
+altdg/api.py
+altdg.egg-info/PKG-INFO
+altdg.egg-info/SOURCES.txt
+altdg.egg-info/dependency_links.txt
+altdg.egg-info/entry_points.txt
+altdg.egg-info/requires.txt
+altdg.egg-info/top_level.txt
