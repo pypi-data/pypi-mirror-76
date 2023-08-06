@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: hypotonic
+Version: 0.0.7
+Summary: Fast asynchronous web scraper with minimalist API.
+Home-page: https://github.com/mscavnicky/hypotonic
+Author: Martin Scavnicky
+Author-email: martin.scavnicky@gmail.com
+License: MIT
+Description: Fast asynchronous web scraper with minimalist API.
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: HTML
