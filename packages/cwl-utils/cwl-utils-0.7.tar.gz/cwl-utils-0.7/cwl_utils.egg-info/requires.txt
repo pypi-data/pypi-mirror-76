@@ -1,0 +1,5 @@
+ruamel.yaml
+six
+requests
+schema-salad<8,>=7
+typing_extensions
