@@ -1,0 +1,3 @@
+[console_scripts]
+coloro = coloro.main:main
+

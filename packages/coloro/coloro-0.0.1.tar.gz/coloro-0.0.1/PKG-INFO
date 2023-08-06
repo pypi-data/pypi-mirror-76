@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: coloro
+Version: 0.0.1
+Summary: A console tool for output text with highlighted hex colors
+Home-page: https://github.com/Insolita/coloro
+Author: Insolita
+Author-email: webmaster100500@ya.ru
+License: MIT
+Download-URL: https://github.com/Insolita/coloro/tarball/master
+Description: Console Hex Color Highlighter
+        ==================
+        
+        ![Screen1](./img/cli1.png)
+        
+        ### Installation
+        
+        `pip3 install coloro --user`
+        
+        
+        ### Features
+        
+         - Output text with highlighted hex colors from string/piped text/clipboard
+        
+        ### Usage Examples
+        
+          - `coloro 'some #fff text #c574dd with colors'` Highlight from arg
+        
+          - `coloro -c`  Highlight text from clipboard
+        
+          - `coloro /some/file/with/colors.txt` Highlight file
+        
+          - `cat /some/file.css | coloro` Highlight from pipe
+        
+        ### Screens
+        
+        
+        
+        ![Screen2](./img/cli2.png)
+        
+        ![Screen3](./img/cli4.png)
+        
+        ![Screen4](./img/cli3.png)
+        
+Keywords: terminal,color,term_color,clipboard,console
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
