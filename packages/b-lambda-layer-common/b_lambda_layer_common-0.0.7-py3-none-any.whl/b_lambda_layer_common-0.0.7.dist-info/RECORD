@@ -1,0 +1,14 @@
+b_lambda_layer_common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+b_lambda_layer_common/layer.py,sha256=5sdarZp8FeX1LLGzgDSz_zli7uljC5mnWB_25zdnhBY,688
+b_lambda_layer_common/layer_singleton.py,sha256=5CBnW_KKXG45QyQkBD4Lg0hZ7byO8bB9PPtuvSw_3fs,1725
+b_lambda_layer_common/source/__init__.py,sha256=NjhOdsTZUWj0K5v2tuixFQXHnd8BroEuYsuTH7tMcqI,64
+b_lambda_layer_common/source/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+b_lambda_layer_common/source/python/api_gateway/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+b_lambda_layer_common/source/python/api_gateway/response.py,sha256=vMWCvDl6nyzjrMKeZvHYZOdbyEGcSFKxJNxOKFqz34Y,1156
+b_lambda_layer_common/source/python/api_gateway/response_headers.py,sha256=jZGlTm6ilMWVrv6hclBogd3ejbME4BQeUO2HNREPyxU,1051
+b_lambda_layer_common/source/python/api_gateway/url.py,sha256=54kR2g1oefwTQOkKoXAAiMd2Qa_XxLm52NJcn6i-tnE,663
+b_lambda_layer_common-0.0.7.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+b_lambda_layer_common-0.0.7.dist-info/METADATA,sha256=Nu4J_GSsh12Irtqda5Q3716Nj7itDuNlBedCv1BTNIE,818
+b_lambda_layer_common-0.0.7.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+b_lambda_layer_common-0.0.7.dist-info/top_level.txt,sha256=opq8AKkeQEJSAyEg0mhks_xYVxI73SiiN-tV15x8ktc,22
+b_lambda_layer_common-0.0.7.dist-info/RECORD,,
