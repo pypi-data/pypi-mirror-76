@@ -1,0 +1,91 @@
+import os
+import yaml
+import pypandoc
+import random
+import string
+import re
+
+from .tell import tell
+from .parse import _parse, ParserState
+from .chunks import YAMLDataChunk, MarkdownChunk, HTMLChunk
+from .figure import Figure
+from .button import Button
+from .video import Video
+from .lines import Lines
+from .hint import Hint
+from .code import Code
+from .table import Table
+
+
+def random_id():
+    return ''.join(random.choices(string.ascii_uppercase + string.digits, k=5))
+
+"""
+   Chunk  |- HTML
+          |- Code
+          |- YamlChunk --- YamlDataChunk
+          |             |- Table
+          |             |- Video
+          |             |- Figure
+          |             |- Lines
+          |             |- Button
+          |             |- Lines
+          |- Markdown
+                |- Hint     
+"""
+def cast(rawchunks):
+    chunks = []
+    page_variables = {}
+    for raw in rawchunks:
+        chunk_type = raw.get_type()
+        if chunk_type==ParserState.MARKDOWN:
+            if raw.get_tag() == 'hint':
+                chunks.append(Hint(raw, page_variables))
+            else:
+                chunks.append(MarkdownChunk(raw, page_variables))
+        elif chunk_type==ParserState.YAML:
+            dictionary = yaml.safe_load(''.join(raw.lines))
+            if isinstance(dictionary, dict):
+                if 'type' in dictionary:
+                    yaml_type = dictionary['type']
+                    if yaml_type == 'youtube':
+                        chunks.append(Video(raw, dictionary, page_variables))
+                    elif yaml_type == 'figure':
+                        chunks.append(Figure(raw, dictionary, page_variables))
+                    elif yaml_type == 'button':
+                        chunks.append(Button(raw, dictionary, page_variables))
+                    elif yaml_type == 'lines':
+                        chunks.append(Lines(raw, dictionary, page_variables))
+                    elif yaml_type == 'table':
+                        chunks.append(Table(raw, dictionary, page_variables))
+                    # TODO warn if unknown type
+                else:
+                    data_chunk = YAMLDataChunk(raw, dictionary, page_variables)
+                    try:
+                        page_variables.update(data_chunk.dictionary)
+                    except ValueError as e:
+                        print(e)
+                    chunks.append(data_chunk)
+            else:
+                tell('Something is wrong with the YAML section.', level='error', chunk=raw)
+        elif chunk_type==ParserState.HTML:
+            chunks.append(HTMLChunk(raw, page_variables))
+        elif chunk_type==ParserState.CODE:
+            chunks.append(Code(raw, page_variables))
+    return chunks
+
+def arrange_assides(chunks):
+    main_chunks = []
+    current_main_chunk = None
+    for chunk in chunks:
+        if chunk.is_aside():
+            if current_main_chunk is not None:
+                current_main_chunk.asides.append(chunk)
+            else:
+                tell('Aside chunk cannot be defined as first element.', level='warn')
+                main_chunks.append(chunk)
+        else:
+            main_chunks.append(chunk)
+            current_main_chunk = chunk
+    return main_chunks
+
