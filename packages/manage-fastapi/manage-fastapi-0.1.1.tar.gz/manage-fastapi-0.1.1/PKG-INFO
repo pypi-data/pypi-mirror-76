@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: manage-fastapi
+Version: 0.1.1
+Summary: Managing FastAPI projects made easy.
+Home-page: https://github.com/ycd/manage-fastapi
+License: MIT
+Author: ycd
+Author-email: yagizcanilbey1903@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: databases[postgresql,sqlite] (>=0.3.2,<0.4.0)
+Requires-Dist: fastapi (>=0.60.1,<0.61.0)
+Requires-Dist: typer (>=0.3.1,<0.4.0)
+Requires-Dist: uvicorn (>=0.11.8,<0.12.0)
+Project-URL: Repository, https://github.com/ycd/manage-fastapi
+Description-Content-Type: text/markdown
+
+
+
+
+## Starting new FastAPI projects made easy.
+
+**manage-fastapi** is a command line tool to manage your FastAPI projects easily. 
+
+
+###  Features :rocket:
+
+* Creates customizable **project boilerplate.**
+* Craetes customizable **app boilerplate.**
+
+
+How to use it
+
+```python
+manage-fastapi startproject [ARGS] 
+manage-fastapi startapp [ARGS]
+```
+
+
+## Release Notes :mega:
+
+### Latest Changes
+
+### 0.1.0
+
+* Prototype of project with two functionalities.
+
+## License
+
+This project is licensed under the terms of the MIT license.
