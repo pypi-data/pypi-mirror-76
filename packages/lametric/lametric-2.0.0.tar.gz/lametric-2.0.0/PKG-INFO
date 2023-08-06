@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: lametric
+Version: 2.0.0
+Summary: Lametric API wrapper written on Python. 
+Home-page: https://github.com/breitburg/python-lametric
+Author: Ilya Breitburg
+Author-email: me@breitburg.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/breitburg/python-lametric/issues
+Project-URL: Source, https://github.com/breitburg/python-lametric
+Description: UNKNOWN
+Keywords: lametric python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
