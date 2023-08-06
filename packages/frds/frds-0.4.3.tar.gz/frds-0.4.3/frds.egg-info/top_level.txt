@@ -1,0 +1,4 @@
+docs
+frds
+images
+tests
