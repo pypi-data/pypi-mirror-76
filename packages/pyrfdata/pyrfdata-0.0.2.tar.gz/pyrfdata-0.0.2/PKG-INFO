@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyrfdata
+Version: 0.0.2
+Summary: pyrfdata generates data for performance testing
+Home-page: https://github.com/prasanna/pyrfdata
+Author: Prasanna Pendse
+Author-email: prasanna.pendse@gmail.com
+License: UNKNOWN
+Description: # pyrfdata
+        
+        Generate data for performance testing.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
