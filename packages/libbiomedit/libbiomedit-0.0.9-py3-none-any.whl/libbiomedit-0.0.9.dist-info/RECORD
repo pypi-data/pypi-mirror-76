@@ -1,0 +1,13 @@
+libbiomedit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libbiomedit/crypt.py,sha256=ae_kmQf9BoB_9T0Y3icp91oxaMN0p4FkSYHZrfyMeak,11144
+libbiomedit/dpkg.py,sha256=Rh9l_T4qkXoBxm6Y6W_zgpD5d1tpOmBC4MTis_3plMI,72
+libbiomedit/metadata.py,sha256=0d5ta2iv-Aoz4RBEobUST2pVmkJZcJmjMZRGSwh2Zbg,3993
+libbiomedit/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libbiomedit/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libbiomedit/lib/classify.py,sha256=5Vce11aHiFg7t-mdUJADjoh3g4BMhvM0PSDRVDJUl_Y,1863
+libbiomedit/lib/deserialize.py,sha256=PiQBRmtwqf2lusWbKe686t06tWe9SDO9kzFeVVxXVrQ,3723
+libbiomedit-0.0.9.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+libbiomedit-0.0.9.dist-info/METADATA,sha256=Kxfgf-gKRMjS30tbwYBAlkPQ9KGL1brb2hMeedF4X98,1126
+libbiomedit-0.0.9.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+libbiomedit-0.0.9.dist-info/top_level.txt,sha256=AvfnZ6KNIV8YPwKJdFkFieGHvo9axGtAuQX8LHuL8-s,12
+libbiomedit-0.0.9.dist-info/RECORD,,
