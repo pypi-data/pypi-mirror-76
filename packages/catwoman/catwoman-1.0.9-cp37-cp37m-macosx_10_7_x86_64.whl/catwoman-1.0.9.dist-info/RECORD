@@ -1,0 +1,16 @@
+catwoman/__init__.py,sha256=B4Wi54DCSIH8fcZcbpgWyCWzAWgv55KaL8O-KPTEBGs,82
+catwoman/_custom_ld.cpython-37m-darwin.so,sha256=tweY6uhQku373fjzlcj1nbExSrA_5sk53IqNrcb5L90,23188
+catwoman/_eclipse.cpython-37m-darwin.so,sha256=SNh1o49fRupBsggMX0OtquOecKrb90uWP5OaBmJjdBg,10212
+catwoman/_exponential_ld.cpython-37m-darwin.so,sha256=hxP_eYbnLRMxJhF1T3Pd5beuJIkqdw-cGRmAJYGQF9o,23260
+catwoman/_logarithmic_ld.cpython-37m-darwin.so,sha256=Bka5Q90RqfP4AHcFPXS9XafPwm3Pgi5o-PjCvIyYwjw,23260
+catwoman/_nonlinear_ld.cpython-37m-darwin.so,sha256=pVn9-Rc2bUMlfX-P0mdezulabHjpb0F4YwpBUTEZsPA,23220
+catwoman/_power2_ld.cpython-37m-darwin.so,sha256=SDt5JUx56a3fM7VfCNCh92c5H_RiNkJEzUoefJ2w5po,23188
+catwoman/_quadratic_ld.cpython-37m-darwin.so,sha256=A_ISdN0FJ5EWpAyFGafW00q4ewjnGdgY0AlupGKK8Qo,23188
+catwoman/_rsky.cpython-37m-darwin.so,sha256=6kOmR5BXwXVHCrgsqSCpkkSgK8wa87tCbHh9irKgXAU,14676
+catwoman/openmp.py,sha256=axfETUFV_u7D1gn20jXLkcycEgeqgJpMuqJybhIoSMo,1677
+catwoman/transitmodel.py,sha256=2llaTFwrVuOaRCtZqTAJ5g9BQCPSjsPa-QXm8-sW8mA,24702
+catwoman-1.0.9.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+catwoman-1.0.9.dist-info/METADATA,sha256=AmD0XV4OoD5EjbUJUV1sBG3P67oSVUPgYcLvpOKGshU,1282
+catwoman-1.0.9.dist-info/WHEEL,sha256=nwkAFz8_dz9CJKDh7koJ-e7PWuFRVmHPgrJxVGv4MRQ,110
+catwoman-1.0.9.dist-info/top_level.txt,sha256=2UGHnMpYJ9_o2BY_iGmGKxFY9H1sZ3a9zo4M9YiPZlY,9
+catwoman-1.0.9.dist-info/RECORD,,
