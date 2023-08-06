@@ -1,0 +1,10 @@
+attr_utils/__init__.py,sha256=iTPabFkI5J1_fs4eeDSqRH7nYNRmCYGbSJ0xFLkNll8,1421
+attr_utils/annotations.py,sha256=cYOynoWxZXtj1fzlkkTPFnBZKAbmKYdIYZGmQN7HHuo,3732
+attr_utils/autodoc_typehints.py,sha256=c1ZjfwRLxwNdKPwl1ss3z6NTjtBFukh44ltySFfOByo,6701
+attr_utils/docstrings.py,sha256=Bn3L467kb2GGW_Es08qWsqmsU6uc0DEVApqMTomvWXY,3157
+attr_utils/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+attr_utils-0.0.1.dist-info/LICENSE,sha256=BigaIaJbg4wCjk6MjLC_5kuevxdEotWApzfvN8Y9LMM,1064
+attr_utils-0.0.1.dist-info/METADATA,sha256=9R4I7CCVmMFaPY4lA8cq0Cmvvbyu_Eu0w9LbRJaAojQ,5369
+attr_utils-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+attr_utils-0.0.1.dist-info/top_level.txt,sha256=YMkV6sRf0dEb_2Nm-4HNMGDPk8TaG550VGhoLAzqFn8,11
+attr_utils-0.0.1.dist-info/RECORD,,
