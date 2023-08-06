@@ -1,0 +1,11 @@
+pyvuejs_cli/__init__.py,sha256=H64SMZ0eiQy6a7O_ewTyYCBe0LgwRK78eqkyaw4LydI,129
+pyvuejs_cli/__main__.py,sha256=Ch5cA2Eg0Rl0-_2oanY6nDORHodqBdzToKLWXeW61_I,108
+pyvuejs_cli/cli.py,sha256=TdRE7FfjAq8HPGqAOK4JLNhHxY4BNJsxodZOO47M8Mk,1784
+pyvuejs_cli/handlers.py,sha256=nulAgB7ekhmVAWVOEKwRrvuTQ68i8O87hri2ZKzrFg0,120
+pyvuejs_cli/project_template.zip,sha256=kMJZFLBqpnZOooQWOK9G255I1g5VSVcEBIP3bKIuN-k,31833
+pyvuejs_cli-0.0.1.dist-info/LICENSE,sha256=lRWUOe3whYJEc3-Afa5AGBMKlW-DcRdHg6MYtE3MBCI,1091
+pyvuejs_cli-0.0.1.dist-info/METADATA,sha256=4cnabBlp7dDysp5BvYLuU2g8dh8FTNU7BWPZ7nSuMSE,810
+pyvuejs_cli-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pyvuejs_cli-0.0.1.dist-info/entry_points.txt,sha256=uiRgv5BfL6-2PJ5w1qG9ycT_NlfPS2dZAwdKjaSjSbk,54
+pyvuejs_cli-0.0.1.dist-info/top_level.txt,sha256=flhrGrwq-sutL4rYgm7bVTPqUClany_rASehU0hdXXM,12
+pyvuejs_cli-0.0.1.dist-info/RECORD,,
