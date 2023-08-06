@@ -1,0 +1,7 @@
+pymysql
+pymssql
+pymongo
+munch
+pyodbc
+requests
+pyodbc
