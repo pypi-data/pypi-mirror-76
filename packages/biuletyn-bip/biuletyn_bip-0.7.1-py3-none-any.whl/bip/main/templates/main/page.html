@@ -1,0 +1,34 @@
+{% extends "main/base.html" %}
+
+{% block headpagetitle %}Strona: {{ page.title }}{% endblock %}
+
+{% block pagedescription %}{{ page.description }}{% endblock %}
+
+{% block content %}
+<h2>{{ page.title }}</h2>
+{{ page.text_html|safe }}
+<p>
+  {% for pl in page.labels() %}
+  <span class="badge badge-secondary">{{ pl.label.name }}</span>
+  {% endfor %}
+</p>
+{% if page.attachments %}
+<h3>Załączniki</h3>
+<ul>
+  {% for attachment in page.attachments %}
+  <li><a href="{{ url_for('attachment', filename=attachment.filename, save=attachment.file_save_as) }}">{{ attachment.title }}</a> ({{ attachment.file_type }}, {{ attachment.file_size }} bajtów)</li>
+  {% endfor %}
+</ul>
+{% endif %}
+<hr>
+<table class="table table-bordered table-sm">
+  <tr>
+    <td>Utworzona</td>
+    <td>{{ page.created|datetimeformat(format='short') }}, {{ page.created_by.name }}</td>
+  </tr>
+  <tr>
+    <td>Zmodyfikowana</td>
+    <td>{{ page.updated|datetimeformat(format='short') }}, {{ page.updated_by.name }}</td>
+  </tr>
+</table>
+{% endblock %}

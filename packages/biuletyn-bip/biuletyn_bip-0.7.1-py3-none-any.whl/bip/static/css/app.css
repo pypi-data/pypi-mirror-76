@@ -1,0 +1,20 @@
+#logo {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+.help-block, .help {
+  font-size: 75%;
+  font-style: italic;
+  color: gray;
+  line-height: 1.1em;
+}
+
+.required label {
+  font-weight: bold;
+}
+
+.nav-item a.active {
+  font-weight: bold;
+}

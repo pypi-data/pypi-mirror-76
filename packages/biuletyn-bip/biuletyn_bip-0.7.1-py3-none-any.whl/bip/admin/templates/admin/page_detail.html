@@ -1,0 +1,46 @@
+{% extends "admin/base.html" %}
+
+{% from "macros/forms.html" import render_form %}
+{% from "macros/navigation.html" import breadcrumbs %}
+{% import "macros/mde.html" as mde %}
+
+{% block headpagetitle %}Dane strony {{ object.title }}{% endblock %}
+
+{% block content %}
+<h2>Dane strony {{ object.title }}</h2>
+{{ render_form(form, action=request.path) }}
+<h3>Etykiety</h3>
+<p>
+  {% for pl in object.labels() %}
+  <span class="badge badge-secondary">{{ pl.label.name }}</span>
+  {% else %}
+  Nie ma żadnych etykiet.
+  {% endfor %}
+</p>
+<p><a href="{{ url_for('admin.page_labels', page_pk=object.pk) }}">Zarządzaj</a></p>
+<h3>Załączniki</h3>
+{% if object.attachments %}
+<ul>
+  {% for attachment in object.attachments %}
+  <li>{{ attachment.title }} ({{ attachment.file_type }}, {{ attachment.file_size }} bajtów)</li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>Nie ma żadnych załączników.</p>
+{% endif %}
+<p><a href="{{ url_for('admin.page_attachments', page_pk=object.pk) }}">Zarządzaj</a></p>
+{% endblock %}
+
+{% block breadcrumbs %}
+{% set pages = [(url_for('admin.home'), 'Początek'), (url_for('admin.page_list'), 'Lista stron'), (request.path, object.title)] %}
+{{ breadcrumbs(pages) }}
+{% endblock %}
+
+{% block extrahead %}
+{{ mde.css() }}
+{{ mde.js() }}
+{% endblock %}
+
+{% block extrajs %}
+{{ mde.load_for('text') }}
+{% endblock %}
