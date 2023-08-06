@@ -1,0 +1,7 @@
+opentelemetry-api==0.12b0
+opentelemetry-instrumentation-asgi==0.12b0
+
+[test]
+opentelemetry-test==0.12b0
+starlette~=0.13.0
+requests~=2.23.0
