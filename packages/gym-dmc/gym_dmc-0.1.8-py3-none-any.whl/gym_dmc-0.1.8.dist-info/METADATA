@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: gym-dmc
+Version: 0.1.8
+Summary: gym-dmc is a gym wrapper arround DeepMind Controlsuite domains.
+Home-page: https://github.com/geyang/gym-dmc
+Author: Ge Yang<ge.ike.yang@gmail.com>
+Author-email: ge.ike.yang@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: gym
+Requires-Dist: numpy
+
+``gym-dmc``, OpenAI Gym Plugin for DeepMind Control Suite
+=========================================================
+
+Link to other OpenAI Gym Plugins:
+
+-  ``gym-sawyer``
+-  ``gym-toy-nav``
+
+Usage pattern:
+
+.. code-block:: python
+
+   import gym
+
+   env = gym.make("gym_dmc:Pendulum-swingup-v1")
+
+For the full list of environments, you can print:
+
+.. code-block:: python
+
+   from dm_control.suite import ALL_TASKS
+
+   print(*ALL_TASKS, sep="\n")
+
+   # Out[2]: ('acrobot', 'swingup')
+   #         ('acrobot', 'swingup_sparse')
+   ...
+
+We register all of these environments using the following pattern: >
+acrobot task “swingup_sparse” becomes
+“gym_dmc:Acrobot-swingup_sparse-v1”
+
+
