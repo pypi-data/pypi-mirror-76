@@ -1,0 +1,5 @@
+setuptools~=49.3.2
+oauthlib~=3.1.0
+requests~=2.24.0
+requests_oauthlib
+simplejson~=3.17.2
