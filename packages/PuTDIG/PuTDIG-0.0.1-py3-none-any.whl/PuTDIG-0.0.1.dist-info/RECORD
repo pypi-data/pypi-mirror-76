@@ -1,0 +1,11 @@
+putdig_server/__init__.py,sha256=q_xcMjhQy8xCi5_8MkbuwrOpKydUMU9s6DRybQzHRi8,15
+putdig_server/server.py,sha256=zTUTLuYnD7K5Ht_GORw47BtSeovDlg4UgNYi9H5lGG8,6075
+putdig_server/dist/edit.html,sha256=pDu6WtQJijqFvDFSNAFanmVMOEkZII6eimal-5KK2vk,432
+putdig_server/dist/index.html,sha256=5tnWJUCrWg2K2Rb3HVvDSmNxS-fR0Sjqxi3dNRzHT6c,381
+putdig_server/dist/static/edit.js,sha256=Y-qDnfOc48bN6FctPGOVcbLv7Crb94EPUI2Ucz9la98,335042
+putdig_server/dist/static/index.js,sha256=7ClVWZOh5IJEzbQOI5J5r4Rn7jTyXnArmPWOUA66rOw,324115
+PuTDIG-0.0.1.dist-info/METADATA,sha256=fzAm91calvLWGD3rlAqubpo9zHUamNhLCHeXRSCZl-k,722
+PuTDIG-0.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+PuTDIG-0.0.1.dist-info/entry_points.txt,sha256=NnR7gz4V7fXXNnVa0gr9WtvzGQ2QiGLJwmNpS4iPdnA,54
+PuTDIG-0.0.1.dist-info/top_level.txt,sha256=CBmSBkLcLoxIaQItek8sBunN_turSdVGJzBDXbAFDb4,14
+PuTDIG-0.0.1.dist-info/RECORD,,
