@@ -1,0 +1,13 @@
+README.md
+setup.py
+alexautils/__init__.py
+alexautils/logs.py
+alexautils/naive_nlg.py
+alexautils/pauser.py
+alexautils/slot_utils.py
+alexautils/ssml_tags.py
+alexautils.egg-info/PKG-INFO
+alexautils.egg-info/SOURCES.txt
+alexautils.egg-info/dependency_links.txt
+alexautils.egg-info/requires.txt
+alexautils.egg-info/top_level.txt
