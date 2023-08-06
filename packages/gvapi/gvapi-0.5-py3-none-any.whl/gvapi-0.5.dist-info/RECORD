@@ -1,0 +1,12 @@
+gvapi/__init__.py,sha256=3g2tAHmIpZ7vKX0h1sHZ7EqFXEvKQr8NXCKeRRTrawQ,47
+gvapi/cli.py,sha256=_qX48k36Iaj9qiYxWvEfp4GqqCEeOYzBX8CL9vtbxlQ,529
+gvapi/errors.py,sha256=Nb-TrtTry2yoRCpgGbqfSAps3Y43UNb6uL5sntnCRs0,2391
+gvapi/hero.py,sha256=cn1Pykg8XCQU7vCOC17XL2oQvMyGiBRTy_jC4Sb8eeU,16868
+gvapi/pet.py,sha256=qxiNuWC01v4IMHgsJZFw9_F56sGUYZcxvPCSyspYnjU,1178
+gvapi/util.py,sha256=QZz2OYWCzlbr7SlmDIHsoCJnwWDc6g5uj6RACAU47Ug,1847
+gvapi-0.5.dist-info/LICENSE,sha256=nLJLemcIQqYJ6-Apr6WM7fpbaOfQcozqINTtD2zMWN8,1069
+gvapi-0.5.dist-info/METADATA,sha256=L4Wd-x5UtsOuh_CfEx8mBVIx8kwar4IcKobVQs7mr9c,2831
+gvapi-0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gvapi-0.5.dist-info/entry_points.txt,sha256=yPxhR0UCvx7FKZxI8KpRmdNUivmSnOx8gKDhF7eIFQo,41
+gvapi-0.5.dist-info/top_level.txt,sha256=WMpzY1DtFcdFORf0imWPUAHjYi0rUnPL8-5lL-XLZPw,6
+gvapi-0.5.dist-info/RECORD,,
