@@ -1,0 +1,4 @@
+[console_scripts]
+uotp-client = udp_over_tls_pool.client:main
+uotp-server = udp_over_tls_pool.server:main
+
