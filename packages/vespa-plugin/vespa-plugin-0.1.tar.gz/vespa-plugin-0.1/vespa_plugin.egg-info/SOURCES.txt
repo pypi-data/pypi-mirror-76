@@ -1,0 +1,6 @@
+README.md
+setup.py
+vespa_plugin.egg-info/PKG-INFO
+vespa_plugin.egg-info/SOURCES.txt
+vespa_plugin.egg-info/dependency_links.txt
+vespa_plugin.egg-info/top_level.txt
