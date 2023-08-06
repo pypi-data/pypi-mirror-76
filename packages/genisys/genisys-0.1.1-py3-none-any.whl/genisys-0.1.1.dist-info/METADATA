@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: genisys
+Version: 0.1.1
+Summary: A framework for building intelligent microservices
+License: MIT
+Author: David Lee
+Author-email: ltw_david@hotmail.com
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: cookiecutter (>=1.7.2,<2.0.0)
+Requires-Dist: toml (>=0.10.1,<0.11.0)
