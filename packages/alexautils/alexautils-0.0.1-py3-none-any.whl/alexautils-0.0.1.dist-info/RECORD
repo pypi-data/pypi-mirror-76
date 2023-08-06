@@ -1,0 +1,11 @@
+alexautils/__init__.py,sha256=eV-LzvDoXhBd7ZNLw_ar4yTSQwc8q93jssn2pMMWjlw,782
+alexautils/logs.py,sha256=fbkFRQw8lXdQkcG4FIVYHiYpP7yIjn5ay38MnOclu7Y,1520
+alexautils/naive_nlg.py,sha256=SOAY0MOmDRleKahzddpaLpwBWUQTrFOra1pU4dk2b3c,3639
+alexautils/pauser.py,sha256=V5_q94a6LozB1bck-kjPWK6Km-uV5iI7R48ResNe7Pc,2670
+alexautils/slot_utils.py,sha256=8QJxrdv3u-iM6BNGkImgr0khVbIh1W5cZ_gN3HSkf9M,3095
+alexautils/ssml_tags.py,sha256=MdpHIaRMLqkS_GaDZiV_fY9vURYTd5xX1uS-8eIhr8Q,1689
+alexautils-0.0.1.dist-info/LICENSE.txt,sha256=y7Qtk7UtcDW8bqptKgztx2tA21WV9-sqmHrALG3S038,1058
+alexautils-0.0.1.dist-info/METADATA,sha256=M4XAeGnARX4kEH5ACIDrE2hpIkffM5zuW8cKOMgNI60,4749
+alexautils-0.0.1.dist-info/WHEEL,sha256=sI-vBbJF_F_l-R6JrPzLJ9vhJk6PcAXoAkIfwXdMgLI,97
+alexautils-0.0.1.dist-info/top_level.txt,sha256=reGDgkyUd_AN9FXXXetIZtfpVK-GW0Th5eIhFKZXn3A,11
+alexautils-0.0.1.dist-info/RECORD,,
