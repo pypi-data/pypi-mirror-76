@@ -1,0 +1,9 @@
+easysocks5/__init__.py,sha256=AsUm8-PDWfHYOzesJLPbDyVh75874RSuBBjsJ-1rIok,297
+easysocks5/remote.py,sha256=RDkUKs3Hf7sGQYVy_BDEINCBH_3xEg0GMTNOFzPnLKk,1956
+easysocks5/server.py,sha256=DZ-EBLrgSZ_xzBBwoNeVff8u3xoaNtzZl9QQYP6mmtU,1446
+easysocks5/socks5.py,sha256=3yb4ip_Ze-GvJiSd2Bctb4k-pzzx_VR-RxUiKLTSTTQ,10653
+easysocks5-0.0.3.dist-info/LICENSE,sha256=MbuvD7-2sZ0PcdXi3_8yqkErlFDLZI9tc2HD7FWTuQI,1080
+easysocks5-0.0.3.dist-info/METADATA,sha256=4UZ_mfyMh_y2ShX840wDKG5LBq9yyqkjtpN06lOJbhI,1188
+easysocks5-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+easysocks5-0.0.3.dist-info/top_level.txt,sha256=JH4bBJK07YlksrjtcZ4m9q_IkEr59W7ChnESiJRF4ko,11
+easysocks5-0.0.3.dist-info/RECORD,,
