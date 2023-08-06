@@ -1,0 +1,9 @@
+README.md
+binary_wrapper.py
+setup.py
+test_binary_wrapper.py
+binary_wrapper.egg-info/PKG-INFO
+binary_wrapper.egg-info/SOURCES.txt
+binary_wrapper.egg-info/dependency_links.txt
+binary_wrapper.egg-info/not-zip-safe
+binary_wrapper.egg-info/top_level.txt
