@@ -1,0 +1,4 @@
+[console_scripts]
+test=tests:run
+tests=tests:run
+
