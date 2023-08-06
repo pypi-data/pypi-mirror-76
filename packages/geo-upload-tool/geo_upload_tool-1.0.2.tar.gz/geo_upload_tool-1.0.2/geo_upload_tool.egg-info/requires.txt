@@ -1,0 +1,6 @@
+docopt
+future
+pandas
+setuptools
+pysam
+openpyxl
