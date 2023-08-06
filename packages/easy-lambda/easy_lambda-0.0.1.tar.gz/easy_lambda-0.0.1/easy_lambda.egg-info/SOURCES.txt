@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+easy_lambda/__init__.py
+easy_lambda/utils.py
+easy_lambda.egg-info/PKG-INFO
+easy_lambda.egg-info/SOURCES.txt
+easy_lambda.egg-info/dependency_links.txt
+easy_lambda.egg-info/requires.txt
+easy_lambda.egg-info/top_level.txt
