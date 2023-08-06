@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: tejask
+Version: 0.0.1
+Summary: This module has methods like add, sub, mult, div, ascend, descend
+Home-page: https://github.com/Pushkar-Singh-14/
+Author: Tejas
+Author-email: tejk7167@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Python
+=====================
+BY TEJAS.A
+===================
+
+Elementary math module
+=======================
+
+
+Documentation
+-------------
+
+Python 
+----------
+Ascending order:
+
+	def ascend(a):
+	    a.sort()
+	    return a
+
+Addition:
+
+	def add(a, b):
+	    c = a + b
+	    return c
+
+Subtraction:
+
+	def sub(a, b):
+	    c = a - b
+	    return c
+
+Multiplication:
+
+	def mult(a, b):
+	    c = a * b
+	    return c
+
+Division:
+
+	def div(a, b):
+	    c = a / b
+	    return c
+
+Descending order:
+
+	def descend(a):
+	    a.sort(reverse=True)
+	    return a
+Reverse of a number:
+
+	def rev(a):
+	    return a[::-1]
+
+
