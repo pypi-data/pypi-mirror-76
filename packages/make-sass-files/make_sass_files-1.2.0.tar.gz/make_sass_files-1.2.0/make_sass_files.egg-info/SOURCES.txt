@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+make-sass-files/__init__.py
+make-sass-files/__main__.py
+make-sass-files/data/scss_files.json
+make_sass_files.egg-info/PKG-INFO
+make_sass_files.egg-info/SOURCES.txt
+make_sass_files.egg-info/dependency_links.txt
+make_sass_files.egg-info/top_level.txt

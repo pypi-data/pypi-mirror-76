@@ -1,0 +1,46 @@
+{
+    "folders": [
+        "sass/abstracts",
+        "sass/base",
+        "sass/components",
+        "sass/layout",
+        "sass/pages",
+        "sass/themes",
+        "sass/vendors"
+    ],
+    "abstracts": [
+        "sass/abstracts/_variables.scss",
+        "sass/abstracts/_functions.scss",
+        "sass/abstracts/_mixins.scss"
+    ],
+    "base": [
+        "sass/base/_reset.scss",
+        "sass/base/_typography.scss"
+    ],
+    "components": [
+        "sass/components/_buttons.scss",
+        "sass/components/_carousel.scss",
+        "sass/components/_slider.scss"
+    ],
+    "layout": [
+        "sass/layout/_navigation.scss",
+        "sass/layout/_grid.scss",
+        "sass/layout/_header.scss",
+        "sass/layout/_footer.scss",
+        "sass/layout/_sidebar.scss",
+        "sass/layout/_forms.scss"
+    ],
+    "pages": [
+        "sass/pages/_home.scss",
+        "sass/pages/_about.scss",
+        "sass/pages/_contact.scss"
+    ],
+    "themes": [
+        "sass/themes/_theme.scss",
+        "sass/themes/_admin.scss"
+    ],
+    "vendors": [
+        "sass/vendors/_bootstrap.scss",
+        "sass/vendors/_jquery-ui.scss"
+    ]
+}
