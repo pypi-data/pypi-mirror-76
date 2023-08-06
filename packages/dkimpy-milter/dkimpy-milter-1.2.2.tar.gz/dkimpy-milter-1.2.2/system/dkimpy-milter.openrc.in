@@ -1,0 +1,15 @@
+#!/sbin/openrc-run
+# Copyright 1999-2019 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+CONFFILE="@CONFDIR@/${RC_SVCNAME}.conf"
+required_files="${CONFFILE}"
+
+command="@BINDIR@/dkimpy-milter"
+pidfile="@RUNSTATEDIR@/${RC_SVCNAME}.pid"
+command_args="${CONFFILE} -P ${pidfile}"
+
+depend() {
+	use dns logger net
+	before mta
+}
