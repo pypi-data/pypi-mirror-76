@@ -1,0 +1,10 @@
+README.md
+rpdb2.py
+setup.py
+winpdb.py
+winpdb_reborn.egg-info/PKG-INFO
+winpdb_reborn.egg-info/SOURCES.txt
+winpdb_reborn.egg-info/dependency_links.txt
+winpdb_reborn.egg-info/entry_points.txt
+winpdb_reborn.egg-info/requires.txt
+winpdb_reborn.egg-info/top_level.txt
