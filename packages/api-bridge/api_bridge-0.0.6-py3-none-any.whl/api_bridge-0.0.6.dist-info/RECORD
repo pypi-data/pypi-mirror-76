@@ -1,0 +1,12 @@
+api_bridge/__init__.py,sha256=B0H_sOQAN5i4iPsdL8q6oi7eRmNW94B8_jm9Qb-yPug,344
+api_bridge/api.py,sha256=J-AQfrHPVuJ81-Q7C4pD64sFpbGV5bP03-z5zvnig6Q,3359
+api_bridge/container.py,sha256=2WB-oHbUgNPPKSZKW6lyvUlbMSMrns-Xir3Si7euj0o,676
+api_bridge/exceptions.py,sha256=d0zKxDtOkF3JefTqdaZpdMjWBku8oX665kdnRTRGbU8,623
+api_bridge/filter.py,sha256=7ztf_YLcxnIzFpiQmxQDSJv3RqMSLooD4kZ5JmTvoBY,1278
+api_bridge/methods.py,sha256=C0bYYeypZKbJRqPLdGRZjQVCLt2GhIqa_-Zogm3r5U4,472
+api_bridge/url.py,sha256=xzLvq21vi9fKpwTlJlVBmfNWaxZiaF5EoBbr2Qv4Jno,627
+api_bridge-0.0.6.dist-info/LICENSE,sha256=YLaNKOFw2_9ULntIGmRPT02Pk88qswebwDvElG0S_48,1091
+api_bridge-0.0.6.dist-info/METADATA,sha256=nPQ_YHMF7xzsI3GUbTFkYsayUOI6tXaMKLaM_B2w9qs,3610
+api_bridge-0.0.6.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+api_bridge-0.0.6.dist-info/top_level.txt,sha256=ux57jbgN4lVafldRpU5UF187R4htuor_g6tgZ-pZPig,11
+api_bridge-0.0.6.dist-info/RECORD,,
