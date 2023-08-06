@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: biasedclassifier
+Version: 0.3.1
+Summary: 
+Home-page: https://rparraca.github.io/BiasedClassifier/
+License: MIT
+Keywords: imbalanced,classification,random forest
+Author: Rodrigo Parra
+Author-email: contact@rodrigo-parra.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: scikit-learn (>=0.23.2,<0.24.0)
+Project-URL: Repository, https://github.com/rparraca/BiasedClassifier
+Description-Content-Type: text/markdown
+
+# Biased Classifier
+
+Biased Classifier
+
+Current version: 0.3.0
+
+## Install
+
+Directly from `PyPi` servers:
+
+```
+pip install biasedclassifier
+```
+
+## Interface
+
+Estimator's constructor:
+
+```
+BiasedClassifier(
+    p=[0.0],
+    unbiased_estimator=None,
+    knn=None
+)
+```
+where `unbiased_estimator` is the base estimator to use (and to biased towards critical set). We pass a `k-NearestNeighbor` object directly via the paramter `knn`.
+
+
+## Use
+
+Example using Random Forests from `scikit-learn`.
+
+Assume `X, y` is a training set with three classes and two heavily inbalanced classes. In this case, we'd like to bias two classifiers into these subsets. We've decided that `0.3` and `0.2` proportions are enough for the minority classes (from smaller up) and `k=10` neighbors to collect for critical set. Our unbiased estimator will be a random forest of size 200.
+
+```
+from biasedclassifier import BiasedClassifier
+from sklearn.neighbors import NearestNeighbors
+from sklearn.ensemble import RandomForestClassifier
+
+clf = BiasedClassifier(
+    p=[0.3, 0.2], 
+    unbiased_classifier=RandomForestClassifier(n_estimators=200), 
+    knn=NearestNeighbors(n_neighbors=10)
+)
+
+# Train
+clf.fit(X,y)
+
+# Obtain probabilities for each class
+prob = clf.predict_proba(X)
+
+# Predicted values
+y_pred = clf.predict(X)
+
+# Average accuracy score
+score = clf.score(X, y)
+```
+
+It is important to note that `BiasedEstimator` does not change the state of both objects `unbiased_classifier` and `knn`. Instead, it uses clones internally to do its operations.
+
+## Compatibility
+
+This model is compatible with all of the capabilities offered by `scikit-learn` requiring `get_params` and `score` methods.
