@@ -1,0 +1,9 @@
+rnanorm/__init__.py,sha256=XPbigHD-u-3HIPXCeoW3K1t8OpfdC-2GMEo_Wo6HoYY,71
+rnanorm/__main__.py,sha256=XwJlV3rx6AIdY4J8z9IJ8k6eSXyP9y6zmihdoxLLlo0,5258
+rnanorm/annotation.py,sha256=a0RNCImx0juc1OTIVX50YxxirvLPZ_pCnRzy73jJ8Ao,2854
+rnanorm/normalization.py,sha256=5B6LzVn2oCtwjIa0iMZTjqrhGmthk4jPiQOIJlNEcOY,2518
+rnanorm-1.3.1.dist-info/entry_points.txt,sha256=ii6yp8Pr9ktkXi2nDTn10LTIL2AciJnSdCZ7zji8WTs,49
+rnanorm-1.3.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+rnanorm-1.3.1.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+rnanorm-1.3.1.dist-info/METADATA,sha256=nDqXok7Vb-Y5QaLdZuoXa34kVBAODt_OXtpRGscxAqc,3378
+rnanorm-1.3.1.dist-info/RECORD,,
