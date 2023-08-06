@@ -1,0 +1,7 @@
+dacite
+django-eveuniverse>=0.3
+redis-simple-mq
+dhooks-lite>=0.4
+
+[:python_version < "3.7"]
+dataclasses>='0.7'
