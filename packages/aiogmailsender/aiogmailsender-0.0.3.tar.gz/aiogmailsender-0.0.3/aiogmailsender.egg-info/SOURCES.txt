@@ -1,0 +1,12 @@
+README.rst
+setup.py
+aiogmailsender/__init__.py
+aiogmailsender/client.py
+aiogmailsender/pool.py
+aiogmailsender/sender.py
+aiogmailsender/util.py
+aiogmailsender.egg-info/PKG-INFO
+aiogmailsender.egg-info/SOURCES.txt
+aiogmailsender.egg-info/dependency_links.txt
+aiogmailsender.egg-info/requires.txt
+aiogmailsender.egg-info/top_level.txt
