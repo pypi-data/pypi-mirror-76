@@ -1,0 +1,58 @@
+﻿{% extends "without-sidebar.html" %}
+
+{% block title %}- {{ page.title }}{% endblock title %}
+
+{% block image_header %}
+	{% if page.image_header %}
+		<img src="{{ page.image_header }}">
+	{% endif %}
+{% endblock image_header %}
+
+{% block page_breadcrumbs %}
+	<li>{{ page.title }}</li>
+{% endblock page_breadcrumbs %}
+
+{% block content %}
+	{% if not page.hide_headline %}
+		<h3 class="headline">
+			{{ page.title }}{% if page.subtitle %}<small> - {{ page.subtitle }}</small>{% endif %}
+		</h3>
+		<span class="line" style="margin-bottom:35px;"></span>
+		<div class="clearfix"></div>
+	{% endif %}
+
+	<div class="container">
+		<div class="sixteen columns">
+			<hr>
+		</div>
+		<div class="sixteen columns">
+
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="six columns">
+			<img src="{{ page.image_portrait }}" style="margin-left: auto; margin-right: auto;">
+		</div>
+		<div class="eight columns">
+			<blockquote style="margin-top: 10%;">
+				<p style="font-style: italic; text-align: justify">{{ page.quote }} </p>
+				- {{ page.quote_author }}
+			</blockquote>
+		</div>
+	</div>
+	<div class="container">
+		<div class="sixteen columns" style="padding-top: 23px;">
+			<hr>
+			<div style="text-align: justify;">
+				{{ page.content }}
+			</div>
+		</div>
+	</div>
+
+{% endblock content %}
+
+{% block pv %}
+	{{ super() }}
+	{{ page.pageview }}
+{% endblock pv %}
