@@ -1,0 +1,3 @@
+[console_scripts]
+baduk=baduk.__main__:main
+
