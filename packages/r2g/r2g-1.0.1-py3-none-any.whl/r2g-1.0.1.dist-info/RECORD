@@ -1,0 +1,17 @@
+r2g/__init__.py,sha256=YisM2N5wi_JbB13tmu91bpsS6GuGdU0AmiLgh9NIi_M,415
+r2g/errors.py,sha256=ghB7zhB_S_5D0yjJ3EWj8euk4OIacmeAcmiw5HukRn4,539
+r2g/path.json,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+r2g/taxid_to_species.json,sha256=MyF-DYihmtjTeERqhlEghhpt-HEEpVjSOBwGElUKHyM,206767
+r2g/local/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+r2g/local/assemblers.py,sha256=KLh6f15JTtul6e6QOnZDb7G3_Cixs3p_tFYj0EJRCyM,3867
+r2g/online/NCBIWWW_selenium.py,sha256=vZEujFy1krdhKbWXOa3MiE3f8IQDjaG2lyqqZ8_ut4I,25112
+r2g/online/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+r2g/online/blast.py,sha256=xmHogCYm1wUrvpdNBups5GsOvaY7vQB-EkAZyDn8hCo,8660
+r2g/online/fetch.py,sha256=SitzVdtNXSBcNep_goGuy6ienka7o2BlLXfAEHIODDA,1934
+r2g/utils/__init__.py,sha256=53JD4LmKpXPRxAmUafsKjNExI2PEocwuOBqGfCF046k,22035
+r2g-1.0.1.data/scripts/r2g,sha256=3wPQ9f9vdT79RLo4--CX0SAPhRHmQqIpmVU3BrKF61I,5135
+r2g-1.0.1.dist-info/LICENSE,sha256=jag8S1zk1Qk8QIDjZwQD49BMgj1kfQZdMeIHhMTiXVw,1065
+r2g-1.0.1.dist-info/METADATA,sha256=QaWrVXpGo8xPzez8VrB5ri76efq4UnH5l6wueytxWB4,13614
+r2g-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+r2g-1.0.1.dist-info/top_level.txt,sha256=AePd3Qtkzp2kk0LUX2TKFTexJuyrDW9MeDZ3bkboYiU,4
+r2g-1.0.1.dist-info/RECORD,,
