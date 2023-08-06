@@ -1,0 +1,15 @@
+marv_api/__init__.py,sha256=4Hdp2hMjX4RwPwlrLLbHHSO0_kazzEUnVX94mHd1VRM,619
+marv_api/dag.py,sha256=ZDE57RZ0YgAaeh4w1xDkbKEHCYWceim7BeRoA80s6pg,2089
+marv_api/decorators.py,sha256=UkF2bQaDqeQNIKyO3A15cwnAhHZrzUrFA8Ak6iEM084,5189
+marv_api/deprecation.py,sha256=bJU1fxGKUKzxJeoIHAEIRLWS7WXi4bJibgjOjZV3XUU,886
+marv_api/scanner.py,sha256=LZy57WCHcrwea-Wp3ZPWDb7-ghqlP_i50IqvCGqJ5h4,1038
+marv_api/utils.py,sha256=Xg3bnVsCGVASMJ2gLneoBkGFyllVLwRIsNixh_vTmWA,844
+marv_api/tests/__init__.py,sha256=1jwOijShbtPHQE5ILltu4L_pKAnI9CBRJrKW3v7W0IA,76
+marv_api/tests/test_dag.py,sha256=BWWLXFfYq6pBB0FG3KNGfh-8WshbJwS94mxrVF9-spc,1148
+marv_api/tests/test_decorators.py,sha256=Bf6mEAoqCigDB-Hyu9ThS59Tf23zawI9KLFeRfQDUiw,4845
+marv_api/tests/test_utils.py,sha256=b89URItRxZAUPCaocs7H4ahA-42Q1GTTcTMZYiDRL74,950
+marv_api-20.8.0.dist-info/LICENSE.txt,sha256=V8j_M8nAz8PvAOZQocyRDX7keai8UJ9skgmnwqETmdY,34520
+marv_api-20.8.0.dist-info/METADATA,sha256=W39TJ09joxNxuhHl2RGI45DI3zDVH7yU9k0L1UKDTgU,1049
+marv_api-20.8.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+marv_api-20.8.0.dist-info/top_level.txt,sha256=XdKSCzYryISMzqHGNoXHNd4sTFUFuhPmgoMynulbDU8,9
+marv_api-20.8.0.dist-info/RECORD,,
