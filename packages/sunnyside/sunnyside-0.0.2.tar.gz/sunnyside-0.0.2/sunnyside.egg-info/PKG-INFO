@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sunnyside
+Version: 0.0.2
+Summary: Python wrapper for OpenWeather API
+Home-page: UNKNOWN
+Author: Jun Qi Li
+Author-email: JunQi.Li63@myhunter.cuny.com
+License: UNKNOWN
+Description: # Sunnyside
+        
+        ![Pypi deployment status](https://github.com/junqili259/Sunnyside/workflows/Pypi/badge.svg)
+        
+        ## Installation
+        ```
+        pip3 install sunnyside
+        ```
+        
+        ## Getting Started
+        ### Python Version
+        Sunnyside only supports python 3.6+
+        ___________________________________________________________________________________________________________________________________________________________________________________
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
