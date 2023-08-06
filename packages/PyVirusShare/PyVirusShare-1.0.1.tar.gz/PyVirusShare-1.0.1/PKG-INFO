@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: PyVirusShare
+Version: 1.0.1
+Summary: A Python library/command line to interact with VirusShare API v2.
+Home-page: https://github.com/chrsow/VirusShare
+License: MIT
+Description: # PyVirusShare
+        A Python 3 library to interact with VirusShare API v2. The project is inspired from the latest [update](https://virusshare.com/whatsnew) from VirusShare and the existed tool, [vt-py](https://github.com/VirusTotal/vt-py); a client library for VirusTotal.
+        
+        ## Installation
+        ```
+        pip3 install virusshare
+        ```
+        
+        ## Usage
+        ### Library Usage Demo
+        ```python
+        from virusshare import VirusShare
+        
+        v = VirusShare('<api_key>')
+        
+        result = v.info('a1ac533baaf7de1dae53cf5b465aeca28a7f20bdfc79e5a0a39437dd728c231f')
+        
+        print(result['data'])
+        """
+        {
+            "filetype": "PE32 executable (DLL) (console) Intel 80386 Mono/.Net assembly, for MS Windows",
+            "md5": "985d5ff3a3ede247c561c0ea4cedd342",
+            "exif": {
+                "CharacterSet": "Unicode",
+                "CodeSize": 291328,
+                "Comments": "Mono.Security.dll",
+                "CompanyName": "MONO development team",
+                "EntryPoint": "0x2000",
+                "FileDescription": "Mono.Security.dll",
+                "FileFlags": "(none)",
+                "FileFlagsMask": "0x003f",
+                "FileOS": "Win32",
+                "FileSize": "286 kB",
+        ...
+        ..
+        .
+        """
+        
+        ```
+        
+        |Method|Example|
+        |--|--|
+        |Virustotal.info|v.info('<hash_str>')|
+        |Virustotal.download|v.download('<hash_str>', '/tmp')|
+        |Virustotal.quick||
+        |Virustotal.source||
+        
+        ### Command Line Usage
+        <!-- ```
+        $ PyVirusShare download -k <api_key> -hs <hash_string> -o <output_dir>
+        ``` -->
+        TODO
+        
+        
+        ## TODO
+        - [ ] Test on Linux
+        - [ ] Test on Windows
+        - [ ] Implement the functionalities with the list of hashes and its rate limit system.
+        
+        ## License
+        This project is licensed under the terms of the MIT license.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
