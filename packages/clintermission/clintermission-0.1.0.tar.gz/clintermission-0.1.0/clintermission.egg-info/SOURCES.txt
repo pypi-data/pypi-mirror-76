@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+clintermission/__init__.py
+clintermission/climenu.py
+clintermission.egg-info/PKG-INFO
+clintermission.egg-info/SOURCES.txt
+clintermission.egg-info/dependency_links.txt
+clintermission.egg-info/requires.txt
+clintermission.egg-info/top_level.txt

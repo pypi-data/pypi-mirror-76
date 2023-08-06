@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: clintermission
+Version: 0.1.0
+Summary: Non-fullscreen command-line selection menu
+Home-page: https://github.com/sebageek/clintermission
+Author: Sebastian Lohff
+Author-email: seba@someserver.de
+License: Apache-2.0
+Description: # Clintermission - Python CLI Intermission Library
+        `clintermission` is a small Python library designed to quickly get a selection
+        of a single or multiple items from a user. The menu shown is explicitly not a
+        fullscreen menu so the user can use information in their console history to
+        make a selection.
+        
+        The menu is implemented by using `prompt-toolkit`'s `Buffer` class.
+        
+        Inspired by [go promptui](https://github.com/manifoldco/promptui).
+        
+Keywords: cli,menu
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
