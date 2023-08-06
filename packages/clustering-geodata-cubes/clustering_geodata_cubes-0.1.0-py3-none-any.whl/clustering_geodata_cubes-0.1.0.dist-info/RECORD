@@ -1,0 +1,15 @@
+cgc/__init__.py,sha256=FFRnVyA1AQfjo0F6dRXs39udDRwPnRk1gbNGvRHP4HY,228
+cgc/__version__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+cgc/cgc.py,sha256=OxD0uHZKRY9F0RIvw5Awi-9Zzc8IQ-glEr-k_7kjfmU,77
+cgc/coclustering.py,sha256=_Z3fNiJpSsun4xxa-n-rhWprosYHq0Z4fGZ0DBhH5yM,5794
+cgc/coclustering_dask.py,sha256=AGYd291bYGwovGUqc3CiiJy8IL7mzlzJGhGT5s4C5TY,3147
+cgc/coclustering_numpy.py,sha256=qhDxFZHxq7iZRWCNKpqGi1zZ3Zq3bG-gRZsaUAe9u-U,2341
+cgc/kmeans.py,sha256=WEjA_2PrQS8tZRsNbdANmoed1h48bg6BKLcZ1J0v320,5038
+cgc/triclustering.py,sha256=zgaYf_KzivybWTCmUFrZJMP_j0-fW5xVWCknyeTb8io,3139
+cgc/triclustering_numpy.py,sha256=SMkyAK3R4oXE-WrXtWrRQloKbOzdvKl4NEkYjSASI5E,3540
+clustering_geodata_cubes-0.1.0.dist-info/LICENSE,sha256=OPzV6bHGPCXFylyiCR3GYAK-EP8seLDbcbgO87DYM1o,11359
+clustering_geodata_cubes-0.1.0.dist-info/METADATA,sha256=SU9_lXavl4apbxjsHN-5--uHVgDSuQy5g_AvvmWTCSU,3983
+clustering_geodata_cubes-0.1.0.dist-info/NOTICE,sha256=CFqOvOOFgCBRJNiosNGzLTI2YahwyCmMSvz_bwXtWqk,51
+clustering_geodata_cubes-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+clustering_geodata_cubes-0.1.0.dist-info/top_level.txt,sha256=Qo158PsJibuFow_s1Fbz3a736GgY_EIKoZkT7qu_d2E,4
+clustering_geodata_cubes-0.1.0.dist-info/RECORD,,
