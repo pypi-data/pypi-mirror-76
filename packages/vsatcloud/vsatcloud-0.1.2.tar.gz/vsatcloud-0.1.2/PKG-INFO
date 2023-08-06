@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: vsatcloud
+Version: 0.1.2
+Summary: vsat-cloud python sdk
+Home-page: https://vsat.cloud
+Author: vsattech.com
+Author-email: it@vsattech.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
