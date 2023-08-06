@@ -1,0 +1,9 @@
+README.md
+setup.py
+forismatic/__init__.py
+forismatic/forismatic.py
+forismatic.egg-info/PKG-INFO
+forismatic.egg-info/SOURCES.txt
+forismatic.egg-info/dependency_links.txt
+forismatic.egg-info/requires.txt
+forismatic.egg-info/top_level.txt
