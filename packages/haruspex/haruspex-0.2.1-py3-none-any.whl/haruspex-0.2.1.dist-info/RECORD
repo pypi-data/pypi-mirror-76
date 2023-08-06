@@ -1,0 +1,9 @@
+haruspex/__init__.py,sha256=wdaStGst1L8yb3FVDZ1MyAb2aahqan3A6R7-5sFpJBc,65
+haruspex/fat32.py,sha256=rLiHzCqMwOB-jOrGwfg4ye0zQ0jOVdYlbCun7YeENKw,27195
+haruspex/mbr.py,sha256=iIWzYi2mJUlv4PYJByIfLIEN1l64gcOeGCUThF9eooU,3086
+haruspex-0.2.1.dist-info/DESCRIPTION.rst,sha256=pL7ry3_XP_-5NvCgr6ggxjttioKry_Hie_ai45hzKBY,119
+haruspex-0.2.1.dist-info/METADATA,sha256=Ok8t_vfs5a0GpHBd5O8xpPnGPX7Ve9OVsfUBct2d60Q,720
+haruspex-0.2.1.dist-info/RECORD,,
+haruspex-0.2.1.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+haruspex-0.2.1.dist-info/metadata.json,sha256=01KoMV2ORNcToYPlQsRe2nE6qW60dVG-gUZfvDDDF50,737
+haruspex-0.2.1.dist-info/top_level.txt,sha256=jh0w-sP5tKVWSzyYwmhNoUJBFMbMg5rAOL_zaI8DJiQ,9
