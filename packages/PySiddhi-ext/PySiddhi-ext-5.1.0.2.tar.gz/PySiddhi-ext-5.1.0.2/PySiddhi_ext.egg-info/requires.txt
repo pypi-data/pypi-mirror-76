@@ -1,0 +1,3 @@
+requests
+pyjnius
+future
