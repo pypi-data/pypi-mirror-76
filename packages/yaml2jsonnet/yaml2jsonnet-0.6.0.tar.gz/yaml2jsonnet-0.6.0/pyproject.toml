@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "yaml2jsonnet"
+version = "0.6.0"
+description = "Convert from YAML to Jsonnet format, retaining comments"
+license = "AGPL-3.0-or-later"
+authors = ["Nathaniel Waisbrot <code@waisbrot.net>"]
+readme = "README.rst"
+repository = "https://github.com/waisbrot/yaml2jsonnet"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Operating System :: POSIX",
+    "Topic :: Software Development :: Compilers",
+    "Topic :: Utilities",
+]
+
+[tool.poetry.scripts]
+yaml2jsonnet = 'yaml2jsonnet'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+"ruamel.yaml" = "^0.16.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4"
+black = "^19.10b0"
+isort = "^5"
+flake8 = "^3"
+mypy = "^0.782"
+pytest-cov = "^2.10.0"
+gojsonnet = "^0.16.0"
+hypothesis = "^5.23.3"
+hypothesis-jsonschema = "^0.17.3"
