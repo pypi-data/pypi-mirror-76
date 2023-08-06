@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+dxchange/__init__.py
+dxchange/_nbdev.py
+dxchange/core.py
+dxchange.egg-info/PKG-INFO
+dxchange.egg-info/SOURCES.txt
+dxchange.egg-info/dependency_links.txt
+dxchange.egg-info/entry_points.txt
+dxchange.egg-info/not-zip-safe
+dxchange.egg-info/requires.txt
+dxchange.egg-info/top_level.txt
