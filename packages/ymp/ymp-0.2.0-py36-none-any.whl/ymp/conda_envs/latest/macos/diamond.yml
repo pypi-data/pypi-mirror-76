@@ -1,0 +1,29 @@
+name: diamond
+channels:
+- conda-forge
+- bioconda
+- defaults
+dependencies:
+- boost-cpp=1.70.0=hef959ae_3
+- bzip2=1.0.8=haf1e3a3_2
+- c-ares=1.16.1=haf1e3a3_0
+- ca-certificates=2020.6.20=hecda079_0
+- diamond=2.0.2=h31d8819_0
+- htslib=1.10.2=h422799e_1
+- icu=67.1=h4a8c4bd_0
+- krb5=1.17.1=h14dd6a4_2
+- libcurl=7.71.1=he6690cf_4
+- libcxx=10.0.1=h5f48129_0
+- libdeflate=1.6=h0b31af3_0
+- libedit=3.1.20191231=hed1e85f_1
+- libev=4.33=haf1e3a3_0
+- libnghttp2=1.41.0=h8a08a2b_1
+- libssh2=1.9.0=h39bdce6_5
+- lz4-c=1.9.2=h4a8c4bd_1
+- ncurses=6.1=h0a44026_1002
+- openssl=1.1.1g=haf1e3a3_1
+- samtools=1.10=h457b48f_2
+- tk=8.6.10=hb0a8c7a_0
+- xz=5.2.5=haf1e3a3_1
+- zlib=1.2.11=1007
+- zstd=1.4.5=h0384e3a_2

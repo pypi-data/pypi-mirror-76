@@ -1,0 +1,24 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/linux-64/_libgcc_mutex-0.1-conda_forge.tar.bz2#d7c89558ba9fa0495403155b64376d81
+https://conda.anaconda.org/conda-forge/linux-64/ca-certificates-2020.6.20-hecda079_0.tar.bz2#1b1cca86e95c416a8e7eb6062af6d503
+https://conda.anaconda.org/conda-forge/linux-64/libstdcxx-ng-9.2.0-hdf63c60_2.tar.bz2#ca372846bf35fc54a853f4175ae5c776
+https://conda.anaconda.org/conda-forge/linux-64/libgomp-9.2.0-h24d8f2e_2.tar.bz2#7c6154111414b737f850a5d02b9c9380
+https://conda.anaconda.org/conda-forge/linux-64/_openmp_mutex-4.5-0_gnu.tar.bz2#3053d142226093f417abe884f2ab6620
+https://conda.anaconda.org/conda-forge/linux-64/libgcc-ng-9.2.0-h24d8f2e_2.tar.bz2#51817a9a1e6064d0a065a93c2f4986f5
+https://conda.anaconda.org/conda-forge/linux-64/bzip2-1.0.8-h516909a_2.tar.bz2#b3a914cd2f2ba2dc18121e0194143c85
+https://conda.anaconda.org/conda-forge/linux-64/ldc-1.20.0-h9a1ace1_1.tar.bz2#d87a6caede72cddfc8e1ef24fc3cef04
+https://conda.anaconda.org/conda-forge/linux-64/libdeflate-1.6-h516909a_0.tar.bz2#e53e6f8cfc9deaa4b07e27e25e3371b0
+https://conda.anaconda.org/conda-forge/linux-64/ncurses-6.2-he1b5a44_1.tar.bz2#d3da4932f3d8e6b3c81fcf177d1e6eab
+https://conda.anaconda.org/conda-forge/linux-64/openssl-1.1.1g-h516909a_0.tar.bz2#b68c8742d26e69d091ffcb2c1b85c3e8
+https://conda.anaconda.org/conda-forge/linux-64/xz-5.2.5-h516909a_1.tar.bz2#33f601066901f3e1a85af3522a8113f9
+https://conda.anaconda.org/conda-forge/linux-64/zlib-1.2.11-h516909a_1006.tar.bz2#eb59ca0a6123517e35bae003be4b4bfe
+https://conda.anaconda.org/conda-forge/linux-64/libedit-3.1.20191231-h46ee950_1.tar.bz2#29e6a338b1ee3dff18dff516b5665caa
+https://conda.anaconda.org/conda-forge/linux-64/libssh2-1.9.0-hab1572f_4.tar.bz2#90fc55d8cadfc9a3d802068b0f08a8d2
+https://conda.anaconda.org/conda-forge/linux-64/tk-8.6.10-hed695b0_0.tar.bz2#9a3e126468fa7fb6a54caad41b5a2d45
+https://conda.anaconda.org/conda-forge/linux-64/krb5-1.17.1-hfafb76e_1.tar.bz2#c39fa8824a367ef62598eaae17e610bd
+https://conda.anaconda.org/conda-forge/linux-64/libcurl-7.71.1-hcdd3856_2.tar.bz2#ad422fe2a407324fe93c832ff2d4740d
+https://conda.anaconda.org/bioconda/linux-64/htslib-1.10.2-hd3b49d5_1.tar.bz2#9fd6a8d4f8f11589bed2c6a59d9ee451
+https://conda.anaconda.org/bioconda/linux-64/sambamba-0.7.1-h984e79f_3.tar.bz2#8bb671f81a1dd11dbf954e91bff148a7

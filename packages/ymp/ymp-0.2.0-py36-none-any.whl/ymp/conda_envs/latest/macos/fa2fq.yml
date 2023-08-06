@@ -1,0 +1,10 @@
+name: fa2fq
+channels:
+- conda-forge
+- bioconda
+- defaults
+dependencies:
+- gettext=0.19.8.1=h1f1d5ed_1
+- pigz=2.3.4=hbbe82c9_1
+- sed=4.7=h3efe00b_1000
+- zlib=1.2.11=1007

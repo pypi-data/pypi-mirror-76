@@ -1,0 +1,11 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/osx-64/ca-certificates-2020.6.20-hecda079_0.tar.bz2#7933a42d363f3e88f239384ff68252db
+https://conda.anaconda.org/conda-forge/osx-64/gettext-0.19.8.1-h1f1d5ed_1.tar.bz2#216d8ecdf9cce640f7c4787541e4613e
+https://conda.anaconda.org/conda-forge/osx-64/libunistring-0.9.10-h1de35cc_0.tar.bz2#9e5790cabba9cafeb8b51eb670252305
+https://conda.anaconda.org/conda-forge/osx-64/zlib-1.2.11-1007.tar.bz2#45baf062af78d948c4eaf5a5dba0b2b5
+https://conda.anaconda.org/conda-forge/osx-64/libidn2-2.3.0-h0b31af3_0.tar.bz2#2a35d2cbac3c3563ffc46132dbb87a86
+https://conda.anaconda.org/conda-forge/osx-64/openssl-1.1.1g-haf1e3a3_1.tar.bz2#31736d93dc6075a776645e5f5346fb9f
+https://conda.anaconda.org/conda-forge/osx-64/wget-1.20.1-h33e2efd_0.tar.bz2#54e153da505f8ea136442362c6e75dab

@@ -1,0 +1,7 @@
+name: raxml
+channels:
+- conda-forge
+- bioconda
+- defaults
+dependencies:
+- raxml=8.2.12=h0b31af3_2

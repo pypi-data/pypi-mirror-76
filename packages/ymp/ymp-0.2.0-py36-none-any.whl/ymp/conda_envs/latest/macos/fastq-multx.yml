@@ -1,0 +1,10 @@
+name: fastq-multx
+channels:
+- conda-forge
+- bioconda
+- defaults
+dependencies:
+- fastq-multx=1.4.0=ha1b3eb9_0
+- libcxx=10.0.1=h5f48129_0
+- pigz=2.3.4=hbbe82c9_1
+- zlib=1.2.11=1007

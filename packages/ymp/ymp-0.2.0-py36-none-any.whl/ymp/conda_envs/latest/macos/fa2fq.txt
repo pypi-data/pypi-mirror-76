@@ -1,0 +1,8 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+@EXPLICIT
+https://conda.anaconda.org/conda-forge/osx-64/gettext-0.19.8.1-h1f1d5ed_1.tar.bz2#216d8ecdf9cce640f7c4787541e4613e
+https://conda.anaconda.org/conda-forge/osx-64/zlib-1.2.11-1007.tar.bz2#45baf062af78d948c4eaf5a5dba0b2b5
+https://conda.anaconda.org/conda-forge/osx-64/pigz-2.3.4-hbbe82c9_1.tar.bz2#b2b109f2f4729b62e57763bf4b29c524
+https://conda.anaconda.org/conda-forge/osx-64/sed-4.7-h3efe00b_1000.tar.bz2#12e92b1d4ac4f839fcdd66289caea89f

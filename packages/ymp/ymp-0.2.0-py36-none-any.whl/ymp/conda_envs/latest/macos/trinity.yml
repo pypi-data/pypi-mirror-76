@@ -1,0 +1,14 @@
+name: trinity
+channels:
+- conda-forge
+- bioconda
+- defaults
+dependencies:
+- bzip2=1.0.8=haf1e3a3_2
+- libgcc=4.8.5=hdbeacc1_10
+- libgfortran=3.0.1=0
+- ncurses=5.9=10
+- openjdk=11.0.8=hb0a8c7a_0
+- perl=5.22.0.1=0
+- trinity=date.2011_11_26=ncurses5.9_8
+- zlib=1.2.11=1007

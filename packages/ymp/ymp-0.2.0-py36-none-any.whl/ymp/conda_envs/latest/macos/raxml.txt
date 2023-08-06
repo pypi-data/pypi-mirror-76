@@ -1,0 +1,5 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+@EXPLICIT
+https://conda.anaconda.org/bioconda/osx-64/raxml-8.2.12-h0b31af3_2.tar.bz2#906f66d82ed600cbab75eeddf061e028

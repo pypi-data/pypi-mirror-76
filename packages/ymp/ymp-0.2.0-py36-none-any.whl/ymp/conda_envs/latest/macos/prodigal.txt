@@ -1,0 +1,5 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: osx-64
+@EXPLICIT
+https://conda.anaconda.org/bioconda/osx-64/prodigal-2.6.3-h01d97ff_2.tar.bz2#84322be0cf2398ed1570cb50fb99a0c4
