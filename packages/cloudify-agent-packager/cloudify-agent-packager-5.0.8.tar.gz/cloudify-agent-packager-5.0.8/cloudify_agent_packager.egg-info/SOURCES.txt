@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+agent_packager/__init__.py
+agent_packager/cli.py
+agent_packager/exceptions.py
+agent_packager/packager.py
+agent_packager/utils.py
+cloudify_agent_packager.egg-info/PKG-INFO
+cloudify_agent_packager.egg-info/SOURCES.txt
+cloudify_agent_packager.egg-info/dependency_links.txt
+cloudify_agent_packager.egg-info/entry_points.txt
+cloudify_agent_packager.egg-info/requires.txt
+cloudify_agent_packager.egg-info/top_level.txt
