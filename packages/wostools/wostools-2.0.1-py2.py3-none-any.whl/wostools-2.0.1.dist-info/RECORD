@@ -1,0 +1,16 @@
+wostools/__init__.py,sha256=LH99v8BDFCcr8dMfDqZCv0fVJVquMccbn5Bkmdm1Ao0,325
+wostools/_testutils.py,sha256=bwjuq7ui167Kj7HAcL43RLMeHW-1DmH814-nEaZzcvU,1191
+wostools/article.py,sha256=f7Z08npwu3Y3fi6ieMN55nCrvCpBnjo54BmnarLmgDA,5611
+wostools/base.py,sha256=7Im5HgBHpEaCAV4WZo-m-q7UxmZwUEbv_iylFrLMW8U,3808
+wostools/cached.py,sha256=DWtV8W5RxwhAzkukCK20XIQuq-HfZSA08TDonxt4xt0,3109
+wostools/cli.py,sha256=iOpYRCfoxvwMAa3zwpMm9GYKU5ADj7bupWgUQLr24MM,1863
+wostools/exceptions.py,sha256=SpbSdqse3de3HylBdo40eQ8SnCvF5-1sC0xDh_S0hrg,897
+wostools/fields.py,sha256=BKMotUv1o4ewuVTc2V6SDZytX07yd71csyh4-2Uob50,8085
+wostools/lazy.py,sha256=xRm4iQE59sPojj_d8MJiE-NaP-PXKUwjdNu2LTi-3ig,2605
+wostools-2.0.1.dist-info/AUTHORS.md,sha256=gv7o-l79c7TntUo3lU2y0g1BpcPRv98d2Gi7Nocs6V8,252
+wostools-2.0.1.dist-info/LICENSE,sha256=f36TtBJbTSfqgx3HlOFrxTLZ-YNq5tfO-1EzcRD1Gg8,1079
+wostools-2.0.1.dist-info/METADATA,sha256=5bbqaHyIqhCftd0w_0M_BE-JzO9CKnMnjiKiblgNizE,3264
+wostools-2.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+wostools-2.0.1.dist-info/entry_points.txt,sha256=mmQ3NKtJjctWSBiVx9lycELvx8Fj8yXD_Dq2lI9JCdQ,48
+wostools-2.0.1.dist-info/top_level.txt,sha256=IZpied1wwY_YQyecDzzQSw53JE4AWLPa_lxaVV8RFvY,9
+wostools-2.0.1.dist-info/RECORD,,
