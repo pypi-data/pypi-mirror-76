@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: krwordrank
+Version: 0.0.1
+Summary: Korean Corpus Downloader
+Home-page: https://github.com/lovit/Korpora
+Author: lovit
+License: UNKNOWN
+Description: # Korpora: Korean Corpora Archives
+        
+        This package provides easy-download and easy-usage for various Korean corpora
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
