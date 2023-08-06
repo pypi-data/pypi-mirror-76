@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+src/masonite/dot/__init__.py
+src/masonite/dot/dot.py
+src/masonite_dot.egg-info/PKG-INFO
+src/masonite_dot.egg-info/SOURCES.txt
+src/masonite_dot.egg-info/dependency_links.txt
+src/masonite_dot.egg-info/requires.txt
+src/masonite_dot.egg-info/top_level.txt
