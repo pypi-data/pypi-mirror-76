@@ -1,0 +1,15 @@
+README.md
+setup.py
+atudomain/__init__.py
+atudomain/git/Commit.py
+atudomain/git/Git.py
+atudomain/git/__init__.py
+atudomain/git/exceptions/NotARepositoryError.py
+atudomain/git/exceptions/__init__.py
+atudomain/git/parsers/GitBranchParser.py
+atudomain/git/parsers/GitLogParser.py
+atudomain/git/parsers/__init__.py
+atudomain_git.egg-info/PKG-INFO
+atudomain_git.egg-info/SOURCES.txt
+atudomain_git.egg-info/dependency_links.txt
+atudomain_git.egg-info/top_level.txt
