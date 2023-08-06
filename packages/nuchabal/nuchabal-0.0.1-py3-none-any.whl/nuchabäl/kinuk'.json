@@ -1,0 +1,113 @@
+{
+  "français": {
+    "runuk'": "fr",
+    "rumajaju": "fr",
+    "glottolog": "stan1290",
+    "ajilanïk": "latin"
+  },
+  "español": {
+    "runuk'": "es",
+    "rumajaju": "fr",
+    "glottolog": "stan1288",
+    "ajilanïk": "latin"
+  },
+  "Nederlands": {
+    "runuk'": "nl",
+    "rumajaju": "nl",
+    "glottolog": "dutc1256",
+    "ajilanïk": "latin"
+  },
+  "English": {
+    "runuk'": "en",
+    "rumajaju": "en",
+    "glottolog": "stan1293",
+    "ajilanïk": "latin"
+  },
+  "தமிழ்": {
+    "runuk'": "த",
+    "glottolog": "tami1289",
+    "rumajaju": "ta"
+  },
+  "ਪੰਜਾਬੀ": {
+    "runuk'": "ਪੰ",
+    "glottolog": "west2386",
+    "rumajaju": "pa"
+  },
+  "हिंदी": {
+    "runuk'": "हिं",
+    "glottolog": "",
+    "rumajaju": "hi",
+    "ajilanïk": "देवनागरी"
+  },
+  "ગુજરાતી": {
+    "runuk'": "ગુ",
+    "glottolog": "guja1252",
+    "rumajaju": "gu"
+  },
+  "اردو": {
+    "runuk'": "ار",
+    "glottolog": "urdu1245",
+    "rumajaju": "ur",
+    "ajilanïk": "فارسی"
+  },
+  "فارسی": {
+    "runuk'": "فا",
+    "glottolog": "west2369",
+    "rumajaju": "fa",
+    "ajilanïk": "فارسی"
+  },
+  "پنجابی": {
+    "runuk'": "پن",
+    "glottolog": "panj1256",
+    "rumajaju": "pnb",
+    "ajilanïk": "ار"
+  },
+  "मराठी": {
+    "runuk'": "म",
+    "glottolog": "mara1378",
+    "rumajaju": "mr",
+    "ajilanïk": "देवनागरी"
+  },
+  "മലയാളം": {
+    "runuk'": "മ",
+    "glottolog": "mala1464",
+    "rumajaju": "ml",
+    "ajilanïk": "മലയാളം"
+  },
+  "नेपाली": {
+    "runuk'": "ने",
+    "glottolog": "nepa1254",
+    "rumajaju": "ne",
+    "ajilanïk": "देवनागरी"
+  },
+  "Kaqchikel": {
+    "runuk'": "kaq",
+    "glottolog": "kaqc1270",
+    "rumajaju": "caq",
+    "ajilanïk": "Mayab'"
+  },
+  "K'iche'": {
+    "runuk'": "k'i",
+    "glottolog": "kich1262",
+    "rumajaju": "quc",
+    "ajilanïk": "Mayab'"
+  },
+  "Tz'utujil": {
+    "runuk'": "tz'u",
+    "glottolog": "tzut1248",
+    "rumajaju": "tzj",
+    "ajilanïk": "Mayab'"
+  },
+  "汉语": {
+    "runuk'": "汉",
+    "glottolog": "sini1245",
+    "rumajaju": "zh",
+    "ajilanïk": "汉语"
+  },
+  "日本語": {
+    "runuk'": "日本",
+    "glottolog": "nucl1643",
+    "rumajaju": "ja",
+    "ajilanïk": "汉语"
+  }
+}
