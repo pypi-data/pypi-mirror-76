@@ -1,0 +1,7 @@
+README.md
+setup.py
+twittenizer/twittenizer.egg-info/PKG-INFO
+twittenizer/twittenizer.egg-info/SOURCES.txt
+twittenizer/twittenizer.egg-info/dependency_links.txt
+twittenizer/twittenizer.egg-info/requires.txt
+twittenizer/twittenizer.egg-info/top_level.txt
