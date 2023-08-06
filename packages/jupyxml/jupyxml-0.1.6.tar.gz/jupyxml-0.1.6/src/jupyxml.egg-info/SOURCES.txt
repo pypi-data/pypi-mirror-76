@@ -1,0 +1,34 @@
+.gitignore
+AUTHORS.rst
+CHANGELOG.rst
+LICENSE.txt
+MANIFEST.in
+README.rst
+pytest.ini
+requirements.txt
+setup.cfg
+setup.py
+docs/Makefile
+docs/authors.rst
+docs/changelog.rst
+docs/conf.py
+docs/index.rst
+docs/license.rst
+docs/_static/.gitignore
+examples/Basic Usage.ipynb
+examples/Read XML Document.ipynb
+src/jupyxml/__init__.py
+src/jupyxml/accordian_creator.py
+src/jupyxml/visualiser.py
+src/jupyxml.egg-info/PKG-INFO
+src/jupyxml.egg-info/SOURCES.txt
+src/jupyxml.egg-info/dependency_links.txt
+src/jupyxml.egg-info/not-zip-safe
+src/jupyxml.egg-info/requires.txt
+src/jupyxml.egg-info/top_level.txt
+src/jupyxml/styles/__init__.py
+src/jupyxml/styles/jupyxml.css
+tests/conftest.py
+tests/test_basic_parse_string.py
+tests/test_load_xml.py
+tests/test_skeleton.py
