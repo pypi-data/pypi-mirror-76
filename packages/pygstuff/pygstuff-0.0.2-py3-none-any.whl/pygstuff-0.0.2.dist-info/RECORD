@@ -1,0 +1,11 @@
+pygstuff/__init__.py,sha256=AqQMWenGi2Sy3XxRcIGWJe63vn1KdhT_M0Hkcs1k19c,209
+pygstuff/clock.py,sha256=9LI7tzvWk5V8-izG-btVHYpIeiQH84UWp3oRjKGfuKU,1413
+pygstuff/colors.py,sha256=DJtzmzwetbKbvkFsMv8CQn4Cw6q8wDz27MC6miyadkw,5017
+pygstuff/plot.py,sha256=ELJdgWGarjCn77Znw8qRXq4cMhQOCnWA0d8KehCUFPI,4086
+pygstuff/user.py,sha256=iKTM4qsSB570HcKsPpFeaqi55gje7Hj7hRW6Tx0ATkQ,4096
+pygstuff/window.py,sha256=zsJD4CVi3zCoeIY1u2vtQ2_18wlhdI0a7JdZuYcxIRU,1855
+pygstuff-0.0.2.dist-info/LICENSE.md,sha256=YKMzz0Kyo_rfX1G6w2B4qoOZTS28H3UWuR9Fs_vTg-c,1067
+pygstuff-0.0.2.dist-info/METADATA,sha256=Pj67-mmPtUHHmEvyVX8X93StzVCZJQjKx14qWRyMTJo,10390
+pygstuff-0.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+pygstuff-0.0.2.dist-info/top_level.txt,sha256=VdKWZKA3jQg13-F0i6HNxFpEcRmoaf8MPuWAt-7V2lk,9
+pygstuff-0.0.2.dist-info/RECORD,,
