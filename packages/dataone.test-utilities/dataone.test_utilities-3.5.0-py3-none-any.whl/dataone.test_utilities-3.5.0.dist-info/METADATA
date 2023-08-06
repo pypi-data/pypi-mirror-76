@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: dataone.test-utilities
+Version: 3.5.0
+Summary: Utilities for testing DataONE infrastructure components
+Home-page: https://github.com/DataONEorg/d1_python
+Author: DataONE Project
+Author-email: developers@dataone.org
+License: Apache License, Version 2.0
+Keywords: DataONE source code unit tests ingeration tests coverage travis coveralls
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: dataone.libclient (>=3.5.0)
+Requires-Dist: coverage (>=5.2.1)
+Requires-Dist: coveralls (>=2.1.1)
+Requires-Dist: decorator (>=4.4.2)
+Requires-Dist: freezegun (>=0.3.15)
+Requires-Dist: gitpython (>=3.1.7)
+Requires-Dist: mock (>=4.0.2)
+Requires-Dist: multi-mechanize (>=1.2.0)
+Requires-Dist: posix-ipc (>=1.0.4)
+Requires-Dist: psutil (>=5.7.2)
+Requires-Dist: pyasn1 (>=0.4.8)
+Requires-Dist: pytest (>=6.0.1)
+Requires-Dist: pytest-cov (>=2.10.0)
+Requires-Dist: pytest-django (>=3.9.0)
+Requires-Dist: pytest-forked (>=1.3.0)
+Requires-Dist: pytest-random-order (>=1.0.4)
+Requires-Dist: pytest-xdist (>=1.34.0)
+Requires-Dist: pyxb (>=1.2.6)
+Requires-Dist: rdflib (>=5.0.0)
+Requires-Dist: requests (>=2.24.0)
+Requires-Dist: responses (>=0.10.15)
+
+UNKNOWN
+
+

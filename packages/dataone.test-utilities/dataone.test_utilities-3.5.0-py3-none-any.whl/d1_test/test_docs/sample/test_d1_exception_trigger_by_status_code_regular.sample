@@ -1,0 +1,8 @@
+[
+  413,
+  {
+    "Content-Type": "text/xml"
+  },
+  "<?xml version=\"1.0\" encoding=\"utf-8\"?><error name=\"InsufficientResources\" errorCode=\"413\"
+detailCode=\"0\"><description></description></error>"
+]

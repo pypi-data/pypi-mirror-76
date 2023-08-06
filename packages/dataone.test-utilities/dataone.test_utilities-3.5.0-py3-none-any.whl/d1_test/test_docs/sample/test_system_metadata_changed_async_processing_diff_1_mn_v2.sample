@@ -1,0 +1,133 @@
+  <?xml version="1.0" ?>
+  <ns1:systemMetadata xmlns:ns1="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>2</serialVersion>
+    <identifier>PID_pcfypujgsdny</identifier>
+    <formatId>application/vnd.openxmlformats-officedocument.presentationml.presentation</formatId>
+    <size>218</size>
+    <checksum algorithm="SHA-1">c3a457ce5f17d3cae5ca0b31f5894bd437a52330</checksum>
+    <submitter>subj_dq</submitter>
+    <rightsHolder>subj_zz</rightsHolder>
+    <accessPolicy>
+      <allow>
++       <subject>subj_eef</subject>
++       <subject>subj_iiqw_group</subject>
+-       <subject>subj1</subject>
+?                    ^
+
++       <subject>subj_k</subject>
+?                    ^^
+
+-       <permission>read</permission>
+-     </allow>
+-     <allow>
+-       <subject>subj2</subject>
+?                    ^
+
++       <subject>subj_z</subject>
+?                    ^^
+
+-       <subject>subj3</subject>
+-       <subject>subj4</subject>
+-       <permission>write</permission>
+-     </allow>
+-     <allow>
+-       <subject>subj10</subject>
+-       <subject>subj11</subject>
+-       <subject>subj12</subject>
+-       <subject>subj5</subject>
+-       <subject>subj6</subject>
+-       <subject>subj7</subject>
+-       <subject>subj8</subject>
+-       <subject>subj9</subject>
+        <permission>changePermission</permission>
+      </allow>
+    </accessPolicy>
+-   <replicationPolicy replicationAllowed="false" numberReplicas="0">
+?                                          ^^^^                   ^
+
++   <replicationPolicy replicationAllowed="true" numberReplicas="9">
+?                                          ^^^                   ^
+
+-     <preferredMemberNode>mn_m</preferredMemberNode>
+-     <blockedMemberNode>mn_fv</blockedMemberNode>
+?                            -
+
++     <blockedMemberNode>mn_yf</blockedMemberNode>
+?                           +
+
+-     <blockedMemberNode>mn_ii</blockedMemberNode>
+    </replicationPolicy>
+    <archived>false</archived>
+    <dateUploaded>2062-11-24T17:27:53Z</dateUploaded>
+    <dateSysMetadataModified>2062-12-04T17:27:53Z</dateSysMetadataModified>
+-   <originMemberNode>mn_md</originMemberNode>
+?                        ^^
+
++   <originMemberNode>mn_p</originMemberNode>
+?                        ^
+
+-   <authoritativeMemberNode>mn_z</authoritativeMemberNode>
+?                               ^
+
++   <authoritativeMemberNode>mn_mn</authoritativeMemberNode>
+?                               ^^
+
+    <replica>
+-     <replicaMemberNode>mn_ml</replicaMemberNode>
+?                           ^^
+
++     <replicaMemberNode>mn_tj</replicaMemberNode>
+?                           ^^
+
+-     <replicationStatus>requested</replicationStatus>
+?                        --   ^^
+
++     <replicationStatus>queued</replicationStatus>
+?                           ^
+
+-     <replicaVerified>1985-03-31T10:39:42Z</replicaVerified>
+?                        ^^  ^^^^ ^   ^ ^^
+
++     <replicaVerified>1971-12-02T00:36:33Z</replicaVerified>
+?                        ^^^^^  ^ ^   ^ ^^
+
+    </replica>
+    <replica>
+-     <replicaMemberNode>mn_w</replicaMemberNode>
+?                           ^
+
++     <replicaMemberNode>mn_cp</replicaMemberNode>
+?                           ^^
+
+      <replicationStatus>queued</replicationStatus>
+-     <replicaVerified>1993-04-15T14:59:34Z</replicaVerified>
+?                         ^^^^  ^ ^^^^^
+
++     <replicaVerified>1999-11-19T00:34:26Z</replicaVerified>
+?                         ^  ^^^^ ^^   +++
+
+    </replica>
+    <replica>
+-     <replicaMemberNode>mn_nm</replicaMemberNode>
+?                           ^^
+
++     <replicaMemberNode>mn_f</replicaMemberNode>
+?                           ^
+
+      <replicationStatus>queued</replicationStatus>
+-     <replicaVerified>2067-06-13T17:00:11Z</replicaVerified>
+?                         ^  ^ ^^ ^  --- ^
+
++     <replicaVerified>2063-09-08T04:47:12Z</replicaVerified>
+?                         ^  ^ ^^ ^^^^   ^
+
+    </replica>
+    <seriesId>SID_jlvdxqbxomlv</seriesId>
+    <mediaType name="media_type_xx">
+      <property name="prop_caefzwbpqrzb">pimnnlcpdjgm</property>
+    </mediaType>
+-   <fileName>file_tttjzbhttfbn</fileName>
++   <fileName>file_tttjzbhttfbn.pptx</fileName>
+?                              +++++
+
+  </ns1:systemMetadata>

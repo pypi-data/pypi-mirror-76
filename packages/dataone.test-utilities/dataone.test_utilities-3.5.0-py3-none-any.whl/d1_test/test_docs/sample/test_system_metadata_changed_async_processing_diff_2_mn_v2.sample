@@ -1,0 +1,111 @@
+  <?xml version="1.0" ?>
+  <ns1:systemMetadata xmlns:ns1="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>90</serialVersion>
+    <identifier>PID_bgxeiwesunrv</identifier>
+    <formatId>CF-1.1</formatId>
+    <size>306</size>
+    <checksum algorithm="SHA-1">9c4b394f5ba0c9954f73ee71c9f03d3c3a7783b6</checksum>
+    <submitter>subj_gy</submitter>
+    <rightsHolder>subj_g</rightsHolder>
+-   <accessPolicy>
+-     <allow>
+-       <subject>subj1</subject>
+-       <permission>read</permission>
+-     </allow>
+-     <allow>
+-       <subject>subj2</subject>
+-       <subject>subj3</subject>
+-       <subject>subj4</subject>
+-       <permission>write</permission>
+-     </allow>
+-     <allow>
+-       <subject>subj10</subject>
+-       <subject>subj11</subject>
+-       <subject>subj12</subject>
+-       <subject>subj5</subject>
+-       <subject>subj6</subject>
+-       <subject>subj7</subject>
+-       <subject>subj8</subject>
+-       <subject>subj9</subject>
+-       <permission>changePermission</permission>
+-     </allow>
+-   </accessPolicy>
+-   <replicationPolicy replicationAllowed="false" numberReplicas="0">
+?                                          ^^^^
+
++   <replicationPolicy replicationAllowed="true" numberReplicas="10">
+?                                          ^^^                   +
+
+-     <blockedMemberNode>mn_gp</blockedMemberNode>
++     <preferredMemberNode>mn_h</preferredMemberNode>
++     <preferredMemberNode>mn_on</preferredMemberNode>
++     <preferredMemberNode>mn_p</preferredMemberNode>
+-     <blockedMemberNode>mn_h</blockedMemberNode>
+?                           ^
+
++     <blockedMemberNode>mn_s</blockedMemberNode>
+?                           ^
+
+-     <blockedMemberNode>mn_on</blockedMemberNode>
+?                           ^^
+
++     <blockedMemberNode>mn_v</blockedMemberNode>
+?                           ^
+
+    </replicationPolicy>
+    <archived>false</archived>
+    <dateUploaded>2039-08-01T16:02:42Z</dateUploaded>
+    <dateSysMetadataModified>2039-08-11T16:02:42Z</dateSysMetadataModified>
+-   <originMemberNode>mn_s</originMemberNode>
+?                        ^
+
++   <originMemberNode>mn_e</originMemberNode>
+?                        ^
+
+-   <authoritativeMemberNode>mn_sg</authoritativeMemberNode>
+?                               ^^
+
++   <authoritativeMemberNode>mn_vi</authoritativeMemberNode>
+?                               ^^
+
+    <replica>
+-     <replicaMemberNode>mn_vi</replicaMemberNode>
+?                           ^^
+
++     <replicaMemberNode>mn_g</replicaMemberNode>
+?                           ^
+
+      <replicationStatus>completed</replicationStatus>
++     <replicaVerified>2016-01-24T16:33:11Z</replicaVerified>
++   </replica>
++   <replica>
++     <replicaMemberNode>mn_ca</replicaMemberNode>
++     <replicationStatus>invalidated</replicationStatus>
+-     <replicaVerified>2061-07-06T22:14:58Z</replicaVerified>
+?                        ^   ^  ^   ^^^
+
++     <replicaVerified>2021-03-05T23:22:58Z</replicaVerified>
+?                        ^   ^  ^  ++ ^
+
+    </replica>
+    <seriesId>SID_srowbqbiukpc</seriesId>
+-   <mediaType name="media_type_jo">
+?                               ^^
+
++   <mediaType name="media_type_mv">
+?                               ^^
+
+-     <property name="prop_dfgkhlheyfxq">casqsnwomvxb</property>
+?                                     ---------------
+
++     <property name="prop_miokfxpuyfeu">ddfgkhlheyfx</property>
+?                          +++++++++++++++
+
++     <property name="prop_wixfvzisjkrl">fcaeojdbrrfc</property>
++     <property name="prop_mqochfcshpti">gpmfjbrjsqfk</property>
++     <property name="prop_osnmueokvigl">obfqlraysghr</property>
++     <property name="prop_wzoquxziotix">oyqcbmnseqli</property>
+    </mediaType>
+-   <fileName>file_miokfxpuyfeu</fileName>
++   <fileName>file_fprczrtlnavb.nc</fileName>
+  </ns1:systemMetadata>
