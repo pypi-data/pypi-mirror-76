@@ -1,0 +1,11 @@
+html_processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+html_processing/connection.py,sha256=FQ8ofXAICZl6uK56sYk5ohgQvMYcRNj-l8sNidO56OA,1531
+html_processing/io.py,sha256=eM6wEAjwRzug-CHYf6Fi5n4iFlY2zY-6BBNl4IvHL7g,1115
+html_processing/parser.py,sha256=TAvv1Y1rigFNO84nhlYlnGTM1-d2_l-j1tZcSX2kyVU,694
+html_processing/traversal.py,sha256=TN4qyGN-zAaNI4LPUCmgPejisE6v3B-0wqiDNM-2ADs,5907
+html_processing/util.py,sha256=vo1wIuQTObvd7bWcowlaTrYHip7rHxTPKPKBgyi7kyI,4643
+html_processing-1.1.1.dist-info/LICENSE,sha256=1WGPLHYIHU1JlgqaDgo4FfXBZRLmMxK2lcgWjkZN9M0,1066
+html_processing-1.1.1.dist-info/METADATA,sha256=kMYq7jx98ExmXC5uGvoK1Tkvrc7KkDPBeUWM7PPgVuY,724
+html_processing-1.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+html_processing-1.1.1.dist-info/top_level.txt,sha256=I28mJEKdnvNzfHN00seNddMJcuMIxQLmXsnmqyzeGTE,16
+html_processing-1.1.1.dist-info/RECORD,,
