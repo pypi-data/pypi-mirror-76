@@ -1,0 +1,17 @@
+README.md
+setup.py
+fastapi_jwt_auth/JWTAuthorization.py
+fastapi_jwt_auth/__init__.py
+fastapi_jwt_auth.egg-info/PKG-INFO
+fastapi_jwt_auth.egg-info/SOURCES.txt
+fastapi_jwt_auth.egg-info/dependency_links.txt
+fastapi_jwt_auth.egg-info/not-zip-safe
+fastapi_jwt_auth.egg-info/requires.txt
+fastapi_jwt_auth.egg-info/top_level.txt
+tests/__init__.py
+tests/test_blacklist.py
+tests/test_config.py
+tests/test_decode_token.py
+tests/test_header.py
+tests/test_url_protected.py
+tests/utils.py
