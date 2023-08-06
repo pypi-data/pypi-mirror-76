@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: aug-img
+Version: 0.1.1
+Summary: package test use a simple image precessing example
+Home-page: UNKNOWN
+Author: chloejay
+Author-email: ji.jie@edhec.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.15)
+Requires-Dist: Pillow
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scikit-image (>=0.14.2)
+Requires-Dist: opencv-python-headless
+
+img processor for augmentation and resizing, to expand image variety before start DL phase.
+
+<!-- ``` -->
+<!-- #setup.py can be found => to make this package available in local env  -->
+<!-- pip install -e . -->
+<!-- ``` -->
+<!--  -->
+<!-- ```Python -->
+<!-- # from aug_img.imgaug import Processor -->
+<!-- # x= Processor("img/img.jpg") -->
+<!-- # x.resize(1000, "roi.jpg") -->
+<!-- ``` -->
+<!--  -->
+<!-- ``` -->
+<!-- #upload to PYPI -->
+<!--  -->
+<!--  -->
+<!-- ``` -->
+<!--  -->
+
+
