@@ -1,0 +1,11 @@
+README.md
+setup.py
+SentenceTokenizer/__init__.py
+SentenceTokenizer/tokenizer.py
+TakeSentenceTokenizer.egg-info/PKG-INFO
+TakeSentenceTokenizer.egg-info/SOURCES.txt
+TakeSentenceTokenizer.egg-info/dependency_links.txt
+TakeSentenceTokenizer.egg-info/requires.txt
+TakeSentenceTokenizer.egg-info/top_level.txt
+test/__init__.py
+test/test_sentence_tokenizer.py

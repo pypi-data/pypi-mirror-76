@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: TakeSentenceTokenizer
+Version: 1.0.1
+Summary: TakeSentenceTokenizer is a tool for tokenizing and pre processing messages
+Home-page: UNKNOWN
+Author: Karina Tiemi Kato
+Author-email: karinat@take.net
+License: UNKNOWN
+Description: # TakeSentenceTokenizer
+        
+        TakeSentenceTokenizer is a tool for pre processing and tokenizing sentences. 
+        The package is used to:
+        	- convert the first word of the sentence to lowercase
+        	- convert from uppercase to lowercase
+        	- convert word to lowercase after punctuation
+        	- replace words for placeholders: laugh, date, time, ddd, measures (10kg, 20m, 5gb, etc), code, phone number, cnpj, cpf, email, money, url, number (ordinal and cardinal)
+        	- replace abbreviations
+        	- replace common typos
+        	- split punctuations
+        	- remove emoji
+        	- remove characters that are not letters or punctuation
+        	- add missing accentuation
+        	- tokenize the sentence
+        
+        ## Installation
+        
+        Use the package manager [pip](https://pip.pypa.io/en/stable/) to install TakeSentenceTokenizer
+        
+        ```bash
+        pip install TakeSentenceTokenizer
+        ```
+        
+        ## Usage
+        
+        Example 1: full processing not keeping registry of removed punctuation
+        
+        Code:
+        ```python
+        from SentenceTokenizer import SentenceTokenizer
+        sentence = 'P/ saber disso eh c/ vc ou consigo ver pelo site www.dÃºvidas.com.br/minha-dÃºvida ??'
+        tokenizer = SentenceTokenizer()
+        processed_sentence = tokenizer.process_message(sentence)
+        print(processed_sentence)
+        ```
+        
+        Output:
+        ```python
+        'para saber disso Ã© com vocÃª ou consigo ver pelo site URL ? ?'
+        ```
+        
+        
+        Example 2: full processing keeping registry of removed punctuation
+        ```python
+        from SentenceTokenizer import SentenceTokenizer
+        sentence = 'como assim $@???'
+        tokenizer = SentenceTokenizer(keep_registry_punctuation = True)
+        processed_sentence = tokenizer.process_message(sentence)
+        print(processed_sentence)
+        print(tokenizer.removal_registry_lst)
+        ```
+        
+        Output:
+        ```python
+        como assim ? ? ?
+        [['como assim $@ ? ? ?', {'punctuation': '$', 'position': 11}, {'punctuation': '@', 'position': 12}, {'punctuation': ' ', 'position': 13}]]
+        ```
+        
+        ## Author
+        Take Data&Analytics Research
+        
+        ## License
+        [MIT](https://choosealicense.com/licenses/mit/)
+Keywords: Tokenization
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
