@@ -1,0 +1,8 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+py37nashiki.egg-info/PKG-INFO
+py37nashiki.egg-info/SOURCES.txt
+py37nashiki.egg-info/dependency_links.txt
+py37nashiki.egg-info/top_level.txt
