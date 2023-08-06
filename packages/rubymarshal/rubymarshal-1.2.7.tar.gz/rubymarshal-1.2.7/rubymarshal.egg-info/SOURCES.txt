@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+rubymarshal/__init__.py
+rubymarshal/classes.py
+rubymarshal/constants.py
+rubymarshal/reader.py
+rubymarshal/utils.py
+rubymarshal/writer.py
+rubymarshal.egg-info/PKG-INFO
+rubymarshal.egg-info/SOURCES.txt
+rubymarshal.egg-info/dependency_links.txt
+rubymarshal.egg-info/top_level.txt
+rubymarshal.egg-info/zip-safe
