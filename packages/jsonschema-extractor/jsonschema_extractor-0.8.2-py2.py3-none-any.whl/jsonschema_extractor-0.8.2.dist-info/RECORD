@@ -1,0 +1,17 @@
+jsonschema_extractor/__init__.py,sha256=Kzf-od0CUcj5i4sUS45SLScTKma5ExgvpdVCbraJlK0,724
+jsonschema_extractor/attrs_extractor.py,sha256=v87JZ8CLtj39xEDIZAOiZXPW6AyTyPerHVLwwIkUdc4,2096
+jsonschema_extractor/compat.py,sha256=STRPiJHI37gjVb8hfp6CFu7jjYZuB3p3c4Qmx6t_wdA,269
+jsonschema_extractor/exceptions.py,sha256=IZN8w-XIJ0zVPNyDhUzGIYrroFObD-kuScJgLd2H_1A,105
+jsonschema_extractor/extractor_set.py,sha256=EhJg28qqVy0dG5AaJun2puow2TCX6UCenRA6_mXvL7M,762
+jsonschema_extractor/typing_extractor.py,sha256=nKYkYrElSj8E9UOnh2fPE0AAN6ArjSouxOo-N13cvLw,3002
+jsonschema_extractor/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonschema_extractor/tests/conftest.py,sha256=8sGJo3WNJtzeC-QJxwuI6aDQaNl_X6SAyIV7WbsKXis,141
+jsonschema_extractor/tests/test_attrs.py,sha256=1UHB_ChIip5maCIGANesU4_V7blz_YR0IoFh9V28n6c,1114
+jsonschema_extractor/tests/test_attrs_type_annotation.py,sha256=rrGCbBd6KBnK147tAYlXMPoV3KZu0arO6q2MNhKM_Cg,661
+jsonschema_extractor/tests/test_full.py,sha256=HPP8gaTmJ1aCNy53IeckoqoGicaFeq6DfxL9V-DvrqM,941
+jsonschema_extractor/tests/test_typing.py,sha256=Ia3dOefQTSWpnISMFQx-2pgokjIOMLaT5IP4K-Ng62c,2332
+jsonschema_extractor-0.8.2.dist-info/LICENSE,sha256=_9Sh8eeeQy_X77QqwkykzHWD0NJrAKYEUx5HKdEpt34,1082
+jsonschema_extractor-0.8.2.dist-info/METADATA,sha256=3g2mxEwuKRmuC_1AvR3pxCpipFop5gnRIltlZQcp91c,1408
+jsonschema_extractor-0.8.2.dist-info/WHEEL,sha256=QNZmmMbQUQDSFNbbXyXHUMkgO-aoElXpPB6KCI2u8H8,110
+jsonschema_extractor-0.8.2.dist-info/top_level.txt,sha256=VpuFvPjHiP73zQ-4KEFpOqj4e06AWSsylWZi57PypFI,21
+jsonschema_extractor-0.8.2.dist-info/RECORD,,
