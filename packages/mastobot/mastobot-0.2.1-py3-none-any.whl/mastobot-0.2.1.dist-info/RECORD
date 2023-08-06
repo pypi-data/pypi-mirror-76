@@ -1,0 +1,16 @@
+mastobot/__init__.py,sha256=7gwWXPwpiIHnf0XciyVYFNMp1vUHMpLC8u89kRBcm-I,96
+mastobot/__main__.py,sha256=C9N4-z_Dc-KWx9sVjGuf2RgWj7jSvpmjh80mYPe3aTI,7123
+mastobot/constants.py,sha256=82mAj9iNHj1ivnVf7fsUnvLG8T_OjmPsQBLy6XA2Kbw,855
+mastobot/html_text.py,sha256=J7alIFWN4Vce0z-MtwMsrLkoyTmv4SJNPoQa8RMlG8s,7626
+mastobot/structs.py,sha256=ZtFHhi2u_qgbMQ-Kr-ugMrKn3tJYHF5zK7DzaN8vsiU,3312
+mastobot/trigger.py,sha256=BFSs73Bk-xdXdVkWZwI8UFvOeDbh5CRdOuIj8XOl_Oc,3862
+mastobot/ws.py,sha256=QMW1WUlQ9Hb1dZbnwsgBftZKCBhYmRnboWW6zXpGm14,2028
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__main__.py,sha256=IFhp1Y2Mwzroe3-9TNVXmgUmWB3m-avkUtkOggFF2W8,1928
+tests/test_html_text.py,sha256=7TA7LvpFeYcZL9aQrtxGUMk7Hc8358mYNFAIpHuNmpk,1750
+tests/test_ws.py,sha256=iqBIKS1SmdU_f6GDdTlKJtCaU39YHSFIVtZB2ekmc0U,301
+mastobot-0.2.1.dist-info/LICENSE,sha256=8Z8_Kp2iDa7P1V8qMn_kLiaR6VrLe6gDk7UtALwdCbU,606
+mastobot-0.2.1.dist-info/METADATA,sha256=sKQ3BwkUw_xX0B0dg2DvOy-hLd7e400DKzIoIHNPldI,7584
+mastobot-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mastobot-0.2.1.dist-info/top_level.txt,sha256=ymfv83XARjiApCVXwLKe1jOQurGjLDJrtNON1Xgjkpo,15
+mastobot-0.2.1.dist-info/RECORD,,
