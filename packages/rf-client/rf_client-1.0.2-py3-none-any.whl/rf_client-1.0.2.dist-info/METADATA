@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: rf-client
+Version: 1.0.2
+Summary: High level RedForester client
+Home-page: https://github.com/RedForester/python_rf_client
+Author: Red Forester
+Author-email: tech@redforester.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: rf-api-client (~=0.1.0)
+Requires-Dist: rf-event-listener (~=0.0.0)
+Provides-Extra: dev
+Requires-Dist: pytest (~=5.4) ; extra == 'dev'
+Requires-Dist: pytest-asyncio (~=0.12) ; extra == 'dev'
+Requires-Dist: flake8 (~=3.8) ; extra == 'dev'
+
+# RedForester client
+
+Asynchronous high level client for RedForester.
+
+[PyPI package](https://pypi.org/project/rf-client/)
+
+## Development
+
+Install all requirements
+```bash
+pip install -e .[dev]
+```
+
+Lint
+```
+flake8 --max-line-length=120 examples rf_client tests
+```
+
+Run tests
+```
+pytest
+```
+
+
