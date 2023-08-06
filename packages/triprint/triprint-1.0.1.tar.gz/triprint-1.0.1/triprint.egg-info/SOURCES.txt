@@ -1,0 +1,9 @@
+MANIFEST.in
+license
+readme.md
+setup.py
+triprint/__init__.py
+triprint.egg-info/PKG-INFO
+triprint.egg-info/SOURCES.txt
+triprint.egg-info/dependency_links.txt
+triprint.egg-info/top_level.txt
