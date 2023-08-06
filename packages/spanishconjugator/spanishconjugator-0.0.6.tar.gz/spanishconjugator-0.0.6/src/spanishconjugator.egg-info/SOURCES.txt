@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/spanishconjugator.py
+src/spanishconjugator.egg-info/PKG-INFO
+src/spanishconjugator.egg-info/SOURCES.txt
+src/spanishconjugator.egg-info/dependency_links.txt
+src/spanishconjugator.egg-info/requires.txt
+src/spanishconjugator.egg-info/top_level.txt
