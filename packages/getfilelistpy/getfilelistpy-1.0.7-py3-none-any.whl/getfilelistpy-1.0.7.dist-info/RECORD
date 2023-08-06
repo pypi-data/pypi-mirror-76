@@ -1,0 +1,9 @@
+getfilelistpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+getfilelistpy/getfilelist.py,sha256=lSup7EUR_CRO0lsXHksDK-smagP42L-Ou8LVL8GHOFk,9193
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_getfilelist.py,sha256=s9adGkdaYDQrmA0AAuX5BF-WgN2R1iDt75A3TzsysNs,245
+getfilelistpy-1.0.7.dist-info/LICENCE,sha256=XRc02T1CV80bT8zh3wUQYEjaXvCSnOve6o98ZbmP4iI,1088
+getfilelistpy-1.0.7.dist-info/METADATA,sha256=QgtDkad8bAq-JUcOHnc8Kac7O8HRO_mWvarOwK4h8A8,14014
+getfilelistpy-1.0.7.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+getfilelistpy-1.0.7.dist-info/top_level.txt,sha256=RqSWoS-TNamu3NW958o-QOYNXEvgDA5wI-idK6YK8QA,20
+getfilelistpy-1.0.7.dist-info/RECORD,,
