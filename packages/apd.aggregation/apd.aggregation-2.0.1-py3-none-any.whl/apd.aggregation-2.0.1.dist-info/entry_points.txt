@@ -1,0 +1,5 @@
+[console_scripts]
+collect_sensor_data = apd.aggregation.cli:collect_sensor_data
+run_apd_actions = apd.aggregation.cli:run_actions
+sensor_deployments = apd.aggregation.cli:deployments
+
