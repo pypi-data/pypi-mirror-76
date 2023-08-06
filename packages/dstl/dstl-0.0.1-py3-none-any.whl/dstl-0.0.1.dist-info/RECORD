@@ -1,0 +1,12 @@
+dstl/__init__.py,sha256=gG14gIzP6kvlojlIszxjY40RcJ1WZch8az0LP9boOr4,405
+dstl/translate.py,sha256=GaLOroLKiEZpIxos5htI-RXDJtn1uTyn8SYGsbl4iCU,6176
+dstl/types.py,sha256=BIWzpbwXafyCIOj2O_XdLyecVgN3XebhjB8FZsvKGM4,1492
+dstl/cli/__init__.py,sha256=q4vgogf09fBtB0N3ovxbG5P3Ox5mWv73T0Rc7N6ZWG4,664
+dstl/cli/translate.py,sha256=F_Lep4glQpS6d6YymOAsdkC4fvpQ49v7a4XI458JPX0,1886
+dstl/prodigy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dstl/prodigy/recipes.py,sha256=1J8Tg4yMhKDNZ2Mz56W3E1L9SkyP8Fu5k_kGVv1OpG4,2845
+dstl-0.0.1.dist-info/entry_points.txt,sha256=w-0dRlnolj33LMCFD-6pOmuZKlKos9wfyP_FhAdY0Fg,105
+dstl-0.0.1.dist-info/LICENSE,sha256=WRk7rYt6ALM997vyywKiEwwMNb8ipQyGWRds9HNCXAA,1077
+dstl-0.0.1.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+dstl-0.0.1.dist-info/METADATA,sha256=9O-sT3qnIwtM96J_z36hRzBcSlZvnwjOvDCVAR48Sh4,3928
+dstl-0.0.1.dist-info/RECORD,,
