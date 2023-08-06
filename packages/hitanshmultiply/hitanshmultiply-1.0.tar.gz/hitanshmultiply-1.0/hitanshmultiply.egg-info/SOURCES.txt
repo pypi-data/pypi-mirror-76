@@ -1,0 +1,8 @@
+setup.py
+hitanshmultiply/__init__.py
+hitanshmultiply/mult2num.py
+hitanshmultiply/mult3num.py
+hitanshmultiply.egg-info/PKG-INFO
+hitanshmultiply.egg-info/SOURCES.txt
+hitanshmultiply.egg-info/dependency_links.txt
+hitanshmultiply.egg-info/top_level.txt
