@@ -1,0 +1,10 @@
+README.md
+setup.py
+botnoinlp/__init__.py
+botnoinlp/doctools.py
+botnoinlp/indextools.py
+botnoinlp.egg-info/PKG-INFO
+botnoinlp.egg-info/SOURCES.txt
+botnoinlp.egg-info/dependency_links.txt
+botnoinlp.egg-info/requires.txt
+botnoinlp.egg-info/top_level.txt
