@@ -1,0 +1,7 @@
+[console_scripts]
+intronX = pyseqlib.intronX.intronX:main
+lariat-map = pyseqlib.lariat_map:main
+motif-score = pyseqlib.motif_score:main
+pyRNAfold = pyseqlib.pyRNAfold:main
+pymfold = pyseqlib.pymfold:main
+
