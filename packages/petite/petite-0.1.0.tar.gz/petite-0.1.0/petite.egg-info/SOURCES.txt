@@ -1,0 +1,9 @@
+README.md
+setup.py
+petite/__init__.py
+petite/run.py
+petite.egg-info/PKG-INFO
+petite.egg-info/SOURCES.txt
+petite.egg-info/dependency_links.txt
+petite.egg-info/requires.txt
+petite.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: petite
+Version: 0.1.0
+Summary: GUI of Petit
+Home-page: https://github.com/kyo46n/petite/
+Author: Kyoshiro Nonaka
+Author-email: kyo46n@gmail.com
+License: MIT
+Description: # Petite
+        Petit GUI ver.
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
