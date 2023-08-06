@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: leglib
+Version: 0.0.3
+Summary: My personal Python shared package with lots of weird stuff.
+Home-page: https://github.com/joelegner/leglib
+Author: Joe Legner
+Author-email: joelegner@gmail.com
+License: UNKNOWN
+Description: # LegLib
+        
+        Leglib is just a bunch of utility modules that I wrote and like to use. One very handy one is a rounding function that rounds to significant digits: `leglib.fmt.sigdig`.
+        
+        ## Installation
+        
+        ```zsh
+        $ pipenv install leglib
+        ```
+        
+        ## Using
+        
+        ```python
+        >>> from leglib.fmt import sigdig
+        >>> sigdig(3.843718473821748732184732)
+        '3.84'
+        >>> sigdig(3.843718473821748732184732, 5)
+        '3.84372'
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
