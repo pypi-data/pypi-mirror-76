@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: lxtoolkit
+Version: 0.0.1
+Summary: a simple toolkit based on torch and torchvision
+Home-page: UNKNOWN
+Author: blackbeanman123
+Author-email: blackbeanman123@gmail.com
+License: MIT
+Description: a simple toolkit based on torch and torchvision
+Keywords: pip,pytorch,tutorial
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
