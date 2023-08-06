@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: django-loggable-util
+Version: 0.0.1
+Summary: Separate logging from class based view business code
+Home-page: https://github.com/Ruhshan/django-loggable-util
+Author: Ruhshan Ahmed Abir
+Author-email: ruhshan.ahmed@gmail.com
+License: MIT
+Download-URL: https://github.com/Ruhshan/django-loggable-util/archive/v-0.0.1.tar.gz
+Keywords: Django,Loggable,Wrapper,Generic view,Class based view
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# Django loggable util
+
+An utility to separate create logs for request and reponses while keeping business code clean for class based views. 
+
+### Example usage
+
+Import the Loggable class in your urls.py
+```python
+from django-loggable-util import Loggable
+```
+
+Now write url configuration as this:
+
+```python
+urlpatterns=[
+...
+path('someurl', Loggable(SomeCBView).as_view(),name='some-url-name'),
+...
+]
+```
+
+
+### Todos
+ - Write Tests
+ - Support DRF
+ - Support FBV
+
+License
+----
+
+MIT
+
+**Free Software, Hell Yeah!**
+
