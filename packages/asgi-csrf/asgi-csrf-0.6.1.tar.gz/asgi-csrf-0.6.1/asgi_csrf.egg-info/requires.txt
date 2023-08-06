@@ -1,0 +1,8 @@
+itsdangerous
+
+[test]
+pytest
+pytest-asyncio
+httpx
+starlette
+python-multipart
