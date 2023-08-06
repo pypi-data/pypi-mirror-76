@@ -1,0 +1,10 @@
+pytest_pyppeteer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_pyppeteer/models.py,sha256=duv79tH6Ez8TlP3pUahixpHSsx5DHgh6Ge4ngo5-OjQ,15709
+pytest_pyppeteer/plugin.py,sha256=AhzNH-xS2J9EAoib7hip0Va7eyUnOUiX8QhgQ7vpmKw,5482
+pytest_pyppeteer/utils.py,sha256=r0JJoXf-qp9I81965CkYWHcvnvSgu3XXL4iETXhXsKM,2167
+pytest_pyppeteer-0.1.0.dist-info/LICENSE,sha256=mvA3YXLlPPo3YvcQO1SmaTaHKlagg1N-ekO39BYj7aQ,1068
+pytest_pyppeteer-0.1.0.dist-info/METADATA,sha256=NA85r2FidqEy-IEEHw9RwT0aEAaTbHk4NSb1HpuQDk0,4341
+pytest_pyppeteer-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pytest_pyppeteer-0.1.0.dist-info/entry_points.txt,sha256=XKn4ysTJ5pv4ORWQ6n0t-WwzwFRPQQ6jodLfQn2xhos,55
+pytest_pyppeteer-0.1.0.dist-info/top_level.txt,sha256=-w_0R-j4YorC1jYehQABcQJz6hY_GN-WH06ICV3JwHw,17
+pytest_pyppeteer-0.1.0.dist-info/RECORD,,
