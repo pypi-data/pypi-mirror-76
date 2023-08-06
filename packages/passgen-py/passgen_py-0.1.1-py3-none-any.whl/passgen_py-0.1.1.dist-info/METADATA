@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: passgen-py
+Version: 0.1.1
+Summary: Generate Passwords Deterministically based on a Master Password.
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6, <4
+Requires-Dist: click
+Requires-Dist: pyperclip
+
+UNKNOWN
+
+
