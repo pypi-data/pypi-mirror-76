@@ -1,0 +1,8 @@
+README.md
+setup.py
+object_compresser/__init__.py
+object_compresser/data.py
+object_compresser.egg-info/PKG-INFO
+object_compresser.egg-info/SOURCES.txt
+object_compresser.egg-info/dependency_links.txt
+object_compresser.egg-info/top_level.txt
