@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pmlab_lite
+Version: 0.4
+Summary: Process Mining scripting environment
+Home-page: https://github.com/pmlab/pmlab-lite
+Author: ['Josep Carmona', 'Matthias Weidlich', 'Andrea Burattin', 'jmunozgama', 'Simon Remy', 'Glenn Dittmann']
+Author-email: 
+License: GPL-3.0
+Description: # pmlab-lite
+        A Process Mining scripting environment.
+        
+        ### Installation
+        pmlab-lite requires graphviz to run the helper functions that draw petri nets to .PDF-files.
+        
+        So optionally get graphviz through your package manager:
+        ```sh
+        $ sudo apt-get install graphviz               #example for ubuntu/debian systems
+        ```
+        Install pmlab-lite from pypi using pip:
+        ```sh
+        $ pip install pmlab-lite
+        ```
+        
+        
+        ### License
+        GNU General Public License 3.0
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
