@@ -1,0 +1,13 @@
+README.md
+setup.py
+mdSlides/Engines.py
+mdSlides/Utils.py
+mdSlides/__init__.py
+mdSlides.egg-info/PKG-INFO
+mdSlides.egg-info/SOURCES.txt
+mdSlides.egg-info/dependency_links.txt
+mdSlides.egg-info/entry_points.txt
+mdSlides.egg-info/requires.txt
+mdSlides.egg-info/top_level.txt
+mdSlides/scripts/__init__.py
+mdSlides/scripts/mdSlides.py

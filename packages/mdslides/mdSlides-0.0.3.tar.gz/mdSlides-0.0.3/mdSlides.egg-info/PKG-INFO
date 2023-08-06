@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mdSlides
+Version: 0.0.3
+Summary: A tool for generating slides from markdown files using different backends.
+Home-page: https://github.com/CD3/mdSlides
+Author: C.D. Clark III
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
