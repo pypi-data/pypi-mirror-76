@@ -1,0 +1,10 @@
+README.md
+setup.py
+fpack/__init__.py
+fpack/fields.py
+fpack/msg.py
+fpack/utils.py
+fpack.egg-info/PKG-INFO
+fpack.egg-info/SOURCES.txt
+fpack.egg-info/dependency_links.txt
+fpack.egg-info/top_level.txt
