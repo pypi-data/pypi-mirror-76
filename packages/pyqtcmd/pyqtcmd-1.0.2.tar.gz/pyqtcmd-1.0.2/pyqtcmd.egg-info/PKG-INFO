@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pyqtcmd
+Version: 1.0.2
+Summary: PyQt5-based Command implementation for undo/redo
+Home-page: https://github.com/fraca7/pyqtcmd
+Author: Jérôme Laheurte
+Author-email: jerome@jeromelaheurte.net
+License: MIT
+Description: 
+        See the full documentation at https://pyqtcmd.readthedocs.io/en/latest/
+        
+        Changelog:
+        
+        1.0.2
+        =====
+        
+          * Make associated buttons visible (or not) when the action
+            visibility changes
+        
+        1.0.1
+        =====
+        
+          * Added a `tip` argument to UICommand, which sets both the tooltip
+            and the status tip
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown

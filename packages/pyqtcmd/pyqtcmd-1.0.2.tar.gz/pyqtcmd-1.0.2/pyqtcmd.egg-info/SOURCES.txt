@@ -1,0 +1,12 @@
+README.md
+setup.py
+pyqtcmd/__init__.py
+pyqtcmd/command.py
+pyqtcmd/history.py
+pyqtcmd/meta.py
+pyqtcmd/uicommand.py
+pyqtcmd.egg-info/PKG-INFO
+pyqtcmd.egg-info/SOURCES.txt
+pyqtcmd.egg-info/dependency_links.txt
+pyqtcmd.egg-info/requires.txt
+pyqtcmd.egg-info/top_level.txt
