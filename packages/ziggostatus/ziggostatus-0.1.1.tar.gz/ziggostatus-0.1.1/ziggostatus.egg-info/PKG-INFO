@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: ziggostatus
+Version: 0.1.1
+Summary: Asynchronous Python client for getting Ziggo outages & announcements.
+Home-page: https://github.com/DevSecNinja/ZiggoStatus
+Author: Jean-Paul van Ravensberg
+Author-email: 14926452+DevSecNinja@users.noreply.github.com
+License: MIT license
+Description: ## Python API fetching Ziggo outages & announcements
+        
+        Use this package to check with the VodafoneZiggo API for outages & announcements on a VodafoneZiggo address.
+        
+        ![Test ziggostatus package](https://github.com/DevSecNinja/ZiggoStatus/workflows/Test%20ziggostatus%20package/badge.svg?branch=master)
+        
+        ## Usage
+        
+        ```` python
+        import asyncio
+        import aiohttp
+        
+        from ziggostatus import get_ziggo_status
+        
+        postalcode = "1012JS" # Amsterdam - Dam Square
+        housenumber = "1"
+        
+        async def main():
+            session = aiohttp.ClientSession()
+            status = await get_ziggo_status(postalcode, housenumber, session)
+            print(f"{status}")
+        
+            await session.close()
+        
+        if __name__ == "__main__":
+            loop = asyncio.get_event_loop()
+            loop.run_until_complete(main())
+        ````
+        
+Keywords: ziggo,status,outages,announcements,api,async,client
+Platform: UNKNOWN
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
