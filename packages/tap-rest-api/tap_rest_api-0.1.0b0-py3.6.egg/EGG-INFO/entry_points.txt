@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    tap_rest_api=tap_rest_api:main
+    
