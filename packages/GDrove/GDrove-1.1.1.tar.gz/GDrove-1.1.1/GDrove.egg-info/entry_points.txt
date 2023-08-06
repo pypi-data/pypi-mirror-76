@@ -1,0 +1,4 @@
+[console_scripts]
+gd = gdrove.run:main
+gdrove = gdrove.run:main
+
