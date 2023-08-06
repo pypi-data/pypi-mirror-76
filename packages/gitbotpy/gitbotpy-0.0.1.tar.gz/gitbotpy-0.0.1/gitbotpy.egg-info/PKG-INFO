@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gitbotpy
+Version: 0.0.1
+Summary: A package which makes the process of git easier
+Home-page: https://github.com/Abhilash11Addanki/GitLib
+Author: Abhilash
+Author-email: abhilash11addanki@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: configuration core yaml ini json environment
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
