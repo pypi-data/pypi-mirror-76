@@ -1,0 +1,3 @@
+setuptools>=41.0.0
+gdmix-trainer==0.1.0
+kfp==0.2.5
