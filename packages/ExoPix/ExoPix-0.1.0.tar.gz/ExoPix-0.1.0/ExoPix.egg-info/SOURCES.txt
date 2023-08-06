@@ -1,0 +1,8 @@
+README.md
+setup.py
+ExoPix/__init__.py
+ExoPix.egg-info/PKG-INFO
+ExoPix.egg-info/SOURCES.txt
+ExoPix.egg-info/dependency_links.txt
+ExoPix.egg-info/requires.txt
+ExoPix.egg-info/top_level.txt
