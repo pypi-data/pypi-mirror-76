@@ -1,0 +1,5 @@
+attrdict>=2.0.0
+requests>=2.16.0
+urllib3>=1.24.2
+six
+enum34
