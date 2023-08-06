@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: vt-police-tools
+Version: 2020.8.post3
+Summary: Tools for cleaning Vermont police data
+Home-page: https://github.com/brianmwaters/vt-police-tools/
+Author: BTV CopWatch
+Author-email: info@btvcopwatch.org
+License: UNKNOWN
+Project-URL: BTV CopWatch, https://www.btvcopwatch.org/
+Project-URL: OpenOversight, https://www.openoversight.com/
+Description: Vermont Police Tools
+        ====================
+        
+        Tools for cleaning Vermont police data
+        --------------------------------------
+        
+        This package contains miscellaneous tools for working with Vermont police data.
+        It was created to enable the addition of several police departments to
+        `OpenOversight <https://www.openoversight.com/>`_.
+        
+        Data
+        ~~~~
+        
+        See `data <vt_police_tools/data/>`_.
+        
+        Installation
+        ~~~~~~~~~~~~
+        
+        .. code:: sh
+        
+            pip install vt-police-tools
+        
+        OpenOversight data import
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        .. code:: sh
+        
+            cd vt_police_tools/
+            ./migrations/2020.8-initial.sh
+        
+        Development
+        ~~~~~~~~~~~
+        
+        .. code:: sh
+        
+            git clone https://github.com/brianmwaters/vt-police-tools.git
+            cd vt-police-tools/
+            virtualenv --python=python3.7 env/
+            source env/bin/activate
+            pip install --requirement requirements.txt
+            pip install --editable .
+        
+        Contributing
+        ~~~~~~~~~~~~
+        
+        Before submitting a patch, please lint your code by running ``pycodestyle`` and
+        ``pydocstyle`` in the root directory, and ``shellcheck`` on all shell scripts.
+        Please make sure to also `test <tests/>`_ your code.
+        
+Keywords: police vermont
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Other/Nonlisted Topic
+Requires-Python: ~=3.7
+Description-Content-Type: text/x-rst
