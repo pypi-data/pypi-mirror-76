@@ -1,0 +1,9 @@
+README.rst
+setup.py
+up2cos.py
+up2cos.egg-info/PKG-INFO
+up2cos.egg-info/SOURCES.txt
+up2cos.egg-info/dependency_links.txt
+up2cos.egg-info/not-zip-safe
+up2cos.egg-info/requires.txt
+up2cos.egg-info/top_level.txt
