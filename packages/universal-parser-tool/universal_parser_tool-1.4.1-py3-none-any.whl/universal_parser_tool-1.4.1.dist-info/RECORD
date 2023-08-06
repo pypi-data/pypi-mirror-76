@@ -1,0 +1,15 @@
+upt/__init__.py,sha256=4RJT-Yb0sMZJrIDfU3vlHi7icEM7OJh_u8YNVJxayd4,1644
+upt/atcoder/__init__.py,sha256=K_FhuhSwdJt7nzuzU7E2-TwIlOklKtws_-DVzbKROuk,3388
+upt/codechef/__init__.py,sha256=BuozGN3vVJXadPpkQdrK091qR1AdbWLr5oJUV7g2m4Y,676
+upt/codeforces/__init__.py,sha256=R51ZdtPcPOGoeq1Z3ljowuI3-wb9K3gR6agSobQZYI4,1193
+upt/quera/__init__.py,sha256=8ItzjBd6vbYLDu35hUtrMEUnJxI8TCPMu6cSobOCiAw,3021
+upt/spoj/__init__.py,sha256=4rnXGi-2Agd20HWdtlJK3GXbb_x4Lq3rFU6_Gqsdy8Q,666
+upt/util/__init__.py,sha256=gppCYnXc6Vf6RXdpq5aYzFffWyZ7X2L_kEWDd8_eFp4,2850
+upt/util/loginmanager.py,sha256=MlpDL4BQe8e8dnr2k5sUNaiaBQoohTLoFXrmmLxyfxw,1153
+upt/util/pathparser.py,sha256=MkTNmmYxI8caw6usk1UGN23X3PzmnmVUHzf4utaKkLw,1677
+universal_parser_tool-1.4.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+universal_parser_tool-1.4.1.dist-info/METADATA,sha256=2LddQuZFPAWW6dC8ZX_SmyiQE4Lir6MFdJAse_sHJQY,2271
+universal_parser_tool-1.4.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+universal_parser_tool-1.4.1.dist-info/entry_points.txt,sha256=RCp4hLeAyVmRoLs3eOPCn064lxXOvLZHALxxGg6AYMA,34
+universal_parser_tool-1.4.1.dist-info/top_level.txt,sha256=QUXAxbFFh0HgVF2bkZHm_xkaPQ9Z7yFcddpFd8GLRGU,4
+universal_parser_tool-1.4.1.dist-info/RECORD,,
