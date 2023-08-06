@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Hathor Project",
+  "type": "object",
+  "required": [
+    "name",
+    "sources"
+  ],
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "author"
+      ],
+      "properties": {
+        "author": {
+          "type": "string"
+        },
+        "author_email": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        }
+      }
+    },
+    "build": {
+      "type": "object",
+      "properties": {
+        "directory": {
+          "type": "string"
+        }
+      }
+    },
+    "sources": {
+      "type": "object",
+      "minItems": 1,
+      "properties": {
+        "*": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    }
+  }
+}

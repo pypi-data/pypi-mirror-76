@@ -1,0 +1,7 @@
+# Build and distribution
+dist/
+build/
+
+# Roblox binaries
+*.rbxl
+*.rbxm

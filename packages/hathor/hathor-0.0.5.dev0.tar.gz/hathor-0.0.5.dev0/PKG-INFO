@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: hathor
+Version: 0.0.5.dev0
+Summary: A lua script combobulator aimed at roblox
+Home-page: https://gitlab.com/rockit-tools/hathor
+Author: BrinkerVII
+Author-email: brinkervii@gmail.com
+License: GPL-3
+Description: # Hathor
+        
+        Hathor is a commandline tool that helps you combobulate vanilla-like Lua source code into
+        Roblox Lua compatible modules.
+        
+Keywords: roblox,studio,lua,build-tool,build,tool
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
