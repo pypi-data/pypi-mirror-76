@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: Taromaru
+Version: 0.0.3
+Summary: A package to use my API with Python!
+Home-page: https://github.com/Taromaruu/taromaru
+Author: Doggotaco
+Author-email: no@no.no
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: aiohttp
+
+#### A package for the Taromaru API.
+
+
+##### Image Example (no async):
+
+```py
+    from taromaru import taromaru
+
+    taromaru = taromaru("YOUR API KEY HERE")
+
+    results = taromaru.image(type="kanna")
+
+    print(results)
+```
+
+##### Image Example (async):
+
+```py
+    from taromaru import taromaruasync
+    import asyncio
+
+    taromaru = taromaruasync("YOUR API KEY HERE")
+
+    results = asyncio.get_event_loop().run_until_complete(taromaru.image(type="kanna"))
+
+    print(results)
+```
+
+[API Location](https://taromaruapi.cu.ma)
+
