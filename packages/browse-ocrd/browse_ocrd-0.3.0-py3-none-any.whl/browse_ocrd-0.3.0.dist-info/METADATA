@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: browse-ocrd
+Version: 0.3.0
+Summary: An extensible viewer for OCR-D mets.xml files
+Home-page: https://github.com/hnesk/browse-ocrd
+Author: Johannes Künsebeck
+Author-email: kuensebeck@googlemail.com
+License: MIT License
+Keywords: OCR,OCR-D,mets,PAGE Xml
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: X11 Applications :: GTK
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Description-Content-Type: text/markdown
+Requires-Dist: ocrd
+Requires-Dist: Pillow
+Requires-Dist: numpy
+Requires-Dist: opencv-python-headless
+Requires-Dist: PyGObject
+Requires-Dist: python-magic
+Requires-Dist: wheel
+Requires-Dist: setuptools
+Requires-Dist: lxml
+
+# OCRD Browser
+
+An extensible viewer for [OCRD](https://ocr-d.de/) mets.xml files 
+
+## Screenshot
+
+![OCRD Browser with two image and one xml view](docs/screenshot.png)
+
+## Installation
+
+```
+pip install browse-ocrd
+```
+
+## Usage
+```
+browse-ocrd ./path/to/mets.xml
+```
+
+
