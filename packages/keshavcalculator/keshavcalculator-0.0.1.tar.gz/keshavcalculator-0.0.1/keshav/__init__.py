@@ -1,0 +1,10 @@
+def add(a,c):
+    return (a+c)
+def sub(a,c):
+    return (a-c)
+def mul(a,c):
+    return a*c
+def rem(a,c):
+    return a%c
+def div(a,c):
+    return a/c

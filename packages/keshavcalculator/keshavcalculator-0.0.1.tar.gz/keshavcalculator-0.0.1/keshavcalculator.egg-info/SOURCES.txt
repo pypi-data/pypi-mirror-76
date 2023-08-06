@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+keshav/__init__.py
+keshavcalculator.egg-info/PKG-INFO
+keshavcalculator.egg-info/SOURCES.txt
+keshavcalculator.egg-info/dependency_links.txt
+keshavcalculator.egg-info/top_level.txt
