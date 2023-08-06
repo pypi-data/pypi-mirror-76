@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ject
+Version: 0.0.1
+Summary: function/lambda extensions
+Home-page: https://github.com/pydget/ject
+License: MIT
+Keywords: function,functional,fp,lambda,noop,signature
+Author: Hoyeung Wong
+Author-email: hoyeungw@outlook.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/pydget/ject
+Description-Content-Type: text/markdown
+
+## ject
+##### function/lambda extensions
+
+### Usage
+```python
+from ject.length import length
+
+def fun(a, b, *args, **kwargs): return a, b, args, kwargs
+
+print(length(fun))
+```
