@@ -1,0 +1,41 @@
+Metadata-Version: 1.2
+Name: wafcli
+Version: 0.0.3
+Summary: 腾讯T-Sec Web应用防火墙命令行工具
+Home-page: https://cloud.tencent.com/product/waf
+Author: HuangJacky
+Maintainer-email: HuangJacky@163.com
+License: MIT
+Description: # T-Sec Web Application Firewall CLI
+        ## Install
+        ```bash
+        pip install wafcli
+        ```
+        
+        ## Configure
+        ### linux
+        ~/.waf/waf.json   
+        
+        ### windows   
+        c:\Users\xxxx\.waf\waf.json
+        
+        ### Configure Items
+        - secret_id
+        - secret_key
+        - region
+        - edition (sparta-waf, clb-waf, cdn-waf)
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
