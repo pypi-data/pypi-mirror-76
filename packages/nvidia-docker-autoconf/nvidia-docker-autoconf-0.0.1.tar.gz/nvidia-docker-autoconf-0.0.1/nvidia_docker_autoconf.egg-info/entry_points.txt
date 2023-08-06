@@ -1,0 +1,3 @@
+[console_scripts]
+nvidia-docker-autoconf = nvidia_docker_autoconf:configure
+

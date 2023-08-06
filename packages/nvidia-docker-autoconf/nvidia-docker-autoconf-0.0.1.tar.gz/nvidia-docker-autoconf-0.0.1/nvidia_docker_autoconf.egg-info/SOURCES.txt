@@ -1,0 +1,8 @@
+nvidia_docker_autoconf.py
+setup.py
+nvidia_docker_autoconf.egg-info/PKG-INFO
+nvidia_docker_autoconf.egg-info/SOURCES.txt
+nvidia_docker_autoconf.egg-info/dependency_links.txt
+nvidia_docker_autoconf.egg-info/entry_points.txt
+nvidia_docker_autoconf.egg-info/requires.txt
+nvidia_docker_autoconf.egg-info/top_level.txt
