@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: mpcurses
+Version: 0.0.13
+Summary: A framework that exposes a simple set of APIs enabling multi-process integration with the curses screen painting library
+Home-page: https://github.com/soda480/mpcurses
+Author: Emilio Reyes
+Author-email: emilio.reyes@intel.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Console :: Curses
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+
+
+The mpcurses framework enables visualization of function execution. It consists of a simple set of APIs that provide an abstraction for multiprocessing and the curses screen painting library. The main features:
+
+* Execute a function across one or more concurrent processes
+* Queue execution to ensure a predefined number of processes are running
+* Visualize function execution using curses screen
+* Define a screen layout using a Python dict
+* Leverage built-in directives for dynamically updating the screen using the executing function log messages
+  * Keep numeric counts
+  * Update text values
+  * Update text colors
+  * Maintain visual indicators
+  * Update progress bars
+  * Display tables
+
+Refer to [How It Works](https://github.com/soda480/mpcurses/wiki/How-It-Works) for additional detail.
+For samples checkout our home page: https://github.com/soda480/mpcurses
+
+
