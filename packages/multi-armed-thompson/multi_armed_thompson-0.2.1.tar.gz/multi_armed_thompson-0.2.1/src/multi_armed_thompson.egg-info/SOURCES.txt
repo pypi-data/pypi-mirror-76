@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/multi_armed_thompson.egg-info/PKG-INFO
+src/multi_armed_thompson.egg-info/SOURCES.txt
+src/multi_armed_thompson.egg-info/dependency_links.txt
+src/multi_armed_thompson.egg-info/requires.txt
+src/multi_armed_thompson.egg-info/top_level.txt
+src/thompson_sampling/__init__.py
+src/thompson_sampling/thompson_sampling.py
