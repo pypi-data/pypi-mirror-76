@@ -1,0 +1,9 @@
+numpy
+pandas
+
+[optional]
+numexpr>=2.7.1
+
+[test]
+nose
+pytest
