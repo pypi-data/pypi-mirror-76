@@ -1,0 +1,10 @@
+manage_fastapi/__init__.py,sha256=L6zbQIZKsAP-Knhm6fBcQFPoVdIDuejxze60qX23jiw,21
+manage_fastapi/__main__.py,sha256=ddAl4-HkGXNKqo2SwPVGbUaOy3TK8fP6s0nzER7nWHU,55
+manage_fastapi/main.py,sha256=zyqfYHcRRFPJKdBd3qUIwynN8nkYYB9cWiULgjMTecY,551
+manage_fastapi/templates.py,sha256=Efajy_MSrwunOq7S1aSIlUDnkbvyxjirtgB3guA534I,4082
+manage_fastapi/utils.py,sha256=ro2XPQZpwEqeoy90ESBgUlphoUWbRAevgaL967_S3Yc,3140
+manage_fastapi-0.1.1.dist-info/entry_points.txt,sha256=AVOr9KCV0MsZz9nuPzMIclSe_uJlntPw1MWt-FNSEus,58
+manage_fastapi-0.1.1.dist-info/LICENSE,sha256=6Hia7cdTVjQ9XIPU-5UlL2Y792mZVjLShQKbmPAw6nE,1079
+manage_fastapi-0.1.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+manage_fastapi-0.1.1.dist-info/METADATA,sha256=s_Qw3pII1v8KMsqBo7LzH2eZD6RLv3ltHLVqc5hJQxs,1442
+manage_fastapi-0.1.1.dist-info/RECORD,,
