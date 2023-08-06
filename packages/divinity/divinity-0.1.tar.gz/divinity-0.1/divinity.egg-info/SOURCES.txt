@@ -1,0 +1,8 @@
+README.md
+setup.py
+divinity/__init__.py
+divinity.egg-info/PKG-INFO
+divinity.egg-info/SOURCES.txt
+divinity.egg-info/dependency_links.txt
+divinity.egg-info/requires.txt
+divinity.egg-info/top_level.txt
