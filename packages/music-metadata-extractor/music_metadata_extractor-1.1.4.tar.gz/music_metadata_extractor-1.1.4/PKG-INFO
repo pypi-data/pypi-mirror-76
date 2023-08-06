@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: music_metadata_extractor
+Version: 1.1.4
+Summary: Fetch music metadata from common Music APIs for a variety of data sources
+Home-page: https://github.com/lttkgp/metadata-extractor
+Author: lttkgp
+Author-email: ghostwriternr@gmail.com
+License: MIT
+Description: # metadata-extractor
+        
+        Package to fetch music metadata from common Music APIs for a variety of data sources. Currently, only YouTube links are supported.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
