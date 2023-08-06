@@ -1,0 +1,6 @@
+[gui_scripts]
+Quick-Cut = QuickCut.QuickCut:main
+QuickCut = QuickCut.QuickCut:main
+Quickcut = QuickCut.QuickCut:main
+quickcut = QuickCut.QuickCut:main
+
