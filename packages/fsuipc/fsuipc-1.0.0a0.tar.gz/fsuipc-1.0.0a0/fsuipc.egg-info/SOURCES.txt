@@ -1,0 +1,10 @@
+README.md
+setup.py
+fsuipc/__init__.py
+fsuipc/fsuipc.py
+fsuipc.egg-info/PKG-INFO
+fsuipc.egg-info/SOURCES.txt
+fsuipc.egg-info/dependency_links.txt
+fsuipc.egg-info/top_level.txt
+src/UIPC_SDK_C/IPCuser.c
+src/UIPC_SDK_Python/pyuipc.cc

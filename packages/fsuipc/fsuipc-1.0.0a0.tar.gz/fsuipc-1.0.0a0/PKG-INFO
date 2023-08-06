@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fsuipc
+Version: 1.0.0a0
+Summary: Client wrapper for FSUIPC
+Home-page: https://github.com/tjensen/fsuipc
+Author: Tim Jensen
+Author-email: tim.l.jensen@gmail.com
+License: MIT
+Description: # fsuipc
+        Python client wrapper for FSUIPC
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Games/Entertainment :: Simulation
+Requires-Python: >=3.3,<3.9
+Description-Content-Type: text/markdown
