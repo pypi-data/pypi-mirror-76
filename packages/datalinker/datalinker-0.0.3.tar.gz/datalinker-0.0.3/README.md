@@ -1,0 +1,84 @@
+This package helps you to share the variables/data across the different Python files in the project/package. 
+Once you set the variables in any file and if you want to access or fetch it in any other file then you can do it easily with this package.
+You need to import the *datalinker* library in all the Python files to use this feature. 
+Once we import then we can do *get/set* the data.
+It is very simple to use this library just you need to install it, import it and use it.
+
+## Supported variables:
+1.	String
+2.	Number
+3.	List
+4.	Tuple
+5.	Dictionary
+6.	Sets
+
+
+#### Advantages:
+1. We need not send arguments/parameters while calling the functions
+2. Need not to return any variables/values from the function/modules once you set the variables using *get()*
+3. Easy to maintain the variables across the Python files
+5. Need not to use *global* variables 
+6. Eliminates extra headache to maintain the variable and its names
+
+## Installation
+Run the following to install
+
+```
+pip install datalinker
+```
+
+## Usage
+#### Import and create an instant
+```
+import datalinker
+data_linker = datalinker.DataLinker().run()
+```
+#### Setting the data
+While setting the data give a unique name to the variable so that you can access it while *get()*
+```
+data_linker.set("variable_name", "variable_value")
+```
+
+#### Getting the data
+Whatever variable name you have provided in *set()* can be fetched as below
+```
+data_linker.get("variable_name")
+```
+
+## Example:
+In the following example will set the *message* in the test_1.py and retrieve it test_2.py.
+
+##### test_1.py
+```
+#!/usr/bin/python
+# Importing module
+import test_2
+import datalinker
+data = datalinker.DataLinker().run()
+
+if __name__ == '__main__':
+   # Setting the data
+   data.set("message", "Hello World!!")
+
+   # Calling test_2.py
+   test_2.print_msg()
+```
+
+##### test_2.py
+```
+#!/usr/bin/python
+# Importing module
+import datalinker
+data = datalinker.DataLinker().run()
+
+def print_msg():
+    # Getting back the data
+    msg = data.get("message")
+    print(f"The message is: {msg}")
+```
+
+##### Note: 
+1. Its case sensitive hence carefully while setting and getting the variables
+2. Suppose if have not set the data but if are trying to access that using *get()* method then 
+will not get an error instead it will return *None*
+3. Once the process is done then the variable will be destroyed
