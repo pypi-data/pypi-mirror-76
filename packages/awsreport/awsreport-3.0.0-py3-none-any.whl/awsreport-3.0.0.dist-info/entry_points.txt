@@ -1,0 +1,3 @@
+[console_scripts]
+awsreport = awsreport.__main__:main
+
