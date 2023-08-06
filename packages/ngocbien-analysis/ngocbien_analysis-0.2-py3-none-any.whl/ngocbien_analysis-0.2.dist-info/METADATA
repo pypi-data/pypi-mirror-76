@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: ngocbien-analysis
+Version: 0.2
+Summary: An ecosystem for data analysis
+Home-page: https://github.com/ngocbien
+Author: Nguyen Ngoc Bien
+Author-email: ngocbien.nguyen.vn@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7.*
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.16.6)
+Requires-Dist: scikit-learn (>=0.20.4)
+Requires-Dist: scipy (>=0.19.0)
+Requires-Dist: pandas (>=0.24.2)
+Requires-Dist: matplotlib (>=2.2.5)
+
+- Đây là công cụ giúp so sánh phân bố giữa 2 dataset theo từng biến riêng rẽ. Tất cả các hình vẽ ssau đó 
+sẽ được lưu lại trong directory mặc định là 'your_current_working_directory/data1_data2/picture/'
+
+Ví dụ
+```python
+from ngocbien_analysis import DistributionPlot
+plot = DistributionPlot(data1, data2).plot2data()
+```
+Với câu lệnh trên, tất cả các biến sẽ đc so sánh, visualize và lưu vào directory như trên.
+```python
+from ngocbien_analysis import DistributionPlot
+DistributionPlot(data1, data2, nmax=9, label=['data1', 'data2'], is_save=True).plot2data()
+```
+Ta có một số key paramater như sau:
+
+- nmax : Số hình vẽ tối đa trong 1 khung hình, ở đây 9 tức ta sẽ có 3x3 hình trong 1 pictures. 
+Nếu bạn có quá nhiều biến bạn có thể chọn là 16, hay chọn là 3 trong trường hợp ngược lại.
+- is_save : Mặc định là True để lưu hình vẽ vào folder trên.
+- label: mặc định là data1 và data2, bạn có thể thay đổi để phù hợp, ví dụ good, bad, các label này
+được dùng làm legend trong hình vẽ và tạo ra tên folder chứa các hình vẽ đó.
+- Ngoài ra, ta có thể chỉnh độ sáng, màu sắc, và nhiều lựa chọn khác cho các hình vẽ này bằng cách 
+chỉnh các tham số dưới đây.
+
+
+
+![Here are parameters that you can tuning](./image/tunning1.png)
+
+Đây là 1 số ví dụ về output:
+![Here are parameters that you can tuning](./image/img1.png)
+![Here are parameters that you can tuning](./image/img2.png)
+
+
+Các bước tiếp theo:
+- Visualize đơn biến cho 1 dataset.
+- Xây dựng 1 hàm để lựa chọn ra top các features có phân bố khác biệt nhất giữa 
+2 tập data set. Việc này giúp quá trình phân tích tốt hơn trong trường hợp có quá nhiều features.
+- Xây dựng một số các công cụ  phân tích đa biến. Công cụ này có thể tích hợp công hợp công cụ
+test để chỉ lọc ra các phân tích giá trị để visualize, giúp các phân tích có chất lượng tốt hơn.  
+
+
+
+
+
+
+
+
