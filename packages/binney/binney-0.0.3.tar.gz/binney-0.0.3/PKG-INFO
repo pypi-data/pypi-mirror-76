@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: binney
+Version: 0.0.3
+Summary: binney: logistic regression tool-kit
+Home-page: https://github.com/ihmeuw-msca/flipper
+Author: IHME Math Sciences
+Author-email: ihme.math.sciences@gmail.com
+License: GNU GPLv3
+Description: .. image:: https://travis-ci.com/ihmeuw-msca/binney.svg?branch=master
+            :target: https://travis-ci.com/ihmeuw-msca/binney
+        
+        ====================================================
+        binney: Binomial regression modeling with b-splines
+        ====================================================
+        
+Platform: UNKNOWN
+Provides-Extra: docs
+Provides-Extra: test
+Provides-Extra: dev
