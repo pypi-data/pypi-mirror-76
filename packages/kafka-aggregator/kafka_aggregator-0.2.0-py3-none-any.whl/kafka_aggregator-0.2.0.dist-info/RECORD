@@ -1,0 +1,17 @@
+kafkaaggregator/__init__.py,sha256=QrfBaYByKlp4_ncK7f0ZxhpgE6fZ3k-ZuvyhgB637Eg,471
+kafkaaggregator/aggregator.py,sha256=Ydyl-v1GhUwWrVHBN3CBMIMQiHAASVPN3rEGpuCLBxI,7785
+kafkaaggregator/app.py,sha256=Mrn4k0jCXfAExTlvOk-IrR8FdFMzLe9cBalu0abt8Ro,956
+kafkaaggregator/cli.py,sha256=A2ZE01erXYkGci7x6mZgCHff0pnuWORe_05GN-VWClw,1626
+kafkaaggregator/config.py,sha256=I9rfQFMxCtIQ4ub7T4b1i5Nn0C4lU9jKCvoWX2NnF7c,6942
+kafkaaggregator/example.py,sha256=lIDVIYeT4XzQ5cxzXbkl8ENq2sMNvf7mKhPcc0TmmaQ,5399
+kafkaaggregator/fields.py,sha256=lQxOgSirTI-w_-VwuEvqax06OxhqwYPoUKhkwLZuAZI,2015
+kafkaaggregator/generator.py,sha256=V7IZiw4gFLE9B5Z350Ef9SmC8b0CjdCXPLC7Ffe6GyY,3322
+kafkaaggregator/models.py,sha256=vxvnWz6xteSAIEACeKgZ7lDqZJPQVGJqv0gXl7paZTA,1156
+kafkaaggregator/operations.py,sha256=YfM00Vv9rlvUBKt9OXfTpYlfe_X-4h-83rcRy5IdwXc,1210
+kafkaaggregator/topics.py,sha256=7YVP-EL8_8Cq0X9LtcRuCh7k0bg4FFkJPpsZ4WBMAxA,5606
+kafkaaggregator/templates/agent.j2,sha256=j7C3NYar8FU3h1JE5g4C5kuZsKr6y2W9p3p6WM7u7ow,3691
+kafka_aggregator-0.2.0.dist-info/METADATA,sha256=N8bPxlOMZjMtmQMyp2E233NYwv3BB8g8SSVvLhedOgM,4140
+kafka_aggregator-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+kafka_aggregator-0.2.0.dist-info/entry_points.txt,sha256=o_-DM4RK3JyQVOXvlzgwnHOOyUjxpaqBLhYoa0IugOk,62
+kafka_aggregator-0.2.0.dist-info/top_level.txt,sha256=dIb0sJS9b7oZq2wQVJBMY9w6UU-yE0zowGEUNCi2-E8,16
+kafka_aggregator-0.2.0.dist-info/RECORD,,
