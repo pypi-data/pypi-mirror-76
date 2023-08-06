@@ -1,0 +1,8 @@
+trajectory_analysis_tools/__init__.py,sha256=gWAQjrGS0q5AyBL74vVDfcFSq1QNxLKs7IjejIB-REI,438
+trajectory_analysis_tools/distance.py,sha256=OOkbOKFLNYbQxTL02nolUwp1TvJaCV74zkHN-udUVzc,9249
+trajectory_analysis_tools/highest_posterior_density.py,sha256=KL-xywofgN73hotVExuLb4R-nclaBzWoM6Q2oefEb5Y,2104
+trajectory_analysis_tools/posterior.py,sha256=x4d-k0KZlBmH2JHdnJeSwYArcZtg3U9sgrX236IfZMw,1697
+trajectory_analysis_tools-0.2.0.dev0.dist-info/METADATA,sha256=e7N8mxT1iaTe5G7t81ssDQ0Jz0pShmik73MMScyIYAg,278
+trajectory_analysis_tools-0.2.0.dev0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+trajectory_analysis_tools-0.2.0.dev0.dist-info/top_level.txt,sha256=fc-bN50XjQBrOXpQxe6hINI6Z0--B93h3gNCS6r_M8w,26
+trajectory_analysis_tools-0.2.0.dev0.dist-info/RECORD,,
