@@ -1,0 +1,7 @@
+- 0.1.5 (2020-08-12):
+    - Reverted the workaround for when unicode.org was down
+    - Linted the codebase
+
+- 0.1.4 (2020-04-14):
+    - Workaround for unicode.org being down
+    - Use XDG_CACHE_HOME instead of XDG_CONFIG_HOME
