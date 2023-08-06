@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: flight-status
+Version: 1.0.1
+Summary: PIP package to get status of flight pnr status and other details [Indian Airlines]
+Home-page: https://github.com/tiwari85aman/flight-status.git
+Author: Aman Tiwari, Shibani Mahapatra
+Author-email: tiwari.aman85@gmail.com, shibani.mahapatra47@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/flight-status/
+Keywords: Flight,PNR,Pnr status,India,Airlines
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=2.7.0
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4 (<=4.9.1)
+Requires-Dist: selenium (<=3.141.0)
+
+# flight-status
+PIP package to get status of flight pnr status and other details [Supports multiple Indian Airlines]
+
+## Architecture
+!["architecture"](/docs/images/architecture.png)
+
+# How to Install
+To install this pip package run the following command.
+
+`pip install flight-status`
+
+# Supported Airlines
+- Indigo
+- Spice Jet
+- AirAsia
+
+
+## Prerequisites
+- Chrome webdriver is required for the package to work.
+- webdriver execuatable is passed as parameter to the package.
+- Download chrome webdriver supported for your installed chrome version. 
+
+Download Link: https://chromedriver.chromium.org/downloads
+
+## Usage
+- Create an object of class `Airlines` with particular aviation company.
+
+params:
+- aviation : Aviation company name
+- config : webdriver config
+
+Example:
+
+``driver_config = {"webdriver": "chrome", "executable": "/path/to/executable"}``
+
+``aviation = Airlines(aviation="indigo", config=driver_config)``
+
+- Use available functions to get respective details.
+
+### Get PNR status:
+
+- define a `config` dict with the required parameters
+
+| Airline  | Config  |
+| ------------ | ------------ |
+|  indigo  | `{ "booking_reference": "XXX",    "email_lastname": "XXX"}` |
+|  spice_jet  |  `{ "booking_reference": "XXX",    "email_lastname": "XXX"}` |
+|  air_asia  |  `{ "booking_reference": "XXX",    "email_lastname": "XXX",  "departure_city": "XXX"}` |
+
+
+`` aviation.get_pnr_status(parameters=config)``
+
+

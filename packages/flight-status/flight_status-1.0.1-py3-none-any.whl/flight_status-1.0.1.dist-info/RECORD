@@ -1,0 +1,15 @@
+flight_status/__init__.py,sha256=3zUQ8uJvpo1RcsXl1l3jW9z-CbYxhCejdHdsuOlQVbM,30
+flight_status/airlines.py,sha256=3Eb3w7yn7UraFV1UlBw6ZwEpaeVAj-8jGeqBc3ujrF4,715
+flight_status/handler/__init__.py,sha256=5IxlHlB65_wW8ikKhMODx4mFCTKz3YtQs6cQJ_M2Pqo,49
+flight_status/handler/web_controller.py,sha256=R8xWXpuWMB4QVYqIAUG7uifo4f55DGYKPZGA6GyfIpk,2596
+flight_status/handler/air_asia/__init__.py,sha256=Gqamp_NA5NwQUINiCuWWWa1Hw_tiBJvgdG_goPdR8nY,1449
+flight_status/handler/air_asia/scraper.py,sha256=JIll_p45Do8ZqZUAXShl5MPwD1sczIP_tLkcIbhhYmE,2381
+flight_status/handler/indigo/__init__.py,sha256=t0bZ-a6ZAqtQUYqI9xgRa8pzSrnzAhAJvPAN1Y0Wxak,1317
+flight_status/handler/indigo/scraper.py,sha256=btKUQJn2qogI1CsMOyXs14K9KHUNxxzqm73Bek5iLAw,2062
+flight_status/handler/spice_jet/__init__.py,sha256=HvAQnSGtNglYtAoJZijQ_gxhyOBe4jrxUj8HCmHCZ7k,1793
+flight_status/handler/spice_jet/scraper.py,sha256=cGWaj_G3UmRkNFD-NY8h2kUaB4bOmrHsOMTowNCEAk0,2322
+flight_status-1.0.1.dist-info/LICENSE.txt,sha256=6gdh6Vce2Z1yi4yU8aS5FTPHu93SCIBK6jvKC3M5l3s,1068
+flight_status-1.0.1.dist-info/METADATA,sha256=fiirfI16l1bNMM3XPsWsXnkxRaxDDEunFzugj6x-thM,2347
+flight_status-1.0.1.dist-info/WHEEL,sha256=YNlcxLoRZfMqjEfLMA4_N5GPCL0Yw1E8c7zrDjEU0Bk,92
+flight_status-1.0.1.dist-info/top_level.txt,sha256=VKzkKntHlzloAZMDQ4MW7TlrOEBloPLHg84-R0DvExA,14
+flight_status-1.0.1.dist-info/RECORD,,
