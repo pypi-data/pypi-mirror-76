@@ -1,0 +1,10 @@
+click
+tqdm
+pydantic
+boxsdk
+Jinja2
+pyyaml
+
+[dev]
+pytest
+Faker
