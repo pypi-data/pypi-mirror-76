@@ -1,0 +1,6 @@
+block_io/__init__.py,sha256=eI40-o0MBwH5bAJlrAOUhzeRUizy2bdWFyFT2vZlP_s,11910
+block_io/pbkdf2.py,sha256=SkjePkYIB2m39hizVkAvDlKKHQcDqY7zlHnriZN1nzU,1787
+block_io-1.1.15.dist-info/METADATA,sha256=JDgMXz6yyWqQ9G3AuUm5h1-msqCosAu8Y966FwoO4HM,3090
+block_io-1.1.15.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+block_io-1.1.15.dist-info/top_level.txt,sha256=KIrezO2zK0TAa_Uhsbs8qLHKEnO3Z7_1GthQi2tR720,9
+block_io-1.1.15.dist-info/RECORD,,
