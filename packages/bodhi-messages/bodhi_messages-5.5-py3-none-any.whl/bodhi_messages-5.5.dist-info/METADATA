@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: bodhi-messages
+Version: 5.5
+Summary: JSON schema for messages sent by Bodhi
+Home-page: https://github.com/fedora-infra/bodhi
+Maintainer: Fedora Infrastructure Team
+Maintainer-email: infrastructure@lists.fedoraproject.org
+License: GPLv2+
+Keywords: fedora,fedora-messaging
+Platform: Fedora
+Platform: GNU/Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: System :: Software Distribution
+Requires-Dist: bodhi
+Requires-Dist: fedora-messaging
+
+Bodhi Messages
+==============
+
+ This package contains the schema for messages published by Bodhi.
+
