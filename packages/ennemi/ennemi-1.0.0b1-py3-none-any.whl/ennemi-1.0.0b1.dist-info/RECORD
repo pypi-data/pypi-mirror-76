@@ -1,0 +1,9 @@
+ennemi/__init__.py,sha256=BRw35Tgc3vBalqy0Y3a9C828IPVqAasnDkWWf80_xFs,343
+ennemi/_driver.py,sha256=X3CW0x3MZPcU7TN2zHPDCTC7fT16aoD5QkH-gdauwco,27602
+ennemi/_entropy_estimators.py,sha256=FVxwkdGrrbPsaZ7kW6n6OHKsCPufi6QlqX4-9Mh3PAk,9178
+ennemi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ennemi-1.0.0b1.dist-info/LICENSE.md,sha256=Febz8tH0uBTjdnRb0belm2C5mQw62cCwdwkBcS34Zrs,1090
+ennemi-1.0.0b1.dist-info/METADATA,sha256=_ji4uxJ4N1TxP3XzaybSXOxz0IRq4_dxInkMnk-7Dus,2876
+ennemi-1.0.0b1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+ennemi-1.0.0b1.dist-info/top_level.txt,sha256=qCERnABQxwsAFwRNmczXZ9ohA-bCze1rMRzT7HEWC0M,7
+ennemi-1.0.0b1.dist-info/RECORD,,
