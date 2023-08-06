@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+PyVirusShare.egg-info/PKG-INFO
+PyVirusShare.egg-info/SOURCES.txt
+PyVirusShare.egg-info/dependency_links.txt
+PyVirusShare.egg-info/requires.txt
+PyVirusShare.egg-info/top_level.txt
+virusshare/__init__.py
+virusshare/client.py
+virusshare/version.py
