@@ -1,0 +1,8 @@
+README.md
+setup.py
+meteoblue_dataset_sdk.egg-info/PKG-INFO
+meteoblue_dataset_sdk.egg-info/SOURCES.txt
+meteoblue_dataset_sdk.egg-info/dependency_links.txt
+meteoblue_dataset_sdk.egg-info/top_level.txt
+package/__init__.py
+package/meteoblue_dataset_sdk.py
