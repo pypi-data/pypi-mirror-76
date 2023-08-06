@@ -1,0 +1,12 @@
+cfgdir/__init__.py,sha256=aXAAGddvxisu8EVQ6Ih0zNOOSqnhQfFQcsssXvs4ORo,45
+cfgdir/cfgdir.py,sha256=2FMyCm1SSKnsNr8HGV0-OUQBuRZRLD-NoV94ywn09ow,4675
+cfgdir/version.py,sha256=6shBmS2ogIw5HQhIMWIxVn6ga32ogNYrQuBR0qU6TFQ,50
+cfgdir-1.0.8.data/data/LICENSE,sha256=Cr3JiqQaowUEo3Em9cTYadTqfoaQY7T5TuBIryKJJJk,1069
+cfgdir-1.0.8.data/data/VERSION,sha256=phVSvZad-OqKy8Q8pyiMu01dODZaYQyAIaQn4mpRhR0,5
+cfgdir-1.0.8.data/data/requirements.txt,sha256=QLddIu_NyAJNQnXZKPq7DxvGg0IytOmCRMBBTj6EHas,13
+cfgdir-1.0.8.dist-info/LICENSE,sha256=Cr3JiqQaowUEo3Em9cTYadTqfoaQY7T5TuBIryKJJJk,1069
+cfgdir-1.0.8.dist-info/METADATA,sha256=xUlkxgTSp9PPDNLr4t7DLpMOXRth7D_WpJEFTWZYc10,2483
+cfgdir-1.0.8.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+cfgdir-1.0.8.dist-info/entry_points.txt,sha256=b0eACx1YDwJCYa7zJi7k4cEeqyDAxOHFtWaow_pG1Ew,39
+cfgdir-1.0.8.dist-info/top_level.txt,sha256=Wq2vpGyQPBu5xjydTQXKD2n-i50MBY_fCs6HG7sEqVg,7
+cfgdir-1.0.8.dist-info/RECORD,,
