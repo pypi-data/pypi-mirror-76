@@ -1,0 +1,6 @@
+
+[examples]
+skimage
+numpy
+matplotlib
+pillow
