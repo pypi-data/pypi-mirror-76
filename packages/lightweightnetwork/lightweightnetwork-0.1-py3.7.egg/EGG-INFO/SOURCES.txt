@@ -1,0 +1,6 @@
+README.md
+setup.py
+lightweightnetwork.egg-info/PKG-INFO
+lightweightnetwork.egg-info/SOURCES.txt
+lightweightnetwork.egg-info/dependency_links.txt
+lightweightnetwork.egg-info/top_level.txt
