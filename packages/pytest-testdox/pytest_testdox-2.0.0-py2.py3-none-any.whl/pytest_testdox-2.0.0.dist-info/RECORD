@@ -1,0 +1,12 @@
+pytest_testdox/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_testdox/constants.py,sha256=r6Ou5-i2pbwKFcjb457MA9-_G9SFvCFKcUzUo0h4vYs,47
+pytest_testdox/formatters.py,sha256=F-wYtMBGJdOABxTqhV4Hx2QHWKuE8vIBVZbiu6atg0Q,2612
+pytest_testdox/models.py,sha256=iIYvMNe2XkvBF2olq8MmJEEfUPmwfIMa06X1DJ1TAaA,3374
+pytest_testdox/plugin.py,sha256=Pr29MME_hTtm43OP9cGOxAVUEiFez-GQjB24ZQ7-ohE,4099
+pytest_testdox/wrappers.py,sha256=BN8ds8EsfDZagHvWqlbC6NINtOVPNvT2ER3MrB8N6nc,1214
+pytest_testdox-2.0.0.dist-info/LICENSE,sha256=7k4vYq4HbW9BoJJD_utSVw9OHdsM_ICT91RGJ7-2QUA,1106
+pytest_testdox-2.0.0.dist-info/METADATA,sha256=vhURGU0v4jryXeKhvFKguXLoqDbk_RU060hKjH5oGok,3766
+pytest_testdox-2.0.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+pytest_testdox-2.0.0.dist-info/entry_points.txt,sha256=iaetutvxAeMXAkbKJFg_AuZqTWe__tCRBn0BiHXP-wo,44
+pytest_testdox-2.0.0.dist-info/top_level.txt,sha256=6OeUSdL5ShvLOwJAQ0dH34VqAY8BAZbE_D-B0YPyB7Q,15
+pytest_testdox-2.0.0.dist-info/RECORD,,
