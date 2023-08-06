@@ -1,0 +1,10 @@
+comod/__init__.py,sha256=aCBTIurmMYje0AQDbtmfwkSOh1C-HkwsG_pA1FY5_ps,247
+comod/base.py,sha256=hshPk5T-i21Mt_x7aMby1C2NRKEHbd9zwESQlRB3k14,36141
+comod/community.py,sha256=JsxDzkG8BX62E8lFBzwCdliAA68K1GT3gVEe6aeNdTQ,5089
+comod/data.py,sha256=t4-ourkuQESK5SG3V3a0wsg9RHegBcak_vz5YK8f3hc,584
+comod/models.py,sha256=ksbYPg1xNPLWXfkEAKV-Z903Brx9TuWpdc-f3LCDJOQ,766
+comod-0.2.0.dist-info/LICENSE.txt,sha256=aJYajmgdSIxAYl9a6_i1yMWqqE3iWnF6EkdlE9BFpK4,1061
+comod-0.2.0.dist-info/METADATA,sha256=OwD8UJPRCTIPUUt7uDmvre-fncd89iExlA9ZuJINMQ4,3767
+comod-0.2.0.dist-info/WHEEL,sha256=QNZmmMbQUQDSFNbbXyXHUMkgO-aoElXpPB6KCI2u8H8,110
+comod-0.2.0.dist-info/top_level.txt,sha256=Ej9AZfRDrIo5S4Mdsma_mQMjRZQdb3DDKi-JV7_9x64,6
+comod-0.2.0.dist-info/RECORD,,
