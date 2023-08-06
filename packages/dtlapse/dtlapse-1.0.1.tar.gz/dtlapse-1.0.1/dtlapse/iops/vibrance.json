@@ -1,0 +1,11 @@
+{ "operation": "vibrance"
+, "iopdata": [ { "modversion": 2
+               , "iop_order": 57.0
+               , "smooth": [true]
+               , "cformat": "f"
+               }
+             ]
+, "help": "Smoothing for the vibrance module. The only parameter is the amount."
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jochen Keil <jochen.keil@gmail.com>"]
+}

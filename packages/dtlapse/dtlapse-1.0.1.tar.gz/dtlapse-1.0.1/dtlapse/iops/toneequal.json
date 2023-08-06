@@ -1,0 +1,16 @@
+{
+    "operation": "toneequal",
+    "iopdata": [
+        {
+            "modversion": 2,
+            "iop_order": 24.0,
+            "smooth": "eval: 9*[True] + 6*[False] + 3*[False]",
+            "cformat": "eval: 9*'f' + 6*'f' + 3*'i'"
+        }
+    ],
+    "help": "Smoothing for the tone equalizer module. The interpolated parameters are the exposure corrections, the guided filter/masking settings are simply copied.",
+    "license": "GPL-3.0-or-later",
+    "copyright": [
+        "2020 Reinout Nonhebel <github@rpnonhebel.nl>"
+    ]
+}

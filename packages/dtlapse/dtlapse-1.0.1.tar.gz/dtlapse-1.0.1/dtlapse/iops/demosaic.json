@@ -1,0 +1,10 @@
+{ "operation": "demosaic",
+  "iopdata": [ { "modversion": 3
+   , "iop_order": 8.0
+   , "smooth": [false, false, false, false, false]
+   , "cformat": "IiIfi"
+  } ]
+, "help": "Copy demosaic settings."
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jordan Neumeyer <jdneumeyer@gmail.com>"]
+}
