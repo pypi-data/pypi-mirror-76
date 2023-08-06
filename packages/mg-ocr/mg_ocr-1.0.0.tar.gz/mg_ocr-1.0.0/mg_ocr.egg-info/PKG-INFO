@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: mg-ocr
+Version: 1.0.0
+Summary: Batch size prediction, detection speed up to 12fps, recognition speed up to 40-50fps
+Home-page: https://github.com/JoeZhou1025/ocr_package
+Author: zzh
+Author-email: cliffzzh1025@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5

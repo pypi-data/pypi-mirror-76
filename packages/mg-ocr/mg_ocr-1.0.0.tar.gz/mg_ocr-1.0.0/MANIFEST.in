@@ -1,0 +1,3 @@
+include test_easyocr.py
+include MANIFEST.in
+include README.md
