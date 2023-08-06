@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+preferred_pictures/__init__.py
+preferred_pictures/client.py
+preferred_pictures.egg-info/PKG-INFO
+preferred_pictures.egg-info/SOURCES.txt
+preferred_pictures.egg-info/dependency_links.txt
+preferred_pictures.egg-info/top_level.txt
