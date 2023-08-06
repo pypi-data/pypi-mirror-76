@@ -1,0 +1,7 @@
+README.md
+setup.py
+Euler_Solution.Dev.egg-info/PKG-INFO
+Euler_Solution.Dev.egg-info/SOURCES.txt
+Euler_Solution.Dev.egg-info/dependency_links.txt
+Euler_Solution.Dev.egg-info/top_level.txt
+Studio2V/EulerAlgo.py
