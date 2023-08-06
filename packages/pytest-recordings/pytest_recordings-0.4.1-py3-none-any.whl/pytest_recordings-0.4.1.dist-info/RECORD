@@ -1,0 +1,8 @@
+pytest_recordings/__init__.py,sha256=Pic3BZkSeRM5UGlAXW1zv1TF1GzGTe5vp8xoZO9sY9w,244
+pytest_recordings/decorators/request_logging.py,sha256=RIt2xdpxWxlnuK04uo7fgsLIQqPR1cOPiy4Qy1TCQs0,1495
+pytest_recordings/hooks.py,sha256=KPaWoKAFsDXWCPsnZbDpzpaXW6sw0KonxHtYAjKcpoc,5872
+pytest_recordings/screenshot.py,sha256=jNmwkOvay6U_fI1WyTNIJHYAcmkCHgDzWdo-olBfPYs,3302
+pytest_recordings-0.4.1.dist-info/entry_points.txt,sha256=RkEtukfReBmnDuJTzNMJt6fJHT89A9lf7dQ_428qUOg,54
+pytest_recordings-0.4.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+pytest_recordings-0.4.1.dist-info/METADATA,sha256=YmgwsRHtv6DQVO3XoIxMxtGfNVVPHdzB6fCnXgJe0Ts,448
+pytest_recordings-0.4.1.dist-info/RECORD,,

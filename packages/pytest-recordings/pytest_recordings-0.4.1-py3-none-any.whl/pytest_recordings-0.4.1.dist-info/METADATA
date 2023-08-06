@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pytest-recordings
+Version: 0.4.1
+Summary: Provides pytest plugins for reporting request/response traffic, screenshots, and more to ReportPortal
+Author: Jonathan Castillo
+Author-email: jonathan.castillo@cloudcheckr.com
+Requires-Python: >=3.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: vcrpy (==4.0.2)
