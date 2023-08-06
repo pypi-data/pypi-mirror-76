@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_from_file.py,sha256=I6j9yKHl5YmOgJqqogZ1wLBtuFUNVc6rvQOsaInZGF0,2245
+xmlparser/__init__.py,sha256=j4RaLdb9tLnzV0ecn0brTdPoj1nGNitvdgiyw6HV5eU,87
+xmlparser/xmlparser.py,sha256=LoJ36MyK5ORQXRYIbCrpk7iRTD97ChWjxymyrISs2CQ,1781
+py_xmlparser-1.0.1.dist-info/LICENSE,sha256=p90Jmv8XUOd0vhkL_kn8w-_KvYdEMNuhx7jnAwctXiA,1069
+py_xmlparser-1.0.1.dist-info/METADATA,sha256=U-ev5yZUWnv6YaoujAhmzqzYMcv8ckCjfxJscy7oQjo,3076
+py_xmlparser-1.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+py_xmlparser-1.0.1.dist-info/top_level.txt,sha256=G9d8oRsRCRLfTjah6_sgu0lE4rP6Cbzh20H21MiF3AA,16
+py_xmlparser-1.0.1.dist-info/RECORD,,
