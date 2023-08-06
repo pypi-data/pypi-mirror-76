@@ -1,0 +1,3 @@
+[console_scripts]
+aacgm2 = aacgm2.__main__:main
+
