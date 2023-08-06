@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pineappl
+Version: 0.2.0
+Summary: Python wrapper for PineAPPL
+Home-page: https://github.com/N3PDF/pineappl
+Author: The PineAPPL team
+Author-email: christopher.schwan@mi.infn.it
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pkgconfig
+Requires-Dist: numpy
+Provides-Extra: docs
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: recommonmark ; extra == 'docs'
+Requires-Dist: sphinxcontrib-bibtex ; extra == 'docs'
+
+# PineAPPL Python wrapper
+
+## Installation
+
+In order to install from source do:
+```
+pip install .
+```
+
+## Examples
+
+Please have a look in `examples/python-dy-aa`.
+
+
+
