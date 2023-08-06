@@ -1,0 +1,11 @@
+README.md
+setup.py
+flake8_local_import/__init__.py
+flake8_local_import/constants.py
+flake8_local_import/plugin.py
+flake8_local_import.egg-info/PKG-INFO
+flake8_local_import.egg-info/SOURCES.txt
+flake8_local_import.egg-info/dependency_links.txt
+flake8_local_import.egg-info/entry_points.txt
+flake8_local_import.egg-info/requires.txt
+flake8_local_import.egg-info/top_level.txt
