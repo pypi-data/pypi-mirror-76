@@ -1,0 +1,13 @@
+libvcs/__about__.py,sha256=eqS5RblwSKdDOV9tDz69fJUIPaH9cdxQdIzM-rZRYrc,441
+libvcs/__init__.py,sha256=a2PmyRUa_5EGI2bc0Kh6tSAqvaBHlQeqFNTAsQSL9zQ,432
+libvcs/base.py,sha256=6597aSHpals9BE7dPgsTxcRPE4XtBjrQxzH49qm0BIU,4419
+libvcs/exc.py,sha256=Qbmuljcq2JHzV2rfX3Y6bzxOQe8r3acY2pxuZKQB7ts,1493
+libvcs/git.py,sha256=Hq_0Eolm36Dpx6ZUbwcpnE28d5EkprhjwoYHuYAbQSo,15610
+libvcs/hg.py,sha256=lvl2FzPSO1XVKiIZ3ITmLo59k9XzHmemJzA2Dr9YQ6o,1196
+libvcs/shortcuts.py,sha256=xBkIPwpekNvg-f9LghAyCjbzQNype1t_vh4aAkFYOrA,2514
+libvcs/svn.py,sha256=mKDXilyrtDMj3b5ywA7ZtELRyH_c2M22Igf3wiLntYc,5153
+libvcs/util.py,sha256=t5dPYVGHchNv0C0kgEGkqMuIsZbxuchHUZspK1NMAcU,6118
+libvcs-0.9.0a1.dist-info/LICENSE,sha256=O7UfKI2nOG3wIeDwOIVEQH9aoOFRXbZiEPTGi2PIqZI,1081
+libvcs-0.9.0a1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+libvcs-0.9.0a1.dist-info/METADATA,sha256=4efQXyg_RZWYHJh8S-91Iu9dp_VqrHfAKot32IlUJ1U,4390
+libvcs-0.9.0a1.dist-info/RECORD,,
