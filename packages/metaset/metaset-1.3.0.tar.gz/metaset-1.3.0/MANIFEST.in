@@ -1,0 +1,6 @@
+include CHANGES.rst README.rst LICENSE.txt
+exclude Makefile tox.ini .flake8 .travis.yml
+global-exclude *.py[cod] __pycache__ *.so
+
+prune requirements
+prune tests
