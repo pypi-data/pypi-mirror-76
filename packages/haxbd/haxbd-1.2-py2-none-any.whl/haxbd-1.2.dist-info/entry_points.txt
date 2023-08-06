@@ -1,0 +1,3 @@
+[console_scripts]
+haxbd = haxbd.__init__:hax9bd
+
