@@ -1,0 +1,8 @@
+README.md
+setup.py
+gkquiztool/IQuiz.py
+gkquiztool/__init__.py
+gkquiztool.egg-info/PKG-INFO
+gkquiztool.egg-info/SOURCES.txt
+gkquiztool.egg-info/dependency_links.txt
+gkquiztool.egg-info/top_level.txt
