@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: djenius-auth-udbsync
+Version: 1.0
+Summary: A Prologin SADM auth provider for djenius.
+Home-page: https://github.com/prologin/djenius/
+Author: Alexandre Macabies
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)

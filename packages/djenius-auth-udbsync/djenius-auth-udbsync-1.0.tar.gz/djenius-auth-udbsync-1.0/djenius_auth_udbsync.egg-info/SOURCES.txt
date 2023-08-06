@@ -1,0 +1,7 @@
+setup.py
+djenius_auth_udbsync/__init__.py
+djenius_auth_udbsync.egg-info/PKG-INFO
+djenius_auth_udbsync.egg-info/SOURCES.txt
+djenius_auth_udbsync.egg-info/dependency_links.txt
+djenius_auth_udbsync.egg-info/requires.txt
+djenius_auth_udbsync.egg-info/top_level.txt
