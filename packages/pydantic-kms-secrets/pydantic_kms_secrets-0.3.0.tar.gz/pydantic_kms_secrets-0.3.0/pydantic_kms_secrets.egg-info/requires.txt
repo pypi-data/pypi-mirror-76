@@ -1,0 +1,10 @@
+boto3
+
+[dev]
+black
+isort
+pydantic
+
+[test]
+pytest
+pytest-cov
