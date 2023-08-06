@@ -1,0 +1,3 @@
+[console_scripts]
+dam-sync = dam.dam_sync:cli
+
