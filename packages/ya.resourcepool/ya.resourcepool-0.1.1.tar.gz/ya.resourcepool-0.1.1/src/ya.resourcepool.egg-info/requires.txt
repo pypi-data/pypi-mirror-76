@@ -1,0 +1,14 @@
+
+[dev]
+mutmut
+
+[testing]
+pytest
+pytest-cov
+flake8
+flake8-annotations
+flake8-comprehensions
+flake8-docstrings
+flake8-isort
+flake8-raise
+flake8-typing-imports
