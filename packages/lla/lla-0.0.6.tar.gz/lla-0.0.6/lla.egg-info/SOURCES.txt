@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+lla/__init__.py
+lla/interpreter.py
+lla/parser.py
+lla/tokenizer.py
+lla/version.py
+lla.egg-info/PKG-INFO
+lla.egg-info/SOURCES.txt
+lla.egg-info/dependency_links.txt
+lla.egg-info/requires.txt
+lla.egg-info/top_level.txt
