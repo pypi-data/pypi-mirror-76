@@ -1,0 +1,17 @@
+README.md
+setup.py
+statsfig/__init__.py
+statsfig/bernoulli.py
+statsfig/binomial.py
+statsfig/boxplot.py
+statsfig/chisquare.py
+statsfig/exponential.py
+statsfig/gamma.py
+statsfig/normal.py
+statsfig/poisson.py
+statsfig/uniform.py
+statsfig.egg-info/PKG-INFO
+statsfig.egg-info/SOURCES.txt
+statsfig.egg-info/dependency_links.txt
+statsfig.egg-info/requires.txt
+statsfig.egg-info/top_level.txt
