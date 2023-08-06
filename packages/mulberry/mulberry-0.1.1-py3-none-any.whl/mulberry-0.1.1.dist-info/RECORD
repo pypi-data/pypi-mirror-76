@@ -1,0 +1,7 @@
+mulberry/backends/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mulberry/backends/numpy_backend.py,sha256=LN_9zXEpI_3P7hbOHgsk0JgMxCNxOsWtO4D4TKCymUY,261
+mulberry-0.1.1.dist-info/LICENSE,sha256=AMkuy3wAaUzo_uP3rZppb1j3D7kKXRq-gGmlIHV4GpQ,1521
+mulberry-0.1.1.dist-info/METADATA,sha256=FTGQDhyLnE1_KAY-DTIPevxvUi6llLIRMbCzF_m-6ls,1804
+mulberry-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+mulberry-0.1.1.dist-info/top_level.txt,sha256=grEpND1it3E3wP3sqdnGeuwUjqhfIx2A74GyOvlGwm0,9
+mulberry-0.1.1.dist-info/RECORD,,
