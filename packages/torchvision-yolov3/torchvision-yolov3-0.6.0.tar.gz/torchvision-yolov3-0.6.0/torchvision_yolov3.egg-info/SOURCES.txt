@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+torchvision_yolov3/__init__.py
+torchvision_yolov3/backbone_utils.py
+torchvision_yolov3/darknet.py
+torchvision_yolov3/loss.py
+torchvision_yolov3/transform.py
+torchvision_yolov3/utils.py
+torchvision_yolov3/yolov3.py
+torchvision_yolov3.egg-info/PKG-INFO
+torchvision_yolov3.egg-info/SOURCES.txt
+torchvision_yolov3.egg-info/dependency_links.txt
+torchvision_yolov3.egg-info/not-zip-safe
+torchvision_yolov3.egg-info/requires.txt
+torchvision_yolov3.egg-info/top_level.txt

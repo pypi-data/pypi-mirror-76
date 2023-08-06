@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: torchvision-yolov3
+Version: 0.6.0
+Summary: A minimal PyTorch implementation of YOLOv3.
+Home-page: https://github.com/danilopeixoto/torchvision-yolov3
+Author: Bob Liu
+Maintainer: Danilo Peixoto
+Maintainer-email: danilopeixoto@outlook.com
+License: BSD
+Download-URL: https://github.com/danilopeixoto/torchvision-yolov3/archive/v0.6.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
