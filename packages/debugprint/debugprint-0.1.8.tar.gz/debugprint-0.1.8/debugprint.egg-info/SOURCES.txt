@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+debugprint/__init__.py
+debugprint/debugprint.py
+debugprint.egg-info/PKG-INFO
+debugprint.egg-info/SOURCES.txt
+debugprint.egg-info/dependency_links.txt
+debugprint.egg-info/top_level.txt
+test/__init__.py
+test/test_debugprint.py
+test/test_env_var_handling.py
