@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: example-pkg-vwinnv
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/winn/botnoi
+Author: Winn Voravuthikunchai
+Author-email: vwinnv@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Flask==0.11.1
+Jinja2==2.8
+MarkupSafe==0.23
+Werkzeug==0.11.11
+requests
+numpy
+clint
+oauth2client
+scipy
+flask_restful
+flask-jsonpify
+pymongo
+gspread
+pandas
+stringdist
+sklearn
+pythainlp
+xlrd
+gensim
+pymongo
+scikit-learn
+uvicorn==0.11.5
+sanic==20.3.0
+gunicorn==19.9.0
+
+
+
