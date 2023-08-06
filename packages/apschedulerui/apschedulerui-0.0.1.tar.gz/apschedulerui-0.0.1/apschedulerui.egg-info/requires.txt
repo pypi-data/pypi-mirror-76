@@ -1,0 +1,9 @@
+apscheduler>=3.0.0
+flask>=1.0.0
+flask_socketio>=4.0.0
+
+[testing]
+requests
+
+[testing:python_version == "3.5"]
+mock
