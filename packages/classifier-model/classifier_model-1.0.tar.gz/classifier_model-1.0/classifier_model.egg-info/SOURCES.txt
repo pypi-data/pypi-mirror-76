@@ -1,0 +1,8 @@
+setup.py
+classifier_model/__init__.py
+classifier_model/my_model.py
+classifier_model.egg-info/PKG-INFO
+classifier_model.egg-info/SOURCES.txt
+classifier_model.egg-info/dependency_links.txt
+classifier_model.egg-info/not-zip-safe
+classifier_model.egg-info/top_level.txt
