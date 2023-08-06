@@ -1,0 +1,10 @@
+proxyup/__init__.py,sha256=YFnqKur3BxPvswHVF1JTyoi66O2fyPfyMr94p9K1ijc,53
+proxyup/proxy_retriever.py,sha256=n_iJCBIsqsBfHW6QMX-JX_TgcCxfiVkF5dVoz8WUUrQ,7453
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_proxyupretriever.py,sha256=OAmwgjB-9j-ZKEB6DTBd9Ei1kxtO0adtlrc6Hyx3cLo,3981
+proxyup-0.0.1.dist-info/LICENSE,sha256=8V2SpzS8WIYUEeSYyixIwkmvXiILQFzQw6u3qB1MAp8,1077
+proxyup-0.0.1.dist-info/METADATA,sha256=yMWp8kOlhE26gDl3cXlBqsgAcCyB41U4bp6bDhDIPC8,4724
+proxyup-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+proxyup-0.0.1.dist-info/entry_points.txt,sha256=0ue6y2YbB5yORwtkKyF1mNYu5N3XZc25IC6CHxU4dRM,50
+proxyup-0.0.1.dist-info/top_level.txt,sha256=49pCISMH0WW8-0d0rZ7XZLHCbkCwmzqz2kDWvCcM5FI,14
+proxyup-0.0.1.dist-info/RECORD,,

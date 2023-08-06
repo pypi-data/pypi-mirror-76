@@ -1,0 +1,3 @@
+[console_scripts]
+cur = curdump.entry_point:main
+
