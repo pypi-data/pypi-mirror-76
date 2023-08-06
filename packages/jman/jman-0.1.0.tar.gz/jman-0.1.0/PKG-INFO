@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jman
+Version: 0.1.0
+Summary: Job manager with queryable server.
+Home-page: https://github.com/tgree/jman
+Author: Terry Greeniaus
+Author-email: terrygreeniaus@gmail.com
+License: License :: OSI Approved :: MIT License
+Description: jman
+        ====
+        This pacakge provides a job manager server that can be used to spawn and
+        monitor subprocesses.
+        
+Keywords: jman job management
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst

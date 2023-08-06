@@ -1,0 +1,2 @@
+pyreap>=0.9.1
+requests

@@ -1,0 +1,16 @@
+README.rst
+setup.cfg
+setup.py
+jman/__init__.py
+jman/client.py
+jman/current_job.py
+jman/job.py
+jman/manager.py
+jman/server.py
+jman/serverd.py
+jman.egg-info/PKG-INFO
+jman.egg-info/SOURCES.txt
+jman.egg-info/dependency_links.txt
+jman.egg-info/entry_points.txt
+jman.egg-info/requires.txt
+jman.egg-info/top_level.txt
