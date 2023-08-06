@@ -1,0 +1,8 @@
+README.md
+setup.py
+IndianNameGenerator/Names.py
+IndianNameGenerator/__init__.py
+IndianNameGenerator.egg-info/PKG-INFO
+IndianNameGenerator.egg-info/SOURCES.txt
+IndianNameGenerator.egg-info/dependency_links.txt
+IndianNameGenerator.egg-info/top_level.txt
