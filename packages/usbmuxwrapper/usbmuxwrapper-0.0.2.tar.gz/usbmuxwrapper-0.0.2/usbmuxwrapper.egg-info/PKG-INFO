@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: usbmuxwrapper
+Version: 0.0.2
+Summary: Python wrapper for usbmux
+Home-page: https://github.com/pmeenan/usbmux_python
+Author: Patrick Meenan
+Author-email: pmeenan@webpagetest.org
+License: UNKNOWN
+Description: # usbmux_python
+        Python interface for USBMux packaged as a pip module. This is just a repackaging of the original (unmaintained) usbmux.py that was part of the tcprelay sample in the original libusbmuxd project.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown

@@ -1,0 +1,7 @@
+README.md
+setup.py
+usbmuxwrapper/__init__.py
+usbmuxwrapper.egg-info/PKG-INFO
+usbmuxwrapper.egg-info/SOURCES.txt
+usbmuxwrapper.egg-info/dependency_links.txt
+usbmuxwrapper.egg-info/top_level.txt
