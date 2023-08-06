@@ -1,0 +1,6 @@
+README.md
+setup.py
+example_pkg_vwinnv.egg-info/PKG-INFO
+example_pkg_vwinnv.egg-info/SOURCES.txt
+example_pkg_vwinnv.egg-info/dependency_links.txt
+example_pkg_vwinnv.egg-info/top_level.txt
