@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: bintypesnew
+Version: 1.0.5
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: 
+Author-email: 
+License: Creative Commons Attribution-Noncommercial-Share Alike license
+Description: python library to validate bins
+        
+        LATEST VERSION
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
+Description-Content-Type: text/markdown
