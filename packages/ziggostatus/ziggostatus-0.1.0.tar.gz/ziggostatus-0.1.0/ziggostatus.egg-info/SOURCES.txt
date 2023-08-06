@@ -1,0 +1,9 @@
+README.md
+setup.py
+ziggostatus/__init__.py
+ziggostatus.egg-info/PKG-INFO
+ziggostatus.egg-info/SOURCES.txt
+ziggostatus.egg-info/dependency_links.txt
+ziggostatus.egg-info/not-zip-safe
+ziggostatus.egg-info/requires.txt
+ziggostatus.egg-info/top_level.txt
