@@ -1,0 +1,7 @@
+setup.py
+message/__init__.py
+message/hello.py
+message_swh.egg-info/PKG-INFO
+message_swh.egg-info/SOURCES.txt
+message_swh.egg-info/dependency_links.txt
+message_swh.egg-info/top_level.txt
