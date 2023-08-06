@@ -1,0 +1,3 @@
+[console_scripts]
+adif_merge = adif_merge:main
+
