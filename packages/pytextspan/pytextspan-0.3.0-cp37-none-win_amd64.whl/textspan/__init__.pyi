@@ -1,0 +1,13 @@
+from typing import List, Tuple
+
+def align_spans(
+    spans: List[Tuple[int, int]], text: str, original_text: str,
+) -> List[List[Tuple[int, int]]]: ...
+def align_spans_by_mapping(
+    spans: List[Tuple[int, int]], mapping: List[List[int]],
+) -> List[List[Tuple[int, int]]]: ...
+def get_original_spans(
+    tokens: List[str], original_text: str,
+) -> List[List[Tuple[int, int]]]: ...
+def remove_span_overlaps(tokens: List[Tuple[int, int]]) -> List[Tuple[int, int]]: ...
+
