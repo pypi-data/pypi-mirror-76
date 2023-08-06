@@ -1,0 +1,7 @@
+README.md
+setup.py
+gitbotpy/__init__.py
+gitbotpy.egg-info/PKG-INFO
+gitbotpy.egg-info/SOURCES.txt
+gitbotpy.egg-info/dependency_links.txt
+gitbotpy.egg-info/top_level.txt
