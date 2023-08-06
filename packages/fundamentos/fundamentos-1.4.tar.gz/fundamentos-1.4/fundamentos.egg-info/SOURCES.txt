@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+fundamentos/__init__.py
+fundamentos/advfn.py
+fundamentos/fundamentus.py
+fundamentos/utils.py
+fundamentos.egg-info/PKG-INFO
+fundamentos.egg-info/SOURCES.txt
+fundamentos.egg-info/dependency_links.txt
+fundamentos.egg-info/requires.txt
+fundamentos.egg-info/top_level.txt
