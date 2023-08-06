@@ -1,0 +1,3 @@
+[console_scripts]
+git-speed=git_speed.cli:main
+
