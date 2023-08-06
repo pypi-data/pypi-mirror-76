@@ -1,0 +1,7 @@
+numpy
+scipy
+argparse
+pandas
+scikit-learn
+biothings_client
+goatools>=0.7.11
