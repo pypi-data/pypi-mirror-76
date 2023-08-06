@@ -1,0 +1,10 @@
+setup.py
+distributions_dirkkadijk/Binomialdistribution.py
+distributions_dirkkadijk/Gaussiandistribution.py
+distributions_dirkkadijk/Generaldistribution.py
+distributions_dirkkadijk/__init__.py
+distributions_dirkkadijk.egg-info/PKG-INFO
+distributions_dirkkadijk.egg-info/SOURCES.txt
+distributions_dirkkadijk.egg-info/dependency_links.txt
+distributions_dirkkadijk.egg-info/not-zip-safe
+distributions_dirkkadijk.egg-info/top_level.txt
