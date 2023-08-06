@@ -1,0 +1,8 @@
+requires
+setuptools
+zope.interface
+acme>=0.29.0
+certbot>=1.1.0
+
+[:python_version < "3.3"]
+mock
