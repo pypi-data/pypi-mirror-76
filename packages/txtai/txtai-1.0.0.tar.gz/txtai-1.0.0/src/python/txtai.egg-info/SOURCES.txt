@@ -1,0 +1,14 @@
+README.md
+setup.py
+src/python/txtai/__init__.py
+src/python/txtai/embeddings.py
+src/python/txtai/extractor.py
+src/python/txtai/pipeline.py
+src/python/txtai/scoring.py
+src/python/txtai/tokenizer.py
+src/python/txtai/vectors.py
+src/python/txtai.egg-info/PKG-INFO
+src/python/txtai.egg-info/SOURCES.txt
+src/python/txtai.egg-info/dependency_links.txt
+src/python/txtai.egg-info/requires.txt
+src/python/txtai.egg-info/top_level.txt
