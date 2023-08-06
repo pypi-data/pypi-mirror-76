@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/algorithms_daemon/__init__.py
+src/algorithms_daemon/config.py
+src/algorithms_daemon/daemon.py
+src/algorithms_daemon.egg-info/PKG-INFO
+src/algorithms_daemon.egg-info/SOURCES.txt
+src/algorithms_daemon.egg-info/dependency_links.txt
+src/algorithms_daemon.egg-info/requires.txt
+src/algorithms_daemon.egg-info/top_level.txt
