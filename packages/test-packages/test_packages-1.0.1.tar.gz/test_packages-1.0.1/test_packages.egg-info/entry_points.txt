@@ -1,0 +1,3 @@
+[console_scripts]
+test_console = packages1.test:print_sys_path
+

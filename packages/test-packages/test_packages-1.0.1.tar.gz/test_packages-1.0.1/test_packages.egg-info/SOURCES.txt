@@ -1,0 +1,10 @@
+README
+setup.py
+packages1/__init__.py
+packages1/test.py
+test_packages.egg-info/PKG-INFO
+test_packages.egg-info/SOURCES.txt
+test_packages.egg-info/dependency_links.txt
+test_packages.egg-info/entry_points.txt
+test_packages.egg-info/top_level.txt
+test_packages.egg-info/zip-safe
