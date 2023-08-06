@@ -1,0 +1,8 @@
+README.md
+setup.py
+CAMSCS_Keywords/CAMS_Keywords.py
+CAMSCS_Keywords/__init__.py
+CAMSCS_Keywords.egg-info/PKG-INFO
+CAMSCS_Keywords.egg-info/SOURCES.txt
+CAMSCS_Keywords.egg-info/dependency_links.txt
+CAMSCS_Keywords.egg-info/top_level.txt
