@@ -1,0 +1,11 @@
+requests
+beautifulsoup4
+PyYAML
+six
+click
+oscrypto
+
+[dev]
+check-manifest
+
+[test]
