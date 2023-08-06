@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: yootk-message-yangrui
+Version: 0.1
+Summary: Get Yootk Information.
+Home-page: http://www.yootk.com
+Author: yangrui
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+
+获取Yootk网站信息的组件模块
+
+
