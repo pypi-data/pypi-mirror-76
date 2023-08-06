@@ -1,0 +1,10 @@
+iexfinance
+numpy
+pandas
+plotly
+pykalman
+scikit-learn
+scipy
+ta
+tensorflow
+tqdm

@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: quick-trade
+Version: 2.1.3
+Summary: trading system
+Home-page: https://github.com/VladKochetov007/quick_trade
+Author: Vlad Kochetov
+Author-email: vladyslavdrrragonkoch@gmail.com
+License: cc-by-sa-4.0
+Download-URL: https://github.com/VladKochetov007/quick_trade/blob/master/dist/quick_trade-2.1.2.tar.gz
+Description: Please, view page on github.
+        
+Keywords: trading,tensorflow,keras
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
