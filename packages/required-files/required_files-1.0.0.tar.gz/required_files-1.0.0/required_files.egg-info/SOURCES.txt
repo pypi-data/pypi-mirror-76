@@ -1,0 +1,10 @@
+setup.py
+required_files/__init__.py
+required_files/required_files.py
+required_files.egg-info/PKG-INFO
+required_files.egg-info/SOURCES.txt
+required_files.egg-info/dependency_links.txt
+required_files.egg-info/namespace_packages.txt
+required_files.egg-info/requires.txt
+required_files.egg-info/top_level.txt
+required_files.egg-info/zip-safe

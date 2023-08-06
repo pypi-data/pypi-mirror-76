@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: required-files
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/svaningelgem/required_files
+Author: Steven 'KaReL' Van Ingelgem
+Author-email: steven@vaningelgem.be
+License: MIT
+Description: Simple but effective checking if required externals are present.
+Keywords: required files github bitbucket zip
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
