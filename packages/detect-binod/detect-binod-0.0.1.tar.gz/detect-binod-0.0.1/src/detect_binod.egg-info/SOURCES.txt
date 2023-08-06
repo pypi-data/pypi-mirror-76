@@ -1,0 +1,12 @@
+BINOD.png
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+test_detect_binod.py
+src/detect_binod.py
+src/detect_binod.egg-info/PKG-INFO
+src/detect_binod.egg-info/SOURCES.txt
+src/detect_binod.egg-info/dependency_links.txt
+src/detect_binod.egg-info/requires.txt
+src/detect_binod.egg-info/top_level.txt

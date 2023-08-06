@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: detect-binod
+Version: 0.0.1
+Summary: This package will detect binod word in image file
+Home-page: https://github.com/jps892/detect_binod
+Author: Jeevan Prakash
+Author-email: jeevan14sliet@gmail.com
+License: UNKNOWN
+Description: # detect_binod
+        
+        This package will detect binod word in image file.
+        
+        ## Installation
+        
+        Run the following to install:
+        
+        ```python
+        pip install detect-binod
+        ```
+        
+        ## Usage
+        
+        ```python
+        import detect_binod
+        
+        # To detect Binod
+        detect_binod.detect(args.image)
+        ```
+        
+        ```python
+        # To run example
+        python test_detect_binod.py -i <image_file>
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
