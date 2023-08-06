@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+pypale/__init__.py
+pypale/__version__.py
+pypale/pypale.py
+pypale.egg-info/PKG-INFO
+pypale.egg-info/SOURCES.txt
+pypale.egg-info/dependency_links.txt
+pypale.egg-info/requires.txt
+pypale.egg-info/top_level.txt
