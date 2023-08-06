@@ -1,0 +1,7 @@
+README.md
+setup.py
+directiony.egg-info/PKG-INFO
+directiony.egg-info/SOURCES.txt
+directiony.egg-info/dependency_links.txt
+directiony.egg-info/requires.txt
+directiony.egg-info/top_level.txt

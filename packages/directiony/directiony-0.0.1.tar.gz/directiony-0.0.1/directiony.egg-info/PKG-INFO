@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: directiony
+Version: 0.0.1
+Summary: Directiony is a python package for directonal statistics.
+Home-page: https://github.com/georg1me/directiony
+Author: Matthew George
+Author-email: Matthew.eu.george@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.5
