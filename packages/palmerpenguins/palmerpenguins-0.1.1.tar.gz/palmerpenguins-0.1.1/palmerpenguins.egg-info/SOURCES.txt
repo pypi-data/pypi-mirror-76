@@ -1,0 +1,11 @@
+DESCRIPTION.rst
+MANIFEST.in
+setup.py
+palmerpenguins/__init__.py
+palmerpenguins/_base.py
+palmerpenguins/penguins.py
+palmerpenguins.egg-info/PKG-INFO
+palmerpenguins.egg-info/SOURCES.txt
+palmerpenguins.egg-info/dependency_links.txt
+palmerpenguins.egg-info/requires.txt
+palmerpenguins.egg-info/top_level.txt
