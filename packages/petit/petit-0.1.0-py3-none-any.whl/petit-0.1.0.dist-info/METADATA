@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: petit
+Version: 0.1.0
+Summary: protein engineering toolkit
+Home-page: https://github.com/kyo46n/petit/
+Author: Kyoshiro Nonaka
+Author-email: kyo46n@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: scipy
+Requires-Dist: biopython
+Requires-Dist: xlrd
+
+# Petit: Protein engineering toolkit
+Python scripts for daily use in protein engineering research.
+
+## setup
+#### activate environment (e.g. Anaconda)
+```
+$ conda create -n petit
+$ conda activate petit
+$ conda install pip
+```
+#### install via PyPI
+```
+$ pip install petit
+```
+#### test
+```
+$ python
+>>> from petit import util
+>>> util.check_install()
+petit was successfully installed.
+>>> quit()
+$
+```
+
+
