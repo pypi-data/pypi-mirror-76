@@ -1,0 +1,15 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/opentelemetry/exporter/zipkin/__init__.py
+src/opentelemetry/exporter/zipkin/version.py
+src/opentelemetry_exporter_zipkin.egg-info/PKG-INFO
+src/opentelemetry_exporter_zipkin.egg-info/SOURCES.txt
+src/opentelemetry_exporter_zipkin.egg-info/dependency_links.txt
+src/opentelemetry_exporter_zipkin.egg-info/requires.txt
+src/opentelemetry_exporter_zipkin.egg-info/top_level.txt
+tests/__init__.py
+tests/test_zipkin_exporter.py
