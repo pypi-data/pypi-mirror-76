@@ -1,0 +1,10 @@
+README.rst
+jsonargparse.py
+jsonargparse_tests.py
+setup.cfg
+setup.py
+jsonargparse.egg-info/PKG-INFO
+jsonargparse.egg-info/SOURCES.txt
+jsonargparse.egg-info/dependency_links.txt
+jsonargparse.egg-info/requires.txt
+jsonargparse.egg-info/top_level.txt
