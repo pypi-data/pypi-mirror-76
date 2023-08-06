@@ -1,0 +1,5 @@
+
+    [console_scripts]
+    contentai-activity-classifier=contentai_activity_classifier.main:classify
+    contentai-activity-similarity=contentai_activity_classifier.features:difference
+    
