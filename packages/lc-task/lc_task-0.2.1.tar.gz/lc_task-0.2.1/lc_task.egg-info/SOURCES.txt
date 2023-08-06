@@ -1,0 +1,9 @@
+README.md
+setup.py
+lc_task/__init__.py
+lc_task/cli.py
+lc_task/task.py
+lc_task.egg-info/PKG-INFO
+lc_task.egg-info/SOURCES.txt
+lc_task.egg-info/dependency_links.txt
+lc_task.egg-info/top_level.txt
