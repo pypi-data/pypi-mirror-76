@@ -1,0 +1,8 @@
+mz_project_gender/__init__.py,sha256=CI87K9Xou6JQZtCHD8Y9OY8RKRBUpwjrwxgG-G4kEu8,82
+mz_project_gender/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mz_project_gender/models/mz_gender_nv_model.pkl,sha256=vFbGwVkm2Npx8tlXoOeiHWd6BKvXtJwrFGumHKeXAYA,3041545
+mz_project_gender/models/mz_gender_vectorizer.pkl,sha256=3xfLZusKn7uxfOOfIARVdrFZNhJQcoaSl5jh2_mkRPU,4517176
+mz_project_gender/mz_genclf.py,sha256=AnX5dwQzv7ZLxRHtNJc9Z07NmwfGxcIVm-dVMntEaI4,868
+mz_project_gender-0.1.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+mz_project_gender-0.1.0.dist-info/METADATA,sha256=_LJnC_3yLO8pRP-K2tnWZPm_Krd8-NVodgfaRFZ3m5o,389
+mz_project_gender-0.1.0.dist-info/RECORD,,

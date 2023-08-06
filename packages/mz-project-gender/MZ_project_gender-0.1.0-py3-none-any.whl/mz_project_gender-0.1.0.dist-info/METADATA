@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mz-project-gender
+Version: 0.1.0
+Summary: 
+Author: mike
+Author-email: mikezhang1970@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: joblib (>=0.16.0,<0.17.0)
