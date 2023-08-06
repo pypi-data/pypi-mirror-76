@@ -1,0 +1,4 @@
+_pyCaenN6725.cpython-38-x86_64-linux-gnu.so
+_trapezoidal_shaper.cpython-38-x86_64-linux-gnu.so
+libCaenN6725.so
+libDactylosAnalysis.so
