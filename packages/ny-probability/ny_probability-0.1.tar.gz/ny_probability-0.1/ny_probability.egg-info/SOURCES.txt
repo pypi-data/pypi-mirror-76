@@ -1,0 +1,10 @@
+setup.py
+ny_probability/Binomialdistribution.py
+ny_probability/Gaussiandistribution.py
+ny_probability/Generaldistribution.py
+ny_probability/__init__.py
+ny_probability.egg-info/PKG-INFO
+ny_probability.egg-info/SOURCES.txt
+ny_probability.egg-info/dependency_links.txt
+ny_probability.egg-info/not-zip-safe
+ny_probability.egg-info/top_level.txt
