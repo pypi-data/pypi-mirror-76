@@ -1,0 +1,8 @@
+README.md
+setup.py
+stringbrewer/__init__.py
+stringbrewer.egg-info/PKG-INFO
+stringbrewer.egg-info/SOURCES.txt
+stringbrewer.egg-info/dependency_links.txt
+stringbrewer.egg-info/requires.txt
+stringbrewer.egg-info/top_level.txt
