@@ -1,0 +1,12 @@
+molecular_builder/__init__.py,sha256=fE_4dSt_Yng3nzA4FcHoqNW9JfvmEEspC3KSHBq1o94,96
+molecular_builder/core.py,sha256=WVY-jdfUsBpBbIBEfZ4e166qQ7pwokydNsAX-RdYuOg,13560
+molecular_builder/crystals.py,sha256=YgP2GGoDiFf2C04xj4kpwNmMK1gm87u5-b4l6E3JbKY,3394
+molecular_builder/geometry.py,sha256=W8dn_IR8HBXjNcAQe76f3iPr6_nEsFpar2tiD3AVc7I,17041
+molecular_builder/utils.py,sha256=a_aOW5brv-co0gpjGzyv8RBzrokX2O-5qfjzu1sbw3E,978
+molecular_builder/data_files/water.pdb,sha256=eEbrNupB3F_EwKXDB_Ay8cZE5Pnmdoj_Ns_BKD_RrnU,255
+molecular_builder/data_files/water.xyz,sha256=m_TuKwdz9U6fy0if1H-Pc98qvxT_xb8LUUR2Wr5NHg0,168
+molecular_builder-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+molecular_builder-0.2.0.dist-info/METADATA,sha256=UlfwwLDxiRGidQCqmR5AdVCZE8k21Gh48MVfJpW6mJE,1941
+molecular_builder-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+molecular_builder-0.2.0.dist-info/top_level.txt,sha256=V4gOiugvbUm0scqx48iVqzfEKcUkdye-kNd8BCIVVv4,18
+molecular_builder-0.2.0.dist-info/RECORD,,
