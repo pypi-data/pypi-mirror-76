@@ -1,0 +1,10 @@
+micro_client/__init__.py,sha256=GRUU14MG25-hhP8nVBPXF3tPmkN2rlZvS1SVnKy2GX8,1176
+micro_client/common.py,sha256=w-D9B_svloiRThb-VnZH6bBsv__v69S1WF0RvZ6czQc,2231
+micro_client/registry/__init__.py,sha256=Pf31fWDcf-G5wbZoj8ZehAYxydJXoveiqKnb08t8OAc,96
+micro_client/registry/consulregistry.py,sha256=ED-l10FD5GZIcX4eLJ0JeEx6kLGwIs7G701Y-4B6CD8,2399
+micro_client/registry/etcdregistry.py,sha256=WloZzBaE8VCdjHWPF0_bfGLo3_r__z7871v8a--7CfE,2275
+micro_client-1.0.1.dist-info/LICENSE,sha256=DANLtcyCKh3PprTPxh8H2qp_E_aLYg_FErY-MZ1r9jU,1066
+micro_client-1.0.1.dist-info/METADATA,sha256=jhBcMdHjruUeJFXz9vdXIW--v42UKGliD_qrMcQVJSM,2337
+micro_client-1.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+micro_client-1.0.1.dist-info/top_level.txt,sha256=xbaGIYjjsQvzJgByL5KM-ULYC12yCi7LTUgTOlj8eoo,13
+micro_client-1.0.1.dist-info/RECORD,,
