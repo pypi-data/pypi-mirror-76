@@ -1,0 +1,49 @@
+{% extends "sidebar.html" %}
+{% block main %}
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".js-example-basic-single").select2();
+});
+</script>
+<body>
+    <div id="container">
+        <form action="{{ url_for('navigation') }}" methods="GET">
+            <table id="network_table">
+                <tr>
+                    <td id="my_table_data">
+                        <b>Video source:</b>
+                    </td>
+                    <td id="my_table_data">
+                        <div style="width: 100%">
+                            <select style="width: 100%; overflow: hidden;" id="videoSource" class="js-example-basic-single"></select>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="my_table_data">
+                        <b>Audio source: </b>
+                    </td>
+                    <td id="my_table_data">
+                        <div style="width: 100%">
+                            <select style="width: 100%;" id="audioSource" class="js-example-basic-single"></select>
+                        </div>
+                    </td>
+                </tr>
+                <tr> 
+                    <td></td>
+                    <td id="my_table_data">
+                        <div id="network_btn_container">
+                            <button type="submit" name="btn" class="btn recbtn" value="back">Back</button>
+                            <button type="submit" name="btn" class="btn recbtn" value="continue">Continue</button> 
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <div id="video_container">
+            <video id="test_video" autoplay></video>
+        </div>
+        <script src="{{ url_for('static',filename='styles/js/video.js') }}"></script>        
+    </div>
+</body>
+{% endblock %}

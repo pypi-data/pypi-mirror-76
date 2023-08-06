@@ -1,0 +1,4 @@
+boto3
+flask
+iso3166
+pyudev

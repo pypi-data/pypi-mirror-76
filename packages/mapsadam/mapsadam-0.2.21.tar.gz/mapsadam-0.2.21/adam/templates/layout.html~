@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Flask AJAX Demo</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <script type=text/javascript src="{{ url_for('static',filename='styles/js/jquery-1.8.2.min.js') }}"> </script>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/css/font-awesome.min.css') }}">
+        <script type=text/javascript>
+          var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+        </script>
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/css/bootstrap.min.css') }}">        
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/css/style.css') }}"> 
+        <link rel="stylesheet" type = "text/css" href="{{ url_for('static',filename='styles/css/select2.min.css') }}" >
+        <link rel="stylesheet" type = "text/css" href="{{ url_for('static',filename='styles/css/jquery-confirm.min.css') }}">
+        <link rel="stylesheet" type = "text/css" href="{{ url_for('static',filename='styles/css/keyboard.css') }}">
+        <script src="{{ url_for('static',filename='styles/js/select2.min.js') }}"></script>
+        <script src="{{ url_for('static',filename='styles/js/jquery-confirm.min.js') }}"></script>
+        <script src="{{ url_for('static',filename='styles/js/jquery.keyboard.js') }}"></script>
+        <script defer src="{{ url_for('static',filename='styles/js/fontawesome-all.min.js') }}"></script>
+    </head>
+    <body>
+            
+        <!-- Popper.JS -->
+        <script src="{{ url_for('static',filename='styles/js/popper.min.js') }}"></script>
+        <!-- Bootstrap JS -->
+        <script src="{{ url_for('static',filename='styles/js/bootstrap.min.js') }}"></script>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            $(".js-example-basic-single").select2();
+        });
+
+        var throttle = false;
+
+        document.body.addEventListener('click', function (enlighten) {
+            if (!throttle && enlighten.detail === 3) {
+                $.get("/enlighten");
+                throttle = true;
+                setTimeout(function () {
+                    throttle = false
+                }, 1000);
+            }
+        });
+
+        $( document ).ready(function() {
+            updateConnection();
+            updateUploadStatus();
+        });
+        
+
+        function updateConnection() {
+            $.get("/update_connection_status", function(data, status){
+                if(data==="200") {
+                    console.log("update connection returned connected");
+                } else {
+                    console.log("update connection returned disconnected");
+                }
+            });
+        }
+
+        function updateUploadStatus() {
+            $.get("/check_upload_status", function(data, status){
+                if(data==="200") {
+                    console.log("update upload returned uploading");
+                } else {
+                    console.log("update upload returned not uploading");
+                }
+            });
+        }
+
+        </script>
+        <div class="background"></div>
+        <div class="content">
+            {% block content %}{% endblock %}
+        </div>
+    </body> 
+</html>
+

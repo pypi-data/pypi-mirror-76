@@ -1,0 +1,53 @@
+{% extends "pin.html" %}
+{% block pin_function %}
+<script>
+jQuery(document).ready(function($) {
+  $(document).ready(function() {
+
+    var entered_pin = "";
+    entered_pin.toString();
+
+    // Jinja code block - Checks for incorrect_pin
+    {% if incorrect_pin %} 
+    $("#fields").addClass("miss");
+    enterCode = "";
+    setTimeout(function() {
+    $("#fields .numberfield").removeClass("active");
+    }, 200);
+    setTimeout(function() {
+    $("#fields").removeClass("miss");
+    }, 500);
+    {% endif %}
+
+    $("#numbers button").click(function() {
+
+      var clicked_number = $(this).text().toString();
+      entered_pin = entered_pin + clicked_number;
+      var pin_length = parseInt(entered_pin.length);
+      pin_length--;
+      $("#fields .numberfield:eq(" + pin_length + ")").addClass("active");
+
+      if (pin_length == 3) {
+
+        // Check the PIN
+        $.get("/setup_pin", {
+            entered_pin: entered_pin
+            },
+            function(data) {
+             window.location.href = "{{ url_for('complete_pin') }}";
+            }
+        );
+      } else {}
+
+    });
+  });
+});
+</script>
+{% endblock %}
+{% block pin_header %}
+<div id="anleitung_configure">
+    <p>
+        <h3><b>Enter a PIN</b></h3>
+    </p>
+</div>
+{% endblock %}

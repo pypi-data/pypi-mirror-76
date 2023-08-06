@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="main welcome">
+    <img class="logo" src="{{ url_for('static', filename='img/logo.png') }}">
+    <h2><b>MPBC</b> | ADAM</h2>
+    <p>Thank you for joining in our mission to develop this space - to facilitate healing with the aid of psychedelics. To get started, continue with configuring your device.</p>
+    <form action="{{ url_for('start_configuration') }}" methods="POST, GET">
+        <button type="submit" class="btn recbtn">Continue</button>
+    </form>
+</div>
+{% endblock %}

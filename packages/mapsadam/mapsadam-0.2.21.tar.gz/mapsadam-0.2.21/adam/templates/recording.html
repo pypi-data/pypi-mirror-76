@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+{% block content %}
+<script src="{{ url_for('static',filename='styles/js/recording-ui.js') }}"></script>
+<body onload="startTime(); upTime(Date())">
+<h1 style="text-align: center;">
+    <div id="recording_circle" style="display: inline">
+        <i class="fa fa-circle" style="color: red; width: 15px; margin-left -15px;" aria-hidden="true"></i>
+    </div>
+    <b style="color:#ecf5ff">RECORDING 
+        <div id="recording_state" style="display: inline">IN PROGRESS</div>
+    </b>
+</h1>
+<div id='elapsed_time' style="margin-top: 20px; text-align: center; padding-left: 5px; color: #ecf5ff">00:00:00</div>
+<div style="margin-top: 180px; width: 50%; left: 25%; right: 25%; color: #ecf5ff; position: fixed">
+    <table style="width: 100%">
+        <tr>
+            <td align="right">
+                <form action="{{ url_for('cancel_recording') }}" methods="GET">
+                    <button type="submit" name="btn" class="btn recbtn" style="border-radius: 50%;" value="cancel">
+                        <i class="fa fa-undo" aria-hidden="true"></i>
+                    </button>
+                </form>
+            </td>
+            <td align="center">
+                <div id="main_stop_button" style="display: inline">
+                    <form action="{{ url_for('stop_recording') }}" methods="GET">
+                        <button type="submit" name="btn" class="btn recbtn" style="border-radius: 50%; width: 60px; height: 60px;" value="stop">
+                            <i class="fa fa-stop" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </div>
+                <div id="resume_button" style="display: none">
+                    <button onclick="resume()" name="btn" class="btn recbtn" style="border-radius: 50%; width: 60px; height: 60px;">
+                        <i class="fa fa-circle" aria-hidden="true" style="color: red"></i>
+                    </button>
+                </div>
+            </td>
+            <td align="left">
+                <div id="pause_button" style="display: inline">
+                    <button onclick="pause()" name="btn" class="btn recbtn" style="border-radius: 50%;">
+                        <i class="fa fa-pause" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div id="aux_stop_button" style="display: none">
+                    <form action="{{ url_for('stop_recording') }}" methods="GET">
+                        <button type="submit" name="btn" class="btn recbtn" style="border-radius: 50%;" value="stop">
+                            <i class="fa fa-stop" aria-hidden="true"></i>
+                        </button>
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+
+{% endblock %}

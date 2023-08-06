@@ -1,0 +1,110 @@
+{% extends "sidebar.html" %}
+{% block main %}
+<script type="text/javascript">
+$(document).ready(function() {
+    $(".js-example-basic-single").select2();
+});
+</script>
+<div class="main">
+    <form action="{{ url_for('start_recording') }}" methods="POST, GET">
+        {% if studies|length > 1 %}
+        <table style="width:70%; margin-left:auto; margin-right:auto; margin-top: -25px">
+            <tr>
+                <td>
+                    <b>Study:</b>
+                </td>
+                <td>
+                    <select name="study" id="study" class="js-example-basic-single" style="width:100%">
+                        {% for s in studies %}
+                            {% if s == study %}
+                                <option value="{{ s }}" selected="selected">{{ s }}</option>
+                            {% else %}
+                                <option value="{{ s }}">{{ s }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                </td>
+            </tr>
+        {% else %}
+        <h1 style="text-align: center; margin-top: -50px; padding-bottom: 40px">
+            <b style="color:#ecf5ff">{{ study }}</b>
+        </h1>
+        <div style="display: none">
+        <select name="study" id="study" class="js-example-basic-single" style="width:100%">
+            <option value="{{ study }}" selected="selected">{{ study }}</option>
+        </select>
+        </div>
+        <table style="width:70%; margin-left:auto; margin-right:auto; margin-top: -25px">
+        {% endif %}
+            <tr>
+                <td style="padding-top: 10px;">
+                    <b>Subject Number:</b>
+                </td>
+                <td style="padding-top: 10px;">
+                    <input type="text" id="participant" name="participant" value="{{ participant }}">
+                    {% if (participant not in participants) %}
+                        <br>
+                        <b style="color: orange; font-size: 10px;"> &#x26a0; Please input a valid Subject Number. (Example: 1601001)</b>
+                    {% endif %}
+                </td>
+            </tr>    
+            <tr>
+                <td style="padding-top: 10px;">
+                    <b>Visit Number:</b>
+                </td>
+                <td style="padding-top: 10px;">
+                    <select id="visit" name="visit" class="js-example-basic-single" style="width:100%">
+                        {% for v in visits %}
+                            {% if v == visit %}
+                                <option value="{{ v }}" selected="selected">{{ v }}</option>
+                            {% else %}
+                                <option value="{{ v }}">{{ v }}</option>
+                            {% endif %}
+                        {% endfor %}
+                    </select>
+                </td>
+            </tr> 
+            <tr> 
+                <td></td>
+                <td style="padding-top: 10px;">
+	                <div style="text-align: right;">
+                        <button type="submit" name="btn" class="btn recbtn" value="start">Start</button>  
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+<script>
+$('#participant')
+	.keyboard({
+		layout: 'international',
+		css: {
+			// input & preview
+			// "label-default" for a darker background
+			// "light" for white text
+			// keyboard container
+			container: 'center-block well',
+			// default state
+			buttonDefault: 'btn btn-default',
+			// hovered button
+			buttonHover: 'btn-primary',
+			// Action keys (e.g. Accept, Cancel, Tab, etc);
+			// this replaces "actionClass" option
+			buttonAction: 'active',
+			// used when disabling the decimal button {dec}
+			// when a decimal exists in the input area
+			buttonDisabled: 'disabled'
+
+		}
+	})
+	.addTyping();
+
+// Script - typing extension
+// simulate typing into the keyboard, use:
+// \t or {t} = tab, \b or {b} = backspace, \r or \n or {e} = enter
+// added {l} = caret left, {r} = caret right & {d} = delete
+
+</script>
+
+{% endblock %}

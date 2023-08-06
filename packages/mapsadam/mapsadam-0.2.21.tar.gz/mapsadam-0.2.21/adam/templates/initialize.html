@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<style type="text/css">
+@keyframes blink {50% { color: transparent }}
+.loader__dot { animation: 3s blink infinite }
+.loader__dot:nth-child(2) { animation-delay: 250ms }
+.loader__dot:nth-child(3) { animation-delay: 500ms }
+</style>
+<script>
+    function waitForConfirmation()
+    {
+        setTimeout(function(){
+            window.location.href = "{{ url_for('confirm_recording') }}"; 
+        }, 200);
+        
+    }
+</script>
+<body onload="waitForConfirmation()">
+    <div style="color: white; text-align: center;">
+        <h1> <b style="color:#ecf5ff">INITIALIZING RECORDING</b></h1>
+        <div class="loader" style="color: #9dcfff; font-size: 96px; margin-top: 10%;"><span class="loader__dot">.</span><span class="loader__dot">.</span><span class="loader__dot">.</span></div>
+</body>
+
+{% endblock %}

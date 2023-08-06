@@ -1,0 +1,123 @@
+{% extends "sidebar.html" %}
+{% block main %}
+
+<div id="help_container">
+    <div class="row d-flex justify-content-center">
+        {% if index == 0 %}
+            <!--Overview-->
+            <img src="/static/img/touch_screen.png" id="help_image"> 
+        {% elif index == 1 %}
+            <!--Connections-->
+            <img src="/static/img/ports.png" id="help_image_large">
+        {% elif index == 2 %}
+            <!--Network-->
+        {% elif index == 3 %}
+            <!--Authentication-->
+            <img src="/static/img/usb.png" id="help_image">
+        {% elif index == 4 %}
+            <!--Record-->
+        {% elif index == 5 %}
+            <!--Upload-->
+        {% else %}
+        {% endif %}
+    </div>
+    <p id="help_text">
+        {% if index == 0 %}
+            <!--Overview-->
+            <b>Overview:</b>
+            <br/>
+            Welcome to the ADAM help overview. Please thoroughly read
+            the user manual before your first use.  
+            <br/>
+            To contact the MAPS PBC video department email video@mapsbcorp.com or call us at +1 831-777-2627.
+        {% elif index == 1 %}
+            <!--Connections-->
+        {% elif index == 2 %}
+            <!--Network-->
+            <b>Networking:</b>
+            <br/>
+            An internet connection is required for ADAM to function fully. If internet is temporarily unavailable then you may start a recording but
+            please notify the video department before the next scheduled session.
+            <br/>
+            You may connect your ADAM device to the internet via either Ethernet or WiFi. To connect via Ethernet simply connect a LAN cable from your
+            router.
+            <br/>
+            To connect via WiFi, use the "Network" page in the settings menu. <!--If your network is not
+            displayed, use the  <i class="fa fa-refresh fa-lg fa-fw"></i> symbol to refresh.--> After entering your password, be sure to click "Accept" 
+            on the keyboard, then press "Save".
+            <br/>
+            The <i class="fa fa-wifi fa-lg fa-fw"></i> symbol in the top right of the screen refreshes on each page load to indicate connectivity.
+        {% elif index == 3 %}
+            <!--Authentication-->
+            <b>Authentication:</b>
+            <br/>
+            Therapist authentication details are stored on a personalized USB drive. The USB drive should be connected in order to first access the device.
+            Once the pin has been entered, the USB can then be removed for recording.
+        {% elif index == 4 %}
+            <!--Record-->
+            <b>Recording:</b> 
+            <br/>
+            Before starting a recording use the "Equipment Setup" menu to check the equipment and camera views. If using two cameras, then angle one to face 
+            the participant and one to face the therapists.
+            <br/>
+            If the ADAM display 
+            is distracting during a session, 
+            a rapid triple tap can be used to toggle screen dimming but take care not to accidentily stop, pause, or restart the recording.
+            <br/>
+            Leave your device plugged in after stopping a recording so that the automatic upload has time to process.
+        {% elif index == 5 %}
+            <!--Upload-->
+            <b>Uploads:</b>
+            <br/>
+            The <i class="fa fa-upload fa-lg fa-fw"></i> symbol will display in the top right of the screen to indicate an upload is in progress. Please
+            do not disconnect the power supply while uploads are active. The icon is refreshed on each page load so to check the upload status, click on 
+            any link. If the <i class="fa fa-upload fa-lg fa-fw"></i> symbol remains displayed then an upload is still in progress.
+            <br/>
+            It is normal for logs to be uploaded on ADAM startup. The upload state does not affect your ability to record.
+            <br/>
+            Once the upload completes your ADAM device may be turned off by simply disconnecting the power supply.
+        {% else %}
+        {% endif %}
+    </p>
+    <div id="help_button_container">
+        <button id="exitBtn" class="btn recbtn" value="exit" onclick="selectExit()">Exit</button>
+        <button id="backBtn" class="btn recbtn" value="back" onclick="selectBack()">Back</button>
+        <button id="nextBtn" class="btn recbtn" value="continue" onclick="selectNext()">Next</button>  
+    </div>
+</div>
+<script>
+    //var index = 0;
+    const index = {{ index | tojson }};
+    var addresses = [
+        "/help_config_submenu?btn=overview",
+        "/help_config_submenu?btn=connections",
+        "/help_config_submenu?btn=network",
+        "/help_config_submenu?btn=auth",
+        "/help_config_submenu?btn=record",
+        "/help_config_submenu?btn=upload"
+    ]
+    if(index == 0) {
+        document.getElementById("backBtn").disabled = true;
+        document.getElementById("nextBtn").disabled = false;
+    } else if (index == 5) {
+        document.getElementById("backBtn").disabled = false;
+        document.getElementById("nextBtn").disabled = true;
+    } else {
+        document.getElementById("backBtn").disabled = false;
+        document.getElementById("nextBtn").disabled = false;
+    }
+    function selectNext() {
+        if(index != 5) {
+            window.location.href = addresses[index+1];
+        }
+    }
+    function selectBack() {
+        if(index != 0) {
+            window.location.href = addresses[index-1];
+        }
+    }
+    function selectExit() {
+        window.location.href = "/home";
+    }
+</script>
+{% endblock %}

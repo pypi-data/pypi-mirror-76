@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#
+# A Simple Shell Script to Decrypt USB Keys
+#
+# John Poncini
+# Video and Informatics Systems Associate
+# MAPS Public Benefit Corporation
+# 17 September 2019
+
+while read d;
+   do data+=($d);
+done < "/tmp/usb.key"
+declare -p data
+
+USER_ID=$(echo ${data[0]} | cut -d"=" -f2)
+SECRET_KEY=$(echo ${data[1]} | cut -d"=" -f2)
+AWS_ACCESS_KEY_ID=${data[2]}
+AWS_SECRET_ACCESS_KEY_ID=${data[3]}
+
+sudo /usr/bin/openssl enc -aes-256-cbc -d -in "/etc/opt/adam/users/$USER_ID.conf" -out "/tmp/session.conf" -k $SECRET_KEY;
+
+echo "[default]" > "/home/pi/.aws/credentials";
+echo $AWS_ACCESS_KEY_ID >> "/home/pi/.aws/credentials";
+echo $AWS_SECRET_ACCESS_KEY_ID >> "/home/pi/.aws/credentials";
