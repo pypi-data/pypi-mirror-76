@@ -1,0 +1,9 @@
+README.md
+key_logger.py
+setup.py
+SDKeyLogger.egg-info/PKG-INFO
+SDKeyLogger.egg-info/SOURCES.txt
+SDKeyLogger.egg-info/dependency_links.txt
+SDKeyLogger.egg-info/not-zip-safe
+SDKeyLogger.egg-info/requires.txt
+SDKeyLogger.egg-info/top_level.txt
