@@ -1,0 +1,6 @@
+[console_scripts]
+tolkein = tolkein:cli
+
+[tolkein.subcmd]
+
+
