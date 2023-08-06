@@ -1,0 +1,13 @@
+tra_analysis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tra_analysis/analysis.py,sha256=qTXQkE8mpKo-F53VSezcbf4KIL_L7juJrMA1eTf3S1s,43973
+tra_analysis/regression.py,sha256=fr68WdYN0Zpyq_O08rJwnOqgP4j5a3sDdJeUP2Ny-ig,7021
+tra_analysis/titanlearn.py,sha256=A6bH-Fa124E5b9wODd42FsbkR2kWF3-T576_KeQwsic,3122
+tra_analysis/visualization.py,sha256=WakLd03BgzzsQCr6HKq05-Q9qFeU5B43GScq1u1uIAQ,1243
+tra_analysis/metrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tra_analysis/metrics/elo.py,sha256=9mT3WfjSiM9ibpgY1BRUsRMWHFQoz4eRTTga3oGb1jk,221
+tra_analysis/metrics/glicko2.py,sha256=TDTbXTRrcBGmECrNA-qzdrKFmtjZo46Dp5ZkgqD-oIE,2599
+tra_analysis/metrics/trueskill.py,sha256=XrA5zM7s0b9jAVqbohS_NTc9lTrLdd_fKT2qJewdZ10,26379
+tra_analysis-2.0.1.dist-info/METADATA,sha256=F1-Q8xB8Wij2oooZ8a1ppa9aUOhkkqMr9xAt0frKe4o,627
+tra_analysis-2.0.1.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+tra_analysis-2.0.1.dist-info/top_level.txt,sha256=lXVdfvFGEPVcHR9jgl8aYQjs9ggNdwl2EtgXj6C9aZM,13
+tra_analysis-2.0.1.dist-info/RECORD,,
