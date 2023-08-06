@@ -1,0 +1,9 @@
+README.md
+setup.py
+ziggof1broadcasts/__init__.py
+ziggof1broadcasts.egg-info/PKG-INFO
+ziggof1broadcasts.egg-info/SOURCES.txt
+ziggof1broadcasts.egg-info/dependency_links.txt
+ziggof1broadcasts.egg-info/not-zip-safe
+ziggof1broadcasts.egg-info/requires.txt
+ziggof1broadcasts.egg-info/top_level.txt
