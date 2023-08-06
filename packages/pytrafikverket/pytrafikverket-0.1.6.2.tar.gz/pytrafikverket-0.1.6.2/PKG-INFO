@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pytrafikverket
+Version: 0.1.6.2
+Summary: Retreive values from public API at trafikverket in sweden.
+Home-page: https://github.com/endor-force/pytrafikverket
+Author: Peter Andersson, Jonas Karlsson
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
