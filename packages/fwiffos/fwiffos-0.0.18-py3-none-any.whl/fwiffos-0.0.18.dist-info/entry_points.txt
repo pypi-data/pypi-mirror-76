@@ -1,0 +1,3 @@
+[console_scripts]
+fwiffish=fwiffos.cli.__main__:main
+
