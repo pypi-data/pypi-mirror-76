@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+downloads3key/__init__.py
+downloads3key/__main__.py
+downloads3key/cli.py
+downloads3key.egg-info/PKG-INFO
+downloads3key.egg-info/SOURCES.txt
+downloads3key.egg-info/dependency_links.txt
+downloads3key.egg-info/entry_points.txt
+downloads3key.egg-info/requires.txt
+downloads3key.egg-info/top_level.txt

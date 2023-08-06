@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: downloads3key
+Version: 2.7.0
+Summary: Utility to download all s3 versions of s3 key.
+Home-page: UNKNOWN
+Author: Chandan Mahajan
+Author-email: mahajan.chandan18@gmail.com
+License: MIT
+Description: 
+        ##	Description
+        
+        Utility to download all version of s3 file. 
+        
+        ##	Usage  
+        ```shell
+        pip install downloads3key
+        downloads3key -b "{{s3  bucket  name}}" -k "{{s3  key}}"
+        ```
+        
+        Parameters:
+        ```
+        -b : S3 bucket name.
+        -k : S3 key.
+        ```
+        
+        ##  Sample
+        ```shell
+        downloads3key -b dev-static.dlgamer.com -k assets/117/69/packshots/super_street_fighter_4_arcade.gif
+        ```
+Keywords: aws s3,download s3 key versions
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
