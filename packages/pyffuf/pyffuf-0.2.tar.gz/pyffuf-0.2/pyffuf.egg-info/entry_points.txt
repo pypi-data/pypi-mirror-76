@@ -1,0 +1,3 @@
+[console_scripts]
+pyffuf = pyffuf.main:main
+

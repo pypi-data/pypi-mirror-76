@@ -1,0 +1,6 @@
+aiohttp
+argparse
+asyncio
+beautifulsoup4
+clint
+datetime
