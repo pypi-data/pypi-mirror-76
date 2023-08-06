@@ -1,0 +1,108 @@
+Metadata-Version: 2.1
+Name: python-iotbot
+Version: 2.3.2
+Summary: IOTBOT SDK with python!
+Home-page: https://github.com/XiyaoWong/python-iotbot
+Author: wongxy
+Author-email: xiyao.wong@foxmail.com
+License: MIT
+Description: # python-iotbot
+        
+        ```
+        IOTBOT sync SDK with Python
+        ```
+        
+        ## Install
+        
+        ```shell
+        pip install git+https://github.com/xiyaowong/python-iotbot.git@master
+        ```
+        
+        ## Quick Start
+        
+        ```python
+        from iotbot import IOTBOT, GroupMsg
+        
+        bot = IOTBOT(your_bot_qq)
+        
+        
+        @bot.on_group_msg
+        def group(ctx: GroupMsg):
+            print(f"""
+        {ctx.FromNickName}在{ctx.MsgTime}的时候，发了一个类型是{ctx.MsgType}的消息，内容为：
+        {ctx.Content}""")
+            print(ctx.CurrentQQ)
+        
+        
+        bot.run()
+        ```
+        
+        [documentation](https://python-iotbot.readthedocs.io/en/latest/ "documentation")
+        
+        ## LICENSE
+        
+        MIT
+        
+        ## CHANGELOG
+        
+        ### 0.2.3 - 2020-05-15
+        
+        1. 更多action
+        
+        2. 每个action除默认参数外，还可设置:
+        	- `api_path` `default=/v1/LuaApiCaller`
+        	- `iot_timeout`  `default=self.timeout=10` IOTBOT端处理允许等待的时间
+            - `bot_qq`  `default=self.qq` 机器人QQ号
+        
+        ### 1.0.0 - 2020-05-28
+        
+        #### 大改动
+        1. 插件化
+        2. 效率更高，不漏消息
+        3. 更多快捷方法
+        4. 更多自定义参数
+        
+        ### 1.1.0 - 2020-06-19
+        1. 无需重启即可更新插件，正常调用`refresh_plugins`方法即可
+        2. 改了下刷新插件后的显示信息
+        3. 增加刷新key二次登陆Action
+        4. 改善了生成模板
+        
+        ### 2.0.0
+        1. 支持队列发送
+        2. 支持中间件，可用于传递配置
+        3. 优化数据解析，提供解析更详细的函数
+        4. ...
+        
+        ### 2.1.0
+        1. 增加webhook功能，方便做远程服务
+        2. 废弃环境变量的配置方式，使用`.iotbot.json`进行配置
+        3. sugar发送图片函数增加文字参数
+        
+        ### 2.2.0
+        1. 优化插件管理
+        
+        ### 2.2.1
+        1. 优化中间件的处理
+        3. 好友白名单改为好友黑名单
+        2. 配置文件增加群、好友黑名单配置项
+        3. Action增加部分方法
+        
+        ### 2.3.1
+        1. 使用第三方库替代原来手动配置的logger，日志不那么粗糙了
+        2. 移除Action中的设置日志参数
+        
+        ### 2.3.2
+        1. windows上编码错误
+Keywords: iotbot,iotbot sdk,iotqq
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
