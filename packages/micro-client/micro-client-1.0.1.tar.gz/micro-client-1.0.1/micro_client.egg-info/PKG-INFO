@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: micro-client
+Version: 1.0.1
+Summary: Python 3 resolver for go-micro grpc services.
+Home-page: https://github.com/zhuleixiao6666/python-micro_client
+Author: zhuleixiao
+Author-email: zhuleixiao666@gmail.com
+License: UNKNOWN
+Description: mico-client
+        ===========
+        
+        Python 3 resolver for `go-micro <https://github.com/micro/go-micro>`__
+        grpc services.
+        
+        Installation
+        ------------
+        
+        .. code:: shell
+        
+                pip install micro-client
+        
+        Compiling
+        ~~~~~~~~~
+        
+        Make sure you have `the needed protobuf and
+        plugins <https://github.com/micro/go-micro#install-protobuf>`__.
+        
+        **Notes**: \* Make sure you have the python package *grpcio-tools*
+        installed!
+        
+        .. code:: shell
+        
+                PATH=$PATH:$GOBIN_PATH protoc -I=$SOURCE_OF_MICRO_PROJECT --proto_path=$GOPATH/src:. --python_out=plugins=micro,grpc:. $PATH_TO_PROTO_FILE
+                python -m grpc_tools.protoc -I=$SOURCE_OF_MICRO_PROJECT --python_out=. --grpc_python_out=. $PATH_TO_PROTO_FILE
+        
+        Etcd
+        ~~~~
+        
+        .. code:: python
+        
+                from micro_client.registry import EtcdRegistry, EtcdClient
+                from micro_client.common import Services
+                
+                etcd_client = EtcdClient(host='localhost', port=2379)
+                prefix = "/micro/registry/"
+                s = Services(EtcdRegistry(etcd_client, prefix))
+        
+        Consul
+        ~~~~~~
+        
+        .. code:: python
+        
+                import requests
+        
+                from micro_client.registry.consulregistry import Registry
+                from micro_client.common import Services
+        
+                s = Services('http://127.0.0.1:8500/v1', session=requests.Session()))
+        
+        Use it!
+        ~~~~~~~
+        
+        .. code:: python
+        
+                # Import the stub and grpc structures for use
+                from some_pb2_grpc import SomeStub
+                from some_pb2 import Input, Structures
+                
+                # Get the stub
+                stub = s.insecure('base_user_cf', SomeStub)
+                # Call it
+                result = stub.SomeCall(Input(Data=1), Structures(Some="data", ID=1))
+        
+                # 如果 连接无法使用, reset stub
+                stub = s.insecure('base_user_cf', SomeStub)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Provides-Extra: doc
+Provides-Extra: qa
