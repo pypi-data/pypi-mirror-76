@@ -1,0 +1,3 @@
+[console_scripts]
+lammps-interface = lammps_interface.cli:main
+
