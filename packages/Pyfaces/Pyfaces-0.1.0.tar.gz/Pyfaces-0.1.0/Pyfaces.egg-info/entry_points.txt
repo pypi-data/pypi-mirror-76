@@ -1,0 +1,4 @@
+[console_scripts]
+pyfaces = pyfaces.cli:main
+pyfacesd = pyfaces.server:main
+
