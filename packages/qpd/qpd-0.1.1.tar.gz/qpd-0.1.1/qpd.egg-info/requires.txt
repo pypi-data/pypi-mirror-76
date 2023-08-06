@@ -1,0 +1,5 @@
+pandas>=1.0.2
+triad
+adagio
+sqlalchemy
+antlr4-python3-runtime
