@@ -1,0 +1,8 @@
+README.rst
+setup.cfg
+setup.py
+stupidrealbash
+stupidrealbash.egg-info/PKG-INFO
+stupidrealbash.egg-info/SOURCES.txt
+stupidrealbash.egg-info/dependency_links.txt
+stupidrealbash.egg-info/top_level.txt
