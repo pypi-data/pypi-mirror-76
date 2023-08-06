@@ -1,0 +1,73 @@
+start: specification
+days: MON
+	| TUE
+	| WED
+	| THU
+	| FRI
+	| SAT
+	| SUN
+
+_separated{x, sep}: x (sep x)*
+
+// Weekday section
+weekday_range: days ".." days
+allowed_weekdays: days
+	| weekday_range
+weekday_section: _separated{allowed_weekdays, ","}
+
+// Date section
+year_section: _separated{YEAR, ","}
+	| WILDCARD
+month_section: _separated{MONTH, ","}
+	| WILDCARD
+day_section: _separated{DAY, ","}
+	| WILDCARD
+date_section: year_section "-" month_section "-" day_section
+
+// Time section
+hour_section: _separated{HOUR, ","}
+	| WILDCARD
+minute_section: _separated{MINUTE, ","}
+	| WILDCARD
+second_section: _separated{SECOND, ","}
+	| WILDCARD
+time_section: hour_section ":" minute_section ":" second_section
+
+// Specification
+specification: weekday_section? date_section? time_section?
+
+// Terminals
+MON: "mon"
+	| "Mon"
+	| "monday"
+TUE: "tue"
+	| "Tue"
+	| "tuesday"
+WED: "wed"
+	| "Wed"
+	| "wednesday"
+THU: "thu"
+	| "Thu"
+	| "thursday"
+FRI: "fri"
+	| "Fri"
+	| "friday"
+SAT: "sat"
+	| "Sat"
+	| "saturday"
+SUN: "sun"
+	| "Sun"
+	| "sunday"
+
+YEAR: NUMBER ~ 4
+MONTH: NUMBER ~ 2
+DAY: NUMBER ~ 2
+HOUR: NUMBER ~ 2
+MINUTE: NUMBER ~ 2
+SECOND: NUMBER ~ 2
+
+WILDCARD: "*"
+
+
+%import common (WS, NUMBER)
+%ignore WS
