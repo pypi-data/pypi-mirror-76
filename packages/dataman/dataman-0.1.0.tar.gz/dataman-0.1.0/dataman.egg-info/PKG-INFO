@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: dataman
+Version: 0.1.0
+Summary: Json & Yaml file parse tools.
+Home-page: https://github.com/zencore-cn/zencore-issues
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Description: # dataman
+        
+        Json & Yaml file parse tools.
+        
+        ## Install
+        
+        ```shell
+        pip install fastutils
+        ```
+        
+        ## Installed Utils
+        
+        - json
+           - get
+        - yaml
+           - get
+        
+        ## Bug report
+        
+        Please report any issues at https://github.com/zencore-cn/zencore-issues.
+        
+        ## Releases
+        
+        
+        ### v0.1.0 2020/08/13
+        
+        - First release.
+        - Add json.get and yaml.get tools.
+        - Output unquote support.
+        
+Keywords: dataman,json,yaml
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown

@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+dataman.py
+requirements.txt
+setup.py
+dataman.egg-info/PKG-INFO
+dataman.egg-info/SOURCES.txt
+dataman.egg-info/dependency_links.txt
+dataman.egg-info/entry_points.txt
+dataman.egg-info/requires.txt
+dataman.egg-info/top_level.txt
