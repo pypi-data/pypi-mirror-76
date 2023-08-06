@@ -1,0 +1,8 @@
+README.md
+setup.py
+zipcreator/__init__.py
+zipcreator/list_zip.py
+zipcreator.egg-info/PKG-INFO
+zipcreator.egg-info/SOURCES.txt
+zipcreator.egg-info/dependency_links.txt
+zipcreator.egg-info/top_level.txt
