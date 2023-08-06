@@ -1,0 +1,8 @@
+jinja2
+click
+
+[testing]
+coverage
+pytest-cov
+pytest-timeout
+pytest
