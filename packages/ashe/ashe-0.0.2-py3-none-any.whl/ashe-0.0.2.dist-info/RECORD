@@ -1,0 +1,15 @@
+ashe/__init__.py,sha256=eabosU2EOzVinYHBlGpfWUSUQY9ppewB_NldmYG8IWA,239
+ashe/op_dict.py,sha256=dWxZ3Ugr6ABcbgdDQT4MS2khExIw_0aiLzOf8ksIEgs,231
+ashe/op_str.py,sha256=vfMVfPxH8jZyWQHnGAHgZ5urqAVnG52ufjwSBBhGinM,138
+ashe/op_sys.py,sha256=fcF_l3JYIsBr9Vr-ibrBDqjf3-5sQrjPcCJolrISLn0,76
+ashe/version.py,sha256=6fpCPNjINWo0zGmpAgQpb4Bk-p8CTS3crc41f5DbP2c,18
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/op_dict_test.py,sha256=PclYIuHnTaqfqgSzFAg8eOrmjofbvAKSkJzqprEWWMg,488
+test/op_str_test.py,sha256=25sS9vsmo0nc3s98dMnUqcZ_NDxWhJms_Q4Ylim3AOY,437
+test/op_sys_test.py,sha256=sgIlDuJLXHOL0NHyiF2tk_XXpAZgiDkN5B2THZfZNIY,301
+ashe-0.0.2.dist-info/LICENSE,sha256=DBZAK6xNPrXUVR-Ar-HaGfuxZKzKymlErwGExoFFPto,1062
+ashe-0.0.2.dist-info/METADATA,sha256=Q7XjVE0-_9jL5zmBB8jOKz25QPUQ9GWFz9dn-hYtrc4,740
+ashe-0.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+ashe-0.0.2.dist-info/top_level.txt,sha256=X-W98N381nDhtHKAjhH8zRZLSQCBQJUJlvB4I42x_LU,10
+ashe-0.0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+ashe-0.0.2.dist-info/RECORD,,
