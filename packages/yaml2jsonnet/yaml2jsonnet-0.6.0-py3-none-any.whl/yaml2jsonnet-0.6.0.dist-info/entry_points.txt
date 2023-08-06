@@ -1,0 +1,3 @@
+[console_scripts]
+yaml2jsonnet=yaml2jsonnet
+
