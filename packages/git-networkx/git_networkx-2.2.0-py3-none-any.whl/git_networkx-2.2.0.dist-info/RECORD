@@ -1,0 +1,9 @@
+git_networkx/__init__.py,sha256=4FF29L2CnRp6nHRBE5mI9-vDpKBf-HDZRuvTml0tH_U,131
+git_networkx/git_functions.py,sha256=I0lVUn62Fouv5qKOVroboFLHU_9zq--pzW-9plgpQIk,2435
+git_networkx/git_graph_class.py,sha256=7PQTK3Wgp9MmeUJ6tYyvylPerAruX9EJlDqsed6Gy4k,3200
+git_networkx/git_networkx.py,sha256=jg9enk7ELmexkxmXtxHKmAOMCTubqfcYxbNxphoLL8M,5286
+git_networkx/git_node.py,sha256=i6rfqTzsYvRttcAlp5sQgZGb6K4be1p-3r6wAxB0azI,801
+git_networkx-2.2.0.dist-info/LICENSE.txt,sha256=Aat8wLUnr-ln8-NpEzzqyjmftylMv0wLh9Q686wCSQU,1077
+git_networkx-2.2.0.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+git_networkx-2.2.0.dist-info/METADATA,sha256=_LzvFRsEgCboGmcOUxTsyJ763kS1Ydlz0I6t2gSAE0A,3389
+git_networkx-2.2.0.dist-info/RECORD,,
