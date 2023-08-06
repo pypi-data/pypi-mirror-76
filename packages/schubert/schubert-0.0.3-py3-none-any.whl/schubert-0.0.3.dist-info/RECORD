@@ -1,0 +1,9 @@
+sample/__init__.py,sha256=eJUhUcyOxh8swfmDZgrUugpBVnbIWSkbZxcmwT5GmDw,111
+sample/simple.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+schubert/__init__.py,sha256=_KjjjJXbwT41X6GuZ35B_YRxZu-VR5VE51ZEa1KiJuc,27
+schubert/simple.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+schubert-0.0.3.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+schubert-0.0.3.dist-info/METADATA,sha256=_UH_-47OXDyvXobE6PRBcP5MmZ3HF-3wlVCP9OCMXCI,1211
+schubert-0.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+schubert-0.0.3.dist-info/top_level.txt,sha256=1EOPa2vp9aOiDYLp9WxxgeMhApjK0pMIMBoEegRYbzA,9
+schubert-0.0.3.dist-info/RECORD,,
