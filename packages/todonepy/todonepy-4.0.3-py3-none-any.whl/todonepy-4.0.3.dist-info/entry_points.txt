@@ -1,0 +1,3 @@
+[console_scripts]
+to=__init__:to
+
