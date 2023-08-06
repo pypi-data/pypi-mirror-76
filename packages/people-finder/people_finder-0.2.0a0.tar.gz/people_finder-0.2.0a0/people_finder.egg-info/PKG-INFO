@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: people-finder
+Version: 0.2.0a0
+Summary: A tool to recognize people in images
+Home-page: https://github.com/derogab/people-finder
+Author: derogab
+Author-email: derosagabriele@outlook.it
+License: MIT
+Description: # people-finder
+        A tool to easy recognize people in images.
+        
+        ### Install
+        ```
+        pip install people-finder
+        ```
+        
+        ### Usage
+        ```python
+        from people_finder import Recognition
+        
+        # Init
+        r = Recognition()
+        
+        # Insert recognizable people
+        p1 = 'P1'
+        p2 = 'P2'
+        r.insert_recognizable_people([p1, p2], known_people_path = 'path/to/known/people')
+        
+        # Train the dataset
+        r.train_dataset(train_folder_path = 'path/to/known/people', trained_model_path = "trained_model.clf")
+        
+        # Find people in an image
+        res = r.find_people_in_image('/path/to/image.jpg')
+        print('People found:')
+        for person in res:
+            print(person)
+        ```
+Keywords: people_finder
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
