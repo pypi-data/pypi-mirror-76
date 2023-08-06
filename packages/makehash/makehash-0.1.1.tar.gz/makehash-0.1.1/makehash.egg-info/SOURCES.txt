@@ -1,0 +1,13 @@
+README.md
+setup.py
+makehash/__init__.py
+makehash/__main__.py
+makehash/entry_points_console_scripts.py
+makehash/main.py
+makehash.egg-info/PKG-INFO
+makehash.egg-info/SOURCES.txt
+makehash.egg-info/dependency_links.txt
+makehash.egg-info/entry_points.txt
+makehash.egg-info/not-zip-safe
+makehash.egg-info/requires.txt
+makehash.egg-info/top_level.txt
