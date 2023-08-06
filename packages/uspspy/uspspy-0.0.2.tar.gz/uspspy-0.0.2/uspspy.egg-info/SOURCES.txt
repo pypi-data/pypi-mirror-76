@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+docs/Makefile
+docs/conf.py
+docs/index.rst
+uspspy/__init__.py
+uspspy/constants.py
+uspspy.egg-info/PKG-INFO
+uspspy.egg-info/SOURCES.txt
+uspspy.egg-info/dependency_links.txt
+uspspy.egg-info/top_level.txt
