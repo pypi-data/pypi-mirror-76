@@ -1,0 +1,9 @@
+README.md
+setup.py
+wxtrio/__init__.py
+wxtrio/core.py
+wxtrio.egg-info/PKG-INFO
+wxtrio.egg-info/SOURCES.txt
+wxtrio.egg-info/dependency_links.txt
+wxtrio.egg-info/requires.txt
+wxtrio.egg-info/top_level.txt
