@@ -1,0 +1,6 @@
+-r base.txt
+pytest>=2.6.4
+pytest-cov>=1.6
+unittest2; python_version<'3'
+coverage
+mock; python_version<'3'

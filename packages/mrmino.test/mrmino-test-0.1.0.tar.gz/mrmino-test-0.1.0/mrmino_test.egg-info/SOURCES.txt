@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+mrmino-test/__init__.py
+mrmino-test/interface.py
+mrmino_test.egg-info/PKG-INFO
+mrmino_test.egg-info/SOURCES.txt
+mrmino_test.egg-info/dependency_links.txt
+mrmino_test.egg-info/top_level.txt
+requirements/base.txt
+requirements/test.txt
+test/test_example.py
