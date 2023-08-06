@@ -1,0 +1,11 @@
+cloudwatch_logging/CloudwatchLogging.py,sha256=vQFuGgDgjcVAwGQ65fuQ1sP_L0lJe5o9W7eLampfMSU,2640
+cloudwatch_logging/ContextLogger.py,sha256=JvxgCV8AV0gYm2w-IS_DCUqEZyfRnqT-J9iz-JWCszE,670
+cloudwatch_logging/Filters.py,sha256=914cWu3k2E6kA0sSDFhrjc9f4z0ix7mClZRuG4MBEYw,136
+cloudwatch_logging/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cloudwatch_logging.py,sha256=uG0rOPbLxLqCgedvcdFkQ1ZJK-C4RiJRkXHS1h8M3ac,1542
+cloudwatch_logging-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cloudwatch_logging-0.0.3.dist-info/METADATA,sha256=7jq-9tNh5QCWt89l1qxVvP6GLTSnK0aQ4n91oUUE40E,4064
+cloudwatch_logging-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cloudwatch_logging-0.0.3.dist-info/top_level.txt,sha256=1s_HbVvs3dP4hDQxT5LFqfgMEaJo0Ruk5i6J7LwcSnw,25
+cloudwatch_logging-0.0.3.dist-info/RECORD,,
