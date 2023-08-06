@@ -1,0 +1,10 @@
+setup.py
+asif_alam_distributions/Binomialdistribution.py
+asif_alam_distributions/Gaussiandistribution.py
+asif_alam_distributions/Generaldistribution.py
+asif_alam_distributions/__init__.py
+asif_alam_distributions.egg-info/PKG-INFO
+asif_alam_distributions.egg-info/SOURCES.txt
+asif_alam_distributions.egg-info/dependency_links.txt
+asif_alam_distributions.egg-info/not-zip-safe
+asif_alam_distributions.egg-info/top_level.txt
