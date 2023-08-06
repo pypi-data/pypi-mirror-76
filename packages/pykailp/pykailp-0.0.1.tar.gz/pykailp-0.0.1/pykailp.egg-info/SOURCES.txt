@@ -1,0 +1,10 @@
+README.md
+setup.py
+pykailp/__init__.py
+pykailp/test.py
+pykailp.egg-info/PKG-INFO
+pykailp.egg-info/SOURCES.txt
+pykailp.egg-info/dependency_links.txt
+pykailp.egg-info/top_level.txt
+pykailp/NER/__init__.py
+pykailp/NER/helloner.py
