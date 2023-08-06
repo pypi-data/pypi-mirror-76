@@ -1,0 +1,26 @@
+#!/usr/bin/env python
+
+from setuptools import setup, find_packages
+
+setup(
+    name='ds-format',
+    version='1.0.0',
+    scripts=['bin/ds'],
+    packages=find_packages(),
+    description='Python implementation of a dataset format DS for storing data along with metadata',
+    author='Peter Kuma',
+    author_email='peter@peterkuma.net',
+    keywords=['dataset', 'netcdf', 'hdf', 'json', 'numpy'],
+    url='https://github.com/peterkuma/ds-format',
+    platforms=['any'],
+    install_requires=['netCDF4'],
+    license='MIT',
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Science/Research',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+    ],
+)
