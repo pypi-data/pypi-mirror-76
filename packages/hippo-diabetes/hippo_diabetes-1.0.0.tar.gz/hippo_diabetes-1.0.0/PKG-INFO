@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: hippo_diabetes
+Version: 1.0.0
+Summary: Hippo package
+Home-page: https://github.aetna.com/clinical-product-analytics/hippo/tree/master/src2
+Author: author
+Author-email: author@gmail.com
+License: UNKNOWN
+Description: # Details of this Folder
+        
+        This is where the bulk of the Python code lives that does the modeling. This is what executes in the pipeline after [all of the data is processed](data/interim).
+        
+        Each subfolder here is a separate module serving a specific purpose:
+        
+        | Module Name            | Purpose                                                                |
+        |-------------           |-----------------------                                                 |
+        | [Raven](./raven)       | Getting Data                                                           |
+        | [Egret](./egret)       | Data Cleaning                                                          |
+        | [Otter](./otter)       | Building Care Gaps                                                     |
+        | [Hippo](./hippo)       | Core Model-Building                                                    |
+        | [Moose](./moose)       | Analytics and Outputs                                                  |
+        | [Rhino](./rhino)       | [CPL](https://cpl-json-ui-oci-dev.aetapps-dev.aetna.com/) Integrations |
+        | [Whale](./whale)       | Unit Testing                                                           |
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
