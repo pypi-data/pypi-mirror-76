@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+TODO
+default_config.yml
+setup.py
+usersconfig/__init__.py
+usersconfig/configuration.py
+usersconfig.egg-info/PKG-INFO
+usersconfig.egg-info/SOURCES.txt
+usersconfig.egg-info/dependency_links.txt
+usersconfig.egg-info/top_level.txt
