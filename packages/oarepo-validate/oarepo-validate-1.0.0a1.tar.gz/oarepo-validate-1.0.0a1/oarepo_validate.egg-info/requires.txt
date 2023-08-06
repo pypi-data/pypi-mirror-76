@@ -1,0 +1,4 @@
+invenio_jsonschemas
+invenio_records
+invenio_records_rest
+wrapt>=1.11.2
