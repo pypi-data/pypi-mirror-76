@@ -1,0 +1,5 @@
+pytest
+pytest-cov
+pytest-parallel
+flake8
+black
