@@ -1,0 +1,8 @@
+README.md
+setup.py
+notefight/__init__.py
+notefight.egg-info/PKG-INFO
+notefight.egg-info/SOURCES.txt
+notefight.egg-info/dependency_links.txt
+notefight.egg-info/requires.txt
+notefight.egg-info/top_level.txt
