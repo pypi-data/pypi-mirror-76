@@ -1,0 +1,140 @@
+version: '{branch}-{build}'
+build: off
+environment:
+  global:
+    WITH_COMPILER: 'cmd /E:ON /V:ON /C .\ci\appveyor-with-compiler.cmd'
+    PYPI_PASS:
+      secure: Z/l1zigTZhGlPitWhwiW0Ex9ySRKdLuQphMQKHGkriFdvIKYDpoNH4xUDwj/hcRovQXkqyhVSZi9Yv7HVLPpwfySyJ3s0Q30ErJj1xbdmlgSEt+wQJov/nfINOR7rmNrt0PPvqiTLe0UPb+ZBKC3+yLhtNiPpXNyu0OrHwU1PS0tWvbiW/GoRfMP/c6SssSAenlXSibCRlaLpIooIWyuZdNycJBd+9FfiJ07DJjJB1gHlZSNUsfinXyv
+  matrix:
+    - TOXENV: check
+      PYTHON: C:\Python38
+      PYTHON_HOME: C:\Python38
+      PYTHON_VERSION: '3.8'
+      PYTHON_ARCH: '32'
+    - TOXENV: '2.7-nocover'
+      TOXPYTHON: C:\python27\python.exe
+      WINDOWS_SDK_VERSION: v7.0
+      PYTHON: C:\python27
+      PYTHON_HOME: C:\python27
+      PYTHON_VERSION: '2.7'
+      PYTHON_ARCH: '32'
+    - TOXENV: '2.7-nocover'
+      TOXPYTHON: C:\python27-x64\python.exe
+      WINDOWS_SDK_VERSION: v7.0
+      PYTHON: C:\python27-x64
+      PYTHON_HOME: C:\python27-x64
+      PYTHON_VERSION: '2.7'
+      PYTHON_ARCH: '64'
+    - TOXENV: '3.4-nocover'
+      TOXPYTHON: C:\python34\python.exe
+      WINDOWS_SDK_VERSION: v7.0
+      PYTHON: C:\python34
+      PYTHON_HOME: C:\python34
+      PYTHON_VERSION: '3.4'
+      PYTHON_ARCH: '32'
+    - TOXENV: '3.4-nocover'
+      TOXPYTHON: C:\python34-x64\python.exe
+      WINDOWS_SDK_VERSION: v7.1
+      PYTHON: C:\python34-x64
+      PYTHON_HOME: C:\python34-x64
+      PYTHON_VERSION: '3.4'
+      PYTHON_ARCH: '64'
+    - TOXENV: '3.5-nocover'
+      TOXPYTHON: C:\python35\python.exe
+      PYTHON: C:\python35
+      PYTHON_HOME: C:\python35
+      PYTHON_VERSION: '3.5'
+      PYTHON_ARCH: '32'
+    - TOXENV: '3.5-nocover'
+      TOXPYTHON: C:\python35-x64\python.exe
+      PYTHON: C:\python35-x64
+      PYTHON_HOME: C:\python35-x64
+      PYTHON_VERSION: '3.5'
+      PYTHON_ARCH: '64'
+    - TOXENV: '3.6-nocover'
+      TOXPYTHON: C:\python36\python.exe
+      WINDOWS_SDK_VERSION: v7.0
+      PYTHON: C:\python36
+      PYTHON_HOME: C:\python36
+      PYTHON_VERSION: '3.6'
+      PYTHON_ARCH: '32'
+    - TOXENV: '3.6-nocover'
+      TOXPYTHON: C:\python36-x64\python.exe
+      WINDOWS_SDK_VERSION: v7.1
+      PYTHON: C:\python36-x64
+      PYTHON_HOME: C:\python36-x64
+      PYTHON_VERSION: '3.6'
+      PYTHON_ARCH: '64'
+    - TOXENV: '3.7-nocover'
+      TOXPYTHON: C:\python37\python.exe
+      WINDOWS_SDK_VERSION: v7.0
+      PYTHON: C:\python37
+      PYTHON_HOME: C:\python37
+      PYTHON_VERSION: '3.7'
+      PYTHON_ARCH: '32'
+    - TOXENV: '3.7-nocover'
+      TOXPYTHON: C:\python37-x64\python.exe
+      WINDOWS_SDK_VERSION: v7.1
+      PYTHON: C:\python37-x64
+      PYTHON_HOME: C:\python37-x64
+      PYTHON_VERSION: '3.7'
+      PYTHON_ARCH: '64'
+    - TOXENV: '3.8-nocover'
+      TOXPYTHON: C:\python38\python.exe
+      WINDOWS_SDK_VERSION: v7.0
+      PYTHON: C:\python38
+      PYTHON_HOME: C:\python38
+      PYTHON_VERSION: '3.8'
+      PYTHON_ARCH: '32'
+    - TOXENV: '3.8-nocover'
+      TOXPYTHON: C:\python38-x64\python.exe
+      WINDOWS_SDK_VERSION: v7.1
+      PYTHON: C:\python38-x64
+      PYTHON_HOME: C:\python38-x64
+      PYTHON_VERSION: '3.8'
+      PYTHON_ARCH: '64'
+init:
+  - ps: echo $env:TOXENV
+  - ps: ls C:\Python*
+install:
+  # Search for [ci skip] or [skip ci] and exit if found in full commit message
+  # https://github.com/appveyor/ci/issues/1865#issuecomment-423091750
+  # https://github.com/appveyor/ci/issues/1865
+  - ps: $commit=$env:APPVEYOR_REPO_COMMIT_MESSAGE + $env:APPVEYOR_REPO_COMMIT_MESSAGE_EXTENDED
+  - ps: If ($commit.Contains("[skip ci]") -Or $commit.Contains("[ci skip]")) { Exit-AppVeyorBuild }
+  # from tornado
+  - "SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
+  - python --version
+  - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
+  - "python -m pip install --disable-pip-version-check --user --upgrade pip"
+  - "python -m pip install tox wheel"
+  # check versions
+  - virtualenv --version
+  - easy_install --version
+  - pip --version
+  - tox --version
+test_script:
+  # from tornado
+  - "tox -e %TOXENV%"
+
+after_test:
+  # if tagged commit, build/upload wheel
+  - IF "%TOXENV%"=="check" (python setup.py sdist)
+  - IF "%APPVEYOR_REPO_TAG%"=="true" IF "%TOXENV%"=="check" (
+      python -m pip install cibuildwheel==1.5.5 twine &&
+      python -m cibuildwheel --output-dir dist &&
+      python -m twine upload -u __token__ -p %PYPI_PASS% dist/*
+    )
+
+on_failure:
+  - ps: dir "env:"
+  - ps: get-content .tox\*\log\*
+artifacts:
+  - path: dist\*
+matrix:
+  allow_failures:
+    - TOXENV: 'check'
+    - TOXENV: '3.4-nocover'
+### To enable remote debugging uncomment this:
+#  - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+

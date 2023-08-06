@@ -1,0 +1,82 @@
+version: '{branch}-{build}'
+build: off
+environment:
+  global:
+    WITH_COMPILER: 'cmd /E:ON /V:ON /C .\ci\appveyor-with-compiler.cmd'
+    PYPI_PASS:
+      secure: Z/l1zigTZhGlPitWhwiW0Ex9ySRKdLuQphMQKHGkriFdvIKYDpoNH4xUDwj/hcRovQXkqyhVSZi9Yv7HVLPpwfySyJ3s0Q30ErJj1xbdmlgSEt+wQJov/nfINOR7rmNrt0PPvqiTLe0UPb+ZBKC3+yLhtNiPpXNyu0OrHwU1PS0tWvbiW/GoRfMP/c6SssSAenlXSibCRlaLpIooIWyuZdNycJBd+9FfiJ07DJjJB1gHlZSNUsfinXyv
+  matrix:
+    - TOXENV: check
+      PYTHON: C:\Python38
+      PYTHON_HOME: C:\Python38
+      PYTHON_VERSION: '3.8'
+      PYTHON_ARCH: '32'
+{% for env, config in tox_environments|dictsort %}{% if config.python in ('python2.6', 'python2.7', 'python3.3', 'python3.4', 'python3.5', 'python3.6', 'python3.7', 'python3.8') and not config.cover %}
+    - TOXENV: '{{ env }}{% if config.cover %},codecov{% endif %}'
+      TOXPYTHON: C:\{{ config.python.replace('.', '') }}\python.exe
+      {%- if config.python != 'python3.5' %}
+
+      WINDOWS_SDK_VERSION: v7.{{ '1' if config.python[-1] == '3' else '0' }}
+      {%- endif %}
+
+      PYTHON: C:\{{ config.python.replace('.', '') }}
+      PYTHON_HOME: C:\{{ config.python.replace('.', '') }}
+      PYTHON_VERSION: '{{ config.python[-3:] }}'
+      PYTHON_ARCH: '32'
+    - TOXENV: '{{ env }}{% if config.cover %},codecov{% endif %}'
+      TOXPYTHON: C:\{{ config.python.replace('.', '') }}-x64\python.exe
+      {%- if config.python != 'python3.5' %}
+
+      WINDOWS_SDK_VERSION: v7.{{ '1' if config.python[-3] == '3' else '0' }}
+      {%- endif %}
+
+      PYTHON: C:\{{ config.python.replace('.', '') }}-x64
+      PYTHON_HOME: C:\{{ config.python.replace('.', '') }}-x64
+      PYTHON_VERSION: '{{ config.python[-3:] }}'
+      PYTHON_ARCH: '64'
+{% endif %}{% endfor %}
+init:
+  - ps: echo $env:TOXENV
+  - ps: ls C:\Python*
+install:
+  # Search for [ci skip] or [skip ci] and exit if found in full commit message
+  # https://github.com/appveyor/ci/issues/1865#issuecomment-423091750
+  # https://github.com/appveyor/ci/issues/1865
+  - ps: $commit=$env:APPVEYOR_REPO_COMMIT_MESSAGE + $env:APPVEYOR_REPO_COMMIT_MESSAGE_EXTENDED
+  - ps: If ($commit.Contains("[skip ci]") -Or $commit.Contains("[ci skip]")) { Exit-AppVeyorBuild }
+  # from tornado
+  - "SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
+  - python --version
+  - "python -c \"import struct; print(struct.calcsize('P') * 8)\""
+  - "python -m pip install --disable-pip-version-check --user --upgrade pip"
+  - "python -m pip install tox wheel"
+  # check versions
+  - virtualenv --version
+  - easy_install --version
+  - pip --version
+  - tox --version
+test_script:
+  # from tornado
+  - "tox -e %TOXENV%"
+
+after_test:
+  # if tagged commit, build/upload wheel
+  - IF "%TOXENV%"=="check" (python setup.py sdist)
+  - IF "%APPVEYOR_REPO_TAG%"=="true" IF "%TOXENV%"=="check" (
+      python -m pip install cibuildwheel==1.5.5 twine &&
+      python -m cibuildwheel --output-dir dist &&
+      python -m twine upload -u __token__ -p %PYPI_PASS% dist/*
+    )
+
+on_failure:
+  - ps: dir "env:"
+  - ps: get-content .tox\*\log\*
+artifacts:
+  - path: dist\*
+matrix:
+  allow_failures:
+    - TOXENV: 'check'
+    - TOXENV: '3.4-nocover'
+### To enable remote debugging uncomment this:
+#  - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))
+
