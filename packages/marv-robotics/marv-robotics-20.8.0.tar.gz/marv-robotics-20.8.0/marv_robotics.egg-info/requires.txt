@@ -1,0 +1,9 @@
+marv==20.08.0
+lz4
+matplotlib==3.2.*
+pillow
+pycryptodome
+python-gnupg
+pyyaml
+utm
+marv-ludwig==20.08.0

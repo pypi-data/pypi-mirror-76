@@ -1,0 +1,8 @@
+-r marv.in
+lz4
+matplotlib==3.2.*  # TODO: 3.3 breaks in bundle
+pillow
+pycryptodome
+python-gnupg
+pyyaml
+utm
