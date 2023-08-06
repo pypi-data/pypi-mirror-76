@@ -1,0 +1,6 @@
+{
+    "app_name": "TestApp",
+    "author": "Jakob Lass",
+    "main_module": "MJOLNIRGui/main.py",
+    "version": "0.0.0"
+}
