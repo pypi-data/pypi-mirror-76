@@ -1,0 +1,6 @@
+aiohttp~=3.0
+aioprometheus~=20.0
+dataclasses_json~=0.5
+djenius-base~=1.0
+sortedcontainers~=2.0
+whoosh~=2.0
