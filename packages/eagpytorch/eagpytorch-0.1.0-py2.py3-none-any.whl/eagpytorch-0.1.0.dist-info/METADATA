@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: eagpytorch
+Version: 0.1.0
+Summary: ガウス過程モデルを実行するためのモジュールを作成しました。 GPyTorchをベースにコードを実装しています。
+Home-page: https://github.com/yucho147/GP
+Author: Hirotaka Kato, Naofumi Emoto and Yuya Kaneta
+Author-email: yucho147@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/yucho147/GP
+Keywords: gpytorch,pytorch,gaussian-process
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Provides-Extra: dev
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: wheel ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+
+UNKNOWN
+
+
