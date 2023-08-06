@@ -1,0 +1,15 @@
+sample/__init__.py,sha256=eJUhUcyOxh8swfmDZgrUugpBVnbIWSkbZxcmwT5GmDw,111
+sample/simple.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+schubert/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schubert/simple.py,sha256=jQxgMu2wujV5-EV7SIHDYnIfEhmJAzxyn2XKqYliCB0,43
+schubert/febraban/__init__.py,sha256=OFt1qgPpES-sDpP02IkGKp4E4hXrRD76OoBiy0RtKBA,118
+schubert/febraban/barcode.py,sha256=ZH5k7XX0gajMStXAaAQcmyTyQ9CUPW3Iab3aIzLEcqE,1504
+schubert/itau/__init__.py,sha256=co-PyEP3LPQ979xSELgKIW5RPh33gHEDJ2XjGh21r2U,31
+schubert/itau/dac.py,sha256=w8DDWyHeVtzuG2Fh1Ftke6lRCTF1wOjhAN1SIPL4QCE,1231
+tests/__init__.py,sha256=38pdDhEZk2RiT5kga2DPbhTYeDHdsCXNaEr7HH1-k20,208
+tests/test_simple.py,sha256=pufm61vnnJddy9pt-oerU7iAbsEpewenELwBuoiex2o,417
+schubert-0.0.6.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+schubert-0.0.6.dist-info/METADATA,sha256=lhdlE-OyAdlEQp0tn2Gv_v1RQWkwPdflKomxAXw4Cbs,1603
+schubert-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+schubert-0.0.6.dist-info/top_level.txt,sha256=8Cw75jAyU_IX3Bn3ZSTZgwkFOafURk4NVwfohAg53a8,15
+schubert-0.0.6.dist-info/RECORD,,
