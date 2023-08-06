@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: artify
+Version: 1.0.11
+Summary: Upload to Nexus, Upload files to hooks, Modify version number
+Home-page: https://github.com/stewiejnr
+Author: Stewartium
+Author-email: stewartium1@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# artify
+Upload to Nexus, Upload files to hooks, Modify version number
+
+## Usage - Unix Type system
+# python -m artify --help
+
+
