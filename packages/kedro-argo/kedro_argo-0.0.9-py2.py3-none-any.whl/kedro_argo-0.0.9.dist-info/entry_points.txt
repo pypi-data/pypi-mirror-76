@@ -1,0 +1,6 @@
+[console_scripts]
+kedro-argo = kedro_argo.cli:commands
+
+[kedro.project_commands]
+argo = kedro_argo.cli:commands
+

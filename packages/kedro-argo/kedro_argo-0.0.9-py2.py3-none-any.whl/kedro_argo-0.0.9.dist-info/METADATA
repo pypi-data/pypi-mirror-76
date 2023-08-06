@@ -1,0 +1,185 @@
+Metadata-Version: 2.1
+Name: kedro-argo
+Version: 0.0.9
+Summary: Converting kedro pipelines to argo pipelines.
+Home-page: https://github.com/nraw/kedro-argo
+Author: Andrej Marsic
+Author-email: marsic.andrej@gmail.com
+License: BSD-3-Clause
+Project-URL: Documentation, https://kedro-argo.readthedocs.io/
+Project-URL: Changelog, https://kedro-argo.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/nraw/kedro-argo/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6, <3.8
+Requires-Dist: click (>=7.0.0)
+Requires-Dist: kedro (>=0.15.5)
+
+==========
+Kedro-Argo
+==========
+
+
+
+Converting kedro pipelines to argo pipelines.
+
+.. image:: docs/images/kedro-argo.png
+  :width: 800
+
+* Free software: BSD 3-Clause License
+
+Installation
+============
+
+::
+
+    pip install kedro-argo
+
+You can also install the in-development version with::
+
+    pip install https://github.com/nraw/kedro-argo/archive/master.zip
+
+Requirements
+============
+
+- To be used with Kedro, so it's assumed this package is used with a Kedro project.
+
+- Argo CLI is needed for the deployment step. It's also assumed that Argo is already installed on your kuberentes instance.
+
+- You must specify an image name as a parameter. You can generate the image using Kedro-docker.
+
+- As the workflow will be in Argo, which means every step will run in its own container. Therefore, all datasets should be somehow passed between containers or else the pipeline will fail. This means either all datasets should be saved externally (S3, Azure, etc.) or in a shared folder that your deployment would have access to.
+
+
+Usage
+============
+
+When installed, argo should be visible under your kedro commands, if you're in a kedro project
+::
+
+    kedro
+
+Then you have two options for obtaining the yaml file, namely via Helm or via ytt.
+
+Helm
+----
+
+:: 
+
+   kedro argo IMAGE_NAME
+
+Add this repository to your helm charts:
+::
+
+   helm repo add kedro-argo https://nraw.github.io/kedro-argo-helm/
+
+Then either directly install it by passing the kedro.yaml for input values
+::
+
+   helm install -f templates/kedro.yaml kedro-argo kedro-argo/kedro-argo
+
+Or clone it to your repository and change anything that you would still need:
+::
+
+   helm pull kedro-argo/kedro-argo --untar
+
+
+
+ytt
+---
+
+Get the kedro.yaml file by running
+::
+
+   kedro argo --ytt IMAGE_NAME
+
+
+You can now run:
+::
+
+   ytt -f templates > argo.yaml
+
+or if you prefer in Docker:
+::
+
+   docker run --rm -it --name ytt -v $(pwd)/templates:/templates gerritk/ytt:latest -f /templates > argo.yaml
+
+and finally
+::
+
+   argo submit --watch argo.yaml
+
+Documentation
+=============
+
+
+https://kedro-argo.readthedocs.io/
+
+
+Development
+===========
+
+To run the all tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+
+Changelog
+=========
+
+0.0.8 (2020-04-27)
+------------------
+
+* Changed the ytt option to be a flag
+
+0.0.7 (2020-03-27)
+------------------
+
+* Changed the default templating option to be Helm instead of ytt 
+
+
+0.0.5 (2020-03-08)
+------------------
+
+* Dirty names are now transformed to make less likely that symbols break Argo
+
+0.0.4 (2020-03-07)
+------------------
+
+* Refactoring and initial adaptation
+* Inclusion of tests
+
+0.0.0 (2020-03-07)
+------------------
+
+* First release on PyPI.
+
+
