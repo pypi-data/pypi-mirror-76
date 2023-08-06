@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+../LICENSE
+wallet_sdk/VERSION
+wallet_sdk/__init__.py
+wallet_sdk/setup.py
+wallet_sdk_Noah_Huppert.egg-info/PKG-INFO
+wallet_sdk_Noah_Huppert.egg-info/SOURCES.txt
+wallet_sdk_Noah_Huppert.egg-info/dependency_links.txt
+wallet_sdk_Noah_Huppert.egg-info/requires.txt
+wallet_sdk_Noah_Huppert.egg-info/top_level.txt
