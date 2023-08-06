@@ -1,0 +1,5 @@
+django>=1.11
+
+[testing]
+flake8<4,>=3
+pytest<6,>=4.0.0
