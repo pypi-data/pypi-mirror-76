@@ -1,0 +1,17 @@
+odoo/addons/remove_odoo_enterprise/README.rst,sha256=Vrf3EM1U3Xj46ok6xyzjmA2ahTmHHlaBMzwey36t39g,2861
+odoo/addons/remove_odoo_enterprise/__init__.py,sha256=ZALVu-uOv-gonfnZsoXsqhITJZrv9YUOg4kJH2Mmivg,172
+odoo/addons/remove_odoo_enterprise/__manifest__.py,sha256=WIh2v2qRylCdOtkAf8UffZ9_ODzOWzLGIGDDoDen9IY,561
+odoo/addons/remove_odoo_enterprise/i18n/hr.po,sha256=B-N3ZxO3A0wM90Z6jLSDjGPMEeXJSNn4EM0NZ69zuQc,981
+odoo/addons/remove_odoo_enterprise/i18n/remove_odoo_enterprise.pot,sha256=PPTYEuLwurNN2KKrqnc5Ngdxm4AgU9EbHPWCia09kas,754
+odoo/addons/remove_odoo_enterprise/models/__init__.py,sha256=WwmrWbqn9ll1cPHer2ezjsLTbu_FNxlD5kL4j_xr91o,236
+odoo/addons/remove_odoo_enterprise/models/base.py,sha256=4KO14hoGac-acqg4tSxeJ_qfmRarUBXEN6w-xLJe0BQ,497
+odoo/addons/remove_odoo_enterprise/models/ir_module_module.py,sha256=eGt-nCty16StdjI9m4C11WFNGLL3SgPgk75KCsT2UFs,429
+odoo/addons/remove_odoo_enterprise/models/res_config_settings.py,sha256=Z9krwh7kHkDqKhjOJ6Xq1qquWovcyOaW3nDx2sdGghE,952
+odoo/addons/remove_odoo_enterprise/readme/CONTRIBUTORS.rst,sha256=bub0YtzCkdddRGCedbazVFbYAIOI-sei4JNhEFeLlKM,202
+odoo/addons/remove_odoo_enterprise/readme/DESCRIPTION.rst,sha256=Vvi1X5DguEo_GCDZS3vnE13F-Ck-c6bfILdsReoMBqo,79
+odoo/addons/remove_odoo_enterprise/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/remove_odoo_enterprise/static/description/index.html,sha256=xvRvvfAHlqgA9PPskqL_0bAlqVy0rIZWI8iiLbqhZZo,12342
+odoo13_addon_remove_odoo_enterprise-13.0.1.0.2.dist-info/METADATA,sha256=hMHU77zhKTNMuS7slR7uIEnYW2avOHSuV1vqCte4FM4,3412
+odoo13_addon_remove_odoo_enterprise-13.0.1.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+odoo13_addon_remove_odoo_enterprise-13.0.1.0.2.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo13_addon_remove_odoo_enterprise-13.0.1.0.2.dist-info/RECORD,,
