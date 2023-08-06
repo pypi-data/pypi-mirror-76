@@ -1,0 +1,2 @@
+The bedevere package has a few modules that might have use in mathematics, games, and tabletop RPGs. Try it out, see if this jank code can do anything for you! Feel free to suggest improvements.
+Github: https://github.com/noahgill409/bedevere
