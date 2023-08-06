@@ -1,0 +1,14 @@
+README.md
+setup.py
+swarm_cg.egg-info/PKG-INFO
+swarm_cg.egg-info/SOURCES.txt
+swarm_cg.egg-info/dependency_links.txt
+swarm_cg.egg-info/entry_points.txt
+swarm_cg.egg-info/requires.txt
+swarm_cg.egg-info/top_level.txt
+swarmcg/__init__.py
+swarmcg/analyze_optimization.py
+swarmcg/config.py
+swarmcg/evaluate_model.py
+swarmcg/optimize_model.py
+swarmcg/swarmCG.py
