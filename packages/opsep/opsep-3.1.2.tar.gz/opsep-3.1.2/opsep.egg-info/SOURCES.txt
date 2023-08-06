@@ -1,0 +1,16 @@
+README.md
+setup.py
+opsep/__init__.py
+opsep/main.py
+opsep/opsep.py
+opsep/pyca.py
+opsep/utils.py
+opsep.egg-info/PKG-INFO
+opsep.egg-info/SOURCES.txt
+opsep.egg-info/dependency_links.txt
+opsep.egg-info/requires.txt
+opsep.egg-info/top_level.txt
+tests/__init__.py
+tests/test_client.py
+tests/test_pyca.py
+tests/utils.py
