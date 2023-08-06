@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: python-clint-utilities
+Version: 1.0.3
+Summary: A library of stuff I use a lot.
+Home-page: https://github.com/clintecker/python-clint-utilities
+Author: Clint Ecker
+Author-email: me@clintecker.com
+License: MIT
+Keywords: python
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
+Requires-Dist: python-dateutil
+Requires-Dist: requests
+Provides-Extra: test
+Requires-Dist: responses ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: flake8 (>=3.3.0) ; extra == 'test'
+Requires-Dist: pep8-naming (>=0.4.1) ; extra == 'test'
+Requires-Dist: flake8-quotes (>=0.8.1) ; extra == 'test'
+Requires-Dist: flake8-import-order (>=0.9.0) ; extra == 'test'
+Requires-Dist: Sphinx ; extra == 'test'
+Requires-Dist: wheel ; extra == 'test'
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: isort ; extra == 'test'
+
+A package of utilties i use often!
+
+
