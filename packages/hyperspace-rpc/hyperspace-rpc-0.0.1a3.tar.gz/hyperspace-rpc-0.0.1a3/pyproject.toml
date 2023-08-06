@@ -1,0 +1,49 @@
+[build-system]
+requires = ["poetry>=1.0.9,<2.0"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "hyperspace-rpc"
+version = "0.0.1a3"
+description = "Raw RPC layer for Hyperspace"
+authors = ["decentral1se <hi@decentral1.se>"]
+maintainers = ["decentral1se <hi@decentral1.se>"]
+license = "GPLv3"
+readme = "README.md"
+repository = "https://github.com/hyperpy/hyperspace-rpc"
+keywords = []
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+flake8 = "^3.8.3"
+isort = "^5.0.2"
+hyper-rpc = "^0.0.1-alpha.4"
+
+[tool.black]
+line-length = 80
+target-version = ["py38"]
+include = '\.pyi?$'
+
+[tool.isort]
+include_trailing_comma = true
+known_first_party = "hyperspace_rpc"
+line_length = 80
+multi_line_output = 3
+skip = ".tox"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = format
+isolated_build = True
+
+[testenv]
+
+[testenv:format]
+skipdist = True
+deps = black
+commands = black {posargs:--check} hyperspace_rpc/
+"""

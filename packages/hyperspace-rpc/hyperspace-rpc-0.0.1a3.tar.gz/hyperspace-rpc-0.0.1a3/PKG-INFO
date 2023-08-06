@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: hyperspace-rpc
+Version: 0.0.1a3
+Summary: Raw RPC layer for Hyperspace
+Home-page: https://github.com/hyperpy/hyperspace-rpc
+Author: decentral1se
+Author-email: hi@decentral1.se
+Maintainer: decentral1se
+Maintainer-email: hi@decentral1.se
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/hyperpy/hyperspace-rpc
+Description-Content-Type: text/markdown
+
+# hyperspace-rpc
+
+[![Build Status](https://drone.autonomic.zone/api/badges/hyperpy/hyperspace-rpc/status.svg)](https://drone.autonomic.zone/hyperpy/hyperspace-rpc)
+
+## Raw RPC layer for Hyperspace
+
+## Install
+
+```sh
+$ pip install hyperspace-rpc
+```
+
+## Example
+
+See [hyperpy/hyperspace-client](https://github.com/hyperpy/hyperspace-client).
+
