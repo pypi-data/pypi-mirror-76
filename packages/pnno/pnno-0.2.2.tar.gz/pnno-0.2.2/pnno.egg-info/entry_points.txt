@@ -1,0 +1,3 @@
+[console_scripts]
+pnno = pnno.tools.cli:main
+
