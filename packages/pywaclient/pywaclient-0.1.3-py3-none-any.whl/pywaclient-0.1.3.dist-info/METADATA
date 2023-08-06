@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pywaclient
+Version: 0.1.3
+Summary: A small wrapper library around the World Anvil Aragorn API: https://www.worldanvil.com/api/aragorn/documentation.
+Home-page: https://gitlab.com/SoulLink/world-anvil-api-client
+Author: Jonas Waeber
+Author-email: jonaswaeber@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# World Anvil API Python Client
+
+The World Anvil API provides endpoints to interact with the World Anvil data base.
+
+[API Documentation](https://www.worldanvil.com/api/aragorn/documentation)
+
