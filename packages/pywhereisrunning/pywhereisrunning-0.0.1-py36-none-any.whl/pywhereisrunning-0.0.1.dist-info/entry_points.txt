@@ -1,0 +1,3 @@
+[console_scripts]
+pywhereisrunning = pywhereisrunning.pywhereisrunning:_main
+

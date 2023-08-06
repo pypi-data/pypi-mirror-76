@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: pywhereisrunning
+Version: 0.0.1
+Summary: Where python script is running
+Home-page: https://github.com/atomse/pywhereisrunning
+Author: Sky Zhang
+Author-email: sky.atomse@gmail.com
+Maintainer: Sky Zhang
+Maintainer-email: sky.atomse@gmail.com
+License: MIT License
+Platform: Linux
+Platform: Darwin
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: POSIX
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: ==3.6.*
+Description-Content-Type: text/markdown
+Provides-Extra: curate
+Requires-Dist: graphviz ; extra == 'curate'
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: numpydoc ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: pytest (>=4.0) ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+
+# Pywhereisrunning
+
+
+To see where the python script is running when the script is running.
+
+Basically, it uses SIGUSR1 to send the signal to the python script, the script get the signal and 
+use the frame to display where the script is running.
+
+
+
+
+## Usage
+
+
+Just
+
+```python
+import pywhereisrunning
+```
+to make the function available.
+
+
+when you're run the script, use 
+
+* `kill -SIGUSR1 $(PID)`
+* `pywhereisrunning $(filename)`
+
+to show where the script is running.
+
+After the command, will show
+`main.py func=main line=9:`
+
+
