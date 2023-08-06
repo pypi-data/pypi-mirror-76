@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: yicurd
+Version: 1.0.0
+Summary: db operations
+Home-page: https://github.com/yimian/curd
+License: MIT
+Description: UNKNOWN
+Keywords: db operations
+Platform: UNKNOWN
+Provides-Extra: cassandra
+Provides-Extra: hbase
+Provides-Extra: mysql

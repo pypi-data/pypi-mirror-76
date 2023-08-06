@@ -1,0 +1,9 @@
+
+[cassandra]
+cassandra-driver==3.11.0
+
+[hbase]
+phoenixdb==0.7
+
+[mysql]
+PyMySQL==0.7.11
