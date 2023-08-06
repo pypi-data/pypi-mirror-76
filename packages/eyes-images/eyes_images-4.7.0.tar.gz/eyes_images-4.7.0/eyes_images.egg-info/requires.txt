@@ -1,0 +1,3 @@
+eyes-common==4.7.0
+eyes-core==4.7.0
+Pillow<8,>=5.0.0
