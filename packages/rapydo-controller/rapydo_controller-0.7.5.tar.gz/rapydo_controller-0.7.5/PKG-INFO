@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: rapydo_controller
+Version: 0.7.5
+Summary: Manage and deploy projects based on RAPyDo framework
+Home-page: https://github.com/rapydo
+Author: Paolo D'Onorio De Meo
+Author-email: p.donorio.de.meo@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: http,api,rest,web,backend,rapydo
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6.0
