@@ -1,0 +1,8 @@
+README.md
+setup.py
+logitol/__init__.py
+logitol/get_logger.py
+logitol.egg-info/PKG-INFO
+logitol.egg-info/SOURCES.txt
+logitol.egg-info/dependency_links.txt
+logitol.egg-info/top_level.txt
