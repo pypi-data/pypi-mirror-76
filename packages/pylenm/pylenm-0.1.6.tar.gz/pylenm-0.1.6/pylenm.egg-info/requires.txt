@@ -1,0 +1,11 @@
+markdown
+pandas
+numpy
+seaborn
+matplotlib
+scipy
+datetime
+sklearn
+supersmoother
+ipyleaflet>=0.13.0
+ipywidgets>=7.5.0
