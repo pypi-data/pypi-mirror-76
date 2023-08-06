@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+unimatrix.ext.foo.egg-info/PKG-INFO
+unimatrix.ext.foo.egg-info/SOURCES.txt
+unimatrix.ext.foo.egg-info/dependency_links.txt
+unimatrix.ext.foo.egg-info/requires.txt
+unimatrix.ext.foo.egg-info/top_level.txt
+unimatrix/ext/foo/VERSION
+unimatrix/ext/foo/package.json
