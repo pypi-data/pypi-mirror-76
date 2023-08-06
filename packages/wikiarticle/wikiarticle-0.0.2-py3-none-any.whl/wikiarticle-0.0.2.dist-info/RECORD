@@ -1,0 +1,12 @@
+wikiarticle/__init__.py,sha256=lGr3ItCe9I3WeoPdbqHPBMHxhls3fvjhao1Za2HekKc,198
+wikiarticle/wikiarticle.py,sha256=67O43V6pCPgROl9nU8UAEcTgd9uBNjUBRY92MJrX7g4,2877
+wikiarticle/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wikiarticle/models/text_type.py,sha256=1XKDvfN_m3hC6ap1WbIx8SACui1ntAEibDFz6JU-Rm8,714
+wikiarticle/models/utils.py,sha256=Mb3NVfcqOhIZ-wd0sgiCGEwTfQjyGsp3hhzvcUB-32I,896
+wikiarticle/models/wiki_image.py,sha256=jbHMjfKyCQXu3f5hBLUt9UOeCUd_oSWZOO9VxNItuR0,1595
+wikiarticle/models/wiki_quote.py,sha256=NrOBs_FPIdYcFUbOgeiefnyiYtlZSj7jIHjkv239AF8,1291
+wikiarticle/models/wiki_text.py,sha256=IGEimuobpazAM50jKtKOiluUAi6R7iuo-_LaH3FPBsc,1312
+wikiarticle-0.0.2.dist-info/METADATA,sha256=zIlCwquuYHpgCB8vkcyprXUaHydy_h6l5A-mmWRuQJ0,884
+wikiarticle-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+wikiarticle-0.0.2.dist-info/top_level.txt,sha256=4FZeW4EsAt4Ravf7475_5LWLBgqZLXw9ohXnYo5tsGE,12
+wikiarticle-0.0.2.dist-info/RECORD,,
