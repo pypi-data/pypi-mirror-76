@@ -1,0 +1,28 @@
+{
+  "usage": {
+    "text_units": 1,
+    "text_characters": 49,
+    "features": 2
+  },
+  "relations": [],
+  "language": "de",
+  "entities": [
+    {
+      "type": "QUESTION_MARKER",
+      "text": "Welche",
+      "mentions": [
+        {
+          "text": "Welche",
+          "location": [0, 6],
+          "confidence": 0.999983
+        }
+      ],
+      "disambiguation": {
+        "subtype": ["QUESTION"]
+      },
+      "count": 1,
+      "confidence": 0.999983
+    }
+  ],
+  "analyzed_text": "Welche Handys mit Gwicht von unter 165 g gibt es?"
+}

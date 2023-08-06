@@ -1,0 +1,107 @@
+{
+  "usage": { "text_units": 1, "text_characters": 51, "features": 2 },
+  "relations": [
+    {
+      "type": "specifiesValue",
+      "sentence": "I want a smartphone that weighs no more than 160 g.",
+      "score": 0.935666,
+      "arguments": [
+        {
+          "text": "unter",
+          "location": [32, 44],
+          "entities": [
+            {
+              "type": "OPERATOR",
+              "text": "no more than",
+              "disambiguation": { "subtype": ["LESS"] }
+            }
+          ]
+        },
+        {
+          "text": "160",
+          "location": [45, 48],
+          "entities": [
+            {
+              "type": "VALUE",
+              "text": "160",
+              "disambiguation": { "subtype": ["NONE"] }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "hasUnit",
+      "sentence": "I want a smartphone that weighs no more than 160 g.",
+      "score": 0.920862,
+      "arguments": [
+        {
+          "text": "165",
+          "location": [45, 48],
+          "entities": [
+            {
+              "type": "VALUE",
+              "text": "160",
+              "disambiguation": { "subtype": ["NONE"] }
+            }
+          ]
+        },
+        {
+          "text": "g",
+          "location": [49, 50],
+          "entities": [
+            {
+              "type": "UNIT",
+              "text": "g",
+              "disambiguation": { "subtype": ["WEIGHT"] }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language": "en",
+  "entities": [
+    {
+      "type": "PRODUCT",
+      "text": "smartphone",
+      "mentions": [
+        { "text": "smartphone", "location": [9, 19], "confidence": 0.999737 }
+      ],
+      "disambiguation": { "subtype": ["SMARTPHONE"] },
+      "count": 1,
+      "confidence": 0.999737
+    },
+    {
+      "type": "OPERATOR",
+      "text": "no more than",
+      "mentions": [
+        { "text": "no more than", "location": [32, 44], "confidence": 0.999663 }
+      ],
+      "disambiguation": { "subtype": ["LESS"] },
+      "count": 1,
+      "confidence": 0.999663
+    },
+    {
+      "type": "VALUE",
+      "text": "160",
+      "mentions": [
+        { "text": "160", "location": [45, 48], "confidence": 0.997019 }
+      ],
+      "disambiguation": { "subtype": ["NONE"] },
+      "count": 1,
+      "confidence": 0.997019
+    },
+    {
+      "type": "UNIT",
+      "text": "g",
+      "mentions": [
+        { "text": "g", "location": [49, 50], "confidence": 0.972301 }
+      ],
+      "disambiguation": { "subtype": ["WEIGHT"] },
+      "count": 1,
+      "confidence": 0.972301
+    }
+  ],
+  "analyzed_text": "I want a smartphone that weighs no more than 160 g."
+}
