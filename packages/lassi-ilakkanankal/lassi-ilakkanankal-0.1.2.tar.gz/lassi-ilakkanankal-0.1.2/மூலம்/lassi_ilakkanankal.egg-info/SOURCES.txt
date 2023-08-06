@@ -1,0 +1,11 @@
+README.md
+setup.py
+மூலம்/lassi_ilakkanankal.egg-info/PKG-INFO
+மூலம்/lassi_ilakkanankal.egg-info/SOURCES.txt
+மூலம்/lassi_ilakkanankal.egg-info/dependency_links.txt
+மூலம்/lassi_ilakkanankal.egg-info/requires.txt
+மூலம்/lassi_ilakkanankal.egg-info/top_level.txt
+மூலம்/லஸ்ஸியிலக்கணங்கள்/__init__.py
+மூலம்/லஸ்ஸியிலக்கணங்கள்/நிரல்மொழி.py
+மூலம்/லஸ்ஸியிலக்கணங்கள்/வாடிக்கையாளர்.py
+மூலம்/லஸ்ஸியிலக்கணங்கள்/இலக்கணங்கள்/__init__.py
