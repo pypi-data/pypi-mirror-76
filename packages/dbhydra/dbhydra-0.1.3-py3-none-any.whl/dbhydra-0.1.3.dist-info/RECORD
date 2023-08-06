@@ -1,0 +1,12 @@
+dbhydra/__init__.py,sha256=WKNcKhGX8JCOjAv5IG-TkdZzUHYtJrk383mDhJKxRRo,15616
+dbhydra/dbhydra.py,sha256=WKNcKhGX8JCOjAv5IG-TkdZzUHYtJrk383mDhJKxRRo,15616
+dbhydra/dbhydra_builder.py,sha256=-yMbot_NbxbXNErjS521NPEScasFs1kyMpY4JODZWnc,1674
+dbhydra/dbhydra_liquibase.py,sha256=39Y9g8zBQjbU3WL1u5pL-i598LauZ8VVMBraLU-OZO8,2405
+dbhydra/dbhydra_model.py,sha256=sgY_Nz7dLaVa6EDmJUABxUDFwzJvUqrvMKcz1QGDXzM,757
+dbhydra/dbhydra_mysql_example.py,sha256=lgPZ7to7iSW8Ad6c1pUYLv9R9jA-j6wWV1BqfQBGwUQ,337
+dbhydra/dbhydra_pandas_framework.py,sha256=DJFsXWtwg0EVsyPCJGSAXexrKiS2MkPPaqlsax4qlHI,782
+dbhydra-0.1.3.dist-info/LICENSE,sha256=k49Yga8CP889JJaHlOpGFzr_be2nqMoep2chYeIDctk,1091
+dbhydra-0.1.3.dist-info/METADATA,sha256=01s3nFZGZUapYMEPjChjHQ5Z08cujV5Xq82WwR5Kh-8,934
+dbhydra-0.1.3.dist-info/WHEEL,sha256=sI-vBbJF_F_l-R6JrPzLJ9vhJk6PcAXoAkIfwXdMgLI,97
+dbhydra-0.1.3.dist-info/top_level.txt,sha256=oO4Gf1T8_txIsIlp11GI0k7PtBIMb9GRwb5ObF4MLVg,8
+dbhydra-0.1.3.dist-info/RECORD,,
