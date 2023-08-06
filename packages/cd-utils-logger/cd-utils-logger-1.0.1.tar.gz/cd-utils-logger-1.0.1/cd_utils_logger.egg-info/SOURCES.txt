@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+cd_utils_logger.egg-info/PKG-INFO
+cd_utils_logger.egg-info/SOURCES.txt
+cd_utils_logger.egg-info/dependency_links.txt
+cd_utils_logger.egg-info/requires.txt
+cd_utils_logger.egg-info/top_level.txt
