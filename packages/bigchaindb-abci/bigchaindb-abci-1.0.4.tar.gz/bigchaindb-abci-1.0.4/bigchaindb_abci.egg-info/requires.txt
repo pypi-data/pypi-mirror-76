@@ -1,0 +1,6 @@
+protobuf==3.6.1
+gevent==20.6.2
+colorlog==4.1.0
+pytest==5.3.5
+pytest-pythonpath==0.7.3
+pytest-cov==2.8.1
