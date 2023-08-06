@@ -1,0 +1,3 @@
+[console_scripts]
+list_manager = lists:main
+

@@ -1,0 +1,10 @@
+lists/__init__.py,sha256=Y6Lu9az6vrMF1-327R1-n-C-HABFjkb7bkA22USOG-E,4742
+lists/list_manager.py,sha256=3fsuGg0f0Y6m217wMn_DtvaTBS5Z9xf8WmuZfTAMyUk,2129
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_lists.py,sha256=F1ok_K-U1IK74u0vcyKC8M9fscMPw4oqs4CWdpy0kBM,3817
+list_manager-1.0.0.dist-info/LICENSE,sha256=fXfp8iFXAkMF12FqQMA2zN8QgXZ8svNF_2ybEvAZ1mg,1102
+list_manager-1.0.0.dist-info/METADATA,sha256=AAWG5ZzbLdz2nD2ml-igkCP9uTFbHEGVoFUlXCHwfHI,1640
+list_manager-1.0.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+list_manager-1.0.0.dist-info/entry_points.txt,sha256=6lKAjc3ne3wbHxKNTEd0sn_vaYJYggXzYE4D-s7jOkQ,45
+list_manager-1.0.0.dist-info/top_level.txt,sha256=9JhTBDS0fxkgKmWQFcxVg0KsQaLewAopQmopYiwCVus,12
+list_manager-1.0.0.dist-info/RECORD,,
