@@ -1,0 +1,3 @@
+[console_scripts]
+train=pytorch_adaptive_computation_time.training:main
+
