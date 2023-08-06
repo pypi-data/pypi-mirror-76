@@ -1,0 +1,12 @@
+fch/__init__.py,sha256=FX1uB9A8GQrSIKdyM4MfRyU174ifD40UlsZkjgGR5OM,23
+fch/__main__.py,sha256=SkzUqz5DhxLGKfhP6GleKnkcgeG8EXJxEI0LcT8IpZU,2687
+fch/follower/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fch/follower/followeranalysis.py,sha256=ylge_XGBqf5zJxJl3aHzbOnIY_iIi5K6BQTeE6aFKjs,3539
+fch/follower/followercount.py,sha256=apV1y7geRTHqZYOBkeuWYsJHmDzBetB1WHEVX8Zbzw8,3024
+fch/follower/followerparser.py,sha256=Fzs4UbKYdzzgbJ7LKTH6QJIx6YHNJ6hR-EE-umE23Ts,9551
+fch-1.0.11.dist-info/LICENSE,sha256=Vg86yE88XXWeyzDx4DhjOcWQFR2L-WyhwUQB2X4JBZg,1066
+fch-1.0.11.dist-info/METADATA,sha256=ZnM5lAU0V0dFmoOUFaPwOFBmsm3n2RucnS1e4xS5sgY,8428
+fch-1.0.11.dist-info/WHEEL,sha256=YNlcxLoRZfMqjEfLMA4_N5GPCL0Yw1E8c7zrDjEU0Bk,92
+fch-1.0.11.dist-info/entry_points.txt,sha256=pWBa_1w9ydVZynOb0ZQga-XoSw0ROfRk56yE-KEKJEI,43
+fch-1.0.11.dist-info/top_level.txt,sha256=tB7AJacHMh0b9gucmNMYggmPBFT0xPRZn-hsAwRPdZc,4
+fch-1.0.11.dist-info/RECORD,,
