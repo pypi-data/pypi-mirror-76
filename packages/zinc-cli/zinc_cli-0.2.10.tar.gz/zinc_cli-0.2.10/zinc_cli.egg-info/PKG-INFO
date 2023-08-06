@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: zinc-cli
+Version: 0.2.10
+Summary: Package Description.
+Home-page: https://github.com/krinj
+Author: Jakrin Juangbhanich
+Author-email: juangbhanich.k@gmail.com
+License: UNKNOWN
+Description: # ZINC CLI
+        Welcome to the Zinc CLI.
+        ___
+        ## Features
+        * Blah 1
+        * Blah 2
+        * Blah 3
+        
+        ## Links
+        [Hello](www.google.com)
+        
+        ## Examples
+        ```python
+        print("Hello World")
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
