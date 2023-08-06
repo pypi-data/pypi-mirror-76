@@ -1,0 +1,3 @@
+[console_scripts]
+wostools = wostools.cli:main
+
