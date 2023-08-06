@@ -1,0 +1,3 @@
+[pytest11]
+jupyter_pytest = jupyter_pytest
+
