@@ -1,0 +1,11 @@
+- 27.10.2019: Development start
+- 19.12.2019: Added credstuffer into jenkins ci server
+- 01.01.2019: Updated version to 1.0.1
+- 05.01.2019: Updated version to 1.0.2
+- 08.03.2020: Updated version to 1.0.3
+- 10.03.2020: Updated version to 1.0.4
+- 05.04.2020: Updated version to 1.0.9,  Added database support
+- 25.04.2020: Updated version to 1.0.10, Added multiple try except statements
+- 26.04.2020: Updated version to 1.0.11, Added telegram notification message
+- 04.06.2020: Updated version to 1.0.12, Updated database actions
+- 11.08.2020: Updated version to 1.0.13, Renew proxy if statuscode unequal 400
