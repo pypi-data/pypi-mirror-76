@@ -1,0 +1,8 @@
+sqlpipe/SqlPipeBuilder.py,sha256=i5k7jgaQCaGFvspljb2KLkKsXSdJau-uIYjaG7QC-HA,3276
+sqlpipe/__init__.py,sha256=VvXtfh4qec4hyVNEVFtpCUx7JHQ3Ma2nQZ7UOC6Zd6I,43
+sqlpipe/__main__.py,sha256=qj_rwYGkLzaYvd-XbUfHNZEsDRUm1LKvzM3KFuZCkoQ,889
+sqlpipe-0.2.1.dist-info/LICENSE,sha256=Qth9KBprLmKn5bLKSzhjhnHtGwhTCm892CstOkf1BaE,1072
+sqlpipe-0.2.1.dist-info/METADATA,sha256=pT7vI5mfGj1wU4e1dC6EkKIFdiMsM9aVqBBrHvd-Lto,2409
+sqlpipe-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sqlpipe-0.2.1.dist-info/top_level.txt,sha256=GsEoJabpgWgzWtgN_xpxz96DBfXlEiE1yy2go7TBQ_4,8
+sqlpipe-0.2.1.dist-info/RECORD,,
