@@ -1,0 +1,10 @@
+django-appconf>=1.0.4
+django>=3.0
+pytz
+responses>=0.10.16
+six
+
+[testing]
+mock
+pytest
+pytest-django
