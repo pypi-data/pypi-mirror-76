@@ -1,0 +1,8 @@
+README.md
+setup.py
+iftpy/__init__.py
+iftpy.egg-info/PKG-INFO
+iftpy.egg-info/SOURCES.txt
+iftpy.egg-info/dependency_links.txt
+iftpy.egg-info/requires.txt
+iftpy.egg-info/top_level.txt
