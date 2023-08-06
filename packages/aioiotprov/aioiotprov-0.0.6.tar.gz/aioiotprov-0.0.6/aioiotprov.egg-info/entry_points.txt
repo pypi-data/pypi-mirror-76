@@ -1,0 +1,3 @@
+[console_scripts]
+aioiotprov = aioiotprov.__main__:main
+
