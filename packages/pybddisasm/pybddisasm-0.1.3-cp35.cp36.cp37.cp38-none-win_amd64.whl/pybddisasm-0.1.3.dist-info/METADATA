@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pybddisasm
+Version: 0.1.3
+Summary: The Bitdefender disassembler Python wrapper
+Home-page: https://github.com/bitdefender/bddisasm
+Author: Bitdefender
+License: Apache Software License
+Requires-Dist: setuptools
+
+# The Bitdefender disassembler Python wrapper
+
+
