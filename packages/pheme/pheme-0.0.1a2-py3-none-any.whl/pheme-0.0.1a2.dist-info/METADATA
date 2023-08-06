@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: pheme
+Version: 0.0.1a2
+Summary: report-generation-service
+License: AGPL-3.0-or-later
+Author: Greenbone Networks GmbH
+Author-email: info@greenbone.net
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Server
+Requires-Dist: coreapi (>=2.3.3,<3.0.0)
+Requires-Dist: django (>=3.1,<4.0)
+Requires-Dist: djangorestframework (>=3.11.1,<4.0.0)
+Requires-Dist: djangorestframework-dataclasses (>=0.6,<0.7)
+Requires-Dist: pdfkit (>=0.6.1,<0.7.0)
+Requires-Dist: pylint-django (>=2.3.0,<3.0.0)
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
+Requires-Dist: uritemplate (>=3.0.1,<4.0.0)
+Requires-Dist: xmltodict (>=0.12.0,<0.13.0)
+Description-Content-Type: text/markdown
+
+![Greenbone Logo](https://www.greenbone.net/wp-content/uploads/gb_logo_resilience_horizontal.png)
+
+# Pheme - Greenbone Static Report Generator <!-- omit in toc -->
+
+**pheme** is a service to create scan reports. It is maintained by [Greenbone Networks].
+
+[Pheme](https://en.wikipedia.org/wiki/Pheme) is the personification of fame and renown.
+
+Or in this case personification of a service to generate reports.
+
+## Table of Contents <!-- omit in toc -->
+
+- [Installation](#installation)
+  - [Requirements](#requirements)
+- [Development](#development)
+- [Maintainer](#maintainer)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+### Requirements
+
+Python 3.7 and later is supported.
+
+## Development
+
+**pheme** uses [poetry] for its own dependency management and build
+process.
+
+First install poetry via pip
+
+    python3 -m pip install --user poetry
+
+Afterwards run
+
+    poetry install
+
+in the checkout directory of **pheme** (the directory containing the
+`pyproject.toml` file) to install all dependencies including the packages only
+required for development.
+
+Afterwards activate the git hooks for auto-formatting and linting via
+[autohooks].
+
+    poetry run autohooks activate
+
+Validate the activated git hooks by running
+
+    poetry run autohooks check
+
+## API overview
+
+To get an overview of the API you can start this project
+
+```
+python manage.py runserver
+```
+
+and then go to [swagger](http://localhost:8000/docs/)
+
+
+## Maintainer
+
+This project is maintained by [Greenbone Networks GmbH][Greenbone Networks]
+
+## Contributing
+
+Your contributions are highly appreciated. Please
+[create a pull request](https://github.com/greenbone/pheme/pulls)
+on GitHub. Bigger changes need to be discussed with the development team via the
+[issues section at GitHub](https://github.com/greenbone/pheme/issues)
+first.
+
+## License
+
+Copyright (C) 2020 [Greenbone Networks GmbH][Greenbone Networks]
+
+Licensed under the [GNU General Public License v3.0 or later](LICENSE).
+
+[Greenbone Networks]: https://www.greenbone.net/
+[poetry]: https://python-poetry.org/
+[autohooks]: https://github.com/greenbone/autohooks
+
