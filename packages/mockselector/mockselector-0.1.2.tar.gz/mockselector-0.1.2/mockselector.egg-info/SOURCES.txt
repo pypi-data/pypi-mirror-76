@@ -1,0 +1,16 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+mockselector/__init__.py
+mockselector/selector.py
+mockselector/version.py
+mockselector.egg-info/PKG-INFO
+mockselector.egg-info/SOURCES.txt
+mockselector.egg-info/dependency_links.txt
+mockselector.egg-info/top_level.txt
+tests/__init__.py
+tests/miniserv.py
+tests/test_miniserv.py
+tests/test_selector.py
+tests/test_sock.py
