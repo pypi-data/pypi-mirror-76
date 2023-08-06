@@ -1,0 +1,8 @@
+setup.py
+sencrypt/sencrypt.py
+sencrypt.egg-info/PKG-INFO
+sencrypt.egg-info/SOURCES.txt
+sencrypt.egg-info/dependency_links.txt
+sencrypt.egg-info/entry_points.txt
+sencrypt.egg-info/requires.txt
+sencrypt.egg-info/top_level.txt
