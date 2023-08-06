@@ -1,0 +1,17 @@
+src/Ui_window.py,sha256=Y_VtJghrC9g66Atw_3rnnPnXmFnF5x-QaykYvEn9B7c,7408
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/config.py,sha256=5o_kVVc1ZYuUe6Sm1RzWajVj2j7_X-HQ6RMECWxi9O0,6447
+src/globals.py,sha256=H-OJVk_ZiJRG2aO5ch1QrCFhW_qTAQgXU_pOc2O5F3c,1586
+src/log.py,sha256=e6FdK2eTyU2oUxNPHdZJkbLlindvkzxtPpUBGfw39_M,2958
+src/main.py,sha256=qxqkboeOwCdHbJTH37NyBRIgNJbzi1T_mRFSsdmS8Qg,20124
+src/tftp/__init__.py,sha256=3BJzuIQVUY2g-z5bo_Ocbeh3dCC45SKV8uAO4l_jNJo,44
+src/tftp/packet.py,sha256=zG5_fCexRhu8-ekjsqv8q28JFijHG7WU1JryDVJaR2Q,9100
+src/tftp/server.py,sha256=BJu1ibEH2LA1RQ2hgTB7N5URB8PvDxp1GXoV9x3qB_w,12543
+usr/share/applications/HolyTFTP.desktop,sha256=s05547PrCHraa6ulbykaiIf0FnvswG5M0sfqDOj__LA,113
+usr/share/pixmaps/HolyTFTP.png,sha256=7eO_NOwvXLB7VHVn56VhcCSIFiYlkcYfiagSWJ93R2o,3291
+HolyTFTP-0.1.2.dist-info/LICENSE,sha256=6n0EnHcF3BOvwgLdGOGCfzSE-CEv0_p7gvxKDDY0Msk,7816
+HolyTFTP-0.1.2.dist-info/METADATA,sha256=bJXNpVh39Jzig_uEfyGJdE5WF2edAfDUtX8eNabXM1o,777
+HolyTFTP-0.1.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+HolyTFTP-0.1.2.dist-info/entry_points.txt,sha256=l58HJ8chbxEi_syylNSXcjDmz1zNdKGk5yIZsm2tJPc,44
+HolyTFTP-0.1.2.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+HolyTFTP-0.1.2.dist-info/RECORD,,
