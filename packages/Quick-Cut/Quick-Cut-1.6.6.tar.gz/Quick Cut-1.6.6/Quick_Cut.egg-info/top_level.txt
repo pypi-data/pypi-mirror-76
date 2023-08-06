@@ -1,0 +1,3 @@
+QuickCut
+QuickCut/languages
+QuickCut/misc
