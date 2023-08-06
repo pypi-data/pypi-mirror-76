@@ -1,0 +1,16 @@
+prenlp/__init__.py,sha256=UdNtD5sjE5f5DYgYHRFf5mcgGakwTB5qLdj3oid2NaM,129
+prenlp/data/__init__.py,sha256=Gvra1sCilJ_VAK9rjVzhBpV5-oUwpl9dXisNH-qeIBM,69
+prenlp/data/normalizer.py,sha256=JIjQ5zyaqj8gcqC3DnB9k_-maX0Bu3v-XH05RRjJZrk,92381
+prenlp/data/utils.py,sha256=BmQdQz0MIrrZUWShBb126_b6KWPf8nJuugHA-NCz5Uw,2129
+prenlp/data/dataset/__init__.py,sha256=K1Sf0Yz4tUPRsmVCMdMPRxL7h8HzsxBl7sueMIi2GVA,78
+prenlp/data/dataset/base.py,sha256=6uM_T2MnNtvmagmBM85T9rFsm0UschArpnwkEPjLuQ4,825
+prenlp/data/dataset/language_modeling.py,sha256=pGru0tnBNYjA0SHFZmQBpoqPjnBAQJ7AAxLUB67U7eo,13148
+prenlp/data/dataset/sentiment.py,sha256=d9qQ1UwPfjz4QI7bLe2KfltMr2wlweD6rbm1SDCJZ0k,7302
+prenlp/tokenizer/__init__.py,sha256=Kz4r76XkwcbA2t9UCuSkqnej-7tmIFz1fqi6rhREDSI,25
+prenlp/tokenizer/tokenizer.py,sha256=pnUtnuV3kCFUO3MFT4agDCxMxdUmTo3Wc2VFcayotK4,6962
+prenlp/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prenlp-0.0.13.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+prenlp-0.0.13.dist-info/METADATA,sha256=fBwSm5fqiQk714sZzo23rtbalZTwU8J4QapuXymD4CY,6688
+prenlp-0.0.13.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+prenlp-0.0.13.dist-info/top_level.txt,sha256=ROALmkklBwwnaLgE7pLGBxlHc03o3MJL1hypkZCJo_I,7
+prenlp-0.0.13.dist-info/RECORD,,
