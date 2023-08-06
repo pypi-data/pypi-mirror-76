@@ -1,0 +1,2 @@
+btc_hd_wallet
+btc_hd_wallet/bip39_wordlist
