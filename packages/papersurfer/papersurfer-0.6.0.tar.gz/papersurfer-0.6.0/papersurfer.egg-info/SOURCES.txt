@@ -1,0 +1,9 @@
+README.md
+setup.py
+papersurfer/papersurfer.py
+papersurfer.egg-info/PKG-INFO
+papersurfer.egg-info/SOURCES.txt
+papersurfer.egg-info/dependency_links.txt
+papersurfer.egg-info/entry_points.txt
+papersurfer.egg-info/requires.txt
+papersurfer.egg-info/top_level.txt
