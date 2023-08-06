@@ -1,0 +1,11 @@
+sap/__init__.py,sha256=gIP-klo3Lc7jJHPpnWGyp55R106F0gY2EZPgBXQSamw,10041
+sap/__main__.py,sha256=KVJbjjqHMRy_OO_AoF3jK92QxjZmbZ3yNjwM3dHsLOY,64
+sap/cli.py,sha256=V0oQ3tv0ZmZgFRFsbj91cdzccx1bpVvJ4HLhseuftNI,5137
+sap/widget.py,sha256=iLUE6rRHxlyY1zEMtLgTau5Rn-6HI0647KSZj5BkroQ,3569
+python_sap-1.0.0.dist-info/AUTHORS.md,sha256=Yea5FJI5czo2c7iuWu4dRdKx-W6D-cPKjPOPluL4_TI,230
+python_sap-1.0.0.dist-info/LICENSE,sha256=Lv7PXX0JAKhMlXClxDRaE1hYZ3M9ydItuswI8H9udZE,1072
+python_sap-1.0.0.dist-info/METADATA,sha256=oWBfdsUbKnifTtw4xS1QIL0OwLVj9aRYzzB9RIglhWM,2852
+python_sap-1.0.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+python_sap-1.0.0.dist-info/entry_points.txt,sha256=hZONvq2I6VLRv_HMCB8t_9EQ6MV_qTqPpZfOakGn09k,38
+python_sap-1.0.0.dist-info/top_level.txt,sha256=MnaK1kw5Vp7_F6iiT_kvTlnbZZnDg2-DZzyEjv3kzn4,4
+python_sap-1.0.0.dist-info/RECORD,,
