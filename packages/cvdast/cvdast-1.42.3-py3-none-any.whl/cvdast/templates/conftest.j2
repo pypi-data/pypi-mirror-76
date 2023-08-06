@@ -1,0 +1,215 @@
+
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+import json
+import pytest
+import requests
+import random
+import os
+#from pytest_cases import fixture_plus
+
+
+def _merge_nested_dict(a, b, path=None, update=True):
+    if path is None:
+        path = []
+    for key in b:
+        if key in a:
+            if isinstance(a[key], dict) and isinstance(b[key], dict):
+                _merge_nested_dict(a[key], b[key], path + [str(key)])
+            elif a[key] == b[key]:
+                pass  # same leaf value
+            elif isinstance(a[key], list) and isinstance(b[key], list):
+                for idx, val in enumerate(b[key]):
+                    a[key][idx] = _merge_nested_dict(
+                        a[key][idx], b[key][idx], path + [str(key), str(idx)], update=update)
+            elif update:
+                a[key] = b[key]
+            else:
+                raise Exception('Conflict at %s' % '.'.join(path + [str(key)]))
+        else:
+            a[key] = b[key]
+    return a
+
+
+def _get_all_values(nested_dictionary, all_keys={}):
+    for key, value in nested_dictionary.items():
+        if isinstance(value, dict):
+            _get_all_values(value, all_keys)
+        else:
+            all_keys[key] = value
+            #print(key, ":", value)
+    return all_keys
+
+
+def get_params_from_file(param, api_name=None):
+    if not api_name:
+        if os.environ.get('PYTEST_CURRENT_TEST'):
+            api_name = os.environ.get('PYTEST_CURRENT_TEST').split(':')[0].split('/')[-1].replace("test","").replace(".py","").replace("_","/")
+    input_params = {}
+    with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "params_captured.json")) as fobj:
+        params = json.load(fobj)
+    if os.path.exists(os.path.join(os.path.dirname(
+            os.path.abspath(__file__)), "input_params.json")):
+        with open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "input_params.json")) as fobj:
+            input_params = json.load(fobj)
+        params = _merge_nested_dict(params, input_params)
+        # params.update(input_params)
+    keys_from_input_params = _get_all_values(input_params)
+    max_length = 1
+    keys_to_delete = []
+    for k, v in keys_from_input_params.items():
+        if isinstance(v, list):
+            if len(v) > max_length:
+                max_length = len(v)
+        else:
+            keys_to_delete.append(k)
+    for _ in keys_to_delete:
+        del keys_from_input_params[_]
+    generic_values = []
+    if param in params:
+        if isinstance(params[param], list):
+            generic_values = random.choice(params[param])
+        else:
+            generic_values = params[param]
+            if not isinstance(generic_values, list):
+                generic_values = [generic_values]
+
+    for api, params_info in params.items():
+        if not isinstance(params_info, dict):
+            continue
+        if api_name:
+            if str(api).strip() not in str(api_name).strip():
+                continue
+        if param in params_info:
+            values = params[api][param]
+            if values:
+                if isinstance(values, list):
+                    if None in values:
+                        values.remove(None)
+                    if param in keys_from_input_params and len(
+                            values) <= max_length:
+                        return values
+                    else:
+                        return [random.choice(values)]
+                else:
+                    return [values]
+
+    if generic_values:
+        if isinstance(generic_values, list):
+            return [random.choice(generic_values)]
+        else:
+            return [generic_values]
+    else:
+        return []
+
+def pytest_addoption(parser):
+    #parser.addoption("--host", action="store", default="")
+    parser.addoption("--url_prefix", action="store", default="")
+
+    parser.addoption("--host", action="store", default="")
+
+    parser.addoption("--jwt_token", action="store", default="")
+
+
+#@pytest.fixture(scope="session", autouse=True)
+#def host(pytestconfig):
+#    return pytestconfig.getoption("host")
+
+@pytest.fixture(scope="session", autouse=True)
+def url_prefix(pytestconfig):
+    return pytestconfig.getoption("url_prefix")
+
+{% for input in AUTH_INPUTS %}
+@pytest.fixture(scope="session", autouse=True)
+def {{ input }}(pytestconfig):
+    return pytestconfig.getoption("{{ input }}")
+{% endfor %}
+
+
+@pytest.fixture(scope="session", autouse=True)
+def update_headers(request):
+    def _mask(*args, **kwargs):
+        headers = kwargs["headers"]
+        to_delete = []
+        for k, v in headers.items():
+            res = get_params_from_file(k,kwargs.get("api"))
+            if res:
+                if res == "<delete>":
+                    to_delete.append(k)
+                else:
+                    headers[k] = res
+        for _ in to_delete:
+            del headers[_]
+        return headers
+    return _mask
+
+@pytest.fixture(scope="session", autouse=True)
+def jwt_token(pytestconfig):
+    value = pytestconfig.getoption("jwt_token")
+    if os.path.exists(value):
+        with open(value,"r") as fobj:
+            jwt_token = fobj.read().replace("\n","")
+    else:
+        jwt_token = value
+    return jwt_token
+
+{% if AUTH_API %}
+@pytest.fixture(scope="session", autouse=True)
+def access_token({{ AUTH_INPUTS | join(", ") }}):
+    resp = requests.post(host+"{{ AUTH_API }}",
+                    headers={ {% for k, v in AUTH_API_HEADERS.items() %}{% if v in AUTH_INPUTS %}'{{ k }}':{{ v }}{% else %}'{{ k }}':'{{ v }}'{% endif %},{% endfor %} },
+                    data=json.dumps({{ AUTH_API_PAYLOAD }}))
+    if resp.status_code == 200:
+        os.environ["CVDAST_ACCESS_TOKEN"] = "{{ TOKEN_PREFIX }} "+str(resp.json()["{{ AUTH_RESP_KEY }}"])
+        return "{{ TOKEN_PREFIX }} "+ str(resp.json()["{{ AUTH_RESP_KEY }}"])
+    else:
+        print("AUTHENTICATION is not successful, please check the creds!")
+        raise SystemExit
+{% endif %}
+
+@pytest.fixture(scope="session", autouse=True)
+def update_headers(request):
+    def _mask(*args, **kwargs):
+        headers = kwargs["headers"]
+        to_delete = []
+        for k, v in headers.items():
+            output = get_params_from_file(k,kwargs.get("api"))
+            res = None
+            if type(output) is list:
+                if output:
+                    res = output[0]
+            else:
+                res = output
+            if res:
+                if res == "<delete>":
+                    to_delete.append(k)
+                else:
+                    headers[k] = res
+        for _ in to_delete:
+            del headers[_]
+        return headers
+    return _mask
+
+
+{% set params_covered = [] %}{%- for api,params in api_info.items() %}{% for param,values in params.items() %}{% if param not in params_covered %}
+@pytest.fixture(params=get_params_from_file("{{ param }}"))
+#@pytest.fixture(scope="module", scope="module", autouse=True)
+def {{ param }}({% if param in nested_params %}{{ nested_params[param] | unique | join(", ")}}{% else %}request{% endif %}):
+    {% if param in api_detailed_info %}
+    return {{ api_detailed_info[param] | replace("'$","") | replace("$'","") }}
+    {% else %}
+    #return get_params_from_file("{{ param }}")
+    return request.param
+    {% endif %}
+{% set params_covered = params_covered.append(param) %}
+{% endif %}{% endfor %}{% endfor -%}
+
+{% set params_nested = [] %}
+{% for param in more_params %}
+@pytest.fixture(params=get_params_from_file("{{ param }}"))
+#@pytest.fixture(scope="module", autouse=True)
+def {{ param }}(request):
+    #return get_params_from_file("{{ param }}")
+    return request.param
+{% endfor %}
