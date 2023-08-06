@@ -1,0 +1,17 @@
+meteofrance/__init__.py,sha256=1pxvE6V4YWX7Dhw__wtrXy3Y291TPouJRcbF42oYmWQ,48
+meteofrance/__main__.py,sha256=bbBeWjoLDxCZmh3MktgZwjUMRzt3isdJgsOj8b4MH6Y,51
+meteofrance/client.py,sha256=6htsG_Hu_rfA2V9Q6L0pFSp_EgrTp_NsjzK9MOc8gio,7060
+meteofrance/const.py,sha256=64uOj7BSrso8vZ_45dZydBWIGAdWGah9sgbbk38J7uc,2527
+meteofrance/exceptions.py,sha256=4nE93nmxYNRLV2GIRI0rVvd1cTeoggz9k439Zk3AMMQ,142
+meteofrance/helpers.py,sha256=ILf0uGcPINjG9S_gkdIFvnZLP0Ba7D8I0UXYlN5upmc,4098
+meteofrance/model/__init__.py,sha256=nYx1UUkQ_pjTN4V1lT3O899hGQw9AJDZy90Fwgm2CQY,312
+meteofrance/model/forecast.py,sha256=zhbdT9lHd4AzTabeL3X3DrmkSVYlzqzIX85D_uVVjvA,3402
+meteofrance/model/picture_of_the_day.py,sha256=7scVEUztV1ZTPwASxK9F-Q9ouERrdK-j_vHNHSWO5M4,1193
+meteofrance/model/place.py,sha256=GcVhbDgrg5UToEygypDRRUb3j6cdUjSsD_gJuu8GOXk,2730
+meteofrance/model/rain.py,sha256=r9RYqKCD50AbfTSdHQefRAi4dMbrfuH0nszilVVLyhU,2524
+meteofrance/model/warning.py,sha256=NI7Jm_2OjyzfUzZ1Vgp9iAPOgvCTCMjPbx2eYGTU96c,4865
+meteofrance/session.py,sha256=OdJftqAFUcpLSevlQMfpftIPgbYuVgAyU1Cps7nclIk,1673
+meteofrance_api-0.1.1.dist-info/LICENSE,sha256=Wq1du5L_NvMd9T_sWYeHLQpTg-AjK3rIpH8ll7xvigI,1100
+meteofrance_api-0.1.1.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+meteofrance_api-0.1.1.dist-info/METADATA,sha256=EA9fEoDatouTULaUPu0AmoPFwVMIibrkHCDzthyzo9A,4759
+meteofrance_api-0.1.1.dist-info/RECORD,,
