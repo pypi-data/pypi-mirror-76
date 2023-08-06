@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.cfg
+setup.py
+translate
+dragotrans/__init__.py
+dragotrans/client.py
+dragotrans/constants.py
+dragotrans/gtoken.py
+dragotrans/models.py
+dragotrans/urls.py
+dragotrans/utils.py
+dragotrans.egg-info/PKG-INFO
+dragotrans.egg-info/SOURCES.txt
+dragotrans.egg-info/dependency_links.txt
+dragotrans.egg-info/requires.txt
+dragotrans.egg-info/top_level.txt

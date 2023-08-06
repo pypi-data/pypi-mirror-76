@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: dragotrans
+Version: 3.0.0
+Summary: Free Google Translate API for Python. Translates totally free of charge.
+Home-page: https://github.com/sumitkhamar22/dragotrans
+Author: Emerger
+Author-email: sumitkhamar22@gmail.com
+License: MIT
+Download-URL: https://github.com/sumitkhamar22/dragotrans/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: google translate translator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Freeware
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Topic :: Education
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
