@@ -1,0 +1,15 @@
+dustbunny/__init__.py,sha256=l7H_VctTnSgNUPrYdoYnFs3vVeU_7cAu39Cj4wHuVqA,67
+dustbunny/generate.py,sha256=7FDrgvgNg59veCiQgifkXRu3Agr-S0IZtlGZma1UFK4,6776
+dustbunny/perms.py,sha256=0wuHdIkeqOfNQWvRNCQwBHlxCU69rNxEObOm4qcgRME,1799
+dustbunny/hyp/__init__.py,sha256=7F9pWckYpJ8JitECGdtwgArArtTUyYg5oFB_Z6V16cc,24
+dustbunny/hyp/strategies.py,sha256=sJCGrPKTmYwc8tLpVYZmneIYicbh5slwblB81d8KnyI,4608
+dustbunny/hyp/assets/adjectives.txt,sha256=Up5yvtccbRdB6UL7UWHrOj7Ri0cIyaGlbPWwyaFHOgY,12114
+dustbunny/hyp/assets/animals.txt,sha256=Zjj-uwcmknSVmshCOfFZYkEOsJ2TJePmMCMKE6TlVcs,2840
+dustbunny/hyp/assets/first_names.txt,sha256=3U-4xz1TFlgcxeAumVdtq5AZvsI3dbGslm93R8OWCtg,12190
+dustbunny/hyp/assets/last_names.txt,sha256=kw6yOG19tVwMTWmY4dAnudaGqExjcpFz0rFjz7cfel0,34557
+dustbunny/sqla/__init__.py,sha256=kUwkosxtTmW3AbVOBmwQuYZ9UNHB3DJfZmgoaS0EHq0,1753
+dustbunny-1.3.2.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+dustbunny-1.3.2.dist-info/METADATA,sha256=6Yufda91sle4fY-Ige1JvM6oNqzNnF2eIGoZW7J75SE,904
+dustbunny-1.3.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+dustbunny-1.3.2.dist-info/top_level.txt,sha256=-U5627m0C_HZbOMyyMT4EPFfAwR4tkrrCPgPHZLhK-8,10
+dustbunny-1.3.2.dist-info/RECORD,,
