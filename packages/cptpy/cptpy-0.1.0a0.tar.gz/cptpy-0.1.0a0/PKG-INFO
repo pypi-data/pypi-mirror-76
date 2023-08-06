@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: cptpy
+Version: 0.1.0a0
+Summary: A Python package for processing Cone Penetration Test (CPT) data.
+Home-page: https://github.com/jpvantassel/cptpy
+Author: Joseph P. Vantassel
+Author-email: joseph.p.vantassel@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/jpvantassel/cptpy/issues
+Project-URL: Source, https://github.com/jpvantassel/cptpy
+Description: # cptpy
+        
+        > Joseph P. Vantassel
+        
+        ## About `cptpy`
+        
+        `cptpy` is a Python package for processing cone penetration test (CPT) data. The
+        package is still in the __alpha stage__ meaning you as a user _should_ expect
+        bugs and API changes, of course feedback is greatly appreciated. With that said
+        the packages includes two primary class definitions `CPT` and `CPTu` for
+        standard CPT and CPT plus pore water pressure readings, respectively.
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6, <3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev

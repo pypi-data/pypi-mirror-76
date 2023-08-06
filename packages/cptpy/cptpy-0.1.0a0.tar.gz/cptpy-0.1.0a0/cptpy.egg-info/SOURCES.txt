@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+cptpy/__init__.py
+cptpy/cpt.py
+cptpy/cptu.py
+cptpy.egg-info/PKG-INFO
+cptpy.egg-info/SOURCES.txt
+cptpy.egg-info/dependency_links.txt
+cptpy.egg-info/requires.txt
+cptpy.egg-info/top_level.txt
