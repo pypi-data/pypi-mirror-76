@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+easy_cloudrun/__init__.py
+easy_cloudrun/utils.py
+easy_cloudrun.egg-info/PKG-INFO
+easy_cloudrun.egg-info/SOURCES.txt
+easy_cloudrun.egg-info/dependency_links.txt
+easy_cloudrun.egg-info/requires.txt
+easy_cloudrun.egg-info/top_level.txt
