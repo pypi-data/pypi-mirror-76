@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+bin/ccm
+ccm/__init__.py
+ccm/ccm.py
+ccm/resources/bash_completion.d/ccm
+crypted_cookie_monster.egg-info/PKG-INFO
+crypted_cookie_monster.egg-info/SOURCES.txt
+crypted_cookie_monster.egg-info/dependency_links.txt
+crypted_cookie_monster.egg-info/top_level.txt
