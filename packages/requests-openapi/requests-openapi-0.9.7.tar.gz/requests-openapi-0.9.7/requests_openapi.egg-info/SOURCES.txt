@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+tox.ini
+requests_openapi/__init__.py
+requests_openapi/core.py
+requests_openapi/requestor.py
+requests_openapi.egg-info/PKG-INFO
+requests_openapi.egg-info/SOURCES.txt
+requests_openapi.egg-info/dependency_links.txt
+requests_openapi.egg-info/requires.txt
+requests_openapi.egg-info/top_level.txt
+tests/test_todo.py
