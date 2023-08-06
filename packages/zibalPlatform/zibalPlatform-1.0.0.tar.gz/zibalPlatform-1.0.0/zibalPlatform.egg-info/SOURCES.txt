@@ -1,0 +1,9 @@
+README.md
+setup.py
+zibalPlatform/__init__.py
+zibalPlatform/zibalPlatform.py
+zibalPlatform.egg-info/PKG-INFO
+zibalPlatform.egg-info/SOURCES.txt
+zibalPlatform.egg-info/dependency_links.txt
+zibalPlatform.egg-info/requires.txt
+zibalPlatform.egg-info/top_level.txt

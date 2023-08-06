@@ -1,0 +1,52 @@
+# Zibal Payment Gateway
+
+[![N|Zibal](https://github.com/zibalco/zibal-opencart-v2.3/raw/master/admin/view/image/payment/zibal.png)](https://github.com/zibalco/zibal-opencart-v2.3/raw/master/admin/view/image/payment/zibal.png)
+
+
+
+### Installation
+
+Zibal Platform pacakge requires [Requests](https://pypi.org/project/requests/) to run.
+
+Install the package using pip
+
+```sh
+$ pip install zibalPlatform
+```
+
+For upgrading to newer versions
+
+```sh
+$ pip install zibalPlatform --upgrade
+```
+
+### Usage
+
+You can access Zibal.ir platform API using this package. Also you can use this package to translate the result codes to printable messages.
+Pass your "access-token" while creating a zibalPlatform instance.
+
+Below is an example of how you can use this package to access 'wallet/list' endpoint
+
+```python
+import zibalPlatform.zibalPlatform as zibalPlatform
+
+access_token = 'Your access-token'
+platform_endpoint = 'v1/wallet/balance'
+
+zb = zibalPlatform.zibalPlatform(access_token)
+data = {
+    "id": "1010101",
+}
+
+request_to_zibal = zb.sendRequestToZibal(path=platform_endpoint, parameters=data)
+```
+
+Now you can access the parameters like this example
+```python
+result_code = request_to_zibal['result']
+```
+Pass the result code to the translator function "platform_result(result_code)" to receive printable output
+Python3 example:
+```python
+print(zb.platform_result(result_code))
+```
