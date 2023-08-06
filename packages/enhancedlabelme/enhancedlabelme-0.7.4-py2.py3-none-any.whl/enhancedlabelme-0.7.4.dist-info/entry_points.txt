@@ -1,0 +1,7 @@
+[console_scripts]
+labelme+ = enhancedlabelme.__main__:main
+labelme_draw_json = enhancedlabelme.cli.draw_json:main
+labelme_draw_label_png = enhancedlabelme.cli.draw_label_png:main
+labelme_json_to_dataset = enhancedlabelme.cli.json_to_dataset:main
+labelme_on_docker = enhancedlabelme.cli.on_docker:main
+
