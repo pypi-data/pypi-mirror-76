@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: predikon
+Version: 0.1
+Summary: Predikon: online prediction of regional and national election results
+Home-page: https://github.com/indy-lab/predikon
+Author: A. Immer, V. Kristof
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.3
+Requires-Dist: numpy (>=1.0.0)
+Requires-Dist: scikit-learn (>=0.16.1)
+
+UNKNOWN
+
+
