@@ -1,0 +1,10 @@
+quaternionic/__init__.py,sha256=HZ1zc6MmE-Zl_laOpxfHTmz39hfjQPuP_OYh6FOUYa0,94
+quaternionic/algebra.py,sha256=96ZJiWKyEkE01uLrjTdsKOwloHWAYiRl7EaPK5NFIbU,6700
+quaternionic/array.py,sha256=3hZ2DfMswInNUoEW2PDvqVTvyaiycPRYP0qWY1RJLmg,7451
+quaternionic/converters.py,sha256=qb1qLjGFs8tSM5FIsjWGF6mCqyWGY7Rcj49elzQ4rYU,17259
+quaternionic/properties.py,sha256=Otsfh4GEPF772Dx7P83rZiF-8SfVCtFvnBouOlVj-yI,2431
+quaternionic/utilities.py,sha256=D7DnsUrW5xfOidc4aatTN6zZ_ZTnIk5CIhkzKzfo0pQ,157
+quaternionic-0.0.1a0.dist-info/LICENSE,sha256=ptVOd5m7LDM5ZF0x32cxb8c2Nd5NDmAhy6DX7xt_7VA,1080
+quaternionic-0.0.1a0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+quaternionic-0.0.1a0.dist-info/METADATA,sha256=W3fJVPLFi6nNW-16OfBtsR54d9cz5x3uF2YpEAqivss,1783
+quaternionic-0.0.1a0.dist-info/RECORD,,
