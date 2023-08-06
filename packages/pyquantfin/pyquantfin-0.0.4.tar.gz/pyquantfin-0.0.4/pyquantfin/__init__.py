@@ -1,0 +1,20 @@
+from . import nav_analysis
+from . import general
+from . import nav_calc
+from . import StockDaily
+from . import utils
+from . import Trend
+from . import SAA
+from . import datasets
+from . import plots
+from . import cta
+from . import talib
+from . import pytsalib
+from . import otc
+
+__version__ = '0.0.4'
+__website__ = 'https://pypi.org/project/pyquantfin/'
+
+def online_help():
+    import webbrowser
+    webbrowser.open('https://pypi.org/project/pyquantfin/#description')
