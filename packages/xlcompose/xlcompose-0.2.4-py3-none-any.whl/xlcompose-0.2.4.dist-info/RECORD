@@ -1,0 +1,11 @@
+xlcompose/__init__.py,sha256=Xx4e8BbcCd_MhraQVq1vFSQrZ7wfsATh8QC5PCMD0ms,222
+xlcompose/core.py,sha256=WIXgHXsJVi5U3rGucnyWVmsyRRANrVfQTdmu7YlbjW8,35241
+xlcompose/settings.yaml,sha256=p3TKbp6MxuEpgfI1YpmhxVOglNfmla0o0gI4Af91CZk,1146
+xlcompose/styles.css,sha256=7ypYjYx_h0MmHAOUPMiBrwVavFXopLE7JlEgqABtL-k,1403
+xlcompose/templates.py,sha256=m2f0Wp_dv7O57gKSfcZrp1RC3zu502ogqppGGr1JWng,4632
+xlcompose/test_xlc.py,sha256=bkGEruqGeQLBH9RfNCkG3j2N5f4YGPmsWzIsmINKyoI,457
+xlcompose-0.2.4.dist-info/LICENSE,sha256=Y-KBVT3R93zWLQr7JgNMgFBQkBzw_FYy8UP2siYqIBg,1072
+xlcompose-0.2.4.dist-info/METADATA,sha256=XlT9tfV3Uf6CaBRKMOK1hTUKIb8nVaSyTkf14GGeYqM,456
+xlcompose-0.2.4.dist-info/WHEEL,sha256=YNlcxLoRZfMqjEfLMA4_N5GPCL0Yw1E8c7zrDjEU0Bk,92
+xlcompose-0.2.4.dist-info/top_level.txt,sha256=2adBf2ubXq6l56g_rQEnaozWAqjdj2E2okFOCmoEmRo,10
+xlcompose-0.2.4.dist-info/RECORD,,
