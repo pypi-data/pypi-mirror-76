@@ -1,0 +1,9 @@
+README.rst
+setup.py
+aiostp/__init__.py
+aiostp/version.py
+aiostp.egg-info/PKG-INFO
+aiostp.egg-info/SOURCES.txt
+aiostp.egg-info/dependency_links.txt
+aiostp.egg-info/requires.txt
+aiostp.egg-info/top_level.txt
