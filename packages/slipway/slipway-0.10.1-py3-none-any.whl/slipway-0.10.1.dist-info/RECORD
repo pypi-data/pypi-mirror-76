@@ -1,0 +1,16 @@
+slipway/__init__.py,sha256=KzZ58xtuqqCZXr34WdO1mn8fhFK4pTuXEbPthtvoEd8,2499
+slipway/binds.py,sha256=BVSERmGnDG-Gi637hqWRlA8PTjx9E4WS1IrMNVIQnRw,3184
+slipway/client/__init__.py,sha256=ejRLayXNZDeznbo9F3BZ1JJQeA8DLn5si8G2FiSuLLA,111
+slipway/client/docker.py,sha256=Sd3qy6do_GPi0hzKrIVF9unW5PhLuk-CTXYPZ_kRYtc,772
+slipway/client/podman.py,sha256=wO_SGLYXD3RQdonvCrA5j3BLu9FekfPa9RL6UWG_9b4,1127
+slipway/configuration.py,sha256=f4olh_FNYUaUcNBkaqIZqZ9X23XgsN6hoIrtN7gkDJE,1487
+slipway/container.py,sha256=Aurm4cA2Rtz3fImUlA-L59aXMuNJSgKQrscMVjPIxCE,3409
+slipway/entrypoint.py,sha256=ZKfOOqdbj1WW4rt7E0UBYDdfZmt_9fcPZHYnPq-QTyM,899
+slipway/image.py,sha256=bwnQQZ9tv8T2g-Ty4mDDiR-v8-fuOB4fXc9tPNk35Iw,2913
+slipway/util.py,sha256=sZHbLuDHPgF43DDamVkt7-edmh1l9YftK-oZ1Oi5fmE,271
+slipway/volumes.py,sha256=FbPfA6r0P8R5H2yHfStI9Uxoy4gG7RpIVqHITsV6IWs,1448
+slipway-0.10.1.dist-info/entry_points.txt,sha256=ZayMB8EjdVbF5ZJFeZTqY5Ia5GWmGiHdTxCqGGaLFNM,40
+slipway-0.10.1.dist-info/LICENSE,sha256=bruRjzikhLAtxed6xydxzsJKc-xl4yAt2CKCcWqaHBs,1074
+slipway-0.10.1.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+slipway-0.10.1.dist-info/METADATA,sha256=-ctb2AL_m2rq2NE3BfykeDCgPNdBYzDIGrAvy2RB5Es,525
+slipway-0.10.1.dist-info/RECORD,,
