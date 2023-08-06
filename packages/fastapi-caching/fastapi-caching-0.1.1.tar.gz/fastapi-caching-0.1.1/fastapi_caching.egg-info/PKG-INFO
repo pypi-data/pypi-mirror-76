@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: fastapi-caching
+Version: 0.1.1
+Summary: Cache library for FastAPI with tag based invalidation
+Home-page: https://github.com/jmagnusson/fastapi-caching
+Author: Jacob Magnusson
+Author-email: m@jacobian.se
+License: MIT
+Description: # FastAPI-Caching
+        
+        Cache library for FastAPI with tag based invalidation
+        
+        ## Features
+        
+        - Automatic response cache fetching using FastAPI dependencies
+        - Fine-grained control over when to return and set the cache
+        - Ability to invalidate cached objects based on a concept of associated tags. See [examples/redis_app](/examples/redis_app) for an example.
+        
+        ## Installation
+        
+        With in-memory support only:
+        ```bash
+        pip install fastapi-caching
+        ```
+        
+        NOTE: In-memory backend is only recommended when your app is only run as a single instance.
+        
+        With redis support (through the [aioredis](https://aioredis.readthedocs.io/) library):
+        ```bash
+        pip install fastapi-caching[redis]
+        ```
+        
+        ## Usage examples
+        
+        Examples on how to use [can be found here](/examples).
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Typing :: Typed
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: redis
+Provides-Extra: examples
+Provides-Extra: test
+Provides-Extra: dev
+Provides-Extra: all
