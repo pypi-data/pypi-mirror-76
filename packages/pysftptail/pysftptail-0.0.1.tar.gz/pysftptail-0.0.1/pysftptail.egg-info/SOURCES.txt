@@ -1,0 +1,11 @@
+README.md
+__init__.py
+pysftptail.py
+pysftptail_test.py
+setup.py
+pysftptail.egg-info/PKG-INFO
+pysftptail.egg-info/SOURCES.txt
+pysftptail.egg-info/dependency_links.txt
+pysftptail.egg-info/entry_points.txt
+pysftptail.egg-info/requires.txt
+pysftptail.egg-info/top_level.txt
