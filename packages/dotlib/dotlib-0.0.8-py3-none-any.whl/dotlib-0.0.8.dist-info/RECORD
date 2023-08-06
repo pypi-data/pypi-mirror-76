@@ -1,0 +1,14 @@
+dotlib/__init__.py,sha256=Kgb3U28x7bMSvxUtC55Mre8WPAefwBibT2LpGkePPGA,261
+dotlib/core.py,sha256=Wq0DTzhVPBTFz4vpWjvc69Tet1m-vsPSiPB38SryHrI,1557
+dotlib/meta_reflex.py,sha256=kt0sFtiRLB8vcVcCocdaHIPVgvqtAqpOr-spwbKl1Oc,16454
+dotlib/router.py,sha256=EVSCRXXwoh0aNN-neXfxNld7plGPd5A7zrMaVjVi1Bo,618
+dotlib/settings.py,sha256=pmfeaAyeV3uMtK7_qcW8yOneIaj4OCXZyk7DtLwB4bA,841
+dotlib/utils.py,sha256=kOU12P-QajYgAQDA8QYnVvfQGnsqY_uqvOJUiYFhb5s,1021
+dotlib/utils.py.log,sha256=KxV11FdssE3lzOw_ldAqa295FT9Tx3VwQg4b2E6NsDc,106
+dotlib-0.0.8.dist-info/AUTHORS,sha256=H08orHmbvr4bBTS8lCv9YPmx1xsJVjT6cdTtODqNmq4,30
+dotlib-0.0.8.dist-info/METADATA,sha256=-7AVmp3h8S-PscW4GGTw6UIBLvjFoGftBbr9lhl4IyQ,234
+dotlib-0.0.8.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+dotlib-0.0.8.dist-info/entry_points.txt,sha256=f8dRK-2oqW8H96yOMWbFN_1zBd5LqE6XphLaNuAM4ZE,59
+dotlib-0.0.8.dist-info/pbr.json,sha256=NdDc0nnfe0GzU0_MXJpN2nziHb514MyinhXF8JZtzmE,47
+dotlib-0.0.8.dist-info/top_level.txt,sha256=FpObO1taSGBwJia39hhcFxPno9_adWEIqC8prw87UGU,7
+dotlib-0.0.8.dist-info/RECORD,,
