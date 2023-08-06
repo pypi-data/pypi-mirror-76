@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: botnoinlp
+Version: 0.0.1
+Summary: Useful tools to work with Elastic stack in Python
+Home-page: https://github.com/ncthuc/elastictools
+Author: Winn Voravuthikunchai
+Author-email: vwinnv@gmail.com
+License: MIT
+Download-URL: https://pypi.org/project/elastictools/
+Keywords: Elastic,ElasticSearch,Elastic Stack,Python 3,Elastic 7
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: elasticsearch (>=7.0.2)
+Requires-Dist: jinja2
+
+Flask==0.11.1
+Jinja2==2.8
+MarkupSafe==0.23
+Werkzeug==0.11.11
+requests
+numpy
+clint
+oauth2client
+scipy
+flask_restful
+flask-jsonpify
+pymongo
+gspread
+pandas
+stringdist
+sklearn
+pythainlp
+xlrd
+gensim
+pymongo
+scikit-learn
+uvicorn==0.11.5
+sanic==20.3.0
+gunicorn==19.9.0
+
+
+
+Flask==0.11.1
+Jinja2==2.8
+MarkupSafe==0.23
+Werkzeug==0.11.11
+requests
+numpy
+clint
+oauth2client
+scipy
+flask_restful
+flask-jsonpify
+pymongo
+gspread
+pandas
+stringdist
+sklearn
+pythainlp
+xlrd
+gensim
+pymongo
+scikit-learn
+uvicorn==0.11.5
+sanic==20.3.0
+gunicorn==19.9.0
+
+
+
