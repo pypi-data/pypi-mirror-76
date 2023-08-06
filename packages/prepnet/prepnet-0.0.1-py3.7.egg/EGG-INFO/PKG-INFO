@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: prepnet
+Version: 0.0.1
+Summary: Reconstructable preprocessor library
+Home-page: https://github.com/elda27/prepnet
+Author: elda27
+Maintainer: elda27
+License: MIT Licences
+Description: ***All implementation is not completed***
+        
+        # Prepnet
+        Reconstructable preprocessor library.
+        
+        The concept of this project is to allow all preprocessing to be stored in a pickle.
+        
+        # Do you ever remember this?
+        Boss: Hey, what's the difference between the new results and the old ones?
+        
+        Someone: Well, some preprocesses are different.
+        
+        Boss: Okay. Let me see the dataset.
+        
+        Someone: Yes, sir. It's this and this.
+        
+        Boss: What's the difference two datasets? The value that comes out of the difference is slightly, what's the difference in the preprocess?
+        
+        Someone: Well, I just don't know.
+        
+        Boss: Why? The dataset contains a commit idand you're managing source codes with git.
+        
+        Someone: Even if I knew what version of the dataset it was created from. I would have commented out the details and preprocessed it...
+        
+        Boss: Hey you...
+        
+        # Example
+        I'm writing...
+        
+        # Test
+        ```shell
+        python -m pytest --cov=prepnet
+        ```
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: MS-DOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX :: SunOS/Solaris
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Provides-Extra: dev
