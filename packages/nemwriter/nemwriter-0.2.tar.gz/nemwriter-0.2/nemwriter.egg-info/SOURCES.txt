@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+nemwriter/__init__.py
+nemwriter/nem12_writer.py
+nemwriter/nem13_writer.py
+nemwriter/py.typed
+nemwriter/version.py
+nemwriter.egg-info/PKG-INFO
+nemwriter.egg-info/SOURCES.txt
+nemwriter.egg-info/dependency_links.txt
+nemwriter.egg-info/entry_points.txt
+nemwriter.egg-info/top_level.txt
