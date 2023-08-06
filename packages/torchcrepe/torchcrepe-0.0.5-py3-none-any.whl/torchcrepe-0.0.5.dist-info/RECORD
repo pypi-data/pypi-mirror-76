@@ -1,0 +1,16 @@
+torchcrepe/__init__.py,sha256=QST547xIdmGwa12yDfM64CKxq9QCEi8gAgvJqKJJZxs,159
+torchcrepe/__main__.py,sha256=9q8ZMvhQQ2HUVce_XrbxEkQxFiAGAN6vZd3aKn-rT8M,3593
+torchcrepe/convert.py,sha256=A5MpB-dlwZXmuvOmXvUKu6foTEorLQ6iNk7Gt5kL5iQ,1757
+torchcrepe/core.py,sha256=S3GdxJlbCuyiCpPEs9tY2zexcsL6kKYUtlVrUntq6IM,14128
+torchcrepe/decode.py,sha256=YTq0HaQAqgItJUuHQvN73NrW0HMnSGCTDI8JSFqnm3M,2593
+torchcrepe/filter.py,sha256=sJYK6KlrccglMS1lf6b5CCX0K9pkQkPZ1S2-MecAPqs,3307
+torchcrepe/load.py,sha256=QHwM_sZDPQK4s6EyGj18XeRiokjgCqLmg14IgFWXT7E,439
+torchcrepe/model.py,sha256=Ao4kChkdXdso0K9v6-mZufaS8iRZ5Jv5xWgcnf6kvSI,4551
+torchcrepe/threshold.py,sha256=P-yBpdw7RuEN7UOm60g_QGmvU9UepWuzYVOX4WT37BY,3151
+torchcrepe/assets/full.pth,sha256=EzIlYE3t0uQAX4u9G9Ci7Ac7qLemzTH_bV7bv6NTmYY,88991291
+torchcrepe/assets/tiny.pth,sha256=1Jk-6jbtGgrZrFScdA2uUmWwSc5yAE8AwvWeAcC-hDI,1962363
+torchcrepe-0.0.5.dist-info/LICENSE,sha256=Lh0LIuZODwk3yyE9vkWwsCyX0njE24uukmrgMTJbJBc,1090
+torchcrepe-0.0.5.dist-info/METADATA,sha256=n-hzI7kqkiz-B7wlseSoCvE-FPxpjxyHK83dY2lm0qE,5644
+torchcrepe-0.0.5.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+torchcrepe-0.0.5.dist-info/top_level.txt,sha256=BNODosFDA-oDso0GI5Sz2dhQrrq-Yo7N22k0WhyKAf8,11
+torchcrepe-0.0.5.dist-info/RECORD,,
