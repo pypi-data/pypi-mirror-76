@@ -1,0 +1,15 @@
+dolphindb_notebook/__init__.py,sha256=MHY9pTZw11hXumy0a7IJxWeCyNsegOPeSa2WxZcqnTg,35
+dolphindb_notebook/__main__.py,sha256=-As3GV2FMnFpiM-R-qXEdtNxXsu_E847qoMF83H-HDg,173
+dolphindb_notebook/creds.py,sha256=3X8ZGjFLarQk8qOqWI66Ydr_vKpEd7VC5WPYe-AMJYI,129
+dolphindb_notebook/kernel.json,sha256=HruwV1pQVSLNxtGqGJCj0Rwkpv-fcyH_GwA9gkh2GAg,106
+dolphindb_notebook/kernel.py,sha256=jIP9mMfDyp5FZ6qtnqmFDhZWqkj4bcrQO02QPvDY5RU,8803
+dolphindb_notebook/dolphindb_extension/description.yaml,sha256=R2Tpm-5TJkqNN3DTRh9K6XVLme2s-vEZD2cXA6CO2U4,210
+dolphindb_notebook/dolphindb_extension/main.js,sha256=cpQ2zxMoeEBFXF1lYiuvhB4c_Re-oQLhFePxNw0hHSI,6221
+dolphindb_notebook-0.0.1.data/data/share/jupyter/kernels/dolphindb/creds.py,sha256=3X8ZGjFLarQk8qOqWI66Ydr_vKpEd7VC5WPYe-AMJYI,129
+dolphindb_notebook-0.0.1.data/data/share/jupyter/kernels/dolphindb/kernel.json,sha256=HruwV1pQVSLNxtGqGJCj0Rwkpv-fcyH_GwA9gkh2GAg,106
+dolphindb_notebook-0.0.1.data/data/share/jupyter/nbextensions/dolphindb/description.yaml,sha256=R2Tpm-5TJkqNN3DTRh9K6XVLme2s-vEZD2cXA6CO2U4,210
+dolphindb_notebook-0.0.1.data/data/share/jupyter/nbextensions/dolphindb/main.js,sha256=cpQ2zxMoeEBFXF1lYiuvhB4c_Re-oQLhFePxNw0hHSI,6221
+dolphindb_notebook-0.0.1.dist-info/METADATA,sha256=a158yBB5TNsUMI0e39Wo098P64Vp-qUdpn53eqsxbUs,3598
+dolphindb_notebook-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+dolphindb_notebook-0.0.1.dist-info/top_level.txt,sha256=H4tGwWsyiC9Ql0sKkss7TWzQ0VFtyZ0SFIzgsWEntms,19
+dolphindb_notebook-0.0.1.dist-info/RECORD,,

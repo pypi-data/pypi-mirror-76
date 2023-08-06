@@ -1,0 +1,3 @@
+{"argv":["python","-m","dolphindb_kernel", "-f", "{connection_file}"],
+    "display_name":"DolphinDB"
+   }
