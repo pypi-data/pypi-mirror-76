@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<ns1:systemMetadata xmlns:ns1="http://ns.dataone.org/service/types/v2.0">
+  <serialVersion>95</serialVersion>
+  <identifier>object#0002</identifier>
+  <formatId>image/jp2</formatId>
+  <size>306</size>
+  <checksum algorithm="SHA-1">90c9bc3f0c42928f6abd6e140bfcfff69877b49f</checksum>
+  <submitter>subj_e</submitter>
+  <rightsHolder>subj_n</rightsHolder>
+  <accessPolicy>
+    <allow>
+      <subject>authenticatedUser</subject>
+      <subject>public</subject>
+      <subject>subj_dk</subject>
+      <subject>subj_gee</subject>
+      <subject>subj_k</subject>
+      <permission>read</permission>
+    </allow>
+  </accessPolicy>
+  <replicationPolicy replicationAllowed="true" numberReplicas="7">
+    <preferredMemberNode>mn_se</preferredMemberNode>
+  </replicationPolicy>
+  <archived>false</archived>
+  <dateUploaded>2044-02-29T15:43:39Z</dateUploaded>
+  <dateSysMetadataModified>2044-03-10T15:43:39Z</dateSysMetadataModified>
+  <originMemberNode>mn_p</originMemberNode>
+  <authoritativeMemberNode>mn_b</authoritativeMemberNode>
+  <seriesId>SID_ibzkqgrvobfk</seriesId>
+  <mediaType name="media_type_ve">
+    <property name="prop_sxmkjvnionle">ukaqjfqxkmge</property>
+  </mediaType>
+  <fileName>file_pjtyyzmwsimw</fileName>
+</ns1:systemMetadata>
+<?xml version="1.0" ?>
+<ns1:systemMetadata xmlns:ns1="http://ns.dataone.org/service/types/v2.0">
+  <serialVersion>92</serialVersion>
+  <identifier>object#0003</identifier>
+  <formatId>text/html</formatId>
+  <size>303</size>
+  <checksum algorithm="SHA-1">07864f0be4c4cdfc1e1c19760385ca1c89971fd3</checksum>
+  <submitter>subj_a</submitter>
+  <rightsHolder>subj_ih</rightsHolder>
+  <accessPolicy>
+    <allow>
+      <subject>subj_d</subject>
+      <subject>subj_fd</subject>
+      <subject>verifiedUser</subject>
+      <permission>write</permission>
+    </allow>
+  </accessPolicy>
+  <replicationPolicy replicationAllowed="true" numberReplicas="6">
+    <preferredMemberNode>mn_b</preferredMemberNode>
+    <preferredMemberNode>mn_q</preferredMemberNode>
+    <preferredMemberNode>mn_q</preferredMemberNode>
+    <blockedMemberNode>mn_i</blockedMemberNode>
+    <blockedMemberNode>mn_pd</blockedMemberNode>
+  </replicationPolicy>
+  <archived>false</archived>
+  <dateUploaded>2041-03-08T21:37:06Z</dateUploaded>
+  <dateSysMetadataModified>2041-03-18T21:37:06Z</dateSysMetadataModified>
+  <originMemberNode>mn_ru</originMemberNode>
+  <authoritativeMemberNode>mn_p</authoritativeMemberNode>
+  <replica>
+    <replicaMemberNode>mn_a</replicaMemberNode>
+    <replicationStatus>queued</replicationStatus>
+    <replicaVerified>1983-04-23T14:18:09Z</replicaVerified>
+  </replica>
+  <replica>
+    <replicaMemberNode>mn_pu</replicaMemberNode>
+    <replicationStatus>requested</replicationStatus>
+    <replicaVerified>2002-08-27T15:24:57Z</replicaVerified>
+  </replica>
+  <seriesId>SID_qydfmasvqfdt</seriesId>
+  <mediaType name="media_type_yp">
+    <property name="prop_vwhicqifyuiq">tweuxphcpfbc</property>
+    <property name="prop_uifmbtlvuwix">ueuwmcwacpgc</property>
+  </mediaType>
+  <fileName>file_dxgyajtklehg</fileName>
+</ns1:systemMetadata>

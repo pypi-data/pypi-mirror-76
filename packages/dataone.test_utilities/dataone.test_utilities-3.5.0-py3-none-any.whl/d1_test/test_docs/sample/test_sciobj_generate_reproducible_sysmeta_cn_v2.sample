@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<ns1:systemMetadata xmlns:ns1="http://ns.dataone.org/service/types/v2.0">
+  <serialVersion>61</serialVersion>
+  <identifier>an_unchanging_pid</identifier>
+  <formatId>video/mpeg</formatId>
+  <size>278</size>
+  <checksum algorithm="SHA-1">1d8fdefc38a1ed81dae4f45356b2ff328fab3f55</checksum>
+  <submitter>subj_te</submitter>
+  <rightsHolder>subj_po</rightsHolder>
+  <accessPolicy>
+    <allow>
+      <subject>subj_deev</subject>
+      <permission>changePermission</permission>
+    </allow>
+  </accessPolicy>
+  <replicationPolicy replicationAllowed="true" numberReplicas="4">
+    <preferredMemberNode>mn_be</preferredMemberNode>
+    <preferredMemberNode>mn_c</preferredMemberNode>
+    <preferredMemberNode>mn_k</preferredMemberNode>
+    <preferredMemberNode>mn_kd</preferredMemberNode>
+    <blockedMemberNode>mn_es</blockedMemberNode>
+    <blockedMemberNode>mn_nt</blockedMemberNode>
+    <blockedMemberNode>mn_rh</blockedMemberNode>
+  </replicationPolicy>
+  <archived>false</archived>
+  <dateUploaded>2064-04-09T07:11:09Z</dateUploaded>
+  <dateSysMetadataModified>2064-04-19T07:11:09Z</dateSysMetadataModified>
+  <originMemberNode>mn_n</originMemberNode>
+  <authoritativeMemberNode>mn_rg</authoritativeMemberNode>
+  <replica>
+    <replicaMemberNode>mn_n</replicaMemberNode>
+    <replicationStatus>completed</replicationStatus>
+    <replicaVerified>1977-12-28T08:23:47Z</replicaVerified>
+  </replica>
+  <replica>
+    <replicaMemberNode>mn_jv</replicaMemberNode>
+    <replicationStatus>invalidated</replicationStatus>
+    <replicaVerified>1995-06-13T10:51:50Z</replicaVerified>
+  </replica>
+  <replica>
+    <replicaMemberNode>mn_xj</replicaMemberNode>
+    <replicationStatus>requested</replicationStatus>
+    <replicaVerified>2032-07-22T17:33:53Z</replicaVerified>
+  </replica>
+  <replica>
+    <replicaMemberNode>mn_kl</replicaMemberNode>
+    <replicationStatus>requested</replicationStatus>
+    <replicaVerified>2033-10-01T07:42:51Z</replicaVerified>
+  </replica>
+  <replica>
+    <replicaMemberNode>mn_py</replicaMemberNode>
+    <replicationStatus>invalidated</replicationStatus>
+    <replicaVerified>2045-12-17T23:29:11Z</replicaVerified>
+  </replica>
+  <seriesId>SID_cifozkwnjuzf</seriesId>
+  <fileName>file_tkgnbidufoiy</fileName>
+</ns1:systemMetadata>

@@ -1,0 +1,82 @@
+pid: PID_fbvelwifflvu
+sid: None
+sysmeta: <?xml version="1.0" ?>
+<ns1:systemMetadata xmlns:ns1="http://ns.dataone.org/service/types/v1">
+  <serialVersion>42</serialVersion>
+  <identifier>PID_fbvelwifflvu</identifier>
+  <formatId>CF-1.2</formatId>
+  <size>258</size>
+  <checksum algorithm="SHA-1">be78e42f0d4332c3e5c71269d89c59427b94eab2</checksum>
+  <submitter>subj_di</submitter>
+  <rightsHolder>subj_ht</rightsHolder>
+  <accessPolicy>
+    <allow>
+      <subject>subj1</subject>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <subject>subj2</subject>
+      <subject>subj3</subject>
+      <subject>subj4</subject>
+      <permission>write</permission>
+    </allow>
+    <allow>
+      <subject>subj10</subject>
+      <subject>subj11</subject>
+      <subject>subj12</subject>
+      <subject>subj5</subject>
+      <subject>subj6</subject>
+      <subject>subj7</subject>
+      <subject>subj8</subject>
+      <subject>subj9</subject>
+      <permission>changePermission</permission>
+    </allow>
+  </accessPolicy>
+  <replicationPolicy replicationAllowed="false" numberReplicas="0">
+    <blockedMemberNode>mn_b</blockedMemberNode>
+    <blockedMemberNode>mn_o</blockedMemberNode>
+  </replicationPolicy>
+  <archived>false</archived>
+  <dateUploaded>2388-08-28T00:00:00</dateUploaded>
+  <dateSysMetadataModified>2388-08-28T00:00:00</dateSysMetadataModified>
+  <originMemberNode>mn_ti</originMemberNode>
+  <authoritativeMemberNode>mn_bb</authoritativeMemberNode>
+  <replica>
+    <replicaMemberNode>mn_gi</replicaMemberNode>
+    <replicationStatus>invalidated</replicationStatus>
+    <replicaVerified>2010-05-24T05:05:24Z</replicaVerified>
+  </replica>
+  <replica>
+    <replicaMemberNode>mn_v</replicaMemberNode>
+    <replicationStatus>failed</replicationStatus>
+    <replicaVerified>2025-08-10T17:52:59Z</replicaVerified>
+  </replica>
+  <replica>
+    <replicaMemberNode>mn_f</replicaMemberNode>
+    <replicationStatus>failed</replicationStatus>
+    <replicaVerified>2028-09-24T13:08:03Z</replicaVerified>
+  </replica>
+  <replica>
+    <replicaMemberNode>mn_xf</replicaMemberNode>
+    <replicationStatus>failed</replicationStatus>
+    <replicaVerified>2036-10-02T00:41:59Z</replicaVerified>
+  </replica>
+  <replica>
+    <replicaMemberNode>mn_lt</replicaMemberNode>
+    <replicationStatus>requested</replicationStatus>
+    <replicaVerified>2058-11-17T13:22:33Z</replicaVerified>
+  </replica>
+</ns1:systemMetadata>
+create_event: <?xml version="1.0" ?>
+<ns1:log count="1" start="0" total="1237" xmlns:ns1="http://ns.dataone.org/service/types/v1">
+  <logEntry>
+    <entryId>[ENTRY-ID]</entryId>
+    <identifier>PID_GMNFXT_ybfsemxjeeed</identifier>
+    <ipAddress>127.0.0.1</ipAddress>
+    <userAgent>DataONE-Python/[VERSION] +http://dataone.org/</userAgent>
+    <subject>trusted_subj</subject>
+    <event>create</event>
+    <dateLogged>1970-01-21T20:37:55Z</dateLogged>
+    <nodeIdentifier>urn:node:GMNUnitTestInstance</nodeIdentifier>
+  </logEntry>
+</ns1:log>

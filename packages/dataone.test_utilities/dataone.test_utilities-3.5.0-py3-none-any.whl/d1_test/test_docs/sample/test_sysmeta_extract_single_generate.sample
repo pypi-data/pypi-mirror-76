@@ -1,0 +1,348 @@
+[
+  {
+    "permissions": {
+      "subj_dz": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_ephzr": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_fy": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_kesa": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_qly": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_qu": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_rqnu": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_ttvj": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_zi": [
+        "read",
+        "write",
+        "changePermission"
+      ]
+    }
+  },
+  {
+    "permissions": {
+      "authenticatedUser": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_akot_group": [
+        "read"
+      ],
+      "subj_d": [
+        "read",
+        "write"
+      ],
+      "subj_dn": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_fzymo": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_h": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_k": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_ltln_group": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_luy": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_p": [
+        "read",
+        "write"
+      ],
+      "subj_rwdkn_group": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_s": [
+        "read",
+        "write",
+        "changePermission"
+      ]
+    }
+  },
+  {
+    "permissions": {
+      "subj_aunth": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_ba": [
+        "read",
+        "write"
+      ],
+      "subj_cq": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_eq": [
+        "read",
+        "write"
+      ],
+      "subj_l": [
+        "read",
+        "write"
+      ],
+      "subj_l_group": [
+        "read",
+        "write"
+      ],
+      "subj_qqjy": [
+        "read",
+        "write"
+      ],
+      "subj_rmr_group": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_t": [
+        "read",
+        "write"
+      ],
+      "subj_uke": [
+        "read",
+        "write"
+      ],
+      "subj_uqd": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_v_group": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_vc_group": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_vfo": [
+        "read",
+        "write"
+      ],
+      "subj_ytojz": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_yz": [
+        "read",
+        "write"
+      ],
+      "subj_zushy_group": [
+        "read",
+        "write"
+      ]
+    }
+  },
+  {
+    "permissions": {
+      "subj_uu": [
+        "read",
+        "write",
+        "changePermission"
+      ]
+    }
+  },
+  {
+    "permissions": {
+      "public": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_nz_group": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_qy": [
+        "read",
+        "write",
+        "changePermission"
+      ]
+    }
+  },
+  {
+    "permissions": {
+      "subj_de": [
+        "read"
+      ],
+      "subj_kyrio": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_nxu_group": [
+        "read"
+      ],
+      "subj_oplr": [
+        "read"
+      ],
+      "subj_qf": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_v": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_vgk": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_vjq": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_vyj": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_wi": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_xbile": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "verifiedUser": [
+        "read",
+        "write",
+        "changePermission"
+      ]
+    }
+  },
+  {
+    "permissions": {
+      "subj_bk": [
+        "read"
+      ],
+      "subj_dy": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_ixxv": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_jmluk": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_k": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_mg": [
+        "read"
+      ],
+      "subj_o": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_pyl": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_tfaak": [
+        "read"
+      ],
+      "subj_wmvlo": [
+        "read",
+        "write",
+        "changePermission"
+      ],
+      "subj_wsajb": [
+        "read"
+      ],
+      "subj_zldqb": [
+        "read"
+      ]
+    }
+  },
+  {
+    "permissions": {
+      "subj_z": [
+        "read",
+        "write",
+        "changePermission"
+      ]
+    }
+  },
+  {
+    "permissions": {
+      "subj_g": [
+        "read",
+        "write",
+        "changePermission"
+      ]
+    }
+  }
+]

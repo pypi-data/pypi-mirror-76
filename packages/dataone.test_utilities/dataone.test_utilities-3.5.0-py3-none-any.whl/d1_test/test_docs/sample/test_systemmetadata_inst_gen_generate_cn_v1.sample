@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<ns1:systemMetadata xmlns:ns1="http://ns.dataone.org/service/types/v1">
+  <serialVersion>26</serialVersion>
+  <identifier>PID_ccbhmjbdldmm</identifier>
+  <formatId>http://www.nexml.org/2009</formatId>
+  <size>1044670308567</size>
+  <checksum algorithm="SHA-1">d1e4a243a621c994d5c9afdd809c66e3c2577025</checksum>
+  <submitter>subj_lr</submitter>
+  <rightsHolder>subj_rn</rightsHolder>
+  <accessPolicy>
+    <allow>
+      <subject>subj_qil</subject>
+      <subject>subj_v</subject>
+      <subject>subj_wlgr</subject>
+      <permission>write</permission>
+    </allow>
+    <allow>
+      <subject>subj_bjs</subject>
+      <subject>subj_iyper_group</subject>
+      <subject>subj_jlryf</subject>
+      <subject>subj_knqe_group</subject>
+      <subject>subj_s</subject>
+      <subject>subj_sdpdh</subject>
+      <subject>subj_tn_group</subject>
+      <subject>subj_xbpj</subject>
+      <subject>subj_y</subject>
+      <permission>changePermission</permission>
+    </allow>
+  </accessPolicy>
+  <replicationPolicy replicationAllowed="false" numberReplicas="0">
+    <preferredMemberNode>mn_m</preferredMemberNode>
+    <preferredMemberNode>mn_rs</preferredMemberNode>
+    <preferredMemberNode>mn_w</preferredMemberNode>
+    <blockedMemberNode>mn_hw</blockedMemberNode>
+    <blockedMemberNode>mn_n</blockedMemberNode>
+    <blockedMemberNode>mn_w</blockedMemberNode>
+  </replicationPolicy>
+  <archived>false</archived>
+  <dateUploaded>1999-09-25T23:10:12Z</dateUploaded>
+  <dateSysMetadataModified>1999-10-05T23:10:12Z</dateSysMetadataModified>
+  <originMemberNode>mn_i</originMemberNode>
+  <authoritativeMemberNode>mn_ho</authoritativeMemberNode>
+</ns1:systemMetadata>
