@@ -1,0 +1,9 @@
+README.md
+setup.py
+smallconfig/__init__.py
+smallconfig/smallconfig.py
+smallconfig/tests.py
+smallconfig.egg-info/PKG-INFO
+smallconfig.egg-info/SOURCES.txt
+smallconfig.egg-info/dependency_links.txt
+smallconfig.egg-info/top_level.txt

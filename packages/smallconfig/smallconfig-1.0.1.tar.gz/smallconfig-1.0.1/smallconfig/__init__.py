@@ -1,0 +1,1 @@
+from .smallconfig import SmallConfig
