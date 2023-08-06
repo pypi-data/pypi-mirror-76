@@ -1,0 +1,30 @@
+-
+  Q: "Why did my statsmodel OLS (Ordinary Least Squares) model get better accuracy without the constant term (bias or intercept)?"
+  A: "You must have made a mistake. Adding a feature or intercept term or additional degree of freedom to a model almost always improves accuracy. Perhaps you are not adding the constant to the correct object in python? Make sure you run an entire jupyter notebook top to bottom whenever you make significant changes."
+-
+  Q: "Can you recommend any resources for learning Python?"
+  A: "We use this list of resources for our interns. It's under the reources tab at TangibleAI.com: https://tangibleai.com/getting-started-with-python-and-data-analysis/"
+-
+  Q: "How can I create a statistical model to predict diabetes from age if I have a table of patient ages and a binary categorical variable for whether they have diabetes?"
+  A: "The most basic model you can create is to predict the probability of someone having diabetes in your entire population by taking the mean of the binary categorical variable. A better model would divide the age into categegories, say  teenager, adult, and senior citizen. And then calculate the mean of your diabetes column for each of those age categories."
+-
+  Q: "I want to create a weighted harmonic mean of precision and recall as my performance metric on my project."
+  A: "It would be much easier to explain your results to other data scientists if you used a more standard score like F1-score."
+-
+  Q: "What is a good project for Data Science in Healthcare?"
+  A: "There are public datasets on county-level health statistics like diabetes and cancer. These datasets can be used to create interesting visualizations and predictive models based on geographic and demographic data."
+-
+  Q: "How can I create a test set for a recommendation engine trained on individual movie likes by users?"
+  A: "Segment your data according to user id and treat your entire test set like you would treat a new user on your system."
+-
+  Q: "I have a log file of 911 calls including addresses and text transcripts of the incidents that I'd like to do Data Science on to see if covid 19 has has caused an increase in suicide attempts."
+  A: "That's a potential privacy violation by the Orlando Police Department. Be careful with that data. You will want to join it with a table of features associated with COVID19."
+-
+  Q: What do the weights (.coef) of an `sklearn.LinearRegression` represent for my model that predicts Air BnB price based on features like number of reviews?
+  A: For the particular coefficient that you mentioned that would represent the change in price or value that your stakeholder could expect for each review they were able to add for a particular property.
+-
+  Q: I have plotted the weekly death rate for cancer for each year as a separate series (ax) on a Matplotlib plot. I'd like to label the x axis with a month/day for each week, rather than a week number.
+  A: The problem is, the week number and the date are different for each year, so you would have to carefully resample each year with a weekly date to get usable dates that are consistent for each year. Instead it might be helpful to just label the months approximately using the xlabel or xtick arguments to a matplotlib plot.
+-
+  Q: I'm getting 90% accuracy on my test set from one set of fake news and authentic news articles. But when I try the Kaggle dataset I find that it does poorly because the Kaggle dataset contains a lot of Russian, Arabic, and other foreign text and non-ascii characters.
+  A: First write up your draft report, including a hyperparameter table for the models and hyperparameters you've already tried. Then think about all the approaches you can use to generalize a natural language processign model. One of the best ways is to reduce your vocabulary with `min_df` and `max_df`. Long term you can consider using pretrained language models like SpaCy or BERT.
