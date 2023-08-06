@@ -1,0 +1,39 @@
+Changelog
+=========
+** 1.0.0 (2020-08-07)**
+ * #40 Port to Python3
+ * Updated Blockgrid to support a group-by batch mode.
+ * ``block_size`` argument removed from ``kriging_ops.prepare_for_vesper_krige``
+
+**0.3.1 (2020-05-27)**
+ Bug Fixes
+  * Support for Geopandas (upto 0.5.1)
+  * Fix coordinate system lookup error (PAT Issue `#42 <https://github.com/CSIRO-Precision-Agriculture/PAT_QGIS_Plugin/issues/42>`_ )
+
+**0.3.0 (2019-06-30)**
+ New Tools
+  * #24 Persistor.  
+  * #22 *t*-test analysis of strip trials.  
+ Enhancements
+  * #30 Low spatial density kriging using VESPER.  
+  * #22 Updated processing.create_points_along_line to allow for line offset to use compass points instead of Offset 1 etc.
+  
+ Minor Bug Fixes.
+
+**0.2.2 (2019-02-27)**
+  #15 Changes to processing.create_points_along_line.
+   * Now works with geopandas 0.3.0 and 0.4.0.
+   * Renamed columns names: side -> Transect, line_dist -> DistOnLine.
+   * Change Transect/side attributes: C -> Centre, L -> Offset 1, R -> Offset 2.
+
+**0.2.1 (2019-01-30)**  
+ *  #15 Create points along lines now correctly saves the lines to shapefile.
+
+**0.2.0 (2019-01-24)**
+ * New Feature - Create points for a strip trial along a central line and offset left and right at distance.
+
+**0.1.1 (2019-01-22)**
+ * New Feature - Create zones using *k*-means clustering.
+
+**0.0.4 (2018-12-20)**
+ * Initial load into GitHub.
