@@ -1,0 +1,12 @@
+aiohttp_rate_limiter/__init__.py,sha256=1FbADFtVcH5S6wki5UaOCDYM4UpnCYI67YWaChrmfoI,1179
+aiohttp_rate_limiter/cfg.py,sha256=2CyLLy33FvtHcaCr3jcUjSDu4G-MdwjXD7Rwcrj0FBQ,143
+aiohttp_rate_limiter/limiters/__init__.py,sha256=IYNSFbEJ0hWBlORoAtCcgCfSt_1BDtU0AngIHHH2oTQ,74
+aiohttp_rate_limiter/limiters/fixed_window.py,sha256=W60ha7_fwOtnDPicrGd7FPPE0EBKXeqpOeqK-t4P8SA,1048
+aiohttp_rate_limiter/limiters/leaky_bucket.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiohttp_rate_limiter/limiters/sliding_log.py,sha256=Ll8Yoyr1xVPV6GBrTq86bqsIbBBzczNf9TqLTGlrd2g,1194
+aiohttp_rate_limiter/limiters/sliding_window.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiohttp_rate_limiter-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+aiohttp_rate_limiter-0.0.3.dist-info/METADATA,sha256=h4zryXKjLfMgkG1j-BW-L1aUOWAmXi8smXTT4TpLz4g,477
+aiohttp_rate_limiter-0.0.3.dist-info/WHEEL,sha256=YNlcxLoRZfMqjEfLMA4_N5GPCL0Yw1E8c7zrDjEU0Bk,92
+aiohttp_rate_limiter-0.0.3.dist-info/top_level.txt,sha256=dkpAWfVWKfsGp9a8QSVCR0-UQcN_3nb9CwAJpL_v5SA,51
+aiohttp_rate_limiter-0.0.3.dist-info/RECORD,,
