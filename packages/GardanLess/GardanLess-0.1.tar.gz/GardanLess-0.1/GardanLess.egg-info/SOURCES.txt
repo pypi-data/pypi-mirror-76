@@ -1,0 +1,8 @@
+setup.py
+GardanLess.egg-info/PKG-INFO
+GardanLess.egg-info/SOURCES.txt
+GardanLess.egg-info/dependency_links.txt
+GardanLess.egg-info/not-zip-safe
+GardanLess.egg-info/top_level.txt
+gardanless/__init__.py
+gardanless/mota.py
