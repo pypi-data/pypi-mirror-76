@@ -1,0 +1,15 @@
+http/__init__.py,sha256=bR6kBYuj8BkIuLUmpZrCk5k89bJJeB65g09UrCQoTDE,836
+http/event.py,sha256=T9qskL1V-kpDgZpFCdarAxw7DqXOFjZfbk4gbNx4v4Q,3350
+http/http_methods.py,sha256=dyu64Aa8kSU2p-MXBZUzQlFj1JfNPdk7mYA_IOlup8Y,4053
+http/json_methods.py,sha256=0MVJILgRCrSWArm6ioxzf355fSXxXAVcfijrxeEGDVE,1273
+http/mappings.py,sha256=_1j_pG1TASIo1D1FoR1HVpMlCOqP9sIrRz4kREQtS4A,420
+http/util.py,sha256=Bc_bSJJu-fNsHIEPNz4Qq6pO1W-nRyyL3sS3zgY2PIU,442
+sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sdk/exceptions.py,sha256=WAAKgqHlZzeQmtsfM_KmeItOjKp_09GkVHA5ncFyYkw,1413
+sdk/marshaller.py,sha256=IlvNpleHBoDFoSwVoEvNfde89H-9ehn6FOuJ-mS4OFU,4909
+sdk/types.py,sha256=9r3WTh-8hun7fgvZ8pYPtHbrsVdE5pWRiShifK-h7Ac,905
+curtiscloudevents-1.0.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+curtiscloudevents-1.0.2.dist-info/METADATA,sha256=Kvr9E6U1qs4niyetVerLE5rQyCZs8nRjCqWn25nScEQ,4696
+curtiscloudevents-1.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+curtiscloudevents-1.0.2.dist-info/top_level.txt,sha256=Uh4LnFj6pNGBsRyLl7OCU6AVRY9-jC6zZ2ST9iEOQd8,9
+curtiscloudevents-1.0.2.dist-info/RECORD,,
