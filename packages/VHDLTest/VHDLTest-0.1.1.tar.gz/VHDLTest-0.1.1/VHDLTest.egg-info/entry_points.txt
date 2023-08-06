@@ -1,0 +1,3 @@
+[console_scripts]
+VHDLTest = VHDLTest.__main__:main
+
