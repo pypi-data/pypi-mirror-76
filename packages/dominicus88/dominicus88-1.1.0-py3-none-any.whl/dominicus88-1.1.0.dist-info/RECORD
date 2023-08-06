@@ -1,0 +1,9 @@
+notioncalendarsync/__init__.py,sha256=Pe9x3kJUafJMGl6HQVLZuZGFFMDFgmImrM4SE91GDbQ,75
+notioncalendarsync/google_calendar.py,sha256=Zhr-9CjgwXziMABXWaLn1Fv9iOboi8BW00UBPbfbDb0,7314
+notioncalendarsync/notion_api.py,sha256=2rLUm-3VhkOuJ3R185FVEBbvlAG2233Z_zWSj07l9zA,1751
+notioncalendarsync/test.py,sha256=tIp2raqm7Z5T1XMP_CTHVCXuXLOmY6oSfOMNlBAZnCs,743
+dominicus88-1.1.0.dist-info/LICENSE,sha256=DKuiTnEK-8jEN_bHTxHUlZVqQhMoFuIcLZSIFky2dKM,1063
+dominicus88-1.1.0.dist-info/METADATA,sha256=m6wtbG9KCQPMUYmKfPb-81AGi3OjHfWatrjkUzZZJDA,1613
+dominicus88-1.1.0.dist-info/WHEEL,sha256=YNlcxLoRZfMqjEfLMA4_N5GPCL0Yw1E8c7zrDjEU0Bk,92
+dominicus88-1.1.0.dist-info/top_level.txt,sha256=SI0MV_ycLctJDfF7Edy6GIqJPoThFz7Ay00OSgwhmqM,19
+dominicus88-1.1.0.dist-info/RECORD,,
