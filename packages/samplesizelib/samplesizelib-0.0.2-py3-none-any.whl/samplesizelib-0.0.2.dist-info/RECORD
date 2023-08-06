@@ -1,0 +1,14 @@
+samplesizelib/__init__.py,sha256=ZkJ4YFnqff5CwHnqUupPsAVatqD4aozkrh1u-iQrvMc,21
+samplesizelib/linear/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+samplesizelib/linear/bayesian.py,sha256=wdP6UW7YVIJO784Hq4W3JEv_KDBISfgvlipcHZHZckk,31465
+samplesizelib/linear/heuristic.py,sha256=cZlj2XxHAnyjV89o1vOToPMszsIftJ_90gEVW-f6_YI,15297
+samplesizelib/linear/models.py,sha256=ym8lrzxV99m4B-PycOyDWjAj7S_tR_cIvIza-fr032Q,4892
+samplesizelib/linear/statistical.py,sha256=355fAFAJr_OGPaAJDTx4KmUjrAYwBuNfTW6ph1Ld2zA,16053
+samplesizelib/shared/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+samplesizelib/shared/estimator.py,sha256=sf0eDEwTTokEno0rSDhKOJoW_XTydJMQ0AM4sbXM9fY,1414
+samplesizelib/shared/utils.py,sha256=yeCIFILnyEqQssYLsTUrSvJSWzqljnm1roCmh9zhF_s,2497
+samplesizelib-0.0.2.dist-info/LICENSE,sha256=dF918rvo0lf77wUAwDp6m5ekhW3Cl1k7HmJUNQQfqXM,1072
+samplesizelib-0.0.2.dist-info/METADATA,sha256=3UmvmS4zn-KtqGpUUaHVyqD7LYgy3yGGBd6_hpAK77o,2225
+samplesizelib-0.0.2.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+samplesizelib-0.0.2.dist-info/top_level.txt,sha256=5OBJBAx4YB5AasuO97B0Xyozh5R6s3O2UT8PUvFLjUI,14
+samplesizelib-0.0.2.dist-info/RECORD,,
