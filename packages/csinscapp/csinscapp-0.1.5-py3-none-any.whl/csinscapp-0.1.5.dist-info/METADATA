@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: csinscapp
+Version: 0.1.5
+Summary: A simple UI library wrapping the REMI library
+Home-page: https://github.com/toanh/csinscapp
+Author: Toan Huynh
+Author-email: toan@csinschools.io
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: remi (>=2020.3.10)
+
+# csinscapp
+
+A simple UI library wrapping the REMI library
+
