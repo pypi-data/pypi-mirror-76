@@ -1,0 +1,16 @@
+#Bugs
+- Expect failure of `test_create_container_with_blkio_config`
+- Bump python-dotenv from 0.11.0 to 0.13.0
+- Add "distro" package
+- Bug fix 7242 docker-compose with buildkit does not insert container labels
+- [WIP] Sync compose-schemas with upstream (docker/cli)
+- Properly escape values coming from env_files, fixes #6871
+- Remove `None` entries on exec command
+- Force MacOS SDK version to "10.11"
+- Properly escape values coming from env_files, fixes #6871
+- Force MacOS SDK version to "10.11"
+- Add python-dotenv to delegate `.env` file processing
+- Enforce Python37 in the creation of virtualenv on windows CI
+- Don't adjust output on terminal width when piped into another command
+- Show an error message when version attribute is malformed
+- Suggested command is invalid

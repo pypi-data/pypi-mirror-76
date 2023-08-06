@@ -1,0 +1,16 @@
+#Features
+- Pin all indirect dependencies
+- Bump pytest from 5.3.4 to 5.4.2
+- Bump click from 7.0 to 7.1.2
+- Bump urllib3 from 1.25.7 to 1.25.9
+- General bumps to prepare 1.26.0
+- Bump certifi from 2019.11.28 to 2020.4.5.1
+- Bump certifi from 2019.11.28 to 2020.4.5.1
+- Add v3.8 schema support
+- Add v3.8 schema support
+- Add missing test dependency ddt to setup.py
+- Add missing test dependency ddt to setup.py
+- Add "--attach-dependencies" to command "up" for attaching to dependencies
+- Allow compatibility option with `COMPOSE_COMPATIBILITY` environment variable
+- Bump Pytest and add refactor compatibility with new version
+- Bump Pytest and add refactor compatibility with new version
