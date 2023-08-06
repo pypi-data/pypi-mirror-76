@@ -1,0 +1,3 @@
+hkdf==0.0.3
+cryptography==2.7
+fabric-sdk-py==0.8.1
