@@ -1,0 +1,2 @@
+from urlshortener.modelforms.ShortenerModelForm import ShortenerModelForm
+from urlshortener.modelforms.URLOnlyShortenerModelForm import URLOnlyShortenerModelForm

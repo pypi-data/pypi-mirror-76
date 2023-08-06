@@ -1,0 +1,15 @@
+{% extends "djangoadmin/base/body/index_admin.html" %}
+
+{% block body %}
+<form method="post" acion="" enctype="multipart/form-data">{% csrf_token %}
+    {% include "djangoadmin/widgets/TextInput_FormField.html" with field=form.title cls="mb-1" %}
+    {% include "djangoadmin/widgets/TextArea_FormField_Card.html" with field=form.description cls="mb-1" %}
+    {% include "djangoadmin/widgets/URLInput_FormField.html" with field=form.url cls="mb-1" %}
+{% endblock body %}
+
+{% block sidebar_right %}
+    {% include "djangoadmin/widgets/submit.html" with type="primary" value="Save" cls="mb-1" %}
+    {% include "djangoadmin/widgets/TextInput_FormField_Card.html" with field=form.slug cls="mb-1" %}
+    {% include "djangoadmin/widgets/FileInput_FormField_Card.html" with field=form.image cls="mb-1" %}
+</form>
+{% endblock sidebar_right %}

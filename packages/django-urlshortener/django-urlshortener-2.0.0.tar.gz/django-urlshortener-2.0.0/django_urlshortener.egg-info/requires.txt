@@ -1,0 +1,5 @@
+django
+djangoadmin
+djangotools
+djangocontact
+djangotags

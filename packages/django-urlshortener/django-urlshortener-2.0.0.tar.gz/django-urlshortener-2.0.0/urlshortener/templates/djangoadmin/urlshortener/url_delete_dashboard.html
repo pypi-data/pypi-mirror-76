@@ -1,0 +1,10 @@
+{% extends "djangoadmin/base/body/index_admin.html" %}
+
+{% block body %}
+{% include "djangoadmin/widgets/shortener_accordian_detail.html" with data=url_object %}
+{% include "djangoadmin/widgets/submit_form.html" with type="warning" value="remove" %}
+{% endblock body %}
+
+{% block sidebar_right %}
+{% include "djangoadmin/widgets/promo_window.html" %}
+{% endblock sidebar_right %}

@@ -1,0 +1,1 @@
+from urlshortener.models.ShortenerModel import ShortenerModel

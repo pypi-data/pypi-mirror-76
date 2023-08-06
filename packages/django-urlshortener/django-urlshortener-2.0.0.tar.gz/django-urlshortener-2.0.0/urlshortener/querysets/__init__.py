@@ -1,0 +1,1 @@
+from urlshortener.querysets.ShortenerModelQuerySet import ShortenerModelQuerySet

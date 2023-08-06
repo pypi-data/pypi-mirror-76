@@ -1,0 +1,1 @@
+from urlshortener.validators.shortcode_not_allowed import shortcode_not_allowed
