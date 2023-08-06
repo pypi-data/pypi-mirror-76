@@ -1,0 +1,8 @@
+README.md
+setup.py
+pkg/__init__.py
+pkg/test.py
+test_dexter_package.egg-info/PKG-INFO
+test_dexter_package.egg-info/SOURCES.txt
+test_dexter_package.egg-info/dependency_links.txt
+test_dexter_package.egg-info/top_level.txt
