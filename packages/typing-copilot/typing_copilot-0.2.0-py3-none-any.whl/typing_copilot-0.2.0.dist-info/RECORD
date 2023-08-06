@@ -1,0 +1,13 @@
+typing_copilot/__init__.py,sha256=Mj47_stZ9Ee4VqNe9tvjldVGU8X2zDpSmhZTdWhq9jo,58
+typing_copilot/cli.py,sha256=4-NG4qNtYBYRF6PtISOaYr8Rpf4RlTOO7E7dAjiFl9M,7340
+typing_copilot/config_generation.py,sha256=CGc_toJPhOXnD6-YWZ-M8qMmMriZ_-jHbBhKvr5Gf3k,1610
+typing_copilot/error_tracker.py,sha256=YnMy8rt_V2jeOaCUEV_ysXg2A43Xx_gV76l6I48b_Bc,11819
+typing_copilot/mypy_runner.py,sha256=f7jKPIpu7im3aPwgHlmRQcjfJv1i63P0vzsakhfkeTk,3574
+typing_copilot/validation.py,sha256=ibX-t2gVluPJW-YhmyS8lFq7iGkmqD3TREVnsOv43wE,741
+typing_copilot/verbosity.py,sha256=wu3GcFh7xJDmhxJsFozsYIc6KU8Hm6xYsyo7YiM3kVQ,317
+typing_copilot-0.2.0.dist-info/LICENSE,sha256=INxeA-XzjNfav1ix57746heykFP0Lgd3wJfexplyKAk,1073
+typing_copilot-0.2.0.dist-info/METADATA,sha256=8TJGp_JkO_ghJgp2CpkqarpxvQ_ks1d9JDLIiSLUz24,5397
+typing_copilot-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+typing_copilot-0.2.0.dist-info/entry_points.txt,sha256=bcFzRN1BW-gpKAbSgNQfCICEAQJqtak5sr11hos1T1k,47
+typing_copilot-0.2.0.dist-info/top_level.txt,sha256=YVjAYiRaQSnS8QCddzkJP7l4NFihQNSPqkGW0G92kD4,15
+typing_copilot-0.2.0.dist-info/RECORD,,
