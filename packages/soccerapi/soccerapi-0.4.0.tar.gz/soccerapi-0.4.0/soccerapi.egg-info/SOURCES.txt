@@ -1,0 +1,14 @@
+README.md
+setup.py
+soccerapi/__init__.py
+soccerapi/__version__.py
+soccerapi.egg-info/PKG-INFO
+soccerapi.egg-info/SOURCES.txt
+soccerapi.egg-info/dependency_links.txt
+soccerapi.egg-info/requires.txt
+soccerapi.egg-info/top_level.txt
+soccerapi/api/888sport.py
+soccerapi/api/__init__.py
+soccerapi/api/base.py
+soccerapi/api/bet365.py
+soccerapi/api/unibet.py
