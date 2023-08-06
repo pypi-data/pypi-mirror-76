@@ -1,0 +1,11 @@
+semspaces/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+semspaces/space.py,sha256=moLY0XauZB98VUhi-pbuPvDU6au7pPKDhNRee7LCC-E,13056
+semspaces/space_io.py,sha256=GcOR3NuPzaYo7OZXQxcEBI_fL3DyYqxyC_voZctyDqg,12503
+semspaces-0.1.4.data/scripts/csv_sims,sha256=C0jyF-24vmOzvCATGuQcaCCkZnif1fDIDCNjpwJp6aY,1743
+semspaces-0.1.4.data/scripts/subset_space,sha256=QB1_R0Oe5sQIhIV0ZCUKAGjDkto8o3twoKC61dfJ9IU,2213
+semspaces-0.1.4.data/scripts/w2v2ssm,sha256=8cEDONxorr3hN05IQtozqsI62S3NrqFQJmqJa66KLro,1029
+semspaces-0.1.4.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+semspaces-0.1.4.dist-info/METADATA,sha256=WmYbzZCFjZAh_GxUSPAZrnp2Pg3afgHip94JzLGtHW0,2353
+semspaces-0.1.4.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+semspaces-0.1.4.dist-info/top_level.txt,sha256=iSKFis5_QkLz4QrX36yWg-SZm2XjJWZrj028bQpdRrU,10
+semspaces-0.1.4.dist-info/RECORD,,
