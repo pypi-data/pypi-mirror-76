@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+ColorHarmony/__init__.py
+ColorHarmony/colorHarmony.py
+ColorHarmony/utils.py
+color_harmony.egg-info/PKG-INFO
+color_harmony.egg-info/SOURCES.txt
+color_harmony.egg-info/dependency_links.txt
+color_harmony.egg-info/entry_points.txt
+color_harmony.egg-info/requires.txt
+color_harmony.egg-info/top_level.txt

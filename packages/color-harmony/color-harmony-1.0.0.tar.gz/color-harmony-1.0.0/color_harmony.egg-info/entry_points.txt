@@ -1,0 +1,3 @@
+[console_scripts]
+color-harmony = ColorHarmony.colorHarmony:main
+
