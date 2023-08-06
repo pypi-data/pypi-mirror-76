@@ -1,0 +1,14 @@
+SimpleDataQualityAnalyzer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SimpleDataQualityAnalyzer/DomainObjects/AnalyzeOptions.py,sha256=7WYgAttdxGQfg1wOLltMj1J7duRk6IpUKSmrjv5mxoc,3566
+SimpleDataQualityAnalyzer/DomainObjects/Column.py,sha256=dm6yXPE0q7aAdrGigY68JwOQ9pqiTjYG2Rsw2gtCdx0,10322
+SimpleDataQualityAnalyzer/DomainObjects/Report.py,sha256=1vSIU4b_Mp--ETuvSI_X_iyOXrIi9Wo1lOm_gdh4twA,1910
+SimpleDataQualityAnalyzer/DomainObjects/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SimpleDataQualityAnalyzer/Services/Analyzer.py,sha256=9hP5pjpjs1theyC9e3XuZ-VNfiVQAcwm0ragq5h7zVU,4811
+SimpleDataQualityAnalyzer/Services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SimpleDataQualityAnalyzer/Services/Templates/functions.js,sha256=WG5oHIUvLjTP6ILCzfZB2TiSTfvusQPVsCHFF3wX0xw,10060
+SimpleDataQualityAnalyzer/Services/Templates/template.html,sha256=xNoH8LQyR9LHpgVUyNegl7wR7M-Osx0cIAYgUDZffq8,277724
+SimpleDataQualityAnalyzer-1.0.0.4.dist-info/LICENSE,sha256=9ayZj0Vu2Qt_0dS6wf4RPj7LuxIV1ZaFOg9iRo_7Xio,1089
+SimpleDataQualityAnalyzer-1.0.0.4.dist-info/METADATA,sha256=ull355UobAwWN8vFsVTVRIRSvdjLeBmX84W3QU76w6Y,5468
+SimpleDataQualityAnalyzer-1.0.0.4.dist-info/WHEEL,sha256=sI-vBbJF_F_l-R6JrPzLJ9vhJk6PcAXoAkIfwXdMgLI,97
+SimpleDataQualityAnalyzer-1.0.0.4.dist-info/top_level.txt,sha256=i5oAioO0-bHXcDGNRdD7bHlHeCsYDhNx1moUj0gza9w,26
+SimpleDataQualityAnalyzer-1.0.0.4.dist-info/RECORD,,
