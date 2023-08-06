@@ -1,0 +1,47 @@
+#!python
+
+from __future__ import print_function
+import os
+import sys
+
+sys.path.append(os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir))
+
+from clockifytool.api import ClockifyApi
+from clockifytool import app, cli, commands, __version__ as VERSION
+
+
+# Parse CLI arguments
+parser = cli.arg_parser()
+args = parser.parse_args(cli.preprocess_argv())
+
+# Display version if need be (config might not exist yet)
+if args.command == 'version':
+    print('clockifytool version {}'.format(VERSION))
+    sys.exit(0)
+
+# Load configuration
+try:
+    config = app.load_config()
+except Exception as e:
+    print(str(e))
+    sys.exit(1)
+
+# Authenticate
+clockify = ClockifyApi(config['api key'])
+
+# Display available workspaces or set workspace
+if 'workspace' not in config:
+    config_path = os.path.join(os.path.expanduser('~'), config['filename'])
+    print('Please set workspace ID as "workspace" in {}.'.format(config_path))
+    print("\nAvailable workspaces:")
+    commands.list_workspaces(None, None, {'clockify': clockify})
+    sys.exit(1)
+else:
+    clockify.set_workspace(config['workspace'])
+
+# Validate CLI arguments and execute command
+args = cli.validate_args(parser, args, config)
+command_function = getattr(commands, args.func)
+
+app_data = {'clockify': clockify}
+command_function(args, config, app_data)
