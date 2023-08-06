@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['taxtea', 'taxtea.migrations', 'taxtea.services']
+
+package_data = \
+{'': ['*'], 'taxtea': ['fixtures/*']}
+
+install_requires = \
+['django-localflavor>=3.0.1,<4.0.0',
+ 'django>=3.0.5,<4.0.0',
+ 'httpx>=0.13.3,<0.14.0',
+ 'xmltodict>=0.12.0,<0.13.0']
+
+entry_points = \
+{'console_scripts': ['build_docs = docs:makedocs']}
+
+setup_kwargs = {
+    'name': 'django-taxtea',
+    'version': '1.0.1',
+    'description': 'TaxTea - Django App that calculates tax rates for SaaS products',
+    'long_description': '<h1 align="center">TaxTea</h1>\n\n<div align="center">\n  <strong>Django app that calculates tax rates for SaaS products :frog: :tea:</strong>\n\n</div>\n\n<div align="center">\n  <sub>A little package that goes a long way. Built by\n  <a href="https://twitter.com/matt_strayer">Matt Strayer</a> and\n  <a href="https://github.com/lowercase-app/django-taxtea/graphs/contributors">\n    contributors\n  </a>\n  </sub>\n</div>\n\n<br />\n\n<div align="center">\n  <!-- Stability -->\n  <a href="https://pypi.python.org/pypi/django-taxtea/">\n    <img src="https://img.shields.io/pypi/status/django-taxtea.svg?style=flat-square"\n      alt="Stability" />\n  </a>\n  <!-- Version -->\n  <a href="https://pypi.python.org/pypi/django-taxtea/">\n    <img src="https://img.shields.io/pypi/v/django-taxtea.svg?style=flat-square"\n      alt="PyPi version" />\n  </a>\n\n  <!-- Python Support -->\n  <a href="https://pypi.python.org/pypi/django-taxtea/">\n    <img src="https://img.shields.io/pypi/pyversions/django-taxtea.svg?style=flat-square"\n      alt="Python Support" />\n  </a>\n\n  <!-- Code Coverage -->\n  <a href="https://codecov.io/gh/lowercase-app/django-taxtea">\n    <img src="https://codecov.io/gh/lowercase-app/django-taxtea/branch/master/graph/badge.svg"\n      alt="Code Coverage" />\n  </a>\n  <!-- License -->\n  <a href="https://pypi.python.org/pypi/django-taxtea/">\n    <img src="https://img.shields.io/pypi/l/django-taxtea.svg?style=flat-square"\n      alt="License" />\n  </a>\n  <!-- Sponsored -->\n  <a href="https://www.lowercase.app/">\n    <img src="https://img.shields.io/badge/Sponsored_By-lowercase-a463f2.svg?style=flat-square"\n      alt="Sponsored By" />\n  </a>\n</div>\n\n## Table of Contents\n\n- [Table of Contents](#table-of-contents)\n- [Purpose](#purpose)\n- [Features](#features)\n- [Installation](#installation)\n- [Settings](#settings)\n- [Required Accounts & Information](#required-accounts--information)\n  - [USPS](#usps)\n  - [Avalara](#avalara)\n  - [Nexuses](#nexuses)\n- [Usage](#usage)\n- [Example](#example)\n- [Documentation](#documentation)\n- [Resources](#resources)\n\n## Purpose\n\nTaxes are hard, but that shouldn\'t stop you from building your dreams. When building [lowercase](https://www.lowercase.app), we found out just how hard calculating the _right_ sales tax rate is. TaxTea does the heavy lifting, and tells you exactly what sales tax, if any, you need to charge your customers. So, sit back, sip some tea, and channel your inner [Kermit](https://i.kym-cdn.com/entries/icons/original/000/015/878/thatsnoneofmy.jpg) because tax rates are none of your business...anymore!\n\n> Currently only supporting US 🇺🇸\n\n\n## Features\n\n- __Simple API:__ Get up & running in minutes.\n- __Tax Nexuses, Origin, & Destination Support:__ The three factors in calculating tax rates. TaxTea handles them all expertly.\n- __Up-to-date:__ No more fear of charging a wrong tax rate. TaxTea is always up to date.\n\n\n## Installation\n\n```bash\npip install django-taxtea\n```\n\n## Settings\n\nAdd the following to your Django settings:\n\n```python\nTAXTEA_USPS_USER = "XXXXXXXX"           # required\nTAXTEA_AVALARA_USER = "XXXXXXXX"        # required\nTAXTEA_AVALARA_PASSWORD = "XXXXXXXX"    # required\nTAXTEA_NEXUSES = [("AZ", "12345"),]     # required\nTAXTEA_TAX_RATE_INVALIDATE_INTERVAL = 7 # optional, default is 7 (days)\n```\n\n## Required Accounts & Information\n\n### USPS\n\nTaxTea uses the USPS web service API to find states for Zip Codes. You\'ll need to register for a free account [here.](https://www.usps.com/business/web-tools-apis/)\n\n**NOTE: TaxTea only needs the USPS user, not the password.**\n\n### Avalara\n\nTaxTea relies on Avalara for getting up-to-date tax rates for Zip Codes. The Avalara website can be confusing, but to register simply hit the API endpoint documented [here.](https://developer.avalara.com/api-reference/avatax/rest/v2/methods/Free/RequestFreeTrial/)\n\n### Nexuses\n\nYour `TAXTEA_NEXUSES` are any place where your company has a presence. For example, every company has a nexus where they incorporated. We require there to be at least one item in this list, which is your physical incorporation state/zip.\n\nNexuses are part of the equation of how TaxTea calculates sales tax.\n\nThe determination of [sales tax sourcing](https://www.avalara.com/us/en/blog/2019/02/sales-tax-sourcing-how-to-find-the-right-rule-for-every-transaction.html) is predicated on whether a given state\'s model for taxation is:\n\n- Origin-based, or\n- Destination-based\n\nFor example, if your incorporation state is an _Origin-based_ state and a customer purchases your product who also lives in that state, it is the nexus\' Zip Code that is used to determine the tax rate, not the customer\'s location.\n\n_Destination-based_ sales tax means that the sales tax will be charged at the rate of the customer location. This is applicable for out of state transactions and transactions within a state that is not an Origin-based.\n\nWant to learn more? Here\'s a great article about [Origin vs. Destination-based Sales tax](https://blog.taxjar.com/charging-sales-tax-rates/) from TaxJar.\n\n## Usage\n\nAdd to `INSTALLED_APPS`:\n\n```python\nINSTALLED_APPS = [\n    ...,\n    "taxtea"\n]\n```\n\nRun migrations:\n\n```python\npython manage.py migrate\n```\n\n## Example\n\nImport the ZipCode model:\n\n```python\nfrom taxtea.models import ZipCode\n\n# Get the ZipCode Object from the database\n# If no object exists for this Zip Code, it will create one by\n# fetching data from the USPS API and storing it in the database.\n# At this point, there will be no `tax_rate` associated with it.\n\nzip_code = ZipCode.get("90210")\n\n# The `applicable_tax_rate` property is the workhorse of TaxTea.\n# It will fetch & store a tax rate from the Avalara API and then\n# use your tax nexuses to determine which tax rate is applicable.\n\ntax_rate = zip_code.applicable_tax_rate\n# Returns a Decimal object that will look like `0.0625`\n\n# For convenience, there is a classmethod to convert to a percent.\n\npercentage = ZipCode.tax_rate_to_percentage(tax_rate)\n# Returns a Decimal object that will look like `6.25`\n\n```\n\n## Documentation\n\nRead the [documentation](https://www.djangotaxtea.com).\n\n\n## Resources\n\nTaxTea uses a list provided by TaxJar to populate the states and their tax collection methods.\n\n- [SaaS Sales Tax](https://blog.taxjar.com/saas-sales-tax/)\n- [Origin / Destination States](https://blog.taxjar.com/charging-sales-tax-rates/)\n',
+    'author': 'Matt Strayer',
+    'author_email': 'git@mattstrayer.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://github.com/lowercase-app/django-taxtea',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'entry_points': entry_points,
+    'python_requires': '>=3.6.0,<4.0.0',
+}
+
+
+setup(**setup_kwargs)
