@@ -1,0 +1,16 @@
+idatasets/__init__.py,sha256=t2g5V1_EQ51WtMIy9AMGlRzYEYGD5WaNk1NSx-_JFLY,232
+idatasets/conftest.py,sha256=GBK3egfTYWLld3vsmUcWIoVxOrObMmlXu0PZBXtpdfc,111
+idatasets/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idatasets/datasets/basic_loaders.py,sha256=h_CyoZIQNyfNog43YOezHPrhs5tD4KVHd1NhDdY-Xvg,1848
+idatasets/datasets/monolingual.py,sha256=NbaQv1qRXOrqDBa0E4tP-gWa4zMaGqjHn3TrK56Y-lU,744
+idatasets/datasets/util.py,sha256=_DsbzsqFaW1hvk9-Qrjk99Qzh57WlhT9Ar_8hmrm4zg,5707
+idatasets/datasets/wikipedia.py,sha256=ALSwRychjsrDrSLort2VrOBeewYil1ieylQA7wak8gU,1372
+idatasets/vendor/WikiExtractor.py,sha256=a7c9qqB9gjwm5DGxCLuBRPRSjBeck6sz8UoHUYazbcw,120180
+idatasets/vendor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+indic_nlp_datasets-0.1.dist-info/LICENSE,sha256=06Y9_I9EBh6_jR_immFP_31dERdyz_ckSpKnasvo3P4,1068
+indic_nlp_datasets-0.1.dist-info/METADATA,sha256=yx8Xg-eN98sW0ypad7LRqYRYslvMpTG1xJw6zapy_nA,1728
+indic_nlp_datasets-0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+indic_nlp_datasets-0.1.dist-info/entry_points.txt,sha256=31ua4E8Uai2OmWlKtTc8TVLFDhyKMxsQfko2Z2Dnpv8,71
+indic_nlp_datasets-0.1.dist-info/top_level.txt,sha256=5XRWz1tOWtTeoxqkC-JMe2RfLUo3IphD6tPoap5o3j0,10
+indic_nlp_datasets-0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+indic_nlp_datasets-0.1.dist-info/RECORD,,
