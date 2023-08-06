@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "slack-timezoner"
+version = "0.1.3"
+description = "A toy app to give a breakdown of timezone distribution in a slack workgroup"
+authors = ["Chris Adams <chris@productscience.co.uk>"]
+license = "Apache-2.0"
+repository = "https://github.com/mrchrisadams/slack-timezoner"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.6"
+django = "^3.0.8"
+python-dotenv = {extras = ["cli"], version = "^0.14.0"}
+slackclient = "^2.7.2"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+ipdb = "^0.13.3"
+
+[tool.poetry.scripts]
+slack_timezoner = 'minimal:run_as_server'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
