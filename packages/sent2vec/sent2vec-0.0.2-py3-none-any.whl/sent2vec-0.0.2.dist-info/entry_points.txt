@@ -1,0 +1,3 @@
+[console_scripts]
+pdrm83 = sent2vec.__main__:main
+
