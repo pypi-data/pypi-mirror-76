@@ -1,0 +1,3 @@
+[console_scripts]
+asql = asql.main:main
+

@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: asql
+Version: 0.1.1
+Summary: Query a database in natural language
+Home-page: https://github.com/paulfitz/asql
+Author: Paul Fitzpatrick
+Author-email: paulfitz@alum.mit.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: postgres
+Provides-Extra: mysql
