@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: geosardine
+Version: 0.2.1a0
+Summary: Spatial operations extend fiona and rasterio
+License: MIT
+Author: Sahit Tuntas Sadono
+Author-email: 26474008+sahitono@users.noreply.github.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: affine (>=2.3.0,<3.0.0)
+Requires-Dist: fiona
+Requires-Dist: gdal
+Requires-Dist: numpy (>=1.18,<2.0)
+Requires-Dist: rasterio
+Requires-Dist: shapely (>=1.6.4,<2.0.0)
