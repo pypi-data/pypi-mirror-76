@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: DjangoDjangoAppCenter
+Version: 0.0.11
+Summary: awsome project created by pycman.
+Home-page: http://example.com
+Author: singein
+Author-email: singein@outlook.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: docutils (==0.16)
+Requires-Dist: django-cors-headers (==3.3.0)
+Requires-Dist: django (==3.0.2)
+Requires-Dist: djangorestframework (==3.11.0)
+Requires-Dist: django-filter (==2.2.0)
+Requires-Dist: fire
+Requires-Dist: osprofile (==0.2.1)
+Requires-Dist: pypinyin (==0.37.0)
+Requires-Dist: psycopg2 (==2.8.4)
+
+DjangoAppCenter
+
+
+

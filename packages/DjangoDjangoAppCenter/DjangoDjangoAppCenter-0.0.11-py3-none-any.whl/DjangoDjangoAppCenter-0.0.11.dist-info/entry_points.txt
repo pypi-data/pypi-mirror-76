@@ -1,0 +1,3 @@
+[console_scripts]
+djapps = DjangoAppCenter.cli:entry
+
