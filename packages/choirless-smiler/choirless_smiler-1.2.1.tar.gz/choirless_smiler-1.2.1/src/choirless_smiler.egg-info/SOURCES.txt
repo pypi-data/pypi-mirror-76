@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/choirless_smiler/__init__.py
+src/choirless_smiler/smile_detector.tflite
+src/choirless_smiler/smiler.py
+src/choirless_smiler.egg-info/PKG-INFO
+src/choirless_smiler.egg-info/SOURCES.txt
+src/choirless_smiler.egg-info/dependency_links.txt
+src/choirless_smiler.egg-info/entry_points.txt
+src/choirless_smiler.egg-info/requires.txt
+src/choirless_smiler.egg-info/top_level.txt

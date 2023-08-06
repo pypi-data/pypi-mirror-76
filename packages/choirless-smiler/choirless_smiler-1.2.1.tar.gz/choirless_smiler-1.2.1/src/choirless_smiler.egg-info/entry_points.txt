@@ -1,0 +1,3 @@
+[console_scripts]
+smiler = choirless_smiler.smiler:main
+
