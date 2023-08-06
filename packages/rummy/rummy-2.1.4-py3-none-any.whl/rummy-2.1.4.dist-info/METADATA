@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: rummy
+Version: 2.1.4
+Summary: Console Rummy game
+License: MIT
+Author: Sarcoma
+Author-email: sean@orderandchaoscreative.com
+Requires-Python: >=3.4,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pygments (==2.2.0)
+Requires-Dist: ansi-colours (==0.2.6)
+Requires-Dist: codecov (==2.0.15)
+Requires-Dist: colorama (==0.4.0)
+Requires-Dist: coverage (==4.5.1)
+Requires-Dist: more-itertools (==4.3.0)
+Requires-Dist: pytest (==3.10.0)
+Requires-Dist: pytest-cov (==2.6.0)
+Requires-Dist: pytest-mock (==1.10.0)
+Requires-Dist: text-template (==0.1.4)
