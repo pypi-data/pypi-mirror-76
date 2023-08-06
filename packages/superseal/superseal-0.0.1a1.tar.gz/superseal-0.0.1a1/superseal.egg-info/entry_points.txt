@@ -1,0 +1,3 @@
+[console_scripts]
+superseal = superseal.cli:command_line_interface
+
