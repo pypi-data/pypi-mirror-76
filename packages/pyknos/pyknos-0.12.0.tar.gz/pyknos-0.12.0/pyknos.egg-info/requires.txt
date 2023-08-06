@@ -1,0 +1,6 @@
+matplotlib
+nflows==0.12
+numpy
+tensorboard
+torch
+tqdm
