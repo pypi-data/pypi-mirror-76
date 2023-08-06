@@ -1,0 +1,8 @@
+twine_verify_upload/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+twine_verify_upload/command.py,sha256=eyEhheSdyPKjmjQ-oGhDSbulqrFqM6OHh_NwPPXvNb0,8091
+twine_verify_upload-0.0.3.dist-info/LICENSE,sha256=FO1UmQEg7-omBCJpiF3zbhtT24WL8EtAyM_IxeEvb7E,9695
+twine_verify_upload-0.0.3.dist-info/METADATA,sha256=dzd2rZEbzeuEOdmyZl_k4HRat66q45xxc_av4vC4Sj0,2875
+twine_verify_upload-0.0.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+twine_verify_upload-0.0.3.dist-info/entry_points.txt,sha256=8JhHX9fbigDHj5MsxiXBPL_5499dNY0MjVnI5VIJmiE,78
+twine_verify_upload-0.0.3.dist-info/top_level.txt,sha256=xpjEPTFeNMk4IDRt3Tg9D5jHBBRbO7Ak6gbm5UAVqo0,20
+twine_verify_upload-0.0.3.dist-info/RECORD,,
