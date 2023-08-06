@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: dstl
+Version: 0.0.2
+Summary: DataSet TransLation (DSTL) provides utilities to translate annotated natural language data from one language to another.
+Home-page: https://github.com/kabirkhan/dstl
+Author: Kabir Khan
+Author-email: kabirkhan1137@outlook.com
