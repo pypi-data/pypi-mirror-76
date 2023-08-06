@@ -1,0 +1,11 @@
+ImageGoNord/GoNord.py,sha256=_g2f2p8ON5gY0QDbyvd4npD91a4Tih5u1yOmfNBO8Fg,11148
+ImageGoNord/__init__.py,sha256=tb_5ClG5hE0nNAB_tQq-VAnpfX3GqIbwToSVhx54SuE,72
+ImageGoNord/utility/ConvertUtility.py,sha256=JozMvSW6APXbW9tsfxaUKyUX-gMQFDIcDPtI5L52w04,1541
+ImageGoNord/utility/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ImageGoNord/utility/palette_loader.py,sha256=TESMVUOZnGpeQLICzvvrz5wrlTZm0ACM8LKCPt-354w,2347
+ImageGoNord/utility/quantize.py,sha256=ZYVbSYLROBud2O8Im-cZbRP7SOG6jnIRREGjRq_wBAU,930
+image_go_nord-0.0.6.dist-info/LICENSE,sha256=MMIAt-2Obu00XKoDuDEnigJQahuutYo14-DqsYn_n2g,1073
+image_go_nord-0.0.6.dist-info/METADATA,sha256=FQ9MMMGVLuBdW0qZGe9PNEvfbAb6I4HGfZQK8FLazak,4024
+image_go_nord-0.0.6.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+image_go_nord-0.0.6.dist-info/top_level.txt,sha256=YLWe-06Vssygtm_EV9AbrDw2Uin7f35aRaYY-mPSUyc,12
+image_go_nord-0.0.6.dist-info/RECORD,,
