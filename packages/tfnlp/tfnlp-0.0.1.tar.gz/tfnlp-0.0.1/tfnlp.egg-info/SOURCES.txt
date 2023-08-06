@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+tfnlp.egg-info/PKG-INFO
+tfnlp.egg-info/SOURCES.txt
+tfnlp.egg-info/dependency_links.txt
+tfnlp.egg-info/requires.txt
+tfnlp.egg-info/top_level.txt
