@@ -1,0 +1,12 @@
+TBG/CMD.py,sha256=YnTKwoE2IuQHAs_oNLVSF4muCZ4z6oGxS-fEvWSG8Ns,1476
+TBG/__init__.py,sha256=9ECq71wwtbbGNpzWxVOXnSg6eS4mrK5IMyFTUtEE0T0,63
+TBG/default_help.py,sha256=vRpZtBf8m_oYWhtwEliwkAxq_YTbVux_AWjDmr9LxZk,3729
+TBG/fight_move.py,sha256=n-PeAVFJn1ZnZjIsJTO3DFSFo1poTv0qDMYpBq4oyys,1765
+TBG/item.py,sha256=ggV_rdzb-CwV4dmUQlJ7k1QuB8UUhuubspNrTejYwj4,5192
+TBG/level.py,sha256=DmXzCFrOQVQ0Xk_D4JCoWGNjQBekuD-4qVjPUWEuzaQ,13916
+TBG/player.py,sha256=D0jY8ZJyMm4Ynn2wiYzvrcad1ruja2fNNC-5SIbjCbM,16839
+TBG/room.py,sha256=JBTi7F7f6IOa103UYPVdkSSWSOOcdYjg68qEANJZzjA,2248
+Futshane_TBG-1.0.0.dist-info/METADATA,sha256=e4jkBf0ULpXJbwNoRMAtkepGV2ulWoh8Khyny-2H70E,32829
+Futshane_TBG-1.0.0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+Futshane_TBG-1.0.0.dist-info/top_level.txt,sha256=wkndhWNK0AxmU9AZg6T3W9YOMr9vw9-gwoHBWCTNn7A,4
+Futshane_TBG-1.0.0.dist-info/RECORD,,
