@@ -1,0 +1,5 @@
+[console_scripts]
+do_acl = cloudgenix_tenant_acl.do:go
+optimize_acl = cloudgenix_tenant_acl:optimize_acl
+pull_acl = cloudgenix_tenant_acl.pull:go
+

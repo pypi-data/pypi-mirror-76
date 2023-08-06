@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+cloudgenix_tenant_acl/__init__.py
+cloudgenix_tenant_acl/do.py
+cloudgenix_tenant_acl/pull.py
+cloudgenix_tenant_acl.egg-info/PKG-INFO
+cloudgenix_tenant_acl.egg-info/SOURCES.txt
+cloudgenix_tenant_acl.egg-info/dependency_links.txt
+cloudgenix_tenant_acl.egg-info/entry_points.txt
+cloudgenix_tenant_acl.egg-info/requires.txt
+cloudgenix_tenant_acl.egg-info/top_level.txt

@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: cloudgenix_tenant_acl
+Version: 1.0.0b1
+Summary: Scripts to Download, Upload, and Optimize a CloudGenix Tenant Access List.
+Home-page: https://github.com/ebob9/cloudgenix_tenant_acl
+Author: Aaron Edwards
+Author-email: cloudgenix_tenant_acl@ebob9.com
+License: MIT
+Description: cloudgenix_tenant_acl
+        ------
+        
+        Scripts to Download, Upload, and Optimize a CloudGenix Tenant Access List.
+        
+        pull_acl[.py]: Download a tenant ACL list.
+        ```text
+        usage: pull_acl.py [-h] --output OUTPUT [--no-client-login] [--controller CONTROLLER] [--email EMAIL] [--password PASSWORD] [--insecure] [--noregion]
+                           [--sdkdebug SDKDEBUG]
+        ```
+        
+        do_acl[.py]: Upload and activate a tenant ACL list.
+        ```text
+        usage: do_acl.py [-h] --input INPUT [--archive ARCHIVE] [--no-client-login] [--controller CONTROLLER] [--email EMAIL] [--password PASSWORD] [--insecure] [--noregion]
+                         [--sdkdebug SDKDEBUG]
+        ```
+        
+        optimize_acl[.py]: Optimize a tenant ACL list with a lossy superneting function.
+        ```text
+        usage: optimize_acl.py [-h] --input INPUT --output OUTPUT [--match-quality MATCH_QUALITY] [--ip-mismatch-limit IP_MISMATCH_LIMIT]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
