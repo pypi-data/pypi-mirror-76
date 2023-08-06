@@ -1,0 +1,10 @@
+debugprint/__init__.py,sha256=Vo5sQ6sKTh-tA86cjNUQLssVeG53bKzNfjw_acvLKek,42
+debugprint/debugprint.py,sha256=qvehn_Wa-p8CPavZ8jJnK9NOryTUJV3xq9MSIng802I,4657
+test/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+test/test_debugprint.py,sha256=7yh0l164wiK060WAcpznMEPMzQmPTL0mZ1RZr-whD7U,4657
+test/test_env_var_handling.py,sha256=uAe1wwRgWLyX-dpeYK_nsPD9jNwNeMQdVeeESl5Z7do,2498
+debugprint-0.1.8.dist-info/LICENSE,sha256=TRD-XzqhdrBbIpokiGa61wuDTBc_ElKoFP9HSNihODc,10255
+debugprint-0.1.8.dist-info/METADATA,sha256=RWfpW47Bc5UqGlcGM_VOMNOclsBo_Oi9uen44e5DZFo,7530
+debugprint-0.1.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+debugprint-0.1.8.dist-info/top_level.txt,sha256=BDAEmGCudvKP8jIp7vsxs_SfAbXTGGZWdOtfBtLR-Z0,16
+debugprint-0.1.8.dist-info/RECORD,,
