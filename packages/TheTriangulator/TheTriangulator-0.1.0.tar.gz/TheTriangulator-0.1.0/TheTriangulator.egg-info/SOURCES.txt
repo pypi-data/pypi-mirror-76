@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+TheTriangulator.json
+setup.cfg
+setup.py
+TheTriangulator/__init__.py
+TheTriangulator/_version.py
+TheTriangulator/triangulator.py
+TheTriangulator.egg-info/PKG-INFO
+TheTriangulator.egg-info/SOURCES.txt
+TheTriangulator.egg-info/dependency_links.txt
+TheTriangulator.egg-info/not-zip-safe
+TheTriangulator.egg-info/requires.txt
+TheTriangulator.egg-info/top_level.txt
+TheTriangulator/static/extension.js
+TheTriangulator/static/index.js
+TheTriangulator/static/index.js.map
