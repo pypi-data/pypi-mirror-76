@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+clint_utilities/__init__.py
+python_clint_utilities.egg-info/PKG-INFO
+python_clint_utilities.egg-info/SOURCES.txt
+python_clint_utilities.egg-info/dependency_links.txt
+python_clint_utilities.egg-info/requires.txt
+python_clint_utilities.egg-info/top_level.txt
