@@ -1,0 +1,15 @@
+housie_game.py,sha256=pwZwo5jOem2v6vf31XyD3-W-Mu3JegbjuvEaAkJ0WkU,294
+housie/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+housie/constants.py,sha256=ZxZdF2P90I8B3r6IeRJdR7_LaFClxjbQ2MSCBoXDtBc,1726
+housie/display_util.py,sha256=7gNAEUodsQQXGzBD2rDhOdrFC1elwCNv1cuhRdXRqUM,3347
+housie/game.py,sha256=Bid0L26V2rLZunNmFfOgLwttnQnlCQ-Xw8LN7lFKxPg,5544
+housie/generate_ticket.py,sha256=M0Cdb1BuiXai0KkF_kk4WzmvhQUwLoHiMeEC7AQPE3g,5093
+housie/utils.py,sha256=7zHvwk6TcMLjB9LTQYCRm9Tz_yF_NRTGXxDHXm1lNBc,804
+housie/models/__init__.py,sha256=J1am8ZA4wRJMhSB5cvGnuVfy8jC0itmJwU6Q60v3yE8,93
+housie/models/housie.py,sha256=AYtdFVXPtjTtncQO8UC_nAAFK-ckm696Kytg6y0zcpk,3105
+housie/models/ticket.py,sha256=O5t2ZbdCGMyAC30xzbuJens0kajA1y6mm2ErdC7TbJU,3996
+housie-0.0.2.dist-info/LICENSE.txt,sha256=-eXuP11s7u3dTUytbuBtF5DgcBi4yOwwZ8LZll8lRaQ,10760
+housie-0.0.2.dist-info/METADATA,sha256=aCrcEtB34YR8sI1c2081CM1B4fHETztiBsgA3n2OprA,4661
+housie-0.0.2.dist-info/WHEEL,sha256=YNlcxLoRZfMqjEfLMA4_N5GPCL0Yw1E8c7zrDjEU0Bk,92
+housie-0.0.2.dist-info/top_level.txt,sha256=54aZHs5yPF0JR6-LHi18mmKtjnYWrzBp7_LQLUKhEhE,7
+housie-0.0.2.dist-info/RECORD,,
