@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+curly/__init__.py
+curly/_curly.c
+curly/_curly.pyx
+curly/_include.pxi
+curly/_queue.pxi
+pycurly.egg-info/PKG-INFO
+pycurly.egg-info/SOURCES.txt
+pycurly.egg-info/dependency_links.txt
+pycurly.egg-info/top_level.txt
