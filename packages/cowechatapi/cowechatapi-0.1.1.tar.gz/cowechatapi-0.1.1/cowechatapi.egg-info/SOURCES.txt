@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+cowechatapi/__init__.py
+cowechatapi/cowechat.py
+cowechatapi/cowechat_api.py
+cowechatapi.egg-info/PKG-INFO
+cowechatapi.egg-info/SOURCES.txt
+cowechatapi.egg-info/dependency_links.txt
+cowechatapi.egg-info/entry_points.txt
+cowechatapi.egg-info/top_level.txt
