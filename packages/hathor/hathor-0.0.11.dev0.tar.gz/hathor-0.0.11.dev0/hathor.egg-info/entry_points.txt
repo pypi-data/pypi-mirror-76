@@ -1,0 +1,3 @@
+[console_scripts]
+hathor = hathor.__main__:cli
+
