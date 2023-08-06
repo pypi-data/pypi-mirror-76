@@ -1,0 +1,3 @@
+[console_scripts]
+meross_sniffer = utilities.meross_sniffer:main
+
