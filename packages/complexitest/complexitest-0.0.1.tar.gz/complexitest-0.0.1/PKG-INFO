@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: complexitest
+Version: 0.0.1
+Summary: Algorithm Complexity Estimator
+Home-page: https://github.com/toshikurauchi/complexity_estimator
+Author: Andrew Kurauchi
+Author-email: andrew.kurauchi@gmail.com
+License: MIT
+Description: # Complexity Estimator
+        
+        Estimates big-O complexity of Python code.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
