@@ -1,0 +1,17 @@
+pip
+packaging
+fastcore>=0.1.29
+torchvision>=0.7
+matplotlib
+pandas
+requests
+pyyaml
+fastprogress>=0.2.4
+pillow
+scikit-learn
+scipy
+spacy
+torch>=1.6.0
+
+[dev]
+nbdev>=0.2.20
