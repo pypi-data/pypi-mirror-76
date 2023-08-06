@@ -1,0 +1,11 @@
+README.md
+setup.py
+nestlify/__init__.py
+nestlify/nesting/__init__.py
+nestlify/nesting/nester.py
+nestlify/testing/__init__.py
+nestlify/testing/nestor.py
+nestlify_richard_arc.egg-info/PKG-INFO
+nestlify_richard_arc.egg-info/SOURCES.txt
+nestlify_richard_arc.egg-info/dependency_links.txt
+nestlify_richard_arc.egg-info/top_level.txt
