@@ -1,0 +1,18 @@
+CHANGES
+=======
+
+v0.0.2
+------
+
+* update changelog
+* add license
+
+v0.0.1
+------
+
+* add author, changelog
+* add test script
+* fix bugs: timer summary
+* add readme
+* add package configs
+* add timer, logger
