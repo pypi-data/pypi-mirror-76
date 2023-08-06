@@ -1,0 +1,5 @@
+Etapes pour distribuer:
+0 - modifier setup.py
+1 - python setup.py sdist
+2 - python setup.py bdist_wheel --universal
+3 - twine upload dist/* (compte PyPI a.teffal - MDP Mimide2012
