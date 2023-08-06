@@ -1,0 +1,3 @@
+[console_scripts]
+super-taxi-api = super_taxi.__main__:main
+
