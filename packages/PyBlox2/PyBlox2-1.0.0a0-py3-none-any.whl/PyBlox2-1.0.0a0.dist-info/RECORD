@@ -1,0 +1,15 @@
+PyBlox2/Base.py,sha256=zAyFo4YBLjLuzQE9NvqLUWYcxqY9xME7__a9LeCkjlQ,132
+PyBlox2/Errors.py,sha256=ACcYPgCIa85M889lwrJRTRuCH8MPyHN25FQq7tWy5Js,856
+PyBlox2/General.py,sha256=zwqg5Pyp1VCY8sfQdST_eC0or9Q5KjyKG-wSHBFq0hU,4135
+PyBlox2/Groups.py,sha256=j3lgzq_-BWA1CPRNwO1myq8DGX8zEcaPJ2FAqeRKgxE,6733
+PyBlox2/Member.py,sha256=puQ4I3Ej3_FvBC3Vl8nAfiaszDmvylVodX8-GXYGnLs,1733
+PyBlox2/Ranks.py,sha256=MT1mgrm7JCSNzBkTbJac-y89kJfsrKxK_qqfQlzL3zk,1201
+PyBlox2/RobloxWebClient.py,sha256=BbgP3JbuxdwE0CHVli1PsQFktpYVid_FloduAInI5fU,8890
+PyBlox2/Settings.py,sha256=9exf6v_CWOYhPAFV00cMFu6oxi-5MB2RoDAkQ4gFt14,455
+PyBlox2/__init__.py,sha256=_usjoo4nc6t89Lak9RiF37abveTYm_bF1PhVe-UNGwk,381
+PyBlox2/response.py,sha256=XfwVvVag7crzj92FxE2SMQjKd8ZwkpWY4qRMsmGCwks,675
+PyBlox2-1.0.0a0.dist-info/LICENSE.md,sha256=8wZmy9O7OF5jYVNiSSJj_4MiOYuUrGbsNfWUFbfPZDM,1060
+PyBlox2-1.0.0a0.dist-info/METADATA,sha256=ueCxw0fpyjxYQmwxdn1vniDv40hJtlhnxU829lXxMeg,445
+PyBlox2-1.0.0a0.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+PyBlox2-1.0.0a0.dist-info/top_level.txt,sha256=f729RQmQezxs808FjQx0FGBtq8FkqflLw1RAmH2xEZE,8
+PyBlox2-1.0.0a0.dist-info/RECORD,,
