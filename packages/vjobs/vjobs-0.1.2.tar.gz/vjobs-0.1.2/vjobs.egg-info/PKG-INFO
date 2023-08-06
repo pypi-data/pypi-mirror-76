@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vjobs
+Version: 0.1.2
+Summary: Posts jobs scraped from websites to facebook
+Home-page: https://gitlab.com/flaxking/virden-jobs
+Author: flaxking
+Author-email: flaxking@digitalnostril.com
+License: UNKNOWN
+Description: Posts jobs scraped from websites to facebook
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
