@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+crun_py.egg-info/PKG-INFO
+crun_py.egg-info/SOURCES.txt
+crun_py.egg-info/dependency_links.txt
+crun_py.egg-info/entry_points.txt
+crun_py.egg-info/top_level.txt
+src/cRun.py
