@@ -1,0 +1,8 @@
+bord/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bord/bord.py,sha256=erWltSAoAHP8MWS0ztMhApymKZqM8wDuXx-tTul-1bU,2049
+bord/cli.py,sha256=vtinlZ-284rjAWsn0XbOAL2r124WcSURkOnU2MLwhgs,333
+bord/config.py,sha256=6AejnTNHOYF6B1H0M_pwPgwyvmdCUVD9RkxgXwlcdnc,2204
+bord-0.3.2.dist-info/entry_points.txt,sha256=Nvg_b3qyHUObdZaYLmCoUYTlwUofqw49je1cj0CQ_RI,38
+bord-0.3.2.dist-info/WHEEL,sha256=xSvaL1DM8LOHfdyo0cCcwjZu1tC6CnCsRGWUgazvlbM,83
+bord-0.3.2.dist-info/METADATA,sha256=zNW79NbgOMpAB8aqmV1axoqgmpbEa1elab4yFs7Gc2w,459
+bord-0.3.2.dist-info/RECORD,,
