@@ -1,0 +1,3 @@
+[console_scripts]
+cookdata_convert = cookdata_convert.__main__:main
+
