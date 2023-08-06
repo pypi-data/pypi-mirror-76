@@ -1,0 +1,15 @@
+pop_projection/Actuariat.py,sha256=o2PGbjJqYHQFGaRIBeuualO7bggMa9vb3QlZJQodL30,6157
+pop_projection/Cashflows.py,sha256=1_94wtFCXYBujVx3ZoCagTMGwqmm1Xqn_3JCYFmuu2A,10441
+pop_projection/Effectifs.py,sha256=iOst7kPNV-prO-8MDMR42bUggFht1WtD5HgDP9umGfQ,72744
+pop_projection/__init__.py,sha256=mdrMdbCXmcHPVO-cDKFijshBiVDsJZ8xC1axJ5Vh7iQ,21
+pop_projection/sample_laws.py,sha256=fCrFpoj-zjzYMLA_Qaws5EP74RHFRwad05KHixoUpCo,2593
+pop_projection/table_usa_2009.csv,sha256=ftw6UDeBoI8phY6Xiy9Or7OJLGaDFvuD_NMdGU0Kyew,1144
+pop_projection/tools.py,sha256=oxkMwO1yLmxnMWlnPc8LvTwnhNhn5kV3snICeZEPtv0,5595
+pop_projection/data/children.csv,sha256=oU6HXWqyJqxocDYvR_bTgoahBVp9_e5HgWsOUXo_FjQ,3136
+pop_projection/data/employees.csv,sha256=pkUik5vQF6jcscicR5w2UliTaB2m0h-E5m3TsqAJV8M,3896
+pop_projection/data/spouses.csv,sha256=_dJRzFO4Kcja3ujE60Kf4nS_QKayBRESrSo6in4jIg0,3029
+pop_projection-2.2.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+pop_projection-2.2.0.dist-info/METADATA,sha256=gyBRKOWo054gAAxyTzAy8k1G37aG0gGKiyIH_w1VZZQ,8028
+pop_projection-2.2.0.dist-info/WHEEL,sha256=JZXtYepZFsf4IoivNpnSgKIc4qTHan08DRd56koo_DM,116
+pop_projection-2.2.0.dist-info/top_level.txt,sha256=LSgt_OMbkIJlZ3fZTNmBugSNth6QtThDrnK-jiBSCNA,15
+pop_projection-2.2.0.dist-info/RECORD,,
