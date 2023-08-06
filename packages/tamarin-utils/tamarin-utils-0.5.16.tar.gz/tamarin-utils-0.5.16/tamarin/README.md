@@ -1,0 +1,99 @@
+# Holger Utils
+
+
+## Sentry
+> settings.py
+```python
+from tamarin import sentry
+...
+SENTRY_KEY = '<your sentry key>'
+SENTRY_ORGANIZATION = '<your sentry organization name>'
+SENTRY_PROJECT = '<your sentry project name>'
+SENTRY_ALLOWED_ALL = 'if true all status captured' # default False
+SENTRY_ALLOWED_STATUS = 'list of status that should capture' # default []
+sentry.init()
+```
+or
+```python
+from tamarin import sentry
+...
+SENTRY_URL = '<your sentry url>'
+SENTRY_ALLOWED_ALL = 'if true all status captured' # default False
+SENTRY_ALLOWED_STATUS = 'list of status that should capture' # default []
+sentry.init()
+``` 
+ 
+
+## Elastic search
+> settings.py
+```python
+ELASTIC_PROTOCOL = '<http or https>' # default 'http'
+ELASTIC_HOST = '<host that elastic run>' # default 'localhost'
+ELASTIC_PORT = '<listen port>' # default 9200
+ELASTIC_USE_SSL = '' # default False
+TIME_ZONE = '<elastic timezone>' # default 'UTC'
+ALLOWED_STATUS = ['<allowed status>'] # default []
+```
+
+## Firebase
+> settings.py
+```python
+FIREBASE_APP_OPTIONS = '<app dict options>' # default {}
+FIREBASE_APP_NAME = 'your app name' # default 'FIRESTORE_DEFAULT'
+```
+
+
+## Log
+> for use log, you must config elastic search and sentry before
+
+
+
+## JWT Authentication
+in your root urls.py file (or any other url config), 
+include routes for Tamarin’s 
+TokenObtainPairView and TokenRefreshView views:
+```python
+from django.urls import path
+from tamarin.rest.authorization import (
+    TamarinTokenObtainPairView,
+    TamarinRefreshView
+)
+urlpatterns = [
+    ...,
+    path('apiv1/accounts/token/', TamarinTokenObtainPairView.as_view(), name='token_obtain_pair'),
+    path('apiv1/accounts/refresh/', TamarinRefreshView.as_view(), name='token_refresh'),
+    ...
+]
+```
+### Settings
+Some of Tamarin’s authentication behavior can be 
+customized through settings variables in settings.py
+```python
+from datetime import timedelta
+
+SIMPLE_JWT = {
+    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=5),
+    'REFRESH_TOKEN_LIFETIME': timedelta(days=1),
+    'ROTATE_REFRESH_TOKENS': False,
+    'BLACKLIST_AFTER_ROTATION': True,
+
+    'ALGORITHM': 'HS256',
+    'SIGNING_KEY': SECRET_KEY,
+    'VERIFYING_KEY': None,
+    'AUDIENCE': None,
+    'ISSUER': None,
+
+    'AUTH_HEADER_TYPES': ('Bearer',),
+    'USER_ID_FIELD': 'id',
+    'USER_ID_CLAIM': 'user_id',
+
+    'AUTH_TOKEN_CLASSES': ('tamarin.rest.authorization.AccessToken',),
+    'TOKEN_TYPE_CLAIM': 'token_type',
+
+    'JTI_CLAIM': 'jti',
+
+    'SLIDING_TOKEN_REFRESH_EXP_CLAIM': 'refresh_exp',
+    'SLIDING_TOKEN_LIFETIME': timedelta(minutes=5),
+    'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
+}
+```
