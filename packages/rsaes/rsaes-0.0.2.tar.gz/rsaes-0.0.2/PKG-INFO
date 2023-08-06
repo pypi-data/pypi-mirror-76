@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: rsaes
+Version: 0.0.2
+Summary: RSA + AES cryptography algorithms
+Home-page: https://t.me/sidqdev
+Author: Sidq
+Author-email: dimax258223@gmail.com
+License: UNKNOWN
+Description: pip install rsa<br>
+        pip install PyCryptoDomex<br>
+        
+        1. Import modules<br>
+        
+        import rsa<br>
+        from rsaes import rsaes<br>
+        
+        2. Creat RSA PublicKey and PrivateKey<br>
+        
+        pb, pv = rsa.newkey(1024)<br>
+        
+        3. Encrypt data<br>
+        
+        cd, ck = rsaes.encrypt(b'Hello', pb)<br>
+        
+        4. Decrypt data<br>
+        
+        data = rsaes.decrypt(cd, ck, pv)<br>
+        
+        Used when encrypting large amounts of data using RSA and AES algorithms<br>
+        
+        My telegram: https://t.me/sidqdev<br>
+        By sidq with love<br>
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
