@@ -1,0 +1,17 @@
+{
+    "osu! path": "/Users/yuitora./Documents/osu!.app/Contents/Resources/drive_c/osu!",
+    "Skin path": "/Users/yuitora./Downloads/vaxei 2",
+    "Beatmap path": "/Users/yuitora./Downloads/ascension",
+    ".osr path": "/Users/yuitora./Downloads/ascension2.osr",
+    "Default skin path": "",
+    "Output path": "/Users/yuitora./PycharmProjects/osr2mp4-core/output.mkv",
+    "Width": 1920,
+    "Height": 1080,
+    "FPS": 60,
+    "Start time": 10,
+    "End time": 20,
+    "Video codec": "X264",
+    "Audio codec": "aac",
+    "Process": 2,
+    "ffmpeg path": "ffmpeg"
+}

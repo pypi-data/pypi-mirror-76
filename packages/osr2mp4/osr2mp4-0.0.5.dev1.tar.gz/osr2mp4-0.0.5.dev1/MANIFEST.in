@@ -1,0 +1,8 @@
+include pypiREADME.md
+include requirements.txt
+include osr2mp4/config.json
+include osr2mp4/settings.json
+include osr2mp4/ImageProcess/Curves/libcurves/*
+recursive-include osr2mp4/VideoProcess/FFmpegWriter *
+recursive-include osr2mp4/res *
+recursive-exclude tests *
