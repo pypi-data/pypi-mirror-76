@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "composetools"
+version = "0.1.0"
+description = "Utility functions for common tasks when composing functions."
+license = "ISC"
+readme = "README.md"
+authors = [ "SeparateRecords <me@rob.ac>" ]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6"
+
+[tool.poetry.scripts]
+test = "tests:run"
+tests = "tests:run"
+
+[build-system]
+requires = [ "poetry>=0.12" ]
+build-backend = "poetry.masonry.api"
