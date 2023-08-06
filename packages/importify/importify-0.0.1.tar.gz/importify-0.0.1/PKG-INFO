@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: importify
+Version: 0.0.1
+Summary: Import and export configuration easily
+Home-page: https://github.com/litcoderr/importify
+Author: Youngchae James Chee
+Author-email: litcoderr@gmail.com
+License: MIT
+Download-URL: https://github.com/litcoderr/importify/archive/0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: Utility,Json,Configuration
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
