@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pass-calculator
+Version: 1.0.1
+Summary: A common pass calculator for ULTRA and RADS
+Home-page: https://github.com/oresat/uniclogs-software
+Author: psas
+Author-email: oresat@pdx.edu
+License: GPLv3
+Description: A common pass calculator for ULTRA and RADS
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
