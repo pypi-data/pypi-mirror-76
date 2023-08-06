@@ -1,0 +1,11 @@
+.DS_Store,sha256=FAFbZMjwUzY-QQckgTjSBvrmlbD2It3wI32savmmXF8,6148
+zipmigo/__init__.py,sha256=nK5nTD7z-SCHPaTmhZMBey6VtGy2swJpAeVp5S9BqLY,69
+zipmigo/download.py,sha256=YXA0wvVnZUoV0Y5B43VblLbsbNHTH06xFkp_e6QrXN0,1365
+zipmigo/list_dir.py,sha256=y_LGNstSPLUD_vTm0W6wvk6oqArLz9yWsSB0DF7-14w,476
+zipmigo/unzip.py,sha256=xf2Hhv0YQrt312-fIUVfHN_h3dlNJnQ8mY8rZzQ419g,1224
+zipmigo/zipmigo.py,sha256=44hU61OY5gzL1ZuDs1Zrdfofq2NhzMGZUEudnumHqI8,2991
+zipmigo-1.1.0.dist-info/LICENSE.txt,sha256=HvnYc92SjbfvJKaLCemfmudWa01sWY2VGIq1HMAOb1U,1072
+zipmigo-1.1.0.dist-info/METADATA,sha256=ZK7zkDX3ddj26vQVnQGJYRPMy9fscpCBfRjDvFBpzQw,2765
+zipmigo-1.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+zipmigo-1.1.0.dist-info/top_level.txt,sha256=wWCo-BPpGXS7KHujxQz1agDOIm9TrZjh3ZU3vJUVABs,8
+zipmigo-1.1.0.dist-info/RECORD,,
