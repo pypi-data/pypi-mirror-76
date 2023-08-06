@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+regpol/__init__.py
+regpol/regpol.py
+regpol.egg-info/PKG-INFO
+regpol.egg-info/SOURCES.txt
+regpol.egg-info/dependency_links.txt
+regpol.egg-info/entry_points.txt
+regpol.egg-info/requires.txt
+regpol.egg-info/top_level.txt
