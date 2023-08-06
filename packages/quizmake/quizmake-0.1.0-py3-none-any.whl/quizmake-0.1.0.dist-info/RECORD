@@ -1,0 +1,13 @@
+quizmake/__init__.py,sha256=RhcRM2JmbKXiymaQK5ewn7GPsdUE0btIsmUsHzqHfJc,413
+quizmake/__main__.py,sha256=YNn1zryv2gQgIyicVLM57ZnufK-D2Vxy-VD0YcEOTYI,165
+quizmake/blank.py,sha256=jlev9501D0ZZX49TibK0s9vEsQHSnuUQi0SZcP-92BE,90
+quizmake/core.py,sha256=sLMcprC3I5z5ejb44CfJhb2OB-2jRRe0-M-2T5qpbyQ,11781
+quizmake/corpus.py,sha256=OW9pDlYNgvYcbR6u6P94_yfqs5A1ElPyqSaBdn0VHdE,926
+quizmake/grammar.py,sha256=HyEjqmu-gzzydlrCLsSKJOa5SQ74moJJhYdBsOazsno,2806
+quizmake/parser.py,sha256=mw3RNh-Ypopqmw22EhbdrO-p79Ey-YS522yyKbWpxrA,8805
+quizmake/quizmake.py,sha256=ZpsW0Qrsy5W-BeIXXYCGotMbuO0vlEjcRUWRalxoyYI,350
+quizmake-0.1.0.dist-info/LICENSE,sha256=P9MI-hrndV2aaZHwmhP8Xvbu5Vhu0fD-vqeC2QaVEo4,1088
+quizmake-0.1.0.dist-info/METADATA,sha256=1blKwlHXh_7Lcd2vyFYVDR7uHJ0NTo9JlFQnlN43GWQ,4037
+quizmake-0.1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+quizmake-0.1.0.dist-info/top_level.txt,sha256=8TAjbwqgH3B3PcrCOiK4qaAL5wCaalnaLHdPoykF2ss,9
+quizmake-0.1.0.dist-info/RECORD,,
