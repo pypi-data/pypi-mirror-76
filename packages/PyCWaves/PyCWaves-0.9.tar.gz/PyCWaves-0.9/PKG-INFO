@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: PyCWaves
+Version: 0.9
+Summary: Object-Oriented version of PyWaves library
+Home-page: https://github.com/iammortimer/PyCWaves
+Author: mortimer
+Author-email: info@mortysnode.nl
+License: MIT
+Download-URL: https://github.com/iammortimer/PyCWaves/archive/v0.9.tar.gz
+Description: UNKNOWN
+Keywords: WAVES,CLASS,PyWaves
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
