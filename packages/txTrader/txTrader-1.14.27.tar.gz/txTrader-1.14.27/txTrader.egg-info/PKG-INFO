@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: txTrader
+Version: 1.14.27
+Summary: TxTrader Securities Trading API Controller
+Home-page: https://github.com/rstms/txTrader
+Author: Matt Krueger
+Author-email: mkrueger@rstms.net
+License: MIT
+Description: txTrader - Twisted Trading API Controller 
+        =========================================
+        
+        txTrader aims to eliminate the complexity of managing and interacting with multiple trading system APIs, presenting a native python interface.
+        
+        
+        Features
+        --------
+        - Cross-Platform securities trading API management engine   
+        - Provides a trader's eye view of the interaction with the trading system API.    
+        - Decouples business logic from low-level implementation details of interaction with the broker's API 
+        - Maintains internal data structures used to verify each step of the order management / trade execution transaction.   
+        - Supports fault-tolerance by maintaining a continuous connection with the API in the event of application failure.
+        - Frees trading software design from timing and architectural constraints imposed by the API implementation.
+        - Built on the mature and reliable [twisted](https://twistedmatrix.com/trac/) python networking engine.
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
