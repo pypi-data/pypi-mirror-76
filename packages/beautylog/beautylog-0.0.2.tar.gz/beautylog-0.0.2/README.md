@@ -1,0 +1,1 @@
+Let your code generate logs automatically
