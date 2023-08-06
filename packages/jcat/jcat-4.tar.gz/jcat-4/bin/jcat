@@ -1,0 +1,33 @@
+#!/usr/bin/env python
+import jcat
+import select
+import json
+import sys
+
+if __name__ == "__main__":
+    
+    if len(sys.argv) == 2:
+        try:
+            JSON = json.load(open(sys.argv[1]))
+        except:
+            print("ERROR: {FILE} is a not a valid json object".format(
+                FILE=sys.argv[1]))
+            sys.exit(1)
+        jcat.jcat(JSON)
+
+    elif select.select([sys.stdin, ], [], [], 30)[0]:
+        try:
+            JSON = json.loads(sys.stdin.read())
+        except:
+            print("ERROR: stdin data is not a valid json object")
+            sys.exit(1)
+
+        jcat.jcat(JSON)
+
+    
+    else:
+        print("""USAGE:
+        cat some.json | jcat
+        jcat some.json
+        """)
+        sys.exit(0)
