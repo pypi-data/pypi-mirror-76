@@ -1,0 +1,10 @@
+setup.py
+namebase/__int__.py
+namebase/client.py
+namebase/constant.py
+namebase/request.py
+namebase.egg-info/PKG-INFO
+namebase.egg-info/SOURCES.txt
+namebase.egg-info/dependency_links.txt
+namebase.egg-info/requires.txt
+namebase.egg-info/top_level.txt
