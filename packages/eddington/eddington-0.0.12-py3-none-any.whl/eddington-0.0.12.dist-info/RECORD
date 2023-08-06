@@ -1,0 +1,16 @@
+eddington/__init__.py,sha256=cxUTFvHR08LPydIpfsjRoHi0ivtVp4tHOBmhWlwTLWI,1518
+eddington/consts.py,sha256=PxBJqz-Hu0ZSf91pmURIWp5wrIClqvkh1nDPD566SKE,203
+eddington/exceptions.py,sha256=F8iSaHbRvfU5g-D1jM_dpPFA1T-_QW_HDfZjbVzGpTE,1695
+eddington/fit_data.py,sha256=wDH4B3e8PMDEMUH87QwVc8sRF3Yq9OQjxCIFbJTTcbc,12563
+eddington/fit_function_class.py,sha256=ClVCTuazYquflfX9HSr4jRA_ieMdLecqr0oG8igJOiM,6452
+eddington/fit_functions_list.py,sha256=fVzne0UOd8A68dLFdRw-ByCgWmU0EG0y68rlrddoTf4,7496
+eddington/fit_functions_registry.py,sha256=LmU9achir3BMxsi1HrqyuyHYQAGBRYhzYIsZ2qgNdCs,1644
+eddington/fit_result.py,sha256=mBgDLIMDwxdsEGCl7wZ7LVnvtRE6KaH07MEcJOT9tl8,3870
+eddington/fitting.py,sha256=cVcN5umR8r2IWwv3BbEd_UfQ3qUVbFCzpTU0S1R5-Ig,2158
+eddington/print_util.py,sha256=c2yfvxt8My8bvNk7pvJ_PoEjP2MUTSvXJoMByDCmzV8,1059
+eddington/random_util.py,sha256=SLHdne-z1ko9BdK3uxHoxDyogl42UE3gEN5xcs2k1V0,882
+eddington-0.0.12.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+eddington-0.0.12.dist-info/METADATA,sha256=zwHlL2Gnz___QGlt2MR_2UJph-uKzHgdK--hRNUyO24,2270
+eddington-0.0.12.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+eddington-0.0.12.dist-info/top_level.txt,sha256=iLiGqjZ8eEkZGfz-EB0UZ82CZKDtM3oavcpvLt8HXTk,10
+eddington-0.0.12.dist-info/RECORD,,
