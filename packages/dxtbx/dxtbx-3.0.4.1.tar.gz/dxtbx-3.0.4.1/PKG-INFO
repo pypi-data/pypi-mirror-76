@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: dxtbx
+Version: 3.0.4.1
+Summary: Diffraction Experiment Toolbox
+Home-page: https://github.com/cctbx/dxtbx
+Author: DIALS collaboration
+Author-email: scientificsoftware@diamond.ac.uk
+License: BSD license
+Description: UNKNOWN
+Keywords: dials
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
