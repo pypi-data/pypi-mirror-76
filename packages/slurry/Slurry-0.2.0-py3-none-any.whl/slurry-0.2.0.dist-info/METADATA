@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: slurry
+Version: 0.2.0
+Summary: An async stream processing microframework
+Home-page: https://github.com/andersea/slurry
+License: MIT
+Keywords: async,iteration,generators,stream,processing,trio
+Author: Anders Ellenshøj Andersen
+Author-email: andersa@ellenshoej.dk
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Trio
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: trio (>=0.16.0,<0.17.0)
+Description-Content-Type: text/x-rst
+
+.. image:: https://img.shields.io/pypi/v/slurry.svg
+   :target: https://pypi.org/project/slurry
+   :alt: Latest PyPi version
+
+.. image:: https://travis-ci.com/andersea/slurry.svg?branch=master
+   :target: https://travis-ci.com/andersea/slurry
+   :alt: Build Status
+
+Slurry - An async stream processing microframework
+==================================================
