@@ -1,0 +1,10 @@
+apt-mirror-updater >= 7.2
+coloredlogs >= 14.0
+deb-pkg-tools >= 8.3
+executor >= 23.1
+humanfriendly >= 8.2
+linux-utils >= 0.7
+property-manager >= 3.0
+six >= 1.14.0
+update-dotdee >= 6.0
+verboselogs >= 1.7
