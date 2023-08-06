@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: easy-lambda
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/da-huin/easy_lambda
+Author: JunYeong Park
+Author-email: dahuin000@gmail.com
+License: MIT
+Download-URL: https://github.com/da-huin/easy_lambda/archive/master.zip
+Description: Please refer to the https://github.com/da-huin/easy_lambda
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
