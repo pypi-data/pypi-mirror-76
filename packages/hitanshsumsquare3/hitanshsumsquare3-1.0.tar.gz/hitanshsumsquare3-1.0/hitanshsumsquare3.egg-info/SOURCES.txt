@@ -1,0 +1,7 @@
+setup.py
+hitanshsumsq3/__init__.py
+hitanshsumsq3/sumsquare3.py
+hitanshsumsquare3.egg-info/PKG-INFO
+hitanshsumsquare3.egg-info/SOURCES.txt
+hitanshsumsquare3.egg-info/dependency_links.txt
+hitanshsumsquare3.egg-info/top_level.txt
