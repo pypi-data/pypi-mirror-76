@@ -1,0 +1,10 @@
+setup.py
+zone_file_parser/__init__.py
+zone_file_parser/helper.py
+zone_file_parser/parser.py
+zone_file_parser/record.py
+zone_file_parser.egg-info/PKG-INFO
+zone_file_parser.egg-info/SOURCES.txt
+zone_file_parser.egg-info/dependency_links.txt
+zone_file_parser.egg-info/not-zip-safe
+zone_file_parser.egg-info/top_level.txt
