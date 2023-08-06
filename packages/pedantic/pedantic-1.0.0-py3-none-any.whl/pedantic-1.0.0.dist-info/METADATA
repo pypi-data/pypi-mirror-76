@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pedantic
+Version: 1.0.0
+Summary: Some useful Python decorators for cleaner software development.
+Home-page: https://github.com/LostInDarkMath/PythonHelpers
+Author: Willi Sontopski
+Maintainer: Will Sontopski
+License: Apache-2.0 License
+Project-URL: Bug Tracker, https://github.com/LostInDarkMath/PythonHelpers/issues
+Project-URL: Documentation, https://github.com/LostInDarkMath/PythonHelpers
+Project-URL: Source Code, https://github.com/LostInDarkMath/PythonHelpers
+Keywords: decorators tools helpers type-checking pedantic type annotations
+Platform: UNKNOWN
+Requires-Dist: docstring-parser
+
+UNKNOWN
+
+
