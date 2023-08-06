@@ -1,0 +1,8 @@
+README.md
+setup.py
+idpay/__init__.py
+idpay/api.py
+idpay.egg-info/PKG-INFO
+idpay.egg-info/SOURCES.txt
+idpay.egg-info/dependency_links.txt
+idpay.egg-info/top_level.txt

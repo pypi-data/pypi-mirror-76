@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: idpay
+Version: 0.0.1
+Summary: Python package for payment API of IDPay gateway.
+Home-page: https://github.com/vispamir/python-idpay
+Author: Amir Koulivand
+Author-email: vispa.amir@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
