@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+django_loggable_util/__init__.py
+django_loggable_util/config.py
+django_loggable_util/loggable.py
+django_loggable_util.egg-info/PKG-INFO
+django_loggable_util.egg-info/SOURCES.txt
+django_loggable_util.egg-info/dependency_links.txt
+django_loggable_util.egg-info/top_level.txt
