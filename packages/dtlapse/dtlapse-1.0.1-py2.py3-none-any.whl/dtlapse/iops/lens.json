@@ -1,0 +1,10 @@
+{ "operation": "lens",
+  "iopdata": [ { "modversion": 5
+   , "iop_order": 13.0
+   , "smooth": "eval:268*[False]" 
+   , "cformat": "eval:2*'i' + 5*'f' + 'i' + 128*'c' + 128*'c' + 'i' + 2*'f' + 'i'"
+  } ]
+, "help": "Copy lens correction module settings."
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jordan Neumeyer <jdneumeyer@gmail.com>"]
+}

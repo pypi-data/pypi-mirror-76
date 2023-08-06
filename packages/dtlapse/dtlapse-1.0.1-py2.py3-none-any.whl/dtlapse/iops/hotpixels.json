@@ -1,0 +1,10 @@
+{ "operation": "hotpixels",
+  "iopdata": [ { "modversion": 1
+   , "iop_order": 6.0
+   , "smooth": [false, false, false, false]
+   , "cformat": "ffii"
+  } ]
+, "help": "Copy hot pixels module. Arguments: Permissive(gboolean -> int), MarkFixed(gboolean -> int), threshold(float), strength(float)"
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jordan Neumeyer <jdneumeyer@gmail.com>"]
+}

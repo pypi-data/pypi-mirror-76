@@ -1,0 +1,11 @@
+{ "operation": "colorbalance"
+, "iopdata": [ { "modversion": 3
+               , "iop_order": 40.0
+               , "smooth": "eval: 1*[False] + 4*[True] + 4*[True] + 4*[True] + 4*[True]"
+               , "cformat": "eval: 1*'i' + 4*'f' + 4*'f' + 4*'f' + 4*'f'"
+               }
+             ]
+, "help": "Smoothing for the colorbalance module. The parameters are mode, lift[4], gamma[4], gain[4], saturation, contrast, grey and saturation_out."
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jochen Keil <jochen.keil@gmail.com>"]
+}

@@ -1,0 +1,10 @@
+{ "operation": "hazeremoval",
+  "iopdata": [ { "modversion": 1
+   , "iop_order": 14.0
+   , "smooth": [true, true]
+   , "cformat": "ff"
+  } ]
+, "help": "Smoothing for the haze removal  module. The parameters are strength and distance."
+, "license": "GPL-3.0-or-later"
+, "copyright": ["2020 Jordan Neumeyer <jdneumeyer@gmail.com>"]
+}
