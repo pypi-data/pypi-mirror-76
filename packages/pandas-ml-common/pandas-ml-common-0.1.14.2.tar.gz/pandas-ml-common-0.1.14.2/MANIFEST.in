@@ -1,0 +1,4 @@
+include requirements.txt
+include Readme.md
+recursive-include pandas_ml_common *
+recursive-include pandas_ml_common_test *
