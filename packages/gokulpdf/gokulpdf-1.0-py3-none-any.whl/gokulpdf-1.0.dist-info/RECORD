@@ -1,0 +1,8 @@
+gokulpdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gokulpdf/pdf2image.py,sha256=FKCPhiSyXj-tNDXA0VqlbWzKx6KZPmuJa5cBogvi_4o,40
+gokulpdf/pdf2text.py,sha256=5--64-OYoPnJr369BowREbCyMU2VZrAXDrr2AB1VAx4,39
+gokulpdf-1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+gokulpdf-1.0.dist-info/METADATA,sha256=bljd5eKL4ENusjWN9S_yDiJljJPBJOw7ojqicw_65iM,198
+gokulpdf-1.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+gokulpdf-1.0.dist-info/top_level.txt,sha256=DCBDVi-YYhNiAtKJRRy7NCTxDZn6bGdkHuk0YFgzqZo,9
+gokulpdf-1.0.dist-info/RECORD,,
