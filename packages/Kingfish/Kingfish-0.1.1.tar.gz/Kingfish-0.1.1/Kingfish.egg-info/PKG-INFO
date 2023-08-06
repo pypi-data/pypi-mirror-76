@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: Kingfish
+Version: 0.1.1
+Summary: My first published package
+Home-page: https://github.com/Geulmaster/Kingfish
+Author: Eyal Geulayev
+Author-email: eyal.geulayev@gmail.com
+License: MIT
+Description: # Kingfish
+        Bunch of scripts
+        
+        ```**DBs:**
+        mongodb_wizard:
+        --connect_to_mongodb
+        --get_collection
+        --find_documents
+        --create_document
+        --insert_to_mongodb
+        
+        sql_wizard:
+        --convert_json_to_table
+        --connect_to_db
+        --run_query
+        --insert_row
+        
+        **Core:**
+        logger:
+        --clear_logs_file
+        --display_logs_file
+        -@simple logs functions
+        
+        **Wrapper:**
+        basic:
+        --manipulator
+        --url_extractor
+        
+        **Special:**
+        data_class:
+        -@simple data classes demo
+        ```
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

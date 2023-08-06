@@ -1,0 +1,3 @@
+pymongo
+paramiko
+psycopg2-binary
