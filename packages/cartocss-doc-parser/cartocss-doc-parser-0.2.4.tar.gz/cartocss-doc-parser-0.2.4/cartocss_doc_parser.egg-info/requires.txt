@@ -1,0 +1,16 @@
+bs4
+lxml
+
+[dev]
+twine
+bump2version
+pytest
+pytest-cov
+flake8
+tox
+
+[test]
+pytest
+pytest-cov
+flake8
+tox
