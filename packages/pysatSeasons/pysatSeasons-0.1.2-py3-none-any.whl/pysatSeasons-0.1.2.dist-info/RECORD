@@ -1,0 +1,15 @@
+pysatSeasons/__init__.py,sha256=ZL-FWZwuaDDh4NS5zp4JLc6gykZvZcfDnSBcXdUPWtQ,829
+pysatSeasons/_core.py,sha256=NfaKtjfinMi0mTCfDrq2jdHx9_s1cgBTJqo_TFmAVRg,1258
+pysatSeasons/avg.py,sha256=6XL9aNrl178g_OBc68c26rBDA8yn8LLmdLSmmfVhts4,19615
+pysatSeasons/occur_prob.py,sha256=Wq9OQJfWZi3P_xp-VGirav6sRWqsC_mdTtcE3ojFizE,13104
+pysatSeasons/plot.py,sha256=J8JkUpe408ysLDt8i7_cQ6PSCp_38fLZk9LtIPBmetg,3100
+pysatSeasons/version.txt,sha256=KXtQ8IOG01Ifj9ry94642dCs30UtLmFZaQX7o3IIx5I,6
+pysatSeasons/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysatSeasons/tests/test_avg.py,sha256=Xe25rJmoD_Y8r5VJvRbV4-lB1DyduKGnDkH4WgC4pkw,22375
+pysatSeasons/tests/test_occur_prob.py,sha256=Bv-EVJqieMVjYObPnOAlT0d240IlYdRCeCSGpkBIiro,5367
+pysatSeasons/tests/test_plot.py,sha256=WxOpg8MUVWRsyrnac7IiYk6XbhG1zjmXgy9W04SWcRU,2378
+pysatSeasons-0.1.2.dist-info/LICENSE,sha256=AMHcRnFaBIpbBeU4uc2vr3ZTMtou6Gf59WJL3F9UYB4,1513
+pysatSeasons-0.1.2.dist-info/METADATA,sha256=4PxCuvld7N3JnqHedWiNsC0F5a5JMLrSgLC1ZZOgGQs,1340
+pysatSeasons-0.1.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pysatSeasons-0.1.2.dist-info/top_level.txt,sha256=AejyjKhJuLuDNojX6YEkrj34WkivrvUEOpggrh1R2YU,13
+pysatSeasons-0.1.2.dist-info/RECORD,,
