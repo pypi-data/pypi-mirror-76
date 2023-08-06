@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: joey
+Version: 0.1.0
+Summary: Async web framework on top of fastapi and orm
+Home-page: https://github.com/pinecrew/joey
+Author: pinecrew
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: joey web framework orm fastapi
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
