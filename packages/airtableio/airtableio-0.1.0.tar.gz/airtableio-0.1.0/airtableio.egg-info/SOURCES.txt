@@ -1,0 +1,13 @@
+README.md
+setup.py
+airtableio/__init__.py
+airtableio/airtable.py
+airtableio/api.py
+airtableio/client.py
+airtableio/exceptions.py
+airtableio/helpers.py
+airtableio.egg-info/PKG-INFO
+airtableio.egg-info/SOURCES.txt
+airtableio.egg-info/dependency_links.txt
+airtableio.egg-info/requires.txt
+airtableio.egg-info/top_level.txt
