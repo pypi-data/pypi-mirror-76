@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: jacob-assistant
+Version: 0.1.3
+Summary: jacob的个人助手
+Home-page: UNKNOWN
+Author: jacob
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: jacob-assistant assistant
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3
