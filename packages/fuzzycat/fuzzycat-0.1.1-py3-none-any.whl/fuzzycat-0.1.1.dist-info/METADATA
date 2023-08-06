@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: fuzzycat
+Version: 0.1.1
+Summary: Fuzzy matching utilities for scholarly metadata
+Home-page: https://github.com/miku/fuzzycat
+Author: Martin Czygan
+Author-email: martin@archive.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# fcfuzzy
+
+Fuzzy matching publications for [fatcat](https://fatcat.wiki).
+
+## Motivation
+
+Most of the results on sites like [Google
+Scholar](https://scholar.google.com/scholar?q=fuzzy+matching) group
+publications into clusters. Each cluster represents one publication, abstracted
+from its concrete representation as a link to a PDF.
+
+We call the abstract publication *work* and the concrete instance a *release*.
+The goal is to group releases under works and to implement a versions feature.
+
+This repository contains both generic code for matching as well as fatcat
+specific code using the fatcat openapi client.
+
+## Dataset
+
+Release metadata from: [https://archive.org/details/fatcat_bulk_exports_2020-08-05](https://archive.org/details/fatcat_bulk_exports_2020-08-05).
+
+
