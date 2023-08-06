@@ -1,0 +1,9 @@
+crystals<2,>=1.1.2
+npstreams<2,>=1.6.2
+numpy<2,>=1.15
+pywavelets>=1.0.0
+scikit-image<0.19,>=0.15
+scipy>=1.0.0
+tifffile>=0.13
+pyyaml>=3.1
+matplotlib<4,>=3.0.0
