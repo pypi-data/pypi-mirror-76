@@ -1,0 +1,11 @@
+README.rst
+setup.py
+pydownsampler/__init__.py
+pydownsampler/pydownsampler.py
+pydownsampler.egg-info/PKG-INFO
+pydownsampler.egg-info/SOURCES.txt
+pydownsampler.egg-info/dependency_links.txt
+pydownsampler.egg-info/entry_points.txt
+pydownsampler.egg-info/not-zip-safe
+pydownsampler.egg-info/requires.txt
+pydownsampler.egg-info/top_level.txt

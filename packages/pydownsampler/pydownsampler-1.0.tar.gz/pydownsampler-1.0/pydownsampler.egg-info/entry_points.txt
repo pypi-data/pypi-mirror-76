@@ -1,0 +1,3 @@
+[console_scripts]
+pydownsampler = pydownsampler.pydownsampler:main
+
