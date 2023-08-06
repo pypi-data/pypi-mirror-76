@@ -1,0 +1,1 @@
+versionFromGradle='3.30.1',projectVersion='3.30.1.1',branch='rel-zeno',lastCommitHash='410a05b112aa3bd37202f65e5115a21f9195c85a',gitDescribe='jenkins-master-5140-28-g410a05b',compiledOn='2020-08-10 14:36:32',compiledBy='jenkins'
