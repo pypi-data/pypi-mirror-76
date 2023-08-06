@@ -1,0 +1,10 @@
+gnote/__about__.py,sha256=us6k1GvsNzXpPc5KgMGMY5ozUqr8siDQPVn0b3IQpv4,192
+gnote/__init__.py,sha256=KUL2JZj6x8NTfY5FvyP9Kd3jIUJGpyr926bniV6faXE,693
+gnote/cli.py,sha256=aGVu_7EFN-ZHCXa3PRCJ0gYNZ5R8Dhz1Z2EVky36F1Y,1655
+gnote/note.py,sha256=2lRGPd3UftgXAldJP2uth7HeiprggrYoF_PmJySivNE,1776
+gnote/util.py,sha256=96c5yWBcLyUkbY5sqsOwbYKeg60ls_PXEGUTlDw15FI,1097
+gnote-0.1.7.807.dist-info/METADATA,sha256=c6uGjSDCWMXIZoTXjkdknzbwDiJZwbUQUIIUs3ukvNo,365
+gnote-0.1.7.807.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gnote-0.1.7.807.dist-info/entry_points.txt,sha256=FzoSjKoVGR0wZoCtKIOcH8Sin90puGhxwJN0LjaDABQ,41
+gnote-0.1.7.807.dist-info/top_level.txt,sha256=MHbF0idCoNHLQBbcCMw9-kaLT3epPTkQgbnqAUbEsHI,6
+gnote-0.1.7.807.dist-info/RECORD,,

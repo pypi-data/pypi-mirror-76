@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gnote
+Version: 0.1.7.807
+Summary: Notebook in the command to remember code examples
+Home-page: UNKNOWN
+Author: guojian
+Author-email: guojian_k@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8.2
+Requires-Dist: click
+Requires-Dist: loguru
+Requires-Dist: rich
+Requires-Dist: configparser
+Requires-Dist: gitpython
+
+UNKNOWN
+
+

@@ -1,0 +1,6 @@
+__name = 'gnote'
+__command_name = 'gnote'
+__description = 'Notebook in the command to remember code examples'
+__author = 'guojian'
+__author_email = 'guojian_k@qq.com'
+__version = '0.1.7.0807'
