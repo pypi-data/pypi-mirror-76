@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tftabular
+Version: 0.1.0
+Summary: A flexible implementation of [TabNet](https://arxiv.org/pdf/1908.07442.pdf) in Tensorflow 2.0
+Author: marcusinthesky
+Author-email: gwrmar002@myuct.ac.za
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: numpy (>=1.19.1,<2.0.0)
+Requires-Dist: pandas (>=0.25.1)
+Requires-Dist: pendulum (>=2.1.2,<3.0.0)
+Requires-Dist: tensorflow (>=2.2.0,<3.0.0)
+Requires-Dist: tensorflow_addons (>=0.11.1,<0.12.0)
