@@ -1,0 +1,11 @@
+rest_batteries/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_batteries/errors_formatter.py,sha256=G9zt8Nd_gP4zcjK3gFcN1RCMdvNZCbiLMFRLe03Vafk,4378
+rest_batteries/exception_handlers.py,sha256=-3dCW-TgrfXeta3WB5KdYBEpMvdd24aWSkFpFLTyCYM,397
+rest_batteries/generics.py,sha256=-CRRDbmllzhPYuN5CRBxdqUWyJe7SpCcaTAIcl4ijxQ,146
+rest_batteries/mixins.py,sha256=IOEtTCdB8O1x_A91bCkb-lI87dR-lOuIHFNJr434TB0,4459
+rest_batteries/views.py,sha256=YtwJ0Vaj6gtxPNm9BN26NDzvms3gvo9z9cKnV9-t3WE,126
+rest_batteries/viewsets.py,sha256=Bzqrd3wcq2o7_rG66QeDnSnoac4bpFAZRmnNfERRLZM,4171
+django_rest_batteries-1.0.0.dist-info/LICENSE,sha256=z_NGT91IW_BaPohwh_mIKFvfOSEux3mmTFOft7gq-N4,1073
+django_rest_batteries-1.0.0.dist-info/WHEEL,sha256=G_NFpzHmv_dUXgCUSAWL0-bLL-eMzYU6DzDeGXbRXUk,83
+django_rest_batteries-1.0.0.dist-info/METADATA,sha256=yYGNprmEczY2bRMRVueMe9KQrNz6aB83JhQ52n8m5eU,4057
+django_rest_batteries-1.0.0.dist-info/RECORD,,
