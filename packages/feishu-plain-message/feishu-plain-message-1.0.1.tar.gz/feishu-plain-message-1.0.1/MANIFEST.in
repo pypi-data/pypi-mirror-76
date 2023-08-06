@@ -1,0 +1,2 @@
+include README.rst *.png
+recursive-include tests *.py
