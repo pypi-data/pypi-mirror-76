@@ -1,0 +1,3 @@
+[console_scripts]
+coge = cg:entry_point
+
