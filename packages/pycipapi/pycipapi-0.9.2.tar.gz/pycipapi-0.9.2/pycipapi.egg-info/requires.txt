@@ -1,0 +1,2 @@
+requests==2.22
+GelReportModels>=7.3
