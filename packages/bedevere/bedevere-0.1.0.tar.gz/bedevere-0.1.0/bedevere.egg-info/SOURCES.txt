@@ -1,0 +1,14 @@
+README.md
+setup.py
+bedevere/__init__.py
+bedevere/constants.py
+bedevere/discrete_sums.py
+bedevere/dnd.py
+bedevere/exceptions.py
+bedevere/markov.py
+bedevere/matrix.py
+bedevere.egg-info/PKG-INFO
+bedevere.egg-info/SOURCES.txt
+bedevere.egg-info/dependency_links.txt
+bedevere.egg-info/requires.txt
+bedevere.egg-info/top_level.txt
