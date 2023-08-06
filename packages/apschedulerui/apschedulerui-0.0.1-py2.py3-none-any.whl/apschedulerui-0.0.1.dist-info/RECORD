@@ -1,0 +1,10 @@
+apschedulerui/__init__.py,sha256=Lhh18Wbw5T9m3wuGXv03xJEcFH7a85fKHq-XQUGNrt0,104
+apschedulerui/watcher.py,sha256=xrqXPjJGPPpmMANdBlbwCd6Sl0J2qXeA1U707HB_roU,17704
+apschedulerui/web.py,sha256=BLtJuvGwS3hvRzAllxob7K3poOfS4khD_eCObs5cBXU,8862
+apschedulerui/static/app.bundle.js,sha256=4SwxNN2KjNd-M2MCTymaiBp7q4AAxlBuTm1jHip0YdM,2274796
+apschedulerui/static/index.html,sha256=bkJ2HEvSKmyC8edCUtl9Su7W3ioHW8d29xmZC8B7Si4,1954
+apschedulerui-0.0.1.dist-info/LICENSE.txt,sha256=TZ4CpzDAgVSDtDXhRkstSa3TNoznPcUkjmTYUDs3zzI,1059
+apschedulerui-0.0.1.dist-info/METADATA,sha256=gjuTyGrA_duGkBQCP0rXO3Jc4qMYwE3bztK1IZEMBpo,1335
+apschedulerui-0.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+apschedulerui-0.0.1.dist-info/top_level.txt,sha256=39Oi4wUXu5h6s-in-flyfb0S9FrgzIbylYXepZTbyB8,14
+apschedulerui-0.0.1.dist-info/RECORD,,
