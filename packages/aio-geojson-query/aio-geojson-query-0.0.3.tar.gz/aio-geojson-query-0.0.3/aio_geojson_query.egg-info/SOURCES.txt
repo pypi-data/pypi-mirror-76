@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+aio_geojson_query/__init__.py
+aio_geojson_query/__version__.py
+aio_geojson_query/consts.py
+aio_geojson_query/feed.py
+aio_geojson_query/feed_entry.py
+aio_geojson_query/feed_manager.py
+aio_geojson_query.egg-info/PKG-INFO
+aio_geojson_query.egg-info/SOURCES.txt
+aio_geojson_query.egg-info/dependency_links.txt
+aio_geojson_query.egg-info/requires.txt
+aio_geojson_query.egg-info/top_level.txt

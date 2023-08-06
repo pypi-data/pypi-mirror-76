@@ -1,0 +1,4 @@
+aiodns
+aiohttp>=3.5.4
+aio_geojson_client>=0.13
+pytz>=2019.01
