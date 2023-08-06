@@ -1,0 +1,3 @@
+include *.txt *.ini *.cfg *.spec
+recursive-include pycapo *.py
+

@@ -1,0 +1,4 @@
+
+0.2.1 ... dropped support for Python 3.3, added support for Python 3.7
+0.1.1 ... minor tweaks to prepare for pushing to pypi, no functional modifications
+0.1.0 ... initial version
