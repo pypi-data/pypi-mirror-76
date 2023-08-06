@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pypvt
+Version: 0.0.1
+Summary: Generate, perfrom consistency testing and perturb initialization of Eclipse reservoir simulator decs with respect to pvt
+Home-page: http://github.com/equinor/pypvt
+Author: Knut Uleberg, Eivind Smørgrav, Wouter J. de Bruin, Anders Kiær
+Author-email: kule@equinor.com
+License: LGPLv3
+Keywords: pvt,fluid contacts,initailization,reservoir simulation
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ecl2df
+Requires-Dist: pandas
+Provides-Extra: tests
+Requires-Dist: pylint (~=2.3) ; extra == 'tests'
+Requires-Dist: black ; extra == 'tests'
+Requires-Dist: bandit ; extra == 'tests'
+Requires-Dist: mypy ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+
+# pypvt
+
+Module and wrapper scripts for creating, manipulating and 
+performing consistency checking of eclipse pvt and fluid 
+initialization tables.
+
+
+
+
