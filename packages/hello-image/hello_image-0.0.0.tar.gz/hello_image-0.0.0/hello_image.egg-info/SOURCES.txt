@@ -1,0 +1,9 @@
+README.md
+setup.py
+hello_image/__init__.py
+hello_image.egg-info/PKG-INFO
+hello_image.egg-info/SOURCES.txt
+hello_image.egg-info/dependency_links.txt
+hello_image.egg-info/not-zip-safe
+hello_image.egg-info/requires.txt
+hello_image.egg-info/top_level.txt
