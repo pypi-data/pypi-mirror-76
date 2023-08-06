@@ -1,0 +1,7 @@
+testwizard.test==3.4.2
+testwizard.testobjects-core==3.4.2
+testwizard.commands-audio==3.4.2
+testwizard.commands-mobile==3.4.2
+testwizard.commands-powerswitch==3.4.2
+testwizard.commands-remotecontrol==3.4.2
+testwizard.commands-video==3.4.2
