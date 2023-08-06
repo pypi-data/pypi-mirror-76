@@ -1,0 +1,11 @@
+README.rst
+pyproject.toml
+setup.py
+gaspy/GumnutAssembler.py
+gaspy/GumnutExceptions.py
+gaspy/__init__.py
+gaspy.egg-info/PKG-INFO
+gaspy.egg-info/SOURCES.txt
+gaspy.egg-info/dependency_links.txt
+gaspy.egg-info/entry_points.txt
+gaspy.egg-info/top_level.txt
