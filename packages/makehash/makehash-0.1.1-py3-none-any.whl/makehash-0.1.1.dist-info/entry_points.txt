@@ -1,0 +1,3 @@
+[console_scripts]
+makehash = makehash.entry_points_console_scripts:makehash
+

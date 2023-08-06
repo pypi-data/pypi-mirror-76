@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: makehash
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: https://github.com/Cologler/makehash-python
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: alive-progress
+Requires-Dist: click-anno
+Requires-Dist: colorama
+Requires-Dist: fsoopify
+
+# makehash
+
+A CLI tools use to create *.hash file and verify it later.
+
+## Usage
+
+``` cmd
+makehash make DIR_OR_FILE       # create *.hash file
+makehash verify DIR_OR_FILE     # verify
+```
+
+
