@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: brawlpython
+Version: 1.0.2
+Summary: Easy-to-configure library to use any Brawl Stars API
+Home-page: https://github.com/0dminnimda/brawlpython
+Author: 0dminnimda
+Author-email: 0dminnimda@gmail.com
+License: License :: OSI Approved :: MIT License
+Description: # brawlpython
+         
+        Easy-to-configure library to use any Brawl Stars API
+        
+        [project link](https://github.com/0dminnimda/brawlpython)
+        
+        use a token instead of a password, look at the change in the version and content of the project on the testpipe
+        
+Keywords: brawl stars,brawl stars api,brawlstars,supercell,brawl,stars,api,brawlpython,python,async,aiohttp,sync,requests,
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: Games/Entertainment :: Real Time Strategy
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
