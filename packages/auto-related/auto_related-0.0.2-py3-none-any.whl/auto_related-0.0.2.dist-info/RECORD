@@ -1,0 +1,10 @@
+auto_related/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_related/experimental.py,sha256=i4KEuPRbZWJS2oJ1gIUs2qkOju9m0DC6BeAAaOe259Q,1158
+auto_related/mixin.py,sha256=RF7ZWSccA09RcsX0ghjPncI-fW1Eo6FiMmf4riWl7VY,1067
+auto_related/tracer.py,sha256=WM0chTBSjEbEcO24xqgQCHbSGrgyjTIwGg0THBaiYoc,9189
+auto_related/utils.py,sha256=LWMYa6UOLCdrZZUqe_afOweuriDXHj9-geFjTq_Qkvw,11521
+auto_related-0.0.2.dist-info/LICENSE,sha256=fjInIOlzTZU4cbFflS_4WFsyEDK6LydsXMd8-Su4W2s,1086
+auto_related-0.0.2.dist-info/METADATA,sha256=Azn9UbQ4VHl2UjAu48eJYqtQvOTJ6jL38LD3vBYxFMk,6318
+auto_related-0.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+auto_related-0.0.2.dist-info/top_level.txt,sha256=qLE1fdmIJxxxGVUDuqG_8LNPCy0rpLgnfppSdM05iY0,13
+auto_related-0.0.2.dist-info/RECORD,,
