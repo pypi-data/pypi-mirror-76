@@ -1,0 +1,6 @@
+aioamqp>=0.14.0
+aiorun>=2020.6.1
+async_timeout>=3.0.0
+
+[debug]
+aioreloader
