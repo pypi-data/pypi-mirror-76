@@ -1,0 +1,2 @@
+cryptography
+google-cloud-kms>=2.0.0

@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: unimatrix.ext.crypto
+Version: 0.0.1
+Summary: Enter a description for this Unimatrix package
+Home-page: https://gitlab.com/unimatrixone/libraries/python-unimatrix
+Author: Cochise Ruhulessin
+Author-email: cochise.ruhulessin@wizardsofindustry.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries

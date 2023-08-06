@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+unimatrix.ext.crypto.egg-info/PKG-INFO
+unimatrix.ext.crypto.egg-info/SOURCES.txt
+unimatrix.ext.crypto.egg-info/dependency_links.txt
+unimatrix.ext.crypto.egg-info/requires.txt
+unimatrix.ext.crypto.egg-info/top_level.txt
+unimatrix/ext/crypto/VERSION
+unimatrix/ext/crypto/package.json
