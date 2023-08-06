@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    h1st=h1st.cli:main
+    
