@@ -1,0 +1,13 @@
+astropy>=4.1rc1
+click
+numpy
+pydantic
+requests
+sgp4>=2.8
+
+[dev]
+Cython
+flake8
+pytest-cov
+pytest-html
+pytest==5.4.3
