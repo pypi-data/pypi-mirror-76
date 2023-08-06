@@ -1,0 +1,21 @@
+{
+    "array":[
+        {
+            "name": "Test",
+            "lat": "1",
+            "long": "2",
+            "id": 12345,
+            "bnd": "AGIP",
+            "addr": "ADDR",
+            "update": "2020-02-02 12:12",
+            "carburanti": [
+                {
+                    "carb": "Carb1",
+                    "id": 1,
+                    "is_self": 0,
+                    "price": "1,234"
+                }
+            ]
+        }
+    ]
+}
