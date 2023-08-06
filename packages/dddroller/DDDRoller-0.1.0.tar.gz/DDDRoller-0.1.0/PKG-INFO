@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: dddroller
+Version: 0.1.0
+Summary: Dungeon and Dragons Dice Roller
+Author: Sharlon Regales
+Author-email: you@example.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Provides-Extra: docs
+Provides-Extra: lint
+Provides-Extra: local
+Provides-Extra: test
+Requires-Dist: flake8-isort (==3.0.0); extra == "local" or extra == "lint"
+Requires-Dist: isort (>=4.3.20,<5.0.0); extra == "local" or extra == "lint"
+Requires-Dist: pytest-cov (>=2.9.0,<3.0.0); extra == "local" or extra == "test"
+Requires-Dist: snregales (>=0.2.0,<0.3.0)
+Requires-Dist: sphinx_rtd_theme (>=0.5.0,<0.6.0); extra == "local" or extra == "docs"
+Description-Content-Type: text/x-rst
+
+.. Badges Alias End
+
+|Build Status|
+
+.. Badges Alias Start
+
+---
+
+.. Badges Start
+
+.. |Build Status| image:: https://img.shields.io/gitlab/pipeline/presentations4/dddroller/master
+   :alt: Gitlab pipeline status
+   :target: https://gitlab.com/presentations4/dddroller/commits/master
+
+.. Badges End
+
