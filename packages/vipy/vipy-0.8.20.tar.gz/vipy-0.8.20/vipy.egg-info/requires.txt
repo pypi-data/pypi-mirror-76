@@ -1,0 +1,5 @@
+numpy
+matplotlib
+dill
+pillow
+ffmpeg-python
