@@ -1,0 +1,1 @@
+This is a very simple function to convert decimal angles to dms

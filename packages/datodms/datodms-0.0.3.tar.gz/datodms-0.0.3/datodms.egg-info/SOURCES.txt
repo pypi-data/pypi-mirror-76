@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+datodms/__init__.py
+datodms/datodms.py
+datodms/test.py
+datodms.egg-info/PKG-INFO
+datodms.egg-info/SOURCES.txt
+datodms.egg-info/dependency_links.txt
+datodms.egg-info/top_level.txt
