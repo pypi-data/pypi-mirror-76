@@ -1,0 +1,8 @@
+README.md
+setup.py
+jsonway/__init__.py
+jsonway/mainjsonway.py
+jsonway.egg-info/PKG-INFO
+jsonway.egg-info/SOURCES.txt
+jsonway.egg-info/dependency_links.txt
+jsonway.egg-info/top_level.txt
