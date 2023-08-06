@@ -1,0 +1,14 @@
+fastseg/__init__.py,sha256=FgyakvhfvbAbwixBMluXF3gZCRe0pv7L_9bDVbhitXw,55
+fastseg/image/__init__.py,sha256=DzDatY6Tx3_AYPsfEM-dgJhCbrdra3flDSE5aALlrZg,24
+fastseg/image/colorize.py,sha256=Hibz_WD_yXv3vIV1_n2MuaCopFxEOIUYTjqxAcUGUd8,794
+fastseg/image/palette.py,sha256=A5W3YSO0IUJOiLiJBXOqIVK7sO-azPgj7lcMeRMxdWM,453
+fastseg/model/base.py,sha256=FKOZetPLyBa3ffffYzOFQKx6V7B9ybjCNCj3SRkPOMs,4236
+fastseg/model/efficientnet.py,sha256=HE0mEbibBX778V8aw06Pw-rb1D16hsH3-YizrdEQiGU,5750
+fastseg/model/lraspp.py,sha256=deKxcag8pU9TJvA9_j-P03DkncuZI-AzxEPa1KOWpQo,4882
+fastseg/model/mobilenetv3.py,sha256=2bs4ISy1dDh1cLryyUm9HoB1p2xrh-93HAHXbxud3pU,4106
+fastseg/model/utils.py,sha256=KcTuIFSr9obsq84wIFz-BUoRHVjPdwhZW16cCLA4Vo4,1792
+fastseg-0.1.1.dist-info/LICENSE.txt,sha256=HKFMeoLfzAZNpd-PdWplPWNs2Hw0yxwB_LAHbGmdJAc,1054
+fastseg-0.1.1.dist-info/METADATA,sha256=a87BAYQg6qHGQRG1jnvOcbXp5R6ahFzpU1z-wfZ_YFo,11946
+fastseg-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fastseg-0.1.1.dist-info/top_level.txt,sha256=GO5vcfvxNqDpA-bRUja7xDzQ19fh5nxvsANRUTIeqS8,8
+fastseg-0.1.1.dist-info/RECORD,,
