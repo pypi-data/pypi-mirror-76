@@ -1,0 +1,3 @@
+[console_scripts]
+julynter = julynter:main
+
