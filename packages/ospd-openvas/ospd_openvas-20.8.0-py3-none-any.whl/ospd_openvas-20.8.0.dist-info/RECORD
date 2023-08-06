@@ -1,0 +1,15 @@
+ospd_openvas/__init__.py,sha256=ug0Ybyd9FU157uR1ieArrixxG45XFoNeQhqMQ9RB7dE,815
+ospd_openvas/__version__.py,sha256=lfblF7UrJsafTXqA4ygxbLYcKZx-GqGkH1F2GXxD29c,103
+ospd_openvas/daemon.py,sha256=B1livlPEiWOOguirTBU1upaIdWxI_UmPGAonnQ9y8es,48118
+ospd_openvas/db.py,sha256=dr-w7iT7hVWXH_NY8BtqJXVORLZ9WjIClE247Q_Bo0w,20297
+ospd_openvas/errors.py,sha256=wzBnA5NEt8trDy1wC6WO8TfBJ8g0h55LOkJ1kzbC5s0,995
+ospd_openvas/lock.py,sha256=tZCDFrog4S1EFtaQtNHYbzq0EKjIote79J0-gXQmdE8,3373
+ospd_openvas/nvticache.py,sha256=8xi-KSnLH_WtL2U34MKszgvnaX7V2GpIBX-TNPXarIA,11332
+ospd_openvas/openvas.py,sha256=FKpIZbsq0NxjUXPdjS5CBm4hHLW7bEKIN9gP9GXdRq8,6078
+ospd_openvas/preferencehandler.py,sha256=dYTQS-e5lhmGdANKa02dUdVPi53g_tMO_ENEVrIFuXQ,22993
+ospd_openvas/vthelper.py,sha256=ZOnT94-bJ7icoRvXJOh51qIVnrocJsF6qbZtdwf9JOs,6253
+ospd_openvas-20.8.0.dist-info/entry_points.txt,sha256=PMvVxJWtJAmednOoDQS3ohvffYhXvb2gvgXLzoZ42wc,57
+ospd_openvas-20.8.0.dist-info/COPYING,sha256=erHjSIG8KRb5Qsckl9fJs_1CcpeqO_NkyJlTGeDGwyE,34008
+ospd_openvas-20.8.0.dist-info/WHEEL,sha256=Q99itqWYDhV793oHzqzi24q7L7Kdiz6cb55YDfTXphE,84
+ospd_openvas-20.8.0.dist-info/METADATA,sha256=1anxvzxSoCBGO4Gqvv6wefhF2claWSOnXBIxq5oeMtA,5060
+ospd_openvas-20.8.0.dist-info/RECORD,,
