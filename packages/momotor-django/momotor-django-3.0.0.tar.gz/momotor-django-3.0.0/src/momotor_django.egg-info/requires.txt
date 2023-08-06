@@ -1,0 +1,10 @@
+asgiref>=2.0
+backoff
+django<3.1,>=2.2.0
+protobuf
+momotor-engine-proto~=4.0
+momotor-engine-shared~=1.0
+
+[docs]
+Sphinx
+sphinx-autodoc-typehints
