@@ -1,0 +1,15 @@
+vce/__init__.py,sha256=aCyBfUmHjtDMcu3rGhHicIhTPzr4GBinKJy_VDwCnhk,410
+vce/__main__.py,sha256=PuwfGXQuklbHMCxA1W6JUHiJhS6nlPobxqGwacIrUgE,493
+vce/agent.py,sha256=6Vjy6vejPR7REX-sxneAep29NlXE-_6X5rYOmr1lo3A,3729
+vce/cloud.py,sha256=QTu5TGuxp3p6thTA3GvPgTy8QOwjGqOcCY7Wo6Y3vh8,941
+vce/db.py,sha256=falnvaa8WMgtDLivUogCNUnz3vLZeMLcSrl487ye-IA,3200
+vce/orbits.py,sha256=Maw8EkAQG-Ls2okCxNNNwkrCHgYSTFWylc-UIFEdkcU,18073
+vce/server.py,sha256=s9NuyBjF6zOvJ9OxrnEj7O-zry22gOWU1setMQCPnpI,1939
+vce/utils.py,sha256=Wnk-D-HzR3j6HiDkDiFPRuHmIIM59u8uOC0L-I1PR18,5209
+vce/templates/stack.yml.j2,sha256=-CTI4gbe6sORKcCZMvmA5E44IybQ9uGEVcP8_JtJ1Xs,15173
+vce-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+vce-0.1.0.dist-info/METADATA,sha256=gW9bz4WVekJsLyXTdds84RaRB6rLLpoMmsyAB9JOd50,2486
+vce-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+vce-0.1.0.dist-info/entry_points.txt,sha256=G2BT1iTbCIN_79_yVjnrSyB6MnSt-L1X8i8973LIIls,43
+vce-0.1.0.dist-info/top_level.txt,sha256=qpixco8dbhBoya1jgRpSNw8H79k6bmSLPCcBePzPQzM,4
+vce-0.1.0.dist-info/RECORD,,
