@@ -1,0 +1,3 @@
+[console_scripts]
+pyreview = pyreview.__main__:main
+
