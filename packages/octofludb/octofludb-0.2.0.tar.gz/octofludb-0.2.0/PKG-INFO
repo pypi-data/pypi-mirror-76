@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: octofludb
+Version: 0.2.0
+Summary: Interface to the flu-crew swine surveillance database
+Home-page: https://github.com/flu-crew/octofludb
+Author: Zebulun Arendsee
+Author-email: zebulun.arendsee@usda.gov
+License: UNKNOWN
+Description: [![stable](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
+        [![Build Status](https://travis-ci.org/flu-crew/octofludb.svg?branch=master)](https://travis-ci.org/flu-crew/octofludb)
+        
+        # octofludb
+        
+        Manage
+        
+        ## Installation
+        
+        `octofludb` is most easily installed through PyPi:
+        
+        ```
+        pip install octofludb
+        ```
+        
+        You may need to replace `pip` with `pip3` on your system.
+        
+        ## Help
+        
+        You can get a list of subcommands with `octofludb -h`. More detailed
+        documentation is available for each subcommand, e.g., `octofludb query -h`.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
