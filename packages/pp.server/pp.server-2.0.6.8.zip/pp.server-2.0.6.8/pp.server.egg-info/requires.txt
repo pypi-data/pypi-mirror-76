@@ -1,0 +1,9 @@
+circus
+easyprocess
+gunicorn
+plac
+pyramid
+pyramid_chameleon
+
+[testing]
+webtest
