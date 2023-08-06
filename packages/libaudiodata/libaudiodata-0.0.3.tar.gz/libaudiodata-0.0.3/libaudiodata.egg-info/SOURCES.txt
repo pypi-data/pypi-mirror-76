@@ -1,0 +1,6 @@
+README.md
+setup.py
+libaudiodata.egg-info/PKG-INFO
+libaudiodata.egg-info/SOURCES.txt
+libaudiodata.egg-info/dependency_links.txt
+libaudiodata.egg-info/top_level.txt
