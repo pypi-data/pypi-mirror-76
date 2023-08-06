@@ -1,0 +1,71 @@
+
+# eduAlgo
+
+<img src="https://img.shields.io/github/license/Abhijit2505/eduAlgo?style=for-the-badge">&nbsp;<img src ="https://img.shields.io/github/languages/code-size/Abhijit2505/eduAlgo?style=for-the-badge">&nbsp;<img src = "https://img.shields.io/github/contributors/Abhijit2505/eduAlgo?style=for-the-badge">&nbsp;<img src ="https://img.shields.io/github/last-commit/Abhijit2505/eduAlgo?style=for-the-badge">&nbsp;<img src="https://img.shields.io/pypi/wheel/eduAlgo?style=for-the-badge">
+
+<img src = "https://img.shields.io/pypi/status/eduAlgo?style=for-the-badge">&nbsp;<img src ="https://img.shields.io/pypi/v/eduAlgo?style=for-the-badge&logo=PyPi">&nbsp;<img src="https://img.shields.io/github/commit-activity/m/Abhijit2505/eduAlgo?style=for-the-badge">&nbsp;<img src ="https://img.shields.io/github/release-date/Abhijit2505/eduAlgo?style=for-the-badge">
+
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)   [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
+## Objective
+A python package published at [PyPi](https://pypi.org/). The project can be viewed here - [PyPi - eduAlgo](https://pypi.org/project/eduAlgo/).
+
+## Aim Of The Package
+
+This is a very simple python package made with python script to study different algorithms for educational purposes. This package is under **planning** version and aims to achieve the following,
+
+* Contain All the available algorithms
+* Help students with learning space and time complexity
+* Visualizing Algorithms
+* Getting resources, articles etc to study about python and Algorithms
+* Become a handy tool for the programmers while using different algorithms on daily basis
+
+## Current Algorithms
+
+* Module Name : **algorithm**
+    * Bubble sort - <img src ="https://img.shields.io/badge/-implemented-green">
+    * Selection sort - <img src ="https://img.shields.io/badge/-implemented-green">
+* Module Name : **LinkedList**
+    * Palindromic Linked List - <img src ="https://img.shields.io/badge/-implemented-green">
+    * Remove Linked List Elements - <img src ="https://img.shields.io/badge/-implemented-green">
+    * Remove Duplicates From a Sorted List - <img src ="https://img.shields.io/badge/-implemented-green">
+    * Merge Two Sorted List - <img src ="https://img.shields.io/badge/-implemented-green">
+    * Reverse Linked List - <img src ="https://img.shields.io/badge/-implemented-green">
+    * Delete Node In a Linked List - <img src ="https://img.shields.io/badge/-implemented-green">
+    * Middle Of the Linked List - <img src ="https://img.shields.io/badge/-implemented-green">
+
+
+## Algorithms Yet to Publish
+
+* Searching Algorithms and Visualizations
+* Sorting Algorithms and Visualizations
+* Graph Algorithms and Visualizations
+* Linked List Implementations and Vizualizations
+* Tree Types, Vizualizations and Implementations
+
+## Installation
+
+Fast install:
+
+    pip install eduAlgo
+
+Example
+
+```python
+
+    from edualgo import algorithm as al
+
+    arr = [5,4,3,2,1]
+    obj = al.sort()
+    sorted_arr = obj.bubble_sort(arr)
+    print(sorted_arr)
+```
+Here is the output:
+
+    Bubble Sort Runtime = 0.0
+    [1, 2, 3, 4, 5]
+
+## License
+
+This package is under **MIT License** copyright @<a href = "https://github.com/Abhijit2505">Abhijit Tripathy</a>
