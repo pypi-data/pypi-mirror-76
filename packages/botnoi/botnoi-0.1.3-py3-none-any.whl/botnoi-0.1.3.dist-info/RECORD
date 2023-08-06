@@ -1,0 +1,10 @@
+botnoi/__init__.py,sha256=Wfg4qpKmJsJY0kcW9EUGJmL0V0eIWA97v91xzIPXgT0,192
+botnoi/cv.py,sha256=Ggvv0b_QSqcOKfzc5ywDU_ztnjUB-eSK9bzT0lCxjO4,686
+botnoi/mobilenet.py,sha256=XApuM6ZpXz9_KL3fdV4VsrSuX7WtR_hk1fARnXDVCiE,1086
+botnoi/openapi.py,sha256=zXS6hUML_ouibea4Uq0nFAAIVsz__7m7nNYlAAlL5e8,3126
+botnoi/resnet50.py,sha256=uJIhmpokOfn46_ynFF7VVwEGT9yW9EE7ATM9EQ5vI9Q,1078
+botnoi/scrape.py,sha256=g1mVv7-Ww_032HJ8NFnO9RaLfNXlPQQ1E9BSo_QHWnI,1311
+botnoi-0.1.3.dist-info/METADATA,sha256=IXk4IrHdoExOaZ6992l1McAjxUE_ZI-8YCyhJOkpQXo,573
+botnoi-0.1.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+botnoi-0.1.3.dist-info/top_level.txt,sha256=qkoDdvUIouVOnbd6wNjEWsMe2xE9ACqGDdoTR4lYAbE,7
+botnoi-0.1.3.dist-info/RECORD,,
