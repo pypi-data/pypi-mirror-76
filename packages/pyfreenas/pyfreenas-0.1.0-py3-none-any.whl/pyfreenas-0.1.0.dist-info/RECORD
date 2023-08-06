@@ -1,0 +1,9 @@
+pyfreenas/__init__.py,sha256=16uJ1olFLqu-rrJoCxMMF4aX5tr58kW1DDK4_BdjQqw,3455
+pyfreenas/disk.py,sha256=WtBIQqrSO23gzKHssi0pa6P4OYyevT0eq4aKJwlV2ZE,2597
+pyfreenas/virtualmachine.py,sha256=XwpIbsONtK9GPMp2nAco6JpSpBN4vWwYS5h8OH1YiuE,2789
+pyfreenas/websockets_custom.py,sha256=HFuNBzSQ_7kCtE9Sk3DXO2wQinaRFceTTlcmYd2v0Z4,1930
+pyfreenas-0.1.0.dist-info/LICENSE,sha256=iFKHeyFo35yJ3htBQwjQLnbgLWyzjvgU9EjnZLJU5nw,1070
+pyfreenas-0.1.0.dist-info/METADATA,sha256=0z8JsChLHNBJGU0KTFJRIRsewxbnBVC4J1vgPPp5CNo,1937
+pyfreenas-0.1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pyfreenas-0.1.0.dist-info/top_level.txt,sha256=Y61GUOszl_fWYknjIXnq-7HbtqlSlGdeb01WBmTZG5Q,10
+pyfreenas-0.1.0.dist-info/RECORD,,
