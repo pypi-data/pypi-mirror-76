@@ -1,0 +1,7 @@
+README.md
+setup.py
+analogai/__init__.py
+analogai.egg-info/PKG-INFO
+analogai.egg-info/SOURCES.txt
+analogai.egg-info/dependency_links.txt
+analogai.egg-info/top_level.txt
