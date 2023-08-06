@@ -1,0 +1,10 @@
+README.md
+setup.py
+amazontrends/__init__.py
+amazontrends/amazontrends.py
+amazontrends/category.py
+amazontrends.egg-info/PKG-INFO
+amazontrends.egg-info/SOURCES.txt
+amazontrends.egg-info/dependency_links.txt
+amazontrends.egg-info/requires.txt
+amazontrends.egg-info/top_level.txt
