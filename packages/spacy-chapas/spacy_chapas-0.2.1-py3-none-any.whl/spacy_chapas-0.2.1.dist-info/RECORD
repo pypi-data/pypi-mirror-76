@@ -1,0 +1,10 @@
+spacy_chapas/__init__.py,sha256=mh7anZlVq-270G05AizVq2KoKNJErcw3l4kuTEq6Zec,56
+spacy_chapas/chapas.py,sha256=VlT7SGLWMgDLFnoJ4BRFDYjZzA6Ew9S2tJGxZyiPK3o,4862
+spacy_chapas/chapas2ud,sha256=eGd0UR1HvwUcKO_X20-_9-c-kIJsBsoExThtW02dmY0,6563
+spacy_chapas/unidic2ipadic,sha256=81_K0X6R-yH13fnOtk2SgbbjS8fhjcBlKjuAHuIwFgE,3885
+spacy_chapas-0.2.1.data/data/bin/chapas2ud,sha256=eGd0UR1HvwUcKO_X20-_9-c-kIJsBsoExThtW02dmY0,6563
+spacy_chapas-0.2.1.dist-info/LICENSE.txt,sha256=CggQrBg6lOnsxk5fbwerDPop26rAOqIGJ2W8tXxXQKw,1071
+spacy_chapas-0.2.1.dist-info/METADATA,sha256=bB8ZAVwwFgLwVnRSuChRuiVaCztekJqKRD97Fd_Iyfc,7224
+spacy_chapas-0.2.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+spacy_chapas-0.2.1.dist-info/top_level.txt,sha256=uzwlFrX5hUgmxCctrKkNKvsvrvLjovEpF91iIJrNtJ8,13
+spacy_chapas-0.2.1.dist-info/RECORD,,
