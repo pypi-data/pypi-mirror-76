@@ -1,0 +1,3 @@
+[datasette]
+upload_csvs = datasette_upload_csvs
+
