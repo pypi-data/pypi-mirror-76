@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pyvisionproductsearch
+Version: 0.2
+Summary: Python Wrapper around the Google Vision Product Search API
+Home-page: https://github.com/google/pyvisionproductsearch
+Author: Dale Markowitz
+Author-email: dale@dalemarkowitz.com
+License: apache-2.0
+Download-URL: https://github.com/google/pyvisionproductsearch/archive/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: google cloud,product search,vision,machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Internet
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
