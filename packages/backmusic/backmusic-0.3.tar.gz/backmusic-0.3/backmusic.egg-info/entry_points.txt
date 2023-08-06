@@ -1,0 +1,3 @@
+[console_scripts]
+backmusic = backmusic.main:main
+

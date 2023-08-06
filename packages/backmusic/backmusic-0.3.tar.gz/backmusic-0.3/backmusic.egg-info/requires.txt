@@ -1,0 +1,5 @@
+argparse
+clint
+playsound
+pynput
+youtube-dl
