@@ -1,0 +1,10 @@
+README.md
+setup.py
+hexer/__init__.py
+hexer/regs.py
+hexer/test.py
+hexer_hx.egg-info/PKG-INFO
+hexer_hx.egg-info/SOURCES.txt
+hexer_hx.egg-info/dependency_links.txt
+hexer_hx.egg-info/entry_points.txt
+hexer_hx.egg-info/top_level.txt
