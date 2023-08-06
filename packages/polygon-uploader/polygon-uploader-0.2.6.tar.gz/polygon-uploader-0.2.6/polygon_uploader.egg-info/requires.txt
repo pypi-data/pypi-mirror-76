@@ -1,0 +1,5 @@
+polygon-api>=1.0a7
+requests
+pyyaml
+progressbar2
+beautifulsoup4
