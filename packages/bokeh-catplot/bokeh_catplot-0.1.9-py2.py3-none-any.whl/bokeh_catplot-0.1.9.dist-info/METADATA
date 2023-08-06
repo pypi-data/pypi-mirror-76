@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: bokeh-catplot
+Version: 0.1.9
+Summary: DEPRECATED. Utility to generate plots with categorical variables using Bokeh.
+Home-page: https://github.com/justinbois/bokeh-catplot
+Author: Justin Bois
+Author-email: bois@caltech.edu
+License: BSD
+Download-URL: https://github.com/justinbois/bokeh-catplot/tarball/0.1.9
+Platform: UNKNOWN
+Classifier: Development Status :: 7 - Inactive
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: numpy
+Requires-Dist: xarray
+Requires-Dist: numba
+Requires-Dist: pandas
+Requires-Dist: bokeh
+Requires-Dist: colorcet
+
+DEPRECATED. Utility to generate plots with categorical variables using Bokeh.
+
+
