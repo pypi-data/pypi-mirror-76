@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: ipleak
+Version: 0.1
+Summary: Python Tool to check your VPN.
+Home-page: https://github.com/ProfileID/ipleak
+Author: profileid
+Author-email: profileid@protonmail.com
+License: MIT
+Description: ipleak
+        ======
+        
+        Python Tool to check if your VPN Provider is good. Uses ipleak.net
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
