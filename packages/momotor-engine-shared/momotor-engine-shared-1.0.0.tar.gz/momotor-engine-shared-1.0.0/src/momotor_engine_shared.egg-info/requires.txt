@@ -1,0 +1,6 @@
+aiorwlock
+
+[test]
+pytest
+pytest-cov
+pytest-pythonpath
