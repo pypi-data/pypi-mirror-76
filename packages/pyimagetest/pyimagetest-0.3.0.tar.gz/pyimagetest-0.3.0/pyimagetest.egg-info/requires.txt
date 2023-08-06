@@ -1,0 +1,6 @@
+numpy
+
+[backends]
+imageio
+Pillow
+torchvision
