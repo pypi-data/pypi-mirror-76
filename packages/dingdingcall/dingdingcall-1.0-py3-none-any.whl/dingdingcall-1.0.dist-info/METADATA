@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dingdingcall
+Version: 1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: liuzihao
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: time
+Requires-Dist: hmac
+Requires-Dist: hashlib
+Requires-Dist: base64
+Requires-Dist: urllib
+
+UNKNOWN
+
+
