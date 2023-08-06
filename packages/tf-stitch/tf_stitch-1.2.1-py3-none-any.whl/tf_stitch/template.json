@@ -1,0 +1,52 @@
+{	
+
+	"domain" : {
+
+		"vision" : {
+			"dataset" : "CIFAR-10",
+			"model": "conv"
+		},
+		"nlp" : {
+			"dataset" : "imdb_reviews",
+			"model": "rnn"
+		},
+		"structured" : {
+			"dataset" : "iris",
+			"model": "dnn"
+		}
+
+	},
+
+	"imports" : "imports.py",
+	"dataset" : "dataset.py",
+
+	"preprocessing" : {
+		"conv" : "image.py",
+		"rnn" : "sequence.py"
+	},
+
+	"model" : {
+		"conv" : "conv_model.py",
+		"rnn" : "recurrent_model.py",
+		"dnn" : "dnn_model.py",
+		"custom" : "custom_model.py"
+	},
+
+	"training" : {
+		"custom" : "custom_train.py",
+		"built-in" : "built_in_train.py"
+	},
+
+	"testing" : "testing.py"
+
+}
+
+
+
+
+
+
+
+
+
+
