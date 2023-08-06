@@ -1,0 +1,4 @@
+[console_scripts]
+webduino-generator = webduino_generator.entrypoint:main
+wgen = webduino_generator.entrypoint:main
+
