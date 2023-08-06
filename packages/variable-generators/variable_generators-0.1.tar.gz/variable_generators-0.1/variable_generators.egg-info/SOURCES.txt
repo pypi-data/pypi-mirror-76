@@ -1,0 +1,13 @@
+CHANGELOG.md
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+variable_generators/__init__.py
+variable_generators/generators.py
+variable_generators.egg-info/PKG-INFO
+variable_generators.egg-info/SOURCES.txt
+variable_generators.egg-info/dependency_links.txt
+variable_generators.egg-info/requires.txt
+variable_generators.egg-info/top_level.txt
