@@ -1,0 +1,4 @@
+click
+ibm-cloud-sdk-core
+pyyaml
+schemathesis

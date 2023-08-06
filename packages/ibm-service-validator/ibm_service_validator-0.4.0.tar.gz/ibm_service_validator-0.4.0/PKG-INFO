@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: ibm_service_validator
+Version: 0.4.0
+Summary: Python package, Schemathesis, extended to include IBM API Handbook validation.
+Home-page: https://github.ibm.com/CloudEngineering/ibm-service-validator
+Author: Barrett Schonefeld, IBM
+Author-email: barrett.schonefeld@ibm.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

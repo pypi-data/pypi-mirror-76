@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        ibm-service-validator=ibm_service_validator.cli:ibm_service_validator
+    
