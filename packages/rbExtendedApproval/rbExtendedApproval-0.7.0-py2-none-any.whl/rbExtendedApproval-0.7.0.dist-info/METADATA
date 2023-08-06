@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rbExtendedApproval
+Version: 0.7.0
+Summary: Review Board extension: ExtendedApproval
+Home-page: https://github.com/misery/ExtendedApproval
+Author: Andre Klitzing
+Author-email: aklitzing@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Review Board
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Requires-Dist: reviewboard (>=3)
+
+UNKNOWN
+
+
