@@ -1,0 +1,14 @@
+authemail/__init__.py,sha256=tWjUhQ5TPvBI9LrYXbPwnJRrQuJm0XHKr_wWvIZP1fY,163
+authemail/admin.py,sha256=7NlO1FQJoC-G_C9kvtf7XfGrsiDlrLpYeFyNuOSafS0,2466
+authemail/forms.py,sha256=O_8yAItseovK-goKX1xe2-kfhwtQrMX-XBOvNSPGkEw,1937
+authemail/models.py,sha256=hqAlI_OJ0keIeSlAtKHEQPz-qKJLAc5giqE-Z48fnFc,6160
+authemail/serializers.py,sha256=QemsUi-KPyGsGdIhk0sp2W0eSZgiejrGiM7s6FK5Vi8,1273
+authemail/tests.py,sha256=7q9TYfVQKItnYzMdBsBlaCa_awvPWg_QzOmBc3eMRgU,21532
+authemail/urls.py,sha256=6tX6gLmyGNq8vBZtsSvIfRXBiz4Gnpq1qMNnx7OvveU,1047
+authemail/views.py,sha256=HfUjEvML79_UOIwXc2L14TjSCuqcekKhQTKvwtjEDIw,8864
+authemail/wrapper.py,sha256=7cTfqHsZJYjTKMND1n1PRDMld8GW5ITudmQ-TNwkOnE,4457
+django_rest_authemail-1.5.1.dist-info/LICENSE,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+django_rest_authemail-1.5.1.dist-info/METADATA,sha256=PP_0BAoumN3SVSfV4ranKtAIk8XvBo3BUUvw-amuM5g,19886
+django_rest_authemail-1.5.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+django_rest_authemail-1.5.1.dist-info/top_level.txt,sha256=goZE0_P7qEEWgVsZDUfBjOhRF1kL8Lf_piZK8JUIk2g,10
+django_rest_authemail-1.5.1.dist-info/RECORD,,
