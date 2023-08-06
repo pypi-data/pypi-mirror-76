@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pytest-unordered
+Version: 0.2.0
+Summary: Test equality of unordered collections in pytest
+Home-page: https://github.com/utapyngo/pytest-unordered
+Author: Ivan Zaikin
+Author-email: ut@pyngo.tom.ru
+Maintainer: Ivan Zaikin
+Maintainer-email: ut@pyngo.tom.ru
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: pytest (>=6.0.0)
+
+# pytest-unordered
+
+[![Build Status](https://travis-ci.org/utapyngo/pytest-unordered.svg?branch=master)](https://travis-ci.org/utapyngo/pytest-unordered)
+[![Coverage Status](https://codecov.io/gh/utapyngo/pytest-unordered/branch/master/graph/badge.svg)](https://codecov.io/gh/utapyngo/pytest-unordered)
+
+Test equality of unordered collections in pytest.
+
+## Installation
+
+    pip install pytest-unordered
+
+
+## Usage
+
+    from pytest_unordered import unordered
+
+    def test_unordered():
+        assert [3, 2, {1: ['b', 'a']}] == unordered({1: unordered('a', 'b')}, 2, 3)
+
+
