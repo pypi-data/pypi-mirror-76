@@ -1,0 +1,2 @@
+
+from hishiryo import Hishiryo
