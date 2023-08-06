@@ -1,0 +1,58 @@
+from ..connection.connect import *
+from pymodm import fields, MongoModel
+
+
+class Position(MongoModel):
+    """仓位基础"""
+    # 交易所
+    exchange_name = fields.CharField(min_length=3)
+    # 币对
+    coin_pair = fields.CharField(min_length=3)
+    # 当前基础币总花费
+    cost = fields.FloatField()
+    # 持有目标币数量
+    hold = fields.FloatField()
+
+    class Meta:
+        connection_alias = DB_POSITION
+
+    @classmethod
+    def position_with(cls, exchange_name, coin_pair_str):
+        """获取仓位信息、无则创建
+
+        Parameters
+        ----------
+        exchange_name : str
+        coin_pair_str : str
+        """
+        try:
+            return cls.objects.raw({'exchange_name': exchange_name, 'coin_pair': coin_pair_str}).first()
+        except Exception:
+            return cls(exchange_name=exchange_name, coin_pair=coin_pair_str, cost=0, hold=0)
+
+    def update(self, increase_cost, increase_hold):
+        """更新仓位
+
+        Parameters
+        ----------
+        increase_cost : float
+            0.00000123
+        increase_hold : float
+            0.00000123
+        """
+        self.cost += increase_cost
+        self.hold += increase_hold
+        self.save()
+
+    def reset(self):
+        """重置仓位(全部卖出了)"""
+        self.cost = 0
+        self.hold = 0
+        self.save()
+
+
+class AIMSPosition(Position):
+    """ AIMS 策略仓位 """
+    class Meta:
+        connection_alias = DB_POSITION
+        collection_name = CN_AIMS_POS
