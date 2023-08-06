@@ -1,0 +1,3 @@
+[console_scripts]
+yamlbase = src.yamlbase.yamlbase:main
+
