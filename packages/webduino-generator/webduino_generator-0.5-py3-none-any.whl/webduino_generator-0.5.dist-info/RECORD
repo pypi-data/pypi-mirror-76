@@ -1,0 +1,17 @@
+webduino_generator/__init__.py,sha256=VbM__arensnNbHZKU5-0leF37cFt4U-CrCWXwIU4sAk,180
+webduino_generator/arduino.py,sha256=dvCybiDcWbhX3vbhqKKnfhFq-JXHlmswaYcpY6fYsYY,4613
+webduino_generator/entrypoint.py,sha256=IqB2VMmc6vJL-OA3B5PRHaeQ0C7icQWw5azw1vsa15A,9115
+webduino_generator/generator.py,sha256=DHjQ9fXJUW-6Izy6Sw46UrQXZAuWlWRSPYddzBKitpk,9789
+webduino_generator/helper.py,sha256=cJeWfcT48Tx0DLfSnj9JK0QqiMAXPC5RSBDVkda4aLI,1089
+webduino_generator/project.py,sha256=IGeSGcq1yfdgjTqZoBP-b4ty2hh1aYwAdoWIzAQjook,9731
+webduino_generator/userio.py,sha256=c0FRFdsoR1XC2yrDW9lBUZ886gflXK5QVkVsuHqh_ls,2320
+webduino_generator/demo/index.html,sha256=8Ni797HLkrCT3-nuECyT0qB7MpEjSALztXqpMsKznNM,159
+webduino_generator/templates/WebServer.h,sha256=nnozG9H1KtooSbYML_MTAywyB0iISIeF-5jQ_au-6Ig,33630
+webduino_generator/templates/commands.h,sha256=yMP7ddwz4f93tBaquGihTWTwZqStRhOuvQdnS1OsFEc,2090
+webduino_generator/templates/main.ino,sha256=HXeWLB4uBa_pemjMMxFBrDO4h-aJKOgfaNpEC_KfDEk,970
+webduino_generator-0.5.dist-info/LICENSE.md,sha256=sJWr7F61migcIruUQDQ7rB5GR0af_SSQbyL0DErBoQg,1357
+webduino_generator-0.5.dist-info/METADATA,sha256=D0GCvn5OG2P6QD3wGbtAkUiolfWbqexx4D3mgKob0Rw,549
+webduino_generator-0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+webduino_generator-0.5.dist-info/entry_points.txt,sha256=D3xGtdnburZZk3ngncbEQdlK18-0SlnD75f1vHFhSIE,117
+webduino_generator-0.5.dist-info/top_level.txt,sha256=1On71a44xG3rMK6Mseh0pbPR2DGvveI0Hqb_OToj3c0,19
+webduino_generator-0.5.dist-info/RECORD,,
