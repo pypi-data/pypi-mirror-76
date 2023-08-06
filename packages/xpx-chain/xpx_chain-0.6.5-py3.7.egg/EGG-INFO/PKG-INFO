@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: xpx-chain
+Version: 0.6.5
+Summary: ProximaX Sirius Blockchain Python SDK
+Home-page: https://github.com/proximax-storage/python-xpx-chain-sdk
+Maintainer: Jan
+Maintainer-email: wirfeon@gmail.com
+License: Apache-2.0
+Description: ProximaX Sirius Blockchain Python SDK is a Python library for interacting with the Sirius Blockchain.
+Keywords: ProximaX,XPX,Sirius,Catapult,Blockchain
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Provides-Extra: crypto
+Provides-Extra: reactive
+Provides-Extra: bandit
+Provides-Extra: coverage
+Provides-Extra: flake8
+Provides-Extra: pylint
+Provides-Extra: random
+Provides-Extra: radon
+Provides-Extra: sphinx
