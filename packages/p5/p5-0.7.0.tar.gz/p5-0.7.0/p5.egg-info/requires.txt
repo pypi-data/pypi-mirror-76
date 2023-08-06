@@ -1,0 +1,7 @@
+freetype-py
+glfw
+numpy
+Pillow
+vispy
+PyOpenGL
+PyOpenGL-accelerate
