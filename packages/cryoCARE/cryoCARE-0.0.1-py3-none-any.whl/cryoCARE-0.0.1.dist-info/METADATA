@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cryoCARE
+Version: 0.0.1
+Summary: cryoCARE is deep learning approach for cryo-TEM tomogram denoising.
+Home-page: https://github.com/juglab/cryoCARE_pip
+Author: Tim-Oliver Buchholz
+Author-email: tibuch@mpi-cbg.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: mrcfile
+Requires-Dist: keras (<2.3.0,>=2.2.4)
+Requires-Dist: tensorflow-gpu (<2.0.0,>=1.12)
+Requires-Dist: csbdeep (<0.6.0,>=0.4.0)
+Requires-Dist: PyInquirer
+
+# cryoCARE_pip
+PIP package of cryoCARE
+
+
