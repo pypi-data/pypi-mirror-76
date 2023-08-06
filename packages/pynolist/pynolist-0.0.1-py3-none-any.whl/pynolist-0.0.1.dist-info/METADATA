@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: pynolist
+Version: 0.0.1
+Summary: List modifying package
+Home-page: https://github.com/subhodip00/Pynlist
+Author: Subhodip Sinha Choudhury
+Author-email: subhodip00@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Pynlist Python module:
+==========
+It is a module that allows simple and basic tasks related to lists to be performed in an efficient manner using built-in methods
+
+Installation:
+=========
+
+    '''pip install pynlist'''
+How to use:
+=====
+### 1. emax and omax:
+These methods take in a list and return a single value (The maximum even or odd number in the list respectively.)
+
+    x.emax(my_list)
+    print(x)
+
+### 2. emin and omin:
+These methods take in a list and return a single value (The minimum even or odd number in the list respectively.)
+
+    x.emin(my_list)
+    print(x)
+
+### 3. esum and osum:
+These methods take in a list and return a single value(The sum of all the even or odd numbers in the list respectively.)
+
+    x.esum(my_list)
+    print(x)
+
+### 4. prime_search:
+This method takes in a list and and returns the prime numbers(if any) in a list format.
+
+    x.prime_search(my_list)
+    print(x)
+
+### 5. duplicate_search:
+This method takes in a list and and returns the duplicates (numbers or strings,if any) in a list format.
+
+    x.duplicate_search(my_list)
+    print(x)
+
+### 6. quick_list:
+This method takes in two arguments and returns a list generated at random based off the given arguments.
+
+    x.quicklist(length=int,max_number=int)
+    print(x)
+License:
+=======
+**Copyright (c) 2020 Subhodip Sinha Choudhury**
+**Read LICENSE for more details.**
+
+
+
