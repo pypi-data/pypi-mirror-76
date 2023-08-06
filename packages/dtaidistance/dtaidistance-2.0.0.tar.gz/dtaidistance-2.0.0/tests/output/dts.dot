@@ -1,0 +1,115 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="d[1] (3, +, s<t) <= 0.15\nigkdistance = 0.6542\nsamples = 9\nvalue = [3, 6]\nclass = CL"] ;
+1 [label="igkdistance = 0\nsamples = 3\nvalue = [3, 0]\nclass = ML"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="igkdistance = 0\nsamples = 6\nvalue = [0, 6]\nclass = CL"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
+
+
+digraph Tree {
+node [shape=box] ;
+0 [label="d[5] (10, -, s>t) <= 0.05\nigkdistance = 0.6542\nsamples = 9\nvalue = [3, 6]\nclass = CL"] ;
+1 [label="igkdistance = 0\nsamples = 3\nvalue = [3, 0]\nclass = ML"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="igkdistance = 0\nsamples = 6\nvalue = [0, 6]\nclass = CL"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
+
+
+digraph Tree {
+node [shape=box] ;
+0 [label="d[2] (4, -, s>t) <= 0.25\nigkdistance = 0.2991\nsamples = 9\nvalue = [3, 6]\nclass = CL"] ;
+1 [label="d[4] (9, +, s<t) <= 0.4\nigkdistance = 0.8226\nsamples = 5\nvalue = [3, 2]\nclass = ML"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+3 [label="igkdistance = 0\nsamples = 3\nvalue = [3, 0]\nclass = ML"] ;
+1 -> 3 ;
+4 [label="igkdistance = 0\nsamples = 2\nvalue = [0, 2]\nclass = CL"] ;
+1 -> 4 ;
+2 [label="igkdistance = 0\nsamples = 4\nvalue = [0, 4]\nclass = CL"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
+
+
+digraph Tree {
+node [shape=box] ;
+0 [label="d[3] (6, -, s>t) <= 0.05\nigkdistance = 0.2699\nsamples = 9\nvalue = [3, 6]\nclass = CL"] ;
+1 [label="d[3] (7, +, s<t) <= 0.3\nigkdistance = 0.7478\nsamples = 5\nvalue = [3, 2]\nclass = ML"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+3 [label="igkdistance = 0\nsamples = 3\nvalue = [3, 0]\nclass = ML"] ;
+1 -> 3 ;
+4 [label="igkdistance = 0\nsamples = 2\nvalue = [0, 2]\nclass = CL"] ;
+1 -> 4 ;
+2 [label="igkdistance = 0\nsamples = 4\nvalue = [0, 4]\nclass = CL"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
+
+
+digraph Tree {
+node [shape=box] ;
+0 [label="d[4] (8, -, s>t) <= 0.05\nigkdistance = 0.1405\nsamples = 9\nvalue = [3, 6]\nclass = CL"] ;
+1 [label="d[7] (15, +, s<t) <= 0.05\nigkdistance = 0.2218\nsamples = 8\nvalue = [2, 6]\nclass = CL"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+3 [label="d[2] (5, +, s<t) <= 0.15\nigkdistance = 0.2337\nsamples = 4\nvalue = [2, 2]\nclass = ML"] ;
+1 -> 3 ;
+5 [label="igkdistance = 0\nsamples = 3\nvalue = [2, 1]\nclass = ML"] ;
+3 -> 5 ;
+6 [label="igkdistance = 0\nsamples = 1\nvalue = [0, 1]\nclass = CL"] ;
+3 -> 6 ;
+4 [label="igkdistance = 0\nsamples = 4\nvalue = [0, 4]\nclass = CL"] ;
+1 -> 4 ;
+2 [label="igkdistance = 0\nsamples = 1\nvalue = [1, 0]\nclass = ML"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
+
+
+digraph Tree {
+node [shape=box] ;
+0 [label="d[4] (8, -, s>t) <= 0.05\nigkdistance = 0.1405\nsamples = 9\nvalue = [3, 6]\nclass = CL"] ;
+1 [label="d[0] (0, -, s>t) <= 0.05\nigkdistance = 0.0873\nsamples = 8\nvalue = [2, 6]\nclass = CL"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+3 [label="igkdistance = 0\nsamples = 6\nvalue = [2, 4]\nclass = CL"] ;
+1 -> 3 ;
+4 [label="igkdistance = 0\nsamples = 2\nvalue = [0, 2]\nclass = CL"] ;
+1 -> 4 ;
+2 [label="igkdistance = 0\nsamples = 1\nvalue = [1, 0]\nclass = ML"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
+
+
+digraph Tree {
+node [shape=box] ;
+0 [label="d[4] (8, -, s>t) <= 0.05\nigkdistance = 0.1405\nsamples = 9\nvalue = [3, 6]\nclass = CL"] ;
+1 [label="d[6] (12, -, s>t) <= 0.05\nigkdistance = 0.0399\nsamples = 8\nvalue = [2, 6]\nclass = CL"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+3 [label="igkdistance = 0\nsamples = 7\nvalue = [2, 5]\nclass = CL"] ;
+1 -> 3 ;
+4 [label="igkdistance = 0\nsamples = 1\nvalue = [0, 1]\nclass = CL"] ;
+1 -> 4 ;
+2 [label="igkdistance = 0\nsamples = 1\nvalue = [1, 0]\nclass = ML"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
+
+
+digraph Tree {
+node [shape=box] ;
+0 [label="d[4] (8, -, s>t) <= 0.05\nigkdistance = 0.1405\nsamples = 9\nvalue = [3, 6]\nclass = CL"] ;
+1 [label="igkdistance = 0\nsamples = 8\nvalue = [2, 6]\nclass = CL"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="igkdistance = 0\nsamples = 1\nvalue = [1, 0]\nclass = ML"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
+
+
+digraph Tree {
+node [shape=box] ;
+0 [label="d[5] (11, +, s<t) <= 0.05\nigkdistance = 0.1405\nsamples = 9\nvalue = [3, 6]\nclass = CL"] ;
+1 [label="igkdistance = 0\nsamples = 8\nvalue = [2, 6]\nclass = CL"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="igkdistance = 0\nsamples = 1\nvalue = [1, 0]\nclass = ML"] ;
+0 -> 2 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
+
+
+
