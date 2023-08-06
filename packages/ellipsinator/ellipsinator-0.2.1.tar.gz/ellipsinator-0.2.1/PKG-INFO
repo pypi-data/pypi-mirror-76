@@ -1,0 +1,58 @@
+Metadata-Version: 1.2
+Name: ellipsinator
+Version: 0.2.1
+Summary: Ellipse tools for Python
+Home-page: https://github.com/mckib2/ellipsinator
+Author: Nicholas McKibben
+Author-email: nicholas.bgp@gmail.com
+License: GPLv3
+Description: Ellipsinator
+        ============
+        
+        Tools for working with ellipses in Python.
+        
+        Installation
+        ============
+        
+        Should be an easy pip install:
+        
+        .. code-block:: bash
+        
+            pip install ellipsinator
+        
+        
+        Usage
+        =====
+        
+        To fit an ellipse:
+        
+        .. code-block:: python
+        
+            from ellipsinator import fit_ellipse_halir
+            c = fit_ellipse_halir(x, y)
+        
+            from ellipsinator import fit_ellipse_fitzgibon
+            c = fit_ellipse_fitzgibon(x, y)
+        
+            from ellipsinator import fast_guaranteed_ellipse_estimate
+            c = fast_guaranteed_ellipse_estimate(x, y)
+        
+        You can also pass in the measured points as a complex number,
+        `x + 1j*y`:
+        
+        .. code-block:: python
+        
+            from ellipsinator import fit_ellipse_halir
+            c = fit_ellipse_halir(x)
+        
+        The only function that supports fitting multiple ellipses
+        simultaneously is `fit_ellipse_halir`:
+        
+        .. code-block:: python
+        
+            assert x.shape == (num_ellipses, num_pts)
+            assert y.shape == (num_ellipses, num_pts)
+            c = fit_ellipse_halir(x, y)
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5
