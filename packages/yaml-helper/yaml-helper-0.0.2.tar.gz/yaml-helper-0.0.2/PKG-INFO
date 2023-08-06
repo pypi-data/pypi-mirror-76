@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: yaml-helper
+Version: 0.0.2
+Summary: Helper methods to read and write .yml files.
+Home-page: https://github.com/rendicahya/yaml-helper
+Author: Randy Cahya Wihandika
+Author-email: rendicahya@gmail.com
+License: UNKNOWN
+Description: # YAML Helper
+        
+        Helper methods to read and write `.yml` files.
+        
+        ## Installation
+        `pip install yaml-helper`
+        
+        ## Usage
+        ```
+        import yaml_helper as yaml
+        
+        
+        yml_file = 'config.yml'
+        yml = yaml.load(yml_file)
+        additional = {'driver': 'mysqli'}
+        
+        yaml.add(additional)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
