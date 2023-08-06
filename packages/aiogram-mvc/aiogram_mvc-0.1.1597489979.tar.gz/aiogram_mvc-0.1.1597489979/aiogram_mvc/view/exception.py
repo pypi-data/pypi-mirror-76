@@ -1,0 +1,2 @@
+class NotValidated(Exception):
+    pass
