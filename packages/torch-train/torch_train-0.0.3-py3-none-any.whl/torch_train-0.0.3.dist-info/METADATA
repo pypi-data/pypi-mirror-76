@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: torch-train
+Version: 0.0.3
+Summary: Training wrapper around torch.nn.Module, provides scikit-learn like fit and predict interfaces.
+Home-page: https://github.com/Thijsvanede/torch-train
+Author: Thijs van Ede
+Author-email: t.s.vanede@utwente.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# torch-train
+Training wrapper around torch.nn.Module, provides scikit-learn like fit and predict interfaces.
+
+## Installation
+The easiest way to install is through pip
+```
+pip install torch-train
+```
+
+### Dependencies
+The torch-train is an extension of the pytorch library.
+Therefore, when installed manually, ensure pytorch is installed.
+Either through pip:
+```
+pip install torch
+```
+See [https://pytorch.org/](https://pytorch.org/) for a detailed installation guide.
+
+## Documentation
+For a full reference, please see [torch-train.readthedocs.io](https://torch-train.readthedocs.io).
+
+

@@ -1,0 +1,8 @@
+torchtrain/__init__.py,sha256=wUb_M8S030sDKItqAf-YSRqUK4JPPs9b067A4jXSAIo,27
+torchtrain/module.py,sha256=RHWMWcl_yNtJQffsBxXXxU3S4PrXgJkgB1KurLYROKs,8687
+torchtrain/variable_data_loader.py,sha256=n3ML4JyCRRdLyMq1Cu9db49avYKkgg2zGnSHblPRAjY,3652
+torch_train-0.0.3.dist-info/LICENSE,sha256=ygbj6u_2d1qlfVV008lFEM5F8-SRmLKgzeWonNyFi50,1068
+torch_train-0.0.3.dist-info/METADATA,sha256=l6TqcSjla96fzLB80jmC5YAJVfF_ZGMGbM47_8WCk4Y,1083
+torch_train-0.0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+torch_train-0.0.3.dist-info/top_level.txt,sha256=jwOFQG09T94xQ4KE7M9XGcd4F4EG6FknhY9g3miTpSk,11
+torch_train-0.0.3.dist-info/RECORD,,
