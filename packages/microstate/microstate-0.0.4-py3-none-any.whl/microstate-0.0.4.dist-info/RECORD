@@ -1,0 +1,11 @@
+microstate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+microstate/client.py,sha256=nCprTl50Rgp-jVYLIhFbvADFMHVq8RlHsruU_gZZKMw,1001
+microstate/conventions.py,sha256=ROqfTkcZq7XNF-_hktM9zB2Lqhm2mwydba81RVyp9fM,1923
+microstate/redis_config.py,sha256=y-mhxOlq7A5XWQW4Ru5_c_g04e4T-Id6wHVTrkdL28I,1311
+microstate/server.py,sha256=Iyru0A4PHcpa_hoVdbilCp8rZmEx5EU7ZvD8zUTLAe8,2875
+microstate/server_conventions.py,sha256=BPubGbtl5QM9llswLNEttWdflhu94VZ3TQ31_e2ImTo,2230
+microstate-0.0.4.dist-info/METADATA,sha256=KrYEB4iJ9lN_RVg2f_3W3MAfauW3njStqe0CE7LSgKM,1601
+microstate-0.0.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+microstate-0.0.4.dist-info/entry_points.txt,sha256=8adghv7ESIBIEj8aPPE8g0t_Yyy6_gJBBcOjNu58GAo,57
+microstate-0.0.4.dist-info/top_level.txt,sha256=QD5q85RHFjxLc_68IbjXkpUouuZUPgoAmPTuz27Zkos,11
+microstate-0.0.4.dist-info/RECORD,,
