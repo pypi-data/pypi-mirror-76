@@ -1,0 +1,9 @@
+README.txt
+setup.py
+pychatapp/__init__.py
+pychatapp/mainApp.py
+pychatapp.egg-info/PKG-INFO
+pychatapp.egg-info/SOURCES.txt
+pychatapp.egg-info/dependency_links.txt
+pychatapp.egg-info/requires.txt
+pychatapp.egg-info/top_level.txt
