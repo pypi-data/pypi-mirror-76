@@ -1,0 +1,5 @@
+setup.py
+ScopeReaders.egg-info/PKG-INFO
+ScopeReaders.egg-info/SOURCES.txt
+ScopeReaders.egg-info/dependency_links.txt
+ScopeReaders.egg-info/top_level.txt
