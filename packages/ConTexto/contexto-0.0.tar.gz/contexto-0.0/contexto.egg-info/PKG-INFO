@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: contexto
+Version: 0.0
+Summary: Librería de análisis de texto
+Home-page: https://github.com/ucd-dnp/contexto
+Author: Departamento Nacional de Planeación - DNP
+Author-email: ucd@dnp.gov.co
+License: MIT
+Description: # CONTEXTO - Librería de análisis de texo
+        
+        ## Contribuciones
+        
+        Para sugerir mejoras, cambios en la librería o seguir el avance de la solución de errores reportados, debe acceder a la sección de [Issues](https://github.com/ucd-dnp/contexto/issues) del repositorio.
+        
+        ## Licencia
+        
+        La librería CONTEXTO se encuentra publicada bajo la licencia MIT <br />
+        Copyleft (c) 2020 Departamento Nacional de Planeación - DNP Colombia
+        
+        
+        ## Contacto
+        
+        Para comunicarse con la Unidad de Científicos de Datos (UCD) de la Dirección de Desarrollo Digital (DDD) del DNP, lo puede hacer mediante el correo electrónico ucd@dnp.gov.co
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
