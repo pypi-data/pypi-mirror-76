@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: obify
+Version: 0.0.2
+Summary: This library provides a set of data structures that will work on python objects similar to collections framework in java
+Home-page: https://github.com/amanchourasiya/obify
+Author: Aman Chourasiya
+Author-email: aman@amanchourasiya.com
+License: GNU GPL-v3
+Download-URL: https://github.com/amanchourasiya/obify/archive/v_002.tar.gz
+Description: # obify
+        A python library that will provide all algorithms working on object 
+        
+        ### This library can be used following way
+        
+        ```python
+        from obify import heap
+        
+        class Node():
+            def __init__(self, data):
+                self.data = data
+        
+            def compare(self, node):
+                if self.data < node.data:
+                    return -1
+                elif self.data > node.data:
+                    return 1
+                else:
+                    return 0
+        
+        def test_heap():
+            h = heap.MinHeap()
+            h.insert(Node(12))
+            h.insert(Node(2))
+            h.insert(Node(20))
+            h.remove()
+            h.insert(Node(0))
+        ```
+        
+Keywords: Collections,Objects,Data structures
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
