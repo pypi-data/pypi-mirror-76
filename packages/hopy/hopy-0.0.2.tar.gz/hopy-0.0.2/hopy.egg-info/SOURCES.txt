@@ -1,0 +1,12 @@
+README.md
+setup.py
+hopy/__init__.py
+hopy/const.py
+hopy/evaluator.py
+hopy/lexer.py
+hopy/parser.py
+hopy.egg-info/PKG-INFO
+hopy.egg-info/SOURCES.txt
+hopy.egg-info/dependency_links.txt
+hopy.egg-info/requires.txt
+hopy.egg-info/top_level.txt
