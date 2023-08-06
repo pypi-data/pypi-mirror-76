@@ -1,0 +1,8 @@
+README.md
+setup.py
+conversor/__init__.py
+conversor/dict.py
+general_conversors.egg-info/PKG-INFO
+general_conversors.egg-info/SOURCES.txt
+general_conversors.egg-info/dependency_links.txt
+general_conversors.egg-info/top_level.txt
