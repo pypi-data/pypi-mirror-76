@@ -1,0 +1,9 @@
+fast_alignment/__init__.py,sha256=YEfP7Zk1uQQHdXYqe_aUV4C_kNh-1XWMIOJN9lT48Yk,75
+fast_alignment/_version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+fast_alignment/basenet.py,sha256=kjfc17Yx7zFo_Akb6lzdAQdyU8AeFgUGfjjOdoUxuv4,3809
+fast_alignment/predictor.py,sha256=DhZ25VXEceVTNSiq4WDDopZCz7eKYKq240SZa0U5Xpw,4314
+fast_alignment/utils.py,sha256=dR4PxMOEauDWToPi3qr6L9jnnhpyRLpFThLMz10M6Pc,440
+fast_alignment-0.0.1.dist-info/METADATA,sha256=D3Ivh-iRBYVhltAimCC_UgEhIJ-gCvY1wqMgwytxMz0,570
+fast_alignment-0.0.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+fast_alignment-0.0.1.dist-info/top_level.txt,sha256=vjRZAJIpAjnHXsYotBFCAIrWEvJQ_wRzWaTGjW8_f7s,15
+fast_alignment-0.0.1.dist-info/RECORD,,

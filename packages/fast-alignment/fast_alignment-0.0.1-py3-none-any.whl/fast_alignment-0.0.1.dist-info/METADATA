@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: fast-alignment
+Version: 0.0.1
+Summary: Vectorized face alignment
+Home-page: https://github.com/elliottzheng/fast-alignment
+Author: Elliott Zheng
+Author-email: admin@hypercube.top
+License: MIT
+Project-URL: Documentation, https://github.com/elliottzheng/fast-alignment
+Project-URL: Source, https://github.com/elliottzheng/fast-alignment
+Project-URL: Tracker, https://github.com/elliottzheng/fast-alignment/issues
+Keywords: fast-alignment pytorch
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: torch
+Requires-Dist: torchvision
+
+UNKNOWN
+
+
