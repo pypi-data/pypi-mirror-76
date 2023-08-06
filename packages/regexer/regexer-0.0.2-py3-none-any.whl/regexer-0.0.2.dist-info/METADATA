@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: regexer
+Version: 0.0.2
+Summary: Simplify work with regex.
+Home-page: https://gitlab.com/vladku/regexer
+Author: Kurovkyi Vladyslav
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# regexer
+Simplify working with regex.
+
+Examples:
+```python
+>>> Regexer([r"(?P<num>\d+)")("Test01 string sentence02")['num']
+['01', '02']
+>>> RegexerString("Test01 string sentence02")[r"(?P<num>\d+)", 'num']
+['01', '02']
+>>> RegexerString("Test01 string sentence02")[r"(?P<num>\d+)", 1, 'num']
+'02'
+>>> RegexerString("Test01 string sentence02") / r"\w\d{2}"
+['Tes', ' string sentenc']
+>>> RegexerString("Test01 string sentence02") - r"\d"
+'Test string sentence'
+```
+
