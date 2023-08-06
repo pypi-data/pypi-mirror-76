@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/minirobots-shell
+minirobots/__init__.py
+minirobots/__main__.py
+minirobots/turtle.py
+minirobots_turtle.egg-info/PKG-INFO
+minirobots_turtle.egg-info/SOURCES.txt
+minirobots_turtle.egg-info/dependency_links.txt
+minirobots_turtle.egg-info/requires.txt
+minirobots_turtle.egg-info/top_level.txt
