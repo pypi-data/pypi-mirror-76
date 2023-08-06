@@ -1,0 +1,14 @@
+.gitignore
+AUTHORS.rst
+CHANGES.rst
+LICENSE.txt
+README.md
+setup.py
+tests/base_test.py
+tests/requirements.txt
+text_cosine/__init__.py
+text_cosine/base.py
+text_cosine.egg-info/PKG-INFO
+text_cosine.egg-info/SOURCES.txt
+text_cosine.egg-info/dependency_links.txt
+text_cosine.egg-info/top_level.txt
