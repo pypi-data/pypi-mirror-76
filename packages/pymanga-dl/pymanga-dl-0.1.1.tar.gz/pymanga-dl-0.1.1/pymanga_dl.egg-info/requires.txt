@@ -1,0 +1,8 @@
+requests
+click
+pycryptodome
+prettytable
+tenacity
+pyaes
+watchdog
+PyExecJS
