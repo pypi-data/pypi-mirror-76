@@ -1,0 +1,7 @@
+[orange.widgets]
+EEG – 1. Data IO = Orange3MNE.EegDataIO.widgets
+EEG – 2. Preprocessing = Orange3MNE.EegPreprocessing.widgets
+EEG – 3. Feature extraction = Orange3MNE.EegFeatureExtraction.widgets
+EEG – 4. Classification = Orange3MNE.EegClassification.widgets
+EEG – 5. Visualization = Orange3MNE.EegVisualization.widgets
+
