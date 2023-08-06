@@ -1,0 +1,11 @@
+README.md
+setup.py
+agspiel/__init__.py
+agspiel/api/__init__.py
+agspiel/utils/__init__.py
+agspiel/utils/main.py
+agspiel_python_api.egg-info/PKG-INFO
+agspiel_python_api.egg-info/SOURCES.txt
+agspiel_python_api.egg-info/dependency_links.txt
+agspiel_python_api.egg-info/requires.txt
+agspiel_python_api.egg-info/top_level.txt
