@@ -1,0 +1,84 @@
+[tool.black]
+skip-string-normalization = true
+
+[tool.poetry]
+name = "libvcs"
+version = "0.5.0"
+description = "vcs abstraction layer"
+license = "MIT"
+authors = ["Tony Narlock <tony@git-pull.com>"]
+keywords = ["libvcs", "git", "mercurial", "hg", "svn"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Environment :: Web Environment",
+  "Intended Audience :: Developers",
+  "Operating System :: POSIX",
+  "Operating System :: MacOS :: MacOS X",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 2.7",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.5",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Topic :: Utilities",
+  "Topic :: System :: Shells"
+]
+homepage = "http://github.com/vcs-python/libvcs/"
+readme = "README.rst"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/vcs-python/libvcs/issues"
+Documentation = "https://libvcs.git-pull.com"
+Repository = "https://github.com/vcs-python/libvcs"
+
+[tool.poetry.dependencies]
+python = "~2.7 || ^3.5"
+
+[tool.poetry.dev-dependencies]
+### Docs ###
+sphinx = [
+  {version="<2", python="<3"},
+  {version="*", python=">=3"}
+]
+recommonmark = {version = "^0.6.0"}
+alagitpull = {version = "~0.1.0"}
+sphinx-issues = {version = "^1.2.0"}
+
+### Testing ###
+pytest = [
+  {version="<4.7.0", python="<3"},
+  {version="*", python=">=3"}
+]
+pathlib2 = {version="<2.3.5", python="<3"}  # Untangle pytest peer-dependency
+pytest-rerunfailures = "*"
+pytest-mock = [
+  {version="<3.0.0", python="<3"},
+  {version="*", python=">=3"}
+]
+
+### Coverage ###
+codecov = "*"
+coverage = "*"
+pytest-cov = [
+  {version="<2.10.0", python="<3"},
+  {version="*", python=">=3"}
+]
+
+### Format ###
+black = {version="==19.10b0", python="^3.6"}
+isort = [
+  {version="<5", python="<3.6"},
+  {version="*", python=">=3.6"}
+]
+
+### Lint ###
+flake8 = "*"
+
+[tool.poetry.extras]
+docs = ["sphinx", "recommonmark", "sphinx-issues", "alagitpull"]
+test = ["pytest", "pathlib2", "pytest-rerunfailures", "pytest-mock"]
+coverage = ["codecov", "coverage", "pytest-cov"]
+format = ["black", "isort"]
+lint = ["flake8"]
