@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: amlutils
+Version: 1.8
+Summary: A collection of useful methods and utilities for Machine Learning Projects
+Home-page: https://github.com/parvoberoi/amlutils
+Author: Parv Oberoi
+Author-email: amlutils@gmail.com
+License: Apache Software License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.18.3)
+Requires-Dist: opencv-python (>=4.2.0.34)
+Requires-Dist: requests (>=2.23.0)
+
+# Applied Machine Learning Utils (amlutils)
+a library of python3 utility functions that i have found useful when trying to productionize machine and deep learning models.
+
+![](https://github.com/parvoberoi/utils/workflows/unit-test/badge.svg)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![PyPI version](https://badge.fury.io/py/amlutils.svg)](https://badge.fury.io/py/amlutils)
+
+
