@@ -1,0 +1,72 @@
+Metadata-Version: 1.2
+Name: django-dnt
+Version: 1.0
+Summary: Make Django requests aware of the DNT header.
+Home-page: http://github.com/mozilla/django-dnt
+Author: James Socol
+Author-email: james@mozilla.com
+Maintainer: John Whitlock
+Maintainer-email: jwhitlock@mozilla.com
+License: BSD
+Description: ============================================
+        Make Django requests aware of the DNT header
+        ============================================
+        
+        ``django-dnt`` offers an easy way to pay attention to the ``DNT``
+        (`Do Not Track <https://en.wikipedia.org/wiki/Do_Not_Track>`_) HTTP header. If
+        users are sending ``DNT: 1``, ``DoNotTrackMiddleware`` will set ``request.DNT =
+        True``, else it will set ``request.DNT = False``.
+        
+        Just add ``dnt.middleware.DoNotTrackMiddleware`` to your ``MIDDLEWARE_CLASSES``
+        (Django 1.9 and earlier) or ``MIDDLEWARE`` (Django 1.10 and later) and you're
+        good to go.
+        
+        
+        
+        Release History
+        ---------------
+        
+        v1.0 - 2020-08-12
+        ^^^^^^^^^^^^^^^^^
+        * No new features, but marking the project as mature since neither DNT or this
+          implementation is likely to change, except to follow Django releases.
+        * Add support for Django 2.0, 2.1, and 2.2
+        * Add support for Python 3.7
+        
+        v0.2.0 - 2017-02-17
+        ~~~~~~~~~~~~~~~~~~~
+        * Supported Django versions: 1.8, 1.9, 1.10, and 1.11
+        * Supported Python versions: 2.7, 3.3, 3.4. 3.5, 3.6
+        * Add "DNT" to Vary header in response (`eillarra <https://github.com/eillarra>`_)
+        
+        v0.1.0 - 2011-02-16
+        ~~~~~~~~~~~~~~~~~~~
+        * Initial Release
+        
+        
+Keywords: django-dnt dnt do not track
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Web Environment :: Mozilla
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.8
+Classifier: Framework :: Django :: 1.9
+Classifier: Framework :: Django :: 1.10
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
