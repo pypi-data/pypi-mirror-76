@@ -1,0 +1,3 @@
+[console_scripts]
+esgpidcitepub = esgcet.pid_cite_pub:main
+
