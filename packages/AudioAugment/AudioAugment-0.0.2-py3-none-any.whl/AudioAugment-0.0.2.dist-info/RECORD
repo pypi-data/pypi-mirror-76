@@ -1,0 +1,7 @@
+tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tools/audio_augment.py,sha256=FMGshvQtgj8Igqgxfgvl0Jusph_2MgpCkXjcqSA3PC4,17452
+AudioAugment-0.0.2.dist-info/LICENSE.txt,sha256=WtjCEwlcVzkh1ziO35P2qfVEkLjr87Flro7xlHz3CEY,11556
+AudioAugment-0.0.2.dist-info/METADATA,sha256=mcfxw7cvc_EzcRibTLqtDIyvHdBp_yS4rTOAzsZmC0E,1524
+AudioAugment-0.0.2.dist-info/WHEEL,sha256=YUYzQ6UQdoqxXjimOitTqynltBCkwY6qlTfTh2IzqQU,97
+AudioAugment-0.0.2.dist-info/top_level.txt,sha256=Ib4ZA2MPBpiT0tC-0qt5RcP9g42gLddRbx9PiYGa-Fc,6
+AudioAugment-0.0.2.dist-info/RECORD,,
