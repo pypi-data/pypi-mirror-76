@@ -1,0 +1,17 @@
+{
+  "reactor_error": {
+    "properties": {
+      "data": {
+        "type": "object",
+        "enabled": "false"
+      },
+      "rule_uuid": {
+        "type": "keyword"
+      },
+      "@timestamp": {
+        "type": "date",
+        "format": "dateOptionalTime"
+      }
+    }
+  }
+}

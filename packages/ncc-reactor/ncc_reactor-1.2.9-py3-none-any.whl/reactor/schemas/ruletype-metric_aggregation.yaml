@@ -1,0 +1,19 @@
+---
+$schema: http://json-schema.org/draft-07/schema#
+definitions: {}
+
+title: Metric Aggregation
+type: object
+required: [metric_agg_key,metric_agg_type]
+oneOf:
+- required: [max_threshold]
+- required: [min_threshold]
+
+properties:
+  type: {enum: [metric_aggregation, MatchAggregationRule]}
+  metric_agg_type: {enum: ["min", "max", "avg", "sum", "cardinality", "value_count"]}
+  max_cardinality: {type: float}
+  min_cardinality: {type: float}
+  #timeframe: {$ref: "file:common.yaml#/definitions/timeframe"}
+  bucket_interval: {$ref: "file:common.yaml#/definitions/timeframe"}
+...

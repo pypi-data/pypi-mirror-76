@@ -1,0 +1,16 @@
+{
+  "reactor_status": {
+    "properties": {
+      "rule_uuid": {
+        "type": "keyword"
+      },
+      "rule_name": {
+        "type": "keyword"
+      },
+      "@timestamp": {
+        "type": "date",
+        "format": "dateOptionalTime"
+      }
+    }
+  }
+}
