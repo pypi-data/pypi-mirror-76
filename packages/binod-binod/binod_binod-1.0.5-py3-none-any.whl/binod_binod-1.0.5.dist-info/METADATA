@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: binod-binod
+Version: 1.0.5
+Summary: do something
+Home-page: https://github.com/tanmay1217/binod
+Author: Tanmay Parashar
+Author-email: parashart98@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+
+#binod
+do something.
+
+
+
+
+##License
+Â© 2020 Tanmay Parashar
+
+This repository is licensed under the MIT license. See LICENSE for details.
+
+
