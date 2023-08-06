@@ -1,0 +1,11 @@
+from palett.fluo_vector import fluo_vector
+from veho.entries import mutazip, unwind, wind
+
+
+def fluo_entries(entries, presets, effects=None, colorant=False, mutate=False):
+    (keys, items) = unwind(entries)
+    fluo_vector(keys, presets, effects, colorant, mutate=True)
+    fluo_vector(items, presets, effects, colorant, mutate=True)
+    rendered = wind(keys, items)
+    print(rendered)
+    return mutazip(entries, rendered, lambda _, b: b) if mutate else rendered
