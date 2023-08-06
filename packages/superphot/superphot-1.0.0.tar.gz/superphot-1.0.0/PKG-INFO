@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: superphot
+Version: 1.0.0
+Summary: Photometric classification of supernovae
+Home-page: https://griffin-h.github.io/superphot
+Author: Griffin Hosseinzadeh & Frederick Dauphin
+Author-email: griffin.hosseinzadeh@cfa.harvard.edu
+License: GNU General Public License v2 (GPLv2)
+Description: =========
+        Superphot
+        =========
+        Superphot is an open-source Python package for photometric classification of supernovae, based on the method of Villar et al. (`2019 <https://ui.adsabs.harvard.edu/abs/2019ApJ...884...83V/abstract>`_). For more details, see the online documentation at `<https://griffin-h.github.io/superphot/>`_.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
