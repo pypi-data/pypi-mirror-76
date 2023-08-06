@@ -1,0 +1,13 @@
+docopt_sh/__init__.py,sha256=FktwQAnpHyL3YBihPB0P2ypWagyty48rkbQ7soUa2Ms,708
+docopt_sh/__main__.py,sha256=iy9Vbu7DMhmSH7WnWWdG0TYpK5kKtiwzrJzETrgzTZ0,3574
+docopt_sh/bash.py,sha256=wrWqs07M5Ab6J-3QL4_I3Fh6aODwb3q6TYgCbG52uGY,3238
+docopt_sh/doc_ast.py,sha256=O4AackMwHVrwfN3_k9SH_LUR-FDHcvQZqZxkAdq_cNI,11568
+docopt_sh/docopt.sh,sha256=RmmS5VDyJz8Lb-e72JvFYqq5hJBJOxys7NNTJ3pDXZs,9694
+docopt_sh/node.py,sha256=JYXKcMgo17seVnEmWxOdnLHifqrAk4xstsWmth-6Fx4,3009
+docopt_sh/parser.py,sha256=UEyJj8TmOEPtJ66hEMtr-n4wUGgSDDAcN9LcoKj2Nnk,7038
+docopt_sh/script.py,sha256=JfL1EPucixtPBq01_1IWzdrM7-hUK9wDWsYhG1xP-OA,8981
+docopt_sh-0.9.16.dist-info/entry_points.txt,sha256=1QzFUKExhgb8RK_uBF41rihfFeCKfViT1C0yYAA9LPE,53
+docopt_sh-0.9.16.dist-info/LICENSE,sha256=btSG3xSM_dwFMdev7-D0z6a6LI0aTc7a_XN6SjjFY40,1059
+docopt_sh-0.9.16.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+docopt_sh-0.9.16.dist-info/METADATA,sha256=7VjInZuAVLXnREsinKU3Rzbwyg04MlaE2vIq0t53Zxo,15884
+docopt_sh-0.9.16.dist-info/RECORD,,
