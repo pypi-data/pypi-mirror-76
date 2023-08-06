@@ -1,0 +1,9 @@
+README.md
+setup.py
+fireeyepy/__init__.py
+fireeyepy/errors.py
+fireeyepy.egg-info/PKG-INFO
+fireeyepy.egg-info/SOURCES.txt
+fireeyepy.egg-info/dependency_links.txt
+fireeyepy.egg-info/requires.txt
+fireeyepy.egg-info/top_level.txt
