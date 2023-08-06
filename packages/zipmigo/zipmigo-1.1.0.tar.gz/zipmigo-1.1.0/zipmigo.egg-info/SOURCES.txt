@@ -1,0 +1,10 @@
+setup.py
+zipmigo/__init__.py
+zipmigo/download.py
+zipmigo/list_dir.py
+zipmigo/unzip.py
+zipmigo.egg-info/PKG-INFO
+zipmigo.egg-info/SOURCES.txt
+zipmigo.egg-info/dependency_links.txt
+zipmigo.egg-info/requires.txt
+zipmigo.egg-info/top_level.txt
