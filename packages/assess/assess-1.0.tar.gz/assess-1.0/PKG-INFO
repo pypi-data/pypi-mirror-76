@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: assess
+Version: 1.0
+Summary: Assess is a python package that implements a number of analytical solutions to the Stokes equations in cylindrical and spherical shell domains.
+Home-page: https://github.com/stephankramer/assess
+Author: Stephan Kramer
+Author-email: s.kramer@imperial.ac.uk
+License: UNKNOWN
+Description: Assess
+        =================================================================
+        Analytical Solutions for the Stokes Equations in Spherical Shells
+        -----------------------------------------------------------------
+        
+        Assess is a python package that implements a number of analytical solutions to
+        the Stokes equations in cylindrical and spherical shell domains. The eight
+        different cases are described in `link to gmd-paper <https://assess.readthedocs.io>`_.
+        
+        Installation
+        ============
+        
+        Assess is a standard python package that can be installed from pypi:
+        
+            pip install assess
+        
+        Documentation
+        =============
+        
+        For usage instructions and a complete API reference see https://assess.readthedocs.io
+        
+Keywords: Stokes equations,analytical solutions,mantle flow,spherical shell
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
