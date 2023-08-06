@@ -1,0 +1,8 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+tshelve.egg-info/PKG-INFO
+tshelve.egg-info/SOURCES.txt
+tshelve.egg-info/dependency_links.txt
+tshelve.egg-info/top_level.txt
