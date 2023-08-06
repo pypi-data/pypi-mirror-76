@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: binodtharu
+Version: 0.0.1
+Summary: Binod
+Home-page: https://https://github.com/forkbabu/BinodTharu
+Author: Sayantan Das
+Author-email: sayantandas30011998@gmail.com
+License: UNKNOWN
+Description: # BinodTharu
+        Your package of happiness
+        
+        ![](https://alltimetrends.com/wp-content/uploads/2020/08/image-26-e1596777470888-800x277.png)
+        # `pip install binod`
+        
+Keywords: binod
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
