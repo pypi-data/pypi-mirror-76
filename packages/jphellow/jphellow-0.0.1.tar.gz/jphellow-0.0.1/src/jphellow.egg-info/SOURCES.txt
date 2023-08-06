@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/jphelloworld.py
+src/jphellow.egg-info/PKG-INFO
+src/jphellow.egg-info/SOURCES.txt
+src/jphellow.egg-info/dependency_links.txt
+src/jphellow.egg-info/requires.txt
+src/jphellow.egg-info/top_level.txt
