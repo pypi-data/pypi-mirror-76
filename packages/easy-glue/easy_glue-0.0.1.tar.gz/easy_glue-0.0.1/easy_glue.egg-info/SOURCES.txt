@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+easy_glue/__init__.py
+easy_glue.egg-info/PKG-INFO
+easy_glue.egg-info/SOURCES.txt
+easy_glue.egg-info/dependency_links.txt
+easy_glue.egg-info/requires.txt
+easy_glue.egg-info/top_level.txt
