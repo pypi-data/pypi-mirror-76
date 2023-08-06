@@ -1,0 +1,9 @@
+README.md
+config-slurm-jupyter.sh
+setup.py
+slurm-jupyter.py
+slurm_jupyter.egg-info/PKG-INFO
+slurm_jupyter.egg-info/SOURCES.txt
+slurm_jupyter.egg-info/dependency_links.txt
+slurm_jupyter.egg-info/requires.txt
+slurm_jupyter.egg-info/top_level.txt
