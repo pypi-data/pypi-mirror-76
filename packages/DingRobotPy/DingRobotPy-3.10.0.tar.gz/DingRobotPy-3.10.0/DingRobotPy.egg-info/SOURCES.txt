@@ -1,0 +1,7 @@
+README
+dingbot.py
+setup.py
+DingRobotPy.egg-info/PKG-INFO
+DingRobotPy.egg-info/SOURCES.txt
+DingRobotPy.egg-info/dependency_links.txt
+DingRobotPy.egg-info/top_level.txt
