@@ -1,0 +1,11 @@
+mkmr/__init__.py,sha256=SWXjIGZpVkKAGpTXJl1zc-reJ4Ld-TDouZReHNzujZ0,114
+mkmr/edmr.py,sha256=ivD_VR4jikv1FA8OE9kPy9LHHJMzt2Kg4IOzWCjs3KM,11823
+mkmr/instance.py,sha256=TSSq6koMbk6GNbINLo_73JMgfkrUl-eEQg2gjFIRhps,26790
+mkmr/mgmr.py,sha256=OqoFjBtA58VF_HBNMSG4IHJ6PoqXvfbUAOlsPuhHAMk,12368
+mkmr/mkmr.py,sha256=Yuq27Y2JffQIPaa68CGM7ghaLfAQ95aiHKGTSQ8z4Aw,18176
+mkmr/utils.py,sha256=urevIZWVZ8yNQNa4omKnkwkRBlkt3p_-CzaRTQdfipg,1609
+mkmr/vimr.py,sha256=XXb-6YkoqfW61i5WuhwKti3dkz52FnB1u_iQH16-T4s,14598
+mkmr-0.0.30.dist-info/entry_points.txt,sha256=uyV-6heZPjELtiwfGCAG7hM4zzlGN5vR9QRQ9QUPWq0,99
+mkmr-0.0.30.dist-info/WHEEL,sha256=GLESb-AiO9TFjbXrEA7UrNl4dwWlkXoKZg6N6Vg0OJg,81
+mkmr-0.0.30.dist-info/METADATA,sha256=vN94LceFQROycsmfPF0SFAShv9TGfgW8noUBpJ36HrE,5201
+mkmr-0.0.30.dist-info/RECORD,,
