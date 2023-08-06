@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: djangular-cli
+Version: 1.2.0.dev1
+Summary: Django / Angular project management.
+Home-page: https://github.com/forafekt/djangular-cli
+Author: Jonny Doyle
+Author-email: jonathan.d@programmer.net
+License: MIT
+Project-URL: Bug Tracker, https://github.com/forafekt/djangular-cli/issues
+Project-URL: Documentation, https://github.com/forafekt/djangular-cli/tree/master/djangular_cli/docs
+Project-URL: Source Code, https://github.com/forafekt/djangular-cli
+Keywords: django angular client template boilerplate git automate
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: PyInquirer
+Requires-Dist: virtualenv
+Requires-Dist: setuptools
+Requires-Dist: django-environ
+Requires-Dist: pyfiglet
+
+# DJANGULAR-CLI
+##
+## VERSION - 1.2.0.dev1
+## Status - Development
+![PyPI - Status](https://img.shields.io/pypi/status/djangular-cli)  ![PyPI - Format](https://img.shields.io/pypi/format/djangular-cli)
+
+## Description
+Djangular-Cli is a command-line tool to enable you to dive into existing Django / Angular projects or create from scratch.
+
+
+#### This is the begining of the project.  Code is sketchy and lots of things will be added and removed.
+
