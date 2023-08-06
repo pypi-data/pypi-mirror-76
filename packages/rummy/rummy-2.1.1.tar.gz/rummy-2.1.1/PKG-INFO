@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: rummy
+Version: 2.1.1
+Summary: Console Rummy game
+License: MIT
+Author: Sarcoma
+Author-email: sarcoma@live.co.uk
+Requires-Python: >=3.4,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: Pygments (==2.2.0)
+Requires-Dist: ansi-colours (==0.2.6)
+Requires-Dist: atomicwrites (==1.2.1)
+Requires-Dist: attrs (==18.2.0)
+Requires-Dist: bleach (==3.0.2)
+Requires-Dist: certifi (==2018.10.15)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: codecov (==2.0.15)
+Requires-Dist: colorama (==0.4.0)
+Requires-Dist: coverage (==4.5.1)
+Requires-Dist: docutils (==0.14)
+Requires-Dist: idna (==2.7)
+Requires-Dist: more-itertools (==4.3.0)
+Requires-Dist: pathlib2 (==2.3.2)
+Requires-Dist: pkginfo (==1.4.2)
+Requires-Dist: pluggy (==0.8.0)
+Requires-Dist: py (==1.7.0)
+Requires-Dist: pytest (==3.10.0)
+Requires-Dist: pytest-cov (==2.6.0)
+Requires-Dist: pytest-mock (==1.10.0)
+Requires-Dist: readme-renderer (==24.0)
+Requires-Dist: requests (==2.20.1)
+Requires-Dist: requests-toolbelt (==0.8.0)
+Requires-Dist: six (==1.11.0)
+Requires-Dist: text-template (==0.1.4)
+Requires-Dist: tqdm (==4.28.1)
+Requires-Dist: twine (==1.12.1)
+Requires-Dist: urllib3 (==1.24.1)
+Requires-Dist: webencodings (==0.5.1)
