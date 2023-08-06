@@ -1,0 +1,6 @@
+#!python
+# -*- coding: utf-8 -*-
+
+
+import mouselocker.app
+mouselocker.app.run()
