@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "simplechanges"
+version = "0.1.0"
+description = "A simple changelog parser"
+authors = ["Marquis Kurt <software@marquiskurt.net>"]
+license = "MPL-2.0"
+readme = "README.md"
+homepage = "https://github.com/UnscriptedVN/simplechanges"
+repository = "https://github.com/UnscriptedVN/simplechanges"
+classifiers = [
+    "Topic :: Software Development :: Libraries"
+]
+
+[tool.poetry.dependencies]
+python = "^2.7 || >3.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+pylint = [{ version="^2.4.4", python=">=3.7" }]
+autopep8 = "^1.5.4"
+typing = "^3.7.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
