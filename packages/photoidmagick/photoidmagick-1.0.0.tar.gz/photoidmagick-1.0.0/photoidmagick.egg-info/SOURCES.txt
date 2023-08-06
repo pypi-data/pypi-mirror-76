@@ -1,0 +1,10 @@
+README.md
+setup.py
+bin/photoidmagick
+majormode/__init__.py
+majormode/photoidmagick.py
+photoidmagick.egg-info/PKG-INFO
+photoidmagick.egg-info/SOURCES.txt
+photoidmagick.egg-info/dependency_links.txt
+photoidmagick.egg-info/requires.txt
+photoidmagick.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+dlib
+numpy
+face-recognition
+pipfile
+pillow
+exifread
+twine
+setuptools
+wheel
+perseus-core-library
