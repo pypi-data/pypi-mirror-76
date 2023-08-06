@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: j-basic-stock-prediction
+Version: 0.0.12
+Summary: Basic Stock Prediction
+Home-page: UNKNOWN
+Author: dream.attempter
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: tensorflow (>=2.3.0)
+
+# Basic Stock Prediction
+
+This is a package for basic stock prediction.
+
