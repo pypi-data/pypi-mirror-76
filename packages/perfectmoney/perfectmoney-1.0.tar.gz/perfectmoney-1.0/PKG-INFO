@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: perfectmoney
+Version: 1.0
+Summary: API for perfectmoney payments
+Home-page: https://github.com/quitegreensky/perfectmoney
+Author: Sina Namadian
+Author-email: quitegreensky@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown

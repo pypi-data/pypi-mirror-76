@@ -1,0 +1,8 @@
+README.md
+setup.py
+perfectmoney/__init__.py
+perfectmoney/perfectmoney.py
+perfectmoney.egg-info/PKG-INFO
+perfectmoney.egg-info/SOURCES.txt
+perfectmoney.egg-info/dependency_links.txt
+perfectmoney.egg-info/top_level.txt
