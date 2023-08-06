@@ -1,0 +1,10 @@
+README.md
+setup.py
+mit_news_classify.egg-info/PKG-INFO
+mit_news_classify.egg-info/SOURCES.txt
+mit_news_classify.egg-info/dependency_links.txt
+mit_news_classify.egg-info/requires.txt
+mit_news_classify.egg-info/top_level.txt
+mitnewsclassify/__init__.py
+mitnewsclassify/tfidftag/__init__.py
+mitnewsclassify/tfidftag/gettags.py
