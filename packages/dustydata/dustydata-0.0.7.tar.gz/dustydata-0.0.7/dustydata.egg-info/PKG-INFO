@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: dustydata
+Version: 0.0.7
+Summary: Data Science Package
+Home-page: UNKNOWN
+Author: Dustin Stringer
+Author-email: UNKNOWN
+License: MIT
+Description: Package for Data Science to make cleaning data easier.
+        Also, modules to speed up feature engineering and predicive modeling
+        
+Platform: UNKNOWN
