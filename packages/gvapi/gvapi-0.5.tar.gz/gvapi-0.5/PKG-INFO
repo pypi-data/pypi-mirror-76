@@ -1,0 +1,81 @@
+Metadata-Version: 1.2
+Name: gvapi
+Version: 0.5
+Summary: Неофициальная обертка для API godville.net.
+Home-page: https://github.com/TitaniumHocker/gvapi
+Author: TitaniumHocker (Ivan Fedorov)
+Author-email: inbox@titaniumhocker.ru
+License: MIT
+Project-URL: Documentation, https://gvapi.rtfd.io/
+Project-URL: Issue tracker, https://github.com/TitaniumHocker/gvapi/issues
+Description: gvapi
+        =====
+        
+        |python|
+        |coverage|
+        |version|
+        |requirements|
+        |doc|
+        |pypgk|
+        
+        Неофициальная обертка для API игры `Годвилль <https://godville.net>`_, реализованная на Python.
+        `Документация <https://gvapi.readthedocs.io/ru/stable/>`_.
+        
+        Установка
+        ---------
+        
+        Данный пакет доступен для установки из PyPi через ``pip``.
+        
+        .. code-block:: bash
+        
+           python3 -m pip install gvapi
+        
+        
+        Пример использования
+        --------------------
+        
+        Базовый вариант использования будет выглядеть следующим образом.
+        
+        .. code-block:: python3
+        
+           from gvapi import Hero
+        
+           hero = Hero('God Name')
+           hero_with_token = Hero('God Name', token='aiowdjwaoijd')
+        
+        Описание атрибутов героя можно найти в документации.
+        
+        
+        .. |pypgk| image:: https://github.com/TitaniumHocker/gvapi/workflows/Python%20package/badge.svg?branch=master
+        
+        .. |coverage| image:: https://raw.githubusercontent.com/TitaniumHocker/gvapi/master/media/coverage.svg
+        
+        .. |python| image:: https://img.shields.io/badge/python-3.5%20|%203.6%20|%203.7%20|%203.8-blue?style=flat
+        
+        .. |requirements| image:: https://img.shields.io/badge/requirements-requests%20%26%20click-blue?style=flat
+        
+        .. |doc| image:: https://readthedocs.org/projects/gvapi/badge/?version=stable
+           :target: https://gvapi.readthedocs.io/ru/latest/?badge=stable
+           :alt: Documentation Status
+        
+        .. |version| image:: https://badge.fury.io/py/gvapi.svg
+           :target: https://badge.fury.io/py/gvapi
+           :alt: Latest Version
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities 
