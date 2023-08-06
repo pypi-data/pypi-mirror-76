@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: insta_graphql_scraper
+Version: 0.2
+Summary: Scrapes instagram's explore location page within a provided time range, using fast graphql get requests.
+Home-page: https://github.com/asmitks/insta-graphql-scraper
+Author: Asmit Singh, Divyanshu Sharma
+Author-email: asmit18025@iiitd.ac.in
+License: MIT
+Download-URL: https://github.com/asmitks/insta-graphql-scraper/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Instagram Scraper,graphql,Scrape using location,Scrape using time,Scrape Insta
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
