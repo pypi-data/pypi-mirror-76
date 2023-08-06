@@ -1,0 +1,3 @@
+[console_scripts]
+play_checkers=play_checkers.__main__:main
+
